@@ -2,6 +2,12 @@
 
 This is an example.
 
+## Concepts
+
+- [Oracles (glossary example)](concepts/oracles-glossary.md)
+- [Oracles (wiki example)](concepts/oracles-wiki.md)
+- ...
+
 ## Roles
 
 - [Manual tester](roles/manual.md)
