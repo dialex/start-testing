@@ -5,6 +5,7 @@ This is an example.
 ## Concepts
 
 - [Oracles (glossary example)](concepts/oracles-glossary.md)
+- [Oracles (abridged example)](concepts/oracles-abridged.md)
 - [Oracles (wiki example)](concepts/oracles-wiki.md)
 - ...
 
