@@ -1,11 +1,16 @@
 # Oracles
 
-## TODO: add snippets/quotes from the references
+## References
 
-- What they are, examples, their added value, and common pitfalls.
-  [Software Testing Clinic's 99 seconds intro](https://dojo.ministryoftesting.com/lessons/99-second-introduction-to-oracles)
-- Definition and examples.
-  [A Course in Black Box Software Testing](http://www.testingeducation.org/k04/OracleExamples.htm)
+> An oracle is a source of knowledge that informs your testing. That information helps you determine if something is a defect or not. Oracles can be used to justify your bugs reports and inform your test strategy and prioritisation.
+>
+> Source: [Software Testing Clinic's 99 seconds intro](https://dojo.ministryoftesting.com/lessons/99-second-introduction-to-oracles)
+
+
+
+
+
+- [A Course in Black Box Software Testing](http://www.testingeducation.org/k04/OracleExamples.htm)
 - Using oracles to objectively report a bug. Also how they relate to Heuristics.
   [Heuristics and Oracles](https://katrinatester.blogspot.pt/2014/09/heuristics-and-oracles.html)
 - Origin of the term. Oracle's limitations.
