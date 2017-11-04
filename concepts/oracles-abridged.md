@@ -24,12 +24,26 @@ Source: [Heuristics and Oracles](https://katrinatester.blogspot.pt/2014/09/heuri
 
 
 
-- Origin of the term. Oracle's limitations.
-  [The Oracle Problem and the Teaching of Software Testing](http://kaner.com/?p=190)
-- Oracles as a tool for testers to find more than bugs.
-  [What Testers Find](http://www.satisfice.com/blog/archives/572)
-- Definition and how to use them when testing code.
-  [What is a test oracle, and what is it used for?](https://stackoverflow.com/a/23971174/675577)
+> A test involved comparison of the test result to an expected result. The expected result was the oracle: the thing that would tell you whether the program passed or failed the test. Oracles are heuristics — they are useful tools that help us make decisions, but sometimes they point us to the wrong decision.
+>
+> Given that an oracle is incomplete, you might use the oracle and incorrectly conclude that the program failed the test when it didn’t or vice-versa. Either way, reliance on an oracle can lead you to the wrong conclusion. A decision rule that is useful but not always correct is called a heuristic.
+
+Source: [The Oracle Problem and the Teaching of Software Testing](http://kaner.com/?p=190)
+
+
+
+> An oracle might be:
+>
+> - a document, that gives specific correct outputs for specific given inputs;
+> - an algorithm, that a human could manually use to calculate correct outputs for given inputs;
+> - another program, which takes the same input and produces the same output (for comparison);
+> - a human domain expert, who can look at the output and tell whether it is correct;
+> - or any other way of telling that a given output is correct.
+>
+> Some oracles do not specify concrete output values, only constraints or rules.
+
+Source: [What is a test oracle, and what is it used for?](https://stackoverflow.com/a/23971174/675577)
+
 
 
 ## Personalities
