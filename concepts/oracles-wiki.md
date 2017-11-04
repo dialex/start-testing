@@ -2,9 +2,13 @@
 
 ## Theory
 
-**An oracle is a source of knowledge** that improves your testing. With the information it provides you can better decide and justify if something is a defect or not.
+**An oracle is a source of knowledge** that improves your testing.
 
-Some oracles lead you to other oracles, which allows you to extend your initial test strategy into areas you haven't thought about before. Keep in mind that **each oracle focus on a specific perspective**. If you limit yourself to a single oracle, it might bias your testing by giving you a narrow view of your context.
+There are a number of ways in which you can determine that you have discovered a defect in a software application. Those are your test oracles. Oracles are the mechanism by which you **recognise a problem**. They help you discover the real reason why you think there is a problem.
+
+Knowing your oracles means that you can **objectively explain** to developers and business stakeholders why the users of the software may agree that you have found a bug. This makes your [bug advocation](#) much more effective.
+
+Some oracles lead you to other oracles, which allow you to extend your initial test strategy into areas you haven't thought about before. Keep in mind that each oracle **focus on a specific perspective**. If you limit yourself to a single oracle, it might bias your testing by giving you a narrow view of your context.
 
 In **oracle-based testing**, you compare the behavior of the program under test to the behavior of a source you consider accurate (an oracle). You constantly look for answers to: Is this behavior correct? In the user expecting this? A tester who is familiar with the type of product under test will have no problem making these evaluations. However, a newcomer needs a reference for guidance — an oracle.
 
@@ -27,7 +31,6 @@ This [link](http://www.testingeducation.org/k04/examples/obas05s.html) shows how
 
 ## Teachers
 
-- [Mark Winteringham](http://www.mwtestconsultancy.co.uk/)
 - [Michael Bolton](http://www.developsense.com/blog/)
 
 ## Sources

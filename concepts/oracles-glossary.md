@@ -17,7 +17,6 @@
 
 ## Personalities
 
-- [Mark Winteringham](http://www.mwtestconsultancy.co.uk/)
 - [Michael Bolton](http://www.developsense.com/blog/)
 
 -----
