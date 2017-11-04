@@ -1,5 +1,7 @@
 # Oracles
 
+## References
+
 - What they are, examples, their added value, and common pitfalls.
   [Software Testing Clinic's 99 seconds intro](https://dojo.ministryoftesting.com/lessons/99-second-introduction-to-oracles)
 - Definition and examples.
@@ -13,8 +15,10 @@
 - Definition and how to use them when testing code.
   [What is a test oracle, and what is it used for?](https://stackoverflow.com/a/23971174/675577)
 
+## Personalities
 
-
+- [Dan Ashby](https://danashby.co.uk/)
+- [Mark Winteringham](http://www.mwtestconsultancy.co.uk/)
 
 -----
 
