@@ -1,12 +1,12 @@
 # Oracles
 
-## References
+## Articles
 
 - What they are, examples, their added value, and common pitfalls.
   [Software Testing Clinic's 99 seconds intro](https://dojo.ministryoftesting.com/lessons/99-second-introduction-to-oracles)
 - Definition and examples.
   [A Course in Black Box Software Testing](http://www.testingeducation.org/k04/OracleExamples.htm)
-- Using oracles to objectively report a bug. Also how they relate to Heuristics.
+- Using oracles to objectively report a bug. How they relate to Heuristics.
   [Heuristics and Oracles](https://katrinatester.blogspot.pt/2014/09/heuristics-and-oracles.html)
 - Origin of the term. Oracle's limitations.
   [The Oracle Problem and the Teaching of Software Testing](http://kaner.com/?p=190)
@@ -17,8 +17,8 @@
 
 ## Personalities
 
-- [Dan Ashby](https://danashby.co.uk/)
 - [Mark Winteringham](http://www.mwtestconsultancy.co.uk/)
+- [Michael Bolton](http://www.developsense.com/blog/)
 
 -----
 
