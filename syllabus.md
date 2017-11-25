@@ -1,14 +1,14 @@
 # Syllabus
 
-This is an example.
+This index is just a proof of concept.
 
 ## Concepts
 
-- 👇 👇 👇 👇 👇 👇 👇 👇
+- 👇 GIVE THESE EXAMPLES A LOOK 👇
 - [Oracles (glossary example)](concepts/oracles-glossary.md)
 - [Oracles (abridged example)](concepts/oracles-abridged.md)
 - [Oracles (wiki example)](concepts/oracles-wiki.md)
-- ☝️ GIVE THESE EXAMPLES A LOOK ☝️
+- ☝️☝️☝️☝️☝️☝️☝️☝️☝️
 
 ## Roles
 
