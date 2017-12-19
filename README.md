@@ -9,19 +9,26 @@
 
 
 
-## Docsify
+## How to use [Docsify](https://github.com/QingWei-Li/docsify/)
 
+### Install
 
-
-### Initial setup
-
-```bash
+```shell
 npm i docsify-cli -g
-cd to-folder/containing/the-repo
-docsify init .
 ```
 
-### Working locally
+### Setup
 
-`docsify serve .`
+Setup a boilerplate folder
 
+```shell
+docsify init docs
+```
+
+### Preview
+
+Preview your docs locally
+
+```shell
+docsify serve docs
+```
