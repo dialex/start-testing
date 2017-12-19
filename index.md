@@ -22,14 +22,14 @@
 
 --------------
 
-##  🤔 TODO (trello syllabus) 
+## 🤔 TODO (trello syllabus)
 
 ### Concepts
 
 - [30 must knows](https://dojo.ministryoftesting.com/lessons/30-things-every-new-software-tester-should-learn)
 - https://trello.com/c/HV6ZOpus/247-concepts
 - https://trello.com/c/upYYZCF6/229-requirements
-- https://trello.com/c/ORSrD7o5/224-charters 
+- https://trello.com/c/ORSrD7o5/224-charters
 - https://trello.com/c/Q9RJZyrM/250-coverage-metrics
 - https://trello.com/c/gQ5W3qJH/241-test-types
 - https://trello.com/c/KXfdYMMf/
