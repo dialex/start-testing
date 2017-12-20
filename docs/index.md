@@ -1,6 +1,6 @@
 # Syllabus
 
-"A tester in development" is still… in development! 😁
+> *Your attitude, not your aptitude, will determine your altitude.* — Zig Ziglar
 
 ## 🚧 Concepts
 

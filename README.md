@@ -1,31 +1,28 @@
 🚧 *early access* 🚧
 
-**This repo contains the source of our testing course.**
+## About the project
 
-- For a better viewing experience, check our [**readthedocs**](https://start-testing.readthedocs.io/en/master/).
-- For the best viewing experience, check our [**docsify**](https://docsify.js.org/#/).
+This repo contains the source of our testing course.
 
+- Written in Markdown, so that it's **cross-platform** 🌍
+- Hosted in GitHub, so that **anyone can contribute** 🤝
+- Rendered with Docsify, so that it **looks awesome** 😎
 
+## Contributing
 
+#### How to use [Docsify](https://github.com/QingWei-Li/docsify/)
 
-
-## How to use [Docsify](https://github.com/QingWei-Li/docsify/)
-
-### Install
+Install
 
 ```shell
 npm i docsify-cli -g
 ```
-
-### Setup
 
 Setup a boilerplate folder
 
 ```shell
 docsify init docs
 ```
-
-### Preview
 
 Preview your docs locally
 
