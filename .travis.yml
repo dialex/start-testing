@@ -6,4 +6,4 @@ install:
   - npm i -g markdownlint-cli
 
 script:
-  - markdownlint-cli docs --config docs/.mkdownlinter.json
+  - markdownlint docs --config docs/.mkdownlinter.json

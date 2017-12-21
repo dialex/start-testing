@@ -41,8 +41,7 @@ npm i -g markdownlint-cli
 Execute validation
 
 ```
-markdownlint-cli docs --config .mkdownlinter.json
+markdownlint docs --config .mkdownlinter.json
 ```
 
 Configure which [rules](https://github.com/DavidAnson/markdownlint#rules--aliases) or [groups of rules](https://github.com/DavidAnson/markdownlint#tags) should be globally [used](https://github.com/DavidAnson/markdownlint#optionsconfig) with a `.mkdownlinter.json` file
-
