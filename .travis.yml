@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "node"
+
+install:
+  - npm i -g markdownlint-cli
+
+script:
+  - markdownlint docs --config docs/.markdownlint.json

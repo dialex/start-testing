@@ -1,4 +1,4 @@
-🚧 *early access* 🚧
+[![Progress](https://img.shields.io/badge/progress-1%2F44-blue.svg ) [![Version](https://img.shields.io/badge/version-early--access-orange.svg) [![Linting Validation](https://travis-ci.org/dialex/start-testing.svg?branch=travis)](https://travis-ci.org/dialex/start-testing)
 
 ## About the project
 
@@ -15,7 +15,7 @@ This repo contains the source of our testing course.
 Install
 
 ```shell
-npm i docsify-cli -g
+npm i -g docsify-cli
 ```
 
 Setup a boilerplate folder
@@ -34,15 +34,14 @@ docsify serve docs
 
 Install
 
-```
-npm install -g markdownlint-cli
+```shell
+npm i -g markdownlint-cli
 ```
 
 Execute validation
 
-```
-markdownlint-cli docs --config .mkdownlinter.json
+```shell
+markdownlint docs --config .markdownlint.json
 ```
 
-Configure which [rules](https://github.com/DavidAnson/markdownlint#rules--aliases) or [groups of rules](https://github.com/DavidAnson/markdownlint#tags) should be globally [used](https://github.com/DavidAnson/markdownlint#optionsconfig) with a `.mkdownlinter.json` file
-
+Configure which [rules](https://github.com/DavidAnson/markdownlint#rules--aliases) or [groups of rules](https://github.com/DavidAnson/markdownlint#tags) should be globally [used](https://github.com/DavidAnson/markdownlint#optionsconfig) with a `.markdownlint.json` file
