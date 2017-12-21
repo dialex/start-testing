@@ -2,66 +2,34 @@
 
 > *Your attitude, not your aptitude, will determine your altitude.* — Zig Ziglar
 
-## 🚧 Concepts
+## Concepts
 
-- [Oracles](concepts/oracles.md)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mattis lorem. Praesent pulvinar ultrices vestibulum. Nunc porta leo ut ipsum blandit, sed laoreet libero aliquam. Sed vitae purus pretium nisi posuere auctor viverra ac tellus. Curabitur non dapibus leo. Vivamus metus lectus, cursus ut condimentum at, facilisis eget nulla. Nam mauris ex, hendrerit vel lorem a, cursus aliquet ex. Vestibulum a nisi leo.
 
-## 🚧 Roles
+## Tools
 
-- Manual tester
-- Exploration tester
-- Automation tester
-- Technical tester
-- Bug hunter
-- Agile team member
-- Mentor
-- Coach
-- Lead tester
-- Recruiter
-- Certifications
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mattis lorem. Praesent pulvinar ultrices vestibulum. Nunc porta leo ut ipsum blandit, sed laoreet libero aliquam. Sed vitae purus pretium nisi posuere auctor viverra ac tellus. Curabitur non dapibus leo. Vivamus metus lectus, cursus ut condimentum at, facilisis eget nulla. Nam mauris ex, hendrerit vel lorem a, cursus aliquet ex. Vestibulum a nisi leo.
 
---------------
+## Types
 
-## 🤔 TODO (trello syllabus)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mattis lorem. Praesent pulvinar ultrices vestibulum. Nunc porta leo ut ipsum blandit, sed laoreet libero aliquam. Sed vitae purus pretium nisi posuere auctor viverra ac tellus. Curabitur non dapibus leo. Vivamus metus lectus, cursus ut condimentum at, facilisis eget nulla. Nam mauris ex, hendrerit vel lorem a, cursus aliquet ex. Vestibulum a nisi leo.
 
-### Concepts
+## Roles
 
-- [30 must knows](https://dojo.ministryoftesting.com/lessons/30-things-every-new-software-tester-should-learn)
-- https://trello.com/c/HV6ZOpus/247-concepts
-- https://trello.com/c/upYYZCF6/229-requirements
-- https://trello.com/c/ORSrD7o5/224-charters
-- https://trello.com/c/Q9RJZyrM/250-coverage-metrics
-- https://trello.com/c/gQ5W3qJH/241-test-types
-- https://trello.com/c/KXfdYMMf/
-- https://trello.com/c/NDBFRBwc/233-test-pyramid
-- https://trello.com/c/PJAbZRFC/223-heuristics
-- https://trello.com/c/O59esLjI/202-toolbox
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mattis lorem. Praesent pulvinar ultrices vestibulum. Nunc porta leo ut ipsum blandit, sed laoreet libero aliquam. Sed vitae purus pretium nisi posuere auctor viverra ac tellus. Curabitur non dapibus leo. Vivamus metus lectus, cursus ut condimentum at, facilisis eget nulla. Nam mauris ex, hendrerit vel lorem a, cursus aliquet ex. Vestibulum a nisi leo.
 
-### Roles
+## Metrics
 
-- [Intro](http://katrinatester.blogspot.pt/2017/04/introducing-testers-to-developers.html)
-- https://trello.com/c/7QUvhkbo/227-agile-team-member
-- https://trello.com/c/OHOcDW50/238-technical-tester
-- https://trello.com/c/m3O7TZiF/204-exploratory-testing
-- https://trello.com/c/cb96u4Xm/232-automation-tester
-- https://trello.com/c/BqBSFFED/221-mentoring
-- https://trello.com/c/2MPeScJn/261-coach
-- https://trello.com/c/v47jl7Nl/230-recruiter
-- https://trello.com/c/rCwVchLk/222-certifications
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mattis lorem. Praesent pulvinar ultrices vestibulum. Nunc porta leo ut ipsum blandit, sed laoreet libero aliquam. Sed vitae purus pretium nisi posuere auctor viverra ac tellus. Curabitur non dapibus leo. Vivamus metus lectus, cursus ut condimentum at, facilisis eget nulla. Nam mauris ex, hendrerit vel lorem a, cursus aliquet ex. Vestibulum a nisi leo.
 
-### Fields
+## Fields
 
-- https://trello.com/c/VMyKHiXn/225-planning-strategy
-- https://trello.com/c/bXgxVIuW/219-testability
-- https://trello.com/c/tPKKR8MY/220-reporting-knowledge-transfer
-- https://trello.com/c/l3pm1Jw3/228-operations-personas
-- Data (Dummy vs Real)
-- Platform (Docker)
-- UI/UX
-- https://trello.com/c/CzBeinmC/264-performance
-- https://trello.com/c/LHzvrS81/262-documentation
-- https://trello.com/c/UyxjIass/231-security
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mattis lorem. Praesent pulvinar ultrices vestibulum. Nunc porta leo ut ipsum blandit, sed laoreet libero aliquam. Sed vitae purus pretium nisi posuere auctor viverra ac tellus. Curabitur non dapibus leo. Vivamus metus lectus, cursus ut condimentum at, facilisis eget nulla. Nam mauris ex, hendrerit vel lorem a, cursus aliquet ex. Vestibulum a nisi leo.
 
-### Future
+## Future
 
-- https://trello.com/c/KzIGLbxt/234-keep-up-to-date
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mattis lorem. Praesent pulvinar ultrices vestibulum. Nunc porta leo ut ipsum blandit, sed laoreet libero aliquam. Sed vitae purus pretium nisi posuere auctor viverra ac tellus. Curabitur non dapibus leo. Vivamus metus lectus, cursus ut condimentum at, facilisis eget nulla. Nam mauris ex, hendrerit vel lorem a, cursus aliquet ex. Vestibulum a nisi leo.
+
+--------
+
+[TODO (trello resources)](https://trello.com/c/IKgim0gn/217-%F0%9F%93%9A-study-plan)
