@@ -15,7 +15,7 @@ This repo contains the source of our testing course.
 Install
 
 ```shell
-npm i docsify-cli -g
+npm i -g docsify-cli
 ```
 
 Setup a boilerplate folder
@@ -35,7 +35,7 @@ docsify serve docs
 Install
 
 ```
-npm install -g markdownlint-cli
+npm i -g markdownlint-cli
 ```
 
 Execute validation
