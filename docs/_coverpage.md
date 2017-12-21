@@ -1,5 +1,5 @@
 <!-- ![logo](_media/logo.png) -->
-<!-- <img src="_media/logo.png" alt="logo" style="width: 200px;"/> -->
+<img src="_media/logo.png" alt="logo" style="width: 200px;"/>
 
 # Start Testing
 
@@ -9,6 +9,8 @@
 - Fact 1
 - Claim 2
 - Feature 3
-
-[Get Started](#syllabus)
 -->
+
+[Start](#syllabus)
+
+![color](linear-gradient(to left bottom, #078aef 0%, #44ffaa 100%))
