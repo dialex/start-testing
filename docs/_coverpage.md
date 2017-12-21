@@ -1,16 +1,14 @@
 <!-- ![logo](_media/logo.png) -->
-<img src="_media/logo.png" alt="logo" style="width: 200px;"/>
+<!-- <img src="_media/logo.png" alt="logo" style="width: 200px;"/> -->
 
 # Start Testing
 
 > A community-driven testing course.
 
-<!--
-- Fact 1
-- Claim 2
-- Feature 3
--->
+- ​
+- ​
+- ​
 
-[Start](#syllabus)
+[Let's Start](#syllabus)
 
-![color](linear-gradient(to left bottom, #078aef 0%, #44ffaa 100%))
+![color](linear-gradient(to left bottom, #F0FD37 0%, #ACF260 100%))
