@@ -29,3 +29,7 @@ Preview your docs locally
 ```shell
 docsify serve docs
 ```
+
+#### How to use [Markdown linting](https://github.com/DavidAnson/markdownlint)
+
+TODO
