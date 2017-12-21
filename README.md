@@ -34,14 +34,14 @@ docsify serve docs
 
 Install
 
-```
+```shell
 npm i -g markdownlint-cli
 ```
 
 Execute validation
 
-```
-markdownlint docs --config .mkdownlinter.json
+```shell
+markdownlint docs --config .markdownlint.json
 ```
 
-Configure which [rules](https://github.com/DavidAnson/markdownlint#rules--aliases) or [groups of rules](https://github.com/DavidAnson/markdownlint#tags) should be globally [used](https://github.com/DavidAnson/markdownlint#optionsconfig) with a `.mkdownlinter.json` file
+Configure which [rules](https://github.com/DavidAnson/markdownlint#rules--aliases) or [groups of rules](https://github.com/DavidAnson/markdownlint#tags) should be globally [used](https://github.com/DavidAnson/markdownlint#optionsconfig) with a `.markdownlint.json` file
