@@ -1,4 +1,4 @@
-![Progress](https://img.shields.io/badge/progress-1%2F44-blue.svg ) ![Version](https://img.shields.io/badge/version-early--access-orange.svg) [![Linting Validation](https://travis-ci.org/dialex/start-testing.svg?branch=travis)](https://travis-ci.org/dialex/start-testing)
+[![Progress](https://img.shields.io/badge/progress-1%2F44-blue.svg )](https://dialex.github.io/start-testing/) [![Version](https://img.shields.io/badge/status-live-brightgreen.svg)](https://dialex.github.io/start-testing/) [![Linting Validation](https://travis-ci.org/dialex/start-testing.svg?branch=travis)](https://travis-ci.org/dialex/start-testing)
 
 ## About the project
 
