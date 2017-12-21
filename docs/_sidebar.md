@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD041 -->
+
 - [**Home**](/)
 - **Concepts**
   - Testing's purpose
