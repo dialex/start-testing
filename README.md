@@ -1,4 +1,4 @@
-🚧 *early access* 🚧 [![Linting Validation](https://travis-ci.org/dialex/start-testing.svg?branch=travis)](https://travis-ci.org/dialex/start-testing)
+[![Version](https://img.shields.io/badge/version-early--access-orange.svg) [![Linting Validation](https://travis-ci.org/dialex/start-testing.svg?branch=travis)](https://travis-ci.org/dialex/start-testing)
 
 ## About the project
 
