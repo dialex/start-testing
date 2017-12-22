@@ -2,7 +2,7 @@
 
 ## About the project
 
-This repo contains the source of our testing course.
+This repo contains the source of a testing course.
 
 - Written in Markdown, so that it's **cross-platform** 🌍
 - Hosted in GitHub, so that **anyone can contribute** 🤝
