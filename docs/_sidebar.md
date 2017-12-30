@@ -4,12 +4,12 @@
 - **Concepts**
   - Testing's purpose
   - Tester's resposability
-  - Software Testing Life Cycle
+  - Software Testing Life Cycle (STLC)
   - Continuous integration
   - Dealing with bugs
 - **Tools**
   - Test strategy
-  - Test methods
+  - Test methodologies
   - Test pyramid
   - [Charters](/tools/charters.md)
   - [Oracles](/tools/oracles.md)
