@@ -22,7 +22,7 @@ Oracles come in many shapes, here are a few examples:
 - a human domain expert, who can look at the output and tell whether it is correct;
 - or any other way of telling that a given output is correct.
 
-Use the [mnemonic](tools/mnemonics.md) `FEW HICCUPS` to remember these oracles:
+Use the [mnemonic](/tools/mnemonics.md) `FEW HICCUPS` to remember these oracles:
 
 - **Familiarity**: Is it free of common/past bugs?
   - _e.g. the product exhibits behaviour X which was marked as a bug on previous releases_
