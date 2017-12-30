@@ -11,7 +11,7 @@
   - Test strategy
   - Test methods
   - Test pyramid
-  - Charters
+  - [Charters](/tools/charters.md)
   - [Oracles](/tools/oracles.md)
   - Heuristics
   - Mnemonics
