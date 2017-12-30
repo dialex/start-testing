@@ -4,6 +4,6 @@
 
 This repo contains the source of a testing course.
 
-- Written in Markdown, so that it's **cross-platform** 🌍
+- Written in [Markdown](http://commonmark.org/), so that it's **cross-platform** 🌍
 - Hosted in GitHub, so that **anyone can contribute** 🤝
-- Rendered with Docsify, so that it **looks awesome** 😎
+- Rendered with [Docsify](https://github.com/QingWei-Li/docsify/), so that it **looks awesome** 😎
