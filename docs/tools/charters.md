@@ -31,10 +31,9 @@ Here are a few exampes of...
 - Resources: a tool, a data set, a technique, a configuration, another feature… anything you can use.
 - Information: bugs, (unexpected) behaviours, dependencies, usability, compliance.
 
-
 As mentioned, charters can be precise or broad. If you are testing a specific area of your product for the first time, maybe you don't have enough knowledge to write a detailed charter. In that case your testing charter might look like this:
 
->  My mission is to test **the user interface** to discover **accessibility issues**.
+> My mission is to test **the user interface** to discover **accessibility issues**.
 
 As you continue to test other parts of your product, you start to narrow down what still needs further testing. This time the charter for your next test session can be more focused and detailed:
 
