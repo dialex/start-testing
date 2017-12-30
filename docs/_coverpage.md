@@ -3,11 +3,12 @@
 
 # Start Testing
 
-> A community-driven testing course.
+> A community-driven testing course
 
-- ​
-- ​
-- ​
+- [Markdown](http://commonmark.org/) 🌍 **cross-platform**
+- [GitHub](https://github.com/dialex/start-testing) 🤝 **anyone can contribute**
+- [Docsify](https://github.com/QingWei-Li/docsify/) 😎 **looks awesome**
+
 
 [Let's Start](#syllabus)
 
