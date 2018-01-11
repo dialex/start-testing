@@ -5,9 +5,9 @@
 
 > A community-driven testing course
 
-- [Markdown](http://commonmark.org/) 🌍 **cross-platform**
-- [GitHub](https://github.com/dialex/start-testing) 🤝 **anyone can contribute**
-- [Docsify](https://github.com/QingWei-Li/docsify/) 😎 **looks awesome**
+- [Markdown](http://commonmark.org/) 🌍 &nbsp;**cross-platform**
+- [GitHub](https://github.com/dialex/start-testing) 🤝 &nbsp;**anyone can contribute**
+- [Docsify](https://github.com/QingWei-Li/docsify/) 😎 &nbsp;**looks awesome**
 
 [Let's Start](#syllabus)
 
