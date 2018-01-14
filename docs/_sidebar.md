@@ -5,6 +5,7 @@
   - Testing's purpose
   - Tester's resposability
   - Software Testing Life Cycle (STLC)
+  - [Requirements](/concepts/requirements.md)
   - Continuous integration
   - Dealing with bugs
 - **Tools**
