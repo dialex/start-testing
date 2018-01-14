@@ -6,7 +6,6 @@
   - ~~Tester's resposability~~
   - ~~Software Testing Life Cycle (STLC)~~
   - ~~Continuous integration~~
-  - ~~Dealing with bugs~~
 - **Tools**
   - ~~Test strategy~~
   - ~~Test methodologies~~
