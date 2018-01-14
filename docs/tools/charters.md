@@ -1,6 +1,6 @@
 # Charters
 
->  **tl;dr** A charter summarises your testing goal and guides your exploration.
+> **tl;dr** A charter summarises your testing goal and guides your exploration.
 
 ## Theory
 
