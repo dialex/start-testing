@@ -1,8 +1,8 @@
 # Charters
 
-## Theory
+>  **tl;dr** A charter summarises your testing goal and guides your exploration.
 
-**A charter summarises your testing goal and guides your exploration.**
+## Theory
 
 It works like a map:
 

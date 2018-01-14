@@ -1,8 +1,8 @@
 # Oracles
 
-## Theory
+> **tl;dr** An oracle is a source of knowledge that improves your testing.
 
-**An oracle is a source of knowledge** that improves your testing.
+## Theory
 
 There are a number of ways in which you can determine that you have discovered a defect in a software application. Those are your test oracles. Oracles are the mechanism by which you **recognise a problem**. They help you discover the real reason why you think there is a problem.
 
