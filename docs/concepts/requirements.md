@@ -29,22 +29,20 @@ There are several **ways to write the specification** of a product, however ther
 Nowadays there are several Agile techniques to write requirements effectively:
 
 - [User story mapping](http://amzn.to/2mW1rkx). Starts with stakeholders and breaks down into Goals > Activities > Tasks > Stories.
-
 - [User journey](http://amzn.to/2mWyt4d) Starts with users and breaks down into Goals > User Journeys > Actions > Stories.
-
 - [Specification by example](http://amzn.to/2FZy1ux). Details your stories using conversations to extract rules and examples.
 
 Since POs/BAs are usually the drivers of requirement analysis we won't go into details (recommended reading in the [section](#sources) below). Nevertheless, attend the workshops if you can — the closer you are to the [source of truth](https://en.wikipedia.org/wiki/Chinese_whispers) the better.
 
 So you might be asking **how can testers add value to this process?**
 
-> Business perspective: Build *the right thing* meeting the client's expectations and requirements.
-> <br>
-> Concern: Will it be useful?
+> Business perspective: Build the right thing meeting the client's expectations and requirements.
 >
-> Technical perspective: Build *it right* using the correct technology, architecture, tools and practices.
-> <br>
-> Concern: Will it work?
+> *Concern: Will it be useful?*
+>
+> Technical perspective: Build it right using the correct technology, architecture, tools and practices.
+>
+> *Concern: Will it work?*
 
 - **Align perspectives**. Each side has its own concerns, assumptions and biases. Chat with stakeholders (askers) and developers (givers) to check if they have a common understanding of what needs to be done.
 - **Raise risks**. That's why you are one of the three amigos. Usually the POs are focused on functionality and your developers on implementation details. You can remind them of risks such as non-functional requirements, impacts with previous stories or the cost of automating a specific tests.
@@ -57,23 +55,15 @@ So you might be asking **how can testers add value to this process?**
 ## Teachers
 
 - [Donna Lichaw](https://www.donnalichaw.com/)
-
 - [Jeff Patton](https://jpattonassociates.com/blog/)
-
 - [Gojko Adzic](https://gojko.net/books/)
 
 ## Sources
 
 - [Definition of requirement](http://www.iiba.org/babok-guide/babok-guide-v2/babok-guide-online/chapter-one-introduction/1-3-key-concepts.aspx)
-
 - [Definition of user story](https://www.mountaingoatsoftware.com/agile/user-stories)
-
 - [Story Mapping, Visual Way of Building Product Backlog](https://www.thoughtworks.com/insights/blog/story-mapping-visual-way-building-product-backlog)
-
 - [The New User Story Backlog is a Map](https://jpattonassociates.com/the-new-backlog/)
-
 - [User Journeys – The Beginner’s Guide](https://theuxreview.co.uk/user-journeys-beginners-guide/)
-
 - [Introducing Example Mapping](https://medium.com/@mattwynne/introducing-example-mapping-42ccd15f8adf)
-
 - [What is Specification by Example?](https://blog.red-badger.com/blog/2012/07/31/what-is-specification-by-example)
