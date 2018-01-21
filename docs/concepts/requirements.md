@@ -1,10 +1,10 @@
 # Requirements
 
-> **td;dr** WHAT_ARE_THEY. HOW_WE_HELP.
+> **td;dr** What your stakeholders need to achieve their desires/goals. HOW_WE_HELP.
 
 ## Theory
 
-Scope is XXX. Here are other **concepts** you should keep in mind:
+Here are some **concepts** you should keep in mind:
 
 - *Requirement:* Some behaviour or property required by a stakeholder to achieve a goal.
 - *Specification:* The list containing all requirements for a given project/product.
