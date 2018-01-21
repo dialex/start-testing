@@ -34,22 +34,24 @@ Nowadays there are several Agile techniques to write requirements effectively:
 
 - [Specification by example](http://amzn.to/2FZy1ux). Details your stories using conversations to extract rules and examples.
 
-Since POs/BAs are usually the drivers of requirement analysis we won't go into details (recommended reading in the [section]() below). Nevertheless, attend the workshops if you can. The closer you are to the [source of truth](https://en.wikipedia.org/wiki/Chinese_whispers) the better.
+Since POs/BAs are usually the drivers of requirement analysis we won't go into details (recommended reading in the [section](#sources) below). Nevertheless, attend the workshops if you can — the closer you are to the [source of truth](https://en.wikipedia.org/wiki/Chinese_whispers) the better.
 
 So you might be asking **how can testers add value to this process?**
 
 > Business perspective: Build *the right thing* meeting the client's expectations and requirements.
+> <br>
 > Concern: Will it be useful?
 >
-> Technical perspective: Build *it right* using the correct technology, architecture, tools and practices
+> Technical perspective: Build *it right* using the correct technology, architecture, tools and practices.
+> <br>
 > Concern: Will it work?
 
-- Align perspectives. Each side has its own concerns, assumptions and biases. Chat with stakeholders (askers) and developers (givers) to check if they have a common understanding of what needs to be done.
-- Raise risks. That's why you are one of the three amigos. Usually the POs are focused on functionality and your developers on implementation details. You can remind them of risks such as non-functional requirements, impacts with previous stories or the cost of automating a specific tests.
-- Ask questions. Discuss what-if scenarios. Use personas to discover user-specific issues. Clarify the rules for extreme or unusual values. It's cheaper to improve the design than it is to fix the implementation.
-- Write scenarios. When doing specification by example, you should be writing those examples. Most likely you will [automate]() them later on.
-- Bring your toolbox. [Mnemonics](/tools/mnemonics.md) such as the five W's are useful to detail stories and create scenarios with less assumptions. Your [list of biases]() might also uncover weak requirements.
-- Clarify stories. Your questions lead to explicit requirements and more examples. Doing so you are increasing the probability of meeting the stakeholder's requirement.
+- **Align perspectives**. Each side has its own concerns, assumptions and biases. Chat with stakeholders (askers) and developers (givers) to check if they have a common understanding of what needs to be done.
+- **Raise risks**. That's why you are one of the three amigos. Usually the POs are focused on functionality and your developers on implementation details. You can remind them of risks such as non-functional requirements, impacts with previous stories or the cost of automating a specific tests.
+- **Ask questions**. Discuss what-if scenarios. Use personas to discover user-specific issues. Clarify the rules for extreme or unusual values. It's cheaper to improve the design than it is to fix the implementation.
+- **Write scenarios**. When doing specification by example, you should be writing those examples. Most likely you will [automate]() them later on.
+- **Bring your toolbox**. [Mnemonics](/tools/mnemonics.md) such as the five W's are useful to detail stories and create scenarios with less assumptions. Your [list of biases]() might also uncover weak requirements.
+- **Clarify stories**. Your questions lead to explicit requirements and more examples. Doing so you are increasing the probability of meeting the stakeholder's requirement.
 
 
 ## Teachers
