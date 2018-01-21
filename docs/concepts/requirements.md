@@ -51,7 +51,6 @@ So you might be asking **how can testers add value to this process?**
 - **Bring your toolbox**. [Mnemonics](/tools/mnemonics.md) such as the five W's are useful to detail stories and create scenarios with less assumptions. Your [list of biases](/tools/biases.md) might also uncover weak requirements.
 - **Clarify stories**. Your questions lead to explicit requirements and more examples. Doing so you are increasing the probability of meeting the stakeholder's requirement.
 
-
 ## Teachers
 
 - [Donna Lichaw](https://www.donnalichaw.com/)
