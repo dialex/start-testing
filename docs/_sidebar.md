@@ -2,53 +2,52 @@
 
 - [**Home**](/)
 - **Concepts**
-  - Testing's purpose
-  - Tester's resposability
-  - Software Testing Life Cycle (STLC)
+  - ~~Testing's purpose~~
+  - ~~Tester's resposability~~
+  - ~~Software Testing Life Cycle (STLC)~~
   - [Requirements](/concepts/requirements.md)
-  - Continuous integration
-  - Dealing with bugs
+  - ~~Dealing with bugs~~
 - **Tools**
-  - Test strategy
-  - Test methodologies
-  - Test pyramid
+  - ~~Test strategy~~
+  - ~~Test methodologies~~
+  - ~~Test pyramid~~
   - [Charters](/tools/charters.md)
   - [Oracles](/tools/oracles.md)
-  - Heuristics
-  - Mnemonics
+  - ~~Heuristics~~
+  - ~~Mnemonics~~
 - **Test types**
-  - Functional vs Non-functional
-  - White box vs Black box
-  - Unit
-  - Integration
-  - Smoke
-  - Sanity
-  - System
-  - Regression
-  - Acceptance
+  - ~~Functional vs Non-functional~~
+  - ~~White box vs Black box~~
+  - ~~Unit~~
+  - ~~Integration~~
+  - ~~Smoke~~
+  - ~~Sanity~~
+  - ~~System~~
+  - ~~Regression~~
+  - ~~Acceptance~~
 - **Testing roles**
-  - Manual tester
-  - Exploration tester
-  - Automation tester
-  - Technical tester
-  - Bug hunter
-  - Agile team member
-  - Mentor
-  - Coach
-  - Lead tester
-  - Recruiter
-  - Certifications
+  - ~~Manual tester~~
+  - ~~Exploration tester~~
+  - ~~Automation tester~~
+  - ~~Technical tester~~
+  - ~~Bug hunter~~
+  - ~~Agile team member~~
+  - ~~Mentor~~
+  - ~~Coach~~
+  - ~~Lead tester~~
+  - ~~Recruiter~~
+  - ~~Certifications~~
 - **Metrics**
-  - Coverage
+  - ~~Coverage~~
 - **Fields**
-  - Functional vs Non-functional
-  - Usability (UI/UX)
-  - Risk
-  - Performance + Load
-  - Security
-  - Database
-  - Platform (DevOps)
-  - Monitoring + Alert
-  - Logging
+  - ~~Functional vs Non-functional~~
+  - ~~Usability (UI/UX)~~
+  - ~~Risk~~
+  - ~~Performance + Load~~
+  - ~~Security~~
+  - ~~Database~~
+  - ~~Platform (DevOps)~~
+  - ~~Monitoring + Alert~~
+  - ~~Logging~~
 - **Next steps**
-  - Staying updated
+  - ~~Staying updated~~
