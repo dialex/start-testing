@@ -1,4 +1,6 @@
-# TITLE_GOES_HERE
+# TITLE_HERE
+
+> **tl;dr** SUMMARY_HERE
 
 ## Theory
 
