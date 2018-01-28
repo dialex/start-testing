@@ -24,6 +24,16 @@
 
 
 
+>  Helicopter view: it is sufficiently open that people could buy into it, and read into it, particularly non-testers.
+>
+>  "pursuit" two aspects of testing for me: finding out what is there and digging what needs to be uncovered (chasing something which might be elusive or hard to find/spot).
+>
+>  Finding what is Not in harmony with the surroundings (context)
+>
+>  Testing is making implicit things explicit to someone who matters. What everyone looks at but no one sees.
+
+
+
 
 
 ## Practice
@@ -37,3 +47,4 @@
 ## Sources
 
 - [41 Definitions of Software Testing](https://chroniclesoftesting.blogspot.pt/2017/11/41-definitions-of-software-testing.html)
+- [The Anatomy of a Definition of Testing](https://qahiccupps.blogspot.pt/2016/11/the-anatomy-of-definition-of-testing.html)
