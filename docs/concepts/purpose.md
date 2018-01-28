@@ -1,6 +1,20 @@
 # Testing's purpose
 
+>  **tl;dr** SUMMARY_HERE
+
 ## Theory
+
+Are you looking for the official definition of testing? You won't like it. Fine, here it is:
+
+> The process consisting of all lifecycle activities, both static and dynamic, concerned with planning, preparation and evaluation of software products and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects.
+>
+> — International Software Testing Qualifications Board (ISTQB)
+
+You just read 43 words in a single sentence. [Hemingway](http://www.hemingwayapp.com/) hates it and your brain hates it too. Instead, let's focus on **what is the purpose of testing** — why we need it and what it is. From there, we can think about the [responsabilities of a tester](/concepts/responsabilities).
+
+### Why we need testing
+
+### What testing is
 
 > Testing is identifying the subtleties and extremities where the system can be used.
 >
@@ -23,7 +37,6 @@
 > Testing is closing in on the ‘I’ the consumer, ‘I’ the tester, ‘I’ the developer, ‘I’ the owner and illuminating the path of ‘We’ the team.
 
 
-
 >  Helicopter view: it is sufficiently open that people could buy into it, and read into it, particularly non-testers.
 >
 >  "pursuit" two aspects of testing for me: finding out what is there and digging what needs to be uncovered (chasing something which might be elusive or hard to find/spot).
@@ -32,13 +45,16 @@
 >
 >  Testing is making implicit things explicit to someone who matters. What everyone looks at but no one sees.
 
+### What testing is not
 
 
 
+### Other terminology
 
-## Practice
+http://pixelgrill.com/testing-terminology/
 
-...
+- **Requirement**: Some behaviour or property needed by a stakeholder to achieve a goal. [(more)](/concepts/requirements.md)
+
 
 ## Teachers
 
