@@ -1,6 +1,6 @@
 # Requirements
 
-> **td;dr** What your stakeholders require to achieve their goals. Testers clarify and detail those needs.
+> **tl;dr** What your stakeholders require to achieve their goals. Testers clarify and detail those needs.
 
 ## Theory
 
