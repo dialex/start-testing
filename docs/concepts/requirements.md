@@ -4,6 +4,13 @@
 
 ## Theory
 
+
+
+READ THIS
+[Writing more effective requirements](https://thelifeofoneman.com/writing-more-effective-requirements)
+
+
+
 Here are some **concepts** you should keep in mind:
 
 - *Requirement:* Some behaviour or property needed by a stakeholder to achieve a goal.
@@ -61,6 +68,7 @@ So you might be asking **how can testers add value to this process?**
 
 - [Definition of requirement](http://www.iiba.org/babok-guide/babok-guide-v2/babok-guide-online/chapter-one-introduction/1-3-key-concepts.aspx)
 - [Definition of user story](https://www.mountaingoatsoftware.com/agile/user-stories)
+- [Writing more effective requirements](https://thelifeofoneman.com/writing-more-effective-requirements)
 - [Story Mapping, Visual Way of Building Product Backlog](https://www.thoughtworks.com/insights/blog/story-mapping-visual-way-building-product-backlog)
 - [The New User Story Backlog is a Map](https://jpattonassociates.com/the-new-backlog/)
 - [User Journeys – The Beginner’s Guide](https://theuxreview.co.uk/user-journeys-beginners-guide/)
