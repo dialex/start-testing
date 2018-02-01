@@ -1,6 +1,6 @@
 # Testing's purpose
 
->  **tl;dr** SUMMARY_HERE
+> **tl;dr** SUMMARY_HERE
 
 ## Theory
 
@@ -10,9 +10,14 @@ Are you looking for the official definition of testing? You won't like it. Fine,
 >
 > — International Software Testing Qualifications Board (ISTQB)
 
-You just read 43 words in a single sentence. [Hemingway](http://www.hemingwayapp.com/) hates it and your brain hates it too. Instead, let's focus on **what is the purpose of testing** — why we need it and what it is. From there, we can think about the [responsabilities of a tester](/concepts/responsabilities).
+You just read 43 words in a single sentence. [Hemingway](http://www.hemingwayapp.com/) hates it and your brain hates it too. Instead, let's focus on **what is the purpose of testing** — why we need it and what it is. From there, we can think about the [responsibilities of a tester](/concepts/responsibilities.md).
 
 ### Why we need testing
+
+NEEDS REVIEW
+> quick feedback. The defects are identified early when they are the cheapest to fix. This is reminiscent of the Toyota/Lean principles: zero quality control. Quality is an inherent part of the whole process, it is built-in, and it is not a separate stage in the process.
+
+
 
 ### What testing is
 
