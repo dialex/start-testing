@@ -3,4 +3,5 @@
 
 source ./ci-helpers.sh
 
-npm i -g markdownlint-cli
+log_task "Install tool dependencies"
+run_step "npm i -g markdownlint-cli"
