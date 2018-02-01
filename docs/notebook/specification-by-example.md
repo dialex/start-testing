@@ -7,12 +7,12 @@
 Patterns followed by companies that continuously deliver valuable software:
 
 1. Deriving scope from goals
-2. Specifying collaboratively
-3. Illustrating specifications using examples
-4. Refining the specifications
-5. Automating validation without changing the specifications
-6. Validating the system frequently
-7. Evolving living documentation
+1. Specifying collaboratively
+1. Illustrating specifications using examples
+1. Refining the specifications
+1. Automating validation without changing the specifications
+1. Validating the system frequently
+1. Evolving living documentation
 
 Tips:
 
