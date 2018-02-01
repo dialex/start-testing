@@ -4,32 +4,32 @@
 
 ## Concepts
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mattis lorem. Praesent pulvinar ultrices vestibulum. Nunc porta leo ut ipsum blandit, sed laoreet libero aliquam. Sed vitae purus pretium nisi posuere auctor viverra ac tellus. Curabitur non dapibus leo. Vivamus metus lectus, cursus ut condimentum at, facilisis eget nulla. Nam mauris ex, hendrerit vel lorem a, cursus aliquet ex. Vestibulum a nisi leo.
+The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kangaroo jump and quite a few carried babies. I quickly explained that many big jobs involve few hazards. The five boxing wizards jump quickly.
 
 ## Tools
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mattis lorem. Praesent pulvinar ultrices vestibulum. Nunc porta leo ut ipsum blandit, sed laoreet libero aliquam. Sed vitae purus pretium nisi posuere auctor viverra ac tellus. Curabitur non dapibus leo. Vivamus metus lectus, cursus ut condimentum at, facilisis eget nulla. Nam mauris ex, hendrerit vel lorem a, cursus aliquet ex. Vestibulum a nisi leo.
+The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kangaroo jump and quite a few carried babies. I quickly explained that many big jobs involve few hazards. The five boxing wizards jump quickly.
 
 ## Types
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mattis lorem. Praesent pulvinar ultrices vestibulum. Nunc porta leo ut ipsum blandit, sed laoreet libero aliquam. Sed vitae purus pretium nisi posuere auctor viverra ac tellus. Curabitur non dapibus leo. Vivamus metus lectus, cursus ut condimentum at, facilisis eget nulla. Nam mauris ex, hendrerit vel lorem a, cursus aliquet ex. Vestibulum a nisi leo.
+The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kangaroo jump and quite a few carried babies. I quickly explained that many big jobs involve few hazards. The five boxing wizards jump quickly.
 
 ## Roles
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mattis lorem. Praesent pulvinar ultrices vestibulum. Nunc porta leo ut ipsum blandit, sed laoreet libero aliquam. Sed vitae purus pretium nisi posuere auctor viverra ac tellus. Curabitur non dapibus leo. Vivamus metus lectus, cursus ut condimentum at, facilisis eget nulla. Nam mauris ex, hendrerit vel lorem a, cursus aliquet ex. Vestibulum a nisi leo.
+The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kangaroo jump and quite a few carried babies. I quickly explained that many big jobs involve few hazards. The five boxing wizards jump quickly.
 
 ## Metrics
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mattis lorem. Praesent pulvinar ultrices vestibulum. Nunc porta leo ut ipsum blandit, sed laoreet libero aliquam. Sed vitae purus pretium nisi posuere auctor viverra ac tellus. Curabitur non dapibus leo. Vivamus metus lectus, cursus ut condimentum at, facilisis eget nulla. Nam mauris ex, hendrerit vel lorem a, cursus aliquet ex. Vestibulum a nisi leo.
+The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kangaroo jump and quite a few carried babies. I quickly explained that many big jobs involve few hazards. The five boxing wizards jump quickly.
 
 ## Fields
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mattis lorem. Praesent pulvinar ultrices vestibulum. Nunc porta leo ut ipsum blandit, sed laoreet libero aliquam. Sed vitae purus pretium nisi posuere auctor viverra ac tellus. Curabitur non dapibus leo. Vivamus metus lectus, cursus ut condimentum at, facilisis eget nulla. Nam mauris ex, hendrerit vel lorem a, cursus aliquet ex. Vestibulum a nisi leo.
+The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kangaroo jump and quite a few carried babies. I quickly explained that many big jobs involve few hazards. The five boxing wizards jump quickly.
 
 ## Future
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mattis lorem. Praesent pulvinar ultrices vestibulum. Nunc porta leo ut ipsum blandit, sed laoreet libero aliquam. Sed vitae purus pretium nisi posuere auctor viverra ac tellus. Curabitur non dapibus leo. Vivamus metus lectus, cursus ut condimentum at, facilisis eget nulla. Nam mauris ex, hendrerit vel lorem a, cursus aliquet ex. Vestibulum a nisi leo.
+The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kangaroo jump and quite a few carried babies. I quickly explained that many big jobs involve few hazards. The five boxing wizards jump quickly.
 
 --------
 
-[TODO (trello resources)](https://trello.com/c/IKgim0gn/217-%F0%9F%93%9A-study-plan)
+[TODO (Trello resources)](https://trello.com/c/IKgim0gn/217-%F0%9F%93%9A-study-plan)

@@ -8,7 +8,7 @@ There are a number of ways in which you can determine that you have discovered a
 
 Knowing your oracles means that you can **objectively explain** to developers and business stakeholders why the users of the software may agree that you have found a bug. This makes your [bug advocation](/roles/bug-hunter.md) more effective.
 
-In **oracle-based testing**, you compare the behavior of the program under test to the behavior of a source you consider accurate (an oracle). You constantly look for answers to: Is this behavior correct? In the user expecting this? A tester who is familiar with the type of product under test will have no problem making these evaluations. However, a newcomer needs a reference for guidance — an oracle.
+In **oracle-based testing**, you compare the behaviour of the program under test to the behaviour of a source you consider accurate (an oracle). You constantly look for answers to: Is this behaviour correct? In the user expecting this? A tester who is familiar with the type of product under test will have no problem making these evaluations. However, a newcomer needs a reference for guidance — an oracle.
 
 Some oracles lead you to other oracles, which allow you to extend your initial test strategy into areas you haven't thought about before. Keep in mind that each oracle **focus on a specific perspective**. If you limit yourself to a single oracle, it might bias your testing by giving you a narrow view of your context. That is why oracles are [heuristics](/tools/heuristics.md) — they are useful tools that help us make decisions, but sometimes they point us to the wrong decision.
 
@@ -33,8 +33,8 @@ Use the [mnemonic](/tools/mnemonics.md) `FEW HICCUPS` to remember these oracles:
 - **History**: Is the new version coherent is the older ones?
   - _e.g. feature X existed in the previous version and now it's gone_
 - **Image**: Does it match the brand? Does it affect the reputation?
-  - _e.g. colors don't match the company guidelines_
-  - _e.g. the choise of words/images might sound aggressive for culture X_
+  - _e.g. colours don't match the company guidelines_
+  - _e.g. the choice of words/images might sound aggressive for culture X_
 - **Compare**: How does it compare with competitors?
   - _e.g. players in our market solve X by doing Y and there's no added value in doing it differently_
 - **Claims**: Does the product match what the sales/marketing says about it?

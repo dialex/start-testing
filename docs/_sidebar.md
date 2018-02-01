@@ -3,7 +3,7 @@
 - [**Home**](/)
 - **Concepts**
   - ~~Testing's purpose~~
-  - ~~Tester's resposability~~
+  - ~~Tester's responsibility~~
   - ~~Software Testing Life Cycle (STLC)~~
   - [Requirements](/concepts/requirements.md)
 - **Tools**
