@@ -3,7 +3,7 @@ node_js:
   - "node"
 
 install:
-  - npm i -g markdownlint-cli
+  - ./ci-install.sh
 
 script:
   - ./ci.sh
