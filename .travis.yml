@@ -6,7 +6,7 @@ install:
   - ./ci-install.sh
 
 script:
-  - ./ci.sh
+  - ./ci-run.sh
 
 notifications:
   - email:
