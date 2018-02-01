@@ -26,6 +26,8 @@ There are several **ways to write the specification** of a product, however ther
 
 ## Practice
 
+> A requirement is a quality that matters to someone who matters.
+
 Nowadays there are several Agile techniques to write requirements effectively:
 
 - [User story mapping](http://amzn.to/2mW1rkx). Starts with stakeholders and breaks down into Goals > Activities > Tasks > Stories.
@@ -47,9 +49,13 @@ So you might be asking **how can testers add value to this process?**
 - **Align perspectives**. Each side has its own concerns, assumptions and biases. Chat with stakeholders (askers) and developers (givers) to check if they have a common understanding of what needs to be done.
 - **Raise risks**. That's why you are one of the three amigos. Usually the POs are focused on functionality and your developers on implementation details. You can remind them of risks such as non-functional requirements, impacts with previous stories or the cost of automating a specific tests.
 - **Ask questions**. Discuss what-if scenarios. Use personas to discover user-specific issues. Clarify the rules for extreme or unusual values. It's cheaper to improve the design than it is to fix the implementation.
-- **Write scenarios**. When doing [specification by example](/notebook/specification-by-example.md), you should be writing those examples. Most likely you will [automate](/roles/automation-tester.md) them later on.
+- **Write scenarios**. When doing [specification by example](/notebook/specification-by-example.md), you should be writing those examples. Most likely you will [automate](/roles/automation-tester.md) them later on, using the Gherkin syntax `Given <condition> When <action> Then <result>`.
 - **Bring your toolbox**. [Mnemonics](/tools/mnemonics.md) such as the five W's are useful to detail stories and create scenarios with less assumptions. Your [list of biases](/tools/biases.md) might also uncover weak requirements.
 - **Clarify stories**. Your questions lead to explicit requirements and more examples. Doing so you are increasing the probability of meeting the stakeholder's requirement.
+- **Think again**. The more you know, more assumptions you make and more casual you are when testing. Fresh eyes find failure, so stay sharp.
+- **Don't be fooled**. Question requirements and extract their value/usefulness. Be aware of echo chambers.
+
+> It’s easier to fool people than to convince them that they have been fooled. -- Mark Twain
 
 ## Teachers
 
@@ -66,3 +72,4 @@ So you might be asking **how can testers add value to this process?**
 - [User Journeys – The Beginner’s Guide](https://theuxreview.co.uk/user-journeys-beginners-guide/)
 - [Introducing Example Mapping](https://medium.com/@mattwynne/introducing-example-mapping-42ccd15f8adf)
 - [What is Specification by Example?](https://blog.red-badger.com/blog/2012/07/31/what-is-specification-by-example)
+- [Writing more effective requirements](https://thelifeofoneman.com/writing-more-effective-requirements)
