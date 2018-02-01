@@ -1,16 +1,26 @@
 #!/bin/bash
-set -o xtrace
+#set -o xtrace #enables debug
 
-# set +o xtrace
-echo '############################################################'
-echo '# Check Markdown files for linting issues'
-echo '############################################################'
-# set -o xtrace
+# ============================================================
+# Helpers
+# ============================================================
 
-markdownlint docs --config docs/.markdownlint.json
+function log_task {
+    echo ""
+    echo "### " "${1}"
+    echo ""
+}
 
-# set +o xtrace
-echo '############################################################'
-echo '# Check Markdown files for spelling mistakes'
-echo '############################################################'
-# set -o xtrace
+function run_step {
+    echo "${1}"
+    eval "${1}"
+}
+
+# ============================================================
+# Run Continuous Integration
+# ============================================================
+
+log_task "Check for linting issues"
+run_step "markdownlint docs --config docs/.markdownlint.json"
+
+#log_task 'Check for spelling mistakes'
