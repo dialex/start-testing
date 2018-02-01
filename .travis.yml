@@ -6,7 +6,7 @@ install:
   - npm i -g markdownlint-cli
 
 script:
-  - markdownlint docs --config docs/.markdownlint.json
+  - ./ci.sh
 
 notifications:
   - email:
