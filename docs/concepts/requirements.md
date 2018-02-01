@@ -47,7 +47,7 @@ So you might be asking **how can testers add value to this process?**
 - **Align perspectives**. Each side has its own concerns, assumptions and biases. Chat with stakeholders (askers) and developers (givers) to check if they have a common understanding of what needs to be done.
 - **Raise risks**. That's why you are one of the three amigos. Usually the POs are focused on functionality and your developers on implementation details. You can remind them of risks such as non-functional requirements, impacts with previous stories or the cost of automating a specific tests.
 - **Ask questions**. Discuss what-if scenarios. Use personas to discover user-specific issues. Clarify the rules for extreme or unusual values. It's cheaper to improve the design than it is to fix the implementation.
-- **Write scenarios**. When doing specification by example, you should be writing those examples. Most likely you will [automate](/roles/automation-tester.md) them later on.
+- **Write scenarios**. When doing [specification by example](/notebook/specification-by-example.md), you should be writing those examples. Most likely you will [automate](/roles/automation-tester.md) them later on.
 - **Bring your toolbox**. [Mnemonics](/tools/mnemonics.md) such as the five W's are useful to detail stories and create scenarios with less assumptions. Your [list of biases](/tools/biases.md) might also uncover weak requirements.
 - **Clarify stories**. Your questions lead to explicit requirements and more examples. Doing so you are increasing the probability of meeting the stakeholder's requirement.
 
