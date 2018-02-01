@@ -1,1 +1,1 @@
-# Autoamtion tester
+# Automation tester

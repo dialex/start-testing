@@ -8,7 +8,7 @@ Here are some **concepts** you should keep in mind:
 
 - *Requirement:* Some behaviour or property needed by a stakeholder to achieve a goal.
 - *Specification:* The list containing all requirements for a given project/product.
-- *User story:* Concise description of a requirement, told from the perspective of the stakeholder who desires it. Tipically follows the structure `As a <user>, I want to <goal> so that <motivation>`.
+- *User story:* Concise description of a requirement, told from the perspective of the stakeholder who desires it. Typically follows the structure `As a <user>, I want to <goal> so that <motivation>`.
 - *Acceptance criteria* (AC): Statements that are expected to be true if the user story is correctly implemented. If the ACs are met, the implementation is *accepted*. If there's a mismatch, either the ACs are revised or the implementation redone.
 - *Backlog:* The list containing all user stories to implement for a given project/product.
 
