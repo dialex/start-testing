@@ -8,6 +8,9 @@ install:
 script:
   - ./ci-run.sh
 
+after_deploy:
+  - curl "https://api.monkeytest.it/travis/test?secret=$MONKEY_KEY&on_load=true&on_click=true&page_weight=true&seo=true&broken_links=true&asset_count=true&url=https://dialex.github.io/start-testing/"
+
 notifications:
   - email:
     - on_failure: always
