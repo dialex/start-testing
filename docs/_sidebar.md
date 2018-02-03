@@ -52,3 +52,5 @@
   - ~~Logging~~
 - **Next steps**
   - ~~Staying updated~~
+- **Notebook**
+  - [Specification by Example](/notebook/specification-by-example.md)
