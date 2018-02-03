@@ -7,7 +7,7 @@
   - ~~Testing's purpose~~
   - ~~Tester's responsibility~~
   - ~~Software Testing Life Cycle (STLC)~~
-  - [Requirements](/concepts/requirements.md)
+  - [Requirements](/concepts/BROKEN/requirements.md)
 - **Tools**
   - ~~Test strategy~~
   - ~~Test methodologies~~

@@ -9,7 +9,7 @@ What you will be using:
 - Rules (🔵 blue) summarise a group of examples or describe a constraint
 - Questions (🔴 red) are doubts that nobody in the conversation can answer -- if not answered, then assume
 
-**How it [works](https://medium.com/@mattwynne/introducing-example-mapping-42ccd15f8adf)**:
+**How it [works](https://meXXXXXXdium.com/@mattwXXXXXXoducing-example-mapping-42ccd15f8adf)**:
 
 1. Pick a story ⭐️ to discuss and place it at the top of the table.
 1. Write the known acceptance criteria 🔵 and put them beneath the story ⭐️.
