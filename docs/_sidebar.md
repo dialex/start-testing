@@ -53,4 +53,5 @@
 - **Next steps**
   - ~~Staying updated~~
 - **Notebook**
+  - [User Story Mapping](/notebook/user-story-mapping.md)
   - [Specification by Example](/notebook/specification-by-example.md)
