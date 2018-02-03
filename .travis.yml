@@ -9,7 +9,7 @@ script:
   - ./ci-run.sh
 
 after_deploy:
-  - curl -k "https://api.monkeytest.it/travis/test?secret=$MONKEY_KEY&on_load=true&on_click=true&page_weight=true&seo=false&broken_links=true&asset_count=true&url=https://dialex.github.io/start-testing/#/"
+  - curl -k "https://api.monkeytest.it/travis/test?secret=$MONKEY_KEY&on_load=true&on_click=true&page_weight=false&seo=false&broken_links=true&asset_count=false&url=https://dialex.github.io/start-testing/#/"
 
 notifications:
   - email:
