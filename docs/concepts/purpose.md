@@ -12,14 +12,29 @@ Are you looking for the official definition of testing? You won't like it. Fine,
 
 You just read 43 words in a single sentence. [Hemingway](http://www.hemingwayapp.com/) hates it and your brain hates it too. Instead, let's focus on **what is the purpose of testing** — why we need it and what it is. From there, we can think about the [responsibilities of a tester](/concepts/responsibilities.md).
 
-### Why we need testing
+### Quality pursuit
 
-NEEDS REVIEW
-> quick feedback. The defects are identified early when they are the cheapest to fix. This is reminiscent of the Toyota/Lean principles: zero quality control. Quality is an inherent part of the whole process, it is built-in, and it is not a separate stage in the process.
+Quality is **value to some person, who matters**. A bug is anything that threatens quality. This simple definition shows how subjective quality really is. Here are a few other perspectives:
+
+- Aesthetic view: *Quality is emotive and simplicity.*
+  - ✅ Fosters excellence and pride in workmanship.
+  - ❌ Can become a cloak for perfectionists.
+- Manufacturing view: *Quality is conformance to specifications.*
+  - ✅ Fits mindset of highly regulated contexts, e.g. health industry.
+  - ❌ Can produce products that satisfy no one, besides the specification author.
+- Customer view: *Quality is whatever satisfies the customer.*
+  - ✅ Increased customer loyalty.
+  - ❌ Always behind, chasing trends and competitors.
 
 
+Stakeholders will form a perception of the current quality based on their values, knowledge, skills and past experiences. Given the diversity of stakeholders, each will have a different perception of quality. That's why you cannot _assure quality_ to all of them. Acknowledge that while you cannot guarantee it you can do your best effort to pursuit it.
+
+Therefore the **purpose of testing** is measure and maximise quality delivered.
 
 ### What testing is
+
+- **Zero quality control**. Quality is built-in and it is not a separate/dedicated stage in the process.
+- **Quick feedback**. Identify issues early when they are the cheapest to fix.
 
 > Testing is identifying the subtleties and extremities where the system can be used.
 >
@@ -50,16 +65,20 @@ NEEDS REVIEW
 >
 >  Testing is making implicit things explicit to someone who matters. What everyone looks at but no one sees.
 
+
+
+More on testing here: <https://www.utest.com/articles/what-is-testing>
+More on testing vs checking: <http://www.satisfice.com/blog/archives/856>
+More on the difference between Testing and QA: <http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/>
+
 ### What testing is not
 
+> There is a powerful alternative to the orthodox, expensive, and boring methodologies that aim at
+> the best possible quality: (…) the discipline of good enough software development. — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
 
+**Quality Assurance (QA)**: Ah, yes. The most abused title/phrase in the testing world…No one person does this, and anyone who has a title “QA” is fooling themselves. “The quality assurance role in the company resides with the management and the CEO (the principal quality officer in the company), since it was they—and certainly not the testers—who had the authority to make decisions about quality.”
 
-### Other terminology
-
-http://pixelgrill.com/testing-terminology/
-
-- **Requirement**: Some behaviour or property needed by a stakeholder to achieve a goal. [(more)](/concepts/requirements.md)
-
+Notes: Again, more on the difference between Testing and QA here: <http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/>
 
 ## Teachers
 
@@ -69,3 +88,5 @@ http://pixelgrill.com/testing-terminology/
 
 - [41 Definitions of Software Testing](https://chroniclesoftesting.blogspot.pt/2017/11/41-definitions-of-software-testing.html)
 - [The Anatomy of a Definition of Testing](https://qahiccupps.blogspot.pt/2016/11/the-anatomy-of-definition-of-testing.html)
+- [Testing Terminology](http://pixelgrill.com/testing-terminology/)
+- [The Challenge of "Good Enough" Software](http://www.satisfice.com/articles/gooden2.pdf)

@@ -4,7 +4,7 @@
 <ul style="text-align: center;">🚧 work in progress 🚧</ul>
 - [**Home**](/)
 - **Concepts**
-  - ~~Testing's purpose~~
+  - [Testing's purpose](/concepts/purpose.md)
   - ~~Tester's responsibility~~
   - ~~Software Testing Life Cycle (STLC)~~
   - [Requirements](/concepts/requirements.md)
