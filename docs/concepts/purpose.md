@@ -23,13 +23,15 @@ Quality is **value to some person, who matters**. A bug is anything that threate
   - ✅ Fits mindset of highly regulated contexts, e.g. health industry.
   - ❌ Can produce products that satisfy no one, besides the specification author.
 - Customer view: *Quality is whatever satisfies the customer.*
-  - ✅ Increased customer loyalty.
-  - ❌ Always behind, chasing trends and competitors.
+  - ✅ Increases customer loyalty.
+  - ❌ Can lead to eternal chasing of trends and competitors.
 
 
-Stakeholders will form a perception of the current quality based on their values, knowledge, skills and past experiences. Given the diversity of stakeholders, each will have a different perception of quality. That's why you cannot _assure quality_ to all of them. Acknowledge that while you cannot guarantee it you can do your best effort to pursuit it.
+Stakeholders will form a *perception* of the current quality based on their values, knowledge, skills and past experiences. Given the diversity of stakeholders, each will have a different perception of quality. That's why you cannot _assure quality_ to all of them. Acknowledge that while you cannot guarantee it you can do your best effort to pursuit it.
 
-Therefore the **purpose of testing** is measure and maximise quality delivered.
+> Apple shipped the first version of Hypercard with about 500 known bugs in it, yet the product was a smashing success. The Hypercard QA team chose the right bugs to ship with. They also chose the right qualities.
+
+Thus the **purpose of testing** is to measure and maximise quality delivered, while minimising risk to an acceptable level.
 
 ### What testing is
 
