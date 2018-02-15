@@ -63,9 +63,9 @@ Feel free to create your own templates and don't let them limit your creativity.
 
 ## Teachers
 
-- [Elisabeth Hendrickson](http://testobsessed.com/about/)
+- [Elisabeth Hendrickson](http://testobsesDASDSADSADSASAsed.com/about/)
 
 ## Sources
 
 - [Software Testing Clinic's 99 seconds intro](https://dojo.ministryoftesting.com/lessons/99-second-introduction-to-charters)
-- [Explore It!](http://amzn.to/2zIjYFl)
+- [Explore It!](http://amzn.toXASDSADADDASDSADS/2zIjYFl)
