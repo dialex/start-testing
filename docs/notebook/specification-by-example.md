@@ -2,7 +2,7 @@
 
 > **tl;dr** A practice that translates business goals into scenarios that can be tested and automated.
 
-What you will be using:
+**What you will be using**:
 
 - User Stories (⭐️ yellow) are written by POs/BAs and summarise the desired functionality
 - Examples (✅ green) detail a scenario that our feature must support
@@ -17,6 +17,8 @@ What you will be using:
 1. During the discussion, you might uncover questions 🔴 that nobody in the room can answer. Put them aside.
 1. Continue until the scope of the story is clear (or time runs out).
 1. Find out who would be suitable to answer the questions 🔴 raised.
+
+![example](/_media/notebook/specification-by-example-1.png)
 
 **Exercises**: [Story](https://medium.com/@mattwynne/introducing-example-mapping-42ccd15f8adf) / [Rules vs Examples](https://speakerdeck.com/mattwynne/rules-vs-examples-bddx-london-2014)
 
@@ -39,7 +41,7 @@ What you will be using:
 1. Validating the system frequently
 1. Evolving living documentation
 
-Tips:
+**Tips**:
 
 - What we want to achieve? Why and how will we measure it?
 - Who are the relevant stakeholders?
