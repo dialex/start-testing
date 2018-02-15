@@ -8,3 +8,6 @@ run_step "markdownlint docs --config docs/.markdownlint.json"
 
 log_task 'Check for spelling mistakes'
 run_step "mdspell 'docs/**/*.md' -r --en-gb --ignore-numbers --ignore-acronyms"
+
+log_task 'Check for broken links'
+run_step "find docs -name \*.md -exec markdown-link-check {} \;"

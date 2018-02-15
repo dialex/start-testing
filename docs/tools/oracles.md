@@ -6,11 +6,11 @@
 
 There are a number of ways in which you can determine that you have discovered a defect in a software application. Those are your test oracles. Oracles are the mechanism by which you **recognise a problem**. They help you discover the real reason why you think there is a problem.
 
-Knowing your oracles means that you can **objectively explain** to developers and business stakeholders why the users of the software may agree that you have found a bug. This makes your [bug advocation](/roles/bug-hunter.md) more effective.
+Knowing your oracles means that you can **objectively explain** to developers and business stakeholders why the users of the software may agree that you have found a bug. This makes your [bug advocation](../roles/bug-hunter.md) more effective.
 
 In **oracle-based testing**, you compare the behaviour of the program under test to the behaviour of a source you consider accurate (an oracle). You constantly look for answers to: Is this behaviour correct? In the user expecting this? A tester who is familiar with the type of product under test will have no problem making these evaluations. However, a newcomer needs a reference for guidance — an oracle.
 
-Some oracles lead you to other oracles, which allow you to extend your initial test strategy into areas you haven't thought about before. Keep in mind that each oracle **focus on a specific perspective**. If you limit yourself to a single oracle, it might bias your testing by giving you a narrow view of your context. That is why oracles are [heuristics](/tools/heuristics.md) — they are useful tools that help us make decisions, but sometimes they point us to the wrong decision.
+Some oracles lead you to other oracles, which allow you to extend your initial test strategy into areas you haven't thought about before. Keep in mind that each oracle **focus on a specific perspective**. If you limit yourself to a single oracle, it might bias your testing by giving you a narrow view of your context. That is why oracles are [heuristics](../tools/heuristics.md) — they are useful tools that help us make decisions, but sometimes they point us to the wrong decision.
 
 ## Practice
 
@@ -22,7 +22,7 @@ Oracles come in many shapes, here are a few examples:
 - a human domain expert, who can look at the output and tell whether it is correct;
 - or any other way of telling that a given output is correct.
 
-Use the [mnemonic](/tools/mnemonics.md) `FEW HICCUPS` to remember these oracles:
+Use the [mnemonic](../tools/mnemonics.md) `FEW HICCUPS` to remember these oracles:
 
 - **Familiarity**: Is it free of common/past bugs?
   - _e.g. the product exhibits behaviour X which was marked as a bug on previous releases_
