@@ -18,7 +18,7 @@
 1. Continue until the scope of the story is clear (or time runs out).
 1. Find out who would be suitable to answer the questions 🔴 raised.
 
-![example](/_media/notebook/specification-by-example-1.png)
+![example](../_media/notebook/specification-by-example-1.png)
 
 **Exercises**: [Story](https://medium.com/@mattwynne/introducing-example-mapping-42ccd15f8adf) / [Rules vs Examples](https://speakerdeck.com/mattwynne/rules-vs-examples-bddx-london-2014)
 

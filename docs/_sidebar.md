@@ -2,18 +2,18 @@
 <!-- markdownlint-disable MD032 MD033 -->
 
 <ul style="text-align: center;">🚧 work in progress 🚧</ul>
-- [**Home**](/)
+- [**Home**](./)
 - **Concepts**
   - ~~Testing's purpose~~
   - ~~Tester's responsibility~~
   - ~~Software Testing Life Cycle (STLC)~~
-  - [Requirements](/concepts/requirements.md)
+  - [Requirements](./concepts/requirements.md)
 - **Tools**
   - ~~Test strategy~~
   - ~~Test methodologies~~
   - ~~Test pyramid~~
-  - [Charters](/tools/charters.md)
-  - [Oracles](/tools/oracles.md)
+  - [Charters](./tools/charters.md)
+  - [Oracles](./tools/oracles.md)
   - ~~Heuristics~~
   - ~~Mnemonics~~
 - **Test types**
@@ -53,5 +53,5 @@
 - **Next steps**
   - ~~Staying updated~~
 - **EXTRA: Notebook**
-  - [User Story Mapping](/notebook/user-story-mapping.md)
-  - [Specification by Example](/notebook/specification-by-example.md)
+  - [User Story Mapping](./notebook/user-story-mapping.md)
+  - [Specification by Example](./notebook/specification-by-example.md)
