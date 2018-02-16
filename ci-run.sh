@@ -10,4 +10,4 @@ log_task 'Check for spelling mistakes'
 run_step "mdspell 'docs/**/*.md' -r --en-gb --ignore-numbers --ignore-acronyms"
 
 log_task 'Check for broken internal links'
-run_step "remark -u validate-links docs/"
+run_step "remark -u validate-links docs/ --frail"
