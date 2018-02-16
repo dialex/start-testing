@@ -63,7 +63,7 @@ Feel free to create your own templates and don't let them limit your creativity.
 
 ## Teachers
 
-- [Elisabeth Hendrickson](http://testobsessed.com/about/)
+- [Elisabeth Hendrickson](https://twitter.com/testobsessed)
 
 ## Sources
 
