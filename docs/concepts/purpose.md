@@ -20,23 +20,25 @@ Quality is **value to some person, who matters**. A bug is anything that threate
   - ✅ Fosters excellence and pride in workmanship.
   - ❌ Can become a cloak for perfectionists.
 - Manufacturing view: *Quality is conformance to specifications.*
-  - ✅ Fits mindset of highly regulated contexts, e.g. health industry.
-  - ❌ Can produce products that satisfy no one, besides the specification author.
+  - ✅ Fits the mindset of highly regulated contexts, e.g. health industry.
+  - ❌ Can produce products that satisfy no one, besides the specification's author.
 - Customer view: *Quality is whatever satisfies the customer.*
   - ✅ Increases customer loyalty.
   - ❌ Can lead to eternal chasing of trends and competitors.
 
 
-Stakeholders will form a *perception* of the current quality based on their values, knowledge, skills and past experiences. Given the diversity of stakeholders, each will have a different perception of quality. That's why you cannot _assure quality_ to all of them. Acknowledge that while you cannot guarantee it you can do your best effort to pursuit it.
+Stakeholders will form a *perception* of the current quality based on their values, knowledge, skills and past experiences. Given the diversity of stakeholders, each will have a different perception of quality. That's why you cannot _assure quality_ to all of them.
 
 > Apple shipped the first version of Hypercard with about 500 known bugs in it, yet the product was a smashing success. The Hypercard QA team chose the right bugs to ship with. They also chose the right qualities.
 
-Thus the **purpose of testing** is to measure and maximise quality delivered, while minimising risk to an acceptable level.
+Even though you cannot guarantee quality, you can do your best effort to pursuit it. Thus the **purpose of testing** is to measure and maximise quality delivered, while minimising risk to an acceptable level.
 
 ### What testing is
 
 - **Zero quality control**. Quality is built-in and it is not a separate/dedicated stage in the process.
 - **Quick feedback**. Identify issues early when they are the cheapest to fix.
+
+> working more closely with developers, having conversations instead of waiting for work to reach us, we are helping to reduce the chance of bugs being made from misunderstandings or scenarios not thought about.
 
 > Testing is identifying the subtleties and extremities where the system can be used.
 >
