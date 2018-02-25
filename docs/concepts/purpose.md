@@ -8,7 +8,7 @@ Are you looking for the official definition of testing? You won't like it. Fine,
 
 > The process consisting of all lifecycle activities, both static and dynamic, concerned with planning, preparation and evaluation of software products and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects.
 >
-> — International Software Testing Qualifications Board (ISTQB)
+> — International Software Testing Qualifications Board [(ISTQB)](http://glossary.istqb.org/search/testing)
 
 You just read 43 words in a single sentence. [Hemingway](http://www.hemingwayapp.com/) hates it and your brain hates it too. Instead, let's focus on what is the purpose of testing — why we need it and what it is. From there, we can think about the [responsibilities of a tester](/concepts/responsibilities.md).
 
@@ -29,8 +29,7 @@ Quality is **value to some person, who matters**. A bug is anything that threate
 
 Stakeholders will form a *perception* of the current quality based on their values, knowledge, skills and past experiences. Given the diversity of stakeholders, each will have a different perception of quality. That's why you cannot _assure quality_ to all of them.
 
-> Apple shipped the first version of Hypercard with about 500 known bugs in it, yet the product was a smashing success. The Hypercard QA team chose the right bugs to ship with. They also chose the right features.
-> — James Bach
+> Apple shipped the first version of Hypercard with about 500 known bugs in it, yet the product was a smashing success. The Hypercard QA team chose the right bugs to ship with. They also chose the right features. — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
 
 Even though you cannot guarantee quality, you can do your best effort to pursuit it. Thus the **purpose of testing** is to measure and maximise quality delivered, while minimising risk to an acceptable level. The more we test, the more we know about our products. With that knowledge, teams can make informed decisions on what to do with the product.
 
