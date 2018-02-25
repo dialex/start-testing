@@ -26,7 +26,6 @@ Quality is **value to some person, who matters**. A bug is anything that threate
   - ✅ Increases customer loyalty.
   - ❌ Can lead to eternal chasing of trends and competitors.
 
-
 Stakeholders will form a *perception* of the current quality based on their values, knowledge, skills and past experiences. Given the diversity of stakeholders, each will have a different perception of quality. That's why you cannot _assure quality_ to all of them.
 
 > Apple shipped the first version of Hypercard with about 500 known bugs in it, yet the product was a smashing success. The Hypercard QA team chose the right bugs to ship with. They also chose the right features. — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
@@ -44,8 +43,6 @@ Testing includes many activities.
 - Challenge team assumptions of what the product is and should be.
 - Facilitate collaboration and communication between team members.
 
-
-
 #### Value
 
 ?
@@ -54,20 +51,51 @@ Testing includes many activities.
 
 ?
 
+#### ❌ Continuous
+
+#### ❌ Valuable
+
+#### ❌ Mitigation
+
+#### ❌ Sharing
+
+- Collect aids which aims at delivering quality information to anyone equipped to better build the product.
 
 
-##### Continous
-##### Valuable
-##### Communication
-##### Mitigation
-##### Investigation
+#### ❌ Communication
 
-##### Exploration
+>  Testing is making implicit things explicit to someone who matters. What everyone looks at but no one sees.
+> Testing is closing in on the ‘I’ the consumer, ‘I’ the tester, ‘I’ the developer, ‘I’ the owner and illuminating the path of ‘We’ the team.
+> Formalise knowledge
 
-- Testing is identifying the subtleties and extremities where the system can be used.
+#### ❌ Multiple perspective (hats)
 
+- Strive to deliver a reliable product that can be used with confidence.
+> Testing is diminishing confusion and expanding the confidence of a user.
+>  Helicopter view: it is sufficiently open that people could buy into it, and read into it, particularly non-testers.
+> Testing can be acting as an advocate for our customers.
 
+#### ❌ Exploration
 
+**Testing uncovers information that helps people make better decisions.** A test script will check if what was expected and known to be true, still is.
+
+- Identifying the subtleties and extremities where the system can be used.
+- Questioning and challenging how the product is presumed to be built and used.
+- Finding what is Not in harmony with the surroundings (context)
+>  "pursuit" two aspects of testing for me: finding out what is there and digging what needs to be uncovered (chasing something which might be elusive or hard to find/spot).
+
+- Like buying a microscope and a telescope to look at how a product is used today and in future.
+
+#### ❌ Investigation
+
+debug and find root causes. working more closely with developers, having conversations instead of waiting for work to reach us, we are helping to reduce the chance of bugs being made from misunderstandings or scenarios not thought about.
+To discover new information you need to act critically and creatively~~: ask questions, compare perspectives, try scenarios (even if they're unlikely).~~
+
+- Testing is having an eye for details however miniature or magnanimous.
+> Attention to detail. Coherence.
+> Notice what everyone looks but no one sees.
+> Testing is testing the assumptions, change perspective.
+- Being biased and up-rooting those biases
 
 ---------
 
@@ -84,46 +112,11 @@ Testing includes many activities.
 - **Zero quality control**. Quality is built-in and it is not a separate/dedicated stage in the process.
 - **Quick feedback**. Identify issues early when they are the cheapest to fix.
 
-> working more closely with developers, having conversations instead of waiting for work to reach us, we are helping to reduce the chance of bugs being made from misunderstandings or scenarios not thought about.
-
-> Testing is to provide the consumer with an application which re-ensures confidence in the consumer and for the business.
->
-> Testing is to continuously collect aids which aims at delivering quality information to anyone equipped to better build the product.
->
-> Testing is to act in unison with the vision and mission of the product.
->
-> Testing is having an eye for details however miniature or magnanimous.
->
-> Testing is questioning, challenging, being biased and up-rooting the biases about how the product is presumed to be built and used.
->
-> Testing is buying yourself a microscope and a telescope to look at how a product is consumed today and in future.
->
-> Testing is testing the assumptions, re-opening a concluded case, change perspective.
->
-> Testing is diminishing confusion and expanding the confidence of a user.
->
-> Testing is closing in on the ‘I’ the consumer, ‘I’ the tester, ‘I’ the developer, ‘I’ the owner and illuminating the path of ‘We’ the team.
-
-
->  Helicopter view: it is sufficiently open that people could buy into it, and read into it, particularly non-testers.
->
->  "pursuit" two aspects of testing for me: finding out what is there and digging what needs to be uncovered (chasing something which might be elusive or hard to find/spot).
->
->  Finding what is Not in harmony with the surroundings (context)
->
->  Testing is making implicit things explicit to someone who matters. What everyone looks at but no one sees.
-
->  Testing is, among other things, helping your team to identify the risks of releasing your product in its current state.
->
-> Testing can be (not always is), among other things, acting as an advocate for our customers.
-
-
 
 Here are some possible replies; I believe everything is Tweetable, or pretty close. Testing is...
 
 - reviewing the product and ideas and descriptions of it, looking for significant and relevant inconsistencies.
-- experimenting with the product to find out how it may be having problems—which is not “breaking the product”, by the way.
-- something that informs quality assurance, but is not in and of itself quality assurance.
+- experimenting with the product to find out how it may be having problems—which is not "breaking the product", by the way.
 - helping our clients to make empirically informed decisions about the product, project, or business.
 - a process by which we systematically examine any aspect of the product with the goal of preventing surprises.
 - a process of interacting with the product and its systems in many ways that challenge unwarranted optimism.
@@ -137,12 +130,8 @@ Here are some possible replies; I believe everything is Tweetable, or pretty clo
 - using both tools and direct interaction with the product to question and evaluate its behaviours and states.
 - exploring products deeply, imaginatively, and suspiciously, to help find problems that threaten value.
 - performing actual and thought experiments on products and ideas to identify problems and risks.
-- thinking critically and skeptically about products and ideas around them, with the goal of not being fooled.
+- thinking critically and skeptically when thinking about products and ideas around them, with the goal of not being fooled.
 - evaluating a product by learning about it through exploration, experimentation, observation and inference.
-
-
-
-
 
 ### What testing is not
 
@@ -159,7 +148,7 @@ More on the difference between Testing and QA: <http://www.developsense.com/blog
 > There is a powerful alternative to the orthodox, expensive, and boring methodologies that aim at
 > the best possible quality: (…) the discipline of good enough software development. — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
 
-**Quality Assurance (QA)**: Ah, yes. The most abused title/phrase in the testing world…No one person does this, and anyone who has a title “QA” is fooling themselves. “The quality assurance role in the company resides with the management and the CEO (the principal quality officer in the company), since it was they—and certainly not the testers—who had the authority to make decisions about quality.”
+**Quality Assurance (QA)**: Ah, yes. The most abused title/phrase in the testing world... No one person does this, and anyone who has a title "QA" is fooling themselves. "The quality assurance role in the company resides with the management and the CEO (the principal quality officer in the company), since it was they — and certainly not the testers — who had the authority to make decisions about quality."
 
 Notes: Again, more on the difference between Testing and QA here: <http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/>
 
