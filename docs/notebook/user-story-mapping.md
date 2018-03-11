@@ -14,7 +14,7 @@ Story mapping is an engaging activity where all stakeholders participate on buil
 
 [Example](https://www.thoughtworks.com/insights/blog/story-mapping-visual-way-building-product-backlog) _goal (red), activity (blue), task (green), user story (yellow)_
 
-![diagram](/_media/notebook/user-story-mapping-1.png)
+![diagram](../_media/notebook/user-story-mapping-1.png)
 
 **How to prepare a session**:
 
@@ -24,7 +24,7 @@ Story mapping is an engaging activity where all stakeholders participate on buil
 - A good camera to take photos of the wall (detail and panorama)
 - Optional: stickers, like dots or stars (to flag special cases)
 
-![structure](/_media/notebook/user-story-mapping-2.jpg)
+![structure](../_media/notebook/user-story-mapping-2.jpg)
 
 **Tips**:
 
