@@ -96,18 +96,19 @@ Testing includes many activities.
 - using tools and manual interaction to question and evaluate the behaviours and states of the product
 - exploring products deeply, imaginatively, and suspiciously, to help find problems that threaten value
 
-
 #### ✅ Investigation
 
-**Testing uncovers unknowns and provides details.** Team up with developers and product owners to find misunderstandings or scenarios that the team forgot to consider. While debugging, gather examples or patterns that lead to errors. Do your due diligence to become a reliable and knowledgeable source of information for the rest of the team.
+**Testing uncovers unknowns and provides details.**
 
 - Noticing what everyone looks but no one sees.
 - Looking for what is inconsistent or counterintuitive.
-- Gathering details, examples and patterns before reporting a bug.
-- Providing information that reveals problems before they happen.
+- Studying the product to understand how it behaves and why.
+- Finding problems before they happen or become critical.
+- Gathering examples or patterns before reporting a bug.
 - Speaking with different stakeholders to detect misunderstandings.
 - Using questions to validate assumptions and prompt new scenarios.
 - Forecasting unanticipated consequences of the team's decisions.
+- Providing information that improves those decisions.
 
 -----
 
