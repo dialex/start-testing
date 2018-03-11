@@ -1,6 +1,7 @@
 #!/bin/bash
 #set -o xtrace #enables debug
 
+set -e
 source ./ci-helpers.sh
 
 log_task "Check for linting issues"
