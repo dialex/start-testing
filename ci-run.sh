@@ -11,7 +11,7 @@ log_task 'Check for spelling mistakes'
 run_step "mdspell 'docs/**/*.md' -r --en-gb --ignore-numbers --ignore-acronyms"
 
 log_task 'Check for broken internal links'
-run_step "remark -u validate-links docs/ --frail"
+run_step "remark -u validate-links docs/concepts docs/fields docs/notebook docs/roles docs/tools --frail"
 
 log_task 'Check for broken external links'
 run_step "awesome_bot --allow-redirect --allow-dupe --skip-save-results docs/**/*.md"

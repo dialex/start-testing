@@ -9,6 +9,6 @@
 - [GitHub](https://github.com/dialex/start-testing) 🤝 **anyone can contribute**
 - [Docsify](https://github.com/QingWei-Li/docsify/) 😎 **looks awesome**
 
-[Let's Start](index.md/#syllabus)
+[Let's Start](#syllabus)
 
 ![color](linear-gradient(to left bottom, #F0FD37 0%, #ACF260 100%))
