@@ -48,32 +48,28 @@ Testing includes many activities.
 
 #### ✅ Investigation
 
-**Testing uncovers unknowns and provides details.**
+**Testing uncovers information that enables better decisions.**
 
 - Noticing what everyone looks but no one sees.
 - Looking for what is inconsistent or counterintuitive.
-- Studying the product to understand how it behaves and why.
 - Finding problems before they happen or become critical.
 - Gathering examples or patterns before reporting a bug.
-- Speaking with different stakeholders to detect misunderstandings.
-- Using questions to validate assumptions and prompt new scenarios.
-- Forecasting unanticipated consequences of the team's decisions.
+- Chasing some pattern which might be elusive or hard to understand.
+- Going beyond optimism and actually trying it.
 - Providing information that improves those decisions.
+- Predicting consequences of the team's decisions.
 
-#### ❌ Exploration
+#### ✅ Exploration
 
-**Testing uncovers information that helps people make better decisions.** A test script will check if what was expected and known to be true, still is. (...) To discover new information you need to act critically and creatively~~: ask questions, compare perspectives, try scenarios (even if they're unlikely).~~
+**Testing uses creativity to discover assumptions and unexpected behaviours.**
 
-- Identifying the subtleties and extremities where the system can be used.
-- Questioning and challenging how the product is presumed to be built and used.
-- Finding what is Not in harmony with the surroundings (context)
-- finding out what is there and digging what needs to be uncovered (chasing something which might be elusive or hard to find/spot).
-- Like buying a microscope and a telescope to look at how a product is used today and in future.
-- experimenting with the product to find out how it may be having problems (which is not "breaking the product", by the way)
-- a process by which we systematically examine any aspect of the product with the goal of preventing surprises
-- a process of interacting with the product and its systems in many ways that challenge unwarranted optimism
-- using tools and manual interaction to question and evaluate the behaviours and states of the product
-- exploring products deeply, imaginatively, and suspiciously, to help find problems that threaten value
+- Using the product like a well-behaved user would.
+- Abusing the product like a ill-intentioned user would.
+- Examining different aspects of the product to prevent surprises.
+- Identifying the product's subtleties and extremities.
+- Studying the product beyond the formal requirements.
+- Using questions to validate assumptions and prompt new scenarios.
+- Exploring products imaginatively to find unexpected behaviours.
 
 #### ❌ Multiple perspectives (hats)
 
@@ -85,6 +81,7 @@ Testing includes many activities.
 - thinking critically and skeptically when thinking about products and ideas around them, with the goal of not being fooled
 - change perspective
 - Identifying your team's biases and assumptions.
+- Speaking with different stakeholders to detect misunderstandings.
 
 #### ❌ Sharing
 #### ❌ Communication
