@@ -32,7 +32,7 @@ Stakeholders will form a *perception* of the current quality based on their valu
 
 Even though you cannot guarantee quality, you can do your best effort to pursuit it. Thus the **purpose of testing** is to measure and maximise quality delivered, while minimising risk to an acceptable level. The more we test, the more we know about our products. With that knowledge, teams can make informed decisions on what to do with the product.
 
-### ❌ What testing is
+### What testing is
 
 Testing includes many activities.
 
@@ -42,14 +42,7 @@ Testing includes many activities.
 - Give feedback to the team and stakeholders, for them to make an informed decision about the next steps to take regarding the product.
 - Challenge team assumptions of what the product is and should be.
 - Facilitate collaboration and communication between team members.
-
-#### Value
-
-?
-
-#### Tasks
-
-?
+- Help your team make an informed opinion about the perceived quality of the products and features that they own
 
 #### ❌ Continuous
 
@@ -75,7 +68,7 @@ Testing includes many activities.
 
 
 
-#### ❌ Multiple perspective (hats)
+#### ❌ Multiple perspectives (hats)
 
 - Strive to deliver a reliable product that can be used with confidence.
 > Testing is diminishing confusion and expanding the confidence of a user.
@@ -83,14 +76,14 @@ Testing includes many activities.
 > Testing can be acting as an advocate for our customers.
 - helping our clients to understand the product they’ve got so they can decide if it’s the product they want
 - thinking critically and skeptically when thinking about products and ideas around them, with the goal of not being fooled
-
-
+- change perspective
+- Identifying your team's biases and assumptions.
 
 
 
 #### ❌ Exploration
 
-**Testing uncovers information that helps people make better decisions.** A test script will check if what was expected and known to be true, still is.
+**Testing uncovers information that helps people make better decisions.** A test script will check if what was expected and known to be true, still is. (...) To discover new information you need to act critically and creatively~~: ask questions, compare perspectives, try scenarios (even if they're unlikely).~~
 
 - Identifying the subtleties and extremities where the system can be used.
 - Questioning and challenging how the product is presumed to be built and used.
@@ -104,33 +97,17 @@ Testing includes many activities.
 - exploring products deeply, imaginatively, and suspiciously, to help find problems that threaten value
 
 
-#### ❌ Investigation
+#### ✅ Investigation
 
-debug and find root causes. working more closely with developers, having conversations instead of waiting for work to reach us, we are helping to reduce the chance of bugs being made from misunderstandings or scenarios not thought about.
-To discover new information you need to act critically and creatively~~: ask questions, compare perspectives, try scenarios (even if they're unlikely).~~
+**Testing uncovers unknowns and provides details.** Team up with developers and product owners to find misunderstandings or scenarios that the team forgot to consider. While debugging, gather examples or patterns that lead to errors. Do your due diligence to become a reliable and knowledgeable source of information for the rest of the team.
 
-- Testing is having an eye for details however miniature or magnanimous.
-- reviewing the product and ideas and descriptions of it, looking for significant and relevant inconsistencies.
-> Attention to detail. Coherence.
-> Notice what everyone looks but no one sees.
-> Testing is testing the assumptions, change perspective.
-- Being biased and up-rooting those biases
-- a special part of the development process focused on discovering what could go badly (or what is going badly)
-- raising questions to help teams to develop products that more quickly and easily reveal their own problems
-- helping programmers and the team to learn about unanticipated aspects of the product we’re developing
-
-
-
-
----------
-
-
-### Test from hip
-* Unknowns
-* Risk
-* Coverage
-* Non-functional
-* Persona testing
+- Noticing what everyone looks but no one sees.
+- Looking for what is inconsistent or counterintuitive.
+- Gathering details, examples and patterns before reporting a bug.
+- Providing information that reveals problems before they happen.
+- Speaking with different stakeholders to detect misunderstandings.
+- Using questions to validate assumptions and prompt new scenarios.
+- Forecasting unanticipated consequences of the team's decisions.
 
 -----
 
