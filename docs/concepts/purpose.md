@@ -46,42 +46,19 @@ Testing includes many activities.
 - Facilitate collaboration and communication between team members.
 - Help your team make an informed opinion about the perceived quality of the products and features that they own
 
-#### ❌ Continuous
+#### ✅ Investigation
 
-- **Zero quality control**. Quality is built-in and it is not a separate/dedicated stage in the process.
-- **Quick feedback**. Identify issues early when they are the cheapest to fix.
+**Testing uncovers unknowns and provides details.**
 
-#### ❌ Valuable
-
-#### ❌ Mitigation
-
-#### ❌ Sharing
-#### ❌ Communication
-
-- Testing is making implicit things explicit to someone who matters. What everyone looks at but no one sees.
-- Testing is closing in on the ‘I’ the consumer, ‘I’ the tester, ‘I’ the developer, ‘I’ the owner and illuminating the path of ‘We’ the team.
-- Formalise knowledge
-- helping our clients to make empirically informed decisions about the product, project, or business.
-- Collect aids which aims at delivering quality information to anyone equipped to better build the product.
-- exploring, discovering, investigating, learning, and reporting about the product to reveal new information
-- gathering information about the product, its users, and conditions of its use, to help defend value
-
-
-
-
-
-#### ❌ Multiple perspectives (hats)
-
-- Strive to deliver a reliable product that can be used with confidence.
-- Testing is diminishing confusion and expanding the confidence of a user.
-- Helicopter view: it is sufficiently open that people could buy into it, and read into it, particularly non-testers.
-- Testing can be acting as an advocate for our customers.
-- helping our clients to understand the product they’ve got so they can decide if it’s the product they want
-- thinking critically and skeptically when thinking about products and ideas around them, with the goal of not being fooled
-- change perspective
-- Identifying your team's biases and assumptions.
-
-
+- Noticing what everyone looks but no one sees.
+- Looking for what is inconsistent or counterintuitive.
+- Studying the product to understand how it behaves and why.
+- Finding problems before they happen or become critical.
+- Gathering examples or patterns before reporting a bug.
+- Speaking with different stakeholders to detect misunderstandings.
+- Using questions to validate assumptions and prompt new scenarios.
+- Forecasting unanticipated consequences of the team's decisions.
+- Providing information that improves those decisions.
 
 #### ❌ Exploration
 
@@ -98,19 +75,36 @@ Testing includes many activities.
 - using tools and manual interaction to question and evaluate the behaviours and states of the product
 - exploring products deeply, imaginatively, and suspiciously, to help find problems that threaten value
 
-#### ✅ Investigation
+#### ❌ Multiple perspectives (hats)
 
-**Testing uncovers unknowns and provides details.**
+- Strive to deliver a reliable product that can be used with confidence.
+- Testing is diminishing confusion and expanding the confidence of a user.
+- Helicopter view: it is sufficiently open that people could buy into it, and read into it, particularly non-testers.
+- Testing can be acting as an advocate for our customers.
+- helping our clients to understand the product they’ve got so they can decide if it’s the product they want
+- thinking critically and skeptically when thinking about products and ideas around them, with the goal of not being fooled
+- change perspective
+- Identifying your team's biases and assumptions.
 
-- Noticing what everyone looks but no one sees.
-- Looking for what is inconsistent or counterintuitive.
-- Studying the product to understand how it behaves and why.
-- Finding problems before they happen or become critical.
-- Gathering examples or patterns before reporting a bug.
-- Speaking with different stakeholders to detect misunderstandings.
-- Using questions to validate assumptions and prompt new scenarios.
-- Forecasting unanticipated consequences of the team's decisions.
-- Providing information that improves those decisions.
+#### ❌ Sharing
+#### ❌ Communication
+
+- Testing is making implicit things explicit to someone who matters. What everyone looks at but no one sees.
+- Testing is closing in on the ‘I’ the consumer, ‘I’ the tester, ‘I’ the developer, ‘I’ the owner and illuminating the path of ‘We’ the team.
+- Formalise knowledge
+- helping our clients to make empirically informed decisions about the product, project, or business.
+- Collect aids which aims at delivering quality information to anyone equipped to better build the product.
+- exploring, discovering, investigating, learning, and reporting about the product to reveal new information
+- gathering information about the product, its users, and conditions of its use, to help defend value
+
+#### ❌ Continuous
+
+- **Zero quality control**. Quality is built-in and it is not a separate/dedicated stage in the process.
+- **Quick feedback**. Identify issues early when they are the cheapest to fix.
+
+#### ❌ Valuable
+
+#### ❌ Mitigation
 
 -----
 
