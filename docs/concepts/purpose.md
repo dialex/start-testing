@@ -36,16 +36,6 @@ Even though you cannot guarantee quality, you can do your best effort to pursuit
 
 ### What testing is
 
-Testing includes many activities.
-
-- Identify risks and explore the product to discover if those risks are real and a threat
-- Feedback loop: provides information that has been uncovered or confirms if expectations on how the product should work are met
-- Exploring the product or executing tests to discover information
-- Give feedback to the team and stakeholders, for them to make an informed decision about the next steps to take regarding the product.
-- Challenge team assumptions of what the product is and should be.
-- Facilitate collaboration and communication between team members.
-- Help your team make an informed opinion about the perceived quality of the products and features that they own
-
 #### ✅ Investigation
 
 **Testing uncovers information that enables better decisions.**
@@ -125,6 +115,18 @@ More on the difference between Testing and QA: http://www.developsense.com/blog/
 **Quality Assurance (QA)**: Ah, yes. The most abused title/phrase in the testing world... No one person does this, and anyone who has a title "QA" is fooling themselves. "The quality assurance role in the company resides with the management and the CEO (the principal quality officer in the company), since it was they — and certainly not the testers — who had the authority to make decisions about quality."
 
 Notes: Again, more on the difference between Testing and QA here: <http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/>
+
+### To summarise it
+
+Testing includes many activities.
+
+- Identify risks and explore the product to discover if those risks are real and a threat
+- Feedback loop: provides information that has been uncovered or confirms if expectations on how the product should work are met
+- Exploring the product or executing tests to discover information
+- Give feedback to the team and stakeholders, for them to make an informed decision about the next steps to take regarding the product.
+- Challenge team assumptions of what the product is and should be.
+- Facilitate collaboration and communication between team members.
+- Help your team make an informed opinion about the perceived quality of the products and features that they own
 
 ## Teachers
 
