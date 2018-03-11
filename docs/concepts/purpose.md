@@ -28,7 +28,9 @@ Quality is **value to some person, who matters**. A bug is anything that threate
 
 Stakeholders will form a *perception* of the current quality based on their values, knowledge, skills and past experiences. Given the diversity of stakeholders, each will have a different perception of quality. That's why you cannot _assure quality_ to all of them.
 
-> Apple shipped the first version of Hypercard with about 500 known bugs in it, yet the product was a smashing success. The Hypercard QA team chose the right bugs to ship with. They also chose the right features. — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
+> Apple shipped the first version of Hypercard with about 500 known bugs in it, yet the product was a smashing success. The Hypercard QA team chose the right bugs to ship with. They also chose the right features.
+>
+> — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
 
 Even though you cannot guarantee quality, you can do your best effort to pursuit it. Thus the **purpose of testing** is to measure and maximise quality delivered, while minimising risk to an acceptable level. The more we test, the more we know about our products. With that knowledge, teams can make informed decisions on what to do with the product.
 
@@ -56,9 +58,9 @@ Testing includes many activities.
 #### ❌ Sharing
 #### ❌ Communication
 
-> Testing is making implicit things explicit to someone who matters. What everyone looks at but no one sees.
-> Testing is closing in on the ‘I’ the consumer, ‘I’ the tester, ‘I’ the developer, ‘I’ the owner and illuminating the path of ‘We’ the team.
-> Formalise knowledge
+- Testing is making implicit things explicit to someone who matters. What everyone looks at but no one sees.
+- Testing is closing in on the ‘I’ the consumer, ‘I’ the tester, ‘I’ the developer, ‘I’ the owner and illuminating the path of ‘We’ the team.
+- Formalise knowledge
 - helping our clients to make empirically informed decisions about the product, project, or business.
 - Collect aids which aims at delivering quality information to anyone equipped to better build the product.
 - exploring, discovering, investigating, learning, and reporting about the product to reveal new information
@@ -71,9 +73,9 @@ Testing includes many activities.
 #### ❌ Multiple perspectives (hats)
 
 - Strive to deliver a reliable product that can be used with confidence.
-> Testing is diminishing confusion and expanding the confidence of a user.
-> Helicopter view: it is sufficiently open that people could buy into it, and read into it, particularly non-testers.
-> Testing can be acting as an advocate for our customers.
+- Testing is diminishing confusion and expanding the confidence of a user.
+- Helicopter view: it is sufficiently open that people could buy into it, and read into it, particularly non-testers.
+- Testing can be acting as an advocate for our customers.
 - helping our clients to understand the product they’ve got so they can decide if it’s the product they want
 - thinking critically and skeptically when thinking about products and ideas around them, with the goal of not being fooled
 - change perspective
@@ -115,7 +117,8 @@ Testing includes many activities.
 ### What testing is not
 
 > Much of what we find as testers comes off-script and high-value unknowns are found by letting humans do what humans do best - thinking creatively!
-> -— [Connor Roberts](http://pixelgrill.com/what-is-testing/)
+>
+> — [Connor Roberts](http://pixelgrill.com/what-is-testing/)
 
 When you check, you confirm what you already know. When you test, you search for new information.
 
@@ -124,7 +127,9 @@ More on testing vs checking: http://www.satisfice.com/blog/archives/856
 More on the difference between Testing and QA: http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business
 
 > There is a powerful alternative to the orthodox, expensive, and boring methodologies that aim at
-> the best possible quality: (…) the discipline of good enough software development. — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
+> the best possible quality: (...) the discipline of good enough software development.
+>
+> — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
 
 **Quality Assurance (QA)**: Ah, yes. The most abused title/phrase in the testing world... No one person does this, and anyone who has a title "QA" is fooling themselves. "The quality assurance role in the company resides with the management and the CEO (the principal quality officer in the company), since it was they — and certainly not the testers — who had the authority to make decisions about quality."
 
