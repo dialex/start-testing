@@ -61,28 +61,31 @@ Even though you cannot guarantee quality, you can do your best effort to pursuit
 - Using questions to validate assumptions and prompt new scenarios.
 - Exploring products imaginatively to find unexpected behaviours.
 
-#### ❌ Multiple perspectives (hats)
+#### ✅ Empathy
 
-- Strive to deliver a reliable product that can be used with confidence.
-- Testing is diminishing confusion and expanding the confidence of a user.
-- Helicopter view: it is sufficiently open that people could buy into it, and read into it, particularly non-testers.
-- Testing can be acting as an advocate for our customers.
-- helping our clients to understand the product they’ve got so they can decide if it’s the product they want
-- thinking critically and skeptically when thinking about products and ideas around them, with the goal of not being fooled
-- change perspective
+**Testing wears multiple hats to understand the different stakeholders.**
+
+- Defining personas for the product's stakeholders.
+- Applying different perspectives to the same situation.
 - Identifying your team's biases and assumptions.
-- Speaking with different stakeholders to detect misunderstandings.
+- Speaking with different stakeholders to detect misunderstandings and misalignments.
+- Showing the client the gap between what they want and what the users want.
+- Thinking critically about features in order to evaluate their true value.
+- Negotiating with the client a balance between "good", "cheap" and "pretty".
+- Striving to deliver a reliable product that can be used with confidence.
 
-#### ❌ Sharing
 #### ❌ Communication
 
+**.**
+
 - Testing is making implicit things explicit to someone who matters. What everyone looks at but no one sees.
-- Testing is closing in on the ‘I’ the consumer, ‘I’ the tester, ‘I’ the developer, ‘I’ the owner and illuminating the path of ‘We’ the team.
 - Formalise knowledge
 - helping our clients to make empirically informed decisions about the product, project, or business.
 - Collect aids which aims at delivering quality information to anyone equipped to better build the product.
 - exploring, discovering, investigating, learning, and reporting about the product to reveal new information
 - gathering information about the product, its users, and conditions of its use, to help defend value
+- Helicopter view: it is sufficiently open that people could buy into it, and read into it, particularly non-testers.
+
 
 #### ❌ Continuous
 
