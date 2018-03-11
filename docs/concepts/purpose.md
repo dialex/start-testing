@@ -32,7 +32,7 @@ Stakeholders will form a *perception* of the current quality based on their valu
 
 Even though you cannot guarantee quality, you can do your best effort to pursuit it. Thus the **purpose of testing** is to measure and maximise quality delivered, while minimising risk to an acceptable level. The more we test, the more we know about our products. With that knowledge, teams can make informed decisions on what to do with the product.
 
-### What testing is
+### ❌ What testing is
 
 Testing includes many activities.
 
@@ -53,27 +53,40 @@ Testing includes many activities.
 
 #### ❌ Continuous
 
+- **Zero quality control**. Quality is built-in and it is not a separate/dedicated stage in the process.
+- **Quick feedback**. Identify issues early when they are the cheapest to fix.
+
 #### ❌ Valuable
 
 #### ❌ Mitigation
 
 #### ❌ Sharing
-
-- Collect aids which aims at delivering quality information to anyone equipped to better build the product.
-
-
 #### ❌ Communication
 
->  Testing is making implicit things explicit to someone who matters. What everyone looks at but no one sees.
+> Testing is making implicit things explicit to someone who matters. What everyone looks at but no one sees.
 > Testing is closing in on the ‘I’ the consumer, ‘I’ the tester, ‘I’ the developer, ‘I’ the owner and illuminating the path of ‘We’ the team.
 > Formalise knowledge
+- helping our clients to make empirically informed decisions about the product, project, or business.
+- Collect aids which aims at delivering quality information to anyone equipped to better build the product.
+- exploring, discovering, investigating, learning, and reporting about the product to reveal new information
+- gathering information about the product, its users, and conditions of its use, to help defend value
+
+
+
+
 
 #### ❌ Multiple perspective (hats)
 
 - Strive to deliver a reliable product that can be used with confidence.
 > Testing is diminishing confusion and expanding the confidence of a user.
->  Helicopter view: it is sufficiently open that people could buy into it, and read into it, particularly non-testers.
+> Helicopter view: it is sufficiently open that people could buy into it, and read into it, particularly non-testers.
 > Testing can be acting as an advocate for our customers.
+- helping our clients to understand the product they’ve got so they can decide if it’s the product they want
+- thinking critically and skeptically when thinking about products and ideas around them, with the goal of not being fooled
+
+
+
+
 
 #### ❌ Exploration
 
@@ -82,9 +95,14 @@ Testing includes many activities.
 - Identifying the subtleties and extremities where the system can be used.
 - Questioning and challenging how the product is presumed to be built and used.
 - Finding what is Not in harmony with the surroundings (context)
->  "pursuit" two aspects of testing for me: finding out what is there and digging what needs to be uncovered (chasing something which might be elusive or hard to find/spot).
-
+- finding out what is there and digging what needs to be uncovered (chasing something which might be elusive or hard to find/spot).
 - Like buying a microscope and a telescope to look at how a product is used today and in future.
+- experimenting with the product to find out how it may be having problems (which is not "breaking the product", by the way)
+- a process by which we systematically examine any aspect of the product with the goal of preventing surprises
+- a process of interacting with the product and its systems in many ways that challenge unwarranted optimism
+- using tools and manual interaction to question and evaluate the behaviours and states of the product
+- exploring products deeply, imaginatively, and suspiciously, to help find problems that threaten value
+
 
 #### ❌ Investigation
 
@@ -92,10 +110,17 @@ debug and find root causes. working more closely with developers, having convers
 To discover new information you need to act critically and creatively~~: ask questions, compare perspectives, try scenarios (even if they're unlikely).~~
 
 - Testing is having an eye for details however miniature or magnanimous.
+- reviewing the product and ideas and descriptions of it, looking for significant and relevant inconsistencies.
 > Attention to detail. Coherence.
 > Notice what everyone looks but no one sees.
 > Testing is testing the assumptions, change perspective.
 - Being biased and up-rooting those biases
+- a special part of the development process focused on discovering what could go badly (or what is going badly)
+- raising questions to help teams to develop products that more quickly and easily reveal their own problems
+- helping programmers and the team to learn about unanticipated aspects of the product we’re developing
+
+
+
 
 ---------
 
@@ -109,41 +134,16 @@ To discover new information you need to act critically and creatively~~: ask que
 
 -----
 
-- **Zero quality control**. Quality is built-in and it is not a separate/dedicated stage in the process.
-- **Quick feedback**. Identify issues early when they are the cheapest to fix.
-
-
-Here are some possible replies; I believe everything is Tweetable, or pretty close. Testing is...
-
-- reviewing the product and ideas and descriptions of it, looking for significant and relevant inconsistencies.
-- experimenting with the product to find out how it may be having problems—which is not "breaking the product", by the way.
-- helping our clients to make empirically informed decisions about the product, project, or business.
-- a process by which we systematically examine any aspect of the product with the goal of preventing surprises.
-- a process of interacting with the product and its systems in many ways that challenge unwarranted optimism.
-- observing and evaluating the product, to see where all those defect prevention ideas might have failed.
-- a special part of the development process focused on discovering what could go badly (or what is going badly).
-- exploring, discovering, investigating, learning, and reporting about the product to reveal new information.
-- gathering information about the product, its users, and conditions of its use, to help defend value.
-- raising questions to help teams to develop products that more quickly and easily reveal their own problems.
-- helping programmers and the team to learn about unanticipated aspects of the product we’re developing.
-- helping our clients to understand the product they’ve got so they can decide if it’s the product they want.
-- using both tools and direct interaction with the product to question and evaluate its behaviours and states.
-- exploring products deeply, imaginatively, and suspiciously, to help find problems that threaten value.
-- performing actual and thought experiments on products and ideas to identify problems and risks.
-- thinking critically and skeptically when thinking about products and ideas around them, with the goal of not being fooled.
-- evaluating a product by learning about it through exploration, experimentation, observation and inference.
-
 ### What testing is not
 
-> Much of what we find as testers comes off-script and high-value unknowns are found by letting humans do what humans do best - thinking creatively! — [Connor Roberts](http://pixelgrill.com/what-is-testing/)
+> Much of what we find as testers comes off-script and high-value unknowns are found by letting humans do what humans do best - thinking creatively!
+> -— [Connor Roberts](http://pixelgrill.com/what-is-testing/)
 
 When you check, you confirm what you already know. When you test, you search for new information.
 
-More on testing vs checking: <http://www.satisfice.com/blog/archives/856>
+More on testing vs checking: http://www.satisfice.com/blog/archives/856
 
-More on the difference between Testing and QA: <http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/>
-
-
+More on the difference between Testing and QA: http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business
 
 > There is a powerful alternative to the orthodox, expensive, and boring methodologies that aim at
 > the best possible quality: (…) the discipline of good enough software development. — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
@@ -163,3 +163,6 @@ Notes: Again, more on the difference between Testing and QA here: <http://www.de
 - [Testing Terminology](http://pixelgrill.com/testing-terminology/)
 - [The Challenge of "Good Enough" Software](http://www.satisfice.com/articles/gooden2.pdf)
 - [99 Second Introduction to Testing](https://dojo.ministryoftesting.com/lessons/99-second-introduction-to-testing)
+- [Testing is…](http://www.developsense.com/blog/2014/10/testing-is/)
+- [So, What Is Software Testing?](https://dojo.ministryoftesting.com/dojo/lessons/so-what-is-software-testing)
+- [What is the main purpose of our testing?](https://testingfromthehip.wordpress.com/2016/06/14/what-is-the-main-purpose-of-our-testing/)
