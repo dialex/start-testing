@@ -74,18 +74,17 @@ Even though you cannot guarantee quality, you can do your best effort to pursuit
 - Negotiating with the client a balance between "good", "cheap" and "pretty".
 - Striving to deliver a reliable product that can be used with confidence.
 
-#### ❌ Communication
+#### ✅ Communication
 
-**.**
+**Testing democratises information and aids stakeholders talking to each other.**
 
-- Testing is making implicit things explicit to someone who matters. What everyone looks at but no one sees.
-- Formalise knowledge
-- helping our clients to make empirically informed decisions about the product, project, or business.
-- Collect aids which aims at delivering quality information to anyone equipped to better build the product.
-- exploring, discovering, investigating, learning, and reporting about the product to reveal new information
-- gathering information about the product, its users, and conditions of its use, to help defend value
-- Helicopter view: it is sufficiently open that people could buy into it, and read into it, particularly non-testers.
-
+- Combining scattered data into relevant and accessible information.
+- Sharing just the right information, at the right time, using the right format.
+- Reporting bugs in a way that developers can fix them and clients prioritise them.
+- Communicating clearly and helping others do the same, using questions and examples.
+- Keeping discussions visual and people engaged and feeling heard.
+- Using your "helicopter view" to onboard people and "flying down" to details when needed.
+- Maintaining documentation and training users on how to use the product.
 
 #### ❌ Continuous
 
