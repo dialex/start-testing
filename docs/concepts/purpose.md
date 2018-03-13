@@ -85,30 +85,42 @@ Even though you cannot guarantee quality, you can do your best effort to pursuit
 - Using your "helicopter view" to onboard people and "flying down" to details when needed.
 - Maintaining documentation and training users on how to use the product.
 
------
-
 ### Testing is not...
+
+#### ❌ Checking
+
+> When you check, you confirm what you already know. When you test, you search for new information.
+>
+> — [Connor Roberts](http://pixelgrill.com/what-is-testing/)
+
+More on testing vs checking: http://www.satisfice.com/blog/archives/856
+
+Providing information that improves team's decisions
+
+A computer cannot currently explore in the same way as a human being.
+
+
+
+
+#### 🤖 Testing Automation
 
 > Much of what we find as testers comes off-script and high-value unknowns are found by letting humans do what humans do best - thinking creatively!
 >
 > — [Connor Roberts](http://pixelgrill.com/what-is-testing/)
 
-When you check, you confirm what you already know. When you test, you search for new information.
+Testing is about using and creating tools to support your work, not trying to get them to replace you. Testing as an exploratory, intellectual activity, cannot be replaced by automated checks. **Automation is a tool that frees us from repetitive monotonous tasks**; a means to save time and invest it in using our brains towards our testing goal.
 
-More on testing vs checking: http://www.satisfice.com/blog/archives/856
-
-More on the difference between Testing and QA: http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business
-
-> There is a powerful alternative to the orthodox, expensive, and boring methodologies that aim at
-> the best possible quality: (...) the discipline of good enough software development.
->
-> — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
+From the previous section you learned that words matter. That's why we should talk about ["Automation in Testing"](https://automationintesting.com/about/) and not "Test Automation". Remember: your product will be used by humans, like you. If only bots "test" your product, what kind of product will you deliver?
 
 #### ❌ Quality Assurance
 
+> There is a powerful alternative to the orthodox, expensive, and boring methodologies that aim at the best possible quality: (...) the discipline of good enough software development.
+>
+> — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
+
 **Quality Assurance (QA)**: Ah, yes. The most abused title/phrase in the testing world... No one person does this, and anyone who has a title "QA" is fooling themselves. "The quality assurance role in the company resides with the management and the CEO (the principal quality officer in the company), since it was they — and certainly not the testers — who had the authority to make decisions about quality."
 
-Notes: Again, more on the difference between Testing and QA here: <http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/>
+More on the difference between Testing and QA: http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business
 
 ### To summarise it
 
@@ -124,7 +136,7 @@ Testing includes many activities.
 
 ## Teachers
 
-- [Name](#link)
+- [MoT's The Dojo](https://dojo.ministryoftesting.com/)
 
 ## Sources
 
@@ -136,3 +148,4 @@ Testing includes many activities.
 - [Testing is…](http://www.developsense.com/blog/2014/10/testing-is/)
 - [So, What Is Software Testing?](https://dojo.ministryoftesting.com/dojo/lessons/so-what-is-software-testing)
 - [What is the main purpose of our testing?](https://testingfromthehip.wordpress.com/2016/06/14/what-is-the-main-purpose-of-our-testing/)
+- [Automation in Testing](https://automationintesting.com/about/)
