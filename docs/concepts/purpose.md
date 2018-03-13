@@ -34,22 +34,21 @@ Stakeholders will form a *perception* of the current quality based on their valu
 
 Even though you cannot guarantee quality, you can do your best effort to pursuit it. Thus the **purpose of testing** is to measure and maximise quality delivered, while minimising risk to an acceptable level. The more we test, the more we know about our products. With that knowledge, teams can make informed decisions on what to do with the product.
 
-### What testing is
+### Testing is...
 
-#### ✅ Investigation
+#### 🔎 Investigation
 
 **Testing uncovers information that enables better decisions.**
 
 - Noticing what everyone looks but no one sees.
 - Looking for what is inconsistent or counterintuitive.
 - Finding problems before they happen or become critical.
+- Providing information that improves team's decisions.
 - Gathering examples or patterns before reporting a bug.
 - Chasing some pattern which might be elusive or hard to understand.
 - Going beyond optimism and actually trying it.
-- Providing information that improves those decisions.
-- Predicting consequences of the team's decisions.
 
-#### ✅ Exploration
+#### ⛺️ Exploration
 
 **Testing uses creativity to discover assumptions and unexpected behaviours.**
 
@@ -61,7 +60,7 @@ Even though you cannot guarantee quality, you can do your best effort to pursuit
 - Using questions to validate assumptions and prompt new scenarios.
 - Exploring products imaginatively to find unexpected behaviours.
 
-#### ✅ Empathy
+#### 🤝 Empathy
 
 **Testing wears multiple hats to understand the different stakeholders.**
 
@@ -74,7 +73,7 @@ Even though you cannot guarantee quality, you can do your best effort to pursuit
 - Negotiating with the client a balance between "good", "cheap" and "pretty".
 - Striving to deliver a reliable product that can be used with confidence.
 
-#### ✅ Communication
+#### 💬 Communication
 
 **Testing democratises information and aids stakeholders talking to each other.**
 
@@ -86,18 +85,9 @@ Even though you cannot guarantee quality, you can do your best effort to pursuit
 - Using your "helicopter view" to onboard people and "flying down" to details when needed.
 - Maintaining documentation and training users on how to use the product.
 
-#### ❌ Continuous
-
-- **Zero quality control**. Quality is built-in and it is not a separate/dedicated stage in the process.
-- **Quick feedback**. Identify issues early when they are the cheapest to fix.
-
-#### ❌ Valuable
-
-#### ❌ Mitigation
-
 -----
 
-### What testing is not
+### Testing is not...
 
 > Much of what we find as testers comes off-script and high-value unknowns are found by letting humans do what humans do best - thinking creatively!
 >
@@ -113,6 +103,8 @@ More on the difference between Testing and QA: http://www.developsense.com/blog/
 > the best possible quality: (...) the discipline of good enough software development.
 >
 > — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
+
+#### ❌ Quality Assurance
 
 **Quality Assurance (QA)**: Ah, yes. The most abused title/phrase in the testing world... No one person does this, and anyone who has a title "QA" is fooling themselves. "The quality assurance role in the company resides with the management and the CEO (the principal quality officer in the company), since it was they — and certainly not the testers — who had the authority to make decisions about quality."
 
