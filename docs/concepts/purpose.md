@@ -146,7 +146,9 @@ From the previous section you learned that words matter. That's why we should ta
 
 > Part of the skill of being a tester is making the decisions on what to test.  Understanding the implications of not testing the other things, and any associated risks with decisions to exclude some or all of a thing which as a low risk, from testing.
 
-> Sometimes we are wasting our energy, effort and even nerves with bugs which are for “polishing to perfection” rather than making the product better. Think for a moment: what is the main purpose of the product?
+> Sometimes we are wasting our energy, effort and even nerves with bugs which are for “polishing to perfection” rather than making the product better. Think for a moment: what is the main purpose of the product? Sometimes you have to let go of the minor bugs – there are more important features to test/improve. Be smart with your priorities: work on making the product better, not perfect.
+
+> Does the product work as expected? Are there any areas which may cause trouble and were not thoroughly tested? Does my testing concentrate on making product better or perfect? -- [Lina Zubyte](https://letmetrysoftwaretesting.wordpress.com/2018/01/22/testing-to-make-product-better-vs-perfect/)
 
 Bach's good enough.
 
