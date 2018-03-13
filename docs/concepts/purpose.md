@@ -87,19 +87,30 @@ Even though you cannot guarantee quality, you can do your best effort to pursuit
 
 ### Testing is not...
 
+#### ❌ Straightforward
+
+> Testing is often thought of as something anyone can do. This is true to some extent (...) It takes real skill to do these things well and in a systematic way.
+>
+> — [Claire Reckless](https://dojo.ministryoftesting.com/dojo/lessons/so-what-is-software-testing)
+
+Knowledge about the context let's your testing go deeper (detail).
+Knowledge about the testing practices and tools let's you go wider (areas/disciplines).
+
+> To explore an application at a deeper level could require knowing something about the architecture, the technologies used, as well as the psychological aspect of thinking like different types of user.
+
+Exploration is not simple. Anyone can "play around" with your product. Testers do it in a structured way. They use their intuition to look for problematic areas, their empathy to think and feel like a user. They report their findings clearly, together with > recommendations.
+
+Checking is not simple. Anyone, even bots, can perform an action and compare the actual result with an expectation. Testers design scenarios to maximise coverage while minimising execution time. Some will be automated and for that they will use tools, frameworks, > technologies, and design patterns.
+
 #### ❌ Checking
 
 > When you check, you confirm what you already know. When you test, you search for new information.
 >
 > — [Connor Roberts](http://pixelgrill.com/what-is-testing/)
 
-More on testing vs checking: http://www.satisfice.com/blog/archives/856
-
-Providing information that improves team's decisions
-
-A computer cannot currently explore in the same way as a human being.
-
-
+> More on testing vs checking: http://www.satisfice.com/blog/archives/856
+> Providing information that improves team's decisions
+> A computer cannot currently explore in the same way as a human being.
 
 
 #### 🤖 Testing Automation
@@ -118,9 +129,26 @@ From the previous section you learned that words matter. That's why we should ta
 >
 > — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
 
-**Quality Assurance (QA)**: Ah, yes. The most abused title/phrase in the testing world... No one person does this, and anyone who has a title "QA" is fooling themselves. "The quality assurance role in the company resides with the management and the CEO (the principal quality officer in the company), since it was they — and certainly not the testers — who had the authority to make decisions about quality."
+> **Quality Assurance (QA)**: Ah, yes. The most abused title/phrase in the testing world... No one person does this, and anyone who has a title "QA" is fooling themselves. "The quality assurance role in the company resides with the management and the CEO (the principal quality officer in the company), since it was they — and certainly not the testers — who had the authority to make decisions about quality."
 
-More on the difference between Testing and QA: http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business
+> Testing is not the only part of software development where quality should be taken into account.  This should be done at all stages of the lifecycle, and is the responsibility of all members of the team. Testers can use their specific skillset to collaborate with others, at all stages, but it is not our job alone. It is a whole team exercise.
+
+> where testers could provide information indicating that the product is of sufficient quality for release, the end user’s perception could be that the product is of poor quality, perhaps due to incorrect requirements. It depends on your point of view. (refer to quality)
+
+> http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business
+
+
+#### ❌ Finite
+
+> As we cannot test everything, there may be scenarios we have not tried where issues occur.
+
+> you cannot possibly test every single thing there is to test for a given application. To test every combination, or action a user might take, or environmental variation, or possible data value, or path through the code, or variable, is unrealistic. Ultimately, testing is ‘finished’ when management has enough information to enable them to make the decision whether or not to release the product.
+
+> Part of the skill of being a tester is making the decisions on what to test.  Understanding the implications of not testing the other things, and any associated risks with decisions to exclude some or all of a thing which as a low risk, from testing.
+
+> Sometimes we are wasting our energy, effort and even nerves with bugs which are for “polishing to perfection” rather than making the product better. Think for a moment: what is the main purpose of the product?
+
+Bach's good enough.
 
 ### To summarise it
 
