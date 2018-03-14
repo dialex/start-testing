@@ -87,37 +87,25 @@ Even though you cannot guarantee quality, you can do your best effort to pursuit
 
 ### Testing is not...
 
-#### ❌ Straightforward
-
-> Testing is often thought of as something anyone can do. This is true to some extent (...) It takes real skill to do these things well and in a systematic way.
->
-> — [Claire Reckless](https://dojo.ministryoftesting.com/dojo/lessons/so-what-is-software-testing)
-
-Knowledge about the context let's your testing go deeper (detail).
-Knowledge about the testing practices and tools let's you go wider (areas/disciplines).
-
-> To explore an application at a deeper level could require knowing something about the architecture, the technologies used, as well as the psychological aspect of thinking like different types of user.
-
-Exploration is not simple. Anyone can "play around" with your product. Testers do it in a structured way. They use their intuition to look for problematic areas, their empathy to think and feel like a user. They report their findings clearly, together with > recommendations.
-
-Checking is not simple. Anyone, even bots, can perform an action and compare the actual result with an expectation. Testers design scenarios to maximise coverage while minimising execution time. Some will be automated and for that they will use tools, frameworks, > technologies, and design patterns.
-
-#### ❌ Checking
+#### ☑️ Checking
 
 > When you check, you confirm what you already know. When you test, you search for new information.
 >
 > — [Connor Roberts](http://pixelgrill.com/what-is-testing/)
 
-> Providing information that improves team's decisions
-> A computer cannot currently explore in the same way as a human being.
+As you should know by now, testing encompasses many activities — checking is just one of those.
 
-> We believe that skilled cognitive work is not factory work. That’s why it’s more important than ever to understand what testing is and how tools can support it. Testing encompasses checking (if checking exists at all), whereas checking cannot encompass testing. Testing can exist without checking. A test can exist without a check. But checking is a very popular and important part of ordinary testing, even very informal testing. Checking is a process that can, in principle be performed by a tool instead of a human, whereas testing can only be supported by tools. Nevertheless, tools can be used for much more than checking. -- James B
+According to [Rapid Software Testing](http://www.satisfice.com/blog/archives/856), checking is "the process of making evaluations by applying algorithmic decisions to observations of a product". Algorithmic meaning objective and repeatable. That's why checking is an activity that can be performed by a tool instead of a human.
+
+However, testing is a cognitive work that can only be performed by a human, optionally supported by tools.
 
 #### 🤖 Testing Automation
 
 > Much of what we find as testers comes off-script and high-value unknowns are found by letting humans do what humans do best - thinking creatively!
 >
 > — [Connor Roberts](http://pixelgrill.com/what-is-testing/)
+
+Tools can be used to support many testing activities — automating checks is just one of those.
 
 Testing is about using and creating tools to support your work, not trying to get them to replace you. Testing as an exploratory, intellectual activity, cannot be replaced by automated checks. **Automation is a tool that frees us from repetitive monotonous tasks**; a means to save time and invest it in using our brains towards our testing goal.
 
@@ -137,6 +125,20 @@ From the previous section you learned that words matter. That's why we should ta
 
 > http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business
 
+#### ❌ Straightforward
+
+> Testing is often thought of as something anyone can do. This is true to some extent (...) It takes real skill to do these things well and in a systematic way.
+>
+> — [Claire Reckless](https://dojo.ministryoftesting.com/dojo/lessons/so-what-is-software-testing)
+
+Knowledge about the context let's your testing go deeper (detail).
+Knowledge about the testing practices and tools let's you go wider (areas/disciplines).
+
+> To explore an application at a deeper level could require knowing something about the architecture, the technologies used, as well as the psychological aspect of thinking like different types of user.
+
+Exploration is not simple. Anyone can "play around" with your product. Testers do it in a structured way. They use their intuition to look for problematic areas, their empathy to think and feel like a user. They report their findings clearly, together with > recommendations.
+
+Checking is not simple. Anyone, even bots, can perform an action and compare the actual result with an expectation. Testers design scenarios to maximise coverage while minimising execution time. Some will be automated and for those they will use tools, frameworks, technologies, and design patterns.
 
 #### ❌ Finite
 
@@ -167,6 +169,7 @@ Testing includes many activities.
 ## Teachers
 
 - [MoT's The Dojo](https://dojo.ministryoftesting.com/)
+- [Rapid Software Testing](http://www.satisfice.com/testmethod.shtml)
 
 ## Sources
 
@@ -178,4 +181,5 @@ Testing includes many activities.
 - [Testing is...](http://www.developsense.com/blog/2014/10/testing-is/)
 - [So, What Is Software Testing?](https://dojo.ministryoftesting.com/dojo/lessons/so-what-is-software-testing)
 - [What is the main purpose of our testing?](https://testingfromthehip.wordpress.com/2016/06/14/what-is-the-main-purpose-of-our-testing/)
+- [Testing and Checking Refined](http://www.satisfice.com/blog/archives/856)
 - [Automation in Testing](https://automationintesting.com/about/)
