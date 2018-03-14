@@ -108,10 +108,10 @@ Checking is not simple. Anyone, even bots, can perform an action and compare the
 >
 > — [Connor Roberts](http://pixelgrill.com/what-is-testing/)
 
-> More on testing vs checking: http://www.satisfice.com/blog/archives/856
 > Providing information that improves team's decisions
 > A computer cannot currently explore in the same way as a human being.
 
+> We believe that skilled cognitive work is not factory work. That’s why it’s more important than ever to understand what testing is and how tools can support it. Testing encompasses checking (if checking exists at all), whereas checking cannot encompass testing. Testing can exist without checking. A test can exist without a check. But checking is a very popular and important part of ordinary testing, even very informal testing. Checking is a process that can, in principle be performed by a tool instead of a human, whereas testing can only be supported by tools. Nevertheless, tools can be used for much more than checking. -- James B
 
 #### 🤖 Testing Automation
 
@@ -175,7 +175,7 @@ Testing includes many activities.
 - [Testing Terminology](http://pixelgrill.com/testing-terminology/)
 - [The Challenge of "Good Enough" Software](http://www.satisfice.com/articles/gooden2.pdf)
 - [99 Second Introduction to Testing](https://dojo.ministryoftesting.com/lessons/99-second-introduction-to-testing)
-- [Testing is…](http://www.developsense.com/blog/2014/10/testing-is/)
+- [Testing is...](http://www.developsense.com/blog/2014/10/testing-is/)
 - [So, What Is Software Testing?](https://dojo.ministryoftesting.com/dojo/lessons/so-what-is-software-testing)
 - [What is the main purpose of our testing?](https://testingfromthehip.wordpress.com/2016/06/14/what-is-the-main-purpose-of-our-testing/)
 - [Automation in Testing](https://automationintesting.com/about/)
