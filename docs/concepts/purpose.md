@@ -99,7 +99,7 @@ According to [Rapid Software Testing](http://www.satisfice.com/blog/archives/856
 
 However, testing is a cognitive work that can only be performed by a human, optionally supported by tools.
 
-#### 🤖 Testing Automation
+#### 🤖 Automation
 
 > Much of what we find as testers comes off-script and high-value unknowns are found by letting humans do what humans do best - thinking creatively!
 >
@@ -107,9 +107,11 @@ However, testing is a cognitive work that can only be performed by a human, opti
 
 Tools can be used to support many testing activities — automating checks is just one of those.
 
-Testing is about using and creating tools to support your work, not trying to get them to replace you. Testing as an exploratory, intellectual activity, cannot be replaced by automated checks. **Automation is a tool that frees us from repetitive monotonous tasks**; a means to save time and invest it in using our brains towards our testing goal.
+Testing is about using and creating tools to support your work, not trying to get them to replace you. Testing as an exploratory, intellectual activity, cannot be replaced by automated checks. No automation will ever replace the tester reaction of "hmm, that's odd".
 
-From the previous section you learned that words matter. That's why we should talk about ["Automation in Testing"](https://automationintesting.com/about/) and not "Test Automation". Remember: your product will be used by humans, like you. If only bots "test" your product, what kind of product will you deliver?
+Automation is a tool that frees us from repetitive monotonous tasks; a means to save time and invest it in using our brains towards our testing goal. And since words matter, we say more ["Automation in Testing"](https://automationintesting.com/about/) and less "Test Automation".
+
+Remember: your product will be used by humans, like you. If only bots "test" your product, what kind of product will you deliver? And who tests the tests?
 
 #### 💥 Breaking software
 
@@ -127,7 +129,17 @@ It's like holding an object in your hand and, gently, look for cracks. In dysfun
 >
 > — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
 
-> **Quality Assurance (QA)**: Ah, yes. The most abused title/phrase in the testing world... No one person does this, and anyone who has a title "QA" is fooling themselves. "The quality assurance role in the company resides with the management and the CEO (the principal quality officer in the company), since it was they — and certainly not the testers — who had the authority to make decisions about quality."
+> If something goes bad in production then the testers failed. Since testers didn't write any of the code performing poorly, why blame them?
+
+The people who test are as human as the people who code, and all humans make mistakes. Testing isn't invincible nor a gatekeeper. Even with space and medical software, where lives are at stake, mistakes happen.
+
+> A factory produces large quantities of more or less identical widgets, so widget quality can be defined by a clear, measurable set of properties. The factory staff do near identical jobs, with the person on line 1 doing the same thing as the person on line 2 and so forth. Factory testers check widgets to make sure that the number of faulty parts doesn't exceed whatever the factory's standard is.
+
+> That's about as far as it goes, though, because it's actually not possible to assure quality in software. Every application is different, every feature is different, no two coders work on the same function, and no two testers test the same changes.
+
+> Assuring quality requires controlling quality, and when there are that many variables in play, control comes down to everyone doing their best work to make the software as good as they can get it. (...) "The quality assurance role in the company resides with the management and the CEO (the principal quality officer in the company), since it was they — and certainly not the testers — who had the authority to make decisions about quality."
+
+> **Quality Assurance (QA)**: Ah, yes. The most abused title/phrase in the testing world... No one person does this, and anyone who has a title "QA" is fooling themselves.
 
 > Testing is not the only part of software development where quality should be taken into account.  This should be done at all stages of the lifecycle, and is the responsibility of all members of the team. Testers can use their specific skillset to collaborate with others, at all stages, but it is not our job alone. It is a whole team exercise.
 
@@ -137,14 +149,22 @@ It's like holding an object in your hand and, gently, look for cracks. In dysfun
 
 #### ❌ Straightforward
 
-> Testing is often thought of as something anyone can do. This is true to some extent (...) It takes real skill to do these things well and in a systematic way.
+> Testing is often thought of as something anyone can do (...) It takes real skill to do these things well and in a systematic way.
 >
 > — [Claire Reckless](https://dojo.ministryoftesting.com/dojo/lessons/so-what-is-software-testing)
+
+Anyone can follow instructions but testing takes skill and training.
+
+> If you have skilled, trained testers with the freedom and knowledge to investigate past detailed instructions, you will find your testers doing things like searching the Internet to discover the obscure server setting that causes your software to break for some users. Or building load tests to find those nagging performance issues before you release. Or doing any number of other things to add value to your software that an untrained, unskilled person wouldn't know are even possible.
 
 Knowledge about the context let's your testing go deeper (detail).
 Knowledge about the testing practices and tools let's you go wider (areas/disciplines).
 
 > To explore an application at a deeper level could require knowing something about the architecture, the technologies used, as well as the psychological aspect of thinking like different types of user.
+
+> Testers are not telepathic. We try, but even at our best, we can't say for certain what the customer actually wanted or needed. This is why we try our best to test what matters -  we do risk assessments and try to make sure the core functionality of a piece of software is working to the best of our knowledge and ability.
+
+If you have skilled, trained testers with the freedom and knowledge to investigate past detailed instructions, you will find your testers doing things like searching the Internet to discover the obscure server setting that causes your software to break for some users. Or building load tests to find those nagging performance issues before you release. Or doing any number of other things to add value to your software that an untrained, unskilled person wouldn't know are even possible.
 
 Exploration is not simple. Anyone can "play around" with your product. Testers do it in a structured way. They use their intuition to look for problematic areas, their empathy to think and feel like a user. They report their findings clearly, together with > recommendations.
 
@@ -157,6 +177,8 @@ Checking is not simple. Anyone, even bots, can perform an action and compare the
 > — [Lina Zubyte](https://letmetrysoftwaretesting.wordpress.com/2018/01/22/testing-to-make-product-better-vs-perfect/)
 
 > As we cannot test everything, there may be scenarios we have not tried where issues occur.
+
+> Nothing Can Be Tested Completely. I'm sure that with an unlimited budget and an unlimited time frame (in the order of trillions of years) it would be possible to find every actual bug in a piece of software. It's silly to think testers should be able to catch everything that's wrong with a program. Thousands of computers, before you've tested every possible combination.
 
 > you cannot possibly test every single thing there is to test for a given application. To test every combination, or action a user might take, or environmental variation, or possible data value, or path through the code, or variable, is unrealistic. Ultimately, testing is ‘finished’ when management has enough information to enable them to make the decision whether or not to release the product.
 
