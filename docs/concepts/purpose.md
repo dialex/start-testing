@@ -142,6 +142,10 @@ Checking is not simple. Anyone, even bots, can perform an action and compare the
 
 #### ❌ Finite
 
+> Does the product work as expected? Are there any areas which may cause trouble and were not thoroughly tested? Does my testing concentrate on making product better or perfect?
+>
+> — [Lina Zubyte](https://letmetrysoftwaretesting.wordpress.com/2018/01/22/testing-to-make-product-better-vs-perfect/)
+
 > As we cannot test everything, there may be scenarios we have not tried where issues occur.
 
 > you cannot possibly test every single thing there is to test for a given application. To test every combination, or action a user might take, or environmental variation, or possible data value, or path through the code, or variable, is unrealistic. Ultimately, testing is ‘finished’ when management has enough information to enable them to make the decision whether or not to release the product.
@@ -150,7 +154,10 @@ Checking is not simple. Anyone, even bots, can perform an action and compare the
 
 > Sometimes we are wasting our energy, effort and even nerves with bugs which are for “polishing to perfection” rather than making the product better. Think for a moment: what is the main purpose of the product? Sometimes you have to let go of the minor bugs – there are more important features to test/improve. Be smart with your priorities: work on making the product better, not perfect.
 
-> Does the product work as expected? Are there any areas which may cause trouble and were not thoroughly tested? Does my testing concentrate on making product better or perfect? -- [Lina Zubyte](https://letmetrysoftwaretesting.wordpress.com/2018/01/22/testing-to-make-product-better-vs-perfect/)
+
+
+
+
 
 Bach's good enough.
 
@@ -176,10 +183,9 @@ Testing includes many activities.
 - [41 Definitions of Software Testing](https://chroniclesoftesting.blogspot.pt/2017/11/41-definitions-of-software-testing.html)
 - [The Anatomy of a Definition of Testing](https://qahiccupps.blogspot.pt/2016/11/the-anatomy-of-definition-of-testing.html)
 - [Testing Terminology](http://pixelgrill.com/testing-terminology/)
-- [The Challenge of "Good Enough" Software](http://www.satisfice.com/articles/gooden2.pdf)
 - [99 Second Introduction to Testing](https://dojo.ministryoftesting.com/lessons/99-second-introduction-to-testing)
 - [Testing is...](http://www.developsense.com/blog/2014/10/testing-is/)
 - [So, What Is Software Testing?](https://dojo.ministryoftesting.com/dojo/lessons/so-what-is-software-testing)
 - [What is the main purpose of our testing?](https://testingfromthehip.wordpress.com/2016/06/14/what-is-the-main-purpose-of-our-testing/)
 - [Testing and Checking Refined](http://www.satisfice.com/blog/archives/856)
-- [Automation in Testing](https://automationintesting.com/about/)
+- [Ten Misconceptions About Software Testing](https://dojo.ministryoftesting.com/dojo/lessons/ten-misconceptions-about-software-testing-that-non-testers-share)
