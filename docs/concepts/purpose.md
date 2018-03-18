@@ -111,6 +111,16 @@ Testing is about using and creating tools to support your work, not trying to ge
 
 From the previous section you learned that words matter. That's why we should talk about ["Automation in Testing"](https://automationintesting.com/about/) and not "Test Automation". Remember: your product will be used by humans, like you. If only bots "test" your product, what kind of product will you deliver?
 
+#### 💥 Breaking software
+
+> Somehow, code that worked just fine for the developer doesn't work for the tester. The reason is that the tester did something the developer didn't expect.
+>
+> — [Kate Paulk](https://dojo.ministryoftesting.com/dojo/lessons/ten-misconceptions-about-software-testing-that-non-testers-share)
+
+Testing is about exploring and discovering new information. Sometimes, testing attacks the software to check how it stands its ground (e.g. Penetration Testing). But most of the times, testers just search places that are broken and report them. They might not look broken, they might look unexpected or unpleasant to the user.
+
+It's like holding an object in your hand and, gently, look for cracks. In dysfunctional teams, testing can be blamed for not finding bugs or finding too many issues. Testing is "the messenger", so as long as you bring reliable and relevant news, you did your job well.
+
 #### ❌ Quality Assurance
 
 > There is a powerful alternative to the orthodox, expensive, and boring methodologies that aim at the best possible quality: (...) the discipline of good enough software development.
