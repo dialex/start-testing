@@ -26,13 +26,13 @@ Quality is **value to some person, who matters**. A bug is anything that threate
   - ✔ Increases customer loyalty.
   - ✘ Can lead to eternal chasing of trends and competitors.
 
-Stakeholders will form a *perception* of the current quality based on their values, knowledge, skills and past experiences. Given the diversity of stakeholders, each will have a different perception of quality. That's why you cannot _assure quality_ to all of them.
+Quality is a moving target — it adapts to its changing context (e.g. time, priorities, trends). Stakeholders will form a *perception* of the current quality based on their values, knowledge, skills and past experiences. Given the diversity of stakeholders, each will have a different perception of quality. That's one of the reasons why you cannot _assure quality_.
 
 > Apple shipped the first version of Hypercard with about 500 known bugs in it, yet the product was a smashing success. The Hypercard QA team chose the right bugs to ship with. They also chose the right features.
 >
 > — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
 
-Even though you cannot guarantee quality, you can do your best effort to pursuit it. Thus the **purpose of testing** is to measure and maximise quality delivered, while minimising risk to an acceptable level. The more we test, the more we know about our products. With that knowledge, teams can make informed decisions on what to do with the product.
+Even though you cannot guarantee quality, you can do your best effort to pursuit it. Thus the **purpose of testing** is to measure and maximise quality delivered, while minimising risk to an acceptable level. The more we test, the more we know about our products. With that knowledge, teams can make informed decisions on how to improve the product.
 
 ### Testing is...
 
@@ -212,6 +212,7 @@ Testing includes many activities.
 
 ## Sources
 
+- [Quality is a journey – but do you know your destination?](https://mavericktester.com/2018/03/14/quality-engineering/)
 - [41 Definitions of Software Testing](https://chroniclesoftesting.blogspot.pt/2017/11/41-definitions-of-software-testing.html)
 - [The Anatomy of a Definition of Testing](https://qahiccupps.blogspot.pt/2016/11/the-anatomy-of-definition-of-testing.html)
 - [Testing Terminology](http://pixelgrill.com/testing-terminology/)
