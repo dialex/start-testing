@@ -17,14 +17,14 @@ You just read 43 words in a single sentence. [Hemingway](http://www.hemingwayapp
 Quality is **value to some person, who matters**. A bug is anything that threatens quality. This simple definition shows how subjective quality really is. Here are a few other perspectives:
 
 - Aesthetic view: *Quality is emotive and simplicity.*
-  - ✅ Fosters excellence and pride in workmanship.
-  - ❌ Can become a cloak for perfectionists.
+  - ✔ Fosters excellence and pride in workmanship.
+  - ✘ Can become a cloak for perfectionists.
 - Manufacturing view: *Quality is conformance to specifications.*
-  - ✅ Fits the mindset of highly regulated contexts, e.g. health industry.
-  - ❌ Can produce products that satisfy no one, besides the specification's author.
+  - ✔ Fits the mindset of highly regulated contexts, e.g. health industry.
+  - ✘ Can produce products that satisfy no one, besides the specification's author.
 - Customer view: *Quality is whatever satisfies the customer.*
-  - ✅ Increases customer loyalty.
-  - ❌ Can lead to eternal chasing of trends and competitors.
+  - ✔ Increases customer loyalty.
+  - ✘ Can lead to eternal chasing of trends and competitors.
 
 Stakeholders will form a *perception* of the current quality based on their values, knowledge, skills and past experiences. Given the diversity of stakeholders, each will have a different perception of quality. That's why you cannot _assure quality_ to all of them.
 
@@ -121,7 +121,7 @@ Remember: your product will be used by humans, like you. If only bots "test" you
 
 Testing is about exploring and discovering new information. Sometimes, testing attacks the software to check how it stands its ground (e.g. Penetration Testing). But most of the times, testers just search places that are broken and report them. They might not look broken, they might look unexpected or unpleasant to the user.
 
-It's like holding an object in your hand and, gently, look for cracks. In dysfunctional teams, testing can be blamed for not finding bugs or finding too many issues. Testing is "the messenger", so as long as you bring reliable and relevant news, you did your job well.
+It's like holding an object in your hand and, gently, look for cracks. In dysfunctional teams, testing can be blamed for not finding bugs or finding too many issues. Testing is just "the messenger", so focus on bringing reliable and relevant "news" to your team.
 
 #### ❌ Quality Assurance
 
