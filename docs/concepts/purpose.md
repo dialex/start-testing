@@ -123,30 +123,6 @@ Testing is about exploring and discovering new information. Sometimes, testing a
 
 It's like holding an object in your hand and, gently, look for cracks. In dysfunctional teams, testing can be blamed for not finding bugs or finding too many issues. Testing is just "the messenger", so focus on bringing reliable and relevant "news" to your team.
 
-#### ❌ Quality Assurance
-
-> There is a powerful alternative to the orthodox, expensive, and boring methodologies that aim at the best possible quality: (...) the discipline of good enough software development.
->
-> — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
-
-> If something goes bad in production then the testers failed. Since testers didn't write any of the code performing poorly, why blame them?
-
-The people who test are as human as the people who code, and all humans make mistakes. Testing isn't invincible nor a gatekeeper. Even with space and medical software, where lives are at stake, mistakes happen.
-
-> A factory produces large quantities of more or less identical widgets, so widget quality can be defined by a clear, measurable set of properties. The factory staff do near identical jobs, with the person on line 1 doing the same thing as the person on line 2 and so forth. Factory testers check widgets to make sure that the number of faulty parts doesn't exceed whatever the factory's standard is.
-
-> That's about as far as it goes, though, because it's actually not possible to assure quality in software. Every application is different, every feature is different, no two coders work on the same function, and no two testers test the same changes.
-
-> Assuring quality requires controlling quality, and when there are that many variables in play, control comes down to everyone doing their best work to make the software as good as they can get it. (...) "The quality assurance role in the company resides with the management and the CEO (the principal quality officer in the company), since it was they — and certainly not the testers — who had the authority to make decisions about quality."
-
-> **Quality Assurance (QA)**: Ah, yes. The most abused title/phrase in the testing world... No one person does this, and anyone who has a title "QA" is fooling themselves.
-
-> Testing is not the only part of software development where quality should be taken into account.  This should be done at all stages of the lifecycle, and is the responsibility of all members of the team. Testers can use their specific skillset to collaborate with others, at all stages, but it is not our job alone. It is a whole team exercise.
-
-> where testers could provide information indicating that the product is of sufficient quality for release, the end user’s perception could be that the product is of poor quality, perhaps due to incorrect requirements. It depends on your point of view. (refer to quality)
-
-> http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business
-
 #### ❌ Straightforward
 
 > Testing is often thought of as something anyone can do (...) It takes real skill to do these things well and in a systematic way.
@@ -169,6 +145,22 @@ If you have skilled, trained testers with the freedom and knowledge to investiga
 Exploration is not simple. Anyone can "play around" with your product. Testers do it in a structured way. They use their intuition to look for problematic areas, their empathy to think and feel like a user. They report their findings clearly, together with > recommendations.
 
 Checking is not simple. Anyone, even bots, can perform an action and compare the actual result with an expectation. Testers design scenarios to maximise coverage while minimising execution time. Some will be automated and for those they will use tools, frameworks, technologies, and design patterns.
+
+#### 💯 Quality Assurance
+
+> Assuring quality requires control and when there are so many variables in play, control comes down to everyone doing their best work to make the software as good as they can get it.
+>
+> — [Kate Paulk](https://dojo.ministryoftesting.com/dojo/lessons/ten-misconceptions-about-software-testing-that-non-testers-share)
+
+Quality is a team effort. If something fails in production it's because the whole team failed: maybe the PO had unclear requirements, the developer forgot to consider an extra scenario, the DevOps deployed at the wrong time and the tester did not explore enough to spot the issue.
+
+The people who test are as human as the people who code, and all humans make mistakes. Testing is neither invincible nor a gatekeeper. Even with medical software, where lives are at stake, mistakes happen.
+
+> There is a powerful alternative to the orthodox, expensive, and boring methodologies that aim at the best possible quality: (...) the discipline of good enough software development.
+>
+> — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
+
+Testing can inform if a product has _enough quality_ for release, or if the user will _perceive_ the product as stable and useful. Otherwise, you risk never finishing your testing.
 
 #### ❌ Finite
 
@@ -195,7 +187,7 @@ Bach's good enough.
 
 ### To summarise it
 
-Testing includes many activities.
+<!-- Testing includes many activities.
 
 - Identify risks and explore the product to discover if those risks are real and a threat
 - Feedback loop: provides information that has been uncovered or confirms if expectations on how the product should work are met
@@ -203,7 +195,7 @@ Testing includes many activities.
 - Give feedback to the team and stakeholders, for them to make an informed decision about the next steps to take regarding the product.
 - Challenge team assumptions of what the product is and should be.
 - Facilitate collaboration and communication between team members.
-- Help your team make an informed opinion about the perceived quality of the products and features that they own
+- Help your team make an informed opinion about the perceived quality of the products and features that they own -->
 
 ## Teachers
 
@@ -222,3 +214,4 @@ Testing includes many activities.
 - [What is the main purpose of our testing?](https://testingfromthehip.wordpress.com/2016/06/14/what-is-the-main-purpose-of-our-testing/)
 - [Testing and Checking Refined](http://www.satisfice.com/blog/archives/856)
 - [Ten Misconceptions About Software Testing](https://dojo.ministryoftesting.com/dojo/lessons/ten-misconceptions-about-software-testing-that-non-testers-share)
+- [Testers: Get Out of the Quality Assurance Business](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business)
