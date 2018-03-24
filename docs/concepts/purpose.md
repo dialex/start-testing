@@ -111,7 +111,7 @@ Testing is about using and creating tools to support your work, not trying to ge
 
 Automation is a tool that frees us from repetitive monotonous tasks; a means to save time and invest it in using our brains towards our testing goal. And since words matter, we say more ["Automation in Testing"](https://automationintesting.com/about/) and less "Test Automation".
 
-Remember: your product will be used by humans, like you. If only bots "test" your product, what kind of product will you deliver? And who tests the tests?
+Remember: your product will be used by humans, like you. If only bots "test" your product, what kind of product will you deliver?
 
 #### 💥 Breaking software
 
@@ -153,28 +153,19 @@ The people who test are as human as the people who code, and all humans make mis
 
 Testing can inform if a product has _enough quality_ for release, or if the user will _perceive_ the product as stable and useful. Otherwise, you risk never finishing your testing.
 
-#### ❌ Finite
+#### ⏳ Finite
 
-> Does the product work as expected? Are there any areas which may cause trouble and were not thoroughly tested? Does my testing concentrate on making product better or perfect?
+> Does my (current) testing concentrate on making the product better or perfect? Be smart with your priorities: work on making the product better, not perfect.
 >
 > — [Lina Zubyte](https://letmetrysoftwaretesting.wordpress.com/2018/01/22/testing-to-make-product-better-vs-perfect/)
 
-> As we cannot test everything, there may be scenarios we have not tried where issues occur.
+Nothing can be tested completely. With an unlimited budget and an unlimited deadline (e.g. billions of years) it would be possible to check every combination of inputs that would lead to every bug of a particular software. But that's impossible.
 
-> Nothing Can Be Tested Completely. I'm sure that with an unlimited budget and an unlimited time frame (in the order of trillions of years) it would be possible to find every actual bug in a piece of software. It's silly to think testers should be able to catch everything that's wrong with a program. Thousands of computers, before you've tested every possible combination.
+Part of the skill of being a tester is deciding what to test. You will have to compromise and prioritise. That will be your [testing strategy]() to achieve ~~perfect~~ good enough software. And when do you stop testing?
 
-> you cannot possibly test every single thing there is to test for a given application. To test every combination, or action a user might take, or environmental variation, or possible data value, or path through the code, or variable, is unrealistic. Ultimately, testing is ‘finished’ when management has enough information to enable them to make the decision whether or not to release the product.
-
-> Part of the skill of being a tester is making the decisions on what to test.  Understanding the implications of not testing the other things, and any associated risks with decisions to exclude some or all of a thing which as a low risk, from testing.
-
-> Sometimes we are wasting our energy, effort and even nerves with bugs which are for “polishing to perfection” rather than making the product better. Think for a moment: what is the main purpose of the product? Sometimes you have to let go of the minor bugs – there are more important features to test/improve. Be smart with your priorities: work on making the product better, not perfect.
-
-
-
-
-
-
-Bach's good enough.
+> Ultimately, testing is _finished_ when management has enough information to enable them to make the decision whether or not to release the product.
+>
+> — [Claire Reckless](https://dojo.ministryoftesting.com/dojo/lessons/so-what-is-software-testing)
 
 ### To summarise it
 
