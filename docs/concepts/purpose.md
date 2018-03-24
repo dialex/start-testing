@@ -1,6 +1,6 @@
 # Testing's purpose
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** To measure and maximise quality delivered, while minimising risk to an acceptable level.
 
 ## Theory
 
@@ -123,30 +123,21 @@ Testing is about exploring and discovering new information. Sometimes, testing a
 
 It's like holding an object in your hand and, gently, look for cracks. In dysfunctional teams, testing can be blamed for not finding bugs or finding too many issues. Testing is just "the messenger", so focus on bringing reliable and relevant "news" to your team.
 
-#### ❌ Straightforward
+#### 🐵 Straightforward
 
 > Testing is often thought of as something anyone can do (...) It takes real skill to do these things well and in a systematic way.
 >
 > — [Claire Reckless](https://dojo.ministryoftesting.com/dojo/lessons/so-what-is-software-testing)
 
-Anyone can follow instructions but testing takes skill and training.
+Anyone can "play around" with a product. But testers explore it in a structured way. They use their intuition to look for problematic areas and their empathy to think/feel like a user. They report their findings objectively, together with recommendations.
 
-> If you have skilled, trained testers with the freedom and knowledge to investigate past detailed instructions, you will find your testers doing things like searching the Internet to discover the obscure server setting that causes your software to break for some users. Or building load tests to find those nagging performance issues before you release. Or doing any number of other things to add value to your software that an untrained, unskilled person wouldn't know are even possible.
+Anyone, even bots, can perform an action and compare the actual result with an expectation. But testers design scenarios to maximise coverage while minimising execution time. Some will be automated, and for those they will use/create tools and frameworks.
 
-Knowledge about the context let's your testing go deeper (detail).
-Knowledge about the testing practices and tools let's you go wider (areas/disciplines).
+> If you have skilled testers with the freedom and knowledge to investigate beyond test scripts, you will find your testers doing (…) a number of things to add value to your software, that an untrained person wouldn't know are even possible.
+>
+> — [Kate Paulk](https://dojo.ministryoftesting.com/dojo/lessons/ten-misconceptions-about-software-testing-that-non-testers-share)
 
-> To explore an application at a deeper level could require knowing something about the architecture, the technologies used, as well as the psychological aspect of thinking like different types of user.
-
-> Testers are not telepathic. We try, but even at our best, we can't say for certain what the customer actually wanted or needed. This is why we try our best to test what matters -  we do risk assessments and try to make sure the core functionality of a piece of software is working to the best of our knowledge and ability.
-
-If you have skilled, trained testers with the freedom and knowledge to investigate past detailed instructions, you will find your testers doing things like searching the Internet to discover the obscure server setting that causes your software to break for some users. Or building load tests to find those nagging performance issues before you release. Or doing any number of other things to add value to your software that an untrained, unskilled person wouldn't know are even possible.
-
-Exploration is not simple. Anyone can "play around" with your product. Testers do it in a structured way. They use their intuition to look for problematic areas, their empathy to think and feel like a user. They report their findings clearly, together with > recommendations.
-
-Checking is not simple. Anyone, even bots, can perform an action and compare the actual result with an expectation. Testers design scenarios to maximise coverage while minimising execution time. Some will be automated and for those they will use tools, frameworks, technologies, and design patterns.
-
-#### 💯 Quality Assurance
+#### 💯 Quality Assurance (QA)
 
 > Assuring quality requires control and when there are so many variables in play, control comes down to everyone doing their best work to make the software as good as they can get it.
 >
