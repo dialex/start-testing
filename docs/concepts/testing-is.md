@@ -26,7 +26,7 @@
 
 ## 🤝 Empathy
 
-**Testing wears multiple hats to understand the different stakeholders.**
+**Testing wears multiple hats to understand each stakeholders' perspective.**
 
 - Defining personas for the product's stakeholders.
 - Applying different perspectives to the same situation.

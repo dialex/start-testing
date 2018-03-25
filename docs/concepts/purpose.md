@@ -34,18 +34,14 @@ Even though you cannot guarantee quality, you can do your best effort to pursuit
 
 ## Practice
 
-Continue reading for specific examples of [what testing is](/concepts/testing-is.md) and [what testing is not](/concepts/testing-is-not.md).
+For specific examples, continue reading [what testing is](/concepts/testing-is.md) and [what testing is not](/concepts/testing-is-not.md).
 
-In summary, testing includes these activities:
+To summarise it:
 
-- TODO
-- Identify risks and explore the product to discover if those risks are real and a threat
-- Feedback loop: provides information that has been uncovered or confirms if expectations on how the product should work are met
-- Exploring the product or executing tests to discover information
-- Give feedback to the team and stakeholders, for them to make an informed decision about the next steps to take regarding the product.
-- Challenge team assumptions of what the product is and should be.
-- Facilitate collaboration and communication between team members.
-- Help your team make an informed opinion about the perceived quality of the products and features that they own
+- Testing uncovers information that enables better decisions;
+- Testing uses creativity to discover assumptions and unexpected behaviours;
+- Testing wears multiple hats to understand each stakeholders' perspective;
+- Testing democratises information and helps stakeholders talk to each other.
 
 ## Teachers
 
