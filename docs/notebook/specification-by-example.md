@@ -7,7 +7,7 @@
 - User Stories (⭐️ yellow) are written by POs/BAs and summarise the desired functionality
 - Examples (✅ green) detail a scenario that our feature must support
 - Rules (🔵 blue) summarise a group of examples or describe a constraint
-- Questions (🔴 red) are doubts that nobody in the conversation can answer -- if not answered, then assume
+- Questions (🔴 red) are doubts that nobody in the conversation can answer — if not answered, then assume
 
 **How it [works](https://medium.com/@mattwynne/introducing-example-mapping-42ccd15f8adf)**:
 
@@ -26,7 +26,7 @@
 - Invite the three amigos: a developer, a tester and a product person
 - Time-box each story to 25 minutes; Run it every other day
 - For distributed teams: use GDocs, or a coloured spreadsheet, or a mind map
-- Focus on getting clarity and reducing the unknowns -- leave the Gherkin scenarios for later
+- Focus on getting clarity and reducing the unknowns — leave the Gherkin scenarios for later
 - Reach a shared understanding of what it will take for the story to be done
 - Let the PO focus on rules/examples; then the Tester drafts the Gherkin scenarios and asks for a review
 - Use [thumb-vote](https://www.conferencesthatwork.com/index.php/event-design/2012/06/testing-consensus-using-roman-voting/) to decide if the story is detailed enough for development

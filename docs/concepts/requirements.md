@@ -55,7 +55,9 @@ So you might be asking **how can testers add value to this process?**
 - **Think again**. The more you know, more assumptions you make and more casual you are when testing. Fresh eyes find failure, so stay sharp.
 - **Don't be fooled**. Question requirements and extract their value/usefulness. Be aware of echo chambers.
 
-> It’s easier to fool people than to convince them that they have been fooled. -- Mark Twain
+> It’s easier to fool people than to convince them that they have been fooled.
+>
+> — Mark Twain
 
 ## Teachers
 
