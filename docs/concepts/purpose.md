@@ -8,12 +8,26 @@ Are you looking for the official definition of testing? You won't like it. Fine,
 
 # DEBUG LINKS
 
-- [same folder, absolute](/concepts/testing-is.md)
-- [diff folder, absolute](/tools/charters.md)
-- [same folder, relative two dots](../concepts/testing-is.md)
-- [diff folder, relative two dots](../tools/charters.md)
-- [same folder, relative single dot](./testing-is.md)
-- [same folder, relative no dot](testing-is.md)
+PROD
+
+- OK [same folder, absolute](/concepts/testing-is.md)
+- OK [diff folder, absolute](/tools/charters.md)
+- NOK [same folder, relative two dots](../concepts/testing-is.md)
+- NOK [diff folder, relative two dots](../tools/charters.md)
+- NOK [same folder, relative single dot](./testing-is.md)
+- NOK [same folder, relative no dot](testing-is.md)
+
+![diagram](../_media/notebook/user-story-mapping-1.png)
+![diagram](/_media/notebook/user-story-mapping-1.png)
+
+LOCAL
+
+- OK [same folder, absolute](/concepts/testing-is.md)
+- OK [diff folder, absolute](/tools/charters.md)
+- OK [same folder, relative two dots](../concepts/testing-is.md)
+- OK [diff folder, relative two dots](../tools/charters.md)
+- NOK [same folder, relative single dot](./testing-is.md)
+- NOK [same folder, relative no dot](testing-is.md)
 
 > The process consisting of all life cycle activities, both static and dynamic, concerned with planning, preparation and evaluation of software products and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects.
 >
