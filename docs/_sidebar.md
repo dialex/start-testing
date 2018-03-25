@@ -5,6 +5,8 @@
 - [**Home**](/)
 - **Concepts**
   - [Testing's purpose](/concepts/purpose.md)
+  - [Testing is...](/concepts/testing-is.md)
+  - [Testing is not...](/concepts/testing-is-not.md)
   - ~~Tester's responsibility~~
   - ~~Software Testing Life Cycle (STLC)~~
   - [Requirements](/concepts/requirements.md)
