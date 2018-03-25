@@ -1,4 +1,4 @@
-# Biases
+# Testing Strategy
 
 > **tl;dr** SUMMARY_HERE
 

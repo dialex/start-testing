@@ -74,7 +74,7 @@ Testing can inform if a product has _enough quality_ for release, or if the user
 
 Nothing can be tested completely. With an unlimited budget and an unlimited deadline (e.g. billions of years) it would be possible to check every combination of inputs that would lead to every bug of a particular software. But that's impossible.
 
-Part of the skill of being a tester is deciding what to test. You will have to compromise and prioritise. That will be your [testing strategy]() to achieve ~~perfect~~ good enough software. And when do you stop testing?
+Part of the skill of being a tester is deciding what to test. You will have to compromise and prioritise. That will be your [testing strategy](../tools/testing-strategy.md) to achieve ~~perfect~~ good enough software. And when do you stop testing?
 
 > Ultimately, testing is _finished_ when management has enough information to enable them to make the decision whether or not to release the product.
 >
