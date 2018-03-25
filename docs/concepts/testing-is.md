@@ -5,7 +5,7 @@
 **Testing uncovers information that enables better decisions.**
 
 - Noticing what everyone looks but no one sees.
-- Looking for what is inconsistent or counterintuitive.
+- Looking for what is inconsistent or counter intuitive.
 - Finding problems before they happen or become critical.
 - Providing information that improves team's decisions.
 - Gathering examples or patterns before reporting a bug.

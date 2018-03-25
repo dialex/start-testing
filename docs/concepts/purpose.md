@@ -6,7 +6,7 @@
 
 Are you looking for the official definition of testing? You won't like it. Fine, here it is:
 
-> The process consisting of all lifecycle activities, both static and dynamic, concerned with planning, preparation and evaluation of software products and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects.
+> The process consisting of all life cycle activities, both static and dynamic, concerned with planning, preparation and evaluation of software products and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects.
 >
 > — International Software Testing Qualifications Board [(ISTQB)](http://glossary.istqb.org/search/testing)
 
