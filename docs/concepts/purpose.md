@@ -6,34 +6,11 @@
 
 Are you looking for the official definition of testing? You won't like it. Fine, here it is:
 
-# DEBUG LINKS
-
-PROD
-
-- OK [same folder, absolute](/concepts/testing-is.md)
-- OK [diff folder, absolute](/tools/charters.md)
-- NOK [same folder, relative two dots](../concepts/testing-is.md)
-- NOK [diff folder, relative two dots](../tools/charters.md)
-- NOK [same folder, relative single dot](./testing-is.md)
-- NOK [same folder, relative no dot](testing-is.md)
-
-![diagram](../_media/notebook/user-story-mapping-1.png)
-![diagram](/_media/notebook/user-story-mapping-1.png)
-
-LOCAL
-
-- OK [same folder, absolute](/concepts/testing-is.md)
-- OK [diff folder, absolute](/tools/charters.md)
-- OK [same folder, relative two dots](../concepts/testing-is.md)
-- OK [diff folder, relative two dots](../tools/charters.md)
-- NOK [same folder, relative single dot](./testing-is.md)
-- NOK [same folder, relative no dot](testing-is.md)
-
 > The process consisting of all life cycle activities, both static and dynamic, concerned with planning, preparation and evaluation of software products and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects.
 >
 > — International Software Testing Qualifications Board [(ISTQB)](http://glossary.istqb.org/search/testing)
 
-You just read 43 words in a single sentence. [Hemingway](http://www.hemingwayapp.com/) hates it and your brain hates it too. Instead, let's focus on what is the purpose of testing — why we need it and what it is. From there, we can think about the [responsibilities of a tester](../concepts/responsibilities.md).
+You just read 43 words in a single sentence. [Hemingway](http://www.hemingwayapp.com/) hates it and your brain hates it too. Instead, let's focus on what is the purpose of testing — why we need it and what it is. From there, we can think about the [responsibilities of a tester](/concepts/responsibilities.md).
 
 Quality is **value to some person, who matters**. A bug is anything that threatens quality. This simple definition shows how subjective quality really is. Here are a few other perspectives:
 
@@ -57,7 +34,7 @@ Even though you cannot guarantee quality, you can do your best effort to pursuit
 
 ## Practice
 
-Continue reading for specific examples of [what testing is](../concepts/testing-is.md) and [what testing is not](../concepts/testing-is-not.md).
+Continue reading for specific examples of [what testing is](/concepts/testing-is.md) and [what testing is not](/concepts/testing-is-not.md).
 
 In summary, testing includes these activities:
 
