@@ -1,17 +1,33 @@
 # Tester's responsibilities
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** To perform the necessary activities to fulfil the [purpose of testing](/concepts/testing-purpose.md).
 
 ## Theory
 
-Testers fulfil the [purpose of testing](/concepts/testing-purpose.md).
+Your responsibility as a tester is to fulfil the [purpose of testing](/concepts/testing-purpose.md).
+
+That means you will be performing a [diverse set of activities](/concepts/what-testing-is.md).
+
+Keep in mind and [avoid the common pitfalls](/concepts/what-testing-is-not.md).
+
+
+
+
+
+
+
+
+
+
+
+---------
 
 ### 🔎 Investigation
 
 (blank)
 
-- Testing is that feeling when you love yourself for learning to learn new every day.
-- Testing is breaking barriers to test.
+- Testing is that feeling when you love yourself for learning something new every day.
+- Testing is breaking barriers to testing.
 
 ### ⛺️ Exploration
 
@@ -33,7 +49,9 @@ Testers fulfil the [purpose of testing](/concepts/testing-purpose.md).
 - Testing is building credibility for yourself and your organisation, which serves you and which you are serving.
 - Testing is a responsibility of representing information which is essential for bettering the application/product under test.
 
+## Practice
 
+The goal of a tester is not _just_ finding issues, otherwise you might become [a perfectionist that raises mostly low-value issues](https://letmetrysoftwaretesting.wordpress.com/2018/01/22/testing-to-make-product-better-vs-perfect/). Instead, your focus should be pursuing quality and keeping it at a high level. Finding issues is just a consequence of that pursuit.
 
 ## Teachers
 
@@ -78,7 +96,7 @@ Don't own quality
 
 You are not the one sole responsible for the quality of the product. Sometimes, you may find yourself not having a say with how something should be implemented and that’s fine. It is important that you make your team feel empowered that they are doing the job their own way so as to preserve their creativity. The tester does not “break the product”, the tester finds a product that is already broken. You must work with the team to ensure that you keep on improving. If you find that in sprint retrospectives no one is making suggestions to improve the process, something is going terribly wrong. Be a quality fanatic, if something can be automated and would save 5 minutes a day, say it.
 
-The goal of a tester is not to find issues, otherwise you might become [a perfectionist that raises mostly low-value issues](https://letmetrysoftwaretesting.wordpress.com/2018/01/22/testing-to-make-product-better-vs-perfect/). Instead, the focus should be to pursuit product quality and keep it at a high standard. Finding issues is just a consequence of that pursuit. Don't accept that something cannot be improved on the next iteration.
+
 
 ----------
 
