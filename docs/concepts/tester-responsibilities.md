@@ -19,50 +19,28 @@ While you do all that, be aware and [avoid the common pitfalls](/concepts/what-t
 
 ## Practice
 
-🤔 Think like a tester
+### Release
+
+> Half my day is facilitating conversations between stakeholders and attempting to understand what each person is expecting from a release and to help get the release into a place where all stakeholders expectations are met.
+>
+> If this is not possible I warn the stakeholder that this will require new timelines and I provide data to demonstrate why and how.
+>
+> — [What do testers do on a daily basis?](https://club.ministryoftesting.com/t/what-do-testers-do-on-a-daily-basis/12687)
+
+### 🏃 Team velocity
 
 
+> The rest of the time I help the team maintain a high velocity by suggestion tools and practices that expedite our work.
+>
+> — [What do testers do on a daily basis?](https://club.ministryoftesting.com/t/what-do-testers-do-on-a-daily-basis/12687)
 
+### 🤔 Think like a tester
 
-
-
-
-
-
-
-
----------
-
-### 🔎 Investigation
-
-(blank)
-
-- Testing is that feeling when you love yourself for learning something new every day.
-- Testing is breaking barriers to testing.
-
-### ⛺️ Exploration
-
-(blank)
-
-- Testing is learning to explore "the road less travelled".
-
-### 🤝 Empathy
-
-(blank)
-
-- Testing is an unconventional mode of transport to the minds of a user.
-
-### 💬 Communication
-
-(blank)
-
-- Testing is story telling
-- Testing is building credibility for yourself and your organisation, which serves you and which you are serving.
-- Testing is a responsibility of representing information which is essential for bettering the application/product under test.
-
-## Practice
-
-The goal of a tester is not _just_ finding issues, otherwise you might become [a perfectionist that raises mostly low-value issues](https://letmetrysoftwaretesting.wordpress.com/2018/01/22/testing-to-make-product-better-vs-perfect/). Instead, your focus should be pursuing quality and keeping it at a high level. Finding issues is just a consequence of that pursuit.
+- Technical thinking:
+- Creative/Lateral thinking:
+- Critical thinking:
+- Practical thinking:
+- Blackbox thinking:
 
 ## Teachers
 
@@ -71,13 +49,7 @@ The goal of a tester is not _just_ finding issues, otherwise you might become [a
 ## Sources
 
 - [41 Definitions of Software Testing](https://chroniclesoftesting.blogspot.pt/2017/11/41-definitions-of-software-testing.html)
-
-------------
-
-> About half my day is facilitating conversations between bizdev, design, and the founders of the company and attempting to understand what each person is expecting from a release and to help get the release into a place where all stakeholders expectations are met. If this is not possible I relay that to the stakeholder that this will affect new timelines for implementations and data analysis to say why and how.
-> I attempt to increase the velocity of the engineers work by suggestion tooling, systems, and communication practices that expedite our work.
-> I also investigate any client bugs which were reported
-> -- [Source](https://club.ministryoftesting.com/t/what-do-testers-do-on-a-daily-basis/12687)
+- [How To Think Like a Software Tester](https://thelifeofoneman.com/think-like-software-tester)
 
 -------------
 
@@ -107,7 +79,36 @@ Don't own quality
 
 You are not the one sole responsible for the quality of the product. Sometimes, you may find yourself not having a say with how something should be implemented and that’s fine. It is important that you make your team feel empowered that they are doing the job their own way so as to preserve their creativity. The tester does not “break the product”, the tester finds a product that is already broken. You must work with the team to ensure that you keep on improving. If you find that in sprint retrospectives no one is making suggestions to improve the process, something is going terribly wrong. Be a quality fanatic, if something can be automated and would save 5 minutes a day, say it.
 
+--------
 
+### 🔎 Investigation
+
+(blank)
+
+- Testing is that feeling when you love yourself for learning something new every day.
+- Testing is breaking barriers to testing.
+
+### ⛺️ Exploration
+
+(blank)
+
+- Testing is learning to explore "the road less travelled".
+
+### 🤝 Empathy
+
+(blank)
+
+- Testing is an unconventional mode of transport to the minds of a user.
+
+### 💬 Communication
+
+(blank)
+
+- Testing is story telling
+- Testing is building credibility for yourself and your organisation, which serves you and which you are serving.
+- Testing is a responsibility of representing information which is essential for bettering the application/product under test.
+
+The goal of a tester is not _just_ finding issues, otherwise you might become [a perfectionist that raises mostly low-value issues](https://letmetrysoftwaretesting.wordpress.com/2018/01/22/testing-to-make-product-better-vs-perfect/). Instead, your focus should be pursuing quality and keeping it at a high level. Finding issues is just a consequence of that pursuit.
 
 ----------
 
