@@ -6,9 +6,20 @@
 
 Your responsibility as a tester is to fulfil the [purpose of testing](/concepts/testing-purpose.md).
 
-That means you will be performing a [diverse set of activities](/concepts/what-testing-is.md).
+That means you will be performing a [diverse set of activities](/concepts/what-testing-is.md), which include:
 
-Keep in mind and [avoid the common pitfalls](/concepts/what-testing-is-not.md).
+- Clarify [requirements](/concepts/requirements.md) between stakeholders and developers;
+- Elaborate a [test strategy]() for your product;
+- Advocate the right [test methodology]() for your team;
+- Collect and develop [tools and techniques]() to support your testing;
+- Choose which [test types]() bring the most value at a given time;
+- Adapt your [role]() to the current team's needs.
+
+While you do all that, be aware and [avoid the common pitfalls](/concepts/what-testing-is-not.md).
+
+## Practice
+
+🤔 Think like a tester
 
 
 
