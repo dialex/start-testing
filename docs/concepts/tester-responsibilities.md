@@ -34,13 +34,13 @@ While you do all that, be aware and [avoid the common pitfalls](/concepts/what-t
 >
 > — [What do testers do on a daily basis?](https://club.ministryoftesting.com/t/what-do-testers-do-on-a-daily-basis/12687)
 
-### 🤔 Think like a tester
+### 🤔 Think differently
 
-- Technical thinking:
-- Creative/Lateral thinking:
-- Critical thinking:
-- Practical thinking:
-- Blackbox thinking:
+- **Technical thinking**:
+- **Creative thinking**: usage of _creativity_ to analyse the same context using a different perspective. This is useful to uncover new information that no one thought about before (aka. "unknown unknowns").
+- **Critical thinking**: usage of _scepticism_ to question what is known or assumed to be the truth. This is useful to detect assumptions or biases and review the "why" and "how" of a requirement.
+- **Practical thinking**: usage of _visualisation_ to draw the ideas under discussion or ask for realistic examples. This is useful to predict how an idea will be done and remove any obstacles to its implementation.
+- **Blackbox thinking**:
 
 ## Teachers
 
@@ -50,6 +50,7 @@ While you do all that, be aware and [avoid the common pitfalls](/concepts/what-t
 
 - [41 Definitions of Software Testing](https://chroniclesoftesting.blogspot.pt/2017/11/41-definitions-of-software-testing.html)
 - [How To Think Like a Software Tester](https://thelifeofoneman.com/think-like-software-tester)
+- [99 Second Introduction to Lateral and Critical Thinking](https://dojo.ministryoftesting.com/dojo/lessons/99-second-introduction-to-lateral-and-critical-thinking)
 
 -------------
 
