@@ -36,11 +36,13 @@ While you do all that, be aware and [avoid the common pitfalls](/concepts/what-t
 
 ### 🤔 Think differently
 
+~~Testers add value to teams by contributing with different perspectives. If you always use the same approach, you might miss important aspects, hence next time try to combine different thinkings:~~
+
 - **Technical thinking**:
 - **Creative thinking**: usage of _creativity_ to analyse the same context using a different perspective. This is useful to uncover new information that no one thought about before (aka. "unknown unknowns").
 - **Critical thinking**: usage of _scepticism_ to question what is known or assumed to be the truth. This is useful to detect assumptions or biases and review the "why" and "how" of a requirement.
-- **Practical thinking**: usage of _visualisation_ to draw the ideas under discussion or ask for realistic examples. This is useful to predict how an idea will be done and remove any obstacles to its implementation.
-- **Blackbox thinking**:
+- **Practical thinking**: usage of _visualisation_ to draw the ideas under discussion or ask for examples. This is useful to predict how an idea will be done and remove any obstacles to its implementation.
+- **Blackbox thinking**: usage of _ignorance_ to skip implementation details. This is useful to focus on behaviour and end-to-end flow, impersonating a user.
 
 ## Teachers
 
