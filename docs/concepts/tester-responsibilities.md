@@ -19,6 +19,8 @@ While you do all that, be aware and [avoid the common pitfalls](/concepts/what-t
 
 ## Practice
 
+If you are looking for an exhaustive list of all the typical responsibilites of a tester, then check this [link](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1).
+
 ### Release
 
 > Half my day is facilitating conversations between stakeholders and attempting to understand what each person is expecting from a release and to help get the release into a place where all stakeholders expectations are met.
@@ -27,7 +29,7 @@ While you do all that, be aware and [avoid the common pitfalls](/concepts/what-t
 >
 > — [What do testers do on a daily basis?](https://club.ministryoftesting.com/t/what-do-testers-do-on-a-daily-basis/12687)
 
-### 🏃 Team velocity
+### Team velocity
 
 
 > The rest of the time I help the team maintain a high velocity by suggestion tools and practices that expedite our work.
@@ -53,6 +55,7 @@ One way testers add value to teams is by contributing with different perspective
 - [41 Definitions of Software Testing](https://chroniclesoftesting.blogspot.pt/2017/11/41-definitions-of-software-testing.html)
 - [How To Think Like a Software Tester](https://thelifeofoneman.com/think-like-software-tester)
 - [99 Second Introduction to Lateral and Critical Thinking](https://dojo.ministryoftesting.com/dojo/lessons/99-second-introduction-to-lateral-and-critical-thinking)
+- [What do software testers do](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1)
 
 -------------
 
@@ -122,211 +125,5 @@ My son had his own plan, skill and will. He could have learned on his own. It pr
 That's where skilled testers come in. Some of us are highly technical and will highlight technical issues or opportunities you haven't noticed. Some of us are skilled at seeing the app from the customers view point and highlighting problems that will cost you customers. Many of us do the above and much more. This could be letting you know if we are breaking the law. We often write tools that enable us to test more things – better. Testers can be useful for just pointing out the simple stuff like – we are developing for Red Hat Linux, but 60% of our users are on Windows, and 25% are on Apple Macs.
 
 http://www.investigatingsoftware.co.uk/2017/04/why-you-might-need-testers.html
-
----------
-
-[Source of what comes next](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1)
-They Explore These Types of Testing
-They Do Things Related To Bugs
-They Get Involved With Information Gathering
-They Do Testing Type Activities
-They Perform Tasks Related to Tests
-They Can Manage Testing
-The Can Analyse Things!
-They Can Do Other Things...
-Software Testers Like To Improve Themselves...
-On the job:
-Going to things:
-Self and Online Learning:
-We can seek to give or receive through:
-Software Testers Can Also Help Improve Others!
-Practically we can do things like:
-Software Testers Really Can Work With Others
-
-### They Explore These Types of Testing
-
-- Exploratory testing
-- Functional testing
-- Performance testing
-- Usability testing
-- Security testing
-- Regression testing
-- Stress testing
-- Load testing
-- ATDD
-- Monkey testing
-- Test automation
-- Checking
-
-### They Do Things Related To Bugs
-
-- Raising bugs / Breaking things
-- Re-opening bugs
-- Fixing bugs
-- Managing bugs
-- Retesting bugs
-- Validating bugs
-
-### They Get Involved With Information Gathering
-
-- Knowledge gathering
-- Investigating technology
-- Asking questions
-- Researching known issues
-- Learning about the product
-- Collecting and analyzing metrics
-- Test reporting
-- Identifying the cause of problems
-- Market research
-
-### They Do Testing Type Activities
-
-- Designing and reviewing test strategies, test plans & test cases
-- Monitoring
-- Reporting
-- Process improvement
-- Deploying code to test environments
-- Solving problems
-- Discovering broken assumptions
-- Administrative tasks (this is a bit vague, perhaps we can expand on it?)
-- Saying "that's odd" and exploring what's going on behind the scenes
-- Considering whether both the requirement and customer expectations have been delivered
-- Getting stakeholders to sign-off my work
-- Ensuring the client gets what they require
-- Writing mindmaps
-
-### They Perform Tasks Related to Tests
-
-- Executing test cases
-- Maintaining tests
-- Writing automated scripts
-- Generating test data
-- Writing testing tools
-- Maintaining the test environment
-
-### They Can Manage Testing
-
-- Coordinating testing
-- Helping to plan sprints
-- Preparing test plans
-- Attending planning sessions
-- Documenting workflows
-- Documentation
-- Deciding when to stop testing
-- Managing testers in the team
-- Balancing resources between projects
-- Interviewing and recruitment
-
-### The Can Analyse Things!
-
-- Mapping out ideas
-- Analysing stories
-- Discussing business processes
-- Understanding users
-- Reading and reviewing requirements
-- Assessing and exposing risk
-- Putting myself in our user's shoes to test products
-- Turning user scenarios into test scenarios
-- Root cause analysis
-- Improving the product backlog
-- Digging through logs
-- Creating burndown charts
-- Test results analysis
-
-### They Can Do Other Things...
-
-- Making the world a better place
-- Deploying software
-- Investigating production problems in legacy code to find underlying cause
-- Annoying developers 😉
-- Keeping track of the client's objectives
-
-### Software Testers Like To Improve Themselves...
-
-#### On the job:
-
-- asking questions
-- learning from the product
-- learning to code
-- maintaining a cynical view
-- looking for better ways to do the things I need to do
-- learning about new tools
-
-#### Going to things:
-
-- conferences (like TestBash!)
-- training courses
-- meetups
-
-#### Self and Online Learning:
-
-- blogs
-- books
-- podcasts
-- courses
-- webinars
-- videos
-- conference talks
-- social media
-
-### We can seek to give or receive through:
-
-- Coaching
-- Explanations
-- Mentoring
-- Teaching
-
-### Software Testers Can Also Help Improve Others!
-
-#### Practically we can do things like:
-
-- Help prepare user guides
-- Sharing useful articles and other items with team members
-- Recommending changes to processes
-- Support testers in finding relevant information
-- Blog and write about testing things
-- Contributing to the company testing guild
-- Coach developers (or anyone!) about testing
-- Do presentations
-- Attend or organise activities like Lean Coffee
-- Give experience reports
-- Documenting the testing
-- Training others
-- Introducing new processes
-- share resources (like books!)
-- Introducing others to the community
-
-### Software Testers Really Can Work With Others
-
-- Talking to stakeholders, customers, engineers, management; anyone and everyone
-- Working with developers to solve problems
-- Collaborating with all team members
-- Encouraging developers to provide fix details and retest guidance for bug fixes
-- Herding sheep 🙂
-- Reviewing code
-- Suggesting enhancements to the product
-- Pairing with developers
-- Working with project/program managers to find gaps in requirements/user stories/specifications/use cases
-- Assisting with investigation of customer issues
-- Providing information to others about the state of the software
-- Discussing feature design with UX designers and developers
-- Participating in the daily standup meeting
-- Attending showcases and demo's
-- Chatting
-- Offering help
-- Working with other testers
-- Acting as the "corporate memory" for past changes and problems
-- Helping developers fail fast
-- Helping clients test changes
-- Being the interface between development and business, explaining things to each side in terms they understand.
-- Helping stakeholders make their expectations about the software more clear
-- Supporting users
-- Making others tea and coffee
-- Peer reviewing
-- Attending planning meetings
-- Socialising, selling, explaining, justifying testing efforts
-- Changing mindsets
-- Hosting the test case review meeting
-- Improving product testability
 
 ---------
