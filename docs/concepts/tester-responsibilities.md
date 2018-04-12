@@ -87,32 +87,7 @@ You are not the one sole responsible for the quality of the product. Sometimes, 
 
 --------
 
-### 🔎 Investigation
-
-(blank)
-
-- Testing is that feeling when you love yourself for learning something new every day.
-- Testing is breaking barriers to testing.
-
-### ⛺️ Exploration
-
-(blank)
-
-- Testing is learning to explore "the road less travelled".
-
-### 🤝 Empathy
-
-(blank)
-
-- Testing is an unconventional mode of transport to the minds of a user.
-
-### 💬 Communication
-
-(blank)
-
-- Testing is story telling
 - Testing is building credibility for yourself and your organisation, which serves you and which you are serving.
-- Testing is a responsibility of representing information which is essential for bettering the application/product under test.
 
 The goal of a tester is not _just_ finding issues, otherwise you might become [a perfectionist that raises mostly low-value issues](https://letmetrysoftwaretesting.wordpress.com/2018/01/22/testing-to-make-product-better-vs-perfect/). Instead, your focus should be pursuing quality and keeping it at a high level. Finding issues is just a consequence of that pursuit.
 
