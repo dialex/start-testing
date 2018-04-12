@@ -34,11 +34,11 @@ While you do all that, be aware and [avoid the common pitfalls](/concepts/what-t
 >
 > — [What do testers do on a daily basis?](https://club.ministryoftesting.com/t/what-do-testers-do-on-a-daily-basis/12687)
 
-### 🤔 Think differently
+### 🍎 Think differently
 
-~~Testers add value to teams by contributing with different perspectives. If you always use the same approach, you might miss important aspects, hence next time try to combine different thinkings:~~
+One way testers add value to teams is by contributing with different perspectives. If you always use the same thinking, you get biased and you might miss important aspects. Next time, try to combine different approaches:
 
-- **Technical thinking**:
+- **Technical thinking**: usage of *experience* to select the right tools, techniques and technologies. This is useful to minimise the effort of [testing](/concepts/testing-purpose.md) and make development more efficient.
 - **Creative thinking**: usage of _creativity_ to analyse the same context using a different perspective. This is useful to uncover new information that no one thought about before (aka. "unknown unknowns").
 - **Critical thinking**: usage of _scepticism_ to question what is known or assumed to be the truth. This is useful to detect assumptions or biases and review the "why" and "how" of a requirement.
 - **Practical thinking**: usage of _visualisation_ to draw the ideas under discussion or ask for examples. This is useful to predict how an idea will be done and remove any obstacles to its implementation.
