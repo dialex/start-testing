@@ -12,15 +12,11 @@ The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kan
 
 The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kangaroo jump and quite a few carried babies. I quickly explained that many big jobs involve few hazards. The five boxing wizards jump quickly.
 
-## Types
+## Test types
 
 The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kangaroo jump and quite a few carried babies. I quickly explained that many big jobs involve few hazards. The five boxing wizards jump quickly.
 
-## Roles
-
-The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kangaroo jump and quite a few carried babies. I quickly explained that many big jobs involve few hazards. The five boxing wizards jump quickly.
-
-## Metrics
+## Tester roles
 
 The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kangaroo jump and quite a few carried babies. I quickly explained that many big jobs involve few hazards. The five boxing wizards jump quickly.
 
