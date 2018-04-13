@@ -21,6 +21,12 @@ While you do all that, be aware and [avoid the common pitfalls](/concepts/what-t
 
 If you are looking for an exhaustive list of all the typical responsibilites of a tester, then check this [link](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1).
 
+
+
+> We’re extra eyes, ears, fingertips, noses, and taste buds for the programmers and the managers. We’re extensions of their senses. At our best, we’re like extremely sensitive and well-calibrated instruments—microscopes, telescopes, super-sensitive microphones, vernier calipers, mass spectrometers. Bomb-sniffing detectors. (The idea that we are the test instruments comes to me from Cem Kaner.) We help the programmers and the managers to see and hear and otherwise sense things that, in the limited time available to them, and in the mindset that they need to do their work, they might not be able to sense on their own.
+
+
+
 ### Release
 
 > Half my day is facilitating conversations between stakeholders and attempting to understand what each person is expecting from a release and to help get the release into a place where all stakeholders expectations are met.
@@ -35,6 +41,23 @@ If you are looking for an exhaustive list of all the typical responsibilites of 
 > The rest of the time I help the team maintain a high velocity by suggestion tools and practices that expedite our work.
 >
 > — [What do testers do on a daily basis?](https://club.ministryoftesting.com/t/what-do-testers-do-on-a-daily-basis/12687)
+
+Issues that slow down testing are terribly important, because they allow bugs the opportunity to hide for longer and deeper. So report not only *bugs* in the product, but *issues* that slow down testing.
+
+### Information
+
+- uncovering (note taking, diagrams, breadcrumbs)
+- sharing (digest it, make it visual)
+
+
+### 👥 Team~~player~~ mate 
+
+Part of your role is keeping these two groups aligned. First, you need to align yourself with them.
+
+- **Development**: Some developers think that all testers do is question their work and expose their flaws. On the contrary, one of the tester's goal is to help developers look good (by finding issues early) and save them debugging time (by investigating themselves).
+- **Business**: Set expectations, explaing that software development is not a precise number on an Excel sheet or Gantt chart. Provide the information they need to make informed decisions, and then let them make the decisions. The only person who should be signing off the product is its owner.
+
+
 
 ### 🍎 Think differently
 
@@ -56,6 +79,7 @@ One way testers add value to teams is by contributing with different perspective
 - [How To Think Like a Software Tester](https://thelifeofoneman.com/think-like-software-tester)
 - [99 Second Introduction to Lateral and Critical Thinking](https://dojo.ministryoftesting.com/dojo/lessons/99-second-introduction-to-lateral-and-critical-thinking)
 - [What do software testers do](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1)
+- [Testers: Get Out of the Quality Assurance Business](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/)
 
 -------------
 
@@ -88,6 +112,11 @@ You are not the one sole responsible for the quality of the product. Sometimes, 
 --------
 
 - Testing is building credibility for yourself and your organisation, which serves you and which you are serving.
+
+Strive to earn the respect and trust of your team.
+
+- You're often the bearer of bad news. Own it and deliver the information with compassion and humility.
+- Your role is to help to prevent programmers and managers from being fooled—and that that starts with not being fooled yourself
 
 The goal of a tester is not _just_ finding issues, otherwise you might become [a perfectionist that raises mostly low-value issues](https://letmetrysoftwaretesting.wordpress.com/2018/01/22/testing-to-make-product-better-vs-perfect/). Instead, your focus should be pursuing quality and keeping it at a high level. Finding issues is just a consequence of that pursuit.
 
