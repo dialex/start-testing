@@ -7,7 +7,7 @@
   - [Testing's purpose](/concepts/testing-purpose.md)
   - [Testing is...](/concepts/what-testing-is.md)
   - [Testing is not...](/concepts/what-testing-is-not.md)
-  - [Tester's responsibility](/concepts/tester-reponsibility.md)
+  - [Tester's responsibilities](/concepts/tester-responsibilities.md)
   - ~~Software Testing Life Cycle (STLC)~~
   - [Requirements](/concepts/requirements.md)
 - **Toolbox**
