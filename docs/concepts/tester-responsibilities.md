@@ -48,10 +48,10 @@ Issues that slow down testing are terribly important, because they allow bugs th
 
 There are many questions a tester could ask. [Mnemonics](/tools/mnemonics.md) are a clever way to avoid forgetting them. If you can only memorise four questions, these are the ones:
 
-- **What are we building?** 
-- **For who?**
-- **What could go wrong?**
-- **If it does, how would we know?**
+1. **What are we building?** *What features? What are the components? How do they integrate?* 
+2. **For who?** *What value are they expecting? How will they use it? How can they get help?*
+3. **What could go wrong?** *What's the impact? Who would suffer? How long would it take to fix it?*
+4. **How would we find out?** *Can we detect a failure? Can we prevent or mitigate it?*
 
 ### Information
 
