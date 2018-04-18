@@ -44,6 +44,15 @@ If you are looking for an exhaustive list of all the typical responsibilites of 
 
 Issues that slow down testing are terribly important, because they allow bugs the opportunity to hide for longer and deeper. So report not only *bugs* in the product, but *issues* that slow down testing.
 
+### ❓ Ask and you shall discover
+
+There are many questions a tester could ask. [Mnemonics](/tools/mnemonics.md) are a clever way to avoid forgetting them. If you can only memorise four questions, these are the ones:
+
+- **What are we building?** 
+- **For who?**
+- **What could go wrong?**
+- **If it does, how would we know?**
+
 ### Information
 
 - uncovering (note taking, diagrams, breadcrumbs)
@@ -64,18 +73,18 @@ Part of your role is keeping these two groups aligned. First, you need to align 
 One way testers add value to teams is by contributing with different perspectives. If you always use the same thinking, you get biased and you might miss important aspects. Next time, try to combine different approaches:
 
 - **Technical thinking**: usage of *experience* to select the right tools, techniques and technologies. This is useful to minimise the effort of [testing](/concepts/testing-purpose.md) and make development more efficient.
-- **Creative thinking**: usage of _creativity_ to analyse the same context using a different perspective. This is useful to uncover new information that no one thought about before (aka. "unknown unknowns").
+- **Creative thinking**: usage of _creativity_ to analyse the same context using a different perspective. This is useful to uncover new information that no one thought about before (aka. *unknown unknowns*).
 - **Critical thinking**: usage of _scepticism_ to question what is known or assumed to be the truth. This is useful to detect assumptions or biases and review the "why" and "how" of a requirement.
 - **Practical thinking**: usage of _visualisation_ to draw the ideas under discussion or ask for examples. This is useful to predict how an idea will be done and remove any obstacles to its implementation.
 - **Blackbox thinking**: usage of _ignorance_ to skip implementation details. This is useful to focus on behaviour and end-to-end flow, impersonating a user.
 
 ## Teachers
 
-- [Name](#link)
+- [Michael Bolton](http://www.developsense.com/)
 
 ## Sources
 
-- [41 Definitions of Software Testing](https://chroniclesoftesting.blogspot.pt/2017/11/41-definitions-of-software-testing.html)
+- [Four and more questions](http://www.developsense.com/blog/2018/03/four-and-more-questions/)
 - [How To Think Like a Software Tester](https://thelifeofoneman.com/think-like-software-tester)
 - [99 Second Introduction to Lateral and Critical Thinking](https://dojo.ministryoftesting.com/dojo/lessons/99-second-introduction-to-lateral-and-critical-thinking)
 - [What do software testers do](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1)
@@ -131,3 +140,4 @@ That's where skilled testers come in. Some of us are highly technical and will h
 http://www.investigatingsoftware.co.uk/2017/04/why-you-might-need-testers.html
 
 ---------
+
