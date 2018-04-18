@@ -19,13 +19,19 @@ While you do all that, be aware and [avoid the common pitfalls](/concepts/what-t
 
 ## Practice
 
-If you are looking for an exhaustive list of all the typical responsibilites of a tester, then check this [link](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1).
+>  We're extensions to the senses of our stakeholders. We help the team sense things that they might not be able to sense on their own, due to their limited time and the mindset required to do their job.
+>
+> — [Michael Bolton](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/)
 
+> If you feel that your value is not appreciated or you can be easily replaced, then shame on you. Think to yourself: am I doing all I can to help my team succeed? Does my team value my contributions?
+>
+> — [John Andrews](https://testingfromthehip.wordpress.com/2016/01/08/am-i-really-a-valuable-member-of-my-team/)
 
+Looking for an exhaustive list of all the typical responsibilites of a tester? Then check this [link](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1).
 
-> We’re extra eyes, ears, fingertips, noses, and taste buds for the programmers and the managers. We’re extensions of their senses. At our best, we’re like extremely sensitive and well-calibrated instruments—microscopes, telescopes, super-sensitive microphones, vernier calipers, mass spectrometers. Bomb-sniffing detectors. (The idea that we are the test instruments comes to me from Cem Kaner.) We help the programmers and the managers to see and hear and otherwise sense things that, in the limited time available to them, and in the mindset that they need to do their work, they might not be able to sense on their own.
+…
 
-
+...
 
 ### Release
 
@@ -44,20 +50,17 @@ If you are looking for an exhaustive list of all the typical responsibilites of 
 
 Issues that slow down testing are terribly important, because they allow bugs the opportunity to hide for longer and deeper. So report not only *bugs* in the product, but *issues* that slow down testing.
 
-### ❓ Ask and you shall discover
+### ❓ Search & Share
 
-There are many questions a tester could ask. [Mnemonics](/tools/mnemonics.md) are a clever way to avoid forgetting them. If you can only memorise four questions, these are the ones:
+One of your responsibilities is to uncover information and deliver it to. To do so, there are many questions a tester could ask. [Mnemonics](/tools/mnemonics.md) are a clever way to avoid forgetting them. If you can only memorise four questions, these are the ones:
 
 1. **What are we building?** *What features? What are the components? How do they integrate?* 
 2. **For who?** *What value are they expecting? How will they use it? How can they get help?*
 3. **What could go wrong?** *What's the impact? Who would suffer? How long would it take to fix it?*
 4. **How would we find out?** *Can we detect a failure? Can we prevent or mitigate it?*
 
-### Information
 
-- uncovering (note taking, diagrams, breadcrumbs)
-- sharing (digest it, make it visual)
-
+Once you have gathered that information, share it with your team and other relevant stakeholders. Be mindful about your audience — deliver just the right amount of data using the most effective medium for them (e.g. using diagrams for non-technical people).
 
 ### 👥 Team~~player~~ mate 
 
@@ -85,6 +88,7 @@ One way testers add value to teams is by contributing with different perspective
 ## Sources
 
 - [Four and more questions](http://www.developsense.com/blog/2018/03/four-and-more-questions/)
+- [Am I really a valuable member of my team?](https://testingfromthehip.wordpress.com/2016/01/08/am-i-really-a-valuable-member-of-my-team/)
 - [How To Think Like a Software Tester](https://thelifeofoneman.com/think-like-software-tester)
 - [99 Second Introduction to Lateral and Critical Thinking](https://dojo.ministryoftesting.com/dojo/lessons/99-second-introduction-to-lateral-and-critical-thinking)
 - [What do software testers do](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1)
