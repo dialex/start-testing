@@ -29,14 +29,14 @@ While you do all that, be aware and [avoid the common pitfalls](/concepts/what-t
 
 If you want an (almost) exhaustive list of reponsibilities and activities, this [link](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1) is for you.
 
-### 👥 Team~~player~~ mate
+### 👥 Teammate
 
 Part of your role is keeping these two groups aligned. First, you need to align yourself with them.
 
 - **Development**: Some developers think that all testers do is question their work and expose their flaws. On the contrary, one of the tester's goal is to help developers look good (by finding issues early) and save them debugging time (by investigating themselves).
 - **Business**: Set expectations, explaing that software development is not a precise number on an Excel sheet or Gantt chart. Provide the information they need to make informed decisions, and then let them make the decisions. The only person who should be signing off the product is its owner.
 
-### 🔦 Guiding light
+### 🔦 "Guiding light"
 
 > Half my day is facilitating conversations between stakeholders and attempting to understand what each person is expecting from a release. The goal is get the release into a place where all stakeholders' expectations are met.
 >
@@ -69,7 +69,7 @@ It is your responsibility to tell management what you feel about the product.
 
 Issues that slow down testing are terribly important, because they give bugs the opportunity to hide for longer. So report not only *bugs* in the product but also *issues* that slow down testing.
 
-### ❓ Search & Share
+### 🔎 Detective
 
 One of your responsibilities is to uncover information and deliver it to. To do so, there are many questions a tester could ask. [Mnemonics](/tools/mnemonics.md) are a clever way to avoid forgetting them. If you can only memorise four questions, these are the ones:
 
@@ -78,15 +78,10 @@ One of your responsibilities is to uncover information and deliver it to. To do 
 3. **What could go wrong?** *What's the impact? Who would suffer? How long would it take to fix it?*
 4. **How would we find out?** *Can we detect a failure? Can we prevent or mitigate it?*
 
-As you can see, bugs are just one example of all the types of useful information that a tester can find.
-
 Once you have gathered that information, share it with your team and other relevant stakeholders. Be mindful about your audience — deliver just the right amount of data using the most effective medium for them (e.g. using diagrams for non-technical people).
 
-- ​
 
-
-
-### 🍎 Different thinker
+### 🍎 Thinker
 
 One way testers add value to teams is by contributing with different perspectives. If you always use the same thinking, you get biased and you might miss important aspects. Next time, try to combine different approaches:
 
