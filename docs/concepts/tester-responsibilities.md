@@ -145,3 +145,48 @@ http://www.investigatingsoftware.co.uk/2017/04/why-you-might-need-testers.html
 
 ---------
 
+Look at the current state and ask "Do we really need that?" or "Is there an easier way of implementing this?". Your ideas could make implementation easier or cut some additional work for the developer. Whatever the case, you helped your team.
+
+> The tester’s role is to find information along the journey so that the team is able to make better decisions to reach the goal. (...) As the team member, it is one of your roles to verify if what is being built is correct. Or in this case, ensure that we know what we are actually building.
+>
+> https://thelifeofoneman.com/how-to-get-more-testing-done
+
+
+
+> A team can never really know the quality of their products or how they will be perceived in the marketplace. They can know things like: the number of open defects, the missed requirements, the poorly written / thought out designs, or early feedback from demos. Our testing should be **helping to provide our teams with as much information as we can**, to make an informed opinion on their own perceived view of quality. This perception should **help teams decide** things like: when to release / not release, when to enhance, when to bug fix, when to scale back, when to move on, etc.
+
+> Are you really helping your team make informed decisions? Are you testing the right things, at the right time? Are you a lighthouse, shining light so your teams boat can avoid obstacles and problems on its way to its destination? Let’s hope you are!
+
+FROM: <https://testingfromthehip.wordpress.com/2016/06/14/what-is-the-main-purpose-of-our-testing/>
+
+> Do your due diligence to become a reliable and knowledgeable source of information for the rest of the team.
+
+> Testers that rely on only documenting tests and test results are at risk oversimplifying a job that requires much more than writing and executing test cases. They also risk creating the perception that testing is easy. This view can lead to problems around your status in a team and may even encourage the idea that you could be replaced by test automation. Documented Tests are a tool and they should be used wisely to solve a specific problem rather than a replacement for critical thinking and communication.
+
+<https://dojo.ministryoftesting.com/lessons/what-do-tests-look-like>
+
+> I want to discover as much useful information as possible to share with my team to help them be awesome. This information can tell me:
+>
+> - How a stakeholder(s) wants the product to work.
+> - How it actually works.
+> - How to come up with new test ideas.
+> - Are there any bugs within the product.
+>
+> As a tester, it’s my responsibility to go forth and find that information; something that the very excellent EvilTester promotes regularly in his books and talks. This responsibility means that I have the freedom to create any type of test I want, but I need to ensure that what I create is revealing information that my team can use to succeed.
+
+> It’s the testers job to ask questions, explore, and think critically about all of these things: Ideas, Requirements, Designs, Assumptions, Documentation, Infrastructure, Processes.
+> It could result in something that could have turned into a bug later in the development process being caught much earlier.
+
+<https://dojo.ministryoftesting.com/lessons/designing-tests-what-s-the-difference-between-a-good-test-and-a-bad-test>
+
+Testing is a skill that requires: mindfulness (bias awareness), attention to detail, creativity, determination, constant learning
+
+> Testers Don't Have Tech Skills
+> 
+> This idea is one that sets my teeth on edge. I've known some very good testers who couldn't code and didn't have particularly deep technical skills. I've also known some very good testers who could out-code every developer in their organization. Technical skills are not just about being able to code, and arguably include being able to reproduce an error that's difficult to trace and difficult to reproduce, being able to read or understand an error code, being able to set up the application under test with different configurations, being able to clearly explain both to a developer and to someone with no development experience just what the software is doing and why that behavior is a problem.
+> 
+> Being able to communicate your findings about the product, or reproduce that odd event, or find the places where the developer's assumptions don't match the customer expectations before the customer sees the software, these are the kinds of skills that matter. They're a lot harder to define and much harder to quantify than "can code as well as a developer."
+>
+> Probably the simplest way to describe this is that testers and developers have complementary skill sets with some overlap. Boosting the developer's ability to do tester-things takes time away from his primary activity. Boosting the tester's ability to do developer-things takes time away from her primary activity. Both are needed, and each supports the other.
+
+https://dojo.ministryoftesting.com/dojo/lessons/ten-misconceptions-about-software-testing-that-non-testers-share
