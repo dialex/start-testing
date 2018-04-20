@@ -27,21 +27,38 @@ While you do all that, be aware and [avoid the common pitfalls](/concepts/what-t
 >
 > — [John Andrews](https://testingfromthehip.wordpress.com/2016/01/08/am-i-really-a-valuable-member-of-my-team/)
 
-Looking for an exhaustive list of all the typical responsibilites of a tester? Then check this [link](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1).
+If you want an (almost) exhaustive list of reponsibilities and activities, this [link](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1) is for you.
 
-…
+### 👥 Team~~player~~ mate
 
-...
+Part of your role is keeping these two groups aligned. First, you need to align yourself with them.
+
+- **Development**: Some developers think that all testers do is question their work and expose their flaws. On the contrary, one of the tester's goal is to help developers look good (by finding issues early) and save them debugging time (by investigating themselves).
+- **Business**: Set expectations, explaing that software development is not a precise number on an Excel sheet or Gantt chart. Provide the information they need to make informed decisions, and then let them make the decisions. The only person who should be signing off the product is its owner.
+
+### 🔦 Guiding light
+
+> Half my day is facilitating conversations between stakeholders and attempting to understand what each person is expecting from a release. The goal is get the release into a place where all stakeholders' expectations are met.
+>
+> If this is not possible I warn the stakeholder that this will require new timelines and I provide data to demonstrate why and how.
+>
+> — [Phillipe Bojorquez](https://club.ministryoftesting.com/t/what-do-testers-do-on-a-daily-basis/12687/2)
+
+James Bach compares a tester to the front lights of a car. The analogy aims to explain that your role is to _illuminate_ what is unknown and ahead of the team. You do not control the system, instead you provide input for others to act. You are not the _driver_ (Product Owner), but what your light uncovers surely influences the driver.
+
+Testers attempt to forecast multiple scenarios that might hurt the team, so that it can prepare in advance and reduce the risk. However, it's impossible to think about every trouble ahead of time. It's part of your role to keep gathering information along the way, so that your team can react and make better decisions.
+
+Your (business) stakeholders will not always know what to do. Sometimes they are transparent about it and reach to you for advice, e.g. "What are your thoughts on X? How should we do Y?". Other times you must observe them carefuly to notice their hesitation or their fragile/biased reasoning.
+
+That's a silent call for your help. Even though you don't own the product, you can give them your advice and support it with data (your experience, domain knowledge, market benchmarks, competitors, etc.). This strengthens your relationship because you show that you care without being prescriptive.
 
 ### Release
 
 It is your responsibility to tell management what you feel about the product.
 
-> Half my day is facilitating conversations between stakeholders and attempting to understand what each person is expecting from a release and to help get the release into a place where all stakeholders expectations are met.
+> Verify what is being built is what has been asked
 >
-> If this is not possible I warn the stakeholder that this will require new timelines and I provide data to demonstrate why and how.
->
-> — [Phillipe Bojorquez](https://club.ministryoftesting.com/t/what-do-testers-do-on-a-daily-basis/12687/2)
+> Your job is to clarify the mission, the goal. You get the team to sit down and agree with the mission objectives. Finally, if you find yourself losing track, remind yourself of your goal. This is what will keep you going. As a team member, it is one of your roles to verify if what is being built is correct. Imagine building a car without blueprints?
 
 ### Team velocity
 
@@ -65,16 +82,11 @@ As you can see, bugs are just one example of all the types of useful information
 
 Once you have gathered that information, share it with your team and other relevant stakeholders. Be mindful about your audience — deliver just the right amount of data using the most effective medium for them (e.g. using diagrams for non-technical people).
 
-### 👥 Team~~player~~ mate 
-
-Part of your role is keeping these two groups aligned. First, you need to align yourself with them.
-
-- **Development**: Some developers think that all testers do is question their work and expose their flaws. On the contrary, one of the tester's goal is to help developers look good (by finding issues early) and save them debugging time (by investigating themselves).
-- **Business**: Set expectations, explaing that software development is not a precise number on an Excel sheet or Gantt chart. Provide the information they need to make informed decisions, and then let them make the decisions. The only person who should be signing off the product is its owner.
+- ​
 
 
 
-### 🍎 Think differently
+### 🍎 Different thinker
 
 One way testers add value to teams is by contributing with different perspectives. If you always use the same thinking, you get biased and you might miss important aspects. Next time, try to combine different approaches:
 
@@ -96,13 +108,9 @@ One way testers add value to teams is by contributing with different perspective
 
 -------------
 
-The light in the dark
 
-Although we try to account for multiple scenarios that might come our way, It is impossible to think that there will be no trouble ahead. The tester's role is to find information along the journey so that the team is able make better decisions to reach the goal. As the tester, it is your responsibility to tell management what you feel about the project.
 
-Verify what is being built is what has been asked
 
-Your job is to clarify the mission, the goal. You get the team to sit down and agree with the mission objectives. Finally, if you find yourself losing track, remind yourself of your goal. This is what will keep you going. As a team member, it is one of your roles to verify if what is being built is correct. Imagine building a car without blueprints?
 
 Find threats to the value of your product
 
@@ -144,12 +152,6 @@ That's where skilled testers come in. Some of us are highly technical and will h
 http://www.investigatingsoftware.co.uk/2017/04/why-you-might-need-testers.html
 
 ---------
-
-Look at the current state and ask "Do we really need that?" or "Is there an easier way of implementing this?". Your ideas could make implementation easier or cut some additional work for the developer. Whatever the case, you helped your team.
-
-> The tester’s role is to find information along the journey so that the team is able to make better decisions to reach the goal. (...) As the team member, it is one of your roles to verify if what is being built is correct. Or in this case, ensure that we know what we are actually building.
->
-> https://thelifeofoneman.com/how-to-get-more-testing-done
 
 
 
