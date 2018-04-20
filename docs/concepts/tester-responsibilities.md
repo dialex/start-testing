@@ -35,20 +35,22 @@ Looking for an exhaustive list of all the typical responsibilites of a tester? T
 
 ### Release
 
+It is your responsibility to tell management what you feel about the product.
+
 > Half my day is facilitating conversations between stakeholders and attempting to understand what each person is expecting from a release and to help get the release into a place where all stakeholders expectations are met.
 >
 > If this is not possible I warn the stakeholder that this will require new timelines and I provide data to demonstrate why and how.
 >
-> — [What do testers do on a daily basis?](https://club.ministryoftesting.com/t/what-do-testers-do-on-a-daily-basis/12687)
+> — [Phillipe Bojorquez](https://club.ministryoftesting.com/t/what-do-testers-do-on-a-daily-basis/12687/2)
 
 ### Team velocity
 
 
-> The rest of the time I help the team maintain a high velocity by suggestion tools and practices that expedite our work.
+> I help the team maintain a high velocity by suggesting tools and practices that expedite our work.
 >
-> — [What do testers do on a daily basis?](https://club.ministryoftesting.com/t/what-do-testers-do-on-a-daily-basis/12687)
+> — [Phillipe Bojorquez](https://club.ministryoftesting.com/t/what-do-testers-do-on-a-daily-basis/12687/2)
 
-Issues that slow down testing are terribly important, because they allow bugs the opportunity to hide for longer and deeper. So report not only *bugs* in the product, but *issues* that slow down testing.
+Issues that slow down testing are terribly important, because they give bugs the opportunity to hide for longer. So report not only *bugs* in the product but also *issues* that slow down testing.
 
 ### ❓ Search & Share
 
@@ -59,6 +61,7 @@ One of your responsibilities is to uncover information and deliver it to. To do 
 3. **What could go wrong?** *What's the impact? Who would suffer? How long would it take to fix it?*
 4. **How would we find out?** *Can we detect a failure? Can we prevent or mitigate it?*
 
+As you can see, bugs are just one example of all the types of useful information that a tester can find.
 
 Once you have gathered that information, share it with your team and other relevant stakeholders. Be mindful about your audience — deliver just the right amount of data using the most effective medium for them (e.g. using diagrams for non-technical people).
 
@@ -81,15 +84,12 @@ One way testers add value to teams is by contributing with different perspective
 - **Practical thinking**: usage of _visualisation_ to draw the ideas under discussion or ask for examples. This is useful to predict how an idea will be done and remove any obstacles to its implementation.
 - **Blackbox thinking**: usage of _ignorance_ to skip implementation details. This is useful to focus on behaviour and end-to-end flow, impersonating a user.
 
-## Teachers
-
-- [Michael Bolton](http://www.developsense.com/)
-
 ## Sources
 
 - [Four and more questions](http://www.developsense.com/blog/2018/03/four-and-more-questions/)
 - [Am I really a valuable member of my team?](https://testingfromthehip.wordpress.com/2016/01/08/am-i-really-a-valuable-member-of-my-team/)
 - [How To Think Like a Software Tester](https://thelifeofoneman.com/think-like-software-tester)
+- [What testers find](http://www.satisfice.com/blog/archives/572)
 - [99 Second Introduction to Lateral and Critical Thinking](https://dojo.ministryoftesting.com/dojo/lessons/99-second-introduction-to-lateral-and-critical-thinking)
 - [What do software testers do](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1)
 - [Testers: Get Out of the Quality Assurance Business](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/)
