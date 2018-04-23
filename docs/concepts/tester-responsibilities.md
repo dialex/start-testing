@@ -31,6 +31,10 @@ If you want an (almost) exhaustive list of reponsibilities and activities, this 
 
 ### 🐞 Bug detector
 
+> The tester does not “break the product”. The tester finds a product that is already broken.
+>
+> — ["The life of one man"](https://thelifeofoneman.com/the-role-of-the-tester)
+
 Finding bugs — probably the most widely know mission of a tester. Why? It is the job of the tester to inform the stakeholders about anything that threatens the value of the product. To ensure the core functionality still work after adding new features. To ensure the critical issues are detected before the enhancement opportunities. To ensure the team is aware of the known issues and their risk (probability + impact).
 
 Issues that slow down testing are terribly important, because they give bugs the opportunity to hide for longer. So report not only *bugs* in the product but also *issues* that slow down testing.
@@ -58,20 +62,6 @@ Your (business) stakeholders will not always know what they want. Sometimes they
 
 Even though you don't own the product, you can give them your advice and support it with data (your experience, domain knowledge, market benchmarks, competitors, etc.). This strengthens your relationship because you show that you care without being prescriptive.
 
-### Release
-
-It is your responsibility to tell management what you feel about the product.
-
-> Verify what is being built is what has been asked
->
-> Your job is to clarify the mission, the goal. You get the team to sit down and agree with the mission objectives. Finally, if you find yourself losing track, remind yourself of your goal. This is what will keep you going. As a team member, it is one of your roles to verify if what is being built is correct. Imagine building a car without blueprints?
-
-
-
-> I help the team maintain a high velocity by suggesting tools and practices that expedite our work.
->
-> — [Phillipe Bojorquez](https://club.ministryoftesting.com/t/what-do-testers-do-on-a-daily-basis/12687/2)
-
 ### 🔎 Inspector
 
 One of your responsibilities is to uncover information and deliver it. To do so, there are many questions a tester could ask. [Mnemonics](/tools/mnemonics.md) are a clever way to avoid forgetting them. If you can only memorise four questions, these are the ones:
@@ -81,7 +71,19 @@ One of your responsibilities is to uncover information and deliver it. To do so,
 3. **What could go wrong?** *What's the impact? Who would suffer? How long would it take to fix it?*
 4. **How would we find out?** *Can we detect a failure? Can we prevent or mitigate it?*
 
+It is your job to tell management what you feel about the product.
+
 Once you have gathered that information, share it with your team and other relevant stakeholders. Be mindful about your audience — deliver just the right amount of data using the most effective medium for them (e.g. using diagrams for non-technical people).
+
+Get the team to sit down and agree on your project's goal. In the future, if anyone starts losing track revisit the agreed goal. After all, one of your duties is to verify if what is being built is as expected.
+
+### 🏕️ Scout
+
+> Always leave the campground _better_ than you found it.
+>
+> — [The boy scout rule](http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule)
+
+Besides the code, the team and the processes can also benefit from your testing. Work closely with your team to identify bottlenecks and keep on improving. Help your colleagues maintain a high velocity by recommending tools and practices that expedite your work. Use [retrospectives](/roles/agile-team-member.md) to share your concerns and suggestions.
 
 
 ### 🍎 Thinker
@@ -117,10 +119,6 @@ Dealing with multiple stakeholders
 - The end user - Deep inside you now that you serve the one true master, the user. There is an exhilarating effect that you have the responsibility to ensure that the product works as expected. If you so much as say you are not happy with a certain feature then what you say is taken seriously. What I've found is that most of the time, the functionality works but the User Experience is not taken into account. It is the tester's duty to tell the team that if the colour of a button is not consistent with the same type of button in a different part of the system. You may ask why should you care about the colour of a button? To me, finding inconsistencies is a major issue and detrimental to the usability of the product. Who wants to use an inconsistent platform?
 
 More about stakeholders when you get to [requirements](/concepts/requirements.md).
-
-Don't own quality
-
-You are not the one sole responsible for the quality of the product. Sometimes, you may find yourself not having a say with how something should be implemented and that’s fine. It is important that you make your team feel empowered that they are doing the job their own way so as to preserve their creativity. The tester does not “break the product”, the tester finds a product that is already broken. You must work with the team to ensure that you keep on improving. If you find that in sprint retrospectives no one is making suggestions to improve the process, something is going terribly wrong. Be a quality fanatic, if something can be automated and would save 5 minutes a day, say it.
 
 --------
 
