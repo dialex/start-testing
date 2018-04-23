@@ -45,14 +45,23 @@ Your _ultimate goal_ should be pursuing quality and keeping it at a high level. 
 
 ### 👥 Teammate
 
-Part of your role is keeping these two groups aligned. First, you need to align yourself with them.
+Part of your role is keeping these two groups aligned. First, you need to align yourself with them. More about stakeholders when you get to [requirements](/concepts/requirements.md).
 
 - **Development**: Some developers think that all testers do is question their work and expose their flaws. On the contrary, one of the tester's goal is to help developers look good (by finding issues early) and save them debugging time (by investigating themselves).
 - **Business**: Set expectations, explaing that software development is not a precise number on an Excel sheet or Gantt chart. Provide the information they need to make informed decisions, and then let them make the decisions. The only person who should be signing off the product is its owner.
 
-You are often the bearer of bad news. Own it and deliver the information with compassion and humility.
+You are often the bearer of bad news. Own it and deliver the information with compassion and humility. Attempt to fix the bad news before reporting them and you might end up with good news.
 
-Strive to earn the respect of your team. Build credibility for yourself and the product your testing.
+Strive to earn the respect of your team. As a tester you need to know the product like it's the back of your hand. That way you build credibility for yourself and save everyone else's time.
+
+### ❤️ (User) Friend
+
+Developers focus on code and functionality, while managers focus on business growth and profit. In the middle you have these two groups, who could definitely use some love from you.
+
+- **Support**: The bugs waiting to be fixed become a burden for the customer team or the customer support team. This group will appreciate if you tell what is currently buggy and wether there is a workaround.
+- **End user**: Often a feature works but the user experience is not taken into account. Ask yourself what type of emotions you would feel when using the product. Be the user's voice and "complain" to your team so that they don't have to.
+
+Share some of that love with your team too. Seek a joyful and friendly environment in your team. Celebrate success and keep a journal of small victories or praises.
 
 ### 🔦 Guiding light
 
@@ -114,20 +123,6 @@ Testers add value to teams by contributing with different perspectives. If you a
 - [Testers: Get Out of the Quality Assurance Business](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/)
 - [99 Second Introduction to Lateral and Critical Thinking](https://dojo.ministryoftesting.com/dojo/lessons/99-second-introduction-to-lateral-and-critical-thinking)
 - [What do software testers do](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1)
-
--------------
-
-
-
-Dealing with multiple stakeholders
-
-- Developers - You make the programmer's job extremely clear by writing out clear acceptance criteria, clear test plans, and clear bug reports, as soon as possible. The tester needs to know the product like it's the back of their hand so you don't waste the time of the developers, your product manager, and other teams. When you know about the product, you will gain influence and credibility.
-- Project Manager - The project manager needs to know your process, what you do, why you are doing it. The project manager is served by reporting the status of the testing, reporting problems fast. This information is important to the project manager as he the right to steer the project, and what you say will drive the decision.
-- Technical Support -  The bugs that are still present in the system becomes a burden for the customer team or the technical support team. This group is served by alerting them of what parts of the platform maybe inhibited and if there is a workaround.
-- Top management - Your role is to create reports in an extremely simple manner so that they are able to take actions into your findings. You may find that despite something has been “Ready for QA” when you start testing in the staging server it doesn't work. What could it be? Could it be that it works on local but it does not work in the server? Whatever case you may find, you must have solutions to your problems rather than being the bearer of bad news all the time.
-- The end user - Deep inside you now that you serve the one true master, the user. There is an exhilarating effect that you have the responsibility to ensure that the product works as expected. If you so much as say you are not happy with a certain feature then what you say is taken seriously. What I've found is that most of the time, the functionality works but the User Experience is not taken into account. It is the tester's duty to tell the team that if the colour of a button is not consistent with the same type of button in a different part of the system. You may ask why should you care about the colour of a button? To me, finding inconsistencies is a major issue and detrimental to the usability of the product. Who wants to use an inconsistent platform?
-
-More about stakeholders when you get to [requirements](/concepts/requirements.md).
 
 ----------
 
