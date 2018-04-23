@@ -29,6 +29,12 @@ While you do all that, be aware and [avoid the common pitfalls](/concepts/what-t
 
 If you want an (almost) exhaustive list of reponsibilities and activities, this [link](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1) is for you.
 
+### 🐞 Bug detector
+
+Finding bugs — probably the most widely know mission of a tester. Why? It is the job of the tester to inform the stakeholders about anything that threatens the value of the product. To ensure the core functionality still work after adding new features. To ensure the critical issues are detected before the enhancement opportunities. To ensure the team is aware of the known issues and their risk (probability + impact).
+
+Issues that slow down testing are terribly important, because they give bugs the opportunity to hide for longer. So report not only *bugs* in the product but also *issues* that slow down testing.
+
 ### 👥 Teammate
 
 Part of your role is keeping these two groups aligned. First, you need to align yourself with them.
@@ -36,7 +42,7 @@ Part of your role is keeping these two groups aligned. First, you need to align 
 - **Development**: Some developers think that all testers do is question their work and expose their flaws. On the contrary, one of the tester's goal is to help developers look good (by finding issues early) and save them debugging time (by investigating themselves).
 - **Business**: Set expectations, explaing that software development is not a precise number on an Excel sheet or Gantt chart. Provide the information they need to make informed decisions, and then let them make the decisions. The only person who should be signing off the product is its owner.
 
-### 🔦 "Guiding light"
+### 🔦 Guiding light
 
 > Half my day is facilitating conversations between stakeholders and attempting to understand what each person is expecting from a release. The goal is get the release into a place where all stakeholders' expectations are met.
 >
@@ -48,9 +54,9 @@ James Bach compares a tester to the front lights of a car. The analogy aims to e
 
 Testers attempt to forecast multiple scenarios that might hurt the team, so that it can prepare in advance and reduce the risk. However, it's impossible to think about every trouble ahead of time. It's part of your role to keep gathering information along the way, so that your team can react and make better decisions.
 
-Your (business) stakeholders will not always know what to do. Sometimes they are transparent about it and reach to you for advice, e.g. "What are your thoughts on X? How should we do Y?". Other times you must observe them carefuly to notice their hesitation or their fragile/biased reasoning.
+Your (business) stakeholders will not always know what they want. Sometimes they are transparent about it and reach to you for advice, e.g. "What are your thoughts on X? How should we do Y?". Other times you must observe them carefuly to notice their hesitation or their fragile/biased reasoning. That's a silent call for your help.
 
-That's a silent call for your help. Even though you don't own the product, you can give them your advice and support it with data (your experience, domain knowledge, market benchmarks, competitors, etc.). This strengthens your relationship because you show that you care without being prescriptive.
+Even though you don't own the product, you can give them your advice and support it with data (your experience, domain knowledge, market benchmarks, competitors, etc.). This strengthens your relationship because you show that you care without being prescriptive.
 
 ### Release
 
@@ -60,18 +66,15 @@ It is your responsibility to tell management what you feel about the product.
 >
 > Your job is to clarify the mission, the goal. You get the team to sit down and agree with the mission objectives. Finally, if you find yourself losing track, remind yourself of your goal. This is what will keep you going. As a team member, it is one of your roles to verify if what is being built is correct. Imagine building a car without blueprints?
 
-### Team velocity
 
 
 > I help the team maintain a high velocity by suggesting tools and practices that expedite our work.
 >
 > — [Phillipe Bojorquez](https://club.ministryoftesting.com/t/what-do-testers-do-on-a-daily-basis/12687/2)
 
-Issues that slow down testing are terribly important, because they give bugs the opportunity to hide for longer. So report not only *bugs* in the product but also *issues* that slow down testing.
+### 🔎 Inspector
 
-### 🔎 Detective
-
-One of your responsibilities is to uncover information and deliver it to. To do so, there are many questions a tester could ask. [Mnemonics](/tools/mnemonics.md) are a clever way to avoid forgetting them. If you can only memorise four questions, these are the ones:
+One of your responsibilities is to uncover information and deliver it. To do so, there are many questions a tester could ask. [Mnemonics](/tools/mnemonics.md) are a clever way to avoid forgetting them. If you can only memorise four questions, these are the ones:
 
 1. **What are we building?** *What features? What are the components? How do they integrate?* 
 2. **For who?** *What value are they expecting? How will they use it? How can they get help?*
@@ -83,7 +86,7 @@ Once you have gathered that information, share it with your team and other relev
 
 ### 🍎 Thinker
 
-One way testers add value to teams is by contributing with different perspectives. If you always use the same thinking, you get biased and you might miss important aspects. Next time, try to combine different approaches:
+Testers add value to teams by contributing with different perspectives. If you always use the same thinking, you get biased and you might miss important aspects. Next time, try to combine different approaches:
 
 - **Technical thinking**: usage of *experience* to select the right tools, techniques and technologies. This is useful to minimise the effort of [testing](/concepts/testing-purpose.md) and make development more efficient.
 - **Creative thinking**: usage of _creativity_ to analyse the same context using a different perspective. This is useful to uncover new information that no one thought about before (aka. *unknown unknowns*).
@@ -104,12 +107,6 @@ One way testers add value to teams is by contributing with different perspective
 -------------
 
 
-
-
-
-Find threats to the value of your product
-
-One of our core missions - finding bugs that are important quickly. Why do this? It is the job of the tester to inform the stakeholders about anything that threatens the value of the system. They test that the core functionality still works before looking at the new functions. They test items of higher-impact before testing items of lower impact. The tester finds important problems soon and will make sure that the team knows about it.
 
 Dealing with multiple stakeholders
 
