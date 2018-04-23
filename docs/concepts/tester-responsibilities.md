@@ -39,12 +39,20 @@ Finding bugs — probably the most widely know mission of a tester. Why? It is t
 
 Issues that slow down testing are terribly important, because they give bugs the opportunity to hide for longer. So report not only *bugs* in the product but also *issues* that slow down testing.
 
+Keep in mind that the ultimate goal of a tester is not finding issues (per se). If that was the case you would become a perfectionist, someone that raises an excessive number of low-value issues.
+
+Your _ultimate goal_ should be pursuing quality and keeping it at a high level. Using that mindset, finding issues becomes just a consequence of that pursuit. And naturally you will focus on issues that threat quality.
+
 ### 👥 Teammate
 
 Part of your role is keeping these two groups aligned. First, you need to align yourself with them.
 
 - **Development**: Some developers think that all testers do is question their work and expose their flaws. On the contrary, one of the tester's goal is to help developers look good (by finding issues early) and save them debugging time (by investigating themselves).
 - **Business**: Set expectations, explaing that software development is not a precise number on an Excel sheet or Gantt chart. Provide the information they need to make informed decisions, and then let them make the decisions. The only person who should be signing off the product is its owner.
+
+You are often the bearer of bad news. Own it and deliver the information with compassion and humility.
+
+Strive to earn the respect of your team. Build credibility for yourself and the product your testing.
 
 ### 🔦 Guiding light
 
@@ -79,7 +87,7 @@ Get the team to sit down and agree on your project's goal. In the future, if any
 
 ### 🏕️ Scout
 
-> Always leave the campground _better_ than you found it.
+> Always leave the campground better than you found it.
 >
 > — [The boy scout rule](http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule)
 
@@ -100,11 +108,12 @@ Testers add value to teams by contributing with different perspectives. If you a
 
 - [Four and more questions](http://www.developsense.com/blog/2018/03/four-and-more-questions/)
 - [Am I really a valuable member of my team?](https://testingfromthehip.wordpress.com/2016/01/08/am-i-really-a-valuable-member-of-my-team/)
+- [The role of the tester](https://thelifeofoneman.com/the-role-of-the-tester)
 - [How To Think Like a Software Tester](https://thelifeofoneman.com/think-like-software-tester)
 - [What testers find](http://www.satisfice.com/blog/archives/572)
+- [Testers: Get Out of the Quality Assurance Business](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/)
 - [99 Second Introduction to Lateral and Critical Thinking](https://dojo.ministryoftesting.com/dojo/lessons/99-second-introduction-to-lateral-and-critical-thinking)
 - [What do software testers do](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1)
-- [Testers: Get Out of the Quality Assurance Business](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/)
 
 -------------
 
@@ -119,17 +128,6 @@ Dealing with multiple stakeholders
 - The end user - Deep inside you now that you serve the one true master, the user. There is an exhilarating effect that you have the responsibility to ensure that the product works as expected. If you so much as say you are not happy with a certain feature then what you say is taken seriously. What I've found is that most of the time, the functionality works but the User Experience is not taken into account. It is the tester's duty to tell the team that if the colour of a button is not consistent with the same type of button in a different part of the system. You may ask why should you care about the colour of a button? To me, finding inconsistencies is a major issue and detrimental to the usability of the product. Who wants to use an inconsistent platform?
 
 More about stakeholders when you get to [requirements](/concepts/requirements.md).
-
---------
-
-- Testing is building credibility for yourself and your organisation, which serves you and which you are serving.
-
-Strive to earn the respect and trust of your team.
-
-- You're often the bearer of bad news. Own it and deliver the information with compassion and humility.
-- Your role is to help to prevent programmers and managers from being fooled—and that that starts with not being fooled yourself
-
-The goal of a tester is not _just_ finding issues, otherwise you might become [a perfectionist that raises mostly low-value issues](https://letmetrysoftwaretesting.wordpress.com/2018/01/22/testing-to-make-product-better-vs-perfect/). Instead, your focus should be pursuing quality and keeping it at a high level. Finding issues is just a consequence of that pursuit.
 
 ----------
 
