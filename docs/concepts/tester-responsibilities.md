@@ -1,6 +1,6 @@
 # Tester's responsibilities
 
-> **tl;dr** To perform the necessary activities to fulfil the [purpose of testing](/concepts/testing-purpose.md).
+> **tl;dr** To master the necessary skills to fulfil the [purpose of testing](/concepts/testing-purpose.md).
 
 ## Theory
 
