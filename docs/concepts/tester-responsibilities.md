@@ -123,6 +123,7 @@ Testers add value to teams by contributing with different perspectives. If you a
 - [Why you might need testers](http://www.investigatingsoftware.co.uk/2017/04/why-you-might-need-testers.html)
 - [Am I really a valuable member of my team?](https://testingfromthehip.wordpress.com/2016/01/08/am-i-really-a-valuable-member-of-my-team/)
 - [The role of the tester](https://thelifeofoneman.com/the-role-of-the-tester)
+- [What’s the difference between a good test and a bad test?](https://dojo.ministryoftesting.com/dojo/lessons/designing-tests-what-s-the-difference-between-a-good-test-and-a-bad-test)
 - [How To Think Like a Software Tester](https://thelifeofoneman.com/think-like-software-tester)
 - [What testers find](http://www.satisfice.com/blog/archives/572)
 - [Testers: Get Out of the Quality Assurance Business](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/)
@@ -136,20 +137,6 @@ Testers add value to teams by contributing with different perspectives. If you a
 > Are you really helping your team make informed decisions? Are you testing the right things, at the right time? Are you a lighthouse, shining light so your teams boat can avoid obstacles and problems on its way to its destination? Let’s hope you are!
 
 FROM: <https://testingfromthehip.wordpress.com/2016/06/14/what-is-the-main-purpose-of-our-testing/>
-
-> I want to discover as much useful information as possible to share with my team to help them be awesome. This information can tell me:
->
-> - How a stakeholder(s) wants the product to work.
-> - How it actually works.
-> - How to come up with new test ideas.
-> - Are there any bugs within the product.
->
-> As a tester, it’s my responsibility to go forth and find that information; something that the very excellent EvilTester promotes regularly in his books and talks. This responsibility means that I have the freedom to create any type of test I want, but I need to ensure that what I create is revealing information that my team can use to succeed.
-
-> It’s the testers job to ask questions, explore, and think critically about all of these things: Ideas, Requirements, Designs, Assumptions, Documentation, Infrastructure, Processes.
-> It could result in something that could have turned into a bug later in the development process being caught much earlier.
-
-<https://dojo.ministryoftesting.com/lessons/designing-tests-what-s-the-difference-between-a-good-test-and-a-bad-test>
 
 Testing is a skill that requires: mindfulness (bias awareness), attention to detail, creativity, determination, constant learning
 
