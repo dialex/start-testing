@@ -7,10 +7,10 @@
   - [Testing's purpose](/concepts/testing-purpose.md)
   - [Testing is...](/concepts/what-testing-is.md)
   - [Testing is not...](/concepts/what-testing-is-not.md)
-  - ~~Tester's responsibility~~
+  - [Tester's responsibilities](/concepts/tester-responsibilities.md)
   - ~~Software Testing Life Cycle (STLC)~~
   - [Requirements](/concepts/requirements.md)
-- **Tools**
+- **Toolbox**
   - ~~Test strategy~~
   - ~~Test methodologies~~
   - ~~Test pyramid~~
@@ -18,6 +18,7 @@
   - [Oracles](/tools/oracles.md)
   - ~~Heuristics~~
   - ~~Mnemonics~~
+  - ~~Tools~~
 - **Test types**
   - ~~Functional vs Non-functional~~
   - ~~White box vs Black box~~
