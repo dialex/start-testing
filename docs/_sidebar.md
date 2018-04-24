@@ -9,6 +9,7 @@
   - [Testing is not...](/concepts/what-testing-is-not.md)
   - [Tester's responsibilities](/concepts/tester-responsibilities.md)
   - [Requirements](/concepts/requirements.md)
+  - [Testability](/concepts/testability.md)
 - **Toolbox**
   - ~~Test strategy~~
   - ~~Test methodologies~~
