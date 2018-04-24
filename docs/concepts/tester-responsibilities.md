@@ -23,6 +23,8 @@ While you do all that, be aware and [avoid the common pitfalls](/concepts/what-t
 >
 > — [Michael Bolton](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/)
 
+Skilled testers come in all "flavours". Some are highly technical and will highlight technical issues you haven't noticed. Some are skilled at seeing the app from the users' perspective and highlight problems that will cost you customers. Some will let you know if you are breaking any regulation or standard.
+
 > If you feel that your value is not appreciated or you can be easily replaced, then shame on you. Think to yourself: am I doing all I can to help my team succeed? Does my team value my contributions?
 >
 > — [John Andrews](https://testingfromthehip.wordpress.com/2016/01/08/am-i-really-a-valuable-member-of-my-team/)
@@ -102,6 +104,8 @@ Get the team to sit down and agree on your project's goal. In the future, if any
 
 Besides the code, the team and the processes can also benefit from your testing. Work closely with your team to identify bottlenecks and keep on improving. Help your colleagues maintain a high velocity by recommending tools and practices that expedite your work. Use [retrospectives](/roles/agile-team-member.md) to share your concerns and suggestions.
 
+Working as a team, you achieve more, faster and with less pain.
+
 
 ### 🍎 Thinker
 
@@ -116,6 +120,7 @@ Testers add value to teams by contributing with different perspectives. If you a
 ## Sources
 
 - [Four and more questions](http://www.developsense.com/blog/2018/03/four-and-more-questions/)
+- [Why you might need testers](http://www.investigatingsoftware.co.uk/2017/04/why-you-might-need-testers.html)
 - [Am I really a valuable member of my team?](https://testingfromthehip.wordpress.com/2016/01/08/am-i-really-a-valuable-member-of-my-team/)
 - [The role of the tester](https://thelifeofoneman.com/the-role-of-the-tester)
 - [How To Think Like a Software Tester](https://thelifeofoneman.com/think-like-software-tester)
@@ -125,18 +130,6 @@ Testers add value to teams by contributing with different perspectives. If you a
 - [What do software testers do](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1)
 
 ----------
-
-When we have this sort of immediate feedback we learn quicker, we improve our game. When the feedback is about problems we don't even know might exist, that expands our knowledge letting us adapt before its painful to do so.
-
-My son had his own plan, skill and will. He could have learned on his own. It probably would have taken longer and maybe been more painful or even dangerous. Working as a team, we achieved something, more than we could alone.
-
-That's where skilled testers come in. Some of us are highly technical and will highlight technical issues or opportunities you haven't noticed. Some of us are skilled at seeing the app from the customers view point and highlighting problems that will cost you customers. Many of us do the above and much more. This could be letting you know if we are breaking the law. We often write tools that enable us to test more things – better. Testers can be useful for just pointing out the simple stuff like – we are developing for Red Hat Linux, but 60% of our users are on Windows, and 25% are on Apple Macs.
-
-http://www.investigatingsoftware.co.uk/2017/04/why-you-might-need-testers.html
-
----------
-
-
 
 > A team can never really know the quality of their products or how they will be perceived in the marketplace. They can know things like: the number of open defects, the missed requirements, the poorly written / thought out designs, or early feedback from demos. Our testing should be **helping to provide our teams with as much information as we can**, to make an informed opinion on their own perceived view of quality. This perception should **help teams decide** things like: when to release / not release, when to enhance, when to bug fix, when to scale back, when to move on, etc.
 
