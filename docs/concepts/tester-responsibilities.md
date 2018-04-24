@@ -9,25 +9,25 @@ Your responsibility as a tester is to fulfil the [purpose of testing](/concepts/
 That means you will be performing a [diverse set of activities](/concepts/what-testing-is.md), which include:
 
 - Clarify [requirements](/concepts/requirements.md) between stakeholders and developers;
-- Elaborate a [test strategy]() for your product;
-- Advocate the right [test methodology]() for your team;
-- Collect and develop [tools and techniques]() to support your testing;
-- Choose which [test types]() bring the most value at a given time;
-- Adapt your [role]() to the current team's needs.
+- Elaborate a [test strategy](/tools/testing-strategy.md) for your product;
+- Advocate the right [test methodology](/tools/methodology.md) for your team;
+- Collect and develop [tools and techniques](/tools/index.md) to support your testing;
+- Choose which [test types](/types/index.md) bring the most value at a given time;
+- Adapt your [role](/roles/index.md) to the current team's needs.
 
 While you do all that, be aware and [avoid the common pitfalls](/concepts/what-testing-is-not.md).
 
 ## Practice
 
->  We're extensions to the senses of our stakeholders. We help the team sense things that they might not be able to sense on their own, due to their limited time and the mindset required to do their job.
+> We're extensions to the senses of our stakeholders. We help the team sense things that they might not be able to sense on their own, due to their limited time and the mindset required to do their job.
 >
 > — [Michael Bolton](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/)
-
+>
 > If you feel that your value is not appreciated or you can be easily replaced, then shame on you. Think to yourself: am I doing all I can to help my team succeed? Does my team value my contributions?
 >
 > — [John Andrews](https://testingfromthehip.wordpress.com/2016/01/08/am-i-really-a-valuable-member-of-my-team/)
 
-If you want an (almost) exhaustive list of reponsibilities and activities, this [link](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1) is for you.
+If you want an (almost) exhaustive list of responsibilities and activities, this [link](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1) is for you.
 
 ### 🐞 Bug detector
 
@@ -48,7 +48,7 @@ Your _ultimate goal_ should be pursuing quality and keeping it at a high level. 
 Part of your role is keeping these two groups aligned. First, you need to align yourself with them. More about stakeholders when you get to [requirements](/concepts/requirements.md).
 
 - **Development**: Some developers think that all testers do is question their work and expose their flaws. On the contrary, one of the tester's goal is to help developers look good (by finding issues early) and save them debugging time (by investigating themselves).
-- **Business**: Set expectations, explaing that software development is not a precise number on an Excel sheet or Gantt chart. Provide the information they need to make informed decisions, and then let them make the decisions. The only person who should be signing off the product is its owner.
+- **Business**: Set expectations, explain that software development is not a precise number on an Excel sheet or Gantt chart. Provide the information they need to make informed decisions, and then let them make the decisions. The only person who should be signing off the product is its owner.
 
 You are often the bearer of bad news. Own it and deliver the information with compassion and humility. Attempt to fix the bad news before reporting them and you might end up with good news.
 
@@ -58,7 +58,7 @@ Strive to earn the respect of your team. As a tester you need to know the produc
 
 Developers focus on code and functionality, while managers focus on business growth and profit. In the middle you have these two groups, who could definitely use some love from you.
 
-- **Support**: The bugs waiting to be fixed become a burden for the customer team or the customer support team. This group will appreciate if you tell what is currently buggy and wether there is a workaround.
+- **Support**: The bugs waiting to be fixed become a burden for the customer team or the customer support team. This group will appreciate if you tell what is currently buggy and whether there is a workaround.
 - **End user**: Often a feature works but the user experience is not taken into account. Ask yourself what type of emotions you would feel when using the product. Be the user's voice and "complain" to your team so that they don't have to.
 
 Share some of that love with your team too. Seek a joyful and friendly environment in your team. Celebrate success and keep a journal of small victories or praises.
@@ -75,7 +75,7 @@ James Bach compares a tester to the front lights of a car. The analogy aims to e
 
 Testers attempt to forecast multiple scenarios that might hurt the team, so that it can prepare in advance and reduce the risk. However, it's impossible to think about every trouble ahead of time. It's part of your role to keep gathering information along the way, so that your team can react and make better decisions.
 
-Your (business) stakeholders will not always know what they want. Sometimes they are transparent about it and reach to you for advice, e.g. "What are your thoughts on X? How should we do Y?". Other times you must observe them carefuly to notice their hesitation or their fragile/biased reasoning. That's a silent call for your help.
+Your (business) stakeholders will not always know what they want. Sometimes they are transparent about it and reach to you for advice, e.g. "What are your thoughts on X? How should we do Y?". Other times you must observe them carefully to notice their hesitation or their fragile/biased reasoning. That's a silent call for your help.
 
 Even though you don't own the product, you can give them your advice and support it with data (your experience, domain knowledge, market benchmarks, competitors, etc.). This strengthens your relationship because you show that you care without being prescriptive.
 
@@ -87,7 +87,7 @@ Even though you don't own the product, you can give them your advice and support
 
 One of your responsibilities is to uncover information and deliver it. To do so, there are many questions a tester could ask. [Mnemonics](/tools/mnemonics.md) are a clever way to avoid forgetting them. If you can only memorise four questions, these are the ones:
 
-1. **What are we building?** *What features? What are the components? How do they integrate?* 
+1. **What are we building?** *What features? What are the components? How do they integrate?*
 2. **For who?** *What value are they expecting? How will they use it? How can they get help?*
 3. **What could go wrong?** *What's the impact? Who would suffer? How long would it take to fix it?*
 4. **How would we find out?** *Can we detect a failure? Can we prevent or mitigate it?*
@@ -98,14 +98,13 @@ Get the team to sit down and agree on your project's goal. In the future, if any
 
 ### 🏕️ Scout
 
-> Always leave the campground better than you found it.
+> Always leave the campsite better than you found it.
 >
 > — [The boy scout rule](http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule)
 
 Besides the code, the team and the processes can also benefit from your testing. Work closely with your team to identify bottlenecks and keep on improving. Help your colleagues maintain a high velocity by recommending tools and practices that expedite your work. Use [retrospectives](/roles/agile-team-member.md) to share your concerns and suggestions.
 
 Working as a team, you achieve more, faster and with less pain.
-
 
 ### 🍎 Thinker
 
@@ -115,13 +114,13 @@ Testers add value to teams by contributing with different perspectives. If you a
 - **Creative thinking**: usage of _creativity_ to analyse the same context using a different perspective. This is useful to uncover new information that no one thought about before (aka. *unknown unknowns*).
 - **Critical thinking**: usage of _scepticism_ to question what is known or assumed to be the truth. This is useful to detect assumptions or biases and review the "why" and "how" of a requirement.
 - **Practical thinking**: usage of _visualisation_ to draw the ideas under discussion or ask for examples. This is useful to predict how an idea will be done and remove any obstacles to its implementation.
-- **Blackbox thinking**: usage of _ignorance_ to skip implementation details. This is useful to focus on behaviour and end-to-end flow, impersonating a user.
+- **Black box thinking**: usage of _ignorance_ to skip implementation details. This is useful to focus on behaviour and end-to-end flow, impersonating a user.
 
 ### 📚 Learner
 
-Skilled testers come in all "flavours". Some are highly technical and will highlight technical issues you haven't noticed. Some are skilled at seeing the app from the users' perspective and highlight problems that will cost you customers. Some will let you know if you are breaking any regulation or standard. 
+Skilled testers come in all "flavours". Some are highly technical and will highlight technical issues you haven't noticed. Some are skilled at seeing the app from the users' perspective and highlight problems that will cost you customers. Some will let you know if you are breaking any regulation or standard.
 
-A good tester should be meticulous, curious, creative, determined and mindful of biases. A greater tester, nurtures the [student mindset]() and is humble enough to be always learning.
+A good tester should be meticulous, curious, creative, determined and mindful of biases. A greater tester, nurtures the [student mindset](/next/index.md) and is humble enough to be always learning.
 
 ## Sources
 
