@@ -29,7 +29,7 @@
   - ~~System~~
   - ~~Regression~~
   - ~~Acceptance~~
-- **Testing roles**
+- **Tester roles**
   - ~~Manual tester~~
   - ~~Exploration tester~~
   - ~~Automation tester~~
@@ -41,17 +41,15 @@
   - ~~Lead tester~~
   - ~~Recruiter~~
   - ~~Certifications~~
-- **Metrics**
-  - ~~Coverage~~
 - **Fields**
-  - ~~Functional vs Non-functional~~
   - ~~Usability (UI/UX)~~
-  - ~~Risk~~
-  - ~~Performance + Load~~
+  - ~~Performance & Load~~
   - ~~Security~~
+  - ~~Risk~~
   - ~~Database~~
   - ~~Platform (DevOps)~~
-  - ~~Monitoring + Alert~~
+  - ~~Metrics~~
+  - ~~Monitoring~~
   - ~~Logging~~
 - **Next steps**
   - ~~Staying updated~~
