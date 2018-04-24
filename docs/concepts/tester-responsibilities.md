@@ -23,8 +23,6 @@ While you do all that, be aware and [avoid the common pitfalls](/concepts/what-t
 >
 > — [Michael Bolton](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/)
 
-Skilled testers come in all "flavours". Some are highly technical and will highlight technical issues you haven't noticed. Some are skilled at seeing the app from the users' perspective and highlight problems that will cost you customers. Some will let you know if you are breaking any regulation or standard.
-
 > If you feel that your value is not appreciated or you can be easily replaced, then shame on you. Think to yourself: am I doing all I can to help my team succeed? Does my team value my contributions?
 >
 > — [John Andrews](https://testingfromthehip.wordpress.com/2016/01/08/am-i-really-a-valuable-member-of-my-team/)
@@ -117,6 +115,12 @@ Testers add value to teams by contributing with different perspectives. If you a
 - **Practical thinking**: usage of _visualisation_ to draw the ideas under discussion or ask for examples. This is useful to predict how an idea will be done and remove any obstacles to its implementation.
 - **Blackbox thinking**: usage of _ignorance_ to skip implementation details. This is useful to focus on behaviour and end-to-end flow, impersonating a user.
 
+### 📚 Learner
+
+Skilled testers come in all "flavours". Some are highly technical and will highlight technical issues you haven't noticed. Some are skilled at seeing the app from the users' perspective and highlight problems that will cost you customers. Some will let you know if you are breaking any regulation or standard. 
+
+A good tester should be meticulous, curious, creative, determined and mindful of biases. A greater tester, nurtures the [student mindset]() and is humble enough to be always learning.
+
 ## Sources
 
 - [Four and more questions](http://www.developsense.com/blog/2018/03/four-and-more-questions/)
@@ -131,14 +135,6 @@ Testers add value to teams by contributing with different perspectives. If you a
 - [What do software testers do](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1)
 
 ----------
-
-> A team can never really know the quality of their products or how they will be perceived in the marketplace. They can know things like: the number of open defects, the missed requirements, the poorly written / thought out designs, or early feedback from demos. Our testing should be **helping to provide our teams with as much information as we can**, to make an informed opinion on their own perceived view of quality. This perception should **help teams decide** things like: when to release / not release, when to enhance, when to bug fix, when to scale back, when to move on, etc.
-
-> Are you really helping your team make informed decisions? Are you testing the right things, at the right time? Are you a lighthouse, shining light so your teams boat can avoid obstacles and problems on its way to its destination? Let’s hope you are!
-
-FROM: <https://testingfromthehip.wordpress.com/2016/06/14/what-is-the-main-purpose-of-our-testing/>
-
-Testing is a skill that requires: mindfulness (bias awareness), attention to detail, creativity, determination, constant learning
 
 > Testers Don't Have Tech Skills
 > 
