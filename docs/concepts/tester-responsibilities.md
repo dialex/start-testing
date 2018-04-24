@@ -52,7 +52,7 @@ Part of your role is keeping these two groups aligned. First, you need to align 
 
 You are often the bearer of bad news. Own it and deliver the information with compassion and humility. Attempt to fix the bad news before reporting them and you might end up with good news.
 
-Strive to earn the respect of your team. As a tester you need to know the product like it's the back of your hand. That way you build credibility for yourself and save everyone else's time.
+Strive to earn the respect of your team. As a tester you need to know the product like it's the back of your hand. Do your due diligence to become a reliable and knowledgeable source of information to the rest of the team.
 
 ### ❤️ (User) Friend
 
@@ -143,12 +143,6 @@ http://www.investigatingsoftware.co.uk/2017/04/why-you-might-need-testers.html
 > Are you really helping your team make informed decisions? Are you testing the right things, at the right time? Are you a lighthouse, shining light so your teams boat can avoid obstacles and problems on its way to its destination? Let’s hope you are!
 
 FROM: <https://testingfromthehip.wordpress.com/2016/06/14/what-is-the-main-purpose-of-our-testing/>
-
-> Do your due diligence to become a reliable and knowledgeable source of information for the rest of the team.
-
-> Testers that rely on only documenting tests and test results are at risk oversimplifying a job that requires much more than writing and executing test cases. They also risk creating the perception that testing is easy. This view can lead to problems around your status in a team and may even encourage the idea that you could be replaced by test automation. Documented Tests are a tool and they should be used wisely to solve a specific problem rather than a replacement for critical thinking and communication.
-
-<https://dojo.ministryoftesting.com/lessons/what-do-tests-look-like>
 
 > I want to discover as much useful information as possible to share with my team to help them be awesome. This information can tell me:
 >
