@@ -81,14 +81,16 @@ Even though you don't own the product, you can give them your advice and support
 
 ### 🔎 Inspector
 
+> Your testing should provide enough information for the team to make its own perceived view of quality (...) to help decide things like: when to release, where to bug fix, when to scale back, when to move on, etc.
+>
+> — [John Andrews](https://testingfromthehip.wordpress.com/2016/06/14/what-is-the-main-purpose-of-our-testing/)
+
 One of your responsibilities is to uncover information and deliver it. To do so, there are many questions a tester could ask. [Mnemonics](/tools/mnemonics.md) are a clever way to avoid forgetting them. If you can only memorise four questions, these are the ones:
 
 1. **What are we building?** *What features? What are the components? How do they integrate?* 
 2. **For who?** *What value are they expecting? How will they use it? How can they get help?*
 3. **What could go wrong?** *What's the impact? Who would suffer? How long would it take to fix it?*
 4. **How would we find out?** *Can we detect a failure? Can we prevent or mitigate it?*
-
-It is your job to tell management what you feel about the product.
 
 Once you have gathered that information, share it with your team and other relevant stakeholders. Be mindful about your audience — deliver just the right amount of data using the most effective medium for them (e.g. using diagrams for non-technical people).
 
