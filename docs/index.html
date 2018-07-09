@@ -30,7 +30,11 @@
             EditOnGithubPlugin.create(
                 'https://github.com/dialex/start-testing/tree/master/docs/'
             )
-        ]
+        ],
+
+        alias: {
+            '/.*/_sidebar.md': '/_sidebar.md'
+        }
     }
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
