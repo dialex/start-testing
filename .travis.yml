@@ -10,6 +10,10 @@ install:
 
 script:
   - ./ci-run.sh
+  
+branches:
+  only:
+    - master
 
 notifications:
   email:
