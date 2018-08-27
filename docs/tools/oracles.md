@@ -48,7 +48,7 @@ Use the [mnemonic](/tools/mnemonics.md) `FEW HICCUPS` to remember these oracles:
 - **Standards**: Does it comply with (external) laws and regulations?
   - _e.g. this page scored too low on W3C's accessibility test_
 
-This [link](http://www.testingeducation.org/k04/examples/obas05s.html) shows how to apply the "comparable products" oracle to test the copy-paste feature in different softwares.
+This [link](http://www.testingeducation.org/k04/examples/obas05s.html) shows how to apply the "comparable products" oracle to test the copy-paste feature in different software.
 
 ## Teachers
 
