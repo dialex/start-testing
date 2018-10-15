@@ -12,5 +12,5 @@ make test     # Run tests
 - **Smoke Tests**
   - Access homepage on browser
 - **Functional Tests**
-  - Search for book
-  - Add book to cart
+  - Search for item
+  - Add item to cart
