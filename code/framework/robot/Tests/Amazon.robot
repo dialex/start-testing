@@ -1,7 +1,7 @@
 *** Settings ***
 
 Documentation  This is an example of how you can test Amazon using Robot Framework
-Library  SeleniumLibrary
+Library  SeleniumLibrary  run_on_failure=Capture Page Screenshot
 
 *** Variables ***
 
@@ -32,28 +32,29 @@ Search for item
   [Tags]  Functional
   Open Browser  https://amazon.com/  chrome
   Wait Until Page Contains Element  id:twotabsearchtextbox
-  Input Text  id:twotabsearchtextbox  kindle
+  Input Text  id:twotabsearchtextbox  explore it
   Press Key  id:twotabsearchtextbox  \\13
   Wait Until Page Contains  results for
   Page Should Contain Element  css:.s-result-item
   Close Browser
 
-# Add item to cart
-#   [Documentation]  Should display a success message and increment the cart total items
-#   [Tags]  Functional
-#   Open Browser  https://amazon.com/  chrome
-#   Wait Until Page Contains Element  id:twotabsearchtextbox
-#   Input Text  id:twotabsearchtextbox  kindle
-#   Press Key  id:twotabsearchtextbox  \\13
-#   Wait Until Page Contains  results for
-#   Click Element  id:result_0
-#   Wait Until Page Contains  price
-#   Page Should Contain  stock
-#   Click Element  id:submit.add-to-cart
-#   Wait Until Page Contains Element  id:hl-confirm
-#   Page Should Contain  item was added
-#   Page Should Contain Element  id:nav-cart-count
-#   Element Attribute Value Should Be  id:nav-cart-count  text  1
-#   Close Browser
+Add item to cart
+  [Documentation]  Should display a success message and increment the cart total items
+  [Tags]  Functional
+  Open Browser  https://amazon.com/  chrome
+  Wait Until Page Contains Element  id:twotabsearchtextbox
+  Input Text  id:twotabsearchtextbox  explore it
+  Press Key  id:twotabsearchtextbox  \\13
+  Wait Until Page Contains  results for
+  Click Element  xpath://*[@id="result_0"]//a
+  Wait Until Page Contains  price
+  Page Should Contain  Stock
+  Click Button  id:add-to-cart-button
+  Wait Until Page Contains Element  id:huc-v2-confirm-text-container
+  Page Should Contain  Added to Cart
+  Page Should Contain Element  id:nav-cart-count
+  Element Should Contain  id:nav-cart-count  1
+  # Element Text Should Be  id:nav-cart-count  1
+  Close Browser
 
 *** Keywords ***
