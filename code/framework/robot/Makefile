@@ -7,5 +7,9 @@ install:
 	brew cask install chromedriver
 	brew cask install geckodriver
 
-test:
+clean:
+	rm -r Results
+	mkdir Results
+
+test: clean
 	robot -d Results Tests/Amazon.robot
