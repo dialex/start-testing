@@ -4,3 +4,13 @@
 make install  # Install dependencies
 make test     # Run tests
 ```
+
+## Automation scope: Amazon
+
+- **Sanity Tests**
+  - Run a test with an assertion
+- **Smoke Tests**
+  - Access homepage on browser
+- **Functional Tests**
+  - Search for book
+  - Add book to cart
