@@ -1,5 +1,9 @@
 # Guide to review test frameworks
 
+## Review criteria
+
+- TODO
+
 ## Automation scope: [Todo list](http://todomvc.com/examples/react/#/)
 
 - **Sanity Tests**
