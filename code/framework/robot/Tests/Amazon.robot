@@ -46,7 +46,7 @@ Add item to cart
   Input Text  id:twotabsearchtextbox  explore it
   Press Key  id:twotabsearchtextbox  \\13
   Wait Until Page Contains  results for
-  Click Element  xpath://*[@id="result_0"]//a
+  Click Element  xpath://*[@id="result_0"]//a/h2
   Wait Until Page Contains  price
   Page Should Contain  Stock
   Click Button  id:add-to-cart-button

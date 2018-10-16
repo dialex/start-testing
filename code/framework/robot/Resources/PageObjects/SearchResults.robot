@@ -6,5 +6,5 @@ Library  SeleniumLibrary  run_on_failure=Capture Page Screenshot
 
 Select Product
   [Arguments]  ${index}
-  Click Element  xpath://*[@id="result_${index}"]//a
+  Click Element  xpath://*[@id="result_${index}"]//a/h2
   Wait Until Page Contains  price
