@@ -12,4 +12,5 @@ clean:
 	mkdir Results
 
 test: clean
-	robot -d Results Tests/Amazon.robot
+	# robot -d Results Tests
+	robot -d Results Tests/AmazonRefactored.robot
