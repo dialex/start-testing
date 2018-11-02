@@ -1,11 +1,13 @@
 *** Settings ***
 
-Documentation  This is an example of how you can test Amazon using Robot Framework
-Resource  ../Resources/Assert.robot
-Resource  ../Resources/AmazonActions.robot
-Resource  ../Resources/CommonActions.robot
-Test Setup  CommonActions.Begin Test  chrome  https://amazon.com/
-Test Teardown  CommonActions.End Test
+Documentation   This is an example of how you can test Amazon using Robot Framework
+Resource        ../Resources/Assert.robot
+Resource        ../Resources/AmazonActions.robot
+Resource        ../Resources/CommonActions.robot
+Resource        ../Resources/StepDefinitions.robot
+Force Tags      Example
+Test Setup      CommonActions.Begin Test  chrome  https://amazon.com/
+Test Teardown   CommonActions.End Test
 
 *** Variables ***
 
@@ -39,5 +41,12 @@ Add item to cart
   Assert.Page Has Text  Added to Cart
   Assert.Page Has Element  id:nav-cart-count
   Assert.Element Has Text  id:nav-cart-count  1
+
+Add item to cart (Gherkin style)
+  [Documentation]  Should display a success message and increment the cart total items
+  [Tags]  Acceptance
+  Given I search for a product
+  When I add a product to an empty cart
+  Then my cart has that item
 
 *** Keywords ***
