@@ -52,6 +52,8 @@
   - ~~Logging~~
 - **Next steps**
   - ~~Staying updated~~
+- **EXTRA: Test Frameworks**
+  - [Robot Framework](/tools/framework/robot.md)
 - **EXTRA: Notebook**
   - [User Story Mapping](/notebook/user-story-mapping.md)
   - [Specification by Example](/notebook/specification-by-example.md)
