@@ -6,10 +6,10 @@ before_install:
   - rvm install 2.5.0
 
 install:
-  - npm install
+  - make install
 
 script:
-  - npm run build
+  - make build
 
 branches:
   only:
