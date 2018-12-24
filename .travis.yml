@@ -6,11 +6,11 @@ before_install:
   - rvm install 2.5.0
 
 install:
-  - ./ci-install.sh
+  - npm install
 
 script:
-  - ./ci-run.sh
-  
+  - npm run lint
+
 branches:
   only:
     - master
