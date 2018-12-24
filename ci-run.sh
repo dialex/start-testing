@@ -4,9 +4,6 @@
 set -e
 source ./ci-helpers.sh
 
-log_task 'Check for spelling mistakes'
-run_step "mdspell 'docs/**/*.md' -r --en-gb --ignore-numbers --ignore-acronyms"
-
 log_task 'Check for broken internal links (TODO: REPLACE IT, because it detects false positives)'
 run_step "remark -u validate-links docs --ignore-path .remarkignore"
 
