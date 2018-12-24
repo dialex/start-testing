@@ -85,3 +85,4 @@ Part of the skill of being a tester is deciding what to test. You will have to c
 - [The Challenge of "Good Enough" Software](http://www.satisfice.com/articles/gooden2.pdf)
 - [Ten Misconceptions About Software Testing](https://dojo.ministryoftesting.com/dojo/lessons/ten-misconceptions-about-software-testing-that-non-testers-share)
 - [Testers: Get Out of the Quality Assurance Business](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business)
+- [Pressing the Green Button](http://www.developsense.com/blog/2018/12/pressing-the-green-button/)
