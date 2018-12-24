@@ -1,0 +1,20 @@
+{
+  "name": "start-testing",
+  "version": "0.1.0",
+  "description": "A crowdsourced testing course, written by testers for testers wannabes.",
+  "main": "",
+  "directories": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dialex/start-testing.git"
+  },
+  "author": "Diogo Nunes <email@diogonunes.com> (https://diogonunes.com/)",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/dialex/start-testing/issues"
+  },
+  "homepage": "https://github.com/dialex/start-testing"
+}
