@@ -4,8 +4,7 @@
   "description": "A crowdsourced testing course, written by testers for testers wannabes.",
   "scripts": {
     "build": "npm run lint",
-    "test": "echo \"Error: no test specified\" && exit 1",
-
+    "test": "echo \"Aborting: no tests found. (see https://github.com/dialex/start-testing/issues/70) (\" && exit 1",
     "clean": "rm -r node_modules",
     "lint": "npm-run-all lint:*",
     "lint:markdown": "markdownlint docs --config docs/.markdownlint.json",
