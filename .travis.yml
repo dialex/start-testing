@@ -6,11 +6,11 @@ before_install:
   - rvm install 2.5.0
 
 install:
-  - ./ci-install.sh
+  - make install
 
 script:
-  - ./ci-run.sh
-  
+  - make build
+
 branches:
   only:
     - master

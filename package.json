@@ -1,0 +1,34 @@
+{
+  "name": "start-testing",
+  "version": "0.1.0",
+  "description": "A crowdsourced testing course, written by testers for testers wannabes.",
+  "scripts": {
+    "build": "npm run lint",
+    "test": "echo \"Aborting: no tests found. (see https://github.com/dialex/start-testing/issues/70) (\" && exit 1",
+    "clean": "rm -r node_modules",
+    "lint": "npm-run-all lint:*",
+    "lint:markdown": "markdownlint docs --config docs/.markdownlint.json",
+    "lint:spelling": "mdspell 'docs/**/*.md' -r --en-gb --ignore-numbers --ignore-acronyms",
+    "lint:broken-links-internal": "remark -u validate-links docs --ignore-path .remarkignore",
+    "lint:broken-links-external": "awesome_bot --allow-redirect --allow-dupe --skip-save-results docs/**/*.md",
+    "postinstall": "gem install --no-ri --no-rdoc awesome_bot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dialex/start-testing.git"
+  },
+  "devDependencies": {
+    "fakefile": "0.0.9",
+    "markdown-spellcheck": "^1.3.1",
+    "markdownlint-cli": "^0.13.0",
+    "npm-run-all": "^4.1.5",
+    "remark-cli": "^6.0.1",
+    "remark-validate-links": "^7.1.2"
+  },
+  "author": "Diogo Nunes <email@diogonunes.com> (https://diogonunes.com/)",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/dialex/start-testing/issues"
+  },
+  "homepage": "https://github.com/dialex/start-testing"
+}
