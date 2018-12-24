@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A crowdsourced testing course, written by testers for testers wannabes.",
   "scripts": {
-    "build": "npm-run-all clean install lint",
+    "build": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1",
 
     "clean": "rm -r node_modules",
