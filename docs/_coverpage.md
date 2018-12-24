@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD033 -->
 <!-- ![logo](_media/logo.png) -->
 <!-- <img src="_media/logo.png" alt="logo" style="width: 200px;"/> -->
 
