@@ -22,7 +22,7 @@ Tools can be used to support many testing activities — automating checks is ju
 
 Testing is about using and creating tools to support your work, not trying to get them to replace you. Testing as an exploratory, intellectual activity, cannot be replaced by automated checks. No automation will ever replace the tester reaction of "hmm, that's odd".
 
-Automation is a tool that frees us from repetitive monotonous tasks; a means to save time and invest it in using our brains towards our testing goal. And since words matter, we say more ["Automation in Testing"](https://automationintesting.com/about/) and less "Test Automation".
+Automation is a tool that frees us from repetitive monotonous tasks; a means to save time and invest it in using our brains towards our testing goal. And since words matter, we prefer to say ["Automation in Testing"](https://automationintesting.com/about/) than "Test Automation".
 
 Remember: your product will be used by humans, like you. If only bots "test" your product, what kind of product will you deliver?
 
@@ -85,3 +85,4 @@ Part of the skill of being a tester is deciding what to test. You will have to c
 - [The Challenge of "Good Enough" Software](http://www.satisfice.com/articles/gooden2.pdf)
 - [Ten Misconceptions About Software Testing](https://dojo.ministryoftesting.com/dojo/lessons/ten-misconceptions-about-software-testing-that-non-testers-share)
 - [Testers: Get Out of the Quality Assurance Business](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business)
+- [Pressing the Green Button](http://www.developsense.com/blog/2018/12/pressing-the-green-button/)

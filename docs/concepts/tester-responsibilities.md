@@ -134,4 +134,5 @@ A good tester should be meticulous, curious, creative, determined and mindful of
 - [What testers find](http://www.satisfice.com/blog/archives/572)
 - [Testers: Get Out of the Quality Assurance Business](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/)
 - [99 Second Introduction to Lateral and Critical Thinking](https://dojo.ministryoftesting.com/dojo/lessons/99-second-introduction-to-lateral-and-critical-thinking)
+- [Modern Testing Principles](https://dojo.ministryoftesting.com/dojo/lessons/modern-testing-principles)
 - [What do software testers do](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1)
