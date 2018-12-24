@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A crowdsourced testing course, written by testers for testers wannabes.",
   "scripts": {
+    "lint:markdown": "markdownlint docs --config docs/.markdownlint.json",
     "postinstall": "gem install --no-ri --no-rdoc awesome_bot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
