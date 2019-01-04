@@ -25,7 +25,7 @@ Charters are handy tools during all phases of a testing session. *Before* an exp
 
 A charter is a **small sentence** that summarises your focus for a particular exploratory testing session. Each charter should be motivated by a risk that you identified on a previous session or a need to discover more about a particular area of your product.
 
-Here are a few examples of...
+Here are a few examples of…
 
 - Targets: a feature, a requirement, a screen.
 - Resources: a tool, a data set, a technique, a configuration, another feature… anything you can use.
