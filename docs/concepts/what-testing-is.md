@@ -1,4 +1,4 @@
-# Testing is...
+# Testing is…
 
 ## 🔎 Investigation
 
@@ -54,6 +54,6 @@
 - [41 Definitions of Software Testing](https://chroniclesoftesting.blogspot.pt/2017/11/41-definitions-of-software-testing.html)
 - [Testing Terminology](http://pixelgrill.com/testing-terminology/)
 - [99 Second Introduction to Testing](https://dojo.ministryoftesting.com/lessons/99-second-introduction-to-testing)
-- [Testing is...](http://www.developsense.com/blog/2014/10/testing-is/)
+- [Testing is…](http://www.developsense.com/blog/2014/10/testing-is/)
 - [So, What Is Software Testing?](https://dojo.ministryoftesting.com/dojo/lessons/so-what-is-software-testing)
 - [What is the main purpose of our testing?](https://testingfromthehip.wordpress.com/2016/06/14/what-is-the-main-purpose-of-our-testing/)

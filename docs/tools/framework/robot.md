@@ -1,6 +1,6 @@
 # Robot Framework
 
-> Robot Framework is a test automation framework for acceptance testing (...) it utilises the keyword-driven testing approach. Its testing capabilities can be extended by Python test libraries.
+> Robot Framework is a test automation framework for acceptance testing (…) it utilises the keyword-driven testing approach. Its testing capabilities can be extended by Python test libraries.
 >
 > -- [Official website](http://robotframework.org/)
 
@@ -20,4 +20,4 @@ Example of automation at [GitHub](https://github.com/dialex/start-testing/tree/m
 | _Extensibility_   | You can create your own keywords to increase the abstraction, or compose them with existing keywords. Not easy to add custom code. | 🥈     |
 | _Maintainability_ | Refactoring keeps the code base understandable, although without a proper IDE it gets cumbersome. Limited debug. | 🥈     |
 | _Documentation_   | The online doc is enough and clear. There are enough examples online. There are also tutorials and courses. | 🥈     |
-| **VERDICT**   | Very good for small or simple projects. Otherwise has limitations. | **4/5** |
+| **VERDICT**   | Good for small or simple projects, otherwise has limitations. | **4/5** |
