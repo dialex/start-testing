@@ -4,7 +4,11 @@
 
 ## Theory
 
-Testability measures our ability to test -- how skilled we are, how easy it is to test, and how deep we can go.
+Testability measures our ability to test — how skilled we are, how easy it is to test, and how deep we can go. One of the [responsibilities of a tester](/concepts/tester-responsibilities.md) is to advocate testability within the team, highlighting what is making testing harder or slower.
+
+> When testing is hard or slow, bugs have more time and opportunity to stay hidden. Those bugs — deeper, less obvious, more intermittent — may be far worse than any bugs discovered so far.
+>
+> — [Michael Bolton](http://www.developsense.com/blog/2017/09/deeper-testing-3-testability/)
 
 ## Practice
 
@@ -33,3 +37,4 @@ If you were unsatisfied with score you got, there are methods to improve it. Of 
 
 - [Test improvement in an agile/CD environment](http://www.huibschoots.nl/wordpress/?p=2543)
 - [The team test for testability](https://testingisbelieving.blogspot.com/2017/08/the-team-test-for-testability.html)
+- [Deeper Testing: Testability](http://www.developsense.com/blog/2017/09/deeper-testing-3-testability/)
