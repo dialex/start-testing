@@ -4,11 +4,13 @@
 
 ## Theory
 
-Testability measures our ability to test — how skilled we are, how easy it is to test, and how deep we can go. One of the [responsibilities of a tester](/concepts/tester-responsibilities.md) is to advocate testability within the team, highlighting what is making testing harder or slower.
+Testability measures our human ability to test — how skilled we are, how easy it is to test, and how deep we can go. One of the [responsibilities of a tester](/concepts/tester-responsibilities.md) is to advocate testability within the team, highlighting what is making testing harder or slower.
 
 > When testing is hard or slow, bugs have more time and opportunity to stay hidden. Those bugs — deeper, less obvious, more intermittent — may be far worse than any bugs discovered so far.
 >
 > — [Michael Bolton](http://www.developsense.com/blog/2017/09/deeper-testing-3-testability/)
+
+Do not confuse with [automatability](https://www.youtube.com/watch?v=gL8hmAH4ZGM) which measures how easy it is to automate the interaction and control of our system. For instance, [logging](/fields/logging.md) is a feature that improves *testability* because it helps humans inspect how the system works; browser cookies enhance *automatability* because it allows automation to control a user session.
 
 ## Practice
 
