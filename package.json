@@ -8,15 +8,15 @@
     "lint": "npm-run-all lint:*",
     "lint:markdown": "markdownlint docs --config docs/.markdownlint.json",
     "lint:spelling": "mdspell 'docs/**/*.md' -r --en-gb --ignore-numbers --ignore-acronyms",
-    "lint:broken-links-internal": "remark -u validate-links docs --ignore-path .remarkignore",
-    "lint:broken-links-external": "awesome_bot --allow-redirect --allow-dupe --skip-save-results docs/**/*.md",
+    "lint:broken-links-internal": "echo 'Skipping validation because \"remark validate-links\" returns false positives. (see https://github.com/dialex/start-testing/issues/54)'",
+    "lint:broken-links-external": "remark -u remark-lint-no-dead-urls docs --frail",
     "postinstall": "gem install --no-ri --no-rdoc awesome_bot",
     "pr:prepare": "npm-run-all lint:markdown pr:spelling lint:broken-* run",
     "pr:spelling": "mdspell 'docs/**/*.md' --en-gb --ignore-numbers --ignore-acronyms",
     "preview": "echo \"Opening a preview on your browser now.\" && sleep 1 && open http://localhost:3000/#/",
     "run": "npm-run-all --parallel serve preview",
     "serve": "docsify serve docs",
-    "test": "echo \"Aborting: no tests found. (see https://github.com/dialex/start-testing/issues/70) (\" && exit 1"
+    "test": "echo 'Aborting: no tests found. (see https://github.com/dialex/start-testing/issues/70)' && exit 1"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,14 @@
     "markdownlint-cli": "^0.13.0",
     "npm-run-all": "^4.1.5",
     "remark-cli": "^6.0.1",
+    "remark-lint": "^6.0.4",
+    "remark-lint-no-dead-urls": "^0.4.1",
     "remark-validate-links": "^7.1.2"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "remark-lint-no-dead-urls"
+    ]
   },
   "author": "Diogo Nunes <email@diogonunes.com> (https://diogonunes.com/)",
   "license": "SEE LICENSE IN LICENSE.txt",

@@ -1,4 +1,4 @@
-# Testing is not...
+# Testing is not…
 
 ## ☑️ Checking
 
@@ -38,7 +38,7 @@ It's like holding an object in your hand and, gently, look for cracks. In dysfun
 
 ## 🐵 Straightforward
 
-> Testing is often thought of as something anyone can do (...) It takes real skill to do these things well and in a systematic way.
+> Testing is often thought of as something anyone can do (…) It takes real skill to do these things well and in a systematic way.
 >
 > — [Claire Reckless](https://dojo.ministryoftesting.com/dojo/lessons/so-what-is-software-testing)
 
@@ -60,7 +60,7 @@ Quality is a team effort. If something fails in production it's because the whol
 
 The people who test are as human as the people who code, and all humans make mistakes. Testing is neither invincible nor a gatekeeper. Even with medical software, where lives are at stake, mistakes happen.
 
-> There is a powerful alternative to the orthodox, expensive, and boring methodologies that aim at the best possible quality: (...) the discipline of good enough software development.
+> There is a powerful alternative to the orthodox, expensive, and boring methodologies that aim at the best possible quality: (…) the discipline of good enough software development.
 >
 > — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
 
