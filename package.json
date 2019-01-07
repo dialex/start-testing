@@ -11,6 +11,8 @@
     "lint:broken-links-internal": "remark -u validate-links docs --ignore-path .remarkignore",
     "lint:broken-links-external": "awesome_bot --allow-redirect --allow-dupe --skip-save-results docs/**/*.md",
     "postinstall": "gem install --no-ri --no-rdoc awesome_bot",
+    "pr:prepare": "npm-run-all lint:markdown pr:spelling lint:broken-* run",
+    "pr:spelling": "mdspell 'docs/**/*.md' --en-gb --ignore-numbers --ignore-acronyms",
     "preview": "echo \"Opening a preview on your browser now.\" && sleep 1 && open http://localhost:3000/#/",
     "run": "npm-run-all --parallel serve preview",
     "serve": "docsify serve docs",
