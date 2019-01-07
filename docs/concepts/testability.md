@@ -1,6 +1,6 @@
 # Testability
 
-> **tl;dr** Testability measures your team's ability to test the product. When it's easy to test, you get deeper knowledge about the product and faster.
+> **tl;dr** Testability measures the ability to test. When it's easy, you get deeper and faster info about the product.
 
 ## Theory
 
