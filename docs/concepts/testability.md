@@ -56,6 +56,8 @@ This checklist adapted from [Ash Winter](https://testingisbelieving.blogspot.com
 
 If you were unsatisfied with score you got, there are methods to improve it. Of course you have ~~boring~~ ~~expensive~~ [maturity models](https://www.tmmi.org/tmmi-documents/#) in the market to formally evaluate your testability. However, if you prefer something simple and tailored for your team you can use the [**Test Improvement Assessment**](http://www.huibschoots.nl/wordpress/wp-content/uploads/2017/02/Test-Improvement-Huib-Schoots-Joep-Schuurkes.pdf). Essentially your team selects which testability criteria are relevant for your context, scores them and finally agrees on how to improve. If you need hints on practices that can improve your system's testability, [Michael Bolton](http://www.developsense.com/blog/2009/07/testability/) has a few.
 
+Both the checklist and the assessment are practical methods to discuss testability. To visually **report the state of testability** you can use a [mind map](/tools/note-taking.md), as illustrated (pun intended) by [Adam Knight](https://www.a-sisyphean-task.com/2014/07/a-map-for-testability.html).
+
 ## Teachers
 
 - [Huib Schoots](https://twitter.com/huibschoots)
@@ -70,4 +72,5 @@ If you were unsatisfied with score you got, there are methods to improve it. Of 
 - [Deeper Testing: Testability](http://www.developsense.com/blog/2017/09/deeper-testing-3-testability/)
 - [Heuristics of Software Testability](http://www.satisfice.com/tools/testable.pdf)
 - [Putting Your Testability Socks On](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html)
+- [A Map For Testability](https://www.a-sisyphean-task.com/2014/07/a-map-for-testability.html)
 - [Design for Testability](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.94.5966&rep=rep1&type=pdf)
