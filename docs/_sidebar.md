@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD041 -->
 <!-- markdownlint-disable MD032 MD033 -->
 
-<ul style="text-align: center;">🚧 work in progress 🚧</ul>
+<ul style="text-align: center;">🚧work in progress 🚧</ul>
 
 - [**Home**](/)
 - **Concepts**
