@@ -1,6 +1,6 @@
 # Testability
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** Testability measures your team's ability to test the product. When it's easy to test, you get deeper knowledge about the product and faster.
 
 ## Theory
 
@@ -60,7 +60,7 @@ Both the checklist and the assessment are practical methods to discuss testabili
 
 ## Teachers
 
-- [Huib Schoots](https://twitter.com/huibschoots)
+- [Bret Pettichord](http://www.pettichord.com/)
 - [James Bach](https://vimeo.com/78912852)
 - [Maria Kedemo](https://mkedemo.wordpress.com/2015/11/22/dimensions-of-testability-v1-1/)
 - [Michael Bolton](http://www.developsense.com/blog/category/testability/)
