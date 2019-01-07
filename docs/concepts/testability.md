@@ -14,7 +14,7 @@ Do not confuse with [automatability](https://www.youtube.com/watch?v=gL8hmAH4ZGM
 
 ## Practice
 
-There are four main groups of variables that influence testability: project-related, value-related, intrinsic and subjective. Below are some [heuristics](/tools/heuristics.md) adapted from [James Bach](http://www.satisfice.com/tools/testable.pdf).
+There are four main groups of variables that influence testability: project-related, value-related, intrinsic and subjective. Below are some [heuristics](/tools/heuristics.md) adapted from [James Bach](http://www.satisfice.com/tools/testable.pdf). To discover even more dimensions that influence testability, refer to [Maria Kedemo](https://mkedemo.wordpress.com/2015/11/22/dimensions-of-testability-v1-1/)'s work.
 
 - **Project**: changing the conditions under which we test.
 
@@ -60,12 +60,13 @@ If you were unsatisfied with score you got, there are methods to improve it. Of 
 
 ## Teachers
 
-- [James Bach](http://www.satisfice.com/tools/testable.pdf)
 - [Huib Schoots](https://twitter.com/huibschoots)
+- [James Bach](https://vimeo.com/78912852)
+- [Maria Kedemo](https://mkedemo.wordpress.com/2015/11/22/dimensions-of-testability-v1-1/)
 
 ## Sources
 
 - [Test improvement in an agile/CD environment](http://www.huibschoots.nl/wordpress/?p=2543)
 - [The team test for testability](https://testingisbelieving.blogspot.com/2017/08/the-team-test-for-testability.html)
 - [Deeper Testing: Testability](http://www.developsense.com/blog/2017/09/deeper-testing-3-testability/)
-- [Heuristics of Software Testability](http://www.satisfice.com/tools/testable.pdf)
+- [Heuristics of Software Testability](http://www.satisfice.com/tools/testable.pdf) ([conference talk](https://vimeo.com/78912852))
