@@ -12,33 +12,27 @@ Testability measures our human ability to test — how skilled we are, how easy 
 >
 > — [Michael Bolton](http://www.developsense.com/blog/2017/09/deeper-testing-3-testability/)
 
+[Bret Pettichord](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.94.5966&rep=rep1&type=pdf) defines testability as visibility and control. **Visibility** is our ability to observe the states, outputs and other side effects of the system under test. **Control** is our ability to give inputs to the system under test or set it in specific states.
+
 Do not confuse with [automatability](https://www.youtube.com/watch?v=gL8hmAH4ZGM) which measures how easy it is to automate the interaction and control of our system. For instance, [logging](/fields/logging.md) is a feature that improves *testability* because it helps humans inspect how the system works; browser cookies enhance *automatability* because it allows automation to control a user session.
 
 ## Practice
 
-There are four main groups of variables that influence testability: project-related, value-related, intrinsic and subjective. Below are some [heuristics](/tools/heuristics.md) adapted from [James Bach](http://www.satisfice.com/tools/testable.pdf). To discover even more dimensions that influence testability, refer to [Maria Kedemo](https://mkedemo.wordpress.com/2015/11/22/dimensions-of-testability-v1-1/)'s work.
+There are four main groups of variables that influence testability: project-related, value-related, intrinsic and subjective. Below are some [heuristics](/tools/heuristics.md) adapted from [James Bach](http://www.satisfice.com/tools/testable.pdf). To discover even more dimensions that influence testability, refer to [Maria Kedemo](https://mkedemo.wordpress.com/2015/11/22/dimensions-of-testability-v1-1/)'s **dimensions of testability**.
 
 - **Project**: changing the conditions under which we test.
-
   - *Information*. We get all information we want or need to test well.
-
   - *Sandboxing*. We are free to do any testing without fear of disrupting users or team members.
   - *Time*. We need time to think, prepare and deal with surprises.
-
 - **Value**: changing the quality standard or our knowledge of it.
-
   - *[Oracles](/tools/oracles.md)*. We need ways to detect each kind of problem that is worth looking for.
   - *Users*. The more we can talk to and observe users, the easier it is to test for them.
   - *Environment*. Testing is more accurate when performed in the users' environment (or similar).
-
-- **Intrinsic**: changing the system itself.
-
-  - *Reliability*: Issues slow down testing since we must stop to report them or work around them.
+- **Product**: changing the system itself.
+  - *Reliability*. Issues slow down testing since we must stop to report them or work around them.
   - *Tolerance*. The less quality required or the more risk that can be taken, the less testing is needed.
   - *Controllability*. Ideally we can provide any possible input and invoke any possible state or combination of states easily and on demand. 
-
-- **Subjective**: changing the tester or the test process.
-
+- **Tester**: changing the tester or the test process.
   - *[Test strategy](/tools/test-strategy.md)*. A strategy will reduce waste by focusing the testing efforts on what matters.
   - *Context knowledge*. The more we know about the users and the system, the better we can test.
   - *Technical knowledge*. Our knowledge of technology and tools makes testing easier for us.
@@ -58,7 +52,7 @@ This checklist adapted from [Ash Winter](https://testingisbelieving.blogspot.com
 1. Does your team have regular contact with the users of the system?
 1. Does your team maintain a knowledge base on how their system is built and tested?
 
-If you were unsatisfied with score you got, there are methods to improve it. Of course you have ~~boring~~ ~~expensive~~ [maturity models](https://www.tmmi.org/tmmi-documents/#) in the market to formally evaluate your testability. However, if you prefer something simple and tailored for your team you can use the [**Test Improvement Assessment**](http://www.huibschoots.nl/wordpress/wp-content/uploads/2017/02/Test-Improvement-Huib-Schoots-Joep-Schuurkes.pdf). Essentially your team selects which testability criteria are relevant for your context, scores them and finally agrees on how to improve. If you need hints to practices that can improve your testability, [Michael Bolton](http://www.developsense.com/blog/2009/07/testability/) has a few.
+If you were unsatisfied with score you got, there are methods to improve it. Of course you have ~~boring~~ ~~expensive~~ [maturity models](https://www.tmmi.org/tmmi-documents/#) in the market to formally evaluate your testability. However, if you prefer something simple and tailored for your team you can use the [**Test Improvement Assessment**](http://www.huibschoots.nl/wordpress/wp-content/uploads/2017/02/Test-Improvement-Huib-Schoots-Joep-Schuurkes.pdf). Essentially your team selects which testability criteria are relevant for your context, scores them and finally agrees on how to improve. If you need hints on practices that can improve your system's testability, [Michael Bolton](http://www.developsense.com/blog/2009/07/testability/) has a few.
 
 ## Teachers
 
