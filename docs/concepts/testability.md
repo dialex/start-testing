@@ -14,6 +14,33 @@ Do not confuse with [automatability](https://www.youtube.com/watch?v=gL8hmAH4ZGM
 
 ## Practice
 
+There are four main groups of variables that influence testability: project-related, value-related, intrinsic and subjective. Below are some [heuristics](/tools/heuristics.md) adapted from [James Bach](http://www.satisfice.com/tools/testable.pdf).
+
+- **Project**: changing the conditions under which we test.
+
+  - *Information*. We get all information we want or need to test well.
+
+  - *Sandboxing*. We are free to do any testing without fear of disrupting users or team members.
+  - *Time*. We need time to think, prepare and deal with surprises.
+
+- **Value**: changing the quality standard or our knowledge of it.
+
+  - *[Oracles](/tools/oracles.md)*. We need ways to detect each kind of problem that is worth looking for.
+  - *Users*. The more we can talk to and observe users, the easier it is to test for them.
+  - *Environment*. Testing is more accurate when performed in the users' environment (or similar).
+
+- **Intrinsic**: changing the system itself.
+
+  - *Reliability*: Issues slow down testing since we must stop to report them or work around them.
+  - *Tolerance*. The less quality required or the more risk that can be taken, the less testing is needed.
+  - *Controllability*. Ideally we can provide any possible input and invoke any possible state or combination of states easily and on demand. 
+
+- **Subjective**: changing the tester or the test process.
+
+  - *[Test strategy](/tools/test-strategy.md)*. A strategy will reduce waste by focusing the testing efforts on what matters.
+  - *Context knowledge*. The more we know about the users and the system, the better we can test.
+  - *Technical knowledge*. Our knowledge of technology and tools makes testing easier for us.
+
 This checklist adapted from [Ash Winter](https://testingisbelieving.blogspot.com/2017/08/the-team-test-for-testability.html) can be used for a quick **health check on your testability**. For each question answer Yes (+1) or No (+0). If your final score is below 8, you are working under unnecessary risk.
 
 1. Do developers react positively when a bug is reported?
@@ -33,6 +60,7 @@ If you were unsatisfied with score you got, there are methods to improve it. Of 
 
 ## Teachers
 
+- [James Bach](http://www.satisfice.com/tools/testable.pdf)
 - [Huib Schoots](https://twitter.com/huibschoots)
 
 ## Sources
@@ -40,3 +68,4 @@ If you were unsatisfied with score you got, there are methods to improve it. Of 
 - [Test improvement in an agile/CD environment](http://www.huibschoots.nl/wordpress/?p=2543)
 - [The team test for testability](https://testingisbelieving.blogspot.com/2017/08/the-team-test-for-testability.html)
 - [Deeper Testing: Testability](http://www.developsense.com/blog/2017/09/deeper-testing-3-testability/)
+- [Heuristics of Software Testability](http://www.satisfice.com/tools/testable.pdf)
