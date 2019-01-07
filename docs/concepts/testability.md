@@ -45,9 +45,9 @@ This checklist adapted from [Ash Winter](https://testingisbelieving.blogspot.com
 
 1. Do developers react positively when a bug is reported?
 1. Can anyone access a prioritised list of the open bugs?
-1. Is it possible to simulate a failure of a dependency (eg. 3rd party)?
 1. Does your team measure critical metrics about the system?
-1. Can any team member run automated checks?
+1. Is it possible to simulate a failure of a dependency (eg. 3rd party)?
+1. Is it possible to test with enough isolation a specific system behaviour?
 1. Can any team member test an unfinished feature from their machines?
 1. Can you set your system into a given state to repeat a test?
 1. Can any team member create a test environment?
