@@ -13,6 +13,7 @@ if (process.argv.length < 3) {
 //Beginning of program
 var filePath = process.argv[2];
 var fileContent = fs.readFileSync(filePath, 'utf8');
+console.log(filePath);
 var urls = extractUrlsFromString(fileContent);
 
 axios.all(urls.map(testUrl))
@@ -41,7 +42,7 @@ function testUrl(url, currentTry) {
 
             //Add more conditions as necessary
             if (response.status === 200) {
-                console.log('✅  ' + url);
+                console.log('  ✅  ' + url);
                 return response;
             }
             else {
@@ -53,7 +54,7 @@ function testUrl(url, currentTry) {
                 return testUrl(url, currentTry + 1);
             }
             else {
-                console.log('❌  ' + url);
+                console.log('  ❌  ' + url);
                 process.exit(1);
             }
         });
