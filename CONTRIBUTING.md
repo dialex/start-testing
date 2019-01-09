@@ -1,37 +1,28 @@
 # Contributing
 
-#### How to use [Docsify](https://github.com/QingWei-Li/docsify/)
+Welcome! Here's what you need to know to improve this repo.
 
-Install
+## Folders
 
-```shell
-npm i -g docsify-cli
-```
+WIP
 
-Setup a boilerplate folder
+## Tasks
 
 ```shell
-docsify init docs
+install     # install all dependencies required to run this project
+run         # runs the website locally on your machine
+build       # performs Continuous Integration validations (used by Travis)
+lint        # performs lint validations on all relevant *.md files
+pr:prepare  # checks if your branch is good enough for a Pull Request
+test        # checks if the live website is ok
+clean       # deletes unversioned generated files
 ```
 
-Preview your docs locally
+## Details
 
-```shell
-docsify serve docs
-```
+### How to use [Markdown linting](https://github.com/DavidAnson/markdownlint)
 
-#### How to use [Markdown linting](https://github.com/DavidAnson/markdownlint)
+- Install: `npm i -g markdownlint-cli`
+- Run validation: `markdownlint docs --config .markdownlint.json`
 
-Install
-
-```shell
-npm i -g markdownlint-cli
-```
-
-Execute validation
-
-```shell
-markdownlint docs --config .markdownlint.json
-```
-
-Configure which [rules](https://github.com/DavidAnson/markdownlint#rules--aliases) or [groups of rules](https://github.com/DavidAnson/markdownlint#tags) should be globally [used](https://github.com/DavidAnson/markdownlint#optionsconfig) with a `.markdownlint.json` file
+Configure which [rules](https://github.com/DavidAnson/markdownlint#rules--aliases) or [groups of rules](https://github.com/DavidAnson/markdownlint#tags) should be globally [used](https://github.com/DavidAnson/markdownlint#optionsconfig) with a `.markdownlint.json` file.
