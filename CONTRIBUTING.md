@@ -2,9 +2,10 @@
 
 Welcome! Here's what you need to know to improve this repo.
 
-## Folders
+## Folders & Files
 
-WIP
+- `docs`: markdown files that will be converted into html pages by [docsify](https://docsify.js.org/#/)
+- `.spelling`: used by [markdown-spellcheck](https://www.npmjs.com/package/markdown-spellcheck) to whitelist words
 
 ## Tasks
 
@@ -17,6 +18,10 @@ pr:prepare  # checks if your branch is good enough for a Pull Request
 test        # checks if the live website is ok
 clean       # deletes unversioned generated files
 ```
+
+To run a task use `npm run <task>`, e.g. `npm run pr:prepare`.
+
+You can also use `make <task>`, e.g. `make pr-prepare` (replace `:` with `-`).
 
 ## Details
 
