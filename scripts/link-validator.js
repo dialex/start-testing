@@ -72,17 +72,14 @@ function processFile(filePath) {
             });
 
             if(invalidUrlWrappers.length === 0) {
-                console.log(filePath + ': All links are valid');
+                console.log(filePath + ' ✔︎');
                 return true;
             }
             else {
-                //Empty line to help separate console entries
-                console.log('');
-
-                console.log(filePath + ': Invalid links found');
+                console.log(filePath + ' ✘');
 
                 invalidUrlWrappers.forEach(function(wrapper) {
-                    console.log('❌  ' + wrapper.url + ' - ' + wrapper.status + '\n');
+                    console.log('  error  ' + wrapper.url + ' is dead (' + wrapper.status + ')');
                 });
 
                 return false;
