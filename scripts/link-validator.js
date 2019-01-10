@@ -79,7 +79,7 @@ function processFile(filePath) {
                 console.log(filePath + ' ✘');
 
                 invalidUrlWrappers.forEach(function(wrapper) {
-                    wrapper.status = wrapper.status || '404 domain';
+                    wrapper.status = wrapper.status || '410';
                     console.log('   ✘ (' + wrapper.status + ')   ' + wrapper.url);
                 });
 
