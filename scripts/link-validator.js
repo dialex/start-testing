@@ -38,6 +38,7 @@ axios.all(promises)
 
         axios.all(promises)
             .then(function() {
+                console.log();  //Output redability
                 process.exit(allValid ? 0 : -1);
             });
     });
