@@ -1,6 +1,7 @@
 var fs = require('fs');
 var axios = require('axios');
 var glob = require('glob');
+const chalk = require('chalk');
 
 var urlRegex = /(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/igm; //Change as needed
 var maxRetries = 1; //Change as needed
@@ -72,17 +73,16 @@ function processFile(filePath) {
             });
 
             if(invalidUrlWrappers.length === 0) {
-                console.log(filePath + ' ✔︎');
+                console.log(filePath + chalk.green(' ✔︎'));
                 return true;
             }
             else {
-                console.log(filePath + ' ✘');
+                console.log(filePath + chalk.red(' ✘'));
 
                 invalidUrlWrappers.forEach(function(wrapper) {
                     wrapper.status = wrapper.status || '410';
-                    console.log('   ✘ (' + wrapper.status + ')   ' + wrapper.url);
+                    console.log(chalk.red('   ✘ (' + wrapper.status + ')   ' + wrapper.url));
                 });
-
                 return false;
             }
         });
