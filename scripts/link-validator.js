@@ -4,8 +4,8 @@ var glob = require('glob');
 const chalk = require('chalk');
 
 var urlRegex = /(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/igm; //Change as needed
-var maxRetries = 1; //Change as needed
-var allowsStatusCodes = [200,301]; //Change as needed
+var maxRetries = 3; //Change as needed
+var allowsStatusCodes = [200]; //Change as needed
 
 //Validate parameters
 if (process.argv.length < 3) {
