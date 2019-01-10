@@ -27,6 +27,7 @@ axios.all(promises)
     .then(function() {
         var allValid = true;
 
+        console.log(chalk.cyan('>> ') + 'Checking markdown files for broken links...\n');
         promises = filePaths.map(function(path) {
             return processFile(path)
                 .then(function(isValid) {
