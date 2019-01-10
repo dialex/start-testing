@@ -79,7 +79,8 @@ function processFile(filePath) {
                 console.log(filePath + ' ✘');
 
                 invalidUrlWrappers.forEach(function(wrapper) {
-                    console.log('  error  ' + wrapper.url + ' is dead (' + wrapper.status + ')');
+                    wrapper.status = wrapper.status || '404 domain';
+                    console.log('   ✘ (' + wrapper.status + ')   ' + wrapper.url);
                 });
 
                 return false;
