@@ -14,23 +14,23 @@ Stakeholders use or are affected by the product you are testing. You will clarif
 
 ## Tools
 
-The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kangaroo jump and quite a few carried babies. I quickly explained that many big jobs involve few hazards. The five boxing wizards jump quickly.
+(in progress)
 
 ## Test types
 
-The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kangaroo jump and quite a few carried babies. I quickly explained that many big jobs involve few hazards. The five boxing wizards jump quickly.
+(in progress)
 
 ## Tester roles
 
-The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kangaroo jump and quite a few carried babies. I quickly explained that many big jobs involve few hazards. The five boxing wizards jump quickly.
+(in progress)
 
 ## Fields
 
-The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kangaroo jump and quite a few carried babies. I quickly explained that many big jobs involve few hazards. The five boxing wizards jump quickly.
+(in progress)
 
 ## Future
 
-The quick brown fox jumps over the lazy dog. Exploring the zoo, we saw every kangaroo jump and quite a few carried babies. I quickly explained that many big jobs involve few hazards. The five boxing wizards jump quickly.
+(in progress)
 
 🚧⬆ _offer a way to download this summary as a pdf_ ⬆🚧
 
