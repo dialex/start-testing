@@ -60,6 +60,7 @@ Both the checklist and the assessment are practical methods to discuss testabili
 
 ## Teachers
 
+- [Ash Winter](https://testingisbelieving.blogspot.com/2019/02/ask-me-anything-testability.html)
 - [Bret Pettichord](http://www.pettichord.com/)
 - [James Bach](https://vimeo.com/78912852)
 - [Maria Kedemo](https://mkedemo.wordpress.com/2015/11/22/dimensions-of-testability-v1-1/)
@@ -74,3 +75,4 @@ Both the checklist and the assessment are practical methods to discuss testabili
 - [Putting Your Testability Socks On](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html)
 - [A Map For Testability](https://www.a-sisyphean-task.com/2014/07/a-map-for-testability.html)
 - [Design for Testability](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.94.5966&rep=rep1&type=pdf)
+- [30 days of Testatbility challenge](https://dojo.ministryoftesting.com/dojo/lessons/30-days-of-testability)
