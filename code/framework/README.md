@@ -35,3 +35,11 @@
 - **Functional Tests**
   - Search for book
   - Add book to cart
+
+## TODO
+
+What about these sites?
+
+- http://automationpractice.com/index.php
+- https://demoqa.com/
+- https://the-internet.herokuapp.com/
