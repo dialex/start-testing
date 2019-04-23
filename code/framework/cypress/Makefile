@@ -2,8 +2,7 @@ install:
 	npm install cypress
 
 clean:
-	# rm -r Results
-	# mkdir Results
+	rm -rf assets
 
 test: clean
 	npx cypress run
