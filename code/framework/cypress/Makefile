@@ -1,15 +1,12 @@
 install:
-	# easy_install pip
-	# brew install python2
-	# pip install robotframework
-	# pip install robotframework-seleniumlibrary
-	# pip install robotframework-requests
-	# brew cask install chromedriver
-	# brew cask install geckodriver
+	npm install cypress
 
 clean:
 	# rm -r Results
 	# mkdir Results
 
 test: clean
-	# robot -d Results Tests
+	npx cypress run
+
+test-iterative: clean
+	npx cypress open
