@@ -1,1 +1,6 @@
-{}
+{
+    "video": true,
+    "videosFolder": "assets/videos",
+    "screenshotsFolder": "assets/screenshots",
+    "trashAssetsBeforeRuns": true
+}
