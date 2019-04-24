@@ -2,5 +2,6 @@
     "video": true,
     "videosFolder": "assets/videos",
     "screenshotsFolder": "assets/screenshots",
-    "trashAssetsBeforeRuns": true
+    "trashAssetsBeforeRuns": true,
+    "watchForFileChanges": false
 }
