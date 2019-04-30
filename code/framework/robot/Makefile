@@ -8,7 +8,7 @@ install:
 	brew cask install geckodriver
 
 clean:
-	rm -r Results
+	rm -rf Results
 	mkdir Results
 
 test: clean
