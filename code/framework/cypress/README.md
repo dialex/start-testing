@@ -1,4 +1,4 @@
-# Robot Framework
+# Cypress
 
 Review [here](docs/tools/framework/cypress.md).
 

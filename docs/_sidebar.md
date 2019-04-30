@@ -55,6 +55,7 @@
 - **Next steps**
   - ~~Staying updated~~
 - **EXTRA: Test Frameworks**
+  - [Cypress](/tools/framework/cypress.md)
   - [Robot Framework](/tools/framework/robot.md)
 - **EXTRA: Notebook**
   - [User Story Mapping](/notebook/user-story-mapping.md)
