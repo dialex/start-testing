@@ -5,9 +5,12 @@ Review [here](https://github.com/dialex/tree/master/start-testing/docs/tools/fra
 ## Commands
 
 ```sh
-make install  # Install dependencies
-make test     # Run tests
+make install        # Install dependencies
+make test           # Run tests
+make test-iterative # Run tests iteratively
 ```
+
+## Setup
 
 - [IDE auto-complete for Cypress code](https://docs.cypress.io/guides/tooling/intelligent-code-completion.html#Set-up-in-your-Dev-Environment)
 - [IDE auto-complete for Cypress config](https://docs.cypress.io/guides/tooling/intelligent-code-completion.html#Set-up-in-your-Dev-Environment-1)
