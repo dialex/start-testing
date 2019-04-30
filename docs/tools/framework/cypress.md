@@ -20,4 +20,4 @@ Example of automation at [GitHub](https://github.com/dialex/start-testing/tree/m
 | _Extensibility_    | You can create your own Cypress Custom Commands, or regular Javascript functions (which will be picked up by IntelliSense). It supports the PageObject pattern, even though they [don't recommend it](https://docs.cypress.io/faq/questions/using-cypress-faq.html#Can-I-use-the-Page-Object-pattern). | 🥇 |
 | _Maintainability_  | It's Javascript, for better or for worse. Debugging is a bliss (step-by-step, pause, go back in time, DOM inspection). IntelliSense guides your coding. | 🥇 |
 | _Documentation_    | The online doc is abundant and comprehensive. It covers how to use Cypress, including some [recipes/examples](https://github.com/cypress-io/cypress-example-recipes#application-actions), but also explains some test concepts (e.g. when to use test mocks, anti-patterns, etc.). | 🥇 |
-| **VERDICT**        |  | **5/5** |
+| **VERDICT**        | Perfect for a Javascript project or team. | **5/5** |
