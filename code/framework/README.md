@@ -41,5 +41,6 @@
 What about these sites?
 
 - http://automationpractice.com/index.php
+- http://uitestingplayground.com/click
 - https://demoqa.com/
 - https://the-internet.herokuapp.com/
