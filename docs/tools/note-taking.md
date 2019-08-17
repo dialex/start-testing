@@ -8,7 +8,9 @@
 
 ## Practice
 
-You might find yourself in a meeting on behalf of your team. You save them time and they expect a summary of the meeting. This often happens on mettings where your team doesn't make decisions, but needs to give information or take questions. When taking notes in meetings focus on:
+### 👩‍💼👨‍💼 Meetings
+
+You might find yourself in a meeting on behalf of your team. This often happens on mettings where your team doesn't make decisions, but needs to give information or take questions. You save them time and they expect a summary of the meeting. When taking notes in meetings focus on:
 
 - **Facts**
 
@@ -22,11 +24,10 @@ You might find yourself in a meeting on behalf of your team. You save them time 
 
 - **To do**
 
-  - *e.g. Ask Ann: What's the progress on mockups? Is there a draft that devs can use in the meantime?*
+  - *e.g. Ask Ann: What's the progress on mockups? Is there a draft devs can use in the meantime?*
 
 - **To clarify**
-
-  - *e.g. When are regression tests executed? Ask Gary or `#regressions` Slack channel*
+- *e.g. When are regression tests executed? Ask Gary or `#regressions` Slack channel*
 
 Note taking is also useful to reduce rambling during meetings. Share your screen while you're taking notes and use the structure above to guide the conversation. This helps everyone visualise the topics of discussion and at the end of the meeting you'll have a summary for free.
 
