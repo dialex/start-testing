@@ -98,6 +98,19 @@ In addition to walking through the session sheet, we use an agenda summarized by
 
 
 
+### Tools
+
+- Memory
+- Pen and paper
+- Text editor + screenshot tool
+- Spreadsheet
+- Record the screen + talk as you test
+- Tool optimised for Exploratory Testing
+- Mind map
+- Diagram
+
+https://www.eviltester.com/2013/09/10-experiments-to-improve-your.html
+
 
 
 
