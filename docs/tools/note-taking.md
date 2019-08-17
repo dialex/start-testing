@@ -8,6 +8,18 @@ We testers discover, gather and share information.
 
 If we keep that info only in our head, we are not helping the rest of the team, also we might forget! Keeping that information only in our head is both ephemeral and suboptimal.
 
+> We often remember things in a way we want to, often to re-enforce a message or conform with our own thinking. I fall in to this trap often. Accurate notes and other captures can guard against this. Seeing the un-biased facts *can* help you to see the truth. Our minds are complex though and even facts can end up being twisted and bent to tell a story. We should try to avoid this bias where possible – the starting point to avoiding this bias is to acknowledge that we fall foul of it in the first place.
+
+> It’s this notetaking (or other capture mechanism) that not only allows them to do good exploratory testing but also to do good explanations of that testing to others. Gives structure to Exploratory TEsting, makes it useful to other people.
+
+> Testing is about discovering information, but that is of little use if you cannot articulate that information to the right audience, in the right way and with the right purpose.
+>
+> Good exploratory testing is searchable, auditable, insightful and can adhere to many compliance regulations. Good exploratory testing should be trusted.
+>
+> We can all find our own way of supporting our memory and our ability to explain what we tested. We can all use the tools we have at our disposal to aid in our explanation of our exploratory testing.
+
+
+
 
 
 ## Practice
@@ -105,7 +117,7 @@ In addition to walking through the session sheet, we use an agenda summarized by
 - Text editor + screenshot tool
 - Spreadsheet
 - Record the screen + talk as you test
-- Tool optimised for Exploratory Testing
+- Tool optimised for Exploratory Testing (i.e. [Rapid Reporter](http://testing.gershon.info/reporter/))
 - Mind map
 - Diagram
 
@@ -126,3 +138,4 @@ https://www.eviltester.com/2013/09/10-experiments-to-improve-your.html
 - [Session-Based Test Management](https://www.satisfice.com/download/session-based-test-management)
 - [Three Digestible Diagrams to Describe Exploratory Testing](https://dojo.ministryoftesting.com/dojo/lessons/three-digestible-diagrams-to-describe-exploratory-testing)
 - [A Handy Note-taking Template for Exploratory Testing](https://www.qeek.co/blog/a-handy-note-taking-template-for-exploratory-testing)
+- [Explaining Exploratory Testing Relies On Good Notes](http://thesocialtester.co.uk/explaining-exploratory-testing-relies-on-good-notes/)
