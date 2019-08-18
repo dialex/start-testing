@@ -1,26 +1,18 @@
-# Note taking
+# Note-taking
 
 > **tl;dr** SUMMARY_HERE
 
 ## Theory
 
-We testers discover, gather and share information. 
+We testers discover, gather and share information.
 
-If we keep that info only in our head, we are not helping the rest of the team, also we might forget! Keeping that information only in our head is both ephemeral and suboptimal.
+Keeping that information only inside your head is both ephemeral and ineffective. What you discover is of little use if you cannot communicate that information to the right audience, in a clear and engaging format.
 
-> We often remember things in a way we want to, often to re-enforce a message or conform with our own thinking. I fall in to this trap often. Accurate notes and other captures can guard against this. Seeing the un-biased facts *can* help you to see the truth. Our minds are complex though and even facts can end up being twisted and bent to tell a story. We should try to avoid this bias where possible – the starting point to avoiding this bias is to acknowledge that we fall foul of it in the first place.
+When we recall things we often miss important details or we remember them in a way that reinforces our own thinking ([confirmation bias](/tools/biases.md)). Writing notes frequently during your testing sessions reduces this risk.
 
-> It’s this notetaking (or other capture mechanism) that not only allows them to do good exploratory testing but also to do good explanations of that testing to others. Gives structure to Exploratory TEsting, makes it useful to other people.
+Moreover, note-taking is a skill that greatly improves your exploratory testing by giving it structure. Good exploratory testing debriefs are insightful, searchable, and repeatable.
 
-> Testing is about discovering information, but that is of little use if you cannot articulate that information to the right audience, in the right way and with the right purpose.
->
-> Good exploratory testing is searchable, auditable, insightful and can adhere to many compliance regulations. Good exploratory testing should be trusted.
->
-> We can all find our own way of supporting our memory and our ability to explain what we tested. We can all use the tools we have at our disposal to aid in our explanation of our exploratory testing.
-
-
-
-
+Find your own way of supporting your memory and your ability to explain what you tested — there are many tools and processes at your disposal.
 
 ## Practice
 
@@ -43,7 +35,7 @@ You might find yourself in a meeting on behalf of your team. This often happens 
   - *e.g. Ask Ann: What's the progress on mockups? Is there a draft devs can use in the meantime?*
 
 - **To clarify**
-- *e.g. When are regression tests executed? Ask Gary or `#regressions` Slack channel*
+  - *e.g. When are regression tests executed? Ask Gary or `#regressions` Slack channel*
 
 Note taking is also useful to reduce rambling during meetings. Share your screen while you're taking notes and use the structure above to guide the conversation. This helps everyone visualise the topics of discussion and at the end of the meeting you'll have a summary for free.
 
@@ -65,27 +57,9 @@ Note taking is also useful to reduce rambling during meetings. Share your screen
 >
 > Setup -> Explore -> Summarise
 
-#### Prepare your TORCH
-
-- Time: XXX.
-- Oracles: XXX.
-- ...
-
-```
-Think TORCH. Timer, Oracles, Risks, Consider, Heuristics.
-Timer
-How much time will you put aside for this session? 45 minutes, an hour and a half? Consider a sweet spot between a good enough amount of time to capture and share information that doesn’t overwhelm your audience. My preference is for 60 minutes max.
-Oracles
-Who and what will help you make useful decisions and conclusions about the information you discover? A person, a story in JIRA, previous experience, a comparable product in the market? Katrina Clokie shares useful info on Oracles. 
-Risks
-What risks would you like to learn about? Are they related to data, performance, security, functionality? Mark Winteringham and Dan Ashby share some thoughts in this handy video. 
-Consider
-What questions do you want to explore? Try asking at least one question starting with “What”, “Where”, “When”, “Why,” “Who” and “How”.
-Heuristics
-What triggers will prompt you during your session? The Heuristics Cheat Sheet and TestSphere are incredible resources.
-```
-
 #### KIIQ exploring
+
+
 
 I group discoveries into four categories: Issues, Questions, Ideas and Praise (PQIP).
 
@@ -93,18 +67,6 @@ I group discoveries into four categories: Issues, Questions, Ideas and Praise (P
 - Ideas
 - Issues
 - Questions
-
-#### Bring PROOF
-
-In addition to walking through the session sheet, we use an agenda summarized by the acronym “PROOF”:
-
-- Past What happened during the session?
-- Results What was achieved during the session?
-- Obstacles What got in the way of good testing?
-- Outlook What still needs to be done?
-- Feelings How does the tester feel about all this?
-
-
 
 [ALL TOGETHER: example of Setup/Explore/Debried template, guided by TORCH](https://club.ministryoftesting.com/t/examples-of-time-boxed-note-taking-sessions/12760)
 
@@ -165,7 +127,7 @@ https://www.eviltester.com/2013/09/10-experiments-to-improve-your.html
 
 ## Sources
 
+- [Explaining Exploratory Testing Relies On Good Notes](http://thesocialtester.co.uk/explaining-exploratory-testing-relies-on-good-notes/)
 - [Session-Based Test Management](https://www.satisfice.com/download/session-based-test-management)
 - [Three Digestible Diagrams to Describe Exploratory Testing](https://dojo.ministryoftesting.com/dojo/lessons/three-digestible-diagrams-to-describe-exploratory-testing)
 - [A Handy Note-taking Template for Exploratory Testing](https://www.qeek.co/blog/a-handy-note-taking-template-for-exploratory-testing)
-- [Explaining Exploratory Testing Relies On Good Notes](http://thesocialtester.co.uk/explaining-exploratory-testing-relies-on-good-notes/)
