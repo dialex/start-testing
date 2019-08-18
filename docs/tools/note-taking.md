@@ -10,11 +10,24 @@ Keeping that information only inside your head is both ephemeral and ineffective
 
 When we recall things we often miss important details or we remember them in a way that reinforces our own thinking ([confirmation bias](/tools/biases.md)). Writing notes frequently during your testing sessions reduces this risk.
 
-Moreover, note-taking is a skill that greatly improves your exploratory testing by giving it structure. Good exploratory testing debriefs are insightful, searchable, and repeatable.
+Moreover, note-taking is a skill that greatly improves your exploratory testing by giving it structure. Good exploratory testing debriefs are insightful, searchable and shareable.
 
-Find your own way of supporting your memory and your ability to explain what you tested — there are many tools and processes at your disposal.
+Find your own way of supporting your memory and your ability to explain what you tested.
 
 ## Practice
+
+There are many tools and processes at your disposal. Alan Richardson lists a few in this [article](https://www.eviltester.com/2013/09/10-experiments-to-improve-your.html):
+
+- Memory
+- Pen and paper
+- Text editor + screenshot tool
+- Spreadsheet
+- Record the screen + talk as you test
+- Tool optimised for Exploratory Testing *(i.e. [Rapid Reporter](http://testing.gershon.info/reporter/))*
+- Diagram
+- Mind map
+
+As a starting point, you have the [Cornwell method](https://youtu.be/cfaZVfQgt0U?t=158), that requires a simple pen and paper. Draw a vertical line in a way that creates a sidebar with one third the width of the page. Use the bigger area to take notes and the sidebar to extract key findings from those notes. At the bottom of the page you can write a summary of the whole sheet. This is the *"vanilla"* flavour of the method — you are encouraged to add your own *"toppings"* to it! For example, Richard Bradshaw likes to [tag key findings with letters and icons](https://youtu.be/H0rFIQe4Chs).
 
 ### 👩‍💼👨‍💼 Meetings
 
@@ -102,32 +115,19 @@ core services
 
 
 
-### Tools
-
-- Memory
-- Pen and paper
-- Text editor + screenshot tool
-- Spreadsheet
-- Record the screen + talk as you test
-- Tool optimised for Exploratory Testing (i.e. [Rapid Reporter](http://testing.gershon.info/reporter/))
-- Mind map
-- Diagram
-
-https://www.eviltester.com/2013/09/10-experiments-to-improve-your.html
-
-
-
-
-
-
-
 ## Teachers
 
+- [Alan Richardson](https://www.eviltester.com/)
 - [Simon Tomes](https://www.qeek.co/author/VjuuLCMAACkH2iwj/simon-tomes)
 
 ## Sources
 
 - [Explaining Exploratory Testing Relies On Good Notes](http://thesocialtester.co.uk/explaining-exploratory-testing-relies-on-good-notes/)
+
 - [Session-Based Test Management](https://www.satisfice.com/download/session-based-test-management)
+
 - [Three Digestible Diagrams to Describe Exploratory Testing](https://dojo.ministryoftesting.com/dojo/lessons/three-digestible-diagrams-to-describe-exploratory-testing)
+
 - [A Handy Note-taking Template for Exploratory Testing](https://www.qeek.co/blog/a-handy-note-taking-template-for-exploratory-testing)
+
+- [10 Experiments to Improve Your Exploratory Testing Note Taking](https://club.ministryoftesting.com/t/10-days-of-note-taking-experimentation-start-mon-23rd/16981/20)
