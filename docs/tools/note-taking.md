@@ -56,34 +56,20 @@ Note taking is also useful to reduce rambling during meetings. Share your screen
 
 ### 🧭 Exploratory sessions
 
-> TO EDIT: INTRO
+[Exploratory testing](/roles/exploratory-tester.md) is composed of three main phases: setup, explore, debrief. If you apply your note-taking skills during the explore phase, the debrief becomes much easier and insightful.
+
+> As I explore I take notes like I'm creating a story for someone else to read, taking them through my process and thoughts. Sometimes it feels more natural to *tell* what you’re doing. The *show* comes alive with screenshots, GIFs and video.
 >
-> James and Jon Bach developed [Session-Based Test Management](http://www.satisfice.com/sbtm/) (SBTM) as a method for measuring and managing exploratory testing. 
->
-> Exploratory testing is learning. Learning what is and what might be. Learning about our perception of the world, what's in front of us and how that influences the choices we make. It's learning together to build better products. It's creating an environment that enables a continuous "testing is learning" loop.
->
-> The [following template](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit?usp=sharing) provides triggers for an exploratory testing session. It's a way for you to experiment with your own structure. To help you tell a testing story – whether debriefing in real-time or asynchronously. I’ve had success with this template. It satisfies two audiences: One that just needs a summary and another who loves detail.
->
-> I take notes like I'm creating a story for someone else to read. This includes a bit of show and tell. Great storytelling uses show more than tell. Sometimes it feels more natural to *tell* your notes what you’re doing. The *show* comes alive with screenshots, GIFs and video.
->
-> As I explore I write notes imagining I'm taking someone through my actual process, steps and thoughts. Imagine saying it out loud and just type. ‪You can always edit later.
->
-> Setup -> Explore -> Summarise
+> — [Simon Tomes](https://www.qeek.co/blog/a-handy-note-taking-template-for-exploratory-testing)
 
-#### KIIQ exploring
+Simon Tomes shared [a template](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g) that provides structure and triggers for your exploratory testing sessions. As always, try it and tweak it to your taste. That document ([real example](https://docs.google.com/document/d/1tLovWr2aehnq-JRj1qzAXPv-7r8PdBSdx1uk-X5sr3c)) gives the reader not only a summary but also the details of the session.
 
+While you explore, "[`KIIQ`](/tools/mnemonics.md)" taking notes focusing on four subjects:
 
-
-I group discoveries into four categories: Issues, Questions, Ideas and Praise (PQIP).
-
-- Kudos
-- Ideas
-- Issues
-- Questions
-
-[ALL TOGETHER: example of Setup/Explore/Debried template, guided by TORCH](https://club.ministryoftesting.com/t/examples-of-time-boxed-note-taking-sessions/12760)
-
-
+- **K**udos: what you enjoyed doing or seeing in your exploration
+- **I**deas: what you think could be done differently
+- **I**ssues: what is wrong and needs to be fixed or discussed
+- **Q**uestions: missing information or context that need follow-up
 
 ### User testing
 
@@ -103,15 +89,7 @@ always
 
 ### How do we use the notes after the tests?
 
-There are some common steps we all go through. First, we go through the notes to categorise the information by participants and task. Secondly, we analyse the findings, either by comparing notes from differing sessions and finding the common issues or extracting the key points. Lastly, we use the notes as a reference during writing reports or debriefing with the clients. There are endless ways for taking notes in user testing sessions. It's important to try out different methods and find what works for you and the project at hand. For the moment, I have settled with Evernote on my iPad and highlighting the most important points after each session. If you want to learn more about user testing, we have a training course 
-
-dedicated to the subject
-
-. User testing is also one of our 
-
-core services
-
- as a consultancy, so if you don't feel up to the task, get us involved!
+There are some common steps we all go through. First, we go through the notes to categorise the information by participants and task. Secondly, we analyse the findings, either by comparing notes from differing sessions and finding the common issues or extracting the key points. Lastly, we use the notes as a reference during writing reports or debriefing with the clients. There are endless ways for taking notes in user testing sessions. It's important to try out different methods and find what works for you and the project at hand. For the moment, I have settled with Evernote on my iPad and highlighting the most important points after each session.
 
 
 
