@@ -1,14 +1,10 @@
 # Exploratory tester
 
-
-
-
-
 --------
 
-THIS WAS EXTRACTED AS IS FROM `note-taking.md`
+## THIS WAS EXTRACTED AS IS FROM `note-taking.md`
 
-> James and Jon Bach developed [Session-Based Test Management](http://www.satisfice.com/sbtm/) (SBTM) as a method for measuring and managing exploratory testing. 
+> James and Jon Bach developed [Session-Based Test Management](http://www.satisfice.com/sbtm/) (SBTM) as a method for measuring and managing exploratory testing.
 >
 > Exploratory testing is learning. Learning what is and what might be. Learning about our perception of the world, what's in front of us and how that influences the choices we make. It's learning together to build better products. It's creating an environment that enables a continuous "testing is learning" loop.
 >
@@ -22,7 +18,7 @@ THIS WAS EXTRACTED AS IS FROM `note-taking.md`
 
 > TO EDIT: INTRO
 >
-> James and Jon Bach developed [Session-Based Test Management](http://www.satisfice.com/sbtm/) (SBTM) as a method for measuring and managing exploratory testing. 
+> James and Jon Bach developed [Session-Based Test Management](http://www.satisfice.com/sbtm/) (SBTM) as a method for measuring and managing exploratory testing.
 >
 > Exploratory testing is learning. Learning what is and what might be. Learning about our perception of the world, what's in front of us and how that influences the choices we make. It's learning together to build better products. It's creating an environment that enables a continuous "testing is learning" loop.
 >
@@ -63,5 +59,4 @@ In addition to walking through the session sheet, we use an agenda summarized by
 - Outlook: What still needs to be done?
 - Feelings: How does the tester feel about all this?
 
-[ALL TOGETHER: example of Setup/Explore/Debried template, guided by TORCH](https://club.ministryoftesting.com/t/examples-of-time-boxed-note-taking-sessions/12760)
-
+[ALL TOGETHER: example of Setup/Explore/Debrief template, guided by TORCH](https://club.ministryoftesting.com/t/examples-of-time-boxed-note-taking-sessions/12760)
