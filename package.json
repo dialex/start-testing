@@ -5,7 +5,7 @@
   "scripts": {
     "bump:patch": "npm version --no-commit-hooks --no-git-tag-version patch",
     "clean": "rm -r node_modules",
-    "build": "npm run lint",
+    "ci": "npm run lint",
     "fix": "npm-run-all fix:*",
     "fix:spelling": "mdspell 'docs/**/*.md' --en-gb --ignore-numbers --ignore-acronyms",
     "fix:ellipsis": "find docs -type f -name '*.md' | xargs sed -i '' 's/\\.\\.\\./…/g'",

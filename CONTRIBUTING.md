@@ -12,7 +12,6 @@ Welcome! Here's what you need to know when contributing to this repo.
 ```shell
 install     # install all dependencies required to run this project
 run         # runs the website locally on your machine
-build       # performs Continuous Integration validations (used by Travis)
 lint        # performs lint validations on all relevant *.md files
 pr:prepare  # checks if your branch is good enough for a Pull Request
 pr:ready    # makes your branch ready for Pull Request (increments version)
