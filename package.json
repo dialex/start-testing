@@ -4,7 +4,8 @@
   "description": "A crowdsourced testing course, written by testers for testers wannabes.",
   "scripts": {
     "bump:patch": "npm version --no-commit-hooks --no-git-tag-version patch",
-    "build": "npm ci && gem install --no-ri --no-rdoc awesome_bot",
+    "build": "npm ci && gem install --no-document awesome_bot",
+    "build:upgrade": "npm install && gem install --no-document awesome_bot",
     "clean": "rm -r node_modules",
     "ci": "npm run lint",
     "fix": "npm-run-all fix:*",
