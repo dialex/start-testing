@@ -19,6 +19,7 @@
   - [Oracles](/tools/oracles.md)
   - ~~Heuristics~~
   - ~~Mnemonics~~
+  - [Note taking](/tools/note-taking.md)
   - ~~Tools~~
 - **Test types**
   - ~~Functional vs Non-functional~~
