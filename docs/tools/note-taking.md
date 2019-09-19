@@ -1,6 +1,6 @@
 # Note-taking
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** Your notes structure your thinking, expand your memory and share information across the team.
 
 ## Theory
 
