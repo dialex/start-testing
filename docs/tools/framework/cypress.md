@@ -1,6 +1,6 @@
 # Cypress
 
-> Fast and reliable testing for anything that runs in a browser. It uses Javascript (and not Selenium) to make setting up, writing, running and debugging tests easy -- for QAs and developers.
+> Fast and reliable testing for anything that runs in a browser. It uses Javascript (and not Selenium) to make setting up, writing, running and debugging tests easy — for QAs and developers.
 >
 > — [Official website](https://www.cypress.io/how-it-works/)
 

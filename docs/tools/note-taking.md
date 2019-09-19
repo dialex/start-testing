@@ -31,7 +31,7 @@ As a starting point, you have the [Cornwell method](https://youtu.be/cfaZVfQgt0U
 
 ### 👩‍💼👨‍💼 Meetings
 
-You might find yourself in a meeting on behalf of your team. This often happens on mettings where your team doesn't make decisions, but needs to give information or take questions. You save them time and they expect a summary of the meeting. When taking notes in meetings focus on:
+You might find yourself in a meeting on behalf of your team. This often happens on meetings where your team doesn't make decisions, but needs to give information or take questions. You save them time and they expect a summary of the meeting. When taking notes in meetings focus on:
 
 - **Facts**
 
@@ -77,11 +77,11 @@ When performing a user testing session it's helpful to have one facilitator and 
 
 During the session, take notes that cover:
 
-- **Quotes** from participants -- including praise, criticism, doubts and suggestions
+- **Quotes** from participants — including praise, criticism, doubts and suggestions
 - **Issues** identified (and ideas on how to fix them)
 - Timestamps of relevant moments (in case you're recording the session)
 
-Tag user quotes with feelings, such as `#frustrated` `#surprised` `#pleased`. 
+Tag user quotes with feelings, such as `#frustrated` `#surprised` `#pleased`.
 
 Use shorthand or even sketches, to be faster or more accurate. After a few sessions, patterns tend to emerge, so take more notes in the first few sessions and use the following sessions to collect evidence for recurring issues.
 
