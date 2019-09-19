@@ -12,11 +12,12 @@
   - [Requirements](/concepts/requirements.md)
   - [Testability](/concepts/testability.md)
 - **Toolbox**
+  - [Charters](/tools/charters.md)
+  - [Oracles](/tools/oracles.md)
+  - [Note-taking](/tools/note-taking.md)
   - ~~Test strategy~~
   - ~~Test methodologies~~
   - ~~Test pyramid~~
-  - [Charters](/tools/charters.md)
-  - [Oracles](/tools/oracles.md)
   - ~~Heuristics~~
   - ~~Mnemonics~~
   - ~~Tools~~
