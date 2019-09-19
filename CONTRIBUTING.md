@@ -21,8 +21,6 @@ clean       # deletes unversioned generated files
 
 To run a task use `npm run <task>`, e.g. `npm run pr:prepare`.
 
-You can also use `make <task>`, e.g. `make pr-prepare` (replace `:` with `-`).
-
 ## Details
 
 ### How to use [Markdown linting](https://github.com/DavidAnson/markdownlint)
