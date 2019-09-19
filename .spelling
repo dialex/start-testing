@@ -32,13 +32,15 @@ bret
 pettichord
 automatability
 kedemo
+javascript
+intellisense
+pageobject
+QAs
+mockups
 ilities
+ - docs/concepts/testability.md
 alue
 i
 ntrinsic
 roject
 ubjective
-javascript
-intellisense
-pageobject
-QAs
