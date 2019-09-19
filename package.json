@@ -15,7 +15,7 @@
     "pr:prepare": "npm-run-all pr:replace lint:markdown fix:spelling lint:broken-* run",
     "pr:replace": "npm-run-all pr:replace-*",
     "pr:replace-ellipsis": "find docs -type f -name '*.md' | xargs sed -i '' 's/\\.\\.\\./…/g'",
-    "pr:spelling": "mdspell 'docs/**/*.md' --en-gb --ignore-numbers --ignore-acronyms",
+    "pr:replace-emdash": "find docs -type f -name '*.md' | xargs sed -i '' 's/ -- / — /g'",
     "preview": "echo \"Opening a preview on your browser now.\" && sleep 1 && open http://localhost:3000/#/",
     "run": "npm-run-all --parallel serve preview",
     "serve": "docsify serve docs",
