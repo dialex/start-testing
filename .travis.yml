@@ -3,10 +3,10 @@ node_js:
   - "node"
 
 install:
-  - make install
+  - npm run build
 
 script:
-  - make build
+  - npm run ci
 
 branches:
   only:

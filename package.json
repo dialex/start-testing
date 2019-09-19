@@ -4,6 +4,7 @@
   "description": "A crowdsourced testing course, written by testers for testers wannabes.",
   "scripts": {
     "bump:patch": "npm version --no-commit-hooks --no-git-tag-version patch",
+    "build": "npm ci && gem install --no-ri --no-rdoc awesome_bot",
     "clean": "rm -r node_modules",
     "ci": "npm run lint",
     "fix": "npm-run-all fix:*",
@@ -15,11 +16,10 @@
     "lint:spelling": "mdspell 'docs/**/*.md' -r --en-gb --ignore-numbers --ignore-acronyms",
     "lint:broken-links-internal": "echo 'Skipping validation because \"remark validate-links\" returns false positives. (see https://github.com/dialex/start-testing/issues/54)'",
     "lint:broken-links-external": "node scripts/link-validator.js docs/**/*.md",
-    "postinstall": "gem install --no-ri --no-rdoc awesome_bot",
     "pr:prepare": "npm-run-all fix lint run",
     "pr:ready": "npm run bump:patch && git commit -m 'bump up version'",
     "preview": "echo \"Opening a preview on your browser now.\" && sleep 1 && open http://localhost:3000/#/",
-    "run": "npm-run-all --parallel serve preview",
+    "site": "npm-run-all --parallel serve preview",
     "serve": "docsify serve docs",
     "test": "echo 'Aborting: no tests found. (see https://github.com/dialex/start-testing/issues/70)' && exit 1"
   },
