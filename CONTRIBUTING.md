@@ -1,6 +1,6 @@
 # Contributing
 
-Welcome! Here's what you need to know to improve this repo.
+Welcome! Here's what you need to know when contributing to this repo.
 
 ## Folders & Files
 
@@ -15,6 +15,7 @@ run         # runs the website locally on your machine
 build       # performs Continuous Integration validations (used by Travis)
 lint        # performs lint validations on all relevant *.md files
 pr:prepare  # checks if your branch is good enough for a Pull Request
+pr:ready    # makes your branch ready for Pull Request (increments version)
 test        # checks if the live website is ok
 clean       # deletes unversioned generated files
 ```
