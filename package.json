@@ -18,7 +18,7 @@
     "lint:broken-links-internal": "echo 'Skipping validation because \"remark validate-links\" returns false positives. (see https://github.com/dialex/start-testing/issues/54)'",
     "lint:broken-links-external": "node scripts/link-validator.js docs/**/*.md",
     "pr:prepare": "npm-run-all fix lint run",
-    "pr:ready": "npm run bump:patch && git commit -m 'bump up version'",
+    "pr:ready": "npm run bump:patch && git commit -m 'bump up version' .",
     "preview": "echo \"Opening a preview on your browser now.\" && sleep 1 && open http://localhost:3000/#/",
     "site": "npm-run-all --parallel serve preview",
     "serve": "docsify serve docs",
