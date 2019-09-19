@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A crowdsourced testing course, written by testers for testers wannabes.",
   "scripts": {
+    "bump:patch": "npm version --no-commit-hooks --no-git-tag-version patch",
     "clean": "rm -r node_modules",
     "build": "npm run lint",
     "fix": "npm-run-all fix:*",
@@ -15,6 +16,7 @@
     "lint:broken-links-internal": "echo 'Skipping validation because \"remark validate-links\" returns false positives. (see https://github.com/dialex/start-testing/issues/54)'",
     "lint:broken-links-external": "node scripts/link-validator.js docs/**/*.md",
     "postinstall": "gem install --no-ri --no-rdoc awesome_bot",
+    "pr:commit": "npm run bump:patch && git commit -m 'bump up version'",
     "pr:prepare": "npm-run-all fix lint run",
     "preview": "echo \"Opening a preview on your browser now.\" && sleep 1 && open http://localhost:3000/#/",
     "run": "npm-run-all --parallel serve preview",
