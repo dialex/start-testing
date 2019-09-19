@@ -71,27 +71,21 @@ While you explore, "[`KIIQ`](/tools/mnemonics.md)" taking notes focusing on four
 - **I**ssues: what is wrong and needs to be fixed or discussed
 - **Q**uestions: missing information or context that need follow-up
 
-### User testing
+### 👀 User testing
 
-It's important to note that we 
+When performing a user testing session it's helpful to have one facilitator and one observer. The observer is focused on taking notes, while the facilitator is guiding the user through the exercise and clarifying any doubts.
 
-always
+During the session, take notes that cover:
 
- work on user tests in pairs; one moderator and one observer. The observer's notes are typically more useful and detailed than the moderator's whose main task is guiding participant through the site and exposing relevant issues. That said, at Webcredible both the moderator and observer take notes when we run user testing. Mostly quotes from participants which helps a lot with writing the report and producing a highlight video afterwards. We often write down the time stamp if it's a really good quote to find it easily in the recording. In addition to what the participants say and do, we also write down immediately apparent solutions and recommendations. These might not always be the right solutions but it's the start of the problem solving process and important to do.
+- **Quotes** from participants -- including praise, criticism, doubts and suggestions
+- **Issues** identified (and ideas on how to fix them)
+- Timestamps of relevant moments (in case you're recording the session)
 
-### How do we make sure the notes are useful?
+Tag user quotes with feelings, such as `#frustrated` `#surprised` `#pleased`. 
 
-- Organise the notes by participant and then again into themes
-- Use shorthand or even sketches for quick scribbling
-- Take a lot of notes in the first few sessions and use the following sessions to collect evidence for recurring issues
-- Note down timestamps for recurring issues and good quotes
-- Start with a list of tasks as section headings and write the notes under each task
+Use shorthand or even sketches, to be faster or more accurate. After a few sessions, patterns tend to emerge, so take more notes in the first few sessions and use the following sessions to collect evidence for recurring issues.
 
-### How do we use the notes after the tests?
-
-There are some common steps we all go through. First, we go through the notes to categorise the information by participants and task. Secondly, we analyse the findings, either by comparing notes from differing sessions and finding the common issues or extracting the key points. Lastly, we use the notes as a reference during writing reports or debriefing with the clients. There are endless ways for taking notes in user testing sessions. It's important to try out different methods and find what works for you and the project at hand. For the moment, I have settled with Evernote on my iPad and highlighting the most important points after each session.
-
-
+When you finished all your sessions, write a single document that summarises what you learned. Include what your users felt, where they struggled, what they enjoyed, what they longed for, and list any bugs or issues found during those sessions.
 
 ## Teachers
 
