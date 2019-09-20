@@ -12,6 +12,7 @@
   - [Requirements](/concepts/requirements.md)
   - [Testability](/concepts/testability.md)
 - **Toolbox**
+  - [Mnemonics](/tools/mnemonics.md)
   - [Charters](/tools/charters.md)
   - [Oracles](/tools/oracles.md)
   - [Note-taking](/tools/note-taking.md)
@@ -19,7 +20,6 @@
   - ~~Test methodologies~~
   - ~~Test pyramid~~
   - ~~Heuristics~~
-  - ~~Mnemonics~~
   - ~~Tools~~
 - **Test types**
   - ~~Functional vs Non-functional~~
