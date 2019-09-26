@@ -34,6 +34,15 @@
   - Clean
   - Home
 
+### Exploration
+
+- When preparing an exploratory testing session: **`TORCH`** by [Simon Tomes](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit)
+  - Time: How much time will you put aside for this session?
+  - Oracles: Who or what will help you act on the information you discover? (see [oracles](/tools/oracles.md))
+  - Risks: What do you want to learn about? (see [charters](/tools/charters.md))
+  - Consider: What questions do you want to answer? (see **`5W1H`** mnemonic)
+  - Heuristics: What triggers will guide your session? (see [heuristics](/tools/heuristics.md))
+
 ### Testability
 
 - When assessing your product's [testability](/concepts/testability.md): **`SOCKS`** by [Adam Knight](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html)
@@ -71,3 +80,4 @@
 - [SACRED](https://youtu.be/z9m_yZMswOQ?t=56)
 - [SOCKS](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html)
 - [VIPS](https://www.satisfice.com/download/heuristics-of-software-testability)
+- [TORCH](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit)
