@@ -42,6 +42,11 @@
   - Control: you should be able to influence the state of the product to reproduce scenarios at will
   - Knowledge: you should have access to information (and [oracles](/tools/oracles.md)) about the product under test
   - Stability: you should have a stable environment and product to perform your testing 
+- When looking for ways to improve your product's [testability](/concepts/testability.md): **`VIPS`** (by [James Back](https://www.satisfice.com/download/heuristics-of-software-testability))
+  - Value: changing the quality standard or our knowledge of it
+  - Intrinsic (aka. product): changing the system itself
+  - Project: changing the conditions under which we test
+  - Subjective (aka. tester): changing the tester or the test process
 
 ### Team
 
@@ -65,3 +70,4 @@
 - [MIDTESTD](https://www.satisfice.com/download/heuristic-test-strategy-model)
 - [SACRED](https://youtu.be/z9m_yZMswOQ?t=56)
 - [SOCKS](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html)
+- [VIPS](https://www.satisfice.com/download/heuristics-of-software-testability)
