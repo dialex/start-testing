@@ -10,12 +10,22 @@
 
 ### Product
 
-- When using [Specification By Example](/notebook/specification-by-example) to write features and scenarios: **`OOPSI`** by [Jenny Martin](https://jennyjmar.com/2016/04/16/bdd-discovery-and-oopsi/)
+- When using [Specification By Example](/notebook/specification-by-example.md) to write features and scenarios: **`OOPSI`** by [Jenny Martin](https://jennyjmar.com/2016/04/16/bdd-discovery-and-oopsi/)
   - Outcomes: what you expect to achieve (e.g. _As a ... I want to ... So that ..._)
   - Outputs: the outputs that deliver what you want to achieve
   - Processes: the activities performed to generate those outputs
   - Scenarios: step by step descriptions of those activities (aka. test cases)
   - Inputs: data used by scenarios to perform an activity (aka. test conditions)
+
+### Automation
+
+- When writing automated checks: **`SACRED`** by [Richard Bradshaw](https://youtu.be/z9m_yZMswOQ?t=56)
+  - State: manage the environment where tests will run (e.g. configs, feature flags, data)
+  - Actions: specify which steps to automate (e.g. click page element, call API, mock)
+  - Codified [oracle](/tools/oracles.md): conditions that will decide whether the observed behaviour was expected (e.g. assertions)
+  - Reporting: display and share the test results (e.g. logs, reports, notifications)
+  - Execution: decide where and how the tests will run (e.g. local, CI, staging, production)
+  - Deterministic: strive to have coherent and reliable test results (e.g. reduce flakyness)
 
 ### Team
 
@@ -37,3 +47,4 @@
 
 - [OOPSI](https://jennyjmar.com/2016/04/16/bdd-discovery-and-oopsi/)
 - [MIDTESTD](https://www.satisfice.com/download/heuristic-test-strategy-model)
+- [SACRED](https://youtu.be/z9m_yZMswOQ?t=56)
