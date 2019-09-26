@@ -26,7 +26,12 @@
   - Reporting: display and share the test results (e.g. logs, reports, notifications)
   - Execution: decide where and how the tests will run (e.g. local, CI, staging, production)
   - Deterministic: strive to have coherent and reliable test results (e.g. reduce flakyness)
-- Anatomy of a test case: SEARCH
+- When assessing the quality of an automated checks: **`PARMesan`** by [Matt Barbour](https://testguild.com/avoid-zombie-test-automation-essential-survival-guide/)
+  - Performant: test runs as fast as possible (e.g. explicit waits, parallelism)
+  - Accurate: test failure precisely identifies root cause (e.g. false positives)
+  - Repeatable: test can be executed multiple times and produce the same result
+  - Meaningful: test validates an important feature or capability
+- Anatomy of a test case: **`SEARCH`**
   - Setup
   - Execute
   - Analyze
@@ -81,3 +86,4 @@
 - [SOCKS](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html)
 - [VIPS](https://www.satisfice.com/download/heuristics-of-software-testability)
 - [TORCH](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit)
+- [PARM](https://testguild.com/avoid-zombie-test-automation-essential-survival-guide/)
