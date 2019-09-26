@@ -26,6 +26,14 @@
   - Reporting: display and share the test results (e.g. logs, reports, notifications)
   - Execution: decide where and how the tests will run (e.g. local, CI, staging, production)
   - Deterministic: strive to have coherent and reliable test results (e.g. reduce flakyness)
+- Anatomy of a test case: SEARCH
+  - Setup
+  - Execute
+  - Analyze
+  - Report
+  - Clean
+  - Home
+
 
 ### Team
 
