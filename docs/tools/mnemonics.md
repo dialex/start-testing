@@ -36,8 +36,8 @@
 
 ### Testability
 
-- When assessing your product's [testability](/concepts/testability.md): **`SOCKS`** (by [Adam Knight](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html))
-  - Simplicity: by reducing complexity, your product becomes easier to test and maintain
+- When assessing your product's [testability](/concepts/testability.md): **`SOCKS`** by [Adam Knight](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html)
+  - Simplicity: you should reduce complexity, so that your product is easy to test and maintain
   - Observability: you should be able to monitor what the product did, when and how
   - Control: you should be able to influence the state of the product to reproduce scenarios at will
   - Knowledge: you should have access to information (and [oracles](/tools/oracles.md)) about the product under test

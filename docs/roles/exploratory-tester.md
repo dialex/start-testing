@@ -37,7 +37,7 @@ These questions will structure and guide your exploratory testing session:
 - Time: How much time will you put aside for this session? _(aim for 45-60 mins)_
 - Oracles: Who or what will help you act on the information you discover? (see [oracles](/tools/oracles.md))
 - Risks: What do you want to learn about? (see [charters](/tools/charters.md))
-- Consider: What questions do you want to answer? (see [5W1H mnemonic](/tools/mnemonics.md))
+- Consider: What questions do you want to answer? (see [**`5W1H`** mnemonic](/tools/mnemonics.md))
 - Heuristics: What triggers will guide your session? (see [heuristics](/tools/heuristics.md))
 
 #### KIIQ exploring
