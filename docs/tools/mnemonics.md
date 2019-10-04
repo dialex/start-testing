@@ -41,6 +41,14 @@
 
 ### Exploration
 
+- When thinking about which areas you can test: **`SFDIPOT`** by [James Bach](https://www.satisfice.com/download/heuristic-test-strategy-model)
+  - Structure: everything that makes up the product (software and hardware)
+  - Function: everything that the product does
+  - Data: everything that the product processes (in/out, quantity, quality, state, lifecycle)
+  - Integrations: everything used to interact with the product (UI, API, bot, import)
+  - Platform: everything external on which the product depends (libs, 3rd parties, tools, hardware)
+  - Operations: how the product will be used (personas, environment, happy path, edge cases)
+  - Time: any relationship between the product and time (speed, concurrency, frequency, delays)
 - When preparing an exploratory testing session: **`TORCH`** by [Simon Tomes](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit)
   - Time: How much time will you put aside for this session?
   - Oracles: Who or what will help you act on the information you discover? (see [oracles](/tools/oracles.md))
@@ -87,3 +95,4 @@
 - [VIPS](https://www.satisfice.com/download/heuristics-of-software-testability)
 - [TORCH](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit)
 - [PARM](https://testguild.com/avoid-zombie-test-automation-essential-survival-guide/)
+- [SFDIPOT](https://www.satisfice.com/download/heuristic-test-strategy-model)
