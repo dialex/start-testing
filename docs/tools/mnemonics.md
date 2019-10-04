@@ -19,6 +19,14 @@
 
 ### Automation
 
+- When writing unit tests: **`SIPIFFI`** by Diogo Nunes
+  - Small: covers a small piece of behaviour
+  - Isolated: doesn't affect other tests
+  - Precise: when it fails, you know exactly what's wrong
+  - Intense: covers all relevant execution flows
+  - Fast: runs under 500ms
+  - Idempotent: can be run multiple times (no side effects)
+  - Frequently run: the sooner it fails, the sooner we fix it
 - When writing automated checks: **`SACRED`** by [Richard Bradshaw](https://youtu.be/z9m_yZMswOQ?t=56)
   - State: manage the environment where tests will run (e.g. configs, feature flags, data)
   - Actions: specify which steps to automate (e.g. click page element, call API, mock)
@@ -109,3 +117,4 @@
 - [PARM](https://testguild.com/avoid-zombie-test-automation-essential-survival-guide/)
 - [SFDIPOT](https://www.satisfice.com/download/heuristic-test-strategy-model)
 - [CAN I USE THIS](https://pt.slideshare.net/DavidGreenlees1/can-i-use-this-a-mnemonic-for-usability-testing)
+- SIPIFFI
