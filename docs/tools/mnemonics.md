@@ -49,6 +49,18 @@
   - Platform: everything external on which the product depends (libs, 3rd parties, tools, hardware)
   - Operations: how the product will be used (personas, environment, happy path, edge cases)
   - Time: any relationship between the product and time (speed, concurrency, frequency, delays)
+- When testing for usability: **`CAN I USE THIS`** by [David Greenlees](https://pt.slideshare.net/DavidGreenlees1/can-i-use-this-a-mnemonic-for-usability-testing)
+  - Comparable products
+  - Acessibility
+  - Navigation
+  - Intuitive
+  - Users
+  - Standards
+  - Emotional response
+  - Training (drunk test)
+  - Heuristics (e.g. top 10 Jakob Nielsen)
+  - Instructions
+  - Satisfaction
 - When preparing an exploratory testing session: **`TORCH`** by [Simon Tomes](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit)
   - Time: How much time will you put aside for this session?
   - Oracles: Who or what will help you act on the information you discover? (see [oracles](/tools/oracles.md))
@@ -96,3 +108,4 @@
 - [TORCH](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit)
 - [PARM](https://testguild.com/avoid-zombie-test-automation-essential-survival-guide/)
 - [SFDIPOT](https://www.satisfice.com/download/heuristic-test-strategy-model)
+- [CAN I USE THIS](https://pt.slideshare.net/DavidGreenlees1/can-i-use-this-a-mnemonic-for-usability-testing)
