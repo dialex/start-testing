@@ -14,3 +14,9 @@ assignees: dialex
 ### Why it should be done
 
 …
+
+### Admin
+
+- [ ] Choose the appropriate labels
+- [ ] Choose **Maintenance** project
+- [ ] Choose **v0.9** milestone

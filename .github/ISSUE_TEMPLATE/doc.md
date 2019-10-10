@@ -18,3 +18,9 @@ assignees: dialex
 ### References
 
 …
+
+### Admin
+
+- [ ] Choose the appropriate labels
+- [ ] Choose **Writing** project
+- [ ] Choose a milestone
