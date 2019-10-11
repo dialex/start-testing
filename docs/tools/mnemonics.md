@@ -39,6 +39,17 @@
   - Maintainability: flexibility, extensibility, simplicity, readability, modularity, refactorability
   - Portability: localisation, internationalization, adaptability, reusability
 
+### Bugs
+
+- When creating mechanisms to detect errors: **`FAILURE`** by [Ben Simo](https://www.questioningsoftware.com/2007/08/failure-usability.html)
+  - Functional: Do we detect errors automatically? Can users report errors?
+  - Appropriate: Are errors reported instantly, to the right audience? Do we have false errors?
+  - Impact: Does it fail as soon as possible? Is the user flow blocked? What do users lose?
+  - Log: Are logs acessible, detailed, searchable?
+  - UI: Is the error message understandable by users? 
+  - Recovery: Does the message help users recover from the error? Can they contact support?
+  - Emotions: What does a user feel when an error occurs? Does the error message ease or worsen that pain?
+
 ### Automation
 
 - When writing unit tests: **`SIPIFFI`** adapted by Diogo Nunes
@@ -142,4 +153,4 @@
 - SIPIFFI
 - [WWWWWHEK](http://www.bettertesting.co.uk/content/?p=857)
 - [CRUSSPIC STMPL](http://thetesteye.com/posters/TheTestEye_SoftwareQualityCharacteristics.pdf)
-
+- [FAILURE](https://www.questioningsoftware.com/2007/08/failure-usability.html)
