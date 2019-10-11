@@ -16,6 +16,16 @@
   - Processes: the activities performed to generate those outputs
   - Scenarios: step by step descriptions of those activities (aka. test cases)
   - Inputs: data used by scenarios to perform an activity (aka. test conditions)
+- When detailing *functional* requirements: **`WWWWWHEK`** by [Darren McMillan](http://www.bettertesting.co.uk/content/?p=857)
+  - What is this for?
+  - Who is this for?
+  - When is it needed? When will it be done?
+  - Where does it fit? Where is it being done?
+  - Why is it being done?
+  - How is it being done?
+  - What additional questions do I have based on my knowledge? (of this or related products)
+  - What additional questions do I have based on my experience? (of this or related products)
+- When detailing *non-functional* requirements: **`CRUSSPIC STMPL`** by ? 
 
 ### Automation
 
