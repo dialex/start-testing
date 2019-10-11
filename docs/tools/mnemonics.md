@@ -102,12 +102,18 @@
   - Heuristics (e.g. top 10 Jakob Nielsen)
   - Instructions
   - Satisfaction
-- When preparing an exploratory testing session: **`TORCH`** by [Simon Tomes](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit)
+- When starting an exploratory testing session: **`TORCH`** by [Simon Tomes](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit)
   - Time: How much time will you put aside for this session?
   - Oracles: Who or what will help you act on the information you discover? (see [oracles](/tools/oracles.md))
   - Risks: What do you want to learn about? (see [charters](/tools/charters.md))
   - Consider: What questions do you want to answer? (see **`5W1H`** mnemonic)
   - Heuristics: What triggers will guide your session? (see [heuristics](/tools/heuristics.md))
+- When ending an exploratory testing session: **`PROOF`** by [Jon Bach](https://jonbox.wordpress.com/)
+  - Past: what was explored during the session (e.g. charter)
+  - Results: what was discovered
+  - Obstacles: what prevented better testing
+  - Outlooks: which product areas should be explored next
+  - Feelings: what emotions where felt during usage of the product
 
 ### Testability
 
@@ -117,7 +123,7 @@
   - Control: you should be able to influence the state of the product to reproduce scenarios at will
   - Knowledge: you should have access to information (and [oracles](/tools/oracles.md)) about the product under test
   - Stability: you should have a stable environment and product to perform your testing 
-- When looking for ways to improve your product's [testability](/concepts/testability.md): **`VIPS`** (by [James Back](https://www.satisfice.com/download/heuristics-of-software-testability))
+- When looking for ways to improve your product's [testability](/concepts/testability.md): **`VIPS`** by [James Back](https://www.satisfice.com/download/heuristics-of-software-testability)
   - Value: changing the quality standard or our knowledge of it
   - Intrinsic (aka. product): changing the system itself
   - Project: changing the conditions under which we test
@@ -154,3 +160,4 @@
 - [WWWWWHEK](http://www.bettertesting.co.uk/content/?p=857)
 - [CRUSSPIC STMPL](http://thetesteye.com/posters/TheTestEye_SoftwareQualityCharacteristics.pdf)
 - [FAILURE](https://www.questioningsoftware.com/2007/08/failure-usability.html)
+- [PROOF](https://jonbox.wordpress.com/)
