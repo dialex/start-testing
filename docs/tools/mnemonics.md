@@ -74,6 +74,13 @@
   - Reporting: display and share the test results (e.g. logs, reports, notifications)
   - Execution: decide where and how the tests will run (e.g. local, CI, staging, production)
   - Deterministic: strive to have coherent and reliable test results (e.g. reduce flakyness)
+- When prioritising regression checks: **`RCRCRC`** by [Karen Johnson](https://testandcode.com/38)
+  - Recent: new feature or areas of code
+  - Core: essential features
+  - Risk: important features but used less frequently
+  - Configuration: code dependent on environment settings
+  - Repaired: tests that reproduce bugs or features recently fixed
+  - Chronic: features that frequently break
 - When assessing the quality of an automated checks: **`PARMesan`** by [Matt Barbour](https://testguild.com/avoid-zombie-test-automation-essential-survival-guide/)
   - Performant: test runs as fast as possible (e.g. explicit waits, parallelism)
   - Accurate: test failure precisely identifies root cause (e.g. false positives)
@@ -195,3 +202,4 @@
 - [FEW HICCUPPS](https://www.developsense.com/blog/2010/05/transpection-transpected/)
 - [SACKED SCOWS](https://testsidestory.com/2010/03/16/a-lesson-learned-from-james-bach/)
 - [RIMGEA](https://searchsoftwarequality.techtarget.com/tip/Software-testing-is-improved-by-good-bug-reporting)
+- [RCRCRC](https://testandcode.com/38)
