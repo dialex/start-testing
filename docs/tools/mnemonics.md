@@ -126,6 +126,18 @@
   - Obstacles: what prevented better testing
   - Outlooks: which product areas should be explored next
   - Feelings: what emotions where felt during usage of the product
+- When learning to expand your knowledge on testing: **`SACKED SCOWS`** by [James Bach](https://testsidestory.com/2010/03/16/a-lesson-learned-from-james-bach/)
+  - Scouting obsessively: *I discover the sources and tools I will need*
+  - Authentic problems: *engage my mind*
+  - Cognitive savvy: *means working with the rhythms of my mind*
+  - Knowledge attracts knowledge: *the more I know, the easier I learn*
+  - Experimentation: *makes learning vivid and direct*
+  - Disposable time: *lets me try new things without regrets*
+  - Stories: *are how I make sense of things*
+  - Contrasting ideas: *leads to better ideas*
+  - Other minds: *exercise my thinking and identify my flaws*
+  - Words and pictures: *make a home for my thoughts*
+  - Systems thinking: *helps me tame complexity*
 
 ### Testability
 
@@ -174,3 +186,4 @@
 - [FAILURE](https://www.questioningsoftware.com/2007/08/failure-usability.html)
 - [PROOF](https://jonbox.wordpress.com/)
 - [FEW HICCUPPS](https://www.developsense.com/blog/2010/05/transpection-transpected/)
+- [SACKED SCOWS](https://testsidestory.com/2010/03/16/a-lesson-learned-from-james-bach/)
