@@ -49,6 +49,13 @@
   - UI: Is the error message understandable by users? 
   - Recovery: Does the message help users recover from the error? Can they contact support?
   - Emotions: What does a user feel when an error occurs? Does the error message ease or worsen that pain?
+- When advocating a bug: RIMGEA by [Cem Kaner](https://searchsoftwarequality.techtarget.com/tip/Software-testing-is-improved-by-good-bug-reporting) 
+  - Replicate it
+  - Isolate it
+  - Maximise it
+  - Generalise it
+  - Externalize it
+  - And say it clearly and dispassionately
 
 ### Automation
 
@@ -187,3 +194,4 @@
 - [PROOF](https://jonbox.wordpress.com/)
 - [FEW HICCUPPS](https://www.developsense.com/blog/2010/05/transpection-transpected/)
 - [SACKED SCOWS](https://testsidestory.com/2010/03/16/a-lesson-learned-from-james-bach/)
+- [RIMGEA](https://searchsoftwarequality.techtarget.com/tip/Software-testing-is-improved-by-good-bug-reporting)
