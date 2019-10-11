@@ -90,6 +90,18 @@
   - Platform: everything external on which the product depends (libs, 3rd parties, tools, hardware)
   - Operations: how the product will be used (personas, environment, happy path, edge cases)
   - Time: any relationship between the product and time (speed, concurrency, frequency, delays)
+- When looking for test [oracles](/tools/oracles.md): **`FEW HICCUPPS`** adapted by [Michael Bolton](https://www.developsense.com/blog/2012/07/few-hiccupps/)
+  - Familiarity: should not suffer from common issues (or others)
+  - Explainability: should be intuitive and easy to understand or explain
+  - World: should be aligned with our knowledge of the world
+  - History: should behave like it used to
+  - Image: should match the company's brand (values, reputation, message)
+  - Comparable: should behave like similar *external* products
+  - Claims: should behave like advertised by sales/marketing
+  - User: should fulfil users' desires and expectations
+  - Product: should behave like other *internal* products 
+  - Purpose: should fulfil the company's expectations
+  - Standards: should comply with applicable laws and regulations
 - When testing for usability: **`CAN I USE THIS`** by [David Greenlees](https://pt.slideshare.net/DavidGreenlees1/can-i-use-this-a-mnemonic-for-usability-testing)
   - Comparable products
   - Acessibility
@@ -161,3 +173,4 @@
 - [CRUSSPIC STMPL](http://thetesteye.com/posters/TheTestEye_SoftwareQualityCharacteristics.pdf)
 - [FAILURE](https://www.questioningsoftware.com/2007/08/failure-usability.html)
 - [PROOF](https://jonbox.wordpress.com/)
+- [FEW HICCUPPS](https://www.developsense.com/blog/2010/05/transpection-transpected/)
