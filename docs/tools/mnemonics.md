@@ -25,11 +25,23 @@
   - How is it being done?
   - What additional questions do I have based on my knowledge? (of this or related products)
   - What additional questions do I have based on my experience? (of this or related products)
-- When detailing *non-functional* requirements: **`CRUSSPIC STMPL`** by ? 
+- When detailing *non-functional* requirements: **`CRUCSPIC STMP`** adapted by [Henrik Emilsson](http://thetesteye.com/posters/TheTestEye_SoftwareQualityCharacteristics.pdf)
+  - Capability: completeness, accuracy, efficiency, concurrency, extensibility
+  - Reliability: stability, robustness, recoverability, safety, integritytrustworthiness
+  - Usability: learnability, operability, control, clarity, consistency, accessibility
+  - Charisma: uniqueness, satisfaction, professionalism, curiosity, hype, attitude, story
+  - Security: authentication, authorization, privacy, compliance, invulnerability, piracy 
+  - Performance: capacity, responsiveness, availability, endurance, scalability, consumption
+  - IT-bility: requirements, upgrades, uninstallation, configuration, deployability
+  - Compatibility: hardware, OS, backward, forward, standards, sustainability
+  - Supportability: analyics, troubleshooting, debugging, versatility
+  - Testatibility: traceability, controllability, observability, isolateability, automation, information
+  - Maintainability: flexibility, extensibility, simplicity, readability, modularity, refactorability
+  - Portability: localisation, internationalization, adaptability, reusability
 
 ### Automation
 
-- When writing unit tests: **`SIPIFFI`** by Diogo Nunes
+- When writing unit tests: **`SIPIFFI`** adapted by Diogo Nunes
   - Small: covers a small piece of behaviour
   - Isolated: doesn't affect other tests
   - Precise: when it fails, you know exactly what's wrong
@@ -128,3 +140,6 @@
 - [SFDIPOT](https://www.satisfice.com/download/heuristic-test-strategy-model)
 - [CAN I USE THIS](https://pt.slideshare.net/DavidGreenlees1/can-i-use-this-a-mnemonic-for-usability-testing)
 - SIPIFFI
+- [WWWWWHEK](http://www.bettertesting.co.uk/content/?p=857)
+- [CRUSSPIC STMPL](http://thetesteye.com/posters/TheTestEye_SoftwareQualityCharacteristics.pdf)
+
