@@ -30,7 +30,7 @@
   - Reliability: stability, robustness, recoverability, safety, integritytrustworthiness
   - Usability: learnability, operability, control, clarity, consistency, accessibility
   - Charisma: uniqueness, satisfaction, professionalism, curiosity, hype, attitude, story
-  - Security: authentication, authorization, privacy, compliance, invulnerability, piracy 
+  - Security: authentication, authorization, privacy, compliance, invulnerability, piracy
   - Performance: capacity, responsiveness, availability, endurance, scalability, consumption
   - IT-bility: requirements, upgrades, uninstallation, configuration, deployability
   - Compatibility: hardware, OS, backward, forward, standards, sustainability
@@ -38,6 +38,11 @@
   - Testatibility: traceability, controllability, observability, isolateability, automation, information
   - Maintainability: flexibility, extensibility, simplicity, readability, modularity, refactorability
   - Portability: localisation, internationalization, adaptability, reusability
+- When prioritising requirements for your product: **`NoNeLaNe`** adapted by [Alister Scott](https://watirmelon.blog/2019/10/14/now-next-later-never-improving-moscow/)
+  - Now (Must have)
+  - Next (Should have)
+  - Later (Could have)
+  - Never (Won't have)
 
 ### Bugs
 
@@ -46,10 +51,10 @@
   - Appropriate: Are errors reported instantly, to the right audience? Do we have false errors?
   - Impact: Does it fail as soon as possible? Is the user flow blocked? What do users lose?
   - Log: Are logs acessible, detailed, searchable?
-  - UI: Is the error message understandable by users? 
+  - UI: Is the error message understandable by users?
   - Recovery: Does the message help users recover from the error? Can they contact support?
   - Emotions: What does a user feel when an error occurs? Does the error message ease or worsen that pain?
-- When advocating a bug: RIMGEA by [Cem Kaner](https://searchsoftwarequality.techtarget.com/tip/Software-testing-is-improved-by-good-bug-reporting) 
+- When advocating a bug: RIMGEA by [Cem Kaner](https://searchsoftwarequality.techtarget.com/tip/Software-testing-is-improved-by-good-bug-reporting)
   - Replicate it
   - Isolate it
   - Maximise it
@@ -113,7 +118,7 @@
   - Comparable: should behave like similar *external* products
   - Claims: should behave like advertised by sales/marketing
   - User: should fulfil users' desires and expectations
-  - Product: should behave like other *internal* products 
+  - Product: should behave like other *internal* products
   - Purpose: should fulfil the company's expectations
   - Standards: should comply with applicable laws and regulations
 - When testing for usability: **`CAN I USE THIS`** by [David Greenlees](https://pt.slideshare.net/DavidGreenlees1/can-i-use-this-a-mnemonic-for-usability-testing)
@@ -160,7 +165,7 @@
   - Observability: you should be able to monitor what the product did, when and how
   - Control: you should be able to influence the state of the product to reproduce scenarios at will
   - Knowledge: you should have access to information (and [oracles](/tools/oracles.md)) about the product under test
-  - Stability: you should have a stable environment and product to perform your testing 
+  - Stability: you should have a stable environment and product to perform your testing
 - When looking for ways to improve your product's [testability](/concepts/testability.md): **`VIPS`** by [James Back](https://www.satisfice.com/download/heuristics-of-software-testability)
   - Value: changing the quality standard or our knowledge of it
   - Intrinsic (aka. product): changing the system itself
@@ -178,6 +183,21 @@
   - Schedule: when and how will team members align and share with each other?
   - Test items: which parts of the product should be tested?
   - Deliverables: which observable artifacts are expected to come out of testing?
+- When designing a test strategy for a new project: **`GRATEDD SCRIPTS`** by [Jared Quinert](http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/)
+  - Goals
+  - Risks
+  - Approach
+  - Tradeoffs
+  - Environments
+  - Dependencies
+  - Data
+  - Stakeholders
+  - Coverage models
+  - Resources
+  - Information needs
+  - Prioritisation
+  - Tooling
+  - Schedule
 
 ## Teachers
 
@@ -203,3 +223,4 @@
 - [SACKED SCOWS](https://testsidestory.com/2010/03/16/a-lesson-learned-from-james-bach/)
 - [RIMGEA](https://searchsoftwarequality.techtarget.com/tip/Software-testing-is-improved-by-good-bug-reporting)
 - [RCRCRC](https://testandcode.com/38)
+- [NoNeLaNe](https://watirmelon.blog/2019/10/14/now-next-later-never-improving-moscow/)
