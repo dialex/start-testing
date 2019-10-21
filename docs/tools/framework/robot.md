@@ -1,23 +1,24 @@
-# Robot Framework
+# Cypress
 
-> Robot Framework is a test automation framework for acceptance testing (…) it utilises the keyword-driven testing approach. Its testing capabilities can be extended by Python test libraries.
+> Fast and reliable testing for anything that runs in a browser. It uses Javascript (and not Selenium) to make setting up, writing, running and debugging tests easy — for QAs and developers.
 >
-> — [Official website](http://robotframework.org/)
+> — [Official website](https://www.cypress.io/how-it-works/)
 
 ## Code
 
-Example of automation at [GitHub](https://github.com/dialex/start-testing/tree/master/code/framework/robot).
+Example of automation at [GitHub](https://github.com/dialex/start-testing/tree/master/code/framework/cypress).
 
 ## Review
 
 | Category | Opinion | Score |
 | -------- | ------- | :---: |
-| _Use cases_        | Automate end-to-end tests using the UI. You can also use it quite well for contract or API tests (though not as explicit as [RestAssured](http://rest-assured.io/)). | 🥈 |
-| _Learning curve_   | You will quickly master the Robot syntax, as it's close to plain English. The framework "just works" and you don't need to know much about it. | 🥇 |
-| _Language_         | Tests are written in Robot, and supports Gherkin. Even though it's easy, it's yet another syntax your team needs to learn. | 🥈 |
-| _Ecosystem_        | Python. [Enough libraries](https://github.com/fkromer/awesome-robotframework/blob/master/README.md) for most use cases. PyCharm as not helpful an IDE, so I used a regular Python text editor like VS Code. | 🥈 |
-| _Readability_      | The keyword-driven approach makes your tests easy to understand. The test report file gives you an overview of the results, yet allows you to drill down to details. | 🥇 |
-| _Extensibility_    | You can create your own keywords to increase the abstraction, or compose them with existing keywords. Not easy to add custom code. | 🥈 |
-| _Maintainability_  | Refactoring keeps the code base understandable, although without a proper IDE it gets cumbersome. Limited debug. | 🥈 |
-| _Documentation_    | The online doc is enough and clear. There are enough examples online. There are also tutorials and courses. | 🥈 |
-| **VERDICT**        | Good for small or simple projects, otherwise has limitations. | **3.5/5** |
+| _Use cases_        | Automate end-to-end tests using the UI or the client-side Javascript. It also supports API testing and mocks. | 🥇 |
+| _Learning curve_   | Cypress has little setup and comes with intuitive methods and assertions, so you will be writing your first tests in no time. When you open Cypress, you can watch the test execution step-by-step in the browser, pause it, even go back in time! | 🥇 |
+| _Language_         | Tests are written in Javascript, thus some basic knowledge is required to code and understand the tests. You will only take full advantage of this powerful framework if you are proficient with Javascript. | 🥈 |
+| _Ecosystem_        | Javascript. There's libraries for everything. I used VS Code to write tests and (after a simple configuration) it's IntelliSense made me very productive. | 🥇 |
+| _Readability_      | A non-tech person can only read the title of each test, which is a single sentence. There are unofficial libs to support Gherkin though. By default there's no test report file, only an ASCII output, but you can add any [Mocha](https://docs.cypress.io/guides/tooling/reporters.html#Custom-Reporters) test reporter. | 🥈 |
+| _Extensibility_    | You can create your own Cypress Custom Commands, or regular Javascript functions (which are picked up by IntelliSense). It *kinda* supports the PageObject pattern (even though they [don't recommend it](https://docs.cypress.io/faq/questions/using-cypress-faq.html#Can-I-use-the-Page-Object-pattern)). There are some Cypress plugins (even though they offer [functionality that should be built-in](https://github.com/cypress-io/cypress/issues/1865#issuecomment-484897559)). | 🥈 |
+| _Maintainability_  | It's Javascript, for better or for worse. Debugging is great (step-by-step, pause, go back in time, DOM inspection). IntelliSense usually guides your coding. However Cypress commands run asynchronously and that leads to issues (e.g. run conditions) and limitations (e.g. can't mix sync and async code). | 🥉 |
+| _Documentation_    | The online doc is abundant and comprehensive. It covers how to use Cypress, including some [recipes/examples](https://github.com/cypress-io/cypress-example-recipes#application-actions), but also explains some test concepts (e.g. when to use test mocks, anti-patterns, etc.). | 🥇 |
+| **VERDICT**        | Perfect for a Javascript project with an experienced team. | **4/5** |
+
