@@ -21,4 +21,3 @@ Example of automation at [GitHub](https://github.com/dialex/start-testing/tree/m
 | _Maintainability_  | It's Javascript, for better or for worse. Debugging is great (step-by-step, pause, go back in time, DOM inspection). IntelliSense usually guides your coding. However Cypress commands run asynchronously and that leads to issues (e.g. run conditions) and limitations (e.g. can't mix sync and async code). | 🥉 |
 | _Documentation_    | The online doc is abundant and comprehensive. It covers how to use Cypress, including some [recipes/examples](https://github.com/cypress-io/cypress-example-recipes#application-actions), but also explains some test concepts (e.g. when to use test mocks, anti-patterns, etc.). | 🥇 |
 | **VERDICT**        | Perfect for a Javascript project with an experienced team. | **4/5** |
-
