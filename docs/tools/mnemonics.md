@@ -121,7 +121,18 @@
   - Product: should behave like other *internal* products
   - Purpose: should fulfil the company's expectations
   - Standards: should comply with applicable laws and regulations
-- When testing for usability: **`CAN I USE THIS`** by [David Greenlees](https://pt.slideshare.net/DavidGreenlees1/can-i-use-this-a-mnemonic-for-usability-testing)
+- When exploring APIs:  **`ICE OVER MAD`** by [Ash Winter](https://testingisbelieving.blogspot.com/2013/11/johnny-mnemonic-iceovermad.html)
+  - Integration: how will consumers use this service?
+  - Consumers: who will use it -- humans or machines?
+  - Endpoints: how many endpoints and how are they accessed?
+  - Operations: what is the purpose of the service?
+  - Volume: what is the expected usage size and pattern?
+  - Errors: does it handle and log failures?
+  - RESTful: is it?
+  - Modularity: how does each part of the service work together?
+  - Authentication: sessions, privacy, encryption, permissions, etc.
+  - Definitions: what is the contract of the service?
+- When exploring usability: **`CAN I USE THIS`** by [David Greenlees](https://martialtester.files.wordpress.com/2013/11/bsm_can-i-use-this-nov-2013.pdf)
   - Comparable products
   - Acessibility
   - Navigation
@@ -220,7 +231,7 @@
 - [TORCH](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit)
 - [PARM](https://testguild.com/avoid-zombie-test-automation-essential-survival-guide/)
 - [SFDIPOT](https://www.satisfice.com/download/heuristic-test-strategy-model)
-- [CAN I USE THIS](https://pt.slideshare.net/DavidGreenlees1/can-i-use-this-a-mnemonic-for-usability-testing)
+- [CAN I USE THIS](https://martialtester.files.wordpress.com/2013/11/bsm_can-i-use-this-nov-2013.pdf)
 - SIPIFFI
 - [WWWWWHEK](http://www.bettertesting.co.uk/content/?p=857)
 - [CRUSSPIC STMPL](http://thetesteye.com/posters/TheTestEye_SoftwareQualityCharacteristics.pdf)
@@ -232,4 +243,5 @@
 - [RCRCRC](https://testandcode.com/38)
 - [NoNeLaNe](https://watirmelon.blog/2019/10/14/now-next-later-never-improving-moscow/)
 - [INVEST](https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/)
+- [ICEOVERMAD](https://testingisbelieving.blogspot.com/2013/11/johnny-mnemonic-iceovermad.html)
 
