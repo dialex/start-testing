@@ -198,6 +198,13 @@
   - Prioritisation
   - Tooling
   - Schedule
+- When writing a user story: **`INVEST`** by [Bill Wake](https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/)
+  - Independent: should be ready to start without waiting for another story
+  - Negotiable: should capture the goal and leave the implementation for debate
+  - Valuable: should deliver value to some stakeholder
+  - Estimable: should have an effort amount, so than it can be prioritised
+  - Small: should be achievable in one to three days
+  - Testable: otherwise how do you know you're done?
 
 ## Teachers
 
@@ -224,3 +231,5 @@
 - [RIMGEA](https://searchsoftwarequality.techtarget.com/tip/Software-testing-is-improved-by-good-bug-reporting)
 - [RCRCRC](https://testandcode.com/38)
 - [NoNeLaNe](https://watirmelon.blog/2019/10/14/now-next-later-never-improving-moscow/)
+- [INVEST](https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/)
+
