@@ -1,10 +1,28 @@
 # Mnemonics
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** SUMMARY_HERE 
+> Mnemonics are brain shortcuts to retrieve information.
 
 ## Theory
 
 > A mnemonic is a pattern of letters, ideas, or associations which helps remember something else. It is a learning technique that aids information retention and retrieval. -- [Wikipedia](https://en.wikipedia.org/wiki/Mnemonic)
+
+Your brain can store a lot of information, but sometimes it's hard to recall a specific detail. Maybe you don't use that information too often or maybe it's not very intuitive. Mnemonics are **[brain shortcuts](https://www.mindtools.com/memory.html)** that allow you to retrieve the same information with less effort.
+
+> Example: You can memorise how many days each month has, or you can use the knuckles of your hand to instantly know the answer. In the latter case, you are using a shortcut to retrieve the same information -- that's a mnemonic.
+
+> Example: You are learning how to test an online form, and you are told that it's a good idea to try a value that is too small, too big and just right. You can memorise that information, but that will cost your brain some effort. Then you notice that pattern is very similar to the [Story of Goldilocks and the Three Bears](https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears). So you just call it "the Goldilocks test" -- that's a mnemonic.
+
+Some mnemonics will give you the full information you are looking for, others will give you references to where you can get the full information. The first example gives you the exact information you want (number of days of a month). The second example doesn't give you the answer but uses knowledge you already have to make it easier to recall the exact information you want (aka. association of ideas).
+
+> Example: You finished an exploratory session and now you want to summarise your findings. Usually you describe the Past (what you explored), the Results (what you discovered), the Obstacles (what prevented better testing), the Outlooks (what should be tested next), the your Feelings (how you felt while using the product under test).
+> That's a lot of things to remember! But if you take the first letter of every word, you get `PROOF` -- that's an acronym. "After I explore, I need to bring... `PROOF`" -- that's a mnemonic.
+
+Most of the testing mnemonics look like this last example. They are acronyms that condense vast amounts of information into a word (`PROOF`), a sentence (`FEW HICCUPPS`), or something in between (`SF DIPOT`).
+
+These mnemonics don't give you the exact information you want, but they give you a clue about what you are trying to remember. And even if you forget the words that make the acronym, you can search for the acronym and quickly get the detailed information you need -- almost like the glossary of a book.
+
+Use the mnemonic technique to squeeze and shape any piece of information into a format that is "brain friendly". Below is a list of popular mnemonics used by the testing community. Feel free to [customise them to your needs](https://www.ministryoftesting.com/dojo/lessons/model-fatigue-and-how-to-break-it-john-stevenson) or develop your own.
 
 ## Practice
 
@@ -54,7 +72,7 @@
   - UI: Is the error message understandable by users?
   - Recovery: Does the message help users recover from the error? Can they contact support?
   - Emotions: What does a user feel when an error occurs? Does the error message ease or worsen that pain?
-- When advocating a bug: RIMGEA by [Cem Kaner](https://searchsoftwarequality.techtarget.com/tip/Software-testing-is-improved-by-good-bug-reporting)
+- When advocating a bug: **`RIMGEA`** by [Cem Kaner](https://searchsoftwarequality.techtarget.com/tip/Software-testing-is-improved-by-good-bug-reporting)
   - Replicate it
   - Isolate it
   - Maximise it
