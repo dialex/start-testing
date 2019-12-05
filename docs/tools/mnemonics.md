@@ -1,7 +1,6 @@
 # Mnemonics
 
-> **tl;dr** SUMMARY_HERE 
-> Mnemonics are brain shortcuts to retrieve information.
+> **tl;dr** Mnemonics are brain shortcuts to retrieve information.
 
 ## Theory
 
