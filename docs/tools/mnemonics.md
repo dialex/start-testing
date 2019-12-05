@@ -33,6 +33,13 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
   - Processes: the activities performed to generate those outputs
   - Scenarios: step by step descriptions of those activities (aka. test cases)
   - Inputs: data used by scenarios to perform an activity (aka. test conditions)
+- When writing a user story: **`INVEST`** by [Bill Wake](https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/)
+  - Independent: should be ready to start without waiting for another story
+  - Negotiable: should capture the goal and leave the implementation for debate
+  - Valuable: should deliver value to some stakeholder
+  - Estimable: should have an effort amount, so than it can be prioritised
+  - Small: should be achievable in one to three days
+  - Testable: otherwise how do you know you're done?
 - When detailing *functional* requirements: **`WWWWWHEK`** by [Darren McMillan](http://www.bettertesting.co.uk/content/?p=857)
   - What is this for?
   - Who is this for?
@@ -81,6 +88,13 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
 
 ### Automation
 
+- Anatomy of a test case: **`SEARCH`**
+  - Setup
+  - Execute
+  - Analyze
+  - Report
+  - Clean
+  - Home
 - When writing unit tests: **`SIPIFFI`** adapted by Diogo Nunes
   - Small: covers a small piece of behaviour
   - Isolated: doesn't affect other tests
@@ -89,32 +103,25 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
   - Fast: runs under 500ms
   - Idempotent: can be run multiple times (no side effects)
   - Frequently run: the sooner it fails, the sooner we fix it
-- When writing automated checks: **`SACRED`** by [Richard Bradshaw](https://youtu.be/z9m_yZMswOQ?t=56)
+- When writing automated tests: **`SACRED`** by [Richard Bradshaw](https://youtu.be/z9m_yZMswOQ?t=56)
   - State: manage the environment where tests will run (e.g. configs, feature flags, data)
   - Actions: specify which steps to automate (e.g. click page element, call API, mock)
   - Codified [oracle](/tools/oracles.md): conditions that will decide whether the observed behaviour was expected (e.g. assertions)
   - Reporting: display and share the test results (e.g. logs, reports, notifications)
   - Execution: decide where and how the tests will run (e.g. local, CI, staging, production)
   - Deterministic: strive to have coherent and reliable test results (e.g. reduce flakyness)
-- When prioritising regression checks: **`RCRCRC`** by [Karen Johnson](https://testandcode.com/38)
+- When prioritising regression tests: **`RCRCRC`** by [Karen Johnson](https://testandcode.com/38)
   - Recent: new feature or areas of code
   - Core: essential features
   - Risk: important features but used less frequently
   - Configuration: code dependent on environment settings
   - Repaired: tests that reproduce bugs or features recently fixed
   - Chronic: features that frequently break
-- When assessing the quality of an automated checks: **`PARMesan`** by [Matt Barbour](https://testguild.com/avoid-zombie-test-automation-essential-survival-guide/)
+- When assessing the quality of an automated test: **`PARMesan`** by [Matt Barbour](https://testguild.com/avoid-zombie-test-automation-essential-survival-guide/)
   - Performant: test runs as fast as possible (e.g. explicit waits, parallelism)
   - Accurate: test failure precisely identifies root cause (e.g. false positives)
   - Repeatable: test can be executed multiple times and produce the same result
   - Meaningful: test validates an important feature or capability
-- Anatomy of a test case: **`SEARCH`**
-  - Setup
-  - Execute
-  - Analyze
-  - Report
-  - Clean
-  - Home
 
 ### Exploration
 
@@ -138,6 +145,18 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
   - Product: should behave like other *internal* products
   - Purpose: should fulfil the company's expectations
   - Standards: should comply with applicable laws and regulations
+- When starting an exploratory testing session: **`TORCH`** by [Simon Tomes](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit)
+  - Time: How much time will you put aside for this session?
+  - Oracles: Who or what will help you act on the information you discover? (see [oracles](/tools/oracles.md))
+  - Risks: What do you want to learn about? (see [charters](/tools/charters.md))
+  - Consider: What questions do you want to answer? (see **`WWWWWHEK`** mnemonic)
+  - Heuristics: What triggers will guide your session? (see [heuristics](/tools/heuristics.md))
+- When ending an exploratory testing session: **`PROOF`** by [Jon Bach](https://jonbox.wordpress.com/)
+  - Past: what was explored during the session (e.g. charter)
+  - Results: what was discovered
+  - Obstacles: what prevented better testing
+  - Outlooks: which product areas should be explored next
+  - Feelings: what emotions where felt during usage of the product
 - When exploring APIs:  **`ICE OVER MAD`** by [Ash Winter](https://testingisbelieving.blogspot.com/2013/11/johnny-mnemonic-iceovermad.html)
   - Integration: how will consumers use this service?
   - Consumers: who will use it -- humans or machines?
@@ -161,30 +180,6 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
   - Heuristics (e.g. top 10 Jakob Nielsen)
   - Instructions
   - Satisfaction
-- When starting an exploratory testing session: **`TORCH`** by [Simon Tomes](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit)
-  - Time: How much time will you put aside for this session?
-  - Oracles: Who or what will help you act on the information you discover? (see [oracles](/tools/oracles.md))
-  - Risks: What do you want to learn about? (see [charters](/tools/charters.md))
-  - Consider: What questions do you want to answer? (see **`5W1H`** mnemonic)
-  - Heuristics: What triggers will guide your session? (see [heuristics](/tools/heuristics.md))
-- When ending an exploratory testing session: **`PROOF`** by [Jon Bach](https://jonbox.wordpress.com/)
-  - Past: what was explored during the session (e.g. charter)
-  - Results: what was discovered
-  - Obstacles: what prevented better testing
-  - Outlooks: which product areas should be explored next
-  - Feelings: what emotions where felt during usage of the product
-- When learning to expand your knowledge on testing: **`SACKED SCOWS`** by [James Bach](https://testsidestory.com/2010/03/16/a-lesson-learned-from-james-bach/)
-  - Scouting obsessively: *I discover the sources and tools I will need*
-  - Authentic problems: *engage my mind*
-  - Cognitive savvy: *means working with the rhythms of my mind*
-  - Knowledge attracts knowledge: *the more I know, the easier I learn*
-  - Experimentation: *makes learning vivid and direct*
-  - Disposable time: *lets me try new things without regrets*
-  - Stories: *are how I make sense of things*
-  - Contrasting ideas: *leads to better ideas*
-  - Other minds: *exercise my thinking and identify my flaws*
-  - Words and pictures: *make a home for my thoughts*
-  - Systems thinking: *helps me tame complexity*
 
 ### Testability
 
@@ -199,6 +194,18 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
   - Intrinsic (aka. product): changing the system itself
   - Project: changing the conditions under which we test
   - Subjective (aka. tester): changing the tester or the test process
+- When expanding your knowledge on testing: **`SACKED SCOWS`** by [James Bach](https://testsidestory.com/2010/03/16/a-lesson-learned-from-james-bach/)
+  - Scouting obsessively: *I discover the sources and tools I will need*
+  - Authentic problems: *engage my mind*
+  - Cognitive savvy: *means working with the rhythms of my mind*
+  - Knowledge attracts knowledge: *the more I know, the easier I learn*
+  - Experimentation: *makes learning vivid and direct*
+  - Disposable time: *lets me try new things without regrets*
+  - Stories: *are how I make sense of things*
+  - Contrasting ideas: *leads to better ideas*
+  - Other minds: *exercise my thinking and identify my flaws*
+  - Words and pictures: *make a home for my thoughts*
+  - Systems thinking: *helps me tame complexity*
 
 ### Team
 
@@ -226,13 +233,6 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
   - Prioritisation
   - Tooling
   - Schedule
-- When writing a user story: **`INVEST`** by [Bill Wake](https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/)
-  - Independent: should be ready to start without waiting for another story
-  - Negotiable: should capture the goal and leave the implementation for debate
-  - Valuable: should deliver value to some stakeholder
-  - Estimable: should have an effort amount, so than it can be prioritised
-  - Small: should be achievable in one to three days
-  - Testable: otherwise how do you know you're done?
 
 ## Teachers
 
@@ -261,4 +261,3 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
 - [NoNeLaNe](https://watirmelon.blog/2019/10/14/now-next-later-never-improving-moscow/)
 - [INVEST](https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/)
 - [ICEOVERMAD](https://testingisbelieving.blogspot.com/2013/11/johnny-mnemonic-iceovermad.html)
-
