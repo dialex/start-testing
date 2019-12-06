@@ -20,7 +20,7 @@
     "lint:markdown": "markdownlint docs --config docs/.markdownlint.json",
     "lint:spelling": "mdspell 'docs/**/*.md' -r --en-gb --ignore-numbers --ignore-acronyms",
     "lint:broken-links-internal": "remark -u validate-links docs --ignore-path .remarkignore --frail",
-    "lint:broken-links-external": "node scripts/link-validator.js docs/**/*.md",
+    "lint:broken-links-external": "remark -u remark-lint-no-dead-urls docs --frail",
     "pr:prepare": "npm-run-all fix lint site",
     "pr:ready": "npm run bump:patch && npm run bump:time && git commit -m 'bump up version' .",
     "preview": "echo \"Opening a preview on your browser now.\" && sleep 1 && open http://localhost:3000/#/",
