@@ -44,6 +44,9 @@
     "remark-lint-no-dead-urls": "^0.4.1",
     "remark-validate-links": "^7.1.2"
   },
+  "dependencies": {
+    "npm-check-updates": "^3.2.2"
+  },
   "remarkConfig": {
     "plugins": [
       "remark-lint-no-dead-urls"
