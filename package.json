@@ -10,7 +10,7 @@
     "c": "npm run commit",
     "clean": "rm -r node_modules",
     "commit": "npx git-cz",
-    "ci": "npm run lint",
+    "ci": "npm-run-all lint:markdown lint:spelling",
     "fix": "npm-run-all fix:*",
     "fix:spelling": "mdspell 'docs/**/*.md' --en-gb --ignore-numbers --ignore-acronyms",
     "fix:ellipsis": "find docs -type f -name '*.md' | xargs sed -i '' 's/\\.\\.\\./…/g'",
