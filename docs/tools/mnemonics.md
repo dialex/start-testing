@@ -234,30 +234,26 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
   - Tooling
   - Schedule
 
-## Teachers
-
-- [XXX](YYY)
-
 ## Sources
 
-- [OOPSI](https://jennyjmar.com/2016/04/16/bdd-discovery-and-oopsi/)
-- [MIDTESTD](https://www.satisfice.com/download/heuristic-test-strategy-model)
-- [SACRED](https://youtu.be/z9m_yZMswOQ?t=56)
-- [SOCKS](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html)
-- [VIPS](https://www.satisfice.com/download/heuristics-of-software-testability)
-- [TORCH](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit)
-- [PARM](https://testguild.com/avoid-zombie-test-automation-essential-survival-guide/)
-- [SFDIPOT](https://www.satisfice.com/download/heuristic-test-strategy-model)
 - [CAN I USE THIS](https://martialtester.files.wordpress.com/2013/11/bsm_can-i-use-this-nov-2013.pdf)
-- SIPIFFI
-- [WWWWWHEK](http://www.bettertesting.co.uk/content/?p=857)
 - [CRUSSPIC STMPL](http://thetesteye.com/posters/TheTestEye_SoftwareQualityCharacteristics.pdf)
 - [FAILURE](https://www.questioningsoftware.com/2007/08/failure-usability.html)
-- [PROOF](https://jonbox.wordpress.com/)
 - [FEW HICCUPPS](https://www.developsense.com/blog/2010/05/transpection-transpected/)
-- [SACKED SCOWS](https://testsidestory.com/2010/03/16/a-lesson-learned-from-james-bach/)
-- [RIMGEA](https://searchsoftwarequality.techtarget.com/tip/Software-testing-is-improved-by-good-bug-reporting)
-- [RCRCRC](https://testandcode.com/38)
-- [NoNeLaNe](https://watirmelon.blog/2019/10/14/now-next-later-never-improving-moscow/)
-- [INVEST](https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/)
 - [ICEOVERMAD](https://testingisbelieving.blogspot.com/2013/11/johnny-mnemonic-iceovermad.html)
+- [INVEST](https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/)
+- [MIDTESTD](https://www.satisfice.com/download/heuristic-test-strategy-model)
+- [NoNeLaNe](https://watirmelon.blog/2019/10/14/now-next-later-never-improving-moscow/)
+- [OOPSI](https://jennyjmar.com/2016/04/16/bdd-discovery-and-oopsi/)
+- [PARM](https://testguild.com/avoid-zombie-test-automation-essential-survival-guide/)
+- [PROOF](https://jonbox.wordpress.com/)
+- [RCRCRC](https://testandcode.com/38)
+- [RIMGEA](https://searchsoftwarequality.techtarget.com/tip/Software-testing-is-improved-by-good-bug-reporting)
+- [SACKED SCOWS](https://testsidestory.com/2010/03/16/a-lesson-learned-from-james-bach/)
+- [SACRED](https://youtu.be/z9m_yZMswOQ?t=56)
+- [SFDIPOT](https://www.satisfice.com/download/heuristic-test-strategy-model)
+- SIPIFFI
+- [SOCKS](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html)
+- [TORCH](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit)
+- [VIPS](https://www.satisfice.com/download/heuristics-of-software-testability)
+- [WWWWWHEK](http://www.bettertesting.co.uk/content/?p=857)
