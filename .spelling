@@ -40,6 +40,22 @@ mockups
 ilities
 plugins
 async
+learnability
+emilsson
+it-bility
+deployability
+reusability
+alister
+simo
+cem
+kaner
+diogo
+nunes
+configs
+flakyness
+greenlees
+quinert
+lifecycle
  - docs/tools/note-taking.md
 udos
 deas
@@ -51,3 +67,8 @@ i
 ntrinsic
 roject
 ubjective
+ - docs/_template.md
+TITLE_HERE
+SUMMARY_HERE
+ - docs/tools/mnemonics.md
+NoNeLaNe

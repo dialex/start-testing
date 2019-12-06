@@ -6,7 +6,7 @@
 
 Are you looking for the official definition of testing? You won't like it. Fine, here it is:
 
-> The process consisting of all life cycle activities, both static and dynamic, concerned with planning, preparation and evaluation of software products and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects.
+> The process consisting of all lifecycle activities, both static and dynamic, concerned with planning, preparation and evaluation of software products and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects.
 >
 > — International Software Testing Qualifications Board [(ISTQB)](http://glossary.istqb.org/search/testing)
 
@@ -14,17 +14,17 @@ You just read 43 words in a single sentence. [Hemingway](http://www.hemingwayapp
 
 Quality is **value to some person, who matters**. A bug is anything that threatens quality. This simple definition shows how subjective quality really is. Here are a few other perspectives:
 
-- Aesthetic view: *Quality is emotive and simplicity.*
+- Aesthetic view: _Quality is emotive and simplicity._
   - ✔ Fosters excellence and pride in workmanship.
   - ✘ Can become a cloak for perfectionists.
-- Manufacturing view: *Quality is conformance to specifications.*
+- Manufacturing view: _Quality is conformance to specifications._
   - ✔ Fits the mindset of highly regulated contexts, e.g. health industry.
   - ✘ Can produce products that satisfy no one, besides the specification's author.
-- Customer view: *Quality is whatever satisfies the customer.*
+- Customer view: _Quality is whatever satisfies the customer._
   - ✔ Increases customer loyalty.
   - ✘ Can lead to eternal chasing of trends and competitors.
 
-Quality is a moving target — it adapts to its changing context (e.g. time, priorities, trends). Stakeholders will form a *perception* of the current quality based on their values, knowledge, skills and past experiences. Given the diversity of stakeholders, each will have a different perception of quality. That's one of the reasons why you cannot _assure quality_.
+Quality is a moving target — it adapts to its changing context (e.g. time, priorities, trends). Stakeholders will form a _perception_ of the current quality based on their values, knowledge, skills and past experiences. Given the diversity of stakeholders, each will have a different perception of quality. That's one of the reasons why you cannot _assure quality_.
 
 > Apple shipped the first version of Hypercard with about 500 known bugs in it, yet the product was a smashing success. The Hypercard QA team chose the right bugs to ship with. They also chose the right features.
 >
