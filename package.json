@@ -19,7 +19,7 @@
     "lint": "npm-run-all lint:*",
     "lint:markdown": "markdownlint docs --config docs/.markdownlint.json",
     "lint:spelling": "mdspell 'docs/**/*.md' -r --en-gb --ignore-numbers --ignore-acronyms",
-    "lint:broken-links-internal": "echo 'Skipping validation because \"remark validate-links\" returns false positives. (see https://github.com/dialex/start-testing/issues/54)'",
+    "lint:broken-links-internal": "remark -u validate-links docs --ignore-path .remarkignore --frail",
     "lint:broken-links-external": "node scripts/link-validator.js docs/**/*.md",
     "pr:prepare": "npm-run-all fix lint site",
     "pr:ready": "npm run bump:patch && npm run bump:time && git commit -m 'bump up version' .",
