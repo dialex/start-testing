@@ -17,7 +17,7 @@ These are the **main roles** that engage in breaking down a product into require
 - The *Stakeholder:* Anyone that has authority to influence the specification. They might have that power because: they will use it (users); they will maintain it (architects); they will help users (support); they are paying for it (client).
 - The *Product Owner* (PO): Discovers who are the relevant stakeholders. Gathers requirements from stakeholders. Takes decisions as a spokesman for all stakeholders.
 - The *Business Analyst* (BA): Improves the specification based on his/her experience and business context, without biasing it. Can act as Product Owner.
-- The *"three amigos"* are a PO/BA, a developer and a tester. Seems like the start of a joke, but it is really just a nickname for temporary subteam with those three roles.
+- The _"three amigos"_ are a PO/BA, a developer and a tester. Seems like the start of a joke, but it is really just a nickname for temporary subteam with those three roles.
 
 There are several **ways to write the specification** of a product, however there are two main approaches:
 

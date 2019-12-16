@@ -27,7 +27,7 @@ There are many tools and processes at your disposal. Alan Richardson lists a few
 - Diagram
 - Mind map
 
-As a starting point, you have the [Cornwell method](https://youtu.be/cfaZVfQgt0U?t=158), that requires a simple pen and paper. Draw a vertical line in a way that creates a sidebar with one third the width of the page. Use the bigger area to take notes and the sidebar to extract key findings from those notes. At the bottom of the page you can write a summary of the whole sheet. This is the *"vanilla"* flavour of the method — you are encouraged to add your own *"toppings"* to it! For example, Richard Bradshaw likes to [tag key findings with letters and icons](https://youtu.be/H0rFIQe4Chs).
+As a starting point, you have the [Cornwell method](https://youtu.be/cfaZVfQgt0U?t=158), that requires a simple pen and paper. Draw a vertical line in a way that creates a sidebar with one third the width of the page. Use the bigger area to take notes and the sidebar to extract key findings from those notes. At the bottom of the page you can write a summary of the whole sheet. This is the _"vanilla"_ flavour of the method — you are encouraged to add your own _"toppings"_ to it! For example, Richard Bradshaw likes to [tag key findings with letters and icons](https://youtu.be/H0rFIQe4Chs).
 
 ### 👩‍💼👨‍💼 Meetings
 
