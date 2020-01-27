@@ -29,6 +29,14 @@ This example heuristic is useful for demonstrating two other key characteristics
 
 
 
+> What’s a heuristic? Think of a heuristic as a rule of thumb that helps you make a decision about a problem you’re trying to solve. Heuristics are great for one you need to make a decision where there’s a whole lot of uncertainty and complexity and you don’t have all the time you want. Heuristics help simplify decision-making by providing patterns that can be useful in *some* situations, *some* times. That’s because its useful to treat heuristics with a certain amount of distrust.
+>
+> SFDIPOT is not necessarily useful for testing stories because it explores at wrong level of abstraction. Stories are not products, so trying to apply that type of coverage to a slice of a product can prove to be an ineffective method of identifying valuable story coverage.
+>
+> Heuristics can be really useful to us in testing. Sometimes they help us think of new ways to test, prompting us to ask new questions about the story (or the product) and the context in which we’re testing. But they can also bias us, channelling our ideas about testing into narrow ruts that over time make it hard to know any other route.
+>
+> https://mavericktester.com/2019/12/31/heuristics-sfdipot/
+
 ## Practice
 
 > Heuristics can work incredibly well in certain contexts when applied with thought and skill.
