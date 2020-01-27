@@ -66,6 +66,14 @@ https://katrinatester.blogspot.com/2014/09/heuristics-and-oracles.html
 
 
 
+> - “Have I performed enough ____?”
+> - “Has my ____ been good enough?”
+> - “Did my ____ cover everything it could?”
+>
+> Alan Richardson suggestes a few words to fill in the blanks: Questioning, Usage, Analysis, Exploration, Reasoning, Experimentation ([`QUAERE`](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html))
+
+
+
 See https://www.satisfice.com/download/heuristic-test-strategy-model
 
 
