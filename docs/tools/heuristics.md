@@ -37,6 +37,16 @@ This example heuristic is useful for demonstrating two other key characteristics
 >
 > https://mavericktester.com/2019/12/31/heuristics-sfdipot/
 
+
+
+> When I am instructed to test a software application there are a number of things that I know are worth trying. These are my test heuristics. Heuristics are simply experience-based techniques for problem solving, learning, and discovery.
+>
+> Every tester will have their own set of heuristics that guide their testing every day. These are innate and developed through experience.
+>
+> This insight into how others think allows me to introduce variety in my own approach. Instead of consistently finding the same sort of bugs, I broaden my horizons.
+
+https://katrinatester.blogspot.com/2014/09/heuristics-and-oracles.html
+
 ## Practice
 
 > Heuristics can work incredibly well in certain contexts when applied with thought and skill.
@@ -56,9 +66,15 @@ This example heuristic is useful for demonstrating two other key characteristics
 
 
 
+See https://www.satisfice.com/download/heuristic-test-strategy-model
+
+
+
 ## Teachers
 
 - [Name](#link)
+- James Bach
+- 
 
 ## Sources
 
