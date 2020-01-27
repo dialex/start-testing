@@ -78,13 +78,12 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
   - UI: Is the error message understandable by users?
   - Recovery: Does the message help users recover from the error? Can they contact support?
   - Emotions: What does a user feel when an error occurs? Does the error message ease or worsen that pain?
-- **When advocating a bug: `RIMGEA`** by [Cem Kaner](https://searchsoftwarequality.techtarget.com/tip/Software-testing-is-improved-by-good-bug-reporting)
-  - Replicate it
-  - Isolate it
-  - Maximise it
-  - Generalise it
-  - Externalize it
-  - And say it clearly and dispassionately
+- **When a bug is found: `REACT`** by [Brendan Connolly](http://www.brendanconnolly.net/react-to-bugs/)  (adapted from [**`RIMGEA`**](https://searchsoftwarequality.techtarget.com/tip/Software-testing-is-improved-by-good-bug-reporting))
+  - Reproduce
+  - Explore
+  - Analyse
+  - Communicate
+  - Triage
 
 ### 🤖 Automation
 
@@ -248,6 +247,7 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
 - [PARM](https://testguild.com/avoid-zombie-test-automation-essential-survival-guide/)
 - [PROOF](https://jonbox.wordpress.com/)
 - [RCRCRC](https://testandcode.com/38)
+- [REACT](http://www.brendanconnolly.net/react-to-bugs/)
 - [RIMGEA](https://searchsoftwarequality.techtarget.com/tip/Software-testing-is-improved-by-good-bug-reporting)
 - [SACKED SCOWS](https://testsidestory.com/2010/03/16/a-lesson-learned-from-james-bach/)
 - [SACRED](https://youtu.be/z9m_yZMswOQ?t=56)
