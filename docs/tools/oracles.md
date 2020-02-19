@@ -6,9 +6,9 @@
 
 There are a number of ways in which you can determine that you have discovered a defect in a software application. Those are your test oracles. Oracles are the mechanism by which you **recognise a problem**. They help you discover the real reason why you think there is a problem.
 
-Knowing your oracles means that you can **objectively explain** to developers and business stakeholders why the users of the software may agree that you have found a bug. This makes your [bug advocation](/roles/bug-hunter.md) more effective.
+Knowing your oracles means that you can **objectively explain** to developers and business stakeholders why the users of the software will agree that you have found a bug. This makes your [bug advocation](/roles/bug-hunter.md) more effective.
 
-In **oracle-based testing**, you compare the behaviour of the program under test to the behaviour of a source you consider accurate (an oracle). You constantly look for answers to: Is this behaviour correct? In the user expecting this? A tester who is familiar with the type of product under test will have no problem making these evaluations. However, a newcomer needs a reference for guidance — an oracle.
+In **oracle-based testing**, you compare the behaviour of the program under test to the behaviour of a source you consider accurate (an oracle). You constantly look for answers to: Is this behaviour correct? Is this what the user expects? A tester who is familiar with the type of product under test will have no problem making these evaluations. However, a newcomer needs a reference — an oracle.
 
 Some oracles lead you to other oracles, which allow you to extend your initial test strategy into areas you haven't thought about before. Keep in mind that each oracle **focus on a specific perspective**. If you limit yourself to a single oracle, it might bias your testing by giving you a narrow view of your context. That is why oracles are [heuristics](/tools/heuristics.md) — they are useful tools that help us make decisions, but sometimes they point us to the wrong decision.
 
