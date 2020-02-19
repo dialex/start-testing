@@ -1,21 +1,24 @@
 # Heuristics
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** SUMMARY_HERE a shortcut to make decisions or pick what to test
 
 ## Theory
 
 If [mnemonics]() act as "memory shortcuts", then heuristics are "decision shortcuts".
 
-> We use heuristics under conditions of uncertainty (...) to rapidly solve problems and make decisions. When you consider the vast number of decisions people make on a daily basis, it makes a lot of sense for our brains to use shortcuts to help us quickly assess the different options and decide. 
+> We use heuristics under conditions of uncertainty (...) to rapidly solve problems and make decisions. When you consider the number of decisions people make every day, it makes sense for our brains to use shortcuts to help us quickly assess the different options and decide. 
 >
 > -- [Richard Bradshaw and Sarah Deery](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
 
-Here is an example of a heuristics that you might recall from your student years: "I don't know the contents of the next exam, but the teacher already mentioned this subject three times, so it must be important."
+Here is an example of a heuristics that you might recall from your student years: "I don't know the contents of the next exam, but the teacher already mentioned this specific subject three times, so it must be important."
 
-This example heuristic is useful for demonstrating two other key characteristics of heuristics: 
+> This is useful to demonstrate two key characteristics of heuristics: 
+>
+> - **All heuristics are fallible**. Under the availability heuristic, people tend to make decisions based on more recent information that is quickly called to mind and the solution you remember easily might not be the optimal solution.
+> - **The unknowing use of any heuristic can lead to systematic errors in thinking known as biases**. Biases can have a detrimental impact on you and your testing. For example, under the availability heuristic, if you used a tool successfully in your last few projects, you might want to use it in the next even when there are more suitable tools available.
+>
 
-- **All heuristics are fallible**. Under the availability heuristic, people tend to make decisions based on more recent information that is quickly called to mind and the solution you remember easily might not be the optimal solution. 
-- **The unknowing use of any heuristic can lead to systematic errors in thinking known as biases**. Biases can have a detrimental impact on you and your testing. For example, under the availability heuristic, if you used a tool successfully in your last few projects, you might want to use it in the next even when there are more suitable tools available.
+
 
 > Despite their fallible nature and the potential biases they cause, heuristics are very useful. It may be impossible or impractical to find the optimal solution to a problem. In these circumstances, we can use heuristics to find solutions that are ‘good enough’ to achieve our immediate goal.
 >
@@ -37,15 +40,17 @@ This example heuristic is useful for demonstrating two other key characteristics
 >
 > https://mavericktester.com/2019/12/31/heuristics-sfdipot/
 
-
+You can also think of heuristics as test ideas, when you are in doubt about what to test, there are a number of things you can try. That's a shortcut to get you testing.
 
 > When I am instructed to test a software application there are a number of things that I know are worth trying. These are my test heuristics. Heuristics are simply experience-based techniques for problem solving, learning, and discovery.
 >
 > Every tester will have their own set of heuristics that guide their testing every day. These are innate and developed through experience.
 >
 > This insight into how others think allows me to introduce variety in my own approach. Instead of consistently finding the same sort of bugs, I broaden my horizons.
+>
+> https://katrinatester.blogspot.com/2014/09/heuristics-and-oracles.html
 
-https://katrinatester.blogspot.com/2014/09/heuristics-and-oracles.html
+Oracles are heuristics, because they inform your decisions. So are all heuristics are oracles too? No. There are heuristics, like the Goldilocks heuristic, that only give you ideas or hints about what to test.
 
 ## Practice
 
@@ -75,8 +80,6 @@ https://katrinatester.blogspot.com/2014/09/heuristics-and-oracles.html
 
 
 See https://www.satisfice.com/download/heuristic-test-strategy-model
-
-
 
 ## Teachers
 
