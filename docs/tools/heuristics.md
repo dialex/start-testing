@@ -54,6 +54,11 @@ You can also think of heuristics as test ideas, when you are in doubt about what
 
 Oracles are heuristics, because they inform your decisions. So are all heuristics are oracles too? No. There are heuristics, like the Goldilocks heuristic, that only give you ideas or hints about what to test.
 
+> Either way, reliance on an oracle can lead you to the wrong conclusion.
+> A decision rule that is useful but not always correct is called a heuristic.
+>
+> FROM: http://kaner.com/?p=190
+
 ## Practice
 
 > Heuristics can work incredibly well in certain contexts when applied with thought and skill.
