@@ -71,6 +71,22 @@ Oracles are heuristics, because they inform your decisions. So are all heuristic
 
 
 
+>  checklist of heuristics and test ideas
+>
+> http://testobsessed.com/wp-content/uploads/2011/04/testheuristicscheatsheetv1.pdf
+
+
+
+> - Diversify your actions -- e.g. try a smaller resolution, use keyboard shortcuts
+> - Diversify your test data -- e.g. pick a diff user, generate random data
+> - Diversify your oracles -- e.g. show what you found to a diff stakeholder
+> - Diversify who is doing the testing -- e.g. rotate perspectives and expectations
+> - Diversify your test environment -- e.g. use a diff machine or OS, test in production
+>
+> [link](https://mavericktester.com/2018/03/20/2018-3-20-how-to-avoid-being-fooled-in-software-testing/)
+
+
+
 > - “Have I performed enough ____?”
 > - “Has my ____ been good enough?”
 > - “Did my ____ cover everything it could?”
