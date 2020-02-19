@@ -30,7 +30,7 @@ Use the [mnemonic](/tools/mnemonics.md) `FEW HICCUPS` to remember these oracles:
   - _e.g. our beta testers were not sure what button X would do if clicked_
 - **World**: How does it plug into what already exists in the world?
   - _e.g. our product can be used as a tool to carry DoS attacks on other websites_
-- **History**: Is the new version coherent is the older ones?
+- **History**: Is the new version coherent with the older ones?
   - _e.g. feature X existed in the previous version and now it's gone_
 - **Image**: Does it match the brand? Does it affect the reputation?
   - _e.g. colours don't match the company guidelines_
