@@ -10,6 +10,8 @@ If [mnemonics]() act as "memory shortcuts", then heuristics are "decision shortc
 >
 > -- [Richard Bradshaw and Sarah Deery](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
 
+These strategies shorten the time to make decisions and allow people to function without stopping to think about their next course of action. 
+
 Here is an example of a heuristics that you might recall from your student years: "I don't know the contents of the next exam, but the teacher already mentioned this specific subject three times, so it must be important."
 
 > This is useful to demonstrate two key characteristics of heuristics: 
@@ -85,7 +87,15 @@ Oracles are heuristics, because they inform your decisions. So are all heuristic
 >
 > [link](https://mavericktester.com/2018/03/20/2018-3-20-how-to-avoid-being-fooled-in-software-testing/)
 
-
+> **Find Importants Problem Fast** - Testing should be optimised to find important problems fast, rather than attempting to find all problems with equal urgency.
+>
+> **Maximise Diversity** - No single view of techniques will reveal all the problems in software. Diversification minimises the risk that the strategy will be blind to certain kinds of problems.
+>
+> ? Consider your [stakeholders]() - Other teams and stakeholders will have information about the product about pain points, bugs, problems and many more. Their perspective will help the tester to get a more complete view and make better analysis of what they are testing.
+>
+> ? Minimise text - When writing test cases, avoid long winded and unnecessary text. Do not state the obvious, do not be too detailed as no one will read for too long. Any text that is too long will reduce the likelihood that it will be read. 
+>
+> https://thelifeofoneman.com/the-main-test-heuristics-to-consider
 
 > - “Have I performed enough ____?”
 > - “Has my ____ been good enough?”
