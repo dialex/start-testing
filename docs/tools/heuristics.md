@@ -112,6 +112,16 @@ See https://www.satisfice.com/download/heuristic-test-strategy-model
 
 ### Bias
 
+> Bias is an irrational judgement or subconcious inference made from the data available to us. In testing, biases have the effect of causing you to miss or focus too much on a specific behaviour or data.
+>
+> e.g. when you miss something in one area of the application because you are focused on another point (inattentional blindness)
+>
+> Ignoring biases can affect your perception of the product you are testing. It may lead to gaps in your testing which could let bugs slip through.
+>
+> Being concious of biases allows us to attempt to prevent them from negatively impacting our testing. We can also use biases to focus on specific testing activities and ignore distractions.
+>
+> https://www.ministryoftesting.com/dojo/lessons/99-second-introduction-to-biases-in-testing
+
 > **Problem 1: Too much information.**
 >
 > *There is just too much information in the world, we have no choice but to filter almost all of it out. Our brain uses a few simple tricks to pick out the bits of information that are most likely going to be useful in some way.*
