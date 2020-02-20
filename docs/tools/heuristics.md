@@ -4,33 +4,24 @@
 
 ## Theory
 
-If [mnemonics]() act as "memory shortcuts", then heuristics are "decision shortcuts".
+If [mnemonics]() act as "memory shortcuts", then heuristics are "decision shortcuts". These mechanisms allow people to function without spending too much to thinking about their next action.
 
-> We use heuristics under conditions of uncertainty (...) to rapidly solve problems and make decisions. When you consider the number of decisions people make every day, it makes sense for our brains to use shortcuts to help us quickly assess the different options and decide. 
+> We use heuristics under conditions of uncertainty (...) to rapidly solve problems or make decisions. When you consider the number of decisions people make every day, it makes sense for our brains to use shortcuts to help us quickly assess the different options and decide. 
 >
 > -- [Richard Bradshaw and Sarah Deery](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
 
-These strategies shorten the time to make decisions and allow people to function without stopping to think about their next course of action. 
+Expressions like "rule of thumb", "educated guess", or "intuition" are all examples of humans using heuristics. So consider this rule of thumb, one that you might recall from your student years: *"I don't know the contents of the next exam, but the teacher already mentioned this specific subject three times, so it must be important."*
 
-Here is an example of a heuristics that you might recall from your student years: "I don't know the contents of the next exam, but the teacher already mentioned this specific subject three times, so it must be important."
+This example of heuristic is useful to demonstrate two key limitations:
 
-> This is useful to demonstrate two key characteristics of heuristics: 
->
-> - **All heuristics are fallible**. Under the availability heuristic, people tend to make decisions based on more recent information that is quickly called to mind and the solution you remember easily might not be the optimal solution.
-> - **The unknowing use of any heuristic can lead to systematic errors in thinking known as biases**. Biases can have a detrimental impact on you and your testing. For example, under the availability heuristic, if you used a tool successfully in your last few projects, you might want to use it in the next even when there are more suitable tools available.
->
+- **All heuristics are fallible.** They simplify our context by assuming what is uncertain and ignoring what is contradictory or irrelevant. Given this incomplete context our decisions will be fallible, but there are situations where acting is more important than precision -- and that's when heuristics are useful.
+- **All heuristics can turn to biases.** Prolongued usage of the same heuristics have a negative impact on you and your testing. Without awareness for bias, you will eventually miss or misinterpret information, which create gaps in your testing.
 
+> Despite their fallible nature and the potential biases they cause, heuristics are very useful (...) to find solutions that are "good enough" (...) in scenarios where it's impractical to find the optimal solution to a problem.
+>
+> -- [Richard Bradshaw and Sarah Deery](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
 
-
-> Despite their fallible nature and the potential biases they cause, heuristics are very useful. It may be impossible or impractical to find the optimal solution to a problem. In these circumstances, we can use heuristics to find solutions that are ‘good enough’ to achieve our immediate goal.
->
-> The use and development of heuristics are considered to be innate. Some are believed to be “hard-coded” into our brains, serving as adaptive survival mechanisms. 
->
-> Humans employ and develop them every day whenever we quickly make judgments or reach decisions without using all information or computational abilities available to us. Some examples of everyday heuristic techniques that you may recognise are using a rule of thumb, making an educated guess, or following your intuition. Without such heuristics, we’d be unable to function effectively; everyday decisions and judgments would require an exhaustive cost-benefit analysis.
->
-> The degree to which we use certain heuristics changes based on our experiences, abilities and skills. This highlights another important aspect of heuristics; we naturally tend to develop and use heuristics in contexts where we have experience of them being successful and avoid using heuristics that have been less successful.
->
-> If we have an understanding of common heuristics, the potential biases they cause and have experience of using them in various contexts, we can knowingly and wisely choose the most appropriate heuristic to solve our immediate problem.
+As with any other tool, it's important that you understand the advantages and limitations of heuristics, so that you can wisely choose when and which heuristics to apply in your context.
 
 
 
