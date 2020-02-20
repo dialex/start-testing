@@ -23,6 +23,15 @@ This example of heuristic is useful to demonstrate two key limitations:
 
 As with any other tool, it's important that you understand the advantages and limitations of heuristics, so that you can wisely choose when and which heuristics to apply in your context.
 
+> Reliance on an oracle can lead you to the wrong conclusion.
+> A decision rule that is useful but not always correct is called a heuristic.
+>
+> -- [Cem Kaner](http://kaner.com/?p=190)
+
+Oracles are considered heuristics, however not all heuristics are oracles: "**`FEW HICCUPS`**" is an oracle because it tells you how to decide if something is right or wrong; the "Goldilocks" is not because it only gives you hints about what to test.
+
+### Test ideas
+
 
 
 > What’s a heuristic? Think of a heuristic as a rule of thumb that helps you make a decision about a problem you’re trying to solve. Heuristics are great for one you need to make a decision where there’s a whole lot of uncertainty and complexity and you don’t have all the time you want. Heuristics help simplify decision-making by providing patterns that can be useful in *some* situations, *some* times. That’s because its useful to treat heuristics with a certain amount of distrust.
@@ -42,13 +51,6 @@ You can also think of heuristics as test ideas, when you are in doubt about what
 > This insight into how others think allows me to introduce variety in my own approach. Instead of consistently finding the same sort of bugs, I broaden my horizons.
 >
 > https://katrinatester.blogspot.com/2014/09/heuristics-and-oracles.html
-
-Oracles are heuristics, because they inform your decisions. So are all heuristics are oracles too? No. There are heuristics, like the Goldilocks heuristic, that only give you ideas or hints about what to test.
-
-> Either way, reliance on an oracle can lead you to the wrong conclusion.
-> A decision rule that is useful but not always correct is called a heuristic.
->
-> FROM: http://kaner.com/?p=190
 
 ## Practice
 
