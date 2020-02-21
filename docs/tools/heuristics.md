@@ -21,6 +21,10 @@ This example of heuristic is useful to demonstrate two key limitations:
 >
 > -- [Richard Bradshaw and Sarah Deery](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
 
+> Heuristics provide patterns that can be useful in *some* situations, *some* times. (...) It's useful to treat heuristics with a certain amount of distrust.
+>
+> -- [Anne-Marie Charrett](https://mavericktester.com/2019/12/31/heuristics-sfdipot/)
+
 As with any other tool, it's important that you understand the advantages and limitations of heuristics, so that you can wisely choose when and which heuristics to apply in your context.
 
 > Reliance on an oracle can lead you to the wrong conclusion.
@@ -28,29 +32,13 @@ As with any other tool, it's important that you understand the advantages and li
 >
 > -- [Cem Kaner](http://kaner.com/?p=190)
 
-Oracles are considered heuristics, however not all heuristics are oracles: "**`FEW HICCUPS`**" is an oracle because it tells you how to decide if something is right or wrong; the "Goldilocks" is not because it only gives you hints about what to test.
+Oracles are considered heuristics, however not all heuristics are oracles: [**`FEW HICCUPS`**](/tools/mnemonics.md) heuristic is an oracle because it tells you how to decide if something is right or wrong; the Goldilocks heuristic is not because it only gives you hints about what to test.
 
-### Test ideas
+> When I test a software application there are a number of things that I know are worth trying. These are my test heuristics. Heuristics are simply experience-based techniques for problem solving and discovery.
+>
+> -- [Katrina Clokie](https://katrinatester.blogspot.com/2014/09/heuristics-and-oracles.html)
 
-
-
-> What’s a heuristic? Think of a heuristic as a rule of thumb that helps you make a decision about a problem you’re trying to solve. Heuristics are great for one you need to make a decision where there’s a whole lot of uncertainty and complexity and you don’t have all the time you want. Heuristics help simplify decision-making by providing patterns that can be useful in *some* situations, *some* times. That’s because its useful to treat heuristics with a certain amount of distrust.
->
-> SFDIPOT is not necessarily useful for testing stories because it explores at wrong level of abstraction. Stories are not products, so trying to apply that type of coverage to a slice of a product can prove to be an ineffective method of identifying valuable story coverage.
->
-> Heuristics can be really useful to us in testing. Sometimes they help us think of new ways to test, prompting us to ask new questions about the story (or the product) and the context in which we’re testing. But they can also bias us, channelling our ideas about testing into narrow ruts that over time make it hard to know any other route.
->
-> https://mavericktester.com/2019/12/31/heuristics-sfdipot/
-
-You can also think of heuristics as test ideas, when you are in doubt about what to test, there are a number of things you can try. That's a shortcut to get you testing.
-
-> When I am instructed to test a software application there are a number of things that I know are worth trying. These are my test heuristics. Heuristics are simply experience-based techniques for problem solving, learning, and discovery.
->
-> Every tester will have their own set of heuristics that guide their testing every day. These are innate and developed through experience.
->
-> This insight into how others think allows me to introduce variety in my own approach. Instead of consistently finding the same sort of bugs, I broaden my horizons.
->
-> https://katrinatester.blogspot.com/2014/09/heuristics-and-oracles.html
+When you have doubts about what to test next, there are a number of heuristics you can use to generate new test ideas. With time and experience you will developed your own set of test heuristics.
 
 ## Practice
 
@@ -214,3 +202,4 @@ See https://www.satisfice.com/download/heuristic-test-strategy-model
 ## Sources
 
 - [Software Testing Heuristics: Mind The Gap!](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
+- [Heuristics and Oracles](https://katrinatester.blogspot.com/2014/09/heuristics-and-oracles.html)
