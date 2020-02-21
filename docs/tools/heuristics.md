@@ -1,6 +1,6 @@
 # Heuristics
 
-> **tl;dr** SUMMARY_HERE a shortcut to make decisions or pick what to test
+> **tl;dr** Heuristics are shortcuts to make decisions or pick what to test next.
 
 ## Theory
 
