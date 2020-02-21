@@ -57,21 +57,23 @@ When you have doubts about what to test next, there are a number of heuristics y
 > Once you’ve learnt all about heuristics, it’s time to practice applying them in different contexts. Importantly, you should reflect upon their efficacy; what worked, what didn’t and why. If a heuristic is not working for you, try another, modify it or make your own.
 >
 
-
-
 >  checklist of heuristics and test ideas
 >
 > http://testobsessed.com/wp-content/uploads/2011/04/testheuristicscheatsheetv1.pdf
 
+In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https://mavericktester.com/2018/03/20/2018-3-20-how-to-avoid-being-fooled-in-software-testing/) recommends that you:
 
+- Diversify your actions -- e.g. try a smaller resolution, use keyboard shortcuts
+- Diversify your test data -- e.g. pick a diff user, generate random data
+- Diversify your oracles -- e.g. show what you found to a diff stakeholder
+- Diversify who is doing the testing -- e.g. rotate perspectives and expectations
+- Diversify your test environment -- e.g. use a diff machine or OS, test in production
 
-> - Diversify your actions -- e.g. try a smaller resolution, use keyboard shortcuts
-> - Diversify your test data -- e.g. pick a diff user, generate random data
-> - Diversify your oracles -- e.g. show what you found to a diff stakeholder
-> - Diversify who is doing the testing -- e.g. rotate perspectives and expectations
-> - Diversify your test environment -- e.g. use a diff machine or OS, test in production
->
-> [link](https://mavericktester.com/2018/03/20/2018-3-20-how-to-avoid-being-fooled-in-software-testing/)
+[Alan Richardson](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html) challenges your amount of testing with the next three questions. He also suggests a few words to fill in the blanks: Questioning, Usage, Analysis, Exploration, Reasoning, Experimentation ([`QUAERE`](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html))
+
+- “Have I performed enough ____?”
+- “Has my ____ been good enough?”
+- “Did my ____ cover everything it could?”
 
 > **Find Importants Problem Fast** - Testing should be optimised to find important problems fast, rather than attempting to find all problems with equal urgency.
 >
@@ -83,13 +85,7 @@ When you have doubts about what to test next, there are a number of heuristics y
 >
 > https://thelifeofoneman.com/the-main-test-heuristics-to-consider
 
-> - “Have I performed enough ____?”
-> - “Has my ____ been good enough?”
-> - “Did my ____ cover everything it could?”
->
-> Alan Richardson suggestes a few words to fill in the blanks: Questioning, Usage, Analysis, Exploration, Reasoning, Experimentation ([`QUAERE`](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html))
-
-See https://www.satisfice.com/download/heuristic-test-strategy-model
+> See https://www.satisfice.com/download/heuristic-test-strategy-model
 
 ### Bias
 
