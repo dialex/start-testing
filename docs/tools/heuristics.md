@@ -42,10 +42,10 @@ When you have doubts about what to test next, there are a number of heuristics y
 
 ## Practice
 
-> Heuristics can work incredibly well in certain contexts when applied with thought and skill.
->
-> As testers, we frequently come across heuristics in the form of checklists, mnemonics and cheat sheets. They may sometimes be referred to as oracles or models. No matter what they're called or the form you get them in, if they serve as cognitive shortcuts that help us to solve problems or make decisions, they’re heuristics.
->
+You will frequently come across heuristics in the form of checklists, mnemonics, cheat sheets, oracles or models. If they serve as cognitive shortcuts that help us to solve problems or make decisions, they’re heuristics.
+
+
+
 > - Boundary testing. We are all familiar with the story of [Goldilocks and the Three Bears](https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears), and the Goldilocks heuristic focuses on the concept of “too big, too small and just right”. 
 >
 >   When considering the Goldilocks heuristic, testers could think about data entry fields and try testing with data entries that are too big, too small and with entries that are more “typical” for that field and context. For example, you could try entering data into a currency field with a googol, a negative number and a more typical number for your product.
@@ -54,8 +54,25 @@ When you have doubts about what to test next, there are a number of heuristics y
 >
 > - [FEW HICCUPPS](http://www.developsense.com/blog/2012/07/few-hiccupps/). These oracles focus on consistency criteria, for example, your product should be consistent with History: “We expect the present version of the system to be consistent with past versions of it.”
 >
-> Once you’ve learnt all about heuristics, it’s time to practice applying them in different contexts. Importantly, you should reflect upon their efficacy; what worked, what didn’t and why. If a heuristic is not working for you, try another, modify it or make your own.
+> Once you learn all about heuristics, it’s time to practice and apply them in different contexts.
+
+
+
+> When using heuristics you should reflect (...) what worked, what didn’t and why. If a heuristic is not working for you, try another, modify it or make your own.
 >
+> -- [Richard Bradshaw and Sarah Deery](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
+
+
+
+> **Find Important Problem Fast** - Testing should be optimised to find important problems fast, rather than attempting to find all problems with equal urgency.
+>
+> **Maximise Diversity** - No single view of techniques will reveal all the problems in software. Diversification minimises the risk that the strategy will be blind to certain kinds of problems.
+>
+> ? Consider your [stakeholders]() - Other teams and stakeholders will have information about the product about pain points, bugs, problems and many more. Their perspective will help the tester to get a more complete view and make better analysis of what they are testing.
+>
+> ? Minimise text - When writing test cases, avoid long winded and unnecessary text. Do not state the obvious, do not be too detailed as no one will read for too long. Any text that is too long will reduce the likelihood that it will be read. 
+>
+> https://thelifeofoneman.com/the-main-test-heuristics-to-consider
 
 >  checklist of heuristics and test ideas
 >
@@ -71,19 +88,9 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 
 [Alan Richardson](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html) challenges your amount of testing with the next three questions. He also suggests a few words to fill in the blanks: Questioning, Usage, Analysis, Exploration, Reasoning, Experimentation ([`QUAERE`](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html))
 
-- “Have I performed enough ____?”
-- “Has my ____ been good enough?”
-- “Did my ____ cover everything it could?”
-
-> **Find Importants Problem Fast** - Testing should be optimised to find important problems fast, rather than attempting to find all problems with equal urgency.
->
-> **Maximise Diversity** - No single view of techniques will reveal all the problems in software. Diversification minimises the risk that the strategy will be blind to certain kinds of problems.
->
-> ? Consider your [stakeholders]() - Other teams and stakeholders will have information about the product about pain points, bugs, problems and many more. Their perspective will help the tester to get a more complete view and make better analysis of what they are testing.
->
-> ? Minimise text - When writing test cases, avoid long winded and unnecessary text. Do not state the obvious, do not be too detailed as no one will read for too long. Any text that is too long will reduce the likelihood that it will be read. 
->
-> https://thelifeofoneman.com/the-main-test-heuristics-to-consider
+- "Have I performed enough ____?"
+- "Has my ____ been good enough?"
+- "Did my ____ cover everything it could?"
 
 > See https://www.satisfice.com/download/heuristic-test-strategy-model
 
