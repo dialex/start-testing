@@ -44,13 +44,13 @@ When you have doubts about what to test next, there are a number of heuristics y
 
 You will frequently come across heuristics in the form of checklists, cheat sheets, mnemonics, oracles or models. If they serve as cognitive shortcuts to solve problems or make decisions, they're heuristics.
 
-### Test ideas
+### 💡 Test ideas
 
 There's a big number of heuristics you can use to generate test ideas. [Elisabeth Hendrickson](http://testobsessed.com/wp-content/uploads/2011/04/testheuristicscheatsheetv1.pdf) compiled a cheat sheet with the most common. One of the simplest is the Goldilocks heuristic (named after the [bedtime story](https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears)), which focuses on the concept of “too big", "too small", "just right”.
 
 > Let's say you want to test a new field that collects the age of a user. Inspired by the Goldilocks heuristic, you can observe the behaviour of that field when you type a value that is too big (`999`), too small (`-1`), and just right (`30`).
 
-
+[James Bach](https://www.satisfice.com/download/heuristic-test-strategy-model)'s Heuristic Test Strategy Model (HSTM) contains more tips on how to test your product, enviroment and non-functional requirements.
 
 
 
@@ -75,7 +75,9 @@ There's a big number of heuristics you can use to generate test ideas. [Elisabet
 >
 > https://thelifeofoneman.com/the-main-test-heuristics-to-consider
 
->  
+
+
+### 🕶 Bias
 
 In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https://mavericktester.com/2018/03/20/2018-3-20-how-to-avoid-being-fooled-in-software-testing/) recommends that you:
 
@@ -93,7 +95,7 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 
 > See https://www.satisfice.com/download/heuristic-test-strategy-model
 
-### Bias
+### 
 
 > Bias is an irrational judgement or subconcious inference made from the data available to us. In testing, biases have the effect of causing you to miss or focus too much on a specific behaviour or data.
 >
