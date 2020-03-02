@@ -42,21 +42,22 @@ When you have doubts about what to test next, there are a number of heuristics y
 
 ## Practice
 
-You will frequently come across heuristics in the form of checklists, mnemonics, cheat sheets, oracles or models. If they serve as cognitive shortcuts that help us to solve problems or make decisions, they’re heuristics.
+You will frequently come across heuristics in the form of checklists, cheat sheets, mnemonics, oracles or models. If they serve as cognitive shortcuts to solve problems or make decisions, they're heuristics.
+
+### Test ideas
+
+There's a big number of heuristics you can use to generate test ideas. [Elisabeth Hendrickson](http://testobsessed.com/wp-content/uploads/2011/04/testheuristicscheatsheetv1.pdf) compiled a cheat sheet with the most common. One of the simplest is the Goldilocks heuristic (named after the [bedtime story](https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears)), which focuses on the concept of “too big", "too small", "just right”.
+
+> Let's say you want to test a new field that collects the age of a user. Inspired by the Goldilocks heuristic, you can observe the behaviour of that field when you type a value that is too big (`999`), too small (`-1`), and just right (`30`).
 
 
 
-> - Boundary testing. We are all familiar with the story of [Goldilocks and the Three Bears](https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears), and the Goldilocks heuristic focuses on the concept of “too big, too small and just right”. 
->
->   When considering the Goldilocks heuristic, testers could think about data entry fields and try testing with data entries that are too big, too small and with entries that are more “typical” for that field and context. For example, you could try entering data into a currency field with a googol, a negative number and a more typical number for your product.
->
-> - [RCRCRC](http://karennicolejohnson.com/wp-content/uploads/2012/11/KNJohnson-2012-heuristics-mnemonics.pdf) 
->
-> - [FEW HICCUPPS](http://www.developsense.com/blog/2012/07/few-hiccupps/). These oracles focus on consistency criteria, for example, your product should be consistent with History: “We expect the present version of the system to be consistent with past versions of it.”
->
+
+
+- [`RCRCRC`](/tools/mnemonics?id=%f0%9f%a4%96-automation): when looking for bugs, start with code that was recently changed
+- [`FEW HICCUPPS`](/tools/mnemonics?id=%e2%9b%ba%ef%b8%8f-exploration): explore the concept of consistency
+
 > Once you learn all about heuristics, it’s time to practice and apply them in different contexts.
-
-
 
 > When using heuristics you should reflect (...) what worked, what didn’t and why. If a heuristic is not working for you, try another, modify it or make your own.
 >
@@ -74,9 +75,7 @@ You will frequently come across heuristics in the form of checklists, mnemonics,
 >
 > https://thelifeofoneman.com/the-main-test-heuristics-to-consider
 
->  checklist of heuristics and test ideas
->
-> http://testobsessed.com/wp-content/uploads/2011/04/testheuristicscheatsheetv1.pdf
+>  
 
 In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https://mavericktester.com/2018/03/20/2018-3-20-how-to-avoid-being-fooled-in-software-testing/) recommends that you:
 
