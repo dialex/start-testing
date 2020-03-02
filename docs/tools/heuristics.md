@@ -4,7 +4,7 @@
 
 ## Theory
 
-If [mnemonics]() act as "memory shortcuts", then heuristics are "decision shortcuts". These mechanisms allow people to function without spending too much to thinking about their next action.
+If [mnemonics](/tools/mnemonics) act as "memory shortcuts", then heuristics are "decision shortcuts". These mechanisms allow people to function without spending too much to thinking about their next action.
 
 > We use heuristics under conditions of uncertainty (...) to rapidly solve problems or make decisions. When you consider the number of decisions people make every day, it makes sense for our brains to use shortcuts to help us quickly assess the different options and decide. 
 >
@@ -44,24 +44,21 @@ When you have doubts about what to test next, there are a number of heuristics y
 
 You will frequently come across heuristics in the form of checklists, cheat sheets, mnemonics, oracles or models. If they serve as cognitive shortcuts to solve problems or make decisions, they're heuristics.
 
+> Once you learn about heuristics, it’s time to practice them in different contexts. (...) When using heuristics you should reflect what worked, what didn’t and why. If a heuristic is not working for you, try another, modify it or make your own.
+>
+> -- [Richard Bradshaw and Sarah Deery](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
+
 ### 💡 Test ideas
 
 There's a big number of heuristics you can use to generate test ideas. [Elisabeth Hendrickson](http://testobsessed.com/wp-content/uploads/2011/04/testheuristicscheatsheetv1.pdf) compiled a cheat sheet with the most common. One of the simplest is the Goldilocks heuristic (named after the [bedtime story](https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears)), which focuses on the concept of “too big", "too small", "just right”.
 
 > Let's say you want to test a new field that collects the age of a user. Inspired by the Goldilocks heuristic, you can observe the behaviour of that field when you type a value that is too big (`999`), too small (`-1`), and just right (`30`).
 
-[James Bach](https://www.satisfice.com/download/heuristic-test-strategy-model)'s Heuristic Test Strategy Model (HSTM) contains more tips on how to test your product, enviroment and non-functional requirements.
+[James Bach](https://www.satisfice.com/download/heuristic-test-strategy-model)'s Heuristic Test Strategy Model (HSTM) contains more tips on how to explore your product ([**`SFDIPOT`**](/tools/mnemonics?id=⛺%ef%b8%8f-exploration)) and its non-functional properties ([**`CRUCSPIC STMP`**](/tools/mnemonics?id=%f0%9f%92%a1-product)).
+
+This presentation from [Karen Johnson](http://karennicolejohnson.com/wp-content/uploads/2012/11/KNJohnson-2012-heuristics-mnemonics.pdf) demonstrates how you can use heuristics like [**`RCRCRC`**](/tools/mnemonics?id=🤖-automation) (ideas about what to check on regression testing) or [**`FEW HICCUPPS`**](/tools/mnemonics?id=⛺%ef%b8%8f-exploration) (oracles focused on consistency) in practice. To discover other mnemonics, check this [cheat sheet](/tools/mnemonics).
 
 
-
-- [`RCRCRC`](/tools/mnemonics?id=%f0%9f%a4%96-automation): when looking for bugs, start with code that was recently changed
-- [`FEW HICCUPPS`](/tools/mnemonics?id=%e2%9b%ba%ef%b8%8f-exploration): explore the concept of consistency
-
-> Once you learn all about heuristics, it’s time to practice and apply them in different contexts.
-
-> When using heuristics you should reflect (...) what worked, what didn’t and why. If a heuristic is not working for you, try another, modify it or make your own.
->
-> -- [Richard Bradshaw and Sarah Deery](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
 
 
 
