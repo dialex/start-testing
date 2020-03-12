@@ -60,7 +60,17 @@ This presentation from [Karen Johnson](http://karennicolejohnson.com/wp-content/
 
 Given the time you have to test is limited, you might want to prioritise your testing by "finding important problems first" and "maximising diversity". These and [other heuristics](https://thelifeofoneman.com/the-main-test-heuristics-to-consider) allow you to focus on using different techniques to reveal different types of critical problems.
 
-### 🕶 Bias
+### 🕶 Biases
+
+> Bias is an irrational judgement or subconcious inference made from (historical) data available to us.
+>
+> In testing, biases cause you to miss or focus too much on a specific behaviour or data.
+>
+> -- [99 second intro to biases in testing](https://www.ministryoftesting.com/dojo/lessons/99-second-introduction-to-biases-in-testing)
+
+For example, when you miss something because you are too focused on another thing, that's a form of bias called "inattentional blindness". To see this in practice, put yourself to the test with ["The Monkey Business Illusion"](https://youtu.be/IGQmdoK_ZfY).
+
+There are many more biases that limit or weaken your testing. When you are concious of these biases you can minimise their negative impact in your testing. Otherwise biases create gaps in your testing which give bugs an opportunity to go unnoticed until it's too late.
 
 In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https://mavericktester.com/2018/03/20/2018-3-20-how-to-avoid-being-fooled-in-software-testing/) recommends that you:
 
@@ -75,18 +85,6 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 - "Have I performed enough ____?"
 - "Has my ____ been good enough?"
 - "Did my ____ cover everything it could?"
-
-### 
-
-> Bias is an irrational judgement or subconcious inference made from the data available to us. In testing, biases have the effect of causing you to miss or focus too much on a specific behaviour or data.
->
-> e.g. when you miss something in one area of the application because you are focused on another point (inattentional blindness)
->
-> Ignoring biases can affect your perception of the product you are testing. It may lead to gaps in your testing which could let bugs slip through.
->
-> Being concious of biases allows us to attempt to prevent them from negatively impacting our testing. We can also use biases to focus on specific testing activities and ignore distractions.
->
-> https://www.ministryoftesting.com/dojo/lessons/99-second-introduction-to-biases-in-testing
 
 > The knowledge that you have gathered becomes natural to you. You forget what it was like *not* knowing this. You go from “consciously competent” to “[unconsciously competent](https://en.wikipedia.org/wiki/Four_stages_of_competence)”, so you have a harder time explaining the thing to somebody else. It just seems so self-evident by now, so you have to dig deeper and think harder to find the right words.
 >
