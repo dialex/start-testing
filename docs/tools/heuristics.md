@@ -58,21 +58,7 @@ There's a big number of heuristics you can use to generate test ideas. [Elisabet
 
 This presentation from [Karen Johnson](http://karennicolejohnson.com/wp-content/uploads/2012/11/KNJohnson-2012-heuristics-mnemonics.pdf) demonstrates how you can use heuristics like [**`RCRCRC`**](/tools/mnemonics?id=🤖-automation) (ideas about what to check on regression testing) or [**`FEW HICCUPPS`**](/tools/mnemonics?id=⛺%ef%b8%8f-exploration) (oracles focused on consistency) in practice. To discover other mnemonics, check this [cheat sheet](/tools/mnemonics).
 
-
-
-
-
-> **Find Important Problem Fast** - Testing should be optimised to find important problems fast, rather than attempting to find all problems with equal urgency.
->
-> **Maximise Diversity** - No single view of techniques will reveal all the problems in software. Diversification minimises the risk that the strategy will be blind to certain kinds of problems.
->
-> ? Consider your [stakeholders]() - Other teams and stakeholders will have information about the product about pain points, bugs, problems and many more. Their perspective will help the tester to get a more complete view and make better analysis of what they are testing.
->
-> ? Minimise text - When writing test cases, avoid long winded and unnecessary text. Do not state the obvious, do not be too detailed as no one will read for too long. Any text that is too long will reduce the likelihood that it will be read. 
->
-> https://thelifeofoneman.com/the-main-test-heuristics-to-consider
-
-
+Given the time you have to test is limited, you might want to prioritise your testing by "finding important problems first" and "maximising diversity". These and [other heuristics](https://thelifeofoneman.com/the-main-test-heuristics-to-consider) allow you to focus on using different techniques to reveal different types of critical problems.
 
 ### 🕶 Bias
 
@@ -89,8 +75,6 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 - "Have I performed enough ____?"
 - "Has my ____ been good enough?"
 - "Did my ____ cover everything it could?"
-
-> See https://www.satisfice.com/download/heuristic-test-strategy-model
 
 ### 
 
