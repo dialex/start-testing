@@ -6,11 +6,11 @@
 
 If [mnemonics](/tools/mnemonics) act as "memory shortcuts", then heuristics are "decision shortcuts". These mechanisms allow people to function without spending too much to thinking about their next action.
 
-> We use heuristics under conditions of uncertainty (...) to rapidly solve problems or make decisions. When you consider the number of decisions people make every day, it makes sense for our brains to use shortcuts to help us quickly assess the different options and decide. 
+> We use heuristics under conditions of uncertainty (...) to rapidly solve problems or make decisions. When you consider the number of decisions people make every day, it makes sense for our brains to use shortcuts to help us quickly assess the different options and decide.
 >
 > -- [Richard Bradshaw and Sarah Deery](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
 
-Expressions like "rule of thumb", "educated guess", or "intuition" are all examples of humans using heuristics. So consider this rule of thumb, one that you might recall from your student years: *"I don't know the contents of the next exam, but the teacher already mentioned this specific subject three times, so it must be important."*
+Expressions like "rule of thumb", "educated guess", or "intuition" are all examples of humans using heuristics. So consider this rule of thumb, one that you might recall from your student years: _"I don't know the contents of the next exam, but the teacher already mentioned this specific subject three times, so it must be important."_
 
 This example of heuristic is useful to demonstrate two key limitations:
 
@@ -21,7 +21,7 @@ This example of heuristic is useful to demonstrate two key limitations:
 >
 > -- [Richard Bradshaw and Sarah Deery](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
 
-> Heuristics provide patterns that can be useful in *some* situations, *some* times. (...) It's useful to treat heuristics with a certain amount of distrust.
+> Heuristics provide patterns that can be useful in _some_ situations, _some_ times. (...) It's useful to treat heuristics with a certain amount of distrust.
 >
 > -- [Anne-Marie Charrett](https://mavericktester.com/2019/12/31/heuristics-sfdipot/)
 
@@ -82,38 +82,36 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 
 [Alan Richardson](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html) challenges your amount of testing with the next three questions. He also suggests a few words to fill in the blanks: Questioning, Usage, Analysis, Exploration, Reasoning, Experimentation ([`QUAERE`](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html))
 
-- "Have I performed enough ____?"
-- "Has my ____ been good enough?"
-- "Did my ____ cover everything it could?"
+- "Have I performed enough \_\_\_\_?"
+- "Has my \_\_\_\_ been good enough?"
+- "Did my \_\_\_\_ cover everything it could?"
 
 [Tom Bartel](https://www.tombartel.me/blog/are-you-suffering-from-curse-of-knowledge/) describes a bias he calls the "curse of knowledge":
 
-> The knowledge that you have gathered becomes natural to you. You become “unconsciously competent”, so you have a harder time explaining it to somebody else. A warning sign is when you start your sentences with *“As we all know, …“* or *“I probably don’t need to explain that…“*
+> The knowledge that you have gathered becomes natural to you. You become “unconsciously competent”, so you have a harder time explaining it to somebody else. A warning sign is when you start your sentences with _“As we all know, …“_ or _“I probably don’t need to explain that…“_
 >
 > This is how you create unsafe environments.
 
 [Buster Benson](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18#.486tj1s6j) did an amazing job at collecting, explaining and summarising the most common biases that affect us. Here's a brief (or [visual](https://upload.wikimedia.org/wikipedia/commons/a/a4/The_Cognitive_Bias_Codex_-_180%2B_biases%2C_designed_by_John_Manoogian_III_%28jm3%29.png)) summary of the four groups of biases.
 
 > - **Too much information** -- Our brain uses a few tricks to pick out the bits of info that are most likely going to be useful in some way. Examples:
->    - We are drawn to details that confirm our own existing beliefs. 
->     - We notice flaws in others more easily than flaws in ourselves.
->    - Repetition, changes in patterns, funny, or bizarre things grab our attention.
+>   - We are drawn to details that confirm our own existing beliefs.
+>   - We notice flaws in others more easily than flaws in ourselves.
+>   - Repetition, changes in patterns, funny, or bizarre things grab our attention.
 > - **Not enough meaning** -- The world is very confusing. We connect the dots, fill in the gaps with stuff we already think we know. Examples:
->   - We find stories and patterns even in sparse data. 
->   - We imagine things and people we’re familiar with as better. 
+>   - We find stories and patterns even in sparse data.
+>   - We imagine things and people we’re familiar with as better.
 >   - We think we know what others are thinking.
 > - **Need to act fast** -- We’re constrained by time and information, yet we can’t let that paralyze us. Examples:
-> - We favor the immediate, relatable thing in front of us over the delayed and distant. 
->   
-> - We’re motivated to complete things that we’ve already invested time and energy in. 
->   
-> - We prefer to preserve our status in a group, and to avoid irreversible decisions.  
+> - We favor the immediate, relatable thing in front of us over the delayed and distant.
+>
+> - We’re motivated to complete things that we’ve already invested time and energy in.
+>
+> - We prefer to preserve our status in a group, and to avoid irreversible decisions.
 >
 > - **Not enought memory** -- We keep what is most likely to prove useful in the future. Examples:
 >   - We discard specifics to form generalities.
 >   - We store memories differently based on how they were experienced.
->
-
 
 ## Teachers
 
