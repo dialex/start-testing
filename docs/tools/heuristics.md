@@ -117,10 +117,19 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 
 ## Teachers
 
-- [Name](#link)
+- Alan Richardson
+- Dan Ashby
 - James Bach
+- Richard Bradshaw
 
 ## Sources
 
 - [Software Testing Heuristics: Mind The Gap!](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
 - [Heuristics and Oracles](https://katrinatester.blogspot.com/2014/09/heuristics-and-oracles.html)
+- [Heuristic Test Strategy Model](https://www.satisfice.com/download/heuristic-test-strategy-model)
+- [Software Testing Heuristics & Mnemonics](http://karennicolejohnson.com/wp-content/uploads/2012/11/KNJohnson-2012-heuristics-mnemonics.pdf)
+- [99 Second Introduction to Biases in Testing](https://www.ministryoftesting.com/dojo/lessons/99-second-introduction-to-biases-in-testing)
+- [How to avoid being fooled in software testing](https://mavericktester.com/2018/03/20/2018-3-20-how-to-avoid-being-fooled-in-software-testing/)
+- [Quaere, Heuristics, Mnemonics, and Acronyms](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html)
+- [Are You Suffering From the Curse of Knowledge?](https://www.tombartel.me/blog/are-you-suffering-from-curse-of-knowledge/)
+- [Cognitive bias cheat sheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18#.486tj1s6j)
