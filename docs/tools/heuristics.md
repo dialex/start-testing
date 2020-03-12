@@ -94,22 +94,19 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 
 [Buster Benson](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18#.486tj1s6j) did an amazing job at collecting, explaining and summarising the most common biases that affect us. Here's a brief (or [visual](https://upload.wikimedia.org/wikipedia/commons/a/a4/The_Cognitive_Bias_Codex_-_180%2B_biases%2C_designed_by_John_Manoogian_III_%28jm3%29.png)) summary of the four groups of biases.
 
-> - **Too much information** — Our brain uses a few tricks to pick out the bits of info that are most likely going to be useful in some way. Examples:
+> - **Too much information** — Our brain uses a few tricks to pick out the bits of info that are most likely going to be useful in some way.
 >   - We are drawn to details that confirm our own existing beliefs.
 >   - We notice flaws in others more easily than flaws in ourselves.
 >   - Repetition, changes in patterns, funny, or bizarre things grab our attention.
-> - **Not enough meaning** — The world is very confusing. We connect the dots, fill in the gaps with stuff we already think we know. Examples:
+> - **Not enough meaning** — The world is very confusing. We connect the dots, fill in the gaps with stuff we already think we know.
 >   - We find stories and patterns even in sparse data.
 >   - We imagine things and people we're familiar with as better.
 >   - We think we know what others are thinking.
-> - **Need to act fast** — We're constrained by time and information, yet we can't let that paralyse us. Examples:
-> - We favour the immediate, relatable thing in front of us over the delayed and distant.
->
-> - We're motivated to complete things that we've already invested time and energy in.
->
-> - We prefer to preserve our status in a group, and to avoid irreversible decisions.
->
-> - **Not enough memory** — We keep what is most likely to prove useful in the future. Examples:
+> - **Need to act fast** — We're constrained by time and information, yet we can't let that paralyse us.
+>   - We favour the immediate, relatable thing in front of us over the delayed and distant.
+>   - We're motivated to complete things that we've already invested time and energy in.
+>   - We prefer to preserve our status in a group, and to avoid irreversible decisions.
+> - **Not enough memory** — We keep what is most likely to prove useful in the future.
 >   - We discard specifics to form generalities.
 >   - We store memories differently based on how they were experienced.
 
