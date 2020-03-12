@@ -112,10 +112,10 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 
 ## Teachers
 
-- Alan Richardson
-- Dan Ashby
-- James Bach
-- Richard Bradshaw
+- [Alan Richardson](https://www.eviltester.com/)
+- [Dan Ashby](https://danashby.co.uk/)
+- [James Bach](https://www.satisfice.com/)
+- [Richard Bradshaw](https://thefriendlytester.co.uk/)
 
 ## Sources
 
