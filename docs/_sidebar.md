@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD041 -->
 <!-- markdownlint-disable MD032 MD033 -->
 
-<ul style="text-align: center;">🚧work in progress 🚧</ul>
+<ul style="text-align: center;">🚧 work in progress 🚧</ul>
 
 - [**Home**](/)
 - **Concepts**
@@ -12,14 +12,14 @@
   - [Requirements](/concepts/requirements.md)
   - [Testability](/concepts/testability.md)
 - **Toolbox**
+  - [Note-taking](/tools/note-taking.md)
+  - [Heuristics](/tools/heuristics.md)
   - [Mnemonics](/tools/mnemonics.md)
   - [Charters](/tools/charters.md)
   - [Oracles](/tools/oracles.md)
-  - [Note-taking](/tools/note-taking.md)
   - ~~Test strategy~~
   - ~~Test methodologies~~
   - ~~Test pyramid~~
-  - ~~Heuristics~~
   - ~~Tools~~
 - **Test types**
   - ~~Functional vs Non-functional~~
