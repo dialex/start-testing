@@ -55,7 +55,7 @@ So you might be asking **how can testers add value to this process?**
 - **Think again**. The more you know, more assumptions you make and more casual you are when testing. Fresh eyes find failure, so stay sharp.
 - **Don't be fooled**. Question requirements and extract their value/usefulness. Be aware of echo chambers.
 
-> It’s easier to fool people than to convince them that they have been fooled.
+> It's easier to fool people than to convince them that they have been fooled.
 >
 > — Mark Twain
 
@@ -71,7 +71,7 @@ So you might be asking **how can testers add value to this process?**
 - [Definition of user story](https://www.mountaingoatsoftware.com/agile/user-stories)
 - [Story Mapping, Visual Way of Building Product Backlog](https://www.thoughtworks.com/insights/blog/story-mapping-visual-way-building-product-backlog)
 - [The New User Story Backlog is a Map](https://jpattonassociates.com/the-new-backlog/)
-- [User Journeys – The Beginner’s Guide](https://theuxreview.co.uk/user-journeys-beginners-guide/)
+- [User Journeys – The Beginner's Guide](https://theuxreview.co.uk/user-journeys-beginners-guide/)
 - [Introducing Example Mapping](https://medium.com/@mattwynne/introducing-example-mapping-42ccd15f8adf)
 - [What is Specification by Example?](https://blog.red-badger.com/blog/2012/07/31/what-is-specification-by-example)
 - [Writing more effective requirements](https://thelifeofoneman.com/writing-more-effective-requirements)

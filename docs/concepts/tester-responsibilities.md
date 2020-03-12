@@ -31,7 +31,7 @@ If you want an (almost) exhaustive list of responsibilities and activities, this
 
 ### 🐞 Bug detector
 
-> The tester does not “break the product”. The tester finds a product that is already broken.
+> The tester does not "break the product". The tester finds a product that is already broken.
 >
 > — ["The life of one man"](https://thelifeofoneman.com/the-role-of-the-tester)
 
@@ -129,7 +129,7 @@ A good tester should be meticulous, curious, creative, determined and mindful of
 - [Am I really a valuable member of my team?](https://testingfromthehip.wordpress.com/2016/01/08/am-i-really-a-valuable-member-of-my-team/)
 - [The role of the tester](https://thelifeofoneman.com/the-role-of-the-tester)
 - [Ten Misconceptions About Software Testing That Non-Testers Share](https://dojo.ministryoftesting.com/dojo/lessons/ten-misconceptions-about-software-testing-that-non-testers-share)
-- [What’s the difference between a good test and a bad test?](https://dojo.ministryoftesting.com/dojo/lessons/designing-tests-what-s-the-difference-between-a-good-test-and-a-bad-test)
+- [What's the difference between a good test and a bad test?](https://dojo.ministryoftesting.com/dojo/lessons/designing-tests-what-s-the-difference-between-a-good-test-and-a-bad-test)
 - [How To Think Like a Software Tester](https://thelifeofoneman.com/think-like-software-tester)
 - [What testers find](http://www.satisfice.com/blog/archives/572)
 - [Testers: Get Out of the Quality Assurance Business](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/)
