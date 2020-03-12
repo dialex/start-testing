@@ -86,17 +86,11 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 - "Has my ____ been good enough?"
 - "Did my ____ cover everything it could?"
 
-[Tom Bartel](https://www.tombartel.me//blog/are-you-suffering-from-curse-of-knowledge/) describes a bias he calls the "curse of knowledge":
+[Tom Bartel](https://www.tombartel.me/blog/are-you-suffering-from-curse-of-knowledge/) describes a bias he calls the "curse of knowledge":
 
 > The knowledge that you have gathered becomes natural to you. You become “unconsciously competent”, so you have a harder time explaining it to somebody else. A warning sign is when you start your sentences with *“As we all know, …“* or *“I probably don’t need to explain that…“*
 >
 > This is how you create unsafe environments.
-
-He shares a curious advice:
-
-> What most people are not aware of is that the "I-only-just-learned-this" perspective is an asset, not a liability. It gives you a unique advantage over more experienced experts, because they cannot remember any more what it was like *not* knowing.
->
-> It will make your explanations clearer and more accessible, and the audience will thank you for it.
 
 
 
