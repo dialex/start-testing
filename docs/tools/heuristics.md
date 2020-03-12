@@ -86,38 +86,17 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 - "Has my ____ been good enough?"
 - "Did my ____ cover everything it could?"
 
-> The knowledge that you have gathered becomes natural to you. You forget what it was like *not* knowing this. You go from “consciously competent” to “[unconsciously competent](https://en.wikipedia.org/wiki/Four_stages_of_competence)”, so you have a harder time explaining the thing to somebody else. It just seems so self-evident by now, so you have to dig deeper and think harder to find the right words.
+[Tom Bartel](https://www.tombartel.me//blog/are-you-suffering-from-curse-of-knowledge/) describes a bias he calls the "curse of knowledge":
+
+> The knowledge that you have gathered becomes natural to you. You become “unconsciously competent”, so you have a harder time explaining it to somebody else. A warning sign is when you start your sentences with *“As we all know, …“* or *“I probably don’t need to explain that…“*
 >
-> This is the curse of knowledge at work: The longer you have the knowledge, the less you are aware of it, and the more difficult it becomes to pass it on.
->
-> - *“As we all know, …“*
-> - *“You probably know that…“*
-> - *“I’m sure you’re all aware that…“*
-> - *“I probably don’t need to explain that…“*
->
-> Are you still going to ask this question? No, you’ll ask it in a smaller circle some time later, or try to find out from the project’s documentation. And if *this* question has been subtly labelled as “stupid” by the presenter, maybe it’s safer not to ask *any* questions during this presentation at all, right? After all, the audience seems so damn smart that *most* questions must appear stupid.
->
-> This is how you create psychologically unsafe environments.
->
-> Imposter syndrome:
->
-> > *“Whew, thank God I finally figured this out. I bet everyone around me knew this already. I’ll better act like I have known that for a long time, as has everyone else.”*
->
-> So, instead of teaching others what you have learned, you assume everyone already has that knowledge — which, in a lot of cases, they don’t.
->
-> 
->
-> If you want to remain aware how complex something you built actually is, a project diary can help. A Google doc or something similar is just fine.
->
-> Whenever you make a difficult decision, or whenever you face multiple options, describe the situation in your project diary. 
->
-> Finally, let’s consider people’s frequent reaction when asked to speak at an event: “Nah, I don’t think I’m proficient enough yet. I better improve my skills and knowledge a bit more before I put myself in front of an audience.”
->
-> What most people are not aware of is that the I-only-just-learned-this perspective is an asset, not a liability. It gives you a unique advantage over more experienced experts, because they cannot remember any more what it was like *not* knowing.
+> This is how you create unsafe environments.
+
+He shares a curious advice:
+
+> What most people are not aware of is that the "I-only-just-learned-this" perspective is an asset, not a liability. It gives you a unique advantage over more experienced experts, because they cannot remember any more what it was like *not* knowing.
 >
 > It will make your explanations clearer and more accessible, and the audience will thank you for it.
->
-> https://www.tombartel.me//blog/are-you-suffering-from-curse-of-knowledge/
 
 
 
