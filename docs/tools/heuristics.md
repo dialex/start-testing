@@ -92,62 +92,27 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 >
 > This is how you create unsafe environments.
 
+[Buster Benson](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18#.486tj1s6j) did an amazing job at collecting, explaining and summarising the most common biases that affect us. Here's a brief (or [visual](https://upload.wikimedia.org/wikipedia/commons/a/a4/The_Cognitive_Bias_Codex_-_180%2B_biases%2C_designed_by_John_Manoogian_III_%28jm3%29.png)) summary of the four groups of biases.
 
-
-> **Problem 1: Too much information.**
+> - **Too much information** -- Our brain uses a few tricks to pick out the bits of info that are most likely going to be useful in some way. Examples:
+>    - We are drawn to details that confirm our own existing beliefs. 
+>     - We notice flaws in others more easily than flaws in ourselves.
+>    - Repetition, changes in patterns, funny, or bizarre things grab our attention.
+> - **Not enough meaning** -- The world is very confusing. We connect the dots, fill in the gaps with stuff we already think we know. Examples:
+>   - We find stories and patterns even in sparse data. 
+>   - We imagine things and people we’re familiar with as better. 
+>   - We think we know what others are thinking.
+> - **Need to act fast** -- We’re constrained by time and information, yet we can’t let that paralyze us. Examples:
+> - We favor the immediate, relatable thing in front of us over the delayed and distant. 
+>   
+> - We’re motivated to complete things that we’ve already invested time and energy in. 
+>   
+> - We prefer to preserve our status in a group, and to avoid irreversible decisions.  
 >
-> *There is just too much information in the world, we have no choice but to filter almost all of it out. Our brain uses a few simple tricks to pick out the bits of information that are most likely going to be useful in some way.*
+> - **Not enought memory** -- We keep what is most likely to prove useful in the future. Examples:
+>   - We discard specifics to form generalities.
+>   - We store memories differently based on how they were experienced.
 >
-> - We notice things that are already primed in memory or repeated often.
-> - Funny or visually-striking things stick out more than non-bizarre/unfunny things.
-> - We notice when something has changed. 
-> - We are drawn to details that confirm our own existing beliefs. 
-> - We notice flaws in others more easily than flaws in ourselves.
->
-> **Problem 2: Not enough meaning.**
->
-> *The world is very confusing, and we end up only seeing a tiny sliver of it, but we need to make some sense of it in order to survive. Once the reduced stream of information comes in, we connect the dots, fill in the gaps with stuff we already think we know, and update our mental models of the world.*
->
-> - We find stories and patterns even in sparse data. 
-> - We fill in characteristics from stereotypes, generalities, and prior histories whenever there are new specific instances or gaps in information.
-> - We imagine things and people we’re familiar with or fond of as better than things and people we aren’t familiar with or fond of. 
-> - We simplify probabilities and numbers to make them easier to think about. 
-> - We think we know what others are thinking.
-> - We project our current mindset and assumptions onto the past and future. 
-> 
-> **Problem 3: Need to act fast.**
-> 
-> *We’re constrained by time and information, and yet we can’t let that paralyze us. Without the ability to act fast in the face of uncertainty, we surely would have perished as a species long ago. With every piece of new information, we need to do our best to assess our ability to affect the situation, apply it to decisions, simulate the future to predict what might happen next, and otherwise act on our new insight.*
-> 
-> - In order to act, we need to be confident in our ability to make an impact and to feel like what we do is important. 
->- In order to stay focused, we favor the immediate, relatable thing in front of us over the delayed and distant. 
-> - In order to get anything done, we’re motivated to complete things that we’ve already invested time and energy in. 
->- In order to avoid mistakes, we’re motivated to preserve our autonomy and status in a group, and to avoid irreversible decisions. 
-> - We favor options that appear simple or that have more complete information over more complex, ambiguous options. 
->
-> **Problem 4: What should we remember?**
->
-> *There’s too much information in the universe. We can only afford to keep around the bits that are most likely to prove useful in the future. We need to make constant bets and trade-offs around what we try to remember and what we forget. For example, we prefer generalizations over specifics because they take up less space. When there are lots of irreducible details, we pick out a few standout items to save and discard the rest. What we save here is what is most likely to inform our filters related to problem 1’s information overload, as well as inform what comes to mind during the processes mentioned in problem 2 around filling in incomplete information. It’s all self-reinforcing.*
-> 
-> - We edit and reinforce some memories after the fact.
-> - We discard specifics to form generalities.
-> - We reduce events and lists to their key elements.
-> - We store memories differently based on how they were experienced. 
-> 
-> ---------
-> 
-> 1. Information overload sucks, so we aggressively filter.
->   *Noise becomes signal.*
-> 2. Lack of meaning is confusing, so we fill in the gaps.
->   *Signal becomes a story.*
-> 3. Need to act fast lest we lose our chance, so we jump to conclusions.
->   *Stories become decisions.*
-> 4. This isn’t getting easier, so we try to remember the important bits.
->   *Decisions inform our mental models of the world.*
-> 
-> [in depth explanation of each bias type](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18#.486tj1s6j)
-> 
-> [cognitive bias codex](https://upload.wikimedia.org/wikipedia/commons/a/a4/The_Cognitive_Bias_Codex_-_180%2B_biases%2C_designed_by_John_Manoogian_III_%28jm3%29.png)
 
 
 ## Teachers
