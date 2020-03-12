@@ -52,7 +52,7 @@ Note taking is also useful to reduce rambling during meetings. Share your screen
 
 [Exploratory testing](/roles/exploratory-tester.md) is composed of three main phases: setup, explore, debrief. If you apply your note-taking skills during the explore phase, the debrief becomes much easier and insightful.
 
-> As I explore I take notes like I'm creating a story for someone else to read, taking them through my process and thoughts. Sometimes it feels more natural to *tell* what you’re doing. The *show* comes alive with screenshots, GIFs and video.
+> As I explore I take notes like I'm creating a story for someone else to read, taking them through my process and thoughts. Sometimes it feels more natural to *tell* what you're doing. The *show* comes alive with screenshots, GIFs and video.
 >
 > — [Simon Tomes](https://www.qeek.co/blog/a-handy-note-taking-template-for-exploratory-testing)
 

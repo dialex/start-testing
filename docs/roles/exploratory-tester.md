@@ -8,9 +8,9 @@
 >
 > Exploratory testing is learning. Learning what is and what might be. Learning about our perception of the world, what's in front of us and how that influences the choices we make. It's learning together to build better products. It's creating an environment that enables a continuous "testing is learning" loop.
 >
-> The [following template](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit?usp=sharing) provides triggers for an exploratory testing session. It's a way for you to experiment with your own structure. To help you tell a testing story – whether debriefing in real-time or asynchronously. I’ve had success with this template. It satisfies two audiences: One that just needs a summary and another who loves detail.
+> The [following template](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit?usp=sharing) provides triggers for an exploratory testing session. It's a way for you to experiment with your own structure. To help you tell a testing story – whether debriefing in real-time or asynchronously. I've had success with this template. It satisfies two audiences: One that just needs a summary and another who loves detail.
 >
-> I take notes like I'm creating a story for someone else to read. This includes a bit of show and tell. Great storytelling uses show more than tell. Sometimes it feels more natural to *tell* your notes what you’re doing. The *show* comes alive with screenshots, GIFs and video.
+> I take notes like I'm creating a story for someone else to read. This includes a bit of show and tell. Great storytelling uses show more than tell. Sometimes it feels more natural to *tell* your notes what you're doing. The *show* comes alive with screenshots, GIFs and video.
 >
 > As I explore I write notes imagining I'm taking someone through my actual process, steps and thoughts. Imagine saying it out loud and just type. ‪You can always edit later.
 
@@ -22,9 +22,9 @@
 >
 > Exploratory testing is learning. Learning what is and what might be. Learning about our perception of the world, what's in front of us and how that influences the choices we make. It's learning together to build better products. It's creating an environment that enables a continuous "testing is learning" loop.
 >
-> The [following template](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit?usp=sharing) provides triggers for an exploratory testing session. It's a way for you to experiment with your own structure. To help you tell a testing story – whether debriefing in real-time or asynchronously. I’ve had success with this template. It satisfies two audiences: One that just needs a summary and another who loves detail.
+> The [following template](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit?usp=sharing) provides triggers for an exploratory testing session. It's a way for you to experiment with your own structure. To help you tell a testing story – whether debriefing in real-time or asynchronously. I've had success with this template. It satisfies two audiences: One that just needs a summary and another who loves detail.
 >
-> I take notes like I'm creating a story for someone else to read. This includes a bit of show and tell. Great storytelling uses show more than tell. Sometimes it feels more natural to *tell* your notes what you’re doing. The *show* comes alive with screenshots, GIFs and video.
+> I take notes like I'm creating a story for someone else to read. This includes a bit of show and tell. Great storytelling uses show more than tell. Sometimes it feels more natural to *tell* your notes what you're doing. The *show* comes alive with screenshots, GIFs and video.
 >
 > As I explore I write notes imagining I'm taking someone through my actual process, steps and thoughts. Imagine saying it out loud and just type. ‪You can always edit later.
 >
@@ -51,7 +51,7 @@ I group discoveries into four categories: Issues, Questions, Ideas and Praise (P
 
 #### Bring PROOF
 
-In addition to walking through the session sheet, we use an agenda summarized by the acronym “PROOF”:
+In addition to walking through the session sheet, we use an agenda summarized by the acronym "PROOF":
 
 - Past: What happened during the session?
 - Results: What was achieved during the session?
