@@ -6,6 +6,22 @@
 
 
 
+### Black box testing
+
+> This is a “box” that takes some input and gives you some output. You don’t know what’s going on inside. Because we don’t have a direct knowledge or control over what’s inside we can only try to interact with it and observe the behavior.
+>
+> As we gather our observations, we also need some evaluation rule(s) to make a judgment – is there a potential problem? ORACLES
+>
+> Note that a perception of a problem will be different for different people. Therefore testing, being a service, must not rely solely on the testers’ perception of the problem. QUALITY DEF
+>
+> -- http://automation-beyond.com/2016/08/30/on-white-box-and-black-box-testing/
+
+### White box testing
+
+> We see the code. We can read it. We can infer what it’s supposed to do. We can mentally execute it and identify possible issues. The code is in a transparent “box”. Or a “glass” box. Which, eventually, to contrast it with Black Box testing, became a White Box testing term, albeit slightly misleading in this form.
+>
+> -- http://automation-beyond.com/2016/08/30/on-white-box-and-black-box-testing/
+
 ### Acceptance test
 
 > QA and Business analysts should take the stories chosen during the planning meeting, and turn them into automated acceptance tests. Programmers use the acceptance tests as requirements. They read those tests to find out what their stories are *really* supposed to do.
