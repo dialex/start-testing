@@ -46,6 +46,16 @@
 >
 > -- https://thelifeofoneman.com/how-to-write-acceptance-criteria
 
+### BDD
+
+> If you look up anything around BDD, you’re likely to find conversation, collaboration, scenarios and examples at its core, together with suggestions for how to automate them. If you look further, you’ll find Three Amigos and Outside-In and the Given / When / Then syntax and Cucumber and Selenium and JBehave and Capybara and SpecFlow and a host of other tools.
+>
+> define BDD, I say something like, “Using examples in conversation to illustrate behaviour.”
+>
+> -- https://lizkeogh.com/2015/03/27/what-is-bdd/
+
+
+
 ### Unit vs Acceptance
 
 > recommended by the Agile disciplines. Unit tests, which are written by programmers, for programmers, in a programming language. And acceptance tests, which are written by business people (and QA), for business people, in a high level specification language
