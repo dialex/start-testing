@@ -46,14 +46,6 @@
 >
 > -- https://thelifeofoneman.com/how-to-write-acceptance-criteria
 
-### BDD
-
-> If you look up anything around BDD, you’re likely to find conversation, collaboration, scenarios and examples at its core, together with suggestions for how to automate them. If you look further, you’ll find Three Amigos and Outside-In and the Given / When / Then syntax and Cucumber and Selenium and JBehave and Capybara and SpecFlow and a host of other tools.
->
-> define BDD, I say something like, “Using examples in conversation to illustrate behaviour.”
->
-> -- https://lizkeogh.com/2015/03/27/what-is-bdd/
-
 
 
 ### Unit vs Acceptance
@@ -78,6 +70,30 @@
 >
 > -- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
 
+> Lots of people started working *outside-in*, from the UIs through which users experienced the system’s behaviour, to the controllers, the domain models, the utility classes, services, repositories, etc., until they finally had working software that tended to matter more to the stakeholders of the project than software had before.
+>
+> -- https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/
+
+### BDD
+
+> If you look up anything around BDD, you’re likely to find conversation, collaboration, scenarios and examples at its core, together with suggestions for how to automate them. If you look further, you’ll find Three Amigos and Outside-In and the Given / When / Then syntax and Cucumber and Selenium and JBehave and Capybara and SpecFlow and a host of other tools.
+>
+> define BDD, I say something like, “Using examples in conversation to illustrate behaviour.”
+>
+> -- https://lizkeogh.com/2015/03/27/what-is-bdd/
+
+> a mechanism for describing the behaviour of code and providing examples, without using the word “test”, because it turned out that this clarified a lot of the confusion.
+>
+> -- https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/
+
+### ATDD vs BDD
+
+> the biggest difference between BDD and ATDD was the way in which BDD enabled a common language between users and business stakeholders. Nowadays, is mainly wording. The difference is that one is called Behaviour Driven Development – and some people find that wording useful – and one (or two) is called (Acceptance) Test Driven Development – and some people find that wording useful in a different way.
+>
+> ### And that’s it.
+>
+> -- https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/
+
 ## Practice
 
 ### Acceptance tests
@@ -99,7 +115,8 @@
 
 ## Teachers
 
-- [XXX](YYY)
+- Dan North
+- Liz Keogh
 
 ## Sources
 
