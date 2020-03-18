@@ -6,61 +6,9 @@
 
 
 
-### Black box testing
+### TDD
 
-> This is a “box” that takes some input and gives you some output. You don’t know what’s going on inside. Because we don’t have a direct knowledge or control over what’s inside we can only try to interact with it and observe the behavior.
->
-> As we gather our observations, we also need some evaluation rule(s) to make a judgment – is there a potential problem? ORACLES
->
-> Note that a perception of a problem will be different for different people. Therefore testing, being a service, must not rely solely on the testers’ perception of the problem. QUALITY DEF
->
-> -- http://automation-beyond.com/2016/08/30/on-white-box-and-black-box-testing/
-
-### White box testing
-
-> We see the code. We can read it. We can infer what it’s supposed to do. We can mentally execute it and identify possible issues. The code is in a transparent “box”. Or a “glass” box. Which, eventually, to contrast it with Black Box testing, became a White Box testing term, albeit slightly misleading in this form.
->
-> -- http://automation-beyond.com/2016/08/30/on-white-box-and-black-box-testing/
-
-### Acceptance test
-
-> Acceptance Criteria are conditions which a software application should satisfy to be accepted by a user or customer. Often these can also be used to guide the testing for a testing team. If the acceptance criteria are met, then the story has passed. The thing is - *acceptance criteria has its limitations.*
->
-> -- https://nickytests.blogspot.com/2017/05/the-limitations-of-acceptance-criteria.html
-
-> QA and Business analysts should take the stories chosen during the planning meeting, and turn them into automated acceptance tests. Programmers use the acceptance tests as requirements. They read those tests to find out what their stories are *really* supposed to do.
->
-> -- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
-
-> In our world, we need to come up with ways to convey our intentions and ideas clearly so we are not misunderstood by our colleagues. In software development, acceptance criteria aid the development team in knowing the expectations for a certain feature.
->
-> **Why?**
->
-> - Define Behaviour -This aids the team in getting a list of items on what the feature should do
-> - Reach Harmony - The development team knows exactly what conditions need to be met, just as the clients know what to expect from the feature
-> - Support testing - On top of the ticket description, talking to the product, and talking to the development team for test cases, this provides another point of view for testers
->
-> **Who?**
->
-> These are normally written by the product owner and reviewed by a member of the development team to ensure that there are no technical constraints and/or inconsistencies from a development perspective. In my team, it is first written by the product owner, then reviewed by a developer for the technical constraints, and finally a QA specialist for their knowledge of how the new feature should interact with the current system.
->
-> **How?**
->
-> There are multiple ways to write acceptance criteria. Our team prefers the **scenario-oriented** format as the team gets a better understanding of the requirements compared to one sentence scenarios. *Given/When/Then* format
->
-> -- https://thelifeofoneman.com/how-to-write-acceptance-criteria
-
-
-
-### Unit vs Acceptance
-
-> recommended by the Agile disciplines. Unit tests, which are written by programmers, for programmers, in a programming language. And acceptance tests, which are written by business people (and QA), for business people, in a high level specification language
->
-> It’s true that the two streams of tests test the same things. Indeed, that’s the point. Unit tests are written by programers to ensure that the code does what they intend it to do. Acceptance tests are written by business people (and QA) to make sure the code does what *they* intend it to do. The two together make sure that the business people and programmers intend the same thing.
->
-> programmers must go to great lengths to decouple the components of the system in order to test them independently. Therefore unit tests seldom exercise large integrated chunks of the system. Acceptance tests operate on much larger integrated chunks of the system. (black box)
->
-> -- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
+...
 
 ### ATDD
 
@@ -77,6 +25,16 @@
 > Lots of people started working *outside-in*, from the UIs through which users experienced the system’s behaviour, to the controllers, the domain models, the utility classes, services, repositories, etc., until they finally had working software that tended to matter more to the stakeholders of the project than software had before.
 >
 > -- https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/
+
+### Unit vs Acceptance
+
+> recommended by the Agile disciplines. Unit tests, which are written by programmers, for programmers, in a programming language. And acceptance tests, which are written by business people (and QA), for business people, in a high level specification language
+>
+> It’s true that the two streams of tests test the same things. Indeed, that’s the point. Unit tests are written by programers to ensure that the code does what they intend it to do. Acceptance tests are written by business people (and QA) to make sure the code does what they intend it to do. The two together make sure that the business people and programmers intend the same thing.
+>
+> programmers must go to great lengths to decouple the components of the system in order to test them independently. Therefore unit tests seldom exercise large integrated chunks of the system. Acceptance tests operate on much larger integrated chunks of the system. (black box)
+>
+> -- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
 
 ### BDD
 
@@ -104,29 +62,7 @@
 
 ## Practice
 
-### Acceptance tests
 
-> **User Story 1**
->
-> - **As** an admin of Analytics Platform X
-> - **I want** to be able to invite my team members to access the system
-> - **So that** my team can analyse the data on Analytics Platform X to make more informed business decisions
->
-> **Acceptance** **Criteria**
->
-> - Given that I am an Admin on Platform X
-> - And I am on the [Users Page](https://thelifeofoneman.com/meme-of-the-day-bug-reports)
-> - And I click on “[Invite ](https://thelifeofoneman.com/the-role-of-the-tester)Users”
-> - Then I fill in the Email Address of a team member
-> - And I click on Send Invite
-> - Then team member I have invited gets an email to access the platform
-
-> Limitations
->
-> You are expecting someone to know in advance, before seeing the software, exactly how the software application should be. So if you are testing strictly against the Acceptance Criteria - you are in essence trusting that, that person (or group of people) who wrote the acceptance criteria knows everything about what is needed before the software is built.
->
-> - **People don't know what they want until they see it (same goes for knowing what they don't want)** I think it's possible to build a product that the customer did say they want then still find them to be unhappy because they realised once they saw it - that it wasn't quite what they wanted. After seeing *something* they are then better able to articulate what they want or need.
-> - 
 
 ## Teachers
 
