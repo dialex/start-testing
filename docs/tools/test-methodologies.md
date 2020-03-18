@@ -44,6 +44,20 @@
 >
 > -- https://lizkeogh.com/2015/03/27/what-is-bdd/
 
+> If you’re not having conversations, you’re not doing BDD
+>
+> -- Liz Keogh
+
+> There are things about your domain that you don’t know or you’ve misunderstood. By talking through examples in groups, the chances of uncovering these gaps is increased.
+>
+> -- [Liz Keogh](https://lizkeogh.com/2011/03/04/step-away-from-the-tools/)
+
+> Testers tend to perceive BDD as the use of Gherkin syntax and automation. Testers tend to pay very little attention to the collaborative aspects of BDD.
+>
+> We involve members from testing, development, design and the business in an informal meeting that is more typically known as ‘[Three amigos](https://www.stickyminds.com/sites/default/files/magazine/file/2013/3971888.pdf)’ to discuss and question what we plan to build. The goal is to dispel any incorrect assumptions we may have, and remove any ignorance we have around what we want to deliver.
+>
+> -- https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/
+
 > a mechanism for describing the behaviour of code and providing examples, without using the word “test”, because it turned out that this clarified a lot of the confusion.
 >
 > -- https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/
@@ -56,13 +70,35 @@
 >
 > -- https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/
 
-### Living documentation
-
-`*.feature` to html reports. it takes your Specification (written in Gherkin, with Markdown descriptions) and turns them into an always up-to-date documentation of the current state of your software - in a variety of formats.
-
 ## Practice
 
+> maybe too technical: https://dannorth.net/introducing-bdd/
 
+
+
+> There are tools we can use during our three amigos sessions to help us. A testers goal is to generate questions and ensure the conversation stays inside the scope of the feature. As a tester, questions are your best tool for collaboration sessions.
+>
+> - [The five Ws - What, Who, Where, When, Why](https://en.wikipedia.org/wiki/Five_Ws)
+> - ‘This maybe a stupid question but…’ - Those stupid questions weed out a lot of assumptions
+> - ‘So just to confirm….’ - Again, verbalising what is required will weed out assumptions
+>
+> Another tool, that is synonymous with BDD is Gherkin. Gherkin uses Given, When, Then syntax to allow us to create examples in the form of Scenarios to demonstrate how we might expect acceptance criteria to behave. For example:
+>
+> ```gherkin
+> Given the user has not ordered yet
+> When the user adds a book into the shopping cart
+> Then a discount of 10% is applied to the total.
+> ```
+>
+> ### Specification by Example (BDD)
+>
+> Writing examples in Gherkin is hard. However, there is a new approach called Example mapping created by Matt Wynne. (LINK TO EXTRA/SBE) In short it uses different coloured post-it notes as visual aids to help keep track of rules (acceptance-criteria), examples (Gherkin scenarios) and questions
+>
+> -- https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/
+
+### Living documentation (BDD)
+
+`*.feature` to html reports. it takes your Specification (written in Gherkin, with Markdown descriptions) and turns them into an always up-to-date documentation of the current state of your software - in a variety of formats.
 
 ## Teachers
 
