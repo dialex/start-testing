@@ -24,6 +24,10 @@
 
 ### Acceptance test
 
+> Acceptance Criteria are conditions which a software application should satisfy to be accepted by a user or customer. Often these can also be used to guide the testing for a testing team. If the acceptance criteria are met, then the story has passed. The thing is - *acceptance criteria has its limitations.*
+>
+> -- https://nickytests.blogspot.com/2017/05/the-limitations-of-acceptance-criteria.html
+
 > QA and Business analysts should take the stories chosen during the planning meeting, and turn them into automated acceptance tests. Programmers use the acceptance tests as requirements. They read those tests to find out what their stories are *really* supposed to do.
 >
 > -- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
@@ -90,9 +94,11 @@
 
 > the biggest difference between BDD and ATDD was the way in which BDD enabled a common language between users and business stakeholders. Nowadays, is mainly wording. The difference is that one is called Behaviour Driven Development – and some people find that wording useful – and one (or two) is called (Acceptance) Test Driven Development – and some people find that wording useful in a different way.
 >
-> ### And that’s it.
+> And that’s it.
 >
 > -- https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/
+
+
 
 ## Practice
 
@@ -112,6 +118,13 @@
 > - Then I fill in the Email Address of a team member
 > - And I click on Send Invite
 > - Then team member I have invited gets an email to access the platform
+
+> Limitations
+>
+> You are expecting someone to know in advance, before seeing the software, exactly how the software application should be. So if you are testing strictly against the Acceptance Criteria - you are in essence trusting that, that person (or group of people) who wrote the acceptance criteria knows everything about what is needed before the software is built.
+>
+> - **People don't know what they want until they see it (same goes for knowing what they don't want)** I think it's possible to build a product that the customer did say they want then still find them to be unhappy because they realised once they saw it - that it wasn't quite what they wanted. After seeing *something* they are then better able to articulate what they want or need.
+> - 
 
 ## Teachers
 
