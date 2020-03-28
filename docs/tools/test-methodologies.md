@@ -4,6 +4,14 @@
 
 ## Theory
 
+> BDD is not a solely a testing activity. However, BDD can help facilitate testing activities (...) A good test strategy is a rich collage of different processes, techniques and tools.
+>
+> -- [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/)
+
+Neither of these methodologies are testing. They are development practices that favor or foster quality, which in turn makes testing easier.
+
+
+
 
 
 ### TDD
@@ -70,6 +78,8 @@
 >
 > -- https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/
 
+> A tester using BDD will be able to ask questions, collect information and help identify risks to inform other testing activities.
+
 ### ATDD vs BDD
 
 > the biggest difference between BDD and ATDD was the way in which BDD enabled a common language between users and business stakeholders. Nowadays, is mainly wording. The difference is that one is called Behaviour Driven Development – and some people find that wording useful – and one (or two) is called (Acceptance) Test Driven Development – and some people find that wording useful in a different way.
@@ -98,6 +108,10 @@
 > Then a discount of 10% is applied to the total.
 > ```
 >
+
+> There are teams ignoring the collaborative side of BDD, focusing too much on using a Gherkin syntax as means to build test cases and misunderstanding the purpose of Outside-in development to focus on automating test coverage. It’s important to remember that Gherkin is for development guidance, not test coverage.
+>
+> -- https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/
 
 ### Specification by Example (BDD)
 
