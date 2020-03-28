@@ -52,6 +52,35 @@ Neither of these methodologies are testing. They are development practices that 
 
 ### BDD
 
+> Behaviour-driven development is an “outside-in” methodology. It starts at the outside by identifying business outcomes, and then drills down into the feature set that will achieve those outcomes. Each feature is captured as a “story”, which defines the scope of the feature along with its acceptance criteria.
+>
+> Software delivery is about writing software to achieve business outcomes. We need a way to describe the [requirement]() such that everyone – the business folks, the analyst, the developer and the tester – have a common understanding of the scope of the work. This is the role of a Story. It has to be a description of a requirement and its business benefit, and a set of criteria by which we all agree that it is “done”.
+>
+> ```gherkin
+> Title (one line describing the story)
+> 
+> # Narrative #
+> 
+> As a [role]
+> I want [feature]
+> So that [benefit]
+> 
+> # Acceptance Criteria #
+> 
+> Scenario 1: Title
+> Given [context]
+>   And [some more context]...
+> When  [event]
+> Then  [outcome]
+>   And [another outcome]...
+> 
+> Scenario 2: ...
+> ```
+>
+> This will likely be an iterative process. The stakeholder will have an idea of what they want but will usually not know how much work will be involved, or how that work will be allocated. With the help of the technical and testing experts, they will understand the cost/benefit trade-off of each scenario and can make a judgement about whether they want it.
+>
+> -- https://dannorth.net/whats-in-a-story/
+
 > If you look up anything around BDD, you’re likely to find conversation, collaboration, scenarios and examples at its core, together with suggestions for how to automate them. If you look further, you’ll find Three Amigos and Outside-In and the Given / When / Then syntax and Cucumber and Selenium and JBehave and Capybara and SpecFlow and a host of other tools.
 >
 > define BDD, I say something like, “Using examples in conversation to illustrate behaviour.”
@@ -105,7 +134,16 @@ Neither of these methodologies are testing. They are development practices that 
 - method names
 - what to cover
 
-### BDD
+### Story (BDD)
+
+> - The title should describe an activity
+> - The narrative should include a role, a feature and a benefit
+> - The scenario title should say what’s different
+> - The scenario should be described in terms of Context, Actions and Results
+> - The givens should define all of, and no more than, the required context
+> - The action should describe the feature
+>
+> -- https://dannorth.net/whats-in-a-story/
 
 > There are tools we can use during our three amigos sessions to help us. A testers goal is to generate questions and ensure the conversation stays inside the scope of the feature. As a tester, questions are your best tool for collaboration sessions.
 >
