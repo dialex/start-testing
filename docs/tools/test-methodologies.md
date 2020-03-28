@@ -100,7 +100,12 @@ Neither of these methodologies are testing. They are development practices that 
 
 > maybe too technical: https://dannorth.net/introducing-bdd/
 
+### TDD
 
+- method names
+- what to cover
+
+### BDD
 
 > There are tools we can use during our three amigos sessions to help us. A testers goal is to generate questions and ensure the conversation stays inside the scope of the feature. As a tester, questions are your best tool for collaboration sessions.
 >
@@ -138,6 +143,18 @@ Neither of these methodologies are testing. They are development practices that 
 >
 > -- https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/
 
+> - Specifications, not scripts: she should move to less workflow based scenarios but more specifications about what is needed, as these are easier to understand, more precise and testable;
+> - Abstract: the specification should be abstract enough to highlight the detail, remove the noise, and not being tied to the implementation of the user interface;
+> - Ubiquitous language: the language used by the team and specifications should be consistent throughout the development process to ensure a shared understanding;
+> - Edge cases: unusual variances should be specified to ensure clarity of expectations: “things that seem obvious kill us, if something sounds obvious, that’s where the danger is”;
+> - Key examples: each decision point should have 5 - 6 key examples, and not more, so it is clear what is expected. These can be created by focussing on the differences between existing scenarios;
+> - End-to-End flows: only a few (1-3) end-to-end flows, not a combination of every decision point combination
+> - Accessible: publishing the specifications so Janet, Dave and others can easily access the latest versions.
+>
+> a whole example from automation > cucumber > gherkin > living doc
+>
+> -- https://www.thoughtworks.com/insights/blog/specification-example
+
 ### Specification by Example (BDD)
 
 >
@@ -161,7 +178,9 @@ Neither of these methodologies are testing. They are development practices that 
 
 ### Living documentation (BDD)
 
-`*.feature` to html reports. it takes your Specification (written in Gherkin, with Markdown descriptions) and turns them into an always up-to-date documentation of the current state of your software - in a variety of formats.
+executable specifications
+
+*.feature` to html reports. it takes your Specification (written in Gherkin, with Markdown descriptions) and turns them into an always up-to-date documentation of the current state of your software - in a variety of formats.
 
 ## Teachers
 
