@@ -79,6 +79,14 @@ Neither of these methodologies are testing. They are development practices that 
 > -- https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/
 
 > A tester using BDD will be able to ask questions, collect information and help identify risks to inform other testing activities.
+>
+> -- [Mark W](https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/)
+
+> I see BDD as being an activity or process which is all about having conversations and collaborating to discuss the idea of the software. The purpose is to uncover more information and refine and refactor the idea, discovering and dispelling assumptions and ambiguities.
+>
+> The output of these conversations is our feature files, with scenarios that provide examples of the features, based on the information that we have uncovered throughout the collaborative conversations.
+>
+> -- https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/
 
 ### ATDD vs BDD
 
@@ -108,6 +116,23 @@ Neither of these methodologies are testing. They are development practices that 
 > Then a discount of 10% is applied to the total.
 > ```
 >
+
+> ```gherkin
+> Scenario: User account level permissions and restrictions
+> Given the user [has] an account with [a certain access level]
+> When the search screen is viewed
+> Then the user [should see something]
+> 
+> | has           | a certain access level              | should see something                                                                     |
+> | has           | basic access privileges             | be able to search and read the results, but not edit them                                |
+> | has           | read only access                    | see a message saying the page is restricted and they cannot access                       |
+> | has           | admin privileges                    | be able to search and read the results, and can edit/action them but not delete them     |
+> | has           | super admin/tech support privileges | be able to search and read the results, and can edit/action them including deleting them |
+> | has           | anonymous privileges                | see a message saying the page is restricted and they cannot access                       |
+> | does not have | any privileges                      | see a message saying the page is restricted and they cannot access                       |
+> ```
+>
+> -- https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/
 
 > There are teams ignoring the collaborative side of BDD, focusing too much on using a Gherkin syntax as means to build test cases and misunderstanding the purpose of Outside-in development to focus on automating test coverage. It’s important to remember that Gherkin is for development guidance, not test coverage.
 >
