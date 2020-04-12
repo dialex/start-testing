@@ -52,6 +52,9 @@ Neither of these methodologies are testing. They are development practices that 
 
 ### BDD
 
+> "BDD in a nutshell: Using examples at multiple levels to create a shared understanding and reduce uncertainty to deliver software that matters."
+> -- Dan North
+
 > Behaviour-driven development is an “outside-in” methodology. It starts at the outside by identifying business outcomes, and then drills down into the feature set that will achieve those outcomes. Each feature is captured as a “story”, which defines the scope of the feature along with its acceptance criteria.
 >
 > Software delivery is about writing software to achieve business outcomes. We need a way to describe the [requirement]() such that everyone – the business folks, the analyst, the developer and the tester – have a common understanding of the scope of the work. This is the role of a Story. It has to be a description of a requirement and its business benefit, and a set of criteria by which we all agree that it is “done”.
@@ -135,6 +138,12 @@ Neither of these methodologies are testing. They are development practices that 
 - what to cover
 
 ### Story (BDD)
+
+1. Specify features using examples/scenarios, aka. specification by example
+2. Cross functional conversation/collaboration, aka. 3 amigos
+3. Write code to fulfil those requirements
+4. (Optional) write code to assert those requirements, aka. executable specification
+5. (Optional) write code to merge all features into a single file, aka. living documentation
 
 > - The title should describe an activity
 > - The narrative should include a role, a feature and a benefit
