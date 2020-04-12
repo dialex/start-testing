@@ -14,6 +14,8 @@ Neither of these methodologies are testing. They are development practices that 
 
 Red-Green-Refactor
 
+the idea is that unit tests are written *first*, then enough code is written to make the tests pass.
+
 > Writing tests before writing code and make the test fail. Now write enough code so that test can pass and then at last refactor the code as per you requirement and make sure the test is passing again after the change. we write these tests to check if the code we wrote works fine. does what developer wants it to do. **Does my code work?**
 >
 > -- https://www.linkedin.com/pulse/agile-development-difference-between-tddatddbdd-komal-sureka/
@@ -55,6 +57,10 @@ Red-Green-Refactor
 > -- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
 
 ### BDD: Behaviour Driven Development
+
+common language/terminology
+
+shared understanding (tech & product)
 
 > "BDD in a nutshell: Using examples at multiple levels to create a shared understanding and reduce uncertainty to deliver software that matters."
 > -- Dan North
@@ -135,6 +141,9 @@ Red-Green-Refactor
 > BDD gives a clearer understanding as to what the system should do from the perspective of the developer and the customer. TDD only gives the developer an understanding of what the system should do.
 >
 > -- https://www.linkedin.com/pulse/agile-development-difference-between-tddatddbdd-komal-sureka/
+
+- BDD focuses on the behavioural aspect of the system rather unlike the TDD focuses on the implementation aspect of the system.
+- TDD uses white box testing (implementation). ATDD uses black box testing (behaviour).
 
 ## Practice
 
