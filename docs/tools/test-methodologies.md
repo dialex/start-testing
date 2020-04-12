@@ -10,15 +10,19 @@
 
 Neither of these methodologies are testing. They are development practices that favor or foster quality, which in turn makes testing easier.
 
+### TDD: (Unit) Test Driven Development
 
+Red-Green-Refactor
 
+> Writing tests before writing code and make the test fail. Now write enough code so that test can pass and then at last refactor the code as per you requirement and make sure the test is passing again after the change. we write these tests to check if the code we wrote works fine. does what developer wants it to do. **Does my code work?**
+>
+> -- https://www.linkedin.com/pulse/agile-development-difference-between-tddatddbdd-komal-sureka/
 
+### ATDD: Acceptance Test Driven Development
 
-### TDD
-
-...
-
-### ATDD
+> Wasn’t the TDD good enough and better? I would say no and the reason was that TDD was more of telling to make sure the code works fine but it did not say that if the code that is written was even required at first place. does what the client/stakeholder asked for it to do. **Does my code do what it’s supposed to do?**
+>
+> -- https://www.linkedin.com/pulse/agile-development-difference-between-tddatddbdd-komal-sureka/
 
 > Programmers start a story by executing the acceptance tests for that story, and noting what fails. Then they write unit tests that force them to write the code that will make some small portion of the acceptance tests pass. They keep running the acceptance tests to see how much of their story is working, and they keep adding unit tests and production code until all the acceptance tests pass.
 >
@@ -50,7 +54,7 @@ Neither of these methodologies are testing. They are development practices that 
 >
 > -- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
 
-### BDD
+### BDD: Behaviour Driven Development
 
 > "BDD in a nutshell: Using examples at multiple levels to create a shared understanding and reduce uncertainty to deliver software that matters."
 > -- Dan North
@@ -127,6 +131,10 @@ Neither of these methodologies are testing. They are development practices that 
 > And that’s it.
 >
 > -- https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/
+
+> BDD gives a clearer understanding as to what the system should do from the perspective of the developer and the customer. TDD only gives the developer an understanding of what the system should do.
+>
+> -- https://www.linkedin.com/pulse/agile-development-difference-between-tddatddbdd-komal-sureka/
 
 ## Practice
 
