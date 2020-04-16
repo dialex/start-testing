@@ -4,11 +4,7 @@
 
 ## Theory
 
-> BDD is not a solely a testing activity. However, BDD can help facilitate testing activities (...) A good test strategy is a rich collage of different processes, techniques and tools.
->
-> -- [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/)
-
-Neither of these methodologies are testing. They are development practices that favor or foster quality, which in turn makes testing easier.
+Neither of these methodologies are testing. They are development practices that favor or foster quality, which in turn make testing easier.
 
 ### TDD: (Unit) Test Driven Development
 
