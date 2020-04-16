@@ -26,7 +26,21 @@ The ATDD cycle follows the same "Red-Green-Refactor" from TDD. The difference is
 
 > Acceptance tests tell if the code does what the product/client expected it to do, at the system level, in collaboration with the rest of the codebase.
 
+### OID: Outside-In Development
 
+> OID works by using automation tools combined with scenarios from a collaborative session to create a guide for Developers; this results in ensuring Developers develop what the business wants.
+>
+> -- [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/)
+
+> (...) people started working *outside-in*, from the User Interface (UI) through which users experienced the system’s behaviour, to the controllers, models, microservices (API), classes, etc., until they finally had working software that mattered to the stakeholders (...)
+>
+> -- [Liz Keogh](https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/)
+
+OID is starts very similar to ATDD. Both methodologies start by specifying the behaviour of your system as seen from the outside (see [black box testing]()). These specifications tell developers what their code needs to accomplish.
+
+There's a small difference though. OID is not so prescriptive about test automation as ATDD is. Listen to [Mark Winteringham]( https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/): "The assumption from Testers is that because OID uses tools that are typically related to automated testing that must mean OID is automated testing. OID helps Developers design good code and deliver what the business really wants. Not deliver testing."
+
+OID is less about technology and testing and more about process and collaborating; it was an evolutionary step towards the final methodology -- behaviour driven development.
 
 -----
 
@@ -39,16 +53,6 @@ The ATDD cycle follows the same "Red-Green-Refactor" from TDD. The difference is
 > So, in short, the business specifies the system with automated acceptance tests. Programmers run those tests to see what unit tests need to be written. The unit tests force them to write production code that passes both tests. In the end, all the tests pass. In the middle of the iteration, QA changes from writing automated tests, to exploratory testing.
 >
 > -- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
-
-> Lots of people started working *outside-in*, from the UIs through which users experienced the system’s behaviour, to the controllers, the domain models, the utility classes, services, repositories, etc., until they finally had working software that tended to matter more to the stakeholders of the project than software had before.
->
-> -- https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/
-
-> Outside-in Development. OID works by using automation tools combined with scenarios from a collaborative session to create a guide for Developers. This results in ensuring Developers develop what the business wants.
->
-> That’s because OID *is not about Testing it’s about guidance*, and this is what Testers get wrong. The assumption from Testers is that because OID uses tools that are typically related to automated testing that must mean OID is automated testing. OID helps Developers design good code and deliver what the business really wants. Not deliver testing.
->
-> -- https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/
 
 ### Unit vs Acceptance
 
