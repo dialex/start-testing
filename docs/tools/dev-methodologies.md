@@ -1,4 +1,4 @@
-# Development Methodologies
+# Development methodologies
 
 > **tl;dr** SUMMARY_HERE
 
@@ -28,13 +28,13 @@ The ATDD cycle follows the same "Red-Green-Refactor" from TDD. The difference is
 >
 > -- [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/)
 
-> (...) people started working *outside-in*, from the User Interface (UI) through which users experienced the system’s behaviour, to the controllers, models, microservices (API), classes, etc., until they finally had working software that mattered to the stakeholders (...)
+> (...) people started working _outside-in_, from the User Interface (UI) through which users experienced the system’s behaviour, to the controllers, models, microservices (API), classes, etc., until they finally had working software that mattered to the stakeholders (...)
 >
 > -- [Liz Keogh](https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/)
 
 OID is starts very similar to ATDD. Both methodologies start by specifying the behaviour of your system as seen from the outside (see [black box testing]()). These specifications tell developers what their code needs to accomplish.
 
-There's a small difference though. OID is not so prescriptive about test automation as ATDD is. Listen to [Mark Winteringham]( https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/): "The assumption from Testers is that because OID uses tools that are typically related to automated testing that must mean OID is automated testing. OID helps Developers design good code and deliver what the business really wants. Not deliver testing."
+There's a small difference though. OID is not so prescriptive about test automation as ATDD is. Listen to [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/): "The assumption from Testers is that because OID uses tools that are typically related to automated testing that must mean OID is automated testing. OID helps Developers design good code and deliver what the business really wants. Not deliver testing."
 
 OID is less about technology and testing and more about process and collaborating; it was an [evolutionary step](https://dannorth.net/whats-in-a-story/) towards behaviour driven development.
 
@@ -55,7 +55,7 @@ Each feature is captured as a “story”. Stories are descriptions of [requirem
 
 > This will likely be an iterative process. The stakeholder will have an idea of what they want but will not know how much work will be involved. With the help of the technical and testing experts, they will understand the cost/benefit of each scenario and make a judgement about whether they want it.
 >
-> -- [Dan North](https://dannorth.net/whats-in-a-story/) 
+> -- [Dan North](https://dannorth.net/whats-in-a-story/)
 
 To describe a story we need words. If we use words from a natural language (like English) then anyone will be able to read it, but without some structure everyone's writing style would affect the readability of the story. To avoid that, some rules were introduced and that's how the Gherkin language was born, also known as the Given-When-Then syntax:
 
@@ -84,21 +84,13 @@ Using this common language, it's time to gather the team to write these stories 
 
 > We involve members from testing, development, and business in an informal meeting that is more typically known as "[Three amigos](https://www.stickyminds.com/sites/default/files/magazine/file/2013/3971888.pdf)" to discuss and question what we plan to build. The goal is to dispel any incorrect assumptions (...) and ignorance we have around what we want to deliver.
 >
-> -- [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/) 
+> -- [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/)
 
 > The output of these conversations is our feature files, with scenarios that provide examples of the features, based on the information that we have uncovered throughout the collaborative conversations.
 >
 > -- [Dan Ashby](https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/)
 
-
-
-
-
-
-
-
-
-------
+---
 
 > There are things about your domain that you don’t know or you’ve misunderstood. By talking through examples in groups, the chances of uncovering these gaps is increased.
 >
@@ -120,7 +112,7 @@ Using this common language, it's time to gather the team to write these stories 
 
 > At the end, all the acceptance tests (and unit tests) are passing. There is no hand-off to Testers to make sure the system does what it is supposed to. The acceptance tests already prove that the system is working (according to spec).
 >
-> This does not mean that Testers do not put their hands on the keyboard and their eyes on the screen. They do! (...) They perform *exploratory testing*. They get *creative*. They do what Testers are really good at—they find new and interesting ways to break the system. They uncover under-specified areas of the system.
+> This does not mean that Testers do not put their hands on the keyboard and their eyes on the screen. They do! (...) They perform _exploratory testing_. They get _creative_. They do what Testers are really good at—they find new and interesting ways to break the system. They uncover under-specified areas of the system.
 >
 > So, in short, the business specifies the system with automated acceptance tests. Programmers run those tests to see what unit tests need to be written. The unit tests force them to write production code that passes both tests. In the end, all the tests pass. In the middle of the iteration, QA changes from writing automated tests, to exploratory testing.
 >
@@ -192,14 +184,13 @@ To make the acceptance test pass (green), multiple TDD cycles can be used but th
 > When the user adds a book into the shopping cart
 > Then a discount of 10% is applied to the total.
 > ```
->
 
 > ```gherkin
 > Scenario: User account level permissions and restrictions
 > Given the user [has] an account with [a certain access level]
 > When the search screen is viewed
 > Then the user [should see something]
-> 
+>
 > | has           | a certain access level              | should see something                                                                     |
 > | has           | basic access privileges             | be able to search and read the results, but not edit them                                |
 > | has           | read only access                    | see a message saying the page is restricted and they cannot access                       |
@@ -229,7 +220,6 @@ To make the acceptance test pass (green), multiple TDD cycles can be used but th
 
 ### Specification by Example (BDD)
 
->
 > Writing examples in Gherkin is hard. However, there is a new approach called Example mapping created by Matt Wynne. (LINK TO EXTRA/SBE) In short it uses different coloured post-it notes as visual aids to help keep track of rules (acceptance-criteria), examples (Gherkin scenarios) and questions
 >
 > -- https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/
@@ -244,7 +234,7 @@ To make the acceptance test pass (green), multiple TDD cycles can be used but th
 >
 > (DUPLICATED)
 >
-> That’s because OID *is not about Testing it’s about guidance*, and this is what Testers get wrong. The assumption from Testers is that because OID uses tools that are typically related to automated testing that must mean OID is automated testing.
+> That’s because OID _is not about Testing it’s about guidance_, and this is what Testers get wrong. The assumption from Testers is that because OID uses tools that are typically related to automated testing that must mean OID is automated testing.
 >
 > -- https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/
 
@@ -252,7 +242,7 @@ To make the acceptance test pass (green), multiple TDD cycles can be used but th
 
 executable specifications
 
-*.feature` to html reports. it takes your Specification (written in Gherkin, with Markdown descriptions) and turns them into an always up-to-date documentation of the current state of your software - in a variety of formats.
+\*.feature` to html reports. it takes your Specification (written in Gherkin, with Markdown descriptions) and turns them into an always up-to-date documentation of the current state of your software - in a variety of formats.
 
 ## Teachers
 
