@@ -12,13 +12,11 @@ Neither of these methodologies are testing. They are development practices that 
 
 ### TDD: (Unit) Test Driven Development
 
-Red-Green-Refactor
+> Write unit tests before writing the code that makes those tests pass.
 
-the idea is that unit tests are written *first*, then enough code is written to make the tests pass.
+The TDD cycle can be summarised as "Red-Green-Refactor". First, you write a set of unit tests that describe the code behaviour that you want to implement. If you run those tests, they will be failing (red), because that behaviour is not yet implemented. Second, you write the simplest code required to make those tests pass (green). If you wanted, you could stop here. Usually developers go a step further and improve that code to be more resilient and maintanable (refactor).
 
-> Writing tests before writing code and make the test fail. Now write enough code so that test can pass and then at last refactor the code as per you requirement and make sure the test is passing again after the change. we write these tests to check if the code we wrote works fine. does what developer wants it to do. **Does my code work?**
->
-> -- https://www.linkedin.com/pulse/agile-development-difference-between-tddatddbdd-komal-sureka/
+> [Unit tests]() tell if the code does what the developer expected it to do, in isolation and at the method level.
 
 ### ATDD: Acceptance Test Driven Development
 
