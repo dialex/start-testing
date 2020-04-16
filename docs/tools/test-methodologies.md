@@ -36,42 +36,26 @@ OID is starts very similar to ATDD. Both methodologies start by specifying the b
 
 There's a small difference though. OID is not so prescriptive about test automation as ATDD is. Listen to [Mark Winteringham]( https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/): "The assumption from Testers is that because OID uses tools that are typically related to automated testing that must mean OID is automated testing. OID helps Developers design good code and deliver what the business really wants. Not deliver testing."
 
-OID is less about technology and testing and more about process and collaborating; it was an evolutionary step towards the final methodology -- behaviour driven development.
-
------
-
-### ATDD
-
-> At the end, all the acceptance tests (and unit tests) are passing. There is no hand-off to Testers to make sure the system does what it is supposed to. The acceptance tests already prove that the system is working (according to spec).
->
-> This does not mean that Testers do not put their hands on the keyboard and their eyes on the screen. They do! (...) They perform *exploratory testing*. They get *creative*. They do what Testers are really good at—they find new and interesting ways to break the system. They uncover under-specified areas of the system.
->
-> So, in short, the business specifies the system with automated acceptance tests. Programmers run those tests to see what unit tests need to be written. The unit tests force them to write production code that passes both tests. In the end, all the tests pass. In the middle of the iteration, QA changes from writing automated tests, to exploratory testing.
->
-> -- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
-
-### Unit vs Acceptance
-
-To make the acceptance test pass (green), multiple TDD cycles can be used but this is not mandatory.
-
-> recommended by the Agile disciplines. Unit tests, which are written by programmers, for programmers, in a programming language. And acceptance tests, which are written by business people (and QA), for business people, in a high level specification language
->
-> It’s true that the two streams of tests test the same things. Indeed, that’s the point. Unit tests are written by programers to ensure that the code does what they intend it to do. Acceptance tests are written by business people (and QA) to make sure the code does what they intend it to do. The two together make sure that the business people and programmers intend the same thing.
->
-> programmers must go to great lengths to decouple the components of the system in order to test them independently. Therefore unit tests seldom exercise large integrated chunks of the system. Acceptance tests operate on much larger integrated chunks of the system. (black box)
->
-> -- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
+OID is less about technology and testing and more about process and collaborating; it was an [evolutionary step](https://dannorth.net/whats-in-a-story/) towards behaviour driven development.
 
 ### BDD: Behaviour Driven Development
+
+> BDD in a nutshell: Using examples at multiple levels to create a shared understanding and reduce uncertainty to deliver software that matters.
+>
+> -- Dan North, creator of BDD
+
+
 
 common language/terminology
 
 shared understanding (tech & product)
 
-> "BDD in a nutshell: Using examples at multiple levels to create a shared understanding and reduce uncertainty to deliver software that matters."
-> -- Dan North
+> Order of importance:
+> having conversations > capturing conversations > automating conversations
+>
+> -- [Liz Keogh](https://lizkeogh.com/2014/01/22/using-bdd-with-legacy-systems/)
 
-> Behaviour-driven development is an “outside-in” methodology. It starts at the outside by identifying business outcomes, and then drills down into the feature set that will achieve those outcomes. Each feature is captured as a “story”, which defines the scope of the feature along with its acceptance criteria.
+> BDD is an OID methodology. It starts at the outside by identifying business outcomes, and then drills down into the feature set that will achieve those outcomes. Each feature is captured as a “story”, which defines the scope of the feature along with its acceptance criteria.
 >
 > Software delivery is about writing software to achieve business outcomes. We need a way to describe the [requirement]() such that everyone – the business folks, the analyst, the developer and the tester – have a common understanding of the scope of the work. This is the role of a Story. It has to be a description of a requirement and its business benefit, and a set of criteria by which we all agree that it is “done”.
 >
@@ -135,6 +119,30 @@ shared understanding (tech & product)
 > The output of these conversations is our feature files, with scenarios that provide examples of the features, based on the information that we have uncovered throughout the collaborative conversations.
 >
 > -- https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/
+
+-----
+
+### ATDD
+
+> At the end, all the acceptance tests (and unit tests) are passing. There is no hand-off to Testers to make sure the system does what it is supposed to. The acceptance tests already prove that the system is working (according to spec).
+>
+> This does not mean that Testers do not put their hands on the keyboard and their eyes on the screen. They do! (...) They perform *exploratory testing*. They get *creative*. They do what Testers are really good at—they find new and interesting ways to break the system. They uncover under-specified areas of the system.
+>
+> So, in short, the business specifies the system with automated acceptance tests. Programmers run those tests to see what unit tests need to be written. The unit tests force them to write production code that passes both tests. In the end, all the tests pass. In the middle of the iteration, QA changes from writing automated tests, to exploratory testing.
+>
+> -- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
+
+### Unit vs Acceptance
+
+To make the acceptance test pass (green), multiple TDD cycles can be used but this is not mandatory.
+
+> recommended by the Agile disciplines. Unit tests, which are written by programmers, for programmers, in a programming language. And acceptance tests, which are written by business people (and QA), for business people, in a high level specification language
+>
+> It’s true that the two streams of tests test the same things. Indeed, that’s the point. Unit tests are written by programers to ensure that the code does what they intend it to do. Acceptance tests are written by business people (and QA) to make sure the code does what they intend it to do. The two together make sure that the business people and programmers intend the same thing.
+>
+> programmers must go to great lengths to decouple the components of the system in order to test them independently. Therefore unit tests seldom exercise large integrated chunks of the system. Acceptance tests operate on much larger integrated chunks of the system. (black box)
+>
+> -- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
 
 ### ATDD vs BDD
 
@@ -259,4 +267,5 @@ executable specifications
 
 ## Sources
 
-- [XXX](YYY)
+- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
+- https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/
