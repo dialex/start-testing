@@ -44,21 +44,15 @@ OID is less about technology and testing and more about process and collaboratin
 >
 > -- Dan North, creator of BDD
 
+BDD is an OID methodology. It starts at the outside by identifying business outcomes, and then drills down into the features that will achieve those outcomes. It focuses heavily on conversations between different roles, using examples to clarify requirements, and describing those requirements in a language readable by all participants.
 
-
-common language/terminology
-
-shared understanding (tech & product)
+Each feature is captured as a “story”. Stories are descriptions of [requirements]() and their business benefits. They use a language agreed and understood by everyone -- product owner, developer and tester. It includes a set of acceptance criteria, a list of statements that must be true to declare the story "done".
 
 > Order of importance:
 > having conversations > capturing conversations > automating conversations
 >
 > -- [Liz Keogh](https://lizkeogh.com/2014/01/22/using-bdd-with-legacy-systems/)
 
-> BDD is an OID methodology. It starts at the outside by identifying business outcomes, and then drills down into the feature set that will achieve those outcomes. Each feature is captured as a “story”, which defines the scope of the feature along with its acceptance criteria.
->
-> Software delivery is about writing software to achieve business outcomes. We need a way to describe the [requirement]() such that everyone – the business folks, the analyst, the developer and the tester – have a common understanding of the scope of the work. This is the role of a Story. It has to be a description of a requirement and its business benefit, and a set of criteria by which we all agree that it is “done”.
->
 > ```gherkin
 > Title (one line describing the story)
 > 
