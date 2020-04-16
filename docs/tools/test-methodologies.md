@@ -12,23 +12,29 @@ Neither of these methodologies are testing. They are development practices that 
 
 ### TDD: (Unit) Test Driven Development
 
-> Write unit tests before writing the code that makes those tests pass.
+> Write [unit tests]() before writing the code that makes those tests pass.
 
 The TDD cycle can be summarised as "Red-Green-Refactor". First, you write a set of unit tests that describe the code behaviour that you want to implement. If you run those tests, they will be failing (red), because that behaviour is not yet implemented. Second, you write the simplest code required to make those tests pass (green). If you wanted, you could stop here. Usually developers go a step further and improve that code to be more resilient and maintanable (refactor).
 
-> [Unit tests]() tell if the code does what the developer expected it to do, in isolation and at the method level.
+> Unit tests tell if the code does what the developer expected it to do, at the method level, in isolation from the rest of the codebase.
 
 ### ATDD: Acceptance Test Driven Development
 
-> Wasn’t the TDD good enough and better? I would say no and the reason was that TDD was more of telling to make sure the code works fine but it did not say that if the code that is written was even required at first place. does what the client/stakeholder asked for it to do. **Does my code do what it’s supposed to do?**
->
-> -- https://www.linkedin.com/pulse/agile-development-difference-between-tddatddbdd-komal-sureka/
+> Write [acceptance tests]() before writing the code that makes those tests pass.
 
-> Programmers start a story by executing the acceptance tests for that story, and noting what fails. Then they write unit tests that force them to write the code that will make some small portion of the acceptance tests pass. They keep running the acceptance tests to see how much of their story is working, and they keep adding unit tests and production code until all the acceptance tests pass.
+The ATDD cycle follows the same "Red-Green-Refactor" from TDD. The difference is the type of test that is created in the "Red" step. In fact, the two methodologies can be used together, as [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests) illustrates: "a developer runs the acceptance tests and notices what fails; then they write unit tests that force them to write the code that will make some small portion of the acceptance tests pass; they keep running the acceptance tests to see how much is working as expected, and they keep adding unit tests and code until all the acceptance tests pass".
+
+> Acceptance tests tell if the code does what the product/client expected it to do, at the system level, in collaboration with the rest of the codebase.
+
+
+
+-----
+
+### ATDD
+
+> At the end, all the acceptance tests (and unit tests) are passing. There is no hand-off to Testers to make sure the system does what it is supposed to. The acceptance tests already prove that the system is working (according to spec).
 >
-> At the end of the iteration all the acceptance tests (and unit tests) are passing. There is nothing left for QA to do. There is no hand-off to QA to make sure the system does what it is supposed to. The acceptance tests already prove that the system is working.
->
-> This does not mean that QA does not put their hands on the keyboards and their eyes on the screen. They do! But they don’t follow manual test scripts! Rather, they perform *exploratory testing*. They get *creative*. They do what QA people are really good at—they find new and interesting ways to break the system. They uncover unspecified, or under-specified areas of the system.
+> This does not mean that Testers do not put their hands on the keyboard and their eyes on the screen. They do! (...) They perform *exploratory testing*. They get *creative*. They do what Testers are really good at—they find new and interesting ways to break the system. They uncover under-specified areas of the system.
 >
 > So, in short, the business specifies the system with automated acceptance tests. Programmers run those tests to see what unit tests need to be written. The unit tests force them to write production code that passes both tests. In the end, all the tests pass. In the middle of the iteration, QA changes from writing automated tests, to exploratory testing.
 >
@@ -45,6 +51,8 @@ The TDD cycle can be summarised as "Red-Green-Refactor". First, you write a set 
 > -- https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/
 
 ### Unit vs Acceptance
+
+To make the acceptance test pass (green), multiple TDD cycles can be used but this is not mandatory.
 
 > recommended by the Agile disciplines. Unit tests, which are written by programmers, for programmers, in a programming language. And acceptance tests, which are written by business people (and QA), for business people, in a high level specification language
 >
