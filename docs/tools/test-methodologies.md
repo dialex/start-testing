@@ -46,47 +46,59 @@ OID is less about technology and testing and more about process and collaboratin
 
 BDD is an OID methodology. It starts at the outside by identifying business outcomes, and then drills down into the features that will achieve those outcomes. It focuses heavily on conversations between different roles, using examples to clarify requirements, and describing those requirements in a language readable by all participants.
 
-Each feature is captured as a “story”. Stories are descriptions of [requirements]() and their business benefits. They use a language agreed and understood by everyone -- product owner, developer and tester. It includes a set of acceptance criteria, a list of statements that must be true to declare the story "done".
-
-> Order of importance:
+> If you’re not having conversations, you’re not doing BDD. Order of importance:
 > having conversations > capturing conversations > automating conversations
 >
 > -- [Liz Keogh](https://lizkeogh.com/2014/01/22/using-bdd-with-legacy-systems/)
 
-> ```gherkin
-> Title (one line describing the story)
-> 
-> # Narrative #
-> 
-> As a [role]
-> I want [feature]
-> So that [benefit]
-> 
-> # Acceptance Criteria #
-> 
-> Scenario 1: Title
-> Given [context]
->   And [some more context]...
-> When  [event]
-> Then  [outcome]
->   And [another outcome]...
-> 
-> Scenario 2: ...
-> ```
->
-> This will likely be an iterative process. The stakeholder will have an idea of what they want but will usually not know how much work will be involved, or how that work will be allocated. With the help of the technical and testing experts, they will understand the cost/benefit trade-off of each scenario and can make a judgement about whether they want it.
->
-> -- https://dannorth.net/whats-in-a-story/
+Each feature is captured as a “story”. Stories are descriptions of [requirements]() and their business benefits. They use a language agreed and understood by everyone -- product owner, developer and tester. It includes a set of acceptance criteria, a list of statements that must be true to declare the story "done".
 
-> If you look up anything around BDD, you’re likely to find conversation, collaboration, scenarios and examples at its core, together with suggestions for how to automate them. If you look further, you’ll find Three Amigos and Outside-In and the Given / When / Then syntax and Cucumber and Selenium and JBehave and Capybara and SpecFlow and a host of other tools.
+> This will likely be an iterative process. The stakeholder will have an idea of what they want but will not know how much work will be involved. With the help of the technical and testing experts, they will understand the cost/benefit of each scenario and make a judgement about whether they want it.
 >
-> define BDD, I say something like, “Using examples in conversation to illustrate behaviour.”
->
-> -- https://lizkeogh.com/2015/03/27/what-is-bdd/
+> -- [Dan North](https://dannorth.net/whats-in-a-story/) 
 
-> If you’re not having conversations, you’re not doing BDD
+To describe a story we need words. If we use words from a natural language (like English) then anyone will be able to read it, but without some structure everyone's writing style would affect the readability of the story. To avoid that, some rules were introduced and that's how the Gherkin language was born, also known as the Given-When-Then syntax:
+
+```gherkin
+Title (one line describing the story)
+
+# Narrative #
+
+As a [role]
+I want [feature]
+So that [benefit]
+
+# Acceptance Criteria #
+
+Scenario: Title
+Given [context]
+When [action/event]
+Then [outcome]
+```
+
+> If you look up anything around BDD, you’re likely to find conversation, collaboration, scenarios and examples at its core, together with suggestions for how to automate them. If you look further, you’ll find Three Amigos and the Gherkin syntax and Cucumber (...) and a host of other tools.
 >
-> -- Liz Keogh
+> -- [Liz Keogh](https://lizkeogh.com/2015/03/27/what-is-bdd/)
+
+Using this common language, it's time to gather the team to write these stories together. The purpose is to uncover more information and refine the idea, discovering assumptions and ambiguities.
+
+> We involve members from testing, development, and business in an informal meeting that is more typically known as "[Three amigos](https://www.stickyminds.com/sites/default/files/magazine/file/2013/3971888.pdf)" to discuss and question what we plan to build. The goal is to dispel any incorrect assumptions (...) and ignorance we have around what we want to deliver.
+>
+> -- [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/) 
+
+> The output of these conversations is our feature files, with scenarios that provide examples of the features, based on the information that we have uncovered throughout the collaborative conversations.
+>
+> -- [Dan Ashby](https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/)
+
+
+
+
+
+
+
+
+
+------
 
 > There are things about your domain that you don’t know or you’ve misunderstood. By talking through examples in groups, the chances of uncovering these gaps is increased.
 >
@@ -94,27 +106,15 @@ Each feature is captured as a “story”. Stories are descriptions of [requirem
 
 > Testers tend to perceive BDD as the use of Gherkin syntax and automation. Testers tend to pay very little attention to the collaborative aspects of BDD.
 >
-> We involve members from testing, development, design and the business in an informal meeting that is more typically known as ‘[Three amigos](https://www.stickyminds.com/sites/default/files/magazine/file/2013/3971888.pdf)’ to discuss and question what we plan to build. The goal is to dispel any incorrect assumptions we may have, and remove any ignorance we have around what we want to deliver.
->
-> **Mistakes. Thinking that OID, ATDD and TDD were testing approaches when they are not. However, as I created my model I began to realise that OID is a development practice and not testing**
->
-> -- https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/
+> -- [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/)
 
-> a mechanism for describing the behaviour of code and providing examples, without using the word “test”, because it turned out that this clarified a lot of the confusion.
+> a mechanism for describing the behaviour of code and providing examples, without using the word “test”, because it turned out that this clarified a lot of the confusion
 >
 > -- https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/
 
 > A tester using BDD will be able to ask questions, collect information and help identify risks to inform other testing activities.
 >
 > -- [Mark W](https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/)
-
-> I see BDD as being an activity or process which is all about having conversations and collaborating to discuss the idea of the software. The purpose is to uncover more information and refine and refactor the idea, discovering and dispelling assumptions and ambiguities.
->
-> The output of these conversations is our feature files, with scenarios that provide examples of the features, based on the information that we have uncovered throughout the collaborative conversations.
->
-> -- https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/
-
------
 
 ### ATDD
 
@@ -263,3 +263,7 @@ executable specifications
 
 - https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
 - https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/
+- https://dannorth.net/whats-in-a-story/
+- https://lizkeogh.com/2015/03/27/what-is-bdd/
+- https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/
+- https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/
