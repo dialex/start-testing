@@ -90,6 +90,21 @@ Using this common language, it's time to gather the team to write these stories 
 >
 > -- [Dan Ashby](https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/)
 
+## Practice
+
+### TDD
+
+For every method or class you need to implement, repeat the "Red-Green-Refactor" cycle:
+
+1. Decide what code behaviour you want to implement.
+2. Write a set of unit tests that assert that behaviour.
+3. Run those tests. They should fail.
+4. Write enough code to make them pass.
+5. Run those tests. They should pass.
+6. (optional) Refactor the code. Repeat steps 4 and 5.
+
+These unit tests usually cover happy and sad paths (see [Test types: Unit tests]()).
+
 ---
 
 > There are things about your domain that you don’t know or you’ve misunderstood. By talking through examples in groups, the chances of uncovering these gaps is increased.
