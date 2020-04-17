@@ -105,6 +105,23 @@ For every method or class you need to implement, repeat the "Red-Green-Refactor"
 
 These unit tests usually cover happy and sad paths (see [Test types: Unit tests]()).
 
+### ATDD
+
+For every feature or acceptance criteria, repeat this cycle:
+
+1. Write a list of acceptance criteria to consider a feature done.
+2. Automate those criteria into acceptance tests.
+3. Run those tests. They should fail.
+4. Decide what code changes are necessary to pass those tests.
+   1. For each code change, perform the "Red-Green-Refactor" cycle.
+5. Run those tests. They should pass.
+
+These acceptance tests usually cover just the happy path (see [Test types: Acceptance tests]()).
+
+
+
+
+
 ---
 
 > There are things about your domain that you don’t know or you’ve misunderstood. By talking through examples in groups, the chances of uncovering these gaps is increased.
@@ -162,14 +179,9 @@ To make the acceptance test pass (green), multiple TDD cycles can be used but th
 
 ## Practice
 
-> maybe too technical: https://dannorth.net/introducing-bdd/
-
-### TDD
-
-- method names
-- what to cover
-
 ### Story (BDD)
+
+> maybe too technical: https://dannorth.net/introducing-bdd/
 
 1. Specify features using examples/scenarios, aka. specification by example
 2. Cross functional conversation/collaboration, aka. 3 amigos
