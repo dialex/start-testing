@@ -57,24 +57,7 @@ Each feature is captured as a “story”. Stories are descriptions of [requirem
 >
 > -- [Dan North](https://dannorth.net/whats-in-a-story/)
 
-To describe a story we need words. If we use words from a natural language (like English) then anyone will be able to read it, but without some structure everyone's writing style would affect the readability of the story. To avoid that, some rules were introduced and that's how the Gherkin language was born, also known as the Given-When-Then syntax:
-
-```gherkin
-Title (one line describing the story)
-
-# Narrative #
-
-As a [role]
-I want [feature]
-So that [benefit]
-
-# Acceptance Criteria #
-
-Scenario: Title
-Given [context]
-When [action/event]
-Then [outcome]
-```
+To describe a story we need words. If we use words from a natural language (like English) then anyone will be able to read it, but without some structure everyone's writing style would affect the readability of the story. To avoid that, some rules were introduced and that's how the Gherkin language was born, also known as the Given-When-Then syntax.
 
 > If you look up anything around BDD, you’re likely to find conversation, collaboration, scenarios and examples at its core, together with suggestions for how to automate them. If you look further, you’ll find Three Amigos and the Gherkin syntax and Cucumber (...) and a host of other tools.
 >
@@ -118,7 +101,84 @@ For every feature or acceptance criteria, repeat this cycle:
 
 These acceptance tests usually cover just the happy path (see [Test types: Acceptance tests]()).
 
+### BDD
 
+For every feature:
+
+1. Gather different team roles to discuss the feature, aka. "three amigos";
+2. Capture the feature into a story using scenarios, aka. [specification by example]();
+3. Write code to fulfil the acceptance criteria of that story;
+4. (optional) Write code to assert those criteria, aka. executable specification;
+5. (optional) Write code to merge all features into a single file, aka. living documentation.
+
+#### Three amigos
+
+
+
+> There are tools we can use during our three amigos sessions to help us. A testers goal is to generate questions and ensure the conversation stays inside the scope of the feature. As a tester, questions are your best tool for collaboration sessions.
+>
+> - [The five Ws - What, Who, Where, When, Why](https://en.wikipedia.org/wiki/Five_Ws)
+> - ‘This maybe a stupid question but…’ - Those stupid questions weed out a lot of assumptions
+> - ‘So just to confirm….’ - Again, verbalising what is required will weed out assumptions
+
+---
+
+
+#### Specification By Example (SBE)
+
+> Writing examples in Gherkin is hard. However, there is a new approach called Example mapping created by Matt Wynne. (LINK TO EXTRA/SBE) In short it uses different coloured post-it notes as visual aids to help keep track of rules (acceptance-criteria), examples (Gherkin scenarios) and questions
+>
+> -- https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/
+
+> **Red state** A Developer starts on the ‘outer wheel’ by using a Gherkin based tool to tie explicit user actions to the step of a scenario that creates a scenario that can’t be executed (Because the feature doesn’t exist). For example, a Developer may use Cucumber to trigger a series of Selenium WebDriver actions on a browser to simulate how a user would execute a scenario.
+>
+> **Green state** The Developer will then move into the ‘inner wheel’ and run a similar red, green and amber process on a lower lever. The Developer will use this pattern against individual methods using a different unit level automation tool multiple times to get all the production code working. This, in turn, provides code that means the ‘outer wheel’ automated scenario can be executed without issue.
+>
+> This process ensures that the Developer has delivered what is expected from the business, as well as informing the Developer when they are done.
+>
+> **Amber state** The Developer is now able to refactor their code and be informed if their changes are no longer delivering what the business expects.
+>
+> (DUPLICATED)
+>
+> That’s because OID _is not about Testing it’s about guidance_, and this is what Testers get wrong. The assumption from Testers is that because OID uses tools that are typically related to automated testing that must mean OID is automated testing.
+>
+> -- https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/
+
+more about it SBE (extra)
+
+#### Story
+
+```gherkin
+Title (one line describing the story)
+
+# Narrative #
+
+As a [role]
+I want [feature]
+So that [benefit]
+
+# Acceptance Criteria #
+
+Scenario: Title
+Given [context]
+When [action/event]
+Then [result]
+```
+
+> - The title should describe an activity
+> - The narrative should include a Role, a Feature and a Benefit
+> - The scenario title should say what’s different
+> - The scenario should be described in terms of Context, Actions and Results
+> - The givens should define all of, and no more than, the required context
+> - The action should describe the feature
+>
+> -- [Dan North](https://dannorth.net/whats-in-a-story/) 
+
+#### Living documentation (BDD)
+
+executable specifications
+
+\*.feature` to html reports. it takes your Specification (written in Gherkin, with Markdown descriptions) and turns them into an always up-to-date documentation of the current state of your software - in a variety of formats.
 
 
 
@@ -183,33 +243,16 @@ To make the acceptance test pass (green), multiple TDD cycles can be used but th
 
 > maybe too technical: https://dannorth.net/introducing-bdd/
 
-1. Specify features using examples/scenarios, aka. specification by example
-2. Cross functional conversation/collaboration, aka. 3 amigos
-3. Write code to fulfil those requirements
-4. (Optional) write code to assert those requirements, aka. executable specification
-5. (Optional) write code to merge all features into a single file, aka. living documentation
 
-> - The title should describe an activity
-> - The narrative should include a role, a feature and a benefit
-> - The scenario title should say what’s different
-> - The scenario should be described in terms of Context, Actions and Results
-> - The givens should define all of, and no more than, the required context
-> - The action should describe the feature
->
-> -- https://dannorth.net/whats-in-a-story/
 
-> There are tools we can use during our three amigos sessions to help us. A testers goal is to generate questions and ensure the conversation stays inside the scope of the feature. As a tester, questions are your best tool for collaboration sessions.
->
-> - [The five Ws - What, Who, Where, When, Why](https://en.wikipedia.org/wiki/Five_Ws)
-> - ‘This maybe a stupid question but…’ - Those stupid questions weed out a lot of assumptions
-> - ‘So just to confirm….’ - Again, verbalising what is required will weed out assumptions
+> - 
 >
 > Another tool, that is synonymous with BDD is Gherkin. Gherkin uses Given, When, Then syntax to allow us to create examples in the form of Scenarios to demonstrate how we might expect acceptance criteria to behave. For example:
->
+> 
 > ```gherkin
-> Given the user has not ordered yet
+>Given the user has not ordered yet
 > When the user adds a book into the shopping cart
-> Then a discount of 10% is applied to the total.
+>Then a discount of 10% is applied to the total.
 > ```
 
 > ```gherkin
@@ -245,31 +288,7 @@ To make the acceptance test pass (green), multiple TDD cycles can be used but th
 >
 > -- https://www.thoughtworks.com/insights/blog/specification-example
 
-### Specification by Example (BDD)
 
-> Writing examples in Gherkin is hard. However, there is a new approach called Example mapping created by Matt Wynne. (LINK TO EXTRA/SBE) In short it uses different coloured post-it notes as visual aids to help keep track of rules (acceptance-criteria), examples (Gherkin scenarios) and questions
->
-> -- https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/
-
-> **Red state** A Developer starts on the ‘outer wheel’ by using a Gherkin based tool to tie explicit user actions to the step of a scenario that creates a scenario that can’t be executed (Because the feature doesn’t exist). For example, a Developer may use Cucumber to trigger a series of Selenium WebDriver actions on a browser to simulate how a user would execute a scenario.
->
-> **Green state** The Developer will then move into the ‘inner wheel’ and run a similar red, green and amber process on a lower lever. The Developer will use this pattern against individual methods using a different unit level automation tool multiple times to get all the production code working. This, in turn, provides code that means the ‘outer wheel’ automated scenario can be executed without issue.
->
-> This process ensures that the Developer has delivered what is expected from the business, as well as informing the Developer when they are done.
->
-> **Amber state** The Developer is now able to refactor their code and be informed if their changes are no longer delivering what the business expects.
->
-> (DUPLICATED)
->
-> That’s because OID _is not about Testing it’s about guidance_, and this is what Testers get wrong. The assumption from Testers is that because OID uses tools that are typically related to automated testing that must mean OID is automated testing.
->
-> -- https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/
-
-### Living documentation (BDD)
-
-executable specifications
-
-\*.feature` to html reports. it takes your Specification (written in Gherkin, with Markdown descriptions) and turns them into an always up-to-date documentation of the current state of your software - in a variety of formats.
 
 ## Teachers
 
