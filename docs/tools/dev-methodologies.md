@@ -96,12 +96,12 @@ Using this common language, it's time to gather the team to write these stories 
 
 For every method or class you need to implement, repeat the "Red-Green-Refactor" cycle:
 
-1. Decide what code behaviour you want to implement.
-2. Write a set of unit tests that assert that behaviour.
-3. Run those tests. They should fail.
-4. Write enough code to make them pass.
-5. Run those tests. They should pass.
-6. (optional) Refactor the code. Repeat steps 4 and 5.
+1. Decide what code behaviour you want to implement;
+2. Write a set of unit tests that assert that behaviour;
+3. Run those tests -- they should fail;
+4. Write enough code to make them pass;
+5. Run those tests -- they should pass;
+6. Refactor the code, and repeat steps 4-5.
 
 These unit tests usually cover happy and sad paths (see [Test types: Unit tests]()).
 
@@ -109,12 +109,12 @@ These unit tests usually cover happy and sad paths (see [Test types: Unit tests]
 
 For every feature or acceptance criteria, repeat this cycle:
 
-1. Write a list of acceptance criteria to consider a feature done.
-2. Automate those criteria into acceptance tests.
-3. Run those tests. They should fail.
-4. Decide what code changes are necessary to pass those tests.
-   1. For each code change, perform the "Red-Green-Refactor" cycle.
-5. Run those tests. They should pass.
+1. Write a list of acceptance criteria to consider a feature done;
+2. Automate those criteria into acceptance tests;
+3. Run those tests -- they should fail;
+4. Decide what code changes are necessary to pass those tests;
+   1. (optional) For each code change, use the "Red-Green-Refactor" cycle;
+5. Run those tests -- they should pass.
 
 These acceptance tests usually cover just the happy path (see [Test types: Acceptance tests]()).
 
