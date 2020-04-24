@@ -73,6 +73,14 @@ Using this common language, it's time to gather the team to write these stories 
 >
 > -- [Dan Ashby](https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/)
 
+### Unit vs Acceptance
+
+> Unit tests are written by programers, using a programming language, to ensure that the code does what they intend it to do. Acceptance tests are written by business people (and QA), using an almost natural language, to make sure the code does what they intend it to do.
+>
+> It’s true that the two streams of tests test the same things. Indeed, that’s the point. The two together make sure that the business and programmers intend the same thing.
+>
+> -- [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests) 
+
 ## Practice
 
 ### TDD
@@ -230,52 +238,11 @@ To make the acceptance test pass (green), multiple TDD cycles can be used but th
 
 > maybe too technical: https://dannorth.net/introducing-bdd/
 
-
-
-> - 
->
-> Another tool, that is synonymous with BDD is Gherkin. Gherkin uses Given, When, Then syntax to allow us to create examples in the form of Scenarios to demonstrate how we might expect acceptance criteria to behave. For example:
-> 
-> ```gherkin
->Given the user has not ordered yet
-> When the user adds a book into the shopping cart
->Then a discount of 10% is applied to the total.
-> ```
-
-> ```gherkin
-> Scenario: User account level permissions and restrictions
-> Given the user [has] an account with [a certain access level]
-> When the search screen is viewed
-> Then the user [should see something]
->
-> | has           | a certain access level              | should see something                                                                     |
-> | has           | basic access privileges             | be able to search and read the results, but not edit them                                |
-> | has           | read only access                    | see a message saying the page is restricted and they cannot access                       |
-> | has           | admin privileges                    | be able to search and read the results, and can edit/action them but not delete them     |
-> | has           | super admin/tech support privileges | be able to search and read the results, and can edit/action them including deleting them |
-> | has           | anonymous privileges                | see a message saying the page is restricted and they cannot access                       |
-> | does not have | any privileges                      | see a message saying the page is restricted and they cannot access                       |
-> ```
->
-> -- https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/
-
-> There are teams ignoring the collaborative side of BDD, focusing too much on using a Gherkin syntax as means to build test cases and misunderstanding the purpose of Outside-in development to focus on automating test coverage. It’s important to remember that Gherkin is for development guidance, not test coverage.
->
-> -- https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/
-
-> - Specifications, not scripts: she should move to less workflow based scenarios but more specifications about what is needed, as these are easier to understand, more precise and testable;
-> - Abstract: the specification should be abstract enough to highlight the detail, remove the noise, and not being tied to the implementation of the user interface;
-> - Ubiquitous language: the language used by the team and specifications should be consistent throughout the development process to ensure a shared understanding;
-> - Edge cases: unusual variances should be specified to ensure clarity of expectations: “things that seem obvious kill us, if something sounds obvious, that’s where the danger is”;
-> - Key examples: each decision point should have 5 - 6 key examples, and not more, so it is clear what is expected. These can be created by focussing on the differences between existing scenarios;
-> - End-to-End flows: only a few (1-3) end-to-end flows, not a combination of every decision point combination
-> - Accessible: publishing the specifications so Janet, Dave and others can easily access the latest versions.
->
-> a whole example from automation > cucumber > gherkin > living doc
+> - Abstract: the scenarios should be high-level enough to hide details and implementations;
+> - Language: terminology should be consistent to ensure a shared understanding;
+> - Flows: only a few (1-3) end-to-end flows, not a combination of every decision point.
 >
 > -- https://www.thoughtworks.com/insights/blog/specification-example
-
-
 
 ## Teachers
 
