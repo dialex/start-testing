@@ -133,8 +133,6 @@ Detailing a feature into a story using scenarios is hard. SBE is an old concept 
 
 For a detailed guide on how to use this technique in practice, continue to this [notebook page](/notebook/specification-by-example).
 
----
-
 #### Story
 
 ```gherkin
@@ -163,7 +161,7 @@ Then [result]
 >
 > -- [Dan North](https://dannorth.net/whats-in-a-story/) 
 
-
+----
 
 #### Living documentation (BDD)
 
