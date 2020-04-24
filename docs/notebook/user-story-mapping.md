@@ -33,7 +33,7 @@ Story mapping is an engaging activity where all stakeholders participate on buil
 - Use stickers like dots or stars to represent special notations (out of scope, spikes)
 - Use smaller post-its to capture assumptions, follow-ups or questions
 
-## Author
+## Teachers
 
 - [Jeff Patton](https://jpattonassociates.com/blog/)
 
