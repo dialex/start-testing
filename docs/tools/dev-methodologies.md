@@ -123,30 +123,17 @@ Your role in these sessions is to generate questions and ensure the conversation
 >
 > -- [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/)
 
----
-
-
 #### Specification By Example (SBE)
 
-> Writing examples in Gherkin is hard. However, there is a new approach called Example mapping created by Matt Wynne. (LINK TO EXTRA/SBE) In short it uses different coloured post-it notes as visual aids to help keep track of rules (acceptance-criteria), examples (Gherkin scenarios) and questions
->
-> -- https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/
+Detailing a feature into a story using scenarios is hard. SBE is an old concept but it was recently popularised by [Gojko Adzic](https://gojko.net/books/specification-by-example/)'s book. The goal of these specifications is to "improve quality, reduce rework and collaborate better".
 
-> **Red state** A Developer starts on the ‘outer wheel’ by using a Gherkin based tool to tie explicit user actions to the step of a scenario that creates a scenario that can’t be executed (Because the feature doesn’t exist). For example, a Developer may use Cucumber to trigger a series of Selenium WebDriver actions on a browser to simulate how a user would execute a scenario.
->
-> **Green state** The Developer will then move into the ‘inner wheel’ and run a similar red, green and amber process on a lower lever. The Developer will use this pattern against individual methods using a different unit level automation tool multiple times to get all the production code working. This, in turn, provides code that means the ‘outer wheel’ automated scenario can be executed without issue.
->
-> This process ensures that the Developer has delivered what is expected from the business, as well as informing the Developer when they are done.
->
-> **Amber state** The Developer is now able to refactor their code and be informed if their changes are no longer delivering what the business expects.
->
-> (DUPLICATED)
->
-> That’s because OID _is not about Testing it’s about guidance_, and this is what Testers get wrong. The assumption from Testers is that because OID uses tools that are typically related to automated testing that must mean OID is automated testing.
->
-> -- https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/
+[Matt Wynne](https://cucumber.io/blog/bdd/example-mapping-introduction/) then proposed a simplified implementation of SBE called Example Mapping.
 
-more about it SBE (extra)
+> A low-tech method for making this conversation (three amigos) short and powerfully productive. In short, it uses different coloured post-it notes as visual aids to help keep track of rules (acceptance-criteria), examples (Gherkin scenarios) and questions.
+
+For a detailed guide on how to use this technique in practice, continue to this [notebook page](/notebook/specification-by-example).
+
+---
 
 #### Story
 
@@ -175,6 +162,8 @@ Then [result]
 > - The action should describe the feature
 >
 > -- [Dan North](https://dannorth.net/whats-in-a-story/) 
+
+
 
 #### Living documentation (BDD)
 
