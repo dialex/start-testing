@@ -197,14 +197,26 @@ He highlights several requirements of a successful BDD, here are a few:
 
 ## Teachers
 
-- Dan North
+- Dan North (author of BDD)
 - Liz Keogh
+- Alister Scott
+- Mark Winterigham
+- Dan Ashby
 
 ## Sources
 
-- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
-- https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/
-- https://dannorth.net/whats-in-a-story/
-- https://lizkeogh.com/2015/03/27/what-is-bdd/
-- https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/
+- https://cucumber.io/blog/bdd/example-mapping-introduction/
 - https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/
+- https://dannorth.net/whats-in-a-story/
+- https://gojko.net/books/specification-by-example/
+- https://lizkeogh.com/2011/03/04/step-away-from-the-tools/
+- https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/
+- https://lizkeogh.com/2014/01/22/using-bdd-with-legacy-systems/
+- https://lizkeogh.com/2015/03/27/what-is-bdd/
+- https://sites.google.com/site/unclebobconsultingllc/
+- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
+- https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/
+- https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/
+- https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/
+- https://www.stickyminds.com/sites/default/files/magazine/file/2013/3971888.pdf
+- https://www.thoughtworks.com/insights/blog/specification-example
