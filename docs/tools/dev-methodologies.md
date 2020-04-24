@@ -96,7 +96,7 @@ For every feature or acceptance criteria, repeat this cycle:
 2. Automate those criteria into acceptance tests;
 3. Run those tests -- they should fail;
 4. Decide what code changes are necessary to pass those tests;
-   1. (optional) For each code change, use the "Red-Green-Refactor" cycle;
+   - (optional) For each code change, use the "Red-Green-Refactor" cycle;
 5. Run those tests -- they should pass.
 
 These acceptance tests usually cover just the happy path (see [Test types: Acceptance tests]()).
@@ -113,13 +113,15 @@ For every feature:
 
 #### Three amigos
 
+Your role in these sessions is to generate questions and ensure the conversation stays inside the scope of the feature. It's also a good opportunity to evaluate the [testability](/concepts/testability) of that feature.
 
-
-> There are tools we can use during our three amigos sessions to help us. A testers goal is to generate questions and ensure the conversation stays inside the scope of the feature. As a tester, questions are your best tool for collaboration sessions.
+> As a tester, questions are your best tool for collaboration sessions:
 >
-> - [The five Ws - What, Who, Where, When, Why](https://en.wikipedia.org/wiki/Five_Ws)
-> - ‘This maybe a stupid question but…’ - Those stupid questions weed out a lot of assumptions
-> - ‘So just to confirm….’ - Again, verbalising what is required will weed out assumptions
+> - "What, Who, Where, When, Why" - see [**`WWWWWHEK`** mnemonic](/tools/mnemonics)
+> - "Maybe this is a stupid question but…" - Those questions identify a lot of assumptions
+> - "So just to confirm…" - Rephrasing with your own words validates your understanding
+>
+> -- [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/)
 
 ---
 
