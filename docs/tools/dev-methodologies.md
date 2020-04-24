@@ -121,9 +121,11 @@ For every feature:
 
 #### Three amigos
 
+As [Liz Keogh](https://lizkeogh.com/2011/03/04/step-away-from-the-tools/) puts it: "There are things about your domain that you don’t know or you’ve misunderstood; by talking through examples in groups, the chances of uncovering these gaps is increased."
+
 Your role in these sessions is to generate questions and ensure the conversation stays inside the scope of the feature. It's also a good opportunity to evaluate the [testability](/concepts/testability) of that feature.
 
-> As a tester, questions are your best tool for collaboration sessions:
+> A tester using BDD will be able to ask questions, collect information and help identify risks to inform other testing activities. Questions are your best tool for collaboration sessions:
 >
 > - "What, Who, Where, When, Why" - see [**`WWWWWHEK`** mnemonic](/tools/mnemonics)
 > - "Maybe this is a stupid question but…" - Those questions identify a lot of assumptions
@@ -177,66 +179,15 @@ If you automated your scenarios, most likely you have a collection of `*.feature
 
 The end goal is to have an automated process that reads your scenarios, transforms them into clean web pages, and publishes them online for any team member to access. That means you will have an always up-to-date documentation of the current functionality of your software -- that's the origin of the term *living* documentation.
 
----
+#### All together now!
 
-> There are things about your domain that you don’t know or you’ve misunderstood. By talking through examples in groups, the chances of uncovering these gaps is increased.
+> There are teams ignoring the collaborative side of BDD, focusing too much on using a Gherkin syntax as means to build test cases and (...) focus on automating test coverage. It’s important to remember that Gherkin is for development guidance, not test coverage.
 >
-> -- [Liz Keogh](https://lizkeogh.com/2011/03/04/step-away-from-the-tools/)
+> -- [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/)
 
-> Testers tend to perceive BDD as the use of Gherkin syntax and automation. Testers tend to pay very little attention to the collaborative aspects of BDD.
->
-> -- [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/)
+[Alister Scott](https://www.thoughtworks.com/insights/blog/specification-example) wrote a blog post about a fictional team, illustrating their journey from ATDD to BDD, highlighting the difficulties along the way. They start with automated acceptance checks (ATDD), then convert them to Gherkin scenarios (BDD), and finally end with living documentation (BDD).
 
-> a mechanism for describing the behaviour of code and providing examples, without using the word “test”, because it turned out that this clarified a lot of the confusion
->
-> -- https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/
-
-> A tester using BDD will be able to ask questions, collect information and help identify risks to inform other testing activities.
->
-> -- [Mark W](https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/)
-
-### ATDD
-
-> At the end, all the acceptance tests (and unit tests) are passing. There is no hand-off to Testers to make sure the system does what it is supposed to. The acceptance tests already prove that the system is working (according to spec).
->
-> This does not mean that Testers do not put their hands on the keyboard and their eyes on the screen. They do! (...) They perform _exploratory testing_. They get _creative_. They do what Testers are really good at—they find new and interesting ways to break the system. They uncover under-specified areas of the system.
->
-> So, in short, the business specifies the system with automated acceptance tests. Programmers run those tests to see what unit tests need to be written. The unit tests force them to write production code that passes both tests. In the end, all the tests pass. In the middle of the iteration, QA changes from writing automated tests, to exploratory testing.
->
-> -- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
-
-### Unit vs Acceptance
-
-To make the acceptance test pass (green), multiple TDD cycles can be used but this is not mandatory.
-
-> recommended by the Agile disciplines. Unit tests, which are written by programmers, for programmers, in a programming language. And acceptance tests, which are written by business people (and QA), for business people, in a high level specification language
->
-> It’s true that the two streams of tests test the same things. Indeed, that’s the point. Unit tests are written by programers to ensure that the code does what they intend it to do. Acceptance tests are written by business people (and QA) to make sure the code does what they intend it to do. The two together make sure that the business people and programmers intend the same thing.
->
-> programmers must go to great lengths to decouple the components of the system in order to test them independently. Therefore unit tests seldom exercise large integrated chunks of the system. Acceptance tests operate on much larger integrated chunks of the system. (black box)
->
-> -- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
-
-### ATDD vs BDD
-
-> the biggest difference between BDD and ATDD was the way in which BDD enabled a common language between users and business stakeholders. Nowadays, is mainly wording. The difference is that one is called Behaviour Driven Development – and some people find that wording useful – and one (or two) is called (Acceptance) Test Driven Development – and some people find that wording useful in a different way.
->
-> And that’s it.
->
-> -- https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/
-
-> BDD gives a clearer understanding as to what the system should do from the perspective of the developer and the customer. TDD only gives the developer an understanding of what the system should do.
->
-> -- https://www.linkedin.com/pulse/agile-development-difference-between-tddatddbdd-komal-sureka/
-
-- BDD focuses on the behavioural aspect of the system rather unlike the TDD focuses on the implementation aspect of the system.
-- TDD uses white box testing (implementation). ATDD uses black box testing (behaviour).
-
-## Practice
-
-### Story (BDD)
-
-> maybe too technical: https://dannorth.net/introducing-bdd/
+He highlights several requirements of a successful BDD, here are a few:
 
 > - Abstract: the scenarios should be high-level enough to hide details and implementations;
 > - Language: terminology should be consistent to ensure a shared understanding;
