@@ -161,15 +161,13 @@ Then [result]
 >
 > -- [Dan North](https://dannorth.net/whats-in-a-story/) 
 
-----
-
 #### Living documentation (BDD)
 
-executable specifications
+If your team decides to code automated checks for each scenario (i.e. executable specification) then you can go a step further and achieve living documentation.
 
-\*.feature` to html reports. it takes your Specification (written in Gherkin, with Markdown descriptions) and turns them into an always up-to-date documentation of the current state of your software - in a variety of formats.
+If you automated your scenarios, most likely you have a collection of `*.feature` files. You can find (or build) a tool that reads these files and automatically generates web pages (`*.html` files).
 
-
+The end goal is to have an automated process that reads your scenarios, transforms them into clean web pages, and publishes them online for any team member to access. That means you will have an always up-to-date documentation of the current functionality of your software -- that's the origin of the term *living* documentation.
 
 ---
 
