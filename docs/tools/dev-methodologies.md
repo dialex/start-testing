@@ -192,15 +192,15 @@ He highlights several requirements of a successful BDD, here are a few:
 > - Abstract: the scenarios should be high-level enough to hide details and implementations;
 > - Language: terminology should be consistent to ensure a shared understanding;
 > - Flows: only a few (1-3) end-to-end flows, not a combination of every decision point.
->
 
 ## Teachers
 
-- Dan North (author of BDD)
-- Liz Keogh
-- Alister Scott
-- Mark Winterigham
-- Dan Ashby
+- [Alister Scott](https://watirmelon.blog/)
+- [Dan Ashby](https://danashby.co.uk/)
+- [Dan North](https://dannorth.net/) (author of BDD)
+- [Gáspár Nagy](http://gasparnagy.com/)
+- [Liz Keogh](https://lizkeogh.com)
+- [Mark Winterigham](https://www.mwtestconsultancy.co.uk/)
 
 ## Sources
 
