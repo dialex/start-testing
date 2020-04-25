@@ -78,7 +78,7 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
   - UI: Is the error message understandable by users?
   - Recovery: Does the message help users recover from the error? Can they contact support?
   - Emotions: What does a user feel when an error occurs? Does the error message ease or worsen that pain?
-- **When a bug is found: `REACT`** by [Brendan Connolly](http://www.brendanconnolly.net/react-to-bugs/)  (adapted from [**`RIMGEA`**](https://searchsoftwarequality.techtarget.com/tip/Software-testing-is-improved-by-good-bug-reporting))
+- **When a bug is found: `REACT`** by [Brendan Connolly](http://www.brendanconnolly.net/react-to-bugs/) (adapted from [**`RIMGEA`**](https://www.kenst.com/2018/02/how-to-write-a-good-bug-report-use-rimgen/))
   - Reproduce
   - Explore
   - Analyse
@@ -248,7 +248,7 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
 - [PROOF](https://jonbox.wordpress.com/)
 - [RCRCRC](https://testandcode.com/38)
 - [REACT](http://www.brendanconnolly.net/react-to-bugs/)
-- [RIMGEA](https://searchsoftwarequality.techtarget.com/tip/Software-testing-is-improved-by-good-bug-reporting)
+- [RIMGEA](https://www.kenst.com/2018/02/how-to-write-a-good-bug-report-use-rimgen/)
 - [SACKED SCOWS](https://testsidestory.com/2010/03/16/a-lesson-learned-from-james-bach/)
 - [SACRED](https://youtu.be/z9m_yZMswOQ?t=56)
 - [SFDIPOT](https://www.satisfice.com/download/heuristic-test-strategy-model)
