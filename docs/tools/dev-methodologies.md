@@ -193,7 +193,6 @@ He highlights several requirements of a successful BDD, here are a few:
 > - Language: terminology should be consistent to ensure a shared understanding;
 > - Flows: only a few (1-3) end-to-end flows, not a combination of every decision point.
 >
-> -- https://www.thoughtworks.com/insights/blog/specification-example
 
 ## Teachers
 
@@ -205,18 +204,17 @@ He highlights several requirements of a successful BDD, here are a few:
 
 ## Sources
 
-- https://cucumber.io/blog/bdd/example-mapping-introduction/
-- https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/
-- https://dannorth.net/whats-in-a-story/
-- https://gojko.net/books/specification-by-example/
-- https://lizkeogh.com/2011/03/04/step-away-from-the-tools/
-- https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/
-- https://lizkeogh.com/2014/01/22/using-bdd-with-legacy-systems/
-- https://lizkeogh.com/2015/03/27/what-is-bdd/
-- https://sites.google.com/site/unclebobconsultingllc/
-- https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests
-- https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/
-- https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/
-- https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/
-- https://www.stickyminds.com/sites/default/files/magazine/file/2013/3971888.pdf
-- https://www.thoughtworks.com/insights/blog/specification-example
+- [ATDD vs. BDD, and a potted history of some related stuff](https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/)
+- [BDD and the real primary purpose of feature files](https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/)
+- [Introducing Example Mapping](https://cucumber.io/blog/bdd/example-mapping-introduction/)
+- [Is BDD testing? (part 2)](https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/)
+- [Is BDD testing? (part 3)](https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/)
+- [Is BDD testing? (part 4)](https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/)
+- [Specification by Example (book)](https://gojko.net/books/specification-by-example/)
+- [Specification by Example (example)](https://www.thoughtworks.com/insights/blog/specification-example)
+- [Step Away from the Tools](https://lizkeogh.com/2011/03/04/step-away-from-the-tools/)
+- [TDD with Acceptance Tests and Unit Tests](https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests)
+- [The Three Amigos: all for one, one for all](https://www.stickyminds.com/sites/default/files/magazine/file/2013/3971888.pdf)
+- [Using BDD with Legacy Systems](https://lizkeogh.com/2014/01/22/using-bdd-with-legacy-systems/)
+- [What is BDD?](https://lizkeogh.com/2015/03/27/what-is-bdd/)
+- [What's in a story?](https://dannorth.net/whats-in-a-story/)
