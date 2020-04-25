@@ -10,7 +10,7 @@
     "ci:pipeline": "npm-run-all lint:markdown lint:spelling",
     "deps:clean": "rm -f package-lock.json && rm -rf node_modules",
     "deps:install": "npm ci",
-    "deps:upgrade": "npx ncu -u && npm run deps:clean && npm update && npm audit fix",
+    "deps:upgrade": "npx ncu -u && npm run deps:clean && npm install && npm audit fix",
     "fix": "npm-run-all fix:*",
     "fix:spelling": "mdspell 'docs/**/*.md' --en-gb --ignore-numbers --ignore-acronyms",
     "fix:ellipsis": "find docs -type f -name '*.md' | xargs sed -i '' 's/\\.\\.\\./…/g'",
