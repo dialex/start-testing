@@ -8,7 +8,7 @@ Neither of these methodologies are testing. They are development practices that 
 
 ### TDD: (Unit) Test Driven Development
 
-> Write [unit tests]() before writing the code that makes those tests pass.
+> Write [unit tests](/types) before writing the code that makes those tests pass.
 
 The TDD cycle can be summarised as "Red-Green-Refactor". First, you write a set of unit tests that describe the code behaviour that you want to implement. If you run those tests, they will be failing (red), because that behaviour is not yet implemented. Second, you write the simplest code required to make those tests pass (green). If you wanted, you could stop here. Usually developers go a step further and improve that code to be more resilient and maintainable (refactor).
 
@@ -16,7 +16,7 @@ The TDD cycle can be summarised as "Red-Green-Refactor". First, you write a set 
 
 ### ATDD: Acceptance Test Driven Development
 
-> Write [acceptance tests]() before writing the code that makes those tests pass.
+> Write [acceptance tests](/types) before writing the code that makes those tests pass.
 
 The ATDD cycle follows the same "Red-Green-Refactor" from TDD. The difference is the type of test that is created in the "Red" step. In fact, the two methodologies can be used together, as [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests) illustrates: "a developer runs the acceptance tests and notices what fails; then they write unit tests that force them to write the code that will make some small portion of the acceptance tests pass; they keep running the acceptance tests to see how much is working as expected, and they keep adding unit tests and code until all the acceptance tests pass".
 
@@ -27,12 +27,12 @@ The ATDD cycle follows the same "Red-Green-Refactor" from TDD. The difference is
 > OID works by using automation tools combined with scenarios from a collaborative session to create a guide for Developers; this results in ensuring Developers develop what the business wants.
 >
 > — [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/)
-
+>
 > (…) people started working _outside-in_, from the User Interface (UI) through which users experienced the system's behaviour, to the controllers, models, microservices (API), classes, etc., until they finally had working software that mattered to the stakeholders (…)
 >
 > — [Liz Keogh](https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/)
 
-OID is starts very similar to ATDD. Both methodologies start by specifying the behaviour of your system as seen from the outside (see [black box testing]()). These specifications tell developers what their code needs to accomplish.
+OID is starts very similar to ATDD. Both methodologies start by specifying the behaviour of your system as seen from the outside (see [black box testing](/types)). These specifications tell developers what their code needs to accomplish.
 
 There's a small difference though. OID is not so prescriptive about test automation as ATDD is. Listen to [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/): "The assumption from Testers is that because OID uses tools that are typically related to automated testing that must mean OID is automated testing. OID helps Developers design good code and deliver what the business really wants. Not deliver testing."
 
@@ -51,7 +51,7 @@ BDD is an OID methodology. It starts at the outside by identifying business outc
 >
 > — [Liz Keogh](https://lizkeogh.com/2014/01/22/using-bdd-with-legacy-systems/)
 
-Each feature is captured as a "story". Stories are descriptions of [requirements]() and their business benefits. They use a language agreed and understood by everyone — product owner, developer and tester. It includes a set of acceptance criteria, a list of statements that must be true to declare the story "done".
+Each feature is captured as a "story". Stories are descriptions of [requirements](/concepts/requirements.md) and their business benefits. They use a language agreed and understood by everyone — product owner, developer and tester. It includes a set of acceptance criteria, a list of statements that must be true to declare the story "done".
 
 > This will likely be an iterative process. The stakeholder will have an idea of what they want but will not know how much work will be involved. With the help of the technical and testing experts, they will understand the cost/benefit of each scenario and make a judgement about whether they want it.
 >
@@ -68,7 +68,7 @@ Using this common language, it's time to gather the team to write these stories 
 > We involve members from testing, development, and business in an informal meeting that is more typically known as "[Three amigos](https://www.stickyminds.com/sites/default/files/magazine/file/2013/3971888.pdf)" to discuss and question what we plan to build. The goal is to dispel any incorrect assumptions (…) and ignorance we have around what we want to deliver.
 >
 > — [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/)
-
+>
 > The output of these conversations is our feature files, with scenarios that provide examples of the features, based on the information that we have uncovered throughout the collaborative conversations.
 >
 > — [Dan Ashby](https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/)
@@ -94,7 +94,7 @@ For every method or class you need to implement, repeat the "Red-Green-Refactor"
 5. Run those tests — they should pass;
 6. Refactor the code, and repeat steps 4-5.
 
-These unit tests usually cover happy and sad paths (see [Test types: Unit tests]()).
+These unit tests usually cover happy and sad paths (see [Test types: Unit tests](/types)).
 
 ### ATDD
 
@@ -107,14 +107,14 @@ For every feature or acceptance criteria, repeat this cycle:
    - (optional) For each code change, use the "Red-Green-Refactor" cycle;
 5. Run those tests — they should pass.
 
-These acceptance tests usually cover just the happy path (see [Test types: Acceptance tests]()).
+These acceptance tests usually cover just the happy path (see [Test types: Acceptance tests](/types)).
 
 ### BDD
 
 For every feature:
 
 1. Gather different team roles to discuss the feature, aka. "three amigos";
-2. Capture the feature into a story using scenarios, aka. [specification by example]();
+2. Capture the feature into a story using scenarios, aka. [specification by example](/notebook/specification-by-example.md);
 3. Write code to fulfil the acceptance criteria of that story;
 4. (optional) Write code to assert those criteria, aka. executable specification;
 5. (optional) Write code to merge all features into a single file, aka. living documentation.
