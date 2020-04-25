@@ -18,7 +18,7 @@
   - [Charters](/tools/charters.md)
   - [Oracles](/tools/oracles.md)
   - ~~Test strategy~~
-  - ~~Test methodologies~~
+  - [Development methodologies](/tools/dev-methodologies.md)
   - ~~Test pyramid~~
   - ~~Tools~~
 - **Test types**

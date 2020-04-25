@@ -2,6 +2,8 @@
 
 > **tl;dr** A practice that translates business goals into scenarios that can be tested and automated.
 
+This particular way of doing SBE is called Example Mapping.
+
 **What you will be using**:
 
 - User Stories (⭐️ yellow) are written by POs/BAs and summarise the desired functionality
@@ -55,11 +57,13 @@
 - Living doc is in sync with code and anyone in the team can understand it
 - Unit tests are technology facing; the AC are Business facing; both support the team and are fully automated
 
-## Author
+## Teachers
 
-- [Gojko Adzic](https://gojko.net/)
+- [Matt Wynne](https://cucumber.io/blog/authors/matt/) (Example Mapping)
+- [Gojko Adzic](https://gojko.net/) (Specification By Example)
 
 ## Sources
 
 - [What is Specification by Example](https://blog.red-badger.com/blog/2012/07/31/what-is-specification-by-example)
 - [Introducing Example Mapping](https://medium.com/@mattwynne/introducing-example-mapping-42ccd15f8adf)
+- [Specification by Example](https://www.thoughtworks.com/insights/blog/specification-example) (exercise)
