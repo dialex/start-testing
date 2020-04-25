@@ -1,10 +1,10 @@
 # Development methodologies
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** TDD, ATDD and BDD are different development practices that favour quality.
 
 ## Theory
 
-Neither of these methodologies are testing. They are development practices that favour or foster quality, which in turn make testing easier.
+Neither of these methodologies are testing. They are development practices that foster quality, which in turn make testing easier.
 
 ### TDD: (Unit) Test Driven Development
 
