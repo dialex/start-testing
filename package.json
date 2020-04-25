@@ -7,7 +7,7 @@
     "bump:time": "open -t ./time-counter.txt",
     "c": "npm run commit",
     "commit": "npx git-cz",
-    "ci": "npm-run-all lint:markdown lint:spelling",
+    "ci:pipeline": "npm-run-all lint:markdown lint:spelling",
     "deps:clean": "rm -f package-lock.json && rm -rf node_modules",
     "deps:install": "npm ci",
     "deps:upgrade": "npx ncu -u && npm run deps:clean && npm update && npm audit fix",

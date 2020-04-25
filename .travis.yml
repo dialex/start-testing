@@ -3,10 +3,10 @@ node_js:
   - "node"
 
 install:
-  - npm run build
+  - npm run deps:install
 
 script:
-  - npm run ci
+  - npm run ci:pipeline
 
 branches:
   only:
