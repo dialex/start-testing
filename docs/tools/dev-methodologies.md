@@ -12,7 +12,7 @@ Neither of these methodologies are testing. They are development practices that 
 
 The TDD cycle can be summarised as "Red-Green-Refactor". First, you write a set of unit tests that describe the code behaviour that you want to implement. If you run those tests, they will be failing (red), because that behaviour is not yet implemented. Second, you write the simplest code required to make those tests pass (green). If you wanted, you could stop here. Usually developers go a step further and improve that code to be more resilient and maintainable (refactor).
 
-> Unit tests tell if the code does what the developer expected it to do, at the method level, in isolation from the rest of the codebase.
+Unit tests tell if the code does what the developer expected it to do, at the method level, in isolation from the rest of the codebase.
 
 ### ATDD: Acceptance Test Driven Development
 
@@ -20,7 +20,7 @@ The TDD cycle can be summarised as "Red-Green-Refactor". First, you write a set 
 
 The ATDD cycle follows the same "Red-Green-Refactor" from TDD. The difference is the type of test that is created in the "Red" step. In fact, the two methodologies can be used together, as [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests) illustrates: "a developer runs the acceptance tests and notices what fails; then they write unit tests that force them to write the code that will make some small portion of the acceptance tests pass; they keep running the acceptance tests to see how much is working as expected, and they keep adding unit tests and code until all the acceptance tests pass".
 
-> Acceptance tests tell if the code does what the product/client expected it to do, at the system level, in collaboration with the rest of the codebase.
+Acceptance tests tell if the code does what the product/client expected it to do, at the system level, in collaboration with the rest of the codebase.
 
 ### OID: Outside-In Development
 
@@ -72,14 +72,6 @@ Using this common language, it's time to gather the team to write these stories 
 > The output of these conversations is our feature files, with scenarios that provide examples of the features, based on the information that we have uncovered throughout the collaborative conversations.
 >
 > — [Dan Ashby](https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/)
-
-### Unit vs Acceptance
-
-> Unit tests are written by programmers, using a programming language, to ensure that the code does what they intend it to do. Acceptance tests are written by business people (and QA), using an almost natural language, to make sure the code does what they intend it to do.
->
-> It's true that the two streams of tests test the same things. Indeed, that's the point. The two together make sure that the business and programmers intend the same thing.
->
-> — [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests)
 
 ## Practice
 
