@@ -22,6 +22,7 @@
 ## API
 
 - 💯 Postman ([app](https://www.postman.com/)):
+- 💯 Wiremock ([CLI](http://wiremock.org/)): simulates API responses according to your configuration (mock)
 
 ## Web testing frameworks
 
@@ -38,7 +39,7 @@
 
 ## Mobile testing
 
-- 🤷‍♂️ Appium
+- 🤷‍♂️ Appium ([CLI](http://appium.io/)): cross-platform test automation tool for mobile, web and desktop apps; open-source
 
 ## Cross-browser testing
 
