@@ -6,7 +6,7 @@
 
 - 💯 highly recomended
 - ⭐️ better than the average
-- 🤔 still needs a proper review
+- 🤷‍♂️ still needs a proper review
 
 ## UI - Accessibility
 
@@ -38,20 +38,20 @@
 
 ## Mobile testing
 
-- 🤔 Appium
+- 🤷‍♂️ Appium
 
 ## Cross-browser testing
 
 - BrowserStack ([SaaS](https://www.browserstack.com/)): run the same tests, in parallel, on multiple browsers
-- 🤔 SauceLabs ([SaaS](https://saucelabs.com/)): run the same tests, in parallel, on multiple browsers
+- 🤷‍♂️ SauceLabs ([SaaS](https://saucelabs.com/)): run the same tests, in parallel, on multiple browsers
 
 ## SEO
 
-- 🤔 Tag Assistant ([extension](https://chrome.google.com/webstore/detail/tag-assistant-by-google/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en)): troubleshoot installation of Google tags (analytics, tag manager, etc.)
+- 🤷‍♂️ Tag Assistant ([extension](https://chrome.google.com/webstore/detail/tag-assistant-by-google/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en)): troubleshoot installation of Google tags (analytics, tag manager, etc.)
 
 ## Security
 
-- 🤔 Request Maker ([extension](https://chrome.google.com/webstore/detail/request-maker/kajfghlhfkcocafkcjlajldicbikpgnp)): capture requests made by web pages, tamper with the URL, headers and POST data
+- 🤷‍♂️ Request Maker ([extension](https://chrome.google.com/webstore/detail/request-maker/kajfghlhfkcocafkcjlajldicbikpgnp)): capture requests made by web pages, tamper with the URL, headers and POST data
 
 ## Monitoring & Dashboards
 
@@ -66,8 +66,8 @@
 
 ## Emails
 
-- 🤔 Mailinator ([SaaS](https://www.mailinator.com/)): create public test inbox, use API to query emails received (no sign-up)
-- 🤔 Mapil ([Saas](https://mapil.co/)): create private test inbox, use API to query emails received (requires sign-up)
+- 🤷‍♂️ Mailinator ([SaaS](https://www.mailinator.com/)): create public test inbox, use API to query emails received (no sign-up)
+- 🤷‍♂️ Mapil ([Saas](https://mapil.co/)): create private test inbox, use API to query emails received (requires sign-up)
 - ⭐️ Litmus ([SaaS](https://litmus.com/)): preview the same email on multiple email clients and devices
 
 ## Bug reporting
@@ -78,18 +78,18 @@
 
 ## Visual (regression) testing
 
-- 🤔 Applitools ([SaaS](https://applitools.com/)): screenshots your pages and detects visual changes between executions
-- 🤔 Chromatic ([SaaS](www.chromatic.com)): screenshots your pages and detects visual changes between executions
-- 🤔 Wraith ([CLI](https://github.com/BBC-News/wraith)): screenshots your pages and detects visual changes locally; open-source
-- 🤔 Appraise ([CLI](https://github.com/AppraiseQA/appraise)): screenshots your pages and detects visual changes locally; open-source
-- 🤔 Galen Framework ([CLI](http://galenframework.com/)): test location of UI components relative to each other using DSL; open-source
+- 🤷‍♂️ Applitools ([SaaS](https://applitools.com/)): screenshots your pages and detects visual changes between executions
+- 🤷‍♂️ Chromatic ([SaaS](www.chromatic.com)): screenshots your pages and detects visual changes between executions
+- 🤷‍♂️ Wraith ([CLI](https://github.com/BBC-News/wraith)): screenshots your pages and detects visual changes locally; open-source
+- 🤷‍♂️ Appraise ([CLI](https://github.com/AppraiseQA/appraise)): screenshots your pages and detects visual changes locally; open-source
+- 🤷‍♂️ Galen Framework ([CLI](http://galenframework.com/)): test location of UI components relative to each other using DSL; open-source
 
 ## BUCKET
 
 - [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
-- 🤔 Nightwatch
-- 🤔 Testcafe
-- 🤔 Puppeteer
+- 🤷‍♂️ Nightwatch
+- 🤷‍♂️ Testcafe
+- 🤷‍♂️ Puppeteer
 - ⚠️ **TODO: CHECK MY EXTENSIONS**
 
 ## Sources
