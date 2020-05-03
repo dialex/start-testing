@@ -56,8 +56,8 @@
 ## Monitoring & Dashboards
 
 - 💯 Grafana ([SaaS](https://grafana.com/)): open-source monitoring, log analysis and dashboards
-- ⭐️ Datadog ([SaaS](https://www.datadoghq.com/)): closed-sourced monitoring, log analysis and dashboards
-- PowerBI ([SaaS](https://powerbi.microsoft.com/)): Microsoft's closed-sourced dashboards
+- ⭐️ Datadog ([SaaS](https://www.datadoghq.com/)): closed-source monitoring, log analysis and dashboards
+- PowerBI ([SaaS](https://powerbi.microsoft.com/)): Microsoft's closed-source dashboards
 
 ## Documentation
 
