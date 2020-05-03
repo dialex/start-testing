@@ -64,16 +64,25 @@
 - 💯 Typora ([app](https://typora.io/)): cross-platform Markdown editor with embedded live preview; pleasant UX; distraction free UI; exports to PDF, HTML and more
 - 💯 Marp Next ([IDE/CLI/SaaS](https://marp.app/)): create slide decks using Markdown with live preview
 
-## Test email inbox
+## Emails
 
 - 🤔 Mailinator ([SaaS](https://www.mailinator.com/)): create public test inbox, use API to query emails received (no sign-up)
 - 🤔 Mapil ([Saas](https://mapil.co/)): create private test inbox, use API to query emails received (requires sign-up)
+- ⭐️ Litmus ([SaaS](https://litmus.com/)): preview the same email on multiple email clients and devices
 
 ## Bug reporting
 
 - 💯 Licecap ([app](https://www.cockos.com/licecap/)): cross-platform screen recorder to compressed GIF
 - 💯 Full page screen capture ([extension](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl/related?hl=en)): create a screenshot of the entire web page
 - Lightshot ([extension](https://chrome.google.com/webstore/detail/lightshot-screenshot-tool/mbniclmhobmnbdlbpiphghaielnnpgdp?hl=en)): take a screenshot and annotate it
+
+## Visual (regression) testing
+
+- 🤔 Applitools ([SaaS](https://applitools.com/)): screenshots your pages and detects visual changes between executions
+- 🤔 Chromatic ([SaaS](www.chromatic.com)): screenshots your pages and detects visual changes between executions
+- 🤔 Wraith ([CLI](https://github.com/BBC-News/wraith)): screenshots your pages and detects visual changes locally; open-source
+- 🤔 Appraise ([CLI](https://github.com/AppraiseQA/appraise)): screenshots your pages and detects visual changes locally; open-source
+- 🤔 Galen Framework ([CLI](http://galenframework.com/)): test location of UI components relative to each other using DSL; open-source
 
 ## BUCKET
 
