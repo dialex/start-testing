@@ -6,7 +6,8 @@
 
 - 💯 highly recomended
 - ⭐️ better than the average
-- 🤷‍♂️ still needs a proper review
+- 🤷‍♂️ still needs a proper revie
+- A tool might not be listed if it is too expensive, closed-source, or not good enough
 
 ## UI - Accessibility
 
