@@ -25,7 +25,9 @@
 - 💯 Postman ([app](https://www.postman.com/)):
 - 💯 Wiremock ([CLI](http://wiremock.org/)): simulates API responses according to your configuration (mock)
 
-## Web testing frameworks
+## Test automation
+
+### Web (acceptance tests)
 
 - 💯 [Cypress](https://www.cypress.io/): acceptance tests in JavaScript ([review]())
 - [SpecFlow](https://specflow.org/): acceptance tests in .NET/C#
@@ -33,15 +35,29 @@
 - 🤷‍♂️ [Selenide](https://selenide.org/): acceptance tests in Java
 - [Robot Framework](https://robotframework.org/): acceptance tests in Python ([review]())
 - [Capybara](https://github.com/teamcapybara/capybara): acceptance tests in Ruby
+- 🤷‍♂️ [Mabl](https://www.mabl.com/) (SaaS): code-less UI/acceptance tests for web; allows record & play
 
-## Web testing libraries
+### Web (unit)
+
+- [Jasmine](https://jasmine.github.io/): write/run unit tests in JavaScript
+
+- ⭐️ [Mocha](https://mochajs.org/) + [Chai](https://www.chaijs.com/) + [Sinon](https://sinonjs.org/): write/run unit tests in JavaScript
+
+- 🤷‍♂️ [Intern](https://theintern.io/): unit/acceptance tests in JavaScript
+
+- 🤷‍♂️ [Codeception](https://codeception.com/): unit/api/acceptance tests in PHP
+
+### Mobile
+
+  - 🤷‍♂️ [Appium](http://appium.io/): cross-platform test framework for web, mobile and desktop apps
+  - 🤷‍♂️ [Katalon Studio](https://www.katalon.com/katalon-studio/): code-less tests for web, mobile and desktop
+
+### Libraries
 
 - 💯 [RestAssured](https://github.com/rest-assured/rest-assured): API testing in Java
-- [Testing library](https://testing-library.com/): methods to query the DOM in a way that's similar to how the user finds elements on the page
+- [Testing library](https://testing-library.com/): methods to query the DOM like how the user finds elements on the page
+- 💯 [the-internet](https://the-internet.herokuapp.com/): examples of UI components, ready for your automation experiments
 
-## Mobile testing
-
-- 🤷‍♂️ Appium ([CLI](http://appium.io/)): cross-platform test automation tool for mobile, web and desktop apps; open-source
 
 ## Cross-browser testing
 
@@ -129,6 +145,8 @@
 - Exploration >> TestBuddy
 
 ⚠️ **TODO: REVIEW ACTIVE VOICE (e.g. capture -> captures)**
+
+⚠️ **TODO: MOVE LINKS TO NAMES instead of e.g. (SaaS)**
 
 ## Sources
 
