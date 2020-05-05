@@ -20,13 +20,14 @@
 
 - [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) (extension): overlap UI mockup on top of your page and look for mismatches
 - [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) (extension): pick any color from your web page
+- [CSS Selector Tester](https://chrome.google.com/webstore/detail/css-selector-tester/bbklnaodgoocmcdejoalmbjihhdkbfon) (extension): given a CSS selector, highlights the selection in the page itself 
 
 ## API
 
 - 💯 [Postman](https://www.postman.com/) (app/cli): interact/mock APIs, automate checks, collaborate with your team
 - 💯 Wiremock ([CLI](http://wiremock.org/)): simulates API responses according to your configuration (mock)
 
-## Test automation
+## Automation in testing
 
 ### Web (acceptance tests)
 
@@ -60,6 +61,10 @@
 - [Testing library](https://testing-library.com/): methods to query the DOM like how the user finds elements on the page
 - 💯 [the-internet](https://the-internet.herokuapp.com/): examples of UI components, ready for your automation experiments
 - 🤷‍♂️ [Stryker](https://stryker-mutator.io/): mutation testing for JavaScript/.NET
+
+## Exploration in testing
+
+- [ExploratoryTesting](https://chrome.google.com/webstore/detail/exploratory-testing-chrom/khigmghadjljgjpamimgjjmpmlbgmekj) (extension): report bugs, ideas, notes and questions as you explore; export as HTML
 
 ## Productivity
 
