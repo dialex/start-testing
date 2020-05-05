@@ -65,6 +65,7 @@
 - 💯 VS Code
   - extensions here
 - 💯 Fork
+- [Form Filler](https://chrome.google.com/webstore/detail/form-filler/bnjjngeaknajbdcgpfkgnonkmififhfo) (extension): automates form filling with testing data
 
 ## Cross-browser testing
 
