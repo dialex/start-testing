@@ -30,21 +30,22 @@
 ### Web (acceptance tests)
 
 - 💯 [Cypress](https://www.cypress.io/): acceptance tests in JavaScript ([review]())
+- 🤷‍♂️ [Nightwatch](https://nightwatchjs.org/): acceptance tests in JavaScript
+- 🤷‍♂️ [Testcafe](https://devexpress.github.io/testcafe/): acceptance tests in JavaScript
 - [SpecFlow](https://specflow.org/): acceptance tests in .NET/C#
 - [Serenity](https://github.com/serenity-bdd/serenity-core): acceptance tests in Java
 - 🤷‍♂️ [Selenide](https://selenide.org/): acceptance tests in Java
 - [Robot Framework](https://robotframework.org/): acceptance tests in Python ([review]())
-- [Capybara](https://github.com/teamcapybara/capybara): acceptance tests in Ruby
+- 🤷‍♂️ [Capybara](https://github.com/teamcapybara/capybara): acceptance tests in Ruby (DSL)
+- 🤷‍♂️ [Watir](http://watir.com/): acceptance tests in Ruby (OO)
 - 🤷‍♂️ [Mabl](https://www.mabl.com/) (SaaS): code-less UI/acceptance tests for web; allows record & play
 
 ### Web (unit)
 
-- [Jasmine](https://jasmine.github.io/): write/run unit tests in JavaScript
-
-- ⭐️ [Mocha](https://mochajs.org/) + [Chai](https://www.chaijs.com/) + [Sinon](https://sinonjs.org/): write/run unit tests in JavaScript
-
+- 💯 [Jest](https://jestjs.io/): unit tests in Javascript
+- ⭐️ [Mocha](https://mochajs.org/) + [Chai](https://www.chaijs.com/) + [Sinon](https://sinonjs.org/): unit tests in JavaScript
 - 🤷‍♂️ [Intern](https://theintern.io/): unit/acceptance tests in JavaScript
-
+- [RSpec](https://rspec.info/): unit tests in Ruby
 - 🤷‍♂️ [Codeception](https://codeception.com/): unit/api/acceptance tests in PHP
 
 ### Mobile
@@ -58,6 +59,11 @@
 - [Testing library](https://testing-library.com/): methods to query the DOM like how the user finds elements on the page
 - 💯 [the-internet](https://the-internet.herokuapp.com/): examples of UI components, ready for your automation experiments
 
+## Productivity
+
+- 💯 VS Code
+  - extensions here
+- 💯 Fork
 
 ## Cross-browser testing
 
@@ -136,9 +142,7 @@
 
 - [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
 - 💯 Bookmarklet ([SaaS](https://mrcoles.com/bookmarklet/)): stores Javascript code as a browser bookmark button
-- 🤷‍♂️ Nightwatch
-- 🤷‍♂️ Testcafe
-- 🤷‍♂️ Puppeteer
+- 
 
 ⚠️ **TODO: CHECK MY EXTENSIONS** and installed tools
 
