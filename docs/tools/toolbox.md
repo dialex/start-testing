@@ -64,7 +64,8 @@
 
 ## Exploration in testing
 
-- [ExploratoryTesting](https://chrome.google.com/webstore/detail/exploratory-testing-chrom/khigmghadjljgjpamimgjjmpmlbgmekj) (extension): report bugs, ideas, notes and questions as you explore; export as HTML
+- 🤷‍♂️ [ExploratoryTesting](https://chrome.google.com/webstore/detail/exploratory-testing-chrom/khigmghadjljgjpamimgjjmpmlbgmekj) (extension): report bugs, ideas, notes and questions as you explore; export as HTML
+- 🤷‍♂️ [Test & Feedback](https://chrome.google.com/webstore/detail/test-feedback/gnldpbnocfnlkkicnaplmkaphfdnlplb) (extension): report bugs and tasks as you explore; export as HTML; VSTS integration
 
 ## Productivity
 
@@ -72,6 +73,8 @@
   - extensions here
 - 💯 Fork
 - [Form Filler](https://chrome.google.com/webstore/detail/form-filler/bnjjngeaknajbdcgpfkgnonkmififhfo) (extension): automates form filling with testing data
+- Clippy
+- 🤷‍♂️ [Vysor](https://www.vysor.io/): control your Android from your laptop
 
 ## Cross-browser testing
 
@@ -97,6 +100,7 @@
 - 💯 Grafana ([SaaS](https://grafana.com/)): open-source monitoring, log analysis and dashboards
 - ⭐️ Datadog ([SaaS](https://www.datadoghq.com/)): closed-source monitoring, log analysis and dashboards
 - PowerBI ([SaaS](https://powerbi.microsoft.com/)): Microsoft's closed-source dashboards
+- 🤷‍♂️ [TestRail](https://www.gurock.com/testrail/) (SaaS): stores test results and provides statistics and dashboards
 
 ## Documentation
 
@@ -104,8 +108,9 @@
 - 💯 Marp Next ([IDE/CLI/SaaS](https://marp.app/)): create slide decks using Markdown with live preview
 - 💯 Mermaid.js ([SaaS](https://mermaid-js.github.io/mermaid/#/)): generates diagrams from markdown text
 - 💯 Mindmup ([Saas](https://www.mindmup.com/)): draw mind maps directly in Google Drive, with real-time collaboration
+- 💯 XMind (app): draw mind maps offline with a clean/professional look; pleasant UX
 
-## Test reporting
+## Reporting
 
 - 🤷‍♂️ Allure ([cli](https://github.com/allure-framework/allure2)): reads your test execution data and generates an HTML report
 - Mochawesome ([cli](https://github.com/adamgruber/mochawesome#readme)): reads your JavaScript test execution data and generates an HTML report
