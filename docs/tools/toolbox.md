@@ -10,7 +10,7 @@ Legend:
 
 - 💯 highly recomended
 - ⭐️ better than the average
-- 🤷‍♂️ still needs a proper revie
+- ❔🤷‍♂️ still needs a proper revie
 - A tool might not be listed if it is too expensive, closed-source, or not good enough
 
 ## UI - Accessibility
@@ -164,6 +164,11 @@ Legend:
 
 - 🤷‍♂️ InVision ([SaaS](https://www.invisionapp.com/)): prototype mobile and web apps (can be functional or just designs)
 - 🤷‍♂️ Marvel ([SaaS](https://marvelapp.com/)): prototype mobile and web apps (can be functional or just designs)
+
+## Community
+
+- 💯 [Testers.io](http://www.testers.io/) - Ministry of Testing's Slack community; ask for advice or join the discussion
+- 💯 [Testing Conferences](https://testingconferences.org/) - live list and alerts about testing conferences, worldwide
 
 ## Lists of resources
 
