@@ -150,8 +150,9 @@
 
 ## Checklists
 
-- [API security checklist](https://github.com/shieldfy/API-Security-Checklist): most important security concerns when developing your API
+- 💯 [Front-End-Checklist](https://frontendchecklist.io/): interactive front-end checklist for modern websites and meticulous developers
 - [Web page functionality checklist](https://www.ministryoftesting.com/dojo/lessons/checklist-for-testing-web-page-functionality): most common and basic issues that affect web pages
+- [API security checklist](https://github.com/shieldfy/API-Security-Checklist): most important security concerns when developing your API
 
 -----
 
