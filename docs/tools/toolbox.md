@@ -146,6 +146,8 @@
 - ℹ️ [The "awesome" manifesto](https://github.com/sindresorhus/awesome/blob/master/awesome.md): enumerates the requirements for an awesomely curated list
 - [Awesome falsehood](https://github.com/kdeldycke/awesome-falsehood): biases that influence developers' decisions
 - [Awesome hacking](https://github.com/Hack-with-Github/Awesome-Hacking): repositories useful to hackers, pentesters and security researchers
+- [Awesome pentest](https://github.com/enaqx/awesome-pentest): tools and resources useful for penetration testing
+- [Awesome test automation](https://github.com/atinfo/awesome-test-automation/blob/master/README.md): list of frameworks, tools and libraries for different programming languages
 - [Big list of naughty strings](https://github.com/minimaxir/big-list-of-naughty-strings): strings with a high probability of causing issues when used as input data
 - [FreeLearningResourcesForSoftwareTesters](https://github.com/PaulWaltersDev/FreeLearningResourcesForSoftwareTesters): exactly what the name suggests
 
