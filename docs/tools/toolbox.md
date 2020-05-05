@@ -2,7 +2,11 @@
 
 > **tl;dr** SUMMARY_HERE
 
-**Legend**:
+TODO
+
+As Mark Winteringham says "problem first, tools second".
+
+Legend:
 
 - 💯 highly recomended
 - ⭐️ better than the average
@@ -64,6 +68,7 @@
 
 ## Exploration in testing
 
+- [RapidReporter](http://testing.gershon.info/reporter/) (app): distraction free note taking during exploratory sessions
 - 🤷‍♂️ [ExploratoryTesting](https://chrome.google.com/webstore/detail/exploratory-testing-chrom/khigmghadjljgjpamimgjjmpmlbgmekj) (extension): report bugs, ideas, notes and questions as you explore; export as HTML
 - 🤷‍♂️ [Test & Feedback](https://chrome.google.com/webstore/detail/test-feedback/gnldpbnocfnlkkicnaplmkaphfdnlplb) (extension): report bugs and tasks as you explore; export as HTML; VSTS integration
 
@@ -75,6 +80,7 @@
 - [Form Filler](https://chrome.google.com/webstore/detail/form-filler/bnjjngeaknajbdcgpfkgnonkmififhfo) (extension): automates form filling with testing data
 - Clippy
 - 🤷‍♂️ [Vysor](https://www.vysor.io/): control your Android from your laptop
+- 
 
 ## Cross-browser testing
 
@@ -95,18 +101,23 @@
 
 - 💯 OWASP ZAP ([app](https://www.zaproxy.org/)): scans your website for the [OWASP Top 10](https://owasp.org/www-project-top-ten/) vulnerabilities     
 
-## Monitoring & Dashboards
+## App monitoring & Dashboards
 
 - 💯 Grafana ([SaaS](https://grafana.com/)): open-source monitoring, log analysis and dashboards
 - ⭐️ Datadog ([SaaS](https://www.datadoghq.com/)): closed-source monitoring, log analysis and dashboards
+- [Splunk](https://www.splunk.com/) (SaaS): closed-source monitoring, log analysis and dashboards
 - PowerBI ([SaaS](https://powerbi.microsoft.com/)): Microsoft's closed-source dashboards
+
+## Test monitoring
+
 - 🤷‍♂️ [TestRail](https://www.gurock.com/testrail/) (SaaS): stores test results and provides statistics and dashboards
 
 ## Documentation
 
 - 💯 Typora ([app](https://typora.io/)): cross-platform Markdown editor with embedded live preview; pleasant UX; distraction free UI; exports to PDF, HTML and more
 - 💯 Marp Next ([IDE/CLI/SaaS](https://marp.app/)): create slide decks using Markdown with live preview
-- 💯 Mermaid.js ([SaaS](https://mermaid-js.github.io/mermaid/#/)): generates diagrams from markdown text
+- 💯 Mermaid.js ([SaaS](https://mermaid-js.github.io/mermaid/#/)): create diagrams using Markdown with live preview
+- ⭐️ [Diagrams.net](http://diagrams.net/) (SaaS/app): share a canvas with a colleague and draw anything collaboratively
 - 💯 Mindmup ([Saas](https://www.mindmup.com/)): draw mind maps directly in Google Drive, with real-time collaboration
 - 💯 XMind (app): draw mind maps offline with a clean/professional look; pleasant UX
 
