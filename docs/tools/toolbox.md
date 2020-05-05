@@ -105,6 +105,7 @@ Legend:
 
 - 💯 Grafana ([SaaS](https://grafana.com/)): open-source monitoring, log analysis and dashboards
 - ⭐️ Datadog ([SaaS](https://www.datadoghq.com/)): closed-source monitoring, log analysis and dashboards
+- ⭐️ [New Relic](https://newrelic.com/) (SaaS): closed-source monitoring, log analysis and dashboards
 - [Splunk](https://www.splunk.com/) (SaaS): closed-source monitoring, log analysis and dashboards
 - PowerBI ([SaaS](https://powerbi.microsoft.com/)): Microsoft's closed-source dashboards
 
