@@ -12,13 +12,14 @@
 ## UI - Accessibility
 
 - 💯 Webhint ([IDE/CLI/extension](https://webhint.io/)): checks your web page for browser compatibility, acessibility, performance and security issues, plus common mistakes; neat report; proper issue justification and mitigation
-- ⭐️ wave ([extension](https://wave.webaim.org/)): check your web page for compliance with WCAG; the issues are displayed contextually on the page itself; for each issue, an explanation in simple English is provided
+- ⭐️ WAVE ([extension](https://wave.webaim.org/)): check your web page for compliance with WCAG; the issues are displayed contextually on the page itself; for each issue, an explanation in simple English is provided
 - axe ([extension](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd)): the standard for online accessibility checking; test results are not as visually appealing as the other tools
 - HTML validator ([extension](https://chrome.google.com/webstore/detail/html-validator/mpbelhhnfhfjnaehkcnnaknldmnocglk)): checks the [markup validity](https://validator.w3.org/docs/help.html#validation_basics) of your web page
 
 ## UI - Design?
 
-- [Google Design](https://design.google/resources/)
+- [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) (extension): overlap UI mockup on top of your page and look for mismatches
+- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) (extension): pick any color from your web page
 
 ## API
 
@@ -135,6 +136,7 @@
 
 - 💯 Ghostery ([extension](https://chrome.google.com/webstore/detail/ghostery-–-privacy-ad-blo/mlomiejdfkolichcflejclcbmpeaniij)): measures the number of ads and trackers in a specific page
 - 💯 TunnelBear ([app](https://www.tunnelbear.com/)): pretends your machine is in a different country with a different IP
+- ⭐️ [User Agent Switcher](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg) (extension): easily switch between user-agent strings
 
 ## Prototyping
 
