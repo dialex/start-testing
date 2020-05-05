@@ -140,12 +140,7 @@
 - 🤷‍♂️ InVision ([SaaS](https://www.invisionapp.com/)): prototype mobile and web apps (can be functional or just designs)
 - 🤷‍♂️ Marvel ([SaaS](https://marvelapp.com/)): prototype mobile and web apps (can be functional or just designs)
 
-## ⚠️ BUCKET
-
-- [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
-- 💯 Bookmarklet ([SaaS](https://mrcoles.com/bookmarklet/)): stores Javascript code as a browser bookmark button
-
-## "Awesome" lists
+## Lists of resources
 
 - ℹ️ [The "awesome" manifesto](https://github.com/sindresorhus/awesome/blob/master/awesome.md): enumerates the requirements for an awesomely curated list
 - [Awesome falsehood](https://github.com/kdeldycke/awesome-falsehood): biases that influence developers' decisions
@@ -156,10 +151,14 @@
 ## Checklists
 
 - [API security checklist](https://github.com/shieldfy/API-Security-Checklist): most important security concerns when developing your API
+- [Web page functionality checklist](https://www.ministryoftesting.com/dojo/lessons/checklist-for-testing-web-page-functionality): most common and basic issues that affect web pages
 
 -----
 
+## ⚠️ BUCKET
 
+- [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
+- 💯 Bookmarklet ([SaaS](https://mrcoles.com/bookmarklet/)): stores Javascript code as a browser bookmark button
 
 ⚠️ **TODO: CHECK MY EXTENSIONS** and installed tools
 
