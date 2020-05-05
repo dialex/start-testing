@@ -22,7 +22,7 @@
 
 ## API
 
-- 💯 Postman ([app](https://www.postman.com/)):
+- 💯 [Postman](https://www.postman.com/) (app/cli): interact/mock APIs, automate checks, collaborate with your team
 - 💯 Wiremock ([CLI](http://wiremock.org/)): simulates API responses according to your configuration (mock)
 
 ## Test automation
@@ -58,6 +58,7 @@
 - 💯 [RestAssured](https://github.com/rest-assured/rest-assured): API testing in Java
 - [Testing library](https://testing-library.com/): methods to query the DOM like how the user finds elements on the page
 - 💯 [the-internet](https://the-internet.herokuapp.com/): examples of UI components, ready for your automation experiments
+- 🤷‍♂️ [Stryker](https://stryker-mutator.io/): mutation testing for JavaScript/.NET
 
 ## Productivity
 
@@ -127,6 +128,7 @@
 - ⭐️ JMeter ([app](https://jmeter.apache.org/)): load tests your website and measures performance
 - 🤷‍♂️ Gatling ([app/SaaS](https://gatling.io/)): load tests your website displays results in dashboards
 - 🤷‍♂️ Sitespeed.io ([app](https://www.sitespeed.io/)): monitors and measures the performance of your web site
+- 🤷‍♂️ [chaosmonkey](https://github.com/Netflix/chaosmonkey) (CLI): resilience test that randomly terminates production VMs and containers
 
 ## Privacy
 
@@ -142,11 +144,27 @@
 
 - [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
 - 💯 Bookmarklet ([SaaS](https://mrcoles.com/bookmarklet/)): stores Javascript code as a browser bookmark button
-- 
+
+## "Awesome" lists
+
+- ℹ️ [The "awesome" manifesto](https://github.com/sindresorhus/awesome/blob/master/awesome.md): enumerates the requirements for an awesomely curated list
+- [Awesome falsehood](https://github.com/kdeldycke/awesome-falsehood): biases that influence developers' decisions
+- [Awesome hacking](https://github.com/Hack-with-Github/Awesome-Hacking): repositories useful to hackers, pentesters and security researchers
+- [Big list of naughty strings](https://github.com/minimaxir/big-list-of-naughty-strings): strings with a high probability of causing issues when used as input data
+- [FreeLearningResourcesForSoftwareTesters](https://github.com/PaulWaltersDev/FreeLearningResourcesForSoftwareTesters): exactly what the name suggests
+
+## Checklists
+
+- [API security checklist](https://github.com/shieldfy/API-Security-Checklist): most important security concerns when developing your API
+
+-----
+
+
 
 ⚠️ **TODO: CHECK MY EXTENSIONS** and installed tools
 
 - Exploration >> TestBuddy
+- 💯 [BugMagnet](https://chrome.google.com/webstore/detail/bug-magnet/efhedldbjahpgjcneebmbolkalbhckfi): quick access to test strings relevant for boundary testing
 
 ⚠️ **TODO: REVIEW ACTIVE VOICE (e.g. capture -> captures)**
 
