@@ -70,7 +70,7 @@ Legend:
 - 🤷‍♂️ [ExploratoryTesting](https://chrome.google.com/webstore/detail/exploratory-testing-chrom/khigmghadjljgjpamimgjjmpmlbgmekj) (extension): report bugs/ideas/notes/questions as you explore; export as HTML
 - 🤷‍♂️ [Test & Feedback](https://chrome.google.com/webstore/detail/test-feedback/gnldpbnocfnlkkicnaplmkaphfdnlplb) (extension): report bugs/tasks as you explore; export as HTML; VSTS integration
 
-## ⚠️⚠️⚠️ Productivity
+## Productivity
 
 - 💯 [VS Code](https://code.visualstudio.com/): lightweight and extensible IDE for almost any language; cross-platform
   - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): tasks for Git (git blame, file history, compare view, etc.)
@@ -85,11 +85,15 @@ Legend:
   - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): meaningful and colorful icons on files and folders
 - 💯 [Fork](https://git-fork.com/): visual client for Git; cross-platform
 - ⭐️ [Form Filler](https://chrome.google.com/webstore/detail/form-filler/bnjjngeaknajbdcgpfkgnonkmififhfo) (extension): automates form filling with testing data
-- 💯 [Clippy](https://github.com/Clipy/Clipy): clipboard manager with support for code snippets
+- 💯 [Clipy](https://github.com/Clipy/Clipy): clipboard manager with support for code snippets
+- 💯 [F.lux](https://justgetflux.com/): automatically reduces the blue light of your screen as night comes
 - 🤷‍♂️ [Vysor](https://www.vysor.io/): control your Android from your laptop
 - [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/): test your app on IE11 and Edge Legacy using Win10 VMs
-- 💯 [Bookmarklet](https://mrcoles.com/bookmarklet/) (SaaS): stores Javascript code as a browser bookmark button
+- 💯 [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/blob/master/README.md): prevents your Mac to enter screensaver/sleep mode (useful when pairing)
+- ⭐️ [Bookmarklet](https://mrcoles.com/bookmarklet/) (SaaS): stores Javascript code as a browser bookmark button
 - 💯 [BugMagnet](https://chrome.google.com/webstore/detail/bug-magnet/efhedldbjahpgjcneebmbolkalbhckfi) (extension): quick access to test strings relevant for boundary testing
+- ⭐️ [Meld](https://meldmerge.org/): visual diff and merge tool for individual files or entire folders
+- 💯 [Rectangle](https://rectangleapp.com/): move/resize windows using shortcuts or snap areas
 
 ## Cross-browser testing
 
@@ -201,6 +205,6 @@ Legend:
 
 ---
 
-⚠️ **TODO: CHECK MY EXTENSIONS** and installed tools
+⚠️ **TODO: CHECK MY EXTENSIONS**
 
 - Exploration >> TestBuddy
