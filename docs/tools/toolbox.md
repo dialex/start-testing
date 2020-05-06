@@ -198,6 +198,3 @@ Legend:
 
 - Exploration >> TestBuddy
 - 💯 [BugMagnet](https://chrome.google.com/webstore/detail/bug-magnet/efhedldbjahpgjcneebmbolkalbhckfi): quick access to test strings relevant for boundary testing
-## Sources
-
-- [title](#link)
