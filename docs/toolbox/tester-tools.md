@@ -84,7 +84,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 
 ## 🤖 AUTOMATION
 
-### Web (acceptance tests)
+### Acceptance tests
 
 - 💯 [Cypress](https://www.cypress.io/): acceptance tests in JavaScript ([review](/toolbox/framework/cypress))
 - 🤷‍♂️ [Nightwatch](https://nightwatchjs.org/): acceptance tests in JavaScript
@@ -97,7 +97,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 - 🤷‍♂️ [Watir](http://watir.com/): acceptance tests in Ruby (OO)
 - 🤷‍♂️ [Mabl](https://www.mabl.com/) (SaaS): code-less UI/acceptance tests for web; allows record & play
 
-### Web (visual regression)
+### Visual regression
 
 - 🤷‍♂️ [Applitools](https://applitools.com/) (SaaS): screenshots your pages and detects visual changes between executions
 - 🤷‍♂️ [Chromatic](https://www.chromatic.com/) (SaaS): screenshots your pages and detects visual changes between executions
@@ -105,10 +105,11 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 - 🤷‍♂️ [Appraise](https://github.com/AppraiseQA/appraise) (cli): screenshots your pages and detects visual changes locally; open-source
 - 🤷‍♂️ [Galen Framework](http://galenframework.com/) (cli): tests location of UI components relative to each other using DSL; open-source
 
-### Web (unit)
+### Unit tests
 
-- 💯 [Jest](https://jestjs.io/): unit tests in Javascript
+- 💯 [Jest](https://jestjs.io/): unit tests in JavaScript
 - ⭐️ [Mocha](https://mochajs.org/) + [Chai](https://www.chaijs.com/) + [Sinon](https://sinonjs.org/): unit tests in JavaScript
+- 🤷‍♂️ [Tape](https://github.com/substack/tape): unit tests in JavaScript
 - 🤷‍♂️ [Intern](https://theintern.io/): unit/acceptance tests in JavaScript
 - [RSpec](https://rspec.info/): unit tests in Ruby
 - 🤷‍♂️ [Codeception](https://codeception.com/): unit/API/acceptance tests in PHP
