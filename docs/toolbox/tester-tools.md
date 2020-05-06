@@ -125,6 +125,8 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 - 💯 [the-internet](https://the-internet.herokuapp.com/): examples of UI components, ready for your automation experiments
 - [Testing library](https://testing-library.com/): query the DOM like the user finds elements on the page
 - 🤷‍♂️ [Stryker](https://stryker-mutator.io/): mutation testing for JavaScript/.NET
+- 🤷‍♂️ [JSVerify](https://jsverify.github.io/): property-based testing for JavaScript
+- 🤷‍♂️ [junit-quickcheck](https://github.com/pholser/junit-quickcheck/): property-based testing for Java
 
 ## 📥 EMAIL
 
