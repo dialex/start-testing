@@ -11,13 +11,13 @@ Legend:
 - 🤷‍♂️ still needs a proper review
 - A tool might not be listed if it is too expensive, closed-source, or not good enough
 
-## 📋 Checklists
+## 📋 CHECKLISTS
 
 - 💯 [Front-End-Checklist](https://frontendchecklist.io/): interactive front-end checklist for modern websites and meticulous developers
 - [Web page functionality checklist](https://www.ministryoftesting.com/dojo/lessons/checklist-for-testing-web-page-functionality): most common and basic issues that affect web pages
 - [API security checklist](https://github.com/shieldfy/API-Security-Checklist): most important security concerns when developing your API
 
-## 🏎 Productivity
+## 🏎 PRODUCTIVITY
 
 - 💯 [VS Code](https://code.visualstudio.com/) (app): lightweight and extensible IDE for almost any language; cross-platform
   - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): tasks for Git (git blame, file history, compare view, etc.)
@@ -43,7 +43,7 @@ Legend:
 - 🤷‍♂️ [Vysor](https://www.vysor.io/) (app): control your Android from your laptop
 - [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/): test your app on IE11 and Edge Legacy using Win10 VMs
 
-## 🎨 Front-end
+## 🎨 FRONT-END
 
 ### Prototyping
 
@@ -63,7 +63,7 @@ Legend:
 - ⭐️ [WAVE](https://wave.webaim.org/) (extension): check your web page for compliance with WCAG; the issues are displayed contextually on the page itself; an explanation in simple English is provided for each issue
 - [axe](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd) (extension): the standard for online accessibility checking; UI/UX is not as pleasant
 
-## 💻 Back-end
+## 💻 BACK-END
 
 ### API
 
@@ -76,14 +76,14 @@ Legend:
 - 🤷‍♂️ [Fidder](https://www.telerik.com/fiddler) (app): same as Wireshark and let's you fiddle with the request/response
 - 🤷‍♂️ [Request Maker](https://chrome.google.com/webstore/detail/request-maker/kajfghlhfkcocafkcjlajldicbikpgnp) (extension): same as Fiddler
 
-## ⛺️ Exploration in testing
+## ⛺️ EXPLORATION
 
 - 💯 [TestBuddy](https://testbuddy.co/) (SaaS): report bugs/ideas/notes/questions as you explore; export as PDF
 - [RapidReporter](http://testing.gershon.info/reporter/) (app): distraction free note taking during exploratory sessions
 - 🤷‍♂️ [ExploratoryTesting](https://chrome.google.com/webstore/detail/exploratory-testing-chrom/khigmghadjljgjpamimgjjmpmlbgmekj) (extension): report bugs/ideas/notes/questions as you explore; export as HTML
 - 🤷‍♂️ [Test & Feedback](https://chrome.google.com/webstore/detail/test-feedback/gnldpbnocfnlkkicnaplmkaphfdnlplb) (extension): report bugs/tasks as you explore; export as HTML; VSTS integration
 
-## 🤖 Automation in testing
+## 🤖 AUTOMATION
 
 ### Web (acceptance tests)
 
@@ -126,13 +126,13 @@ Legend:
 - [Testing library](https://testing-library.com/): query the DOM like the user finds elements on the page
 - 🤷‍♂️ [Stryker](https://stryker-mutator.io/): mutation testing for JavaScript/.NET
 
-## 📥 Email
+## 📥 EMAIL
 
 - 🤷‍♂️ [Mailinator](https://www.mailinator.com/) (SaaS): create a public test inbox, use their API to query emails received (no sign-up)
 - 🤷‍♂️ [Mapil](https://mapil.co/) (Saas): create a private test inbox, use their API to query emails received (requires sign-up)
 - ⭐️ [Litmus](https://litmus.com/) (SaaS): preview the same email on multiple email clients and devices
 
-## 🔒 Non-functional requirements
+## 🔒 NON-FUNCTIONAL REQUIREMENTS
 
 ### Cross-browser testing
 
@@ -162,7 +162,7 @@ Legend:
 - ⭐️ [Check My Links](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf) (extension): checks your web page for broken links
 - 🤷‍♂️ [Tag Assistant](https://chrome.google.com/webstore/detail/tag-assistant-by-google/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en) (extension): troubleshoots Google tags (analytics, tag manager, etc.)
 
-## 📊 Monitoring & Dashboards
+## 📊 MONITORING & DASHBOARDS
 
 ### App
 
@@ -176,7 +176,7 @@ Legend:
 
 - 🤷‍♂️ [TestRail](https://www.gurock.com/testrail/) (SaaS): stores test results and provides statistics and dashboards
 
-## 📄 Reporting
+## 📄 REPORTING
 
 ### Test results
 
@@ -190,7 +190,7 @@ Legend:
 - 💯 [Full page screen capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl/related?hl=en) (extension): take single a screenshot of an entire web page
 - [Lightshot](https://chrome.google.com/webstore/detail/lightshot-screenshot-tool/mbniclmhobmnbdlbpiphghaielnnpgdp?hl=en) (extension): take a screenshot and annotate it
 
-## ✍ Documentation
+## ✍ DOCUMENTATION
 
 - 💯 [Typora](https://typora.io/) (app]): cross-platform Markdown editor with embedded live preview; pleasant and distraction free UX; exports to PDF, HTML and more
 - 💯 [Marp Next](https://marp.app/) (IDE/cli/SaaS): create slide decks using Markdown with live preview
@@ -199,12 +199,12 @@ Legend:
 - 💯 [XMind](https://www.xmind.net/) (app): draw mind maps offline with a clean/professional look; pleasant UX
 - ⭐️ [Diagrams.net](http://diagrams.net/) (SaaS/app): share a canvas with a colleague and draw anything collaboratively
 
-## 💬 Community
+## 💬 COMMUNITY
 
 - 💯 [Testers.io](http://www.testers.io/) - Ministry of Testing's Slack community; ask for advice or join the discussion
 - 💯 [Testing Conferences](https://testingconferences.org/) - live list (and alerts) about worldwide testing conferences
 
-## 🌍 Lists of resources
+## 🌍 LISTS OF RESOURCES
 
 - _[The "awesome" manifesto](https://github.com/sindresorhus/awesome/blob/master/awesome.md): enumerates the requirements for an awesomely curated list_
 - ⭐️ [Awesome falsehood](https://github.com/kdeldycke/awesome-falsehood): biases that influence developers' decisions
