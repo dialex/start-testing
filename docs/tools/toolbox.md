@@ -13,21 +13,21 @@ Legend:
 
 ## UI - Accessibility
 
-- 💯 Webhint ([IDE/CLI/extension](https://webhint.io/)): checks your web page for browser compatibility, acessibility, performance and security issues, plus common mistakes; neat report; proper issue justification and mitigation
-- ⭐️ WAVE ([extension](https://wave.webaim.org/)): check your web page for compliance with WCAG; the issues are displayed contextually on the page itself; for each issue, an explanation in simple English is provided
-- axe ([extension](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd)): the standard for online accessibility checking; test results are not as visually appealing as the other tools
-- HTML validator ([extension](https://chrome.google.com/webstore/detail/html-validator/mpbelhhnfhfjnaehkcnnaknldmnocglk)): checks the [markup validity](https://validator.w3.org/docs/help.html#validation_basics) of your web page
+- 💯 [Webhint](https://webhint.io/) (IDE/cli/extension): checks your web page for browser compatibility, acessibility, performance and security issues, plus common mistakes; neat report; proper issue justification and mitigation
+- ⭐️ [WAVE](https://wave.webaim.org/) (extension): check your web page for compliance with WCAG; the issues are displayed contextually on the page itself; for each issue, an explanation in simple English is provided
+- [axe](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd) (extension): the standard for online accessibility checking; test results are not as visually appealing as the other tools
+- [HTML validator](https://chrome.google.com/webstore/detail/html-validator/mpbelhhnfhfjnaehkcnnaknldmnocglk) (extension): checks the W3 markup validity of your web page
 
 ## UI - Design?
 
 - [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) (extension): overlap UI mockup on top of your page and look for mismatches
 - [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) (extension): pick any color from your web page
-- [CSS Selector Tester](https://chrome.google.com/webstore/detail/css-selector-tester/bbklnaodgoocmcdejoalmbjihhdkbfon) (extension): given a CSS selector, highlights the selection in the page itself 
+- [CSS Selector Tester](https://chrome.google.com/webstore/detail/css-selector-tester/bbklnaodgoocmcdejoalmbjihhdkbfon) (extension): given a CSS selector, highlights the selection in the page itself
 
 ## API
 
 - 💯 [Postman](https://www.postman.com/) (app/cli): interact/mock APIs, automate checks, collaborate with your team
-- 💯 Wiremock ([CLI](http://wiremock.org/)): simulates API responses according to your configuration (mock)
+- 💯 [Wiremock](http://wiremock.org/) (cli): simulates API responses according to your configuration (mock)
 
 ## Automation in testing
 
@@ -54,8 +54,8 @@ Legend:
 
 ### Mobile
 
-  - 🤷‍♂️ [Appium](http://appium.io/): cross-platform test framework for web, mobile and desktop apps
-  - 🤷‍♂️ [Katalon Studio](https://www.katalon.com/katalon-studio/): code-less tests for web, mobile and desktop
+- 🤷‍♂️ [Appium](http://appium.io/): cross-platform test framework for web, mobile and desktop apps
+- 🤷‍♂️ [Katalon Studio](https://www.katalon.com/katalon-studio/): code-less tests for web, mobile and desktop
 
 ### Libraries
 
@@ -78,34 +78,34 @@ Legend:
 - [Form Filler](https://chrome.google.com/webstore/detail/form-filler/bnjjngeaknajbdcgpfkgnonkmififhfo) (extension): automates form filling with testing data
 - Clippy
 - 🤷‍♂️ [Vysor](https://www.vysor.io/): control your Android from your laptop
-- 
+-
 
 ## Cross-browser testing
 
-- BrowserStack ([SaaS](https://www.browserstack.com/)): run the same tests, in parallel, on multiple browsers
-- 🤷‍♂️ SauceLabs ([SaaS](https://saucelabs.com/)): run the same tests, in parallel, on multiple browsers
+- [BrowserStack](https://www.browserstack.com/) (SaaS): run the same tests, in parallel, on multiple browsers
+- 🤷‍♂️ [SauceLabs](https://saucelabs.com/) (SaaS): run the same tests, in parallel, on multiple browsers
 
 ## SEO
 
-- 🤷‍♂️ Tag Assistant ([extension](https://chrome.google.com/webstore/detail/tag-assistant-by-google/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en)): troubleshoot installation of Google tags (analytics, tag manager, etc.)
+- 🤷‍♂️ [Tag Assistant](https://chrome.google.com/webstore/detail/tag-assistant-by-google/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en) (extension): troubleshoot installation of Google tags (analytics, tag manager, etc.)
 
 ## Network
 
-- Wireshark (app): log requests between your computer and the Internet
-- 🤷‍♂️ Fidder ([app](https://www.telerik.com/fiddler)): log requests between your computer and the Internet and fiddle with request/response
-- 🤷‍♂️ Request Maker ([extension](https://chrome.google.com/webstore/detail/request-maker/kajfghlhfkcocafkcjlajldicbikpgnp)): log requests made by web pages, tamper with the URL, headers and POST data
+- [Wireshark](https://www.wireshark.org/) (app): log requests between your computer and the Internet
+- 🤷‍♂️ [Fidder](https://www.telerik.com/fiddler) (app): log requests between your computer and the Internet and fiddle with request/response
+- 🤷‍♂️ [Request Maker](https://chrome.google.com/webstore/detail/request-maker/kajfghlhfkcocafkcjlajldicbikpgnp) (extension): log requests made by web pages, tamper with the URL, headers and POST data
 
 ## Security
 
-- 💯 OWASP ZAP ([app](https://www.zaproxy.org/)): scans your website for the [OWASP Top 10](https://owasp.org/www-project-top-ten/) vulnerabilities     
+- 💯 [OWASP ZAP](https://www.zaproxy.org/) (app): scans your website for the [OWASP Top 10](https://owasp.org/www-project-top-ten/) vulnerabilities
 
 ## App monitoring & Dashboards
 
-- 💯 Grafana ([SaaS](https://grafana.com/)): open-source monitoring, log analysis and dashboards
-- ⭐️ Datadog ([SaaS](https://www.datadoghq.com/)): closed-source monitoring, log analysis and dashboards
+- 💯 [Grafana](https://grafana.com/) (SaaS): open-source monitoring, log analysis and dashboards
+- ⭐️ [Datadog](https://www.datadoghq.com/) (SaaS): closed-source monitoring, log analysis and dashboards
 - ⭐️ [New Relic](https://newrelic.com/) (SaaS): closed-source monitoring, log analysis and dashboards
 - [Splunk](https://www.splunk.com/) (SaaS): closed-source monitoring, log analysis and dashboards
-- PowerBI ([SaaS](https://powerbi.microsoft.com/)): Microsoft's closed-source dashboards
+- [PowerBI](https://powerbi.microsoft.com/) (SaaS): Microsoft's closed-source dashboards
 
 ## Test monitoring
 
@@ -113,55 +113,56 @@ Legend:
 
 ## Documentation
 
-- 💯 Typora ([app](https://typora.io/)): cross-platform Markdown editor with embedded live preview; pleasant UX; distraction free UI; exports to PDF, HTML and more
-- 💯 Marp Next ([IDE/CLI/SaaS](https://marp.app/)): create slide decks using Markdown with live preview
-- 💯 Mermaid.js ([SaaS](https://mermaid-js.github.io/mermaid/#/)): create diagrams using Markdown with live preview
+- 💯 [Typora](https://typora.io/) (app]): cross-platform Markdown editor with embedded live preview; pleasant UX; distraction free UI; exports to PDF, HTML and more
+- 💯 [Marp Next](https://marp.app/) (IDE/cli/SaaS): create slide decks using Markdown with live preview
+- 💯 [Mermaid.js](https://mermaid-js.github.io/mermaid/#/) (SaaS): create diagrams using Markdown with live preview
 - ⭐️ [Diagrams.net](http://diagrams.net/) (SaaS/app): share a canvas with a colleague and draw anything collaboratively
-- 💯 Mindmup ([Saas](https://www.mindmup.com/)): draw mind maps directly in Google Drive, with real-time collaboration
-- 💯 XMind (app): draw mind maps offline with a clean/professional look; pleasant UX
+- 💯 [Mindmup](https://www.mindmup.com/) (Saas): draw mind maps directly in Google Drive, with real-time collaboration
+- 💯 [XMind](https://www.xmind.net/) (app): draw mind maps offline with a clean/professional look; pleasant UX
 
 ## Reporting
 
-- 🤷‍♂️ Allure ([cli](https://github.com/allure-framework/allure2)): reads your test execution data and generates an HTML report
-- Mochawesome ([cli](https://github.com/adamgruber/mochawesome#readme)): reads your JavaScript test execution data and generates an HTML report
+- 🤷‍♂️ [Allure](https://github.com/allure-framework/allure2) (cli): reads your test execution data and generates an HTML report
+- [Mochawesome](https://github.com/adamgruber/mochawesome#readme) (cli): reads your JavaScript test execution data and generates an HTML report
+- [Pickles](https://www.picklesdoc.com/) (cli): reads your Gherkin scenarios (`.feature` files) and generates an HTML report
 
 ## Emails
 
-- 🤷‍♂️ Mailinator ([SaaS](https://www.mailinator.com/)): create a public test inbox, use their API to query emails received (no sign-up)
-- 🤷‍♂️ Mapil ([Saas](https://mapil.co/)): create a private test inbox, use their API to query emails received (requires sign-up)
-- ⭐️ Litmus ([SaaS](https://litmus.com/)): preview the same email on multiple email clients and devices
+- 🤷‍♂️ [Mailinator](https://www.mailinator.com/) (SaaS): create a public test inbox, use their API to query emails received (no sign-up)
+- 🤷‍♂️ [Mapil](https://mapil.co/) (Saas): create a private test inbox, use their API to query emails received (requires sign-up)
+- ⭐️ [Litmus](https://litmus.com/) (SaaS): preview the same email on multiple email clients and devices
 
 ## Bug reporting
 
-- 💯 Licecap ([app](https://www.cockos.com/licecap/)): cross-platform screen recorder to compressed GIF
-- 💯 Full page screen capture ([extension](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl/related?hl=en)): create a screenshot of the entire web page
-- Lightshot ([extension](https://chrome.google.com/webstore/detail/lightshot-screenshot-tool/mbniclmhobmnbdlbpiphghaielnnpgdp?hl=en)): take a screenshot and annotate it
+- 💯 [Licecap](https://www.cockos.com/licecap/) (app): cross-platform screen recorder to compressed GIF
+- 💯 [Full page screen capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl/related?hl=en) (extension): create a screenshot of the entire web page
+- [Lightshot](https://chrome.google.com/webstore/detail/lightshot-screenshot-tool/mbniclmhobmnbdlbpiphghaielnnpgdp?hl=en) (extension): take a screenshot and annotate it
 
 ## Visual (regression)
 
-- 🤷‍♂️ Applitools ([SaaS](https://applitools.com/)): screenshots your pages and detects visual changes between executions
-- 🤷‍♂️ Chromatic ([SaaS](www.chromatic.com)): screenshots your pages and detects visual changes between executions
-- 🤷‍♂️ Wraith ([CLI](https://github.com/BBC-News/wraith)): screenshots your pages and detects visual changes locally; open-source
-- 🤷‍♂️ Appraise ([CLI](https://github.com/AppraiseQA/appraise)): screenshots your pages and detects visual changes locally; open-source
-- 🤷‍♂️ Galen Framework ([CLI](http://galenframework.com/)): tests location of UI components relative to each other using DSL; open-source
+- 🤷‍♂️ [Applitools](https://applitools.com/) (SaaS): screenshots your pages and detects visual changes between executions
+- 🤷‍♂️ [Chromatic](https://www.chromatic.com/) (SaaS): screenshots your pages and detects visual changes between executions
+- 🤷‍♂️ [Wraith](https://github.com/BBC-News/wraith) (cli): screenshots your pages and detects visual changes locally; open-source
+- 🤷‍♂️ [Appraise](https://github.com/AppraiseQA/appraise) (cli): screenshots your pages and detects visual changes locally; open-source
+- 🤷‍♂️ [Galen Framework](http://galenframework.com/) (cli): tests location of UI components relative to each other using DSL; open-source
 
 ## Performance
 
-- ⭐️ JMeter ([app](https://jmeter.apache.org/)): load tests your website and measures performance
-- 🤷‍♂️ Gatling ([app/SaaS](https://gatling.io/)): load tests your website displays results in dashboards
-- 🤷‍♂️ Sitespeed.io ([app](https://www.sitespeed.io/)): monitors and measures the performance of your web site
-- 🤷‍♂️ [chaosmonkey](https://github.com/Netflix/chaosmonkey) (CLI): resilience test that randomly terminates production VMs and containers
+- ⭐️ [JMeter](https://jmeter.apache.org/) (app): load tests your website and measures performance; not the easiest UI
+- 🤷‍♂️ [Gatling](https://gatling.io/) (app/SaaS): load tests your website displays results in dashboards
+- 🤷‍♂️ [Sitespeed.io](https://www.sitespeed.io/) (app): monitors and measures the performance of your web site
+- 🤷‍♂️ [chaosmonkey](https://github.com/Netflix/chaosmonkey) (cli): resilience test that randomly terminates production VMs and containers
 
 ## Privacy
 
-- 💯 Ghostery ([extension](https://chrome.google.com/webstore/detail/ghostery-–-privacy-ad-blo/mlomiejdfkolichcflejclcbmpeaniij)): measures the number of ads and trackers in a specific page
-- 💯 TunnelBear ([app](https://www.tunnelbear.com/)): pretends your machine is in a different country with a different IP
+- 💯 [Ghostery](https://chrome.google.com/webstore/detail/ghostery-–-privacy-ad-blo/mlomiejdfkolichcflejclcbmpeaniij) (extension): measures the number of ads and trackers in a specific page
+- 💯 [TunnelBear](https://www.tunnelbear.com/) (app): pretends your machine is in a different country with a different IP
 - ⭐️ [User Agent Switcher](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg) (extension): easily switch between user-agent strings
 
 ## Prototyping
 
-- 🤷‍♂️ InVision ([SaaS](https://www.invisionapp.com/)): prototype mobile and web apps (can be functional or just designs)
-- 🤷‍♂️ Marvel ([SaaS](https://marvelapp.com/)): prototype mobile and web apps (can be functional or just designs)
+- 🤷‍♂️ [InVision](https://www.invisionapp.com/) (SaaS): prototype mobile and web apps (can be functional or just designs)
+- 🤷‍♂️ [Marvel](https://marvelapp.com/) (SaaS): prototype mobile and web apps (can be functional or just designs)
 
 ## Community
 
@@ -170,7 +171,7 @@ Legend:
 
 ## Lists of resources
 
-- *[The "awesome" manifesto](https://github.com/sindresorhus/awesome/blob/master/awesome.md): enumerates the requirements for an awesomely curated list*
+- _[The "awesome" manifesto](https://github.com/sindresorhus/awesome/blob/master/awesome.md): enumerates the requirements for an awesomely curated list_
 - ⭐️ [Awesome falsehood](https://github.com/kdeldycke/awesome-falsehood): biases that influence developers' decisions
 - [Awesome hacking](https://github.com/Hack-with-Github/Awesome-Hacking): repositories useful to hackers, pentesters and security researchers
 - 💯 [Awesome security](https://github.com/sbilly/awesome-security): tools and resources about security
@@ -187,7 +188,7 @@ Legend:
 - [Web page functionality checklist](https://www.ministryoftesting.com/dojo/lessons/checklist-for-testing-web-page-functionality): most common and basic issues that affect web pages
 - [API security checklist](https://github.com/shieldfy/API-Security-Checklist): most important security concerns when developing your API
 
------
+---
 
 ## ⚠️ BUCKET
 
@@ -200,8 +201,6 @@ Legend:
 - 💯 [BugMagnet](https://chrome.google.com/webstore/detail/bug-magnet/efhedldbjahpgjcneebmbolkalbhckfi): quick access to test strings relevant for boundary testing
 
 ⚠️ **TODO: REVIEW ACTIVE VOICE (e.g. capture -> captures)**
-
-⚠️ **TODO: MOVE LINKS TO NAMES instead of e.g. (SaaS)**
 
 ## Sources
 
