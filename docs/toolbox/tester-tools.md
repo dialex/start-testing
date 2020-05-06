@@ -6,7 +6,7 @@ As [Mark Winteringham](https://www.ministryoftesting.com/dojo/lessons/what-tools
 
 A tool might not be listed if it is too expensive, closed-source, or not good enough:
 
-- 💯 highly recomended
+- 💯 highly recommended
 - ⭐️ better than the average
 - 🤷‍♂️ still needs a proper review
 
@@ -28,7 +28,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
   - [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync): task to save/load your settings and extensions on GitHub
   - [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright): multilingual spellchecker for comments and Markdown
   - [Unique Lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines): task to remove duplicated lines from current selection
-  - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): meaningful and colorful icons on files and folders
+  - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): meaningful and colourful icons on files and folders
 - 💯 [Rectangle](https://rectangleapp.com/) (app): move/resize windows using shortcuts or snap areas
 - 💯 [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/blob/master/README.md) (app): prevents your Mac to enter screensaver/sleep mode (useful when pairing)
 - 💯 [BugMagnet](https://chrome.google.com/webstore/detail/bug-magnet/efhedldbjahpgjcneebmbolkalbhckfi) (extension): quick access to test strings relevant for boundary testing
@@ -52,13 +52,13 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 ### Design
 
 - ⭐️ [Tape](https://chrome.google.com/webstore/detail/tape/jmfleijdbicilompnnombcbkcgidbefb) (extension): draw guidelines on top of your page and measure pixel distances
-- [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) (extension): overlap UI mockup on top of your page and look for mismatches
-- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) (extension): color pick any color from a web page
+- [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) (extension): overlap UI mockups on top of your page and look for mismatches
+- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) (extension): colour pick any colour from a web page
 - [CSS Selector Tester](https://chrome.google.com/webstore/detail/css-selector-tester/bbklnaodgoocmcdejoalmbjihhdkbfon) (extension): takes a CSS selector and highlights the selection in the page itself
 
 ### Accessibility
 
-- 💯 [Webhint](https://webhint.io/) (IDE/cli/extension): checks your web page for browser compatibility, acessibility, performance and security issues, plus common mistakes; neat report; proper issue justification and mitigation
+- 💯 [Webhint](https://webhint.io/) (IDE/cli/extension): checks your web page for browser compatibility, accessibility, performance and security issues, plus common mistakes; neat report; proper issue justification and mitigation
 - ⭐️ [WAVE](https://wave.webaim.org/) (extension): check your web page for compliance with WCAG; the issues are displayed contextually on the page itself; an explanation in simple English is provided for each issue
 - [axe](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd) (extension): the standard for online accessibility checking; UI/UX is not as pleasant
 
@@ -72,7 +72,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 ### Network
 
 - [Wireshark](https://www.wireshark.org/) (app): logs requests between your computer and the Internet
-- 🤷‍♂️ [Fidder](https://www.telerik.com/fiddler) (app): same as Wireshark and let's you fiddle with the request/response
+- 🤷‍♂️ [Fiddler](https://www.telerik.com/fiddler) (app): same as Wireshark and let's you fiddle with the request/response
 - 🤷‍♂️ [Request Maker](https://chrome.google.com/webstore/detail/request-maker/kajfghlhfkcocafkcjlajldicbikpgnp) (extension): same as Fiddler
 
 ## ⛺️ EXPLORATION
@@ -111,7 +111,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 - ⭐️ [Mocha](https://mochajs.org/) + [Chai](https://www.chaijs.com/) + [Sinon](https://sinonjs.org/): unit tests in JavaScript
 - 🤷‍♂️ [Intern](https://theintern.io/): unit/acceptance tests in JavaScript
 - [RSpec](https://rspec.info/): unit tests in Ruby
-- 🤷‍♂️ [Codeception](https://codeception.com/): unit/api/acceptance tests in PHP
+- 🤷‍♂️ [Codeception](https://codeception.com/): unit/API/acceptance tests in PHP
 
 ### Mobile
 
@@ -128,7 +128,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 ## 📥 EMAIL
 
 - 🤷‍♂️ [Mailinator](https://www.mailinator.com/) (SaaS): create a public test inbox, use their API to query emails received (no sign-up)
-- 🤷‍♂️ [Mapil](https://mapil.co/) (Saas): create a private test inbox, use their API to query emails received (requires sign-up)
+- 🤷‍♂️ [Mapil](https://mapil.co/) (SaaS): create a private test inbox, use their API to query emails received (requires sign-up)
 - ⭐️ [Litmus](https://litmus.com/) (SaaS): preview the same email on multiple email clients and devices
 
 ## 🔒 NON-FUNCTIONAL REQUIREMENTS
@@ -194,7 +194,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 - 💯 [Typora](https://typora.io/) (app]): cross-platform Markdown editor with embedded live preview; pleasant and distraction free UX; exports to PDF, HTML and more
 - 💯 [Marp Next](https://marp.app/) (IDE/cli/SaaS): create slide decks using Markdown with live preview
 - 💯 [Mermaid.js](https://mermaid-js.github.io/mermaid/#/) (SaaS): create diagrams using Markdown with live preview
-- 💯 [Mindmup](https://www.mindmup.com/) (Saas): draw mind maps directly in Google Drive, with real-time collaboration
+- 💯 [Mindmup](https://www.mindmup.com/) (SaaS): draw mind maps directly in Google Drive, with real-time collaboration
 - 💯 [XMind](https://www.xmind.net/) (app): draw mind maps offline with a clean/professional look; pleasant UX
 - ⭐️ [Diagrams.net](http://diagrams.net/) (SaaS/app): share a canvas with a colleague and draw anything collaboratively
 
