@@ -12,15 +12,15 @@
   - [Requirements](/concepts/requirements.md)
   - [Testability](/concepts/testability.md)
 - **Toolbox**
-  - [Note-taking](/tools/note-taking.md)
-  - [Heuristics](/tools/heuristics.md)
-  - [Mnemonics](/tools/mnemonics.md)
-  - [Charters](/tools/charters.md)
-  - [Oracles](/tools/oracles.md)
+  - [Note-taking](/toolbox/note-taking.md)
+  - [Heuristics](/toolbox/heuristics.md)
+  - [Mnemonics](/toolbox/mnemonics.md)
+  - [Charters](/toolbox/charters.md)
+  - [Oracles](/toolbox/oracles.md)
   - ~~Test strategy~~
-  - [Development methodologies](/tools/dev-methodologies.md)
+  - [Development methodologies](/toolbox/dev-methodologies.md)
   - ~~Test pyramid~~
-  - [Tools](/tools/tester-tools.md)
+  - [Tools](/toolbox/tester-tools.md)
 - **Test types**
   - ~~Functional vs Non-functional~~
   - ~~White box vs Black box~~
@@ -56,8 +56,8 @@
 - **Next steps**
   - ~~Staying updated~~
 - **EXTRA: Test Frameworks**
-  - [Cypress](/tools/framework/cypress.md)
-  - [Robot Framework](/tools/framework/robot.md)
+  - [Cypress](/toolbox/framework/cypress.md)
+  - [Robot Framework](/toolbox/framework/robot.md)
 - **EXTRA: Notebook**
   - [User Story Mapping](/notebook/user-story-mapping.md)
   - [Specification by Example](/notebook/specification-by-example.md)

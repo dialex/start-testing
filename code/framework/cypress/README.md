@@ -1,6 +1,6 @@
 # Cypress
 
-Review [here](https://github.com/dialex/start-testing/tree/master/docs/tools/framework/cypress.md).
+Review [here](https://github.com/dialex/start-testing/tree/master/docs/toolbox/framework/cypress.md).
 
 ## Commands
 

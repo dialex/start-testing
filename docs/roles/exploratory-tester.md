@@ -1,6 +1,6 @@
 # Exploratory tester
 
---------
+---
 
 ## THIS WAS EXTRACTED AS IS FROM `note-taking.md`
 
@@ -10,7 +10,7 @@
 >
 > The [following template](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit?usp=sharing) provides triggers for an exploratory testing session. It's a way for you to experiment with your own structure. To help you tell a testing story – whether debriefing in real-time or asynchronously. I've had success with this template. It satisfies two audiences: One that just needs a summary and another who loves detail.
 >
-> I take notes like I'm creating a story for someone else to read. This includes a bit of show and tell. Great storytelling uses show more than tell. Sometimes it feels more natural to *tell* your notes what you're doing. The *show* comes alive with screenshots, GIFs and video.
+> I take notes like I'm creating a story for someone else to read. This includes a bit of show and tell. Great storytelling uses show more than tell. Sometimes it feels more natural to _tell_ your notes what you're doing. The _show_ comes alive with screenshots, GIFs and video.
 >
 > As I explore I write notes imagining I'm taking someone through my actual process, steps and thoughts. Imagine saying it out loud and just type. ‪You can always edit later.
 
@@ -24,7 +24,7 @@
 >
 > The [following template](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit?usp=sharing) provides triggers for an exploratory testing session. It's a way for you to experiment with your own structure. To help you tell a testing story – whether debriefing in real-time or asynchronously. I've had success with this template. It satisfies two audiences: One that just needs a summary and another who loves detail.
 >
-> I take notes like I'm creating a story for someone else to read. This includes a bit of show and tell. Great storytelling uses show more than tell. Sometimes it feels more natural to *tell* your notes what you're doing. The *show* comes alive with screenshots, GIFs and video.
+> I take notes like I'm creating a story for someone else to read. This includes a bit of show and tell. Great storytelling uses show more than tell. Sometimes it feels more natural to _tell_ your notes what you're doing. The _show_ comes alive with screenshots, GIFs and video.
 >
 > As I explore I write notes imagining I'm taking someone through my actual process, steps and thoughts. Imagine saying it out loud and just type. ‪You can always edit later.
 >
@@ -35,10 +35,10 @@
 These questions will structure and guide your exploratory testing session:
 
 - Time: How much time will you put aside for this session? _(aim for 45-60 mins)_
-- Oracles: Who or what will help you act on the information you discover? (see [oracles](/tools/oracles.md))
-- Risks: What do you want to learn about? (see [charters](/tools/charters.md))
-- Consider: What questions do you want to answer? (see [**`5W1H`** mnemonic](/tools/mnemonics.md))
-- Heuristics: What triggers will guide your session? (see [heuristics](/tools/heuristics.md))
+- Oracles: Who or what will help you act on the information you discover? (see [oracles](/toolbox/oracles.md))
+- Risks: What do you want to learn about? (see [charters](/toolbox/charters.md))
+- Consider: What questions do you want to answer? (see [**`5W1H`** mnemonic](/toolbox/mnemonics.md))
+- Heuristics: What triggers will guide your session? (see [heuristics](/toolbox/heuristics.md))
 
 #### KIIQ exploring
 
