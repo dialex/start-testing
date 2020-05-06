@@ -2,7 +2,7 @@
 
 > **tl;dr** SUMMARY_HERE
 
-As [Mark Winteringham](https://www.ministryoftesting.com/dojo/lessons/what-tools-should-i-learn) says "problem first, tools second". Take the time to understand the problem and only then figure out what is the best tool for the job. Don't be afraid to try a new tool, it's better than blindly applying a tool you already know.
+As [Mark Winteringham](https://www.ministryoftesting.com/dojo/lessons/what-tools-should-i-learn) says "problem first, tools second". Take the time to understand the problem and, only then, figure out what is the best tool for the job. Don't be afraid to try a new tool, it's better than blindly applying a tool you already know.
 
 Legend:
 
