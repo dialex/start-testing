@@ -12,7 +12,6 @@ This repo contains the source of a testing course.
 
 ## Supporters
 
-<img src="docs/_media/supporters/Equal_Experts.png" alt="EE-logo" style="zoom:60%;" />
+[![EE-logo](docs/_media/supporters/Equal_Experts.png)](https://www.equalexperts.com/)
 
-A big thanks to my company for giving me the time to work on this course.
-
+A big thanks to my company for giving me some time to work on this course.
