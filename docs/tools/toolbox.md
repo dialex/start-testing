@@ -2,15 +2,13 @@
 
 > **tl;dr** SUMMARY_HERE
 
-TODO
-
-As Mark Winteringham says "problem first, tools second".
+As [Mark Winteringham](https://www.ministryoftesting.com/dojo/lessons/what-tools-should-i-learn) says "problem first, tools second". Take the time to understand the problem and only then figure out what is the best tool for the job. Don't be afraid to try a new tool, it's better than blindly applying a tool you already know.
 
 Legend:
 
 - 💯 highly recomended
 - ⭐️ better than the average
-- ❔🤷‍♂️ still needs a proper revie
+- ❔🤷‍♂️ still needs a proper review
 - A tool might not be listed if it is too expensive, closed-source, or not good enough
 
 ## UI - Accessibility
