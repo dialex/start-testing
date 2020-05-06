@@ -84,9 +84,12 @@ Legend:
   - [Unique Lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines): task to remove duplicated lines from current selection
   - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): meaningful and colorful icons on files and folders
 - 💯 [Fork](https://git-fork.com/): visual client for Git; cross-platform
-- [Form Filler](https://chrome.google.com/webstore/detail/form-filler/bnjjngeaknajbdcgpfkgnonkmififhfo) (extension): automates form filling with testing data
-- Clippy
+- ⭐️ [Form Filler](https://chrome.google.com/webstore/detail/form-filler/bnjjngeaknajbdcgpfkgnonkmififhfo) (extension): automates form filling with testing data
+- 💯 [Clippy](https://github.com/Clipy/Clipy): clipboard manager with support for code snippets
 - 🤷‍♂️ [Vysor](https://www.vysor.io/): control your Android from your laptop
+- [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/): test your app on IE11 and Edge Legacy using Win10 VMs
+- 💯 [Bookmarklet](https://mrcoles.com/bookmarklet/) (SaaS): stores Javascript code as a browser bookmark button
+- 💯 [BugMagnet](https://chrome.google.com/webstore/detail/bug-magnet/efhedldbjahpgjcneebmbolkalbhckfi) (extension): quick access to test strings relevant for boundary testing
 
 ## Cross-browser testing
 
@@ -198,12 +201,6 @@ Legend:
 
 ---
 
-## ⚠️ BUCKET
-
-- [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
-- 💯 Bookmarklet ([SaaS](https://mrcoles.com/bookmarklet/)): stores Javascript code as a browser bookmark button
-
 ⚠️ **TODO: CHECK MY EXTENSIONS** and installed tools
 
 - Exploration >> TestBuddy
-- 💯 [BugMagnet](https://chrome.google.com/webstore/detail/bug-magnet/efhedldbjahpgjcneebmbolkalbhckfi): quick access to test strings relevant for boundary testing
