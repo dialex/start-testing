@@ -19,8 +19,8 @@ Legend:
 
 ## UI - Design
 
-- [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) (extension): overlap UI mockup on top of your page and look for mismatches
 - ⭐️ [Tape](https://chrome.google.com/webstore/detail/tape/jmfleijdbicilompnnombcbkcgidbefb) (extension): draw guidelines on top of your page and measure pixel distances
+- [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) (extension): overlap UI mockup on top of your page and look for mismatches
 - [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) (extension): color pick any color from a web page
 - [CSS Selector Tester](https://chrome.google.com/webstore/detail/css-selector-tester/bbklnaodgoocmcdejoalmbjihhdkbfon) (extension): takes a CSS selector and highlights the selection in the page itself
 
@@ -33,13 +33,13 @@ Legend:
 
 ### Web (acceptance tests)
 
-- 💯 [Cypress](https://www.cypress.io/): acceptance tests in JavaScript ([review]())
+- 💯 [Cypress](https://www.cypress.io/): acceptance tests in JavaScript ([review](/tools/framework/cypress))
 - 🤷‍♂️ [Nightwatch](https://nightwatchjs.org/): acceptance tests in JavaScript
 - 🤷‍♂️ [Testcafe](https://devexpress.github.io/testcafe/): acceptance tests in JavaScript
 - [SpecFlow](https://specflow.org/): acceptance tests in .NET/C#
 - [Serenity](https://github.com/serenity-bdd/serenity-core): acceptance tests in Java
 - 🤷‍♂️ [Selenide](https://selenide.org/): acceptance tests in Java
-- [Robot Framework](https://robotframework.org/): acceptance tests in Python ([review]())
+- [Robot Framework](https://robotframework.org/): acceptance tests in Python ([review](/tools/framework/robot))
 - 🤷‍♂️ [Capybara](https://github.com/teamcapybara/capybara): acceptance tests in Ruby (DSL)
 - 🤷‍♂️ [Watir](http://watir.com/): acceptance tests in Ruby (OO)
 - 🤷‍♂️ [Mabl](https://www.mabl.com/) (SaaS): code-less UI/acceptance tests for web; allows record & play
@@ -59,15 +59,15 @@ Legend:
 
 ### Libraries
 
-- [Testing library](https://testing-library.com/): query the DOM like the user finds elements on the page
 - 💯 [RestAssured](https://github.com/rest-assured/rest-assured): API testing in Java
 - 💯 [the-internet](https://the-internet.herokuapp.com/): examples of UI components, ready for your automation experiments
+- [Testing library](https://testing-library.com/): query the DOM like the user finds elements on the page
 - 🤷‍♂️ [Stryker](https://stryker-mutator.io/): mutation testing for JavaScript/.NET
 
 ## Exploration in testing
 
-- [RapidReporter](http://testing.gershon.info/reporter/) (app): distraction free note taking during exploratory sessions
 - 💯 [TestBuddy](https://testbuddy.co/) (SaaS): report bugs/ideas/notes/questions as you explore; export as PDF
+- [RapidReporter](http://testing.gershon.info/reporter/) (app): distraction free note taking during exploratory sessions
 - 🤷‍♂️ [ExploratoryTesting](https://chrome.google.com/webstore/detail/exploratory-testing-chrom/khigmghadjljgjpamimgjjmpmlbgmekj) (extension): report bugs/ideas/notes/questions as you explore; export as HTML
 - 🤷‍♂️ [Test & Feedback](https://chrome.google.com/webstore/detail/test-feedback/gnldpbnocfnlkkicnaplmkaphfdnlplb) (extension): report bugs/tasks as you explore; export as HTML; VSTS integration
 
@@ -84,18 +84,18 @@ Legend:
   - [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright): multilingual spellchecker for comments and Markdown
   - [Unique Lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines): task to remove duplicated lines from current selection
   - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): meaningful and colorful icons on files and folders
-- 💯 [Fork](https://git-fork.com/): visual client for Git; cross-platform
-- ⭐️ [Form Filler](https://chrome.google.com/webstore/detail/form-filler/bnjjngeaknajbdcgpfkgnonkmififhfo) (extension): automates form filling with testing data
+- 💯 [Rectangle](https://rectangleapp.com/): move/resize windows using shortcuts or snap areas
+- 💯 [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/blob/master/README.md): prevents your Mac to enter screensaver/sleep mode (useful when pairing)
+- 💯 [BugMagnet](https://chrome.google.com/webstore/detail/bug-magnet/efhedldbjahpgjcneebmbolkalbhckfi) (extension): quick access to test strings relevant for boundary testing
 - 💯 [Clipy](https://github.com/Clipy/Clipy): clipboard manager with support for code snippets
+- 💯 [Fork](https://git-fork.com/): visual client for Git; cross-platform
 - 💯 [F.lux](https://justgetflux.com/): automatically reduces the blue light of your screen as night comes
+- ⭐️ [Bookmarklet](https://mrcoles.com/bookmarklet/) (SaaS): stores Javascript code as a browser bookmark button
+- ⭐️ [Form Filler](https://chrome.google.com/webstore/detail/form-filler/bnjjngeaknajbdcgpfkgnonkmififhfo) (extension): automates form filling with testing data
+- ⭐️ [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) (extension): formats JSONs to be human readable on a browser tab
+- ⭐️ [Meld](https://meldmerge.org/): visual diff and merge tool for individual files or entire folder
 - 🤷‍♂️ [Vysor](https://www.vysor.io/): control your Android from your laptop
 - [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/): test your app on IE11 and Edge Legacy using Win10 VMs
-- 💯 [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/blob/master/README.md): prevents your Mac to enter screensaver/sleep mode (useful when pairing)
-- ⭐️ [Bookmarklet](https://mrcoles.com/bookmarklet/) (SaaS): stores Javascript code as a browser bookmark button
-- 💯 [BugMagnet](https://chrome.google.com/webstore/detail/bug-magnet/efhedldbjahpgjcneebmbolkalbhckfi) (extension): quick access to test strings relevant for boundary testing
-- ⭐️ [Meld](https://meldmerge.org/): visual diff and merge tool for individual files or entire folders
-- 💯 [Rectangle](https://rectangleapp.com/): move/resize windows using shortcuts or snap areas
-- ⭐️ [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) (extension): formats JSONs to be human readable on a browser tab 
 
 ## Cross-browser testing
 
@@ -104,8 +104,8 @@ Legend:
 
 ## SEO
 
-- 🤷‍♂️ [Tag Assistant](https://chrome.google.com/webstore/detail/tag-assistant-by-google/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en) (extension): troubleshoots Google tags (analytics, tag manager, etc.)
 - ⭐️ [Check My Links](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf) (extension): checks your web page for broken links
+- 🤷‍♂️ [Tag Assistant](https://chrome.google.com/webstore/detail/tag-assistant-by-google/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en) (extension): troubleshoots Google tags (analytics, tag manager, etc.)
 
 ## Network
 
@@ -188,6 +188,12 @@ Legend:
 - 💯 [Testers.io](http://www.testers.io/) - Ministry of Testing's Slack community; ask for advice or join the discussion
 - 💯 [Testing Conferences](https://testingconferences.org/) - live list (and alerts) about worldwide testing conferences
 
+## Checklists
+
+- 💯 [Front-End-Checklist](https://frontendchecklist.io/): interactive front-end checklist for modern websites and meticulous developers
+- [Web page functionality checklist](https://www.ministryoftesting.com/dojo/lessons/checklist-for-testing-web-page-functionality): most common and basic issues that affect web pages
+- [API security checklist](https://github.com/shieldfy/API-Security-Checklist): most important security concerns when developing your API
+
 ## Lists of resources
 
 - _[The "awesome" manifesto](https://github.com/sindresorhus/awesome/blob/master/awesome.md): enumerates the requirements for an awesomely curated list_
@@ -200,15 +206,3 @@ Legend:
 - [How they test](https://github.com/abhivaikar/howtheytest): how software companies test their products and build their quality culture
 - ⭐️ [Big list of naughty strings](https://github.com/minimaxir/big-list-of-naughty-strings): strings with a high probability of causing issues when used as input data
 - 💯 [FreeLearningResourcesForSoftwareTesters](https://github.com/PaulWaltersDev/FreeLearningResourcesForSoftwareTesters): exactly what the name suggests
-
-## Checklists
-
-- 💯 [Front-End-Checklist](https://frontendchecklist.io/): interactive front-end checklist for modern websites and meticulous developers
-- [Web page functionality checklist](https://www.ministryoftesting.com/dojo/lessons/checklist-for-testing-web-page-functionality): most common and basic issues that affect web pages
-- [API security checklist](https://github.com/shieldfy/API-Security-Checklist): most important security concerns when developing your API
-
----
-
-⚠️ **TODO: CHECK MY EXTENSIONS**
-
-- Exploration >> TestBuddy
