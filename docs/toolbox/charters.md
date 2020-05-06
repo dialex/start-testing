@@ -11,7 +11,7 @@ It works like a map:
 
 **Exploring software** has much in common with exploring territory. Along the way you will make many discoveries (e.g. information, bugs). To make your journey easier you can use tools. Remember, "the most important tool is the one between your ears". As an [exploratory tester](/roles/exploration-tester.md) you will conduct exploratory testing sessions like these and charters can guide your way.
 
-You can write your charters to be precise or broad, as you will see in the practice section below. Nevertheless, for a charter to be useful it should contain enough detail for anyone to understand three things. As a [mnemonic](/tools/mnemonics.md) you can remember the initials `TRI` — because a charter summarises what you are **TR**y**I**ng to accomplish:
+You can write your charters to be precise or broad, as you will see in the practice section below. Nevertheless, for a charter to be useful it should contain enough detail for anyone to understand three things. As a [mnemonic](/toolbox/mnemonics.md) you can remember the initials `TRI` — because a charter summarises what you are **TR**y**I**ng to accomplish:
 
 - **Target**: What is the name of the area you will explore?
 - **Resource**: What tools will you use on your exploration?

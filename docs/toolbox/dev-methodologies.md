@@ -119,7 +119,7 @@ Your role in these sessions is to generate questions and ensure the conversation
 
 > A tester using BDD will be able to ask questions, collect information and help identify risks to inform other testing activities. Questions are your best tool for collaboration sessions:
 >
-> - "What, Who, Where, When, Why" - see [**`WWWWWHEK`** mnemonic](/tools/mnemonics)
+> - "What, Who, Where, When, Why" - see [**`WWWWWHEK`** mnemonic](/toolbox/mnemonics)
 > - "Maybe this is a stupid question but…" - Those questions identify a lot of assumptions
 > - "So just to confirm…" - Rephrasing with your own words validates your understanding
 >

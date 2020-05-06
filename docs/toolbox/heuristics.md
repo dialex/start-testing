@@ -4,7 +4,7 @@
 
 ## Theory
 
-If [mnemonics](/tools/mnemonics) act as "memory shortcuts", then heuristics are "decision shortcuts". These mechanisms allow people to function without spending too much to thinking about their next action.
+If [mnemonics](/toolbox/mnemonics) act as "memory shortcuts", then heuristics are "decision shortcuts". These mechanisms allow people to function without spending too much to thinking about their next action.
 
 > We use heuristics under conditions of uncertainty (…) to rapidly solve problems or make decisions. When you consider the number of decisions people make every day, it makes sense for our brains to use shortcuts to help us quickly assess the different options and decide.
 >
@@ -32,7 +32,7 @@ As with any other tool, it's important that you understand the advantages and li
 >
 > — [Cem Kaner](http://kaner.com/?p=190)
 
-Oracles are considered heuristics, however not all heuristics are oracles: [**`FEW HICCUPS`**](/tools/mnemonics.md) heuristic is an oracle because it tells you how to decide if something is right or wrong; the Goldilocks heuristic is not because it only gives you hints about what to test.
+Oracles are considered heuristics, however not all heuristics are oracles: [**`FEW HICCUPS`**](/toolbox/mnemonics.md) heuristic is an oracle because it tells you how to decide if something is right or wrong; the Goldilocks heuristic is not because it only gives you hints about what to test.
 
 > When I test a software application there are a number of things that I know are worth trying. These are my test heuristics. Heuristics are simply experience-based techniques for problem solving and discovery.
 >
@@ -54,9 +54,9 @@ There's a big number of heuristics you can use to generate test ideas. [Elisabet
 
 > Let's say you want to test a new field that collects the age of a user. Inspired by the Goldilocks heuristic, you can observe the behaviour of that field when you type a value that is too big (`999`), too small (`-1`), and just right (`30`).
 
-[James Bach](https://www.satisfice.com/download/heuristic-test-strategy-model)'s Heuristic Test Strategy Model (HSTM) contains more tips on how to explore your product ([**`SFDIPOT`**](/tools/mnemonics?id=⛺%ef%b8%8f-exploration)) and its non-functional properties ([**`CRUCSPIC STMP`**](/tools/mnemonics?id=%f0%9f%92%a1-product)).
+[James Bach](https://www.satisfice.com/download/heuristic-test-strategy-model)'s Heuristic Test Strategy Model (HSTM) contains more tips on how to explore your product ([**`SFDIPOT`**](/toolbox/mnemonics?id=⛺%ef%b8%8f-exploration)) and its non-functional properties ([**`CRUCSPIC STMP`**](/toolbox/mnemonics?id=%f0%9f%92%a1-product)).
 
-This presentation from [Karen Johnson](http://karennicolejohnson.com/wp-content/uploads/2012/11/KNJohnson-2012-heuristics-mnemonics.pdf) demonstrates how you can use heuristics like [**`RCRCRC`**](/tools/mnemonics?id=🤖-automation) (ideas about what to check on regression testing) or [**`FEW HICCUPPS`**](/tools/mnemonics?id=⛺%ef%b8%8f-exploration) (oracles focused on consistency) in practice. To discover other mnemonics, check this [cheat sheet](/tools/mnemonics).
+This presentation from [Karen Johnson](http://karennicolejohnson.com/wp-content/uploads/2012/11/KNJohnson-2012-heuristics-mnemonics.pdf) demonstrates how you can use heuristics like [**`RCRCRC`**](/toolbox/mnemonics?id=🤖-automation) (ideas about what to check on regression testing) or [**`FEW HICCUPPS`**](/toolbox/mnemonics?id=⛺%ef%b8%8f-exploration) (oracles focused on consistency) in practice. To discover other mnemonics, check this [cheat sheet](/toolbox/mnemonics).
 
 Given the time you have to test is limited, you might want to prioritise your testing by "finding important problems first" and "maximising diversity". These and [other heuristics](https://thelifeofoneman.com/the-main-test-heuristics-to-consider) allow you to focus on using different techniques to reveal different types of critical problems.
 

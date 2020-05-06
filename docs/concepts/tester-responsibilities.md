@@ -9,9 +9,9 @@ Your responsibility as a tester is to fulfil the [purpose of testing](/concepts/
 That means you will be performing a [diverse set of activities](/concepts/what-testing-is.md), which include:
 
 - Clarify [requirements](/concepts/requirements.md) between stakeholders and developers;
-- Elaborate a [test strategy](/tools/testing-strategy.md) for your product;
-- Advocate the right [test methodology](/tools/methodology.md) for your team;
-- Collect and develop [tools and techniques](/tools/index.md) to support your testing;
+- Elaborate a [test strategy](/toolbox/testing-strategy.md) for your product;
+- Advocate the right [test methodology](/toolbox/methodology.md) for your team;
+- Collect and develop [tools and techniques](/toolbox/index.md) to support your testing;
 - Choose which [test types](/types/index.md) bring the most value at a given time;
 - Adapt your [role](/roles/index.md) to the current team's needs.
 
@@ -85,7 +85,7 @@ Even though you don't own the product, you can give them your advice and support
 >
 > — [John Andrews](https://testingfromthehip.wordpress.com/2016/06/14/what-is-the-main-purpose-of-our-testing/)
 
-One of your responsibilities is to uncover information and deliver it. To do so, there are many questions a tester could ask. [Mnemonics](/tools/mnemonics.md) are a clever way to avoid forgetting them. If you can only memorise four questions, these are the ones:
+One of your responsibilities is to uncover information and deliver it. To do so, there are many questions a tester could ask. [Mnemonics](/toolbox/mnemonics.md) are a clever way to avoid forgetting them. If you can only memorise four questions, these are the ones:
 
 1. **What are we building?** _What features? What are the components? How do they integrate?_
 2. **For who?** _What value are they expecting? How will they use it? How can they get help?_

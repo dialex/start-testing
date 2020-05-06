@@ -18,10 +18,10 @@ Do not confuse with [automatability](https://www.youtube.com/watch?v=gL8hmAH4ZGM
 
 ## Practice
 
-There are four main groups of variables that influence testability: value-related, intrinsic, project-related and subjective. Below are some [heuristics](/tools/heuristics.md) adapted from [James Bach](http://www.satisfice.com/tools/testable.pdf). To discover even more dimensions that influence testability, refer to [Maria Kedemo](https://mkedemo.wordpress.com/2015/11/22/dimensions-of-testability-v1-1/)'s **dimensions of testability**.
+There are four main groups of variables that influence testability: value-related, intrinsic, project-related and subjective. Below are some [heuristics](/toolbox/heuristics.md) adapted from [James Bach](http://www.satisfice.com/tools/testable.pdf). To discover even more dimensions that influence testability, refer to [Maria Kedemo](https://mkedemo.wordpress.com/2015/11/22/dimensions-of-testability-v1-1/)'s **dimensions of testability**.
 
 - **Value**: changing the quality standard or our knowledge of it.
-  - [_Oracles_](/tools/oracles.md). We need ways to detect each kind of problem that is worth looking for.
+  - [_Oracles_](/toolbox/oracles.md). We need ways to detect each kind of problem that is worth looking for.
   - _Users_. The more we can talk to and observe users, the easier it is to test for them.
   - _Environment_. Testing is more accurate when performed in the users' environment (or similar).
 - **Intrinsic** (aka. product): changing the system itself.
@@ -33,11 +33,11 @@ There are four main groups of variables that influence testability: value-relate
   - _Sandboxing_. We are free to do any testing without fear of disrupting users or team members.
   - _Time_. We need time to think, prepare and deal with surprises.
 - **Subjective** (aka. tester): changing the tester or the test process.
-  - [_Test strategy_](/tools/test-strategy.md). A strategy will reduce waste by focusing the testing efforts on what matters.
+  - [_Test strategy_](/toolbox/test-strategy.md). A strategy will reduce waste by focusing the testing efforts on what matters.
   - _Context knowledge_. The more we know about the users and the system, the better we can test.
   - _Technical knowledge_. Our knowledge of technology and tools makes testing easier for us.
 
-Here's a [mnemonic](/tools/mnemonics.md) to remember these dimensions: usability, security and other -ilities are very important; testability is VIP as well; thus testability dimensions are **`VIPS`** (**v**alue, **i**ntrinsic, **p**roject, **s**ubjective). Here's another: [`SOCKS`](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html).
+Here's a [mnemonic](/toolbox/mnemonics.md) to remember these dimensions: usability, security and other -ilities are very important; testability is VIP as well; thus testability dimensions are **`VIPS`** (**v**alue, **i**ntrinsic, **p**roject, **s**ubjective). Here's another: [`SOCKS`](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html).
 
 This checklist adapted from [Ash Winter](https://testingisbelieving.blogspot.com/2017/08/the-team-test-for-testability.html) can be used for a quick **health check on your testability**. For each question answer Yes (+1) or No (+0). If your final score is below 8, you are working under unnecessary risk.
 
@@ -56,7 +56,7 @@ This checklist adapted from [Ash Winter](https://testingisbelieving.blogspot.com
 
 If you were unsatisfied with score you got, there are methods to improve it. Of course you have ~~boring~~ ~~expensive~~ [maturity models](https://www.tmmi.org/tmmi-documents/#) in the market to formally evaluate your testability. However, if you prefer something simple and tailored for your team you can use the [**Test Improvement Assessment**](http://www.huibschoots.nl/wordpress/wp-content/uploads/2017/02/Test-Improvement-Huib-Schoots-Joep-Schuurkes.pdf). Essentially your team selects which testability criteria are relevant for your context, scores them and finally agrees on how to improve. If you need hints on practices that can improve your system's testability, [Michael Bolton](http://www.developsense.com/blog/2009/07/testability/) has a few.
 
-Both the checklist and the assessment are practical methods to discuss testability. To visually **report the state of testability** you can use a [mind map](/tools/note-taking.md), as illustrated (pun intended) by [Adam Knight](https://www.a-sisyphean-task.com/2014/07/a-map-for-testability.html).
+Both the checklist and the assessment are practical methods to discuss testability. To visually **report the state of testability** you can use a [mind map](/toolbox/note-taking.md), as illustrated (pun intended) by [Adam Knight](https://www.a-sisyphean-task.com/2014/07/a-map-for-testability.html).
 
 ## Teachers
 
