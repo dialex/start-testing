@@ -40,7 +40,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 - ⭐️ [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) (extension): formats JSONs to be human readable on a browser tab
 - ⭐️ [Meld](https://meldmerge.org/) (app): visual diff and merge tool for individual files or entire folder
 - 🤷‍♂️ [Vysor](https://www.vysor.io/) (app): control your Android from your laptop
-- [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/): test your app on IE11 and Edge Legacy using Win10 VMs
+- [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/toolbox/vms/): test your app on IE11 and Edge Legacy using Win10 VMs
 
 ## 🎨 FRONT-END
 
@@ -86,13 +86,13 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 
 ### Web (acceptance tests)
 
-- 💯 [Cypress](https://www.cypress.io/): acceptance tests in JavaScript ([review](/tools/framework/cypress))
+- 💯 [Cypress](https://www.cypress.io/): acceptance tests in JavaScript ([review](/toolbox/framework/cypress))
 - 🤷‍♂️ [Nightwatch](https://nightwatchjs.org/): acceptance tests in JavaScript
 - 🤷‍♂️ [Testcafe](https://devexpress.github.io/testcafe/): acceptance tests in JavaScript
 - [SpecFlow](https://specflow.org/): acceptance tests in .NET/C#
 - [Serenity](https://github.com/serenity-bdd/serenity-core): acceptance tests in Java
 - 🤷‍♂️ [Selenide](https://selenide.org/): acceptance tests in Java
-- [Robot Framework](https://robotframework.org/): acceptance tests in Python ([review](/tools/framework/robot))
+- [Robot Framework](https://robotframework.org/): acceptance tests in Python ([review](/toolbox/framework/robot))
 - 🤷‍♂️ [Capybara](https://github.com/teamcapybara/capybara): acceptance tests in Ruby (DSL)
 - 🤷‍♂️ [Watir](http://watir.com/): acceptance tests in Ruby (OO)
 - 🤷‍♂️ [Mabl](https://www.mabl.com/) (SaaS): code-less UI/acceptance tests for web; allows record & play
@@ -140,7 +140,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 
 ### Performance
 
-- [Lighthouse](https://developers.google.com/web/tools/lighthouse/#devtools) (extension): audits your web page for performance, a11y, PWA, SEO
+- [Lighthouse](https://developers.google.com/web/toolbox/lighthouse/#devtools) (extension): audits your web page for performance, a11y, PWA, SEO
 - ⭐️ [JMeter](https://jmeter.apache.org/) (app): load tests your website and measures performance; not the easiest UI
 - 🤷‍♂️ [Gatling](https://gatling.io/) (app/SaaS): load tests your website displays results in dashboards
 - 🤷‍♂️ [Sitespeed.io](https://www.sitespeed.io/) (app): monitors and measures the performance of your web site

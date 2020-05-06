@@ -8,7 +8,7 @@ We testers discover, gather and share information.
 
 Keeping that information only inside your head is both ephemeral and ineffective. What you discover is of little use if you cannot communicate that information to the right audience, in a clear and engaging format.
 
-When we recall things we often miss important details or we remember them in a way that reinforces our own thinking ([confirmation bias](/tools/biases.md)). Writing notes frequently during your testing sessions reduces this risk.
+When we recall things we often miss important details or we remember them in a way that reinforces our own thinking ([confirmation bias](/toolbox/biases.md)). Writing notes frequently during your testing sessions reduces this risk.
 
 Moreover, note-taking is a skill that greatly improves your exploratory testing by giving it structure. Good exploratory testing debriefs are insightful, searchable and shareable.
 
@@ -58,7 +58,7 @@ Note taking is also useful to reduce rambling during meetings. Share your screen
 
 Simon Tomes shared [a template](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g) that provides structure and triggers for your exploratory testing sessions. As always, try it and tweak it to your taste. That document ([real example](https://docs.google.com/document/d/1tLovWr2aehnq-JRj1qzAXPv-7r8PdBSdx1uk-X5sr3c)) gives the reader not only a summary but also the details of the session.
 
-While you explore, "[`KIIQ`](/tools/mnemonics.md)" taking notes focusing on four subjects:
+While you explore, "[`KIIQ`](/toolbox/mnemonics.md)" taking notes focusing on four subjects:
 
 - **K**udos: what you enjoyed doing or seeing in your exploration
 - **I**deas: what you think could be done differently

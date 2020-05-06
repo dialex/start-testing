@@ -105,7 +105,7 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
 - **When writing automated tests: `SACRED`** by [Richard Bradshaw](https://youtu.be/z9m_yZMswOQ?t=56)
   - State: manage the environment where tests will run (e.g. configs, feature flags, data)
   - Actions: specify which steps to automate (e.g. click page element, call API, mock)
-  - Codified [oracle](/tools/oracles.md): conditions that will decide whether the observed behaviour was expected (e.g. assertions)
+  - Codified [oracle](/toolbox/oracles.md): conditions that will decide whether the observed behaviour was expected (e.g. assertions)
   - Reporting: display and share the test results (e.g. logs, reports, notifications)
   - Execution: decide where and how the tests will run (e.g. local, CI, staging, production)
   - Deterministic: strive to have coherent and reliable test results (e.g. reduce flakyness)
@@ -132,7 +132,7 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
   - Platform: everything external on which the product depends (libs, 3rd parties, tools, hardware)
   - Operations: how the product will be used (personas, environment, happy path, edge cases)
   - Time: any relationship between the product and time (speed, concurrency, frequency, delays)
-- **When looking for test [oracles](/tools/oracles.md): `FEW HICCUPPS`** adapted by [Michael Bolton](https://www.developsense.com/blog/2012/07/few-hiccupps/)
+- **When looking for test [oracles](/toolbox/oracles.md): `FEW HICCUPPS`** adapted by [Michael Bolton](https://www.developsense.com/blog/2012/07/few-hiccupps/)
   - Familiarity: should not suffer from common issues (or others)
   - Explainability: should be intuitive and easy to understand or explain
   - World: should be aligned with our knowledge of the world
@@ -146,10 +146,10 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
   - Standards: should comply with applicable laws and regulations
 - **When starting an exploratory testing session: `TORCH`** by [Simon Tomes](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g/edit)
   - Time: How much time will you put aside for this session?
-  - Oracles: Who or what will help you act on the information you discover? (see [oracles](/tools/oracles.md))
-  - Risks: What do you want to learn about? (see [charters](/tools/charters.md))
+  - Oracles: Who or what will help you act on the information you discover? (see [oracles](/toolbox/oracles.md))
+  - Risks: What do you want to learn about? (see [charters](/toolbox/charters.md))
   - Consider: What questions do you want to answer? (see **`WWWWWHEK`** mnemonic)
-  - Heuristics: What triggers will guide your session? (see [heuristics](/tools/heuristics.md))
+  - Heuristics: What triggers will guide your session? (see [heuristics](/toolbox/heuristics.md))
 - **When ending an exploratory testing session: `PROOF`** by [Jon Bach](https://jonbox.wordpress.com/)
   - Past: what was explored during the session (e.g. charter)
   - Results: what was discovered
@@ -186,7 +186,7 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
   - Simplicity: you should reduce complexity, so that your product is easy to test and maintain
   - Observability: you should be able to monitor what the product did, when and how
   - Control: you should be able to influence the state of the product to reproduce scenarios at will
-  - Knowledge: you should have access to information (and [oracles](/tools/oracles.md)) about the product under test
+  - Knowledge: you should have access to information (and [oracles](/toolbox/oracles.md)) about the product under test
   - Stability: you should have a stable environment and product to perform your testing
 - **When looking for ways to improve your product's [testability](/concepts/testability.md): `VIPS`** by [James Back](https://www.satisfice.com/download/heuristics-of-software-testability)
   - Value: changing the quality standard or our knowledge of it
