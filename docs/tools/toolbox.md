@@ -68,13 +68,22 @@ Legend:
 
 - [RapidReporter](http://testing.gershon.info/reporter/) (app): distraction free note taking during exploratory sessions
 - 🤷‍♂️ [ExploratoryTesting](https://chrome.google.com/webstore/detail/exploratory-testing-chrom/khigmghadjljgjpamimgjjmpmlbgmekj) (extension): report bugs/ideas/notes/questions as you explore; export as HTML
-- 🤷‍♂️ [Test & Feedback](https://chrome.google.com/webstore/detail/test-feedback/gnldpbnocfnlkkicnaplmkaphfdnlplb) (extension): report bugs and tasks as you explore; export as HTML; VSTS integration
+- 🤷‍♂️ [Test & Feedback](https://chrome.google.com/webstore/detail/test-feedback/gnldpbnocfnlkkicnaplmkaphfdnlplb) (extension): report bugs/tasks as you explore; export as HTML; VSTS integration
 
 ## ⚠️⚠️⚠️ Productivity
 
-- 💯 VS Code
-  - extensions here
-- 💯 Fork
+- 💯 [VS Code](https://code.visualstudio.com/): lightweight and extensible IDE for almost any language; cross-platform
+  - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): tasks for Git (git blame, file history, compare view, etc.)
+  - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): tasks for Markdown (shortcuts, ToC, preview)
+  - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): performs static analysis on your Markdown file
+  - [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser): task and right-click to open file on browser
+  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): format all other files; ensure your team uses the same rules
+  - [Remark](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-remark): format Markdown files
+  - [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync): task to save/load your settings and extensions on GitHub
+  - [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright): multilingual spellchecker for comments and Markdown
+  - [Unique Lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines): task to remove duplicated lines from current selection
+  - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): meaningful and colorful icons on files and folders
+- 💯 [Fork](https://git-fork.com/): visual client for Git; cross-platform
 - [Form Filler](https://chrome.google.com/webstore/detail/form-filler/bnjjngeaknajbdcgpfkgnonkmififhfo) (extension): automates form filling with testing data
 - Clippy
 - 🤷‍♂️ [Vysor](https://www.vysor.io/): control your Android from your laptop
@@ -166,7 +175,7 @@ Legend:
 ## Community
 
 - 💯 [Testers.io](http://www.testers.io/) - Ministry of Testing's Slack community; ask for advice or join the discussion
-- 💯 [Testing Conferences](https://testingconferences.org/) - live list (and alerts) about worldwide testing conferences 
+- 💯 [Testing Conferences](https://testingconferences.org/) - live list (and alerts) about worldwide testing conferences
 
 ## Lists of resources
 
