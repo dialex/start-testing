@@ -18,7 +18,7 @@ Do not confuse with [automatability](https://www.youtube.com/watch?v=gL8hmAH4ZGM
 
 ## Practice
 
-There are four main groups of variables that influence testability: value-related, intrinsic, project-related and subjective. Below are some [heuristics](/toolbox/heuristics.md) adapted from [James Bach](http://www.satisfice.com/toolbox/testable.pdf). To discover even more dimensions that influence testability, refer to [Maria Kedemo](https://mkedemo.wordpress.com/2015/11/22/dimensions-of-testability-v1-1/)'s **dimensions of testability**.
+There are four main groups of variables that influence testability: value-related, intrinsic, project-related and subjective. Below are some [heuristics](/toolbox/heuristics.md) adapted from [James Bach](http://www.satisfice.com/tools/testable.pdf). To discover even more dimensions that influence testability, refer to [Maria Kedemo](https://mkedemo.wordpress.com/2015/11/22/dimensions-of-testability-v1-1/)'s **dimensions of testability**.
 
 - **Value**: changing the quality standard or our knowledge of it.
   - [_Oracles_](/toolbox/oracles.md). We need ways to detect each kind of problem that is worth looking for.
@@ -71,7 +71,7 @@ Both the checklist and the assessment are practical methods to discuss testabili
 - [Test improvement in an agile/CD environment](http://www.huibschoots.nl/wordpress/?p=2543)
 - [The team test for testability](https://testingisbelieving.blogspot.com/2017/08/the-team-test-for-testability.html)
 - [Deeper Testing: Testability](http://www.developsense.com/blog/2017/09/deeper-testing-3-testability/)
-- [Heuristics of Software Testability](http://www.satisfice.com/toolbox/testable.pdf)
+- [Heuristics of Software Testability](http://www.satisfice.com/tools/testable.pdf)
 - [Putting Your Testability Socks On](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html)
 - [A Map For Testability](https://www.a-sisyphean-task.com/2014/07/a-map-for-testability.html)
 - [Design for Testability](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.94.5966&rep=rep1&type=pdf)

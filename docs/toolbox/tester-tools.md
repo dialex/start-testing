@@ -40,7 +40,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 - ⭐️ [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) (extension): formats JSONs to be human readable on a browser tab
 - ⭐️ [Meld](https://meldmerge.org/) (app): visual diff and merge tool for individual files or entire folder
 - 🤷‍♂️ [Vysor](https://www.vysor.io/) (app): control your Android from your laptop
-- [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/toolbox/vms/): test your app on IE11 and Edge Legacy using Win10 VMs
+- [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/): test your app on IE11 and Edge Legacy using Win10 VMs
 
 ## 🎨 FRONT-END
 
@@ -140,7 +140,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 
 ### Performance
 
-- [Lighthouse](https://developers.google.com/web/toolbox/lighthouse/#devtools) (extension): audits your web page for performance, a11y, PWA, SEO
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse/#devtools) (extension): audits your web page for performance, a11y, PWA, SEO
 - ⭐️ [JMeter](https://jmeter.apache.org/) (app): load tests your website and measures performance; not the easiest UI
 - 🤷‍♂️ [Gatling](https://gatling.io/) (app/SaaS): load tests your website displays results in dashboards
 - 🤷‍♂️ [Sitespeed.io](https://www.sitespeed.io/) (app): monitors and measures the performance of your web site
@@ -148,7 +148,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 
 ### Privacy
 
-- 💯 [Ghostery](https://chrome.google.com/webstore/detail/ghostery-–-privacy-ad-blo/mlomiejdfkolichcflejclcbmpeaniij) (extension): measures the number of ads and trackers in a web page
+- 💯 [Ghostery](https://chrome.google.com/webstore/detail/ghostery-%E2%80%93-privacy-ad-blo/mlomiejdfkolichcflejclcbmpeaniij) (extension): measures the number of ads and trackers in a web page
 - 💯 [TunnelBear](https://www.tunnelbear.com/) (app): pretends your machine is in a different country with a different IP
 - ⭐️ [User Agent Switcher](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg) (extension): easily switch between user-agent strings
 
