@@ -16,11 +16,11 @@ Legend:
 - 💯 [Webhint](https://webhint.io/) (IDE/cli/extension): checks your web page for browser compatibility, acessibility, performance and security issues, plus common mistakes; neat report; proper issue justification and mitigation
 - ⭐️ [WAVE](https://wave.webaim.org/) (extension): check your web page for compliance with WCAG; the issues are displayed contextually on the page itself; an explanation in simple English is provided for each issue
 - [axe](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd) (extension): the standard for online accessibility checking; UI/UX is not as pleasant
-- [HTML validator](https://chrome.google.com/webstore/detail/html-validator/mpbelhhnfhfjnaehkcnnaknldmnocglk) (extension): checks the W3 markup validity of your web page
 
 ## UI - Design
 
 - [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) (extension): overlap UI mockup on top of your page and look for mismatches
+- ⭐️ [Tape](https://chrome.google.com/webstore/detail/tape/jmfleijdbicilompnnombcbkcgidbefb) (extension): draw guidelines on top of your page and measure pixel distances
 - [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) (extension): color pick any color from a web page
 - [CSS Selector Tester](https://chrome.google.com/webstore/detail/css-selector-tester/bbklnaodgoocmcdejoalmbjihhdkbfon) (extension): takes a CSS selector and highlights the selection in the page itself
 
@@ -67,6 +67,7 @@ Legend:
 ## Exploration in testing
 
 - [RapidReporter](http://testing.gershon.info/reporter/) (app): distraction free note taking during exploratory sessions
+- 💯 [TestBuddy](https://testbuddy.co/) (SaaS): report bugs/ideas/notes/questions as you explore; export as PDF
 - 🤷‍♂️ [ExploratoryTesting](https://chrome.google.com/webstore/detail/exploratory-testing-chrom/khigmghadjljgjpamimgjjmpmlbgmekj) (extension): report bugs/ideas/notes/questions as you explore; export as HTML
 - 🤷‍♂️ [Test & Feedback](https://chrome.google.com/webstore/detail/test-feedback/gnldpbnocfnlkkicnaplmkaphfdnlplb) (extension): report bugs/tasks as you explore; export as HTML; VSTS integration
 
@@ -94,6 +95,7 @@ Legend:
 - 💯 [BugMagnet](https://chrome.google.com/webstore/detail/bug-magnet/efhedldbjahpgjcneebmbolkalbhckfi) (extension): quick access to test strings relevant for boundary testing
 - ⭐️ [Meld](https://meldmerge.org/): visual diff and merge tool for individual files or entire folders
 - 💯 [Rectangle](https://rectangleapp.com/): move/resize windows using shortcuts or snap areas
+- ⭐️ [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) (extension): formats JSONs to be human readable on a browser tab 
 
 ## Cross-browser testing
 
@@ -103,6 +105,7 @@ Legend:
 ## SEO
 
 - 🤷‍♂️ [Tag Assistant](https://chrome.google.com/webstore/detail/tag-assistant-by-google/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en) (extension): troubleshoots Google tags (analytics, tag manager, etc.)
+- ⭐️ [Check My Links](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf) (extension): checks your web page for broken links
 
 ## Network
 
@@ -163,6 +166,7 @@ Legend:
 
 ## Performance
 
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse/#devtools) (extension): audits your web page for performance, a11y, PWA, SEO
 - ⭐️ [JMeter](https://jmeter.apache.org/) (app): load tests your website and measures performance; not the easiest UI
 - 🤷‍♂️ [Gatling](https://gatling.io/) (app/SaaS): load tests your website displays results in dashboards
 - 🤷‍♂️ [Sitespeed.io](https://www.sitespeed.io/) (app): monitors and measures the performance of your web site
