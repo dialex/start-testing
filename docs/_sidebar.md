@@ -20,7 +20,7 @@
   - ~~Test strategy~~
   - [Development methodologies](/tools/dev-methodologies.md)
   - ~~Test pyramid~~
-  - [Tools](/tools/toolbox.md)
+  - [Tools](/tools/tester-tools.md)
 - **Test types**
   - ~~Functional vs Non-functional~~
   - ~~White box vs Black box~~
