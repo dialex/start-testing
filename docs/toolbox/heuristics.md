@@ -60,6 +60,8 @@ This presentation from [Karen Johnson](http://karennicolejohnson.com/wp-content/
 
 Given the time you have to test is limited, you might want to prioritise your testing by "finding important problems first" and "maximising diversity". These and [other heuristics](https://thelifeofoneman.com/the-main-test-heuristics-to-consider) allow you to focus on using different techniques to reveal different types of critical problems.
 
+If you like learning while having fun, [Lena Pejgan](https://testing.pejgan.se/2020/04/30/would-heu-risk-it-part-32-wrap-up-time/) created a card games called "Would Heu-risk it?". It contains a total of 30 tools (things testers use to increase the value of their testing), traps (common mistakes and antipatterns) and weapons (pieces of wisdom gained from experience).
+
 ### 🕶 Biases
 
 > Bias is an irrational judgement or subconscious inference made from (historical) data available to us.
@@ -115,6 +117,7 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 - [Alan Richardson](https://www.eviltester.com/)
 - [Dan Ashby](https://danashby.co.uk/)
 - [James Bach](https://www.satisfice.com/)
+- [Lena Pejgan](https://testing.pejgan.se/)
 - [Richard Bradshaw](https://thefriendlytester.co.uk/)
 
 ## Sources
