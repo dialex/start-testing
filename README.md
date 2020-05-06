@@ -9,3 +9,10 @@ This repo contains the source of a testing course.
 - Written in [Markdown](http://commonmark.org/), so that it's **cross-platform** 🌍
 - Hosted in [GitHub](https://dialex.github.io/start-testing), so that **anyone can contribute** 🤝
 - Rendered with [Docsify](https://github.com/QingWei-Li/docsify/), so that it **looks awesome** 😎
+
+## Supporters
+
+<img src="docs/_media/supporters/Equal_Experts.png" alt="EE-logo" style="zoom:60%;" />
+
+A big thanks to my company for giving me the time to work on this course.
+
