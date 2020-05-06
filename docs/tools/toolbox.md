@@ -14,20 +14,20 @@ Legend:
 ## UI - Accessibility
 
 - 💯 [Webhint](https://webhint.io/) (IDE/cli/extension): checks your web page for browser compatibility, acessibility, performance and security issues, plus common mistakes; neat report; proper issue justification and mitigation
-- ⭐️ [WAVE](https://wave.webaim.org/) (extension): check your web page for compliance with WCAG; the issues are displayed contextually on the page itself; for each issue, an explanation in simple English is provided
-- [axe](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd) (extension): the standard for online accessibility checking; test results are not as visually appealing as the other tools
+- ⭐️ [WAVE](https://wave.webaim.org/) (extension): check your web page for compliance with WCAG; the issues are displayed contextually on the page itself; an explanation in simple English is provided for each issue
+- [axe](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd) (extension): the standard for online accessibility checking; UI/UX is not as pleasant
 - [HTML validator](https://chrome.google.com/webstore/detail/html-validator/mpbelhhnfhfjnaehkcnnaknldmnocglk) (extension): checks the W3 markup validity of your web page
 
-## UI - Design?
+## UI - Design
 
 - [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) (extension): overlap UI mockup on top of your page and look for mismatches
-- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) (extension): pick any color from your web page
-- [CSS Selector Tester](https://chrome.google.com/webstore/detail/css-selector-tester/bbklnaodgoocmcdejoalmbjihhdkbfon) (extension): given a CSS selector, highlights the selection in the page itself
+- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) (extension): color pick any color from a web page
+- [CSS Selector Tester](https://chrome.google.com/webstore/detail/css-selector-tester/bbklnaodgoocmcdejoalmbjihhdkbfon) (extension): takes a CSS selector and highlights the selection in the page itself
 
 ## API
 
 - 💯 [Postman](https://www.postman.com/) (app/cli): interact/mock APIs, automate checks, collaborate with your team
-- 💯 [Wiremock](http://wiremock.org/) (cli): simulates API responses according to your configuration (mock)
+- 💯 [Wiremock](http://wiremock.org/) (cli): simulates API responses according to your configuration
 
 ## Automation in testing
 
@@ -59,18 +59,18 @@ Legend:
 
 ### Libraries
 
+- [Testing library](https://testing-library.com/): query the DOM like the user finds elements on the page
 - 💯 [RestAssured](https://github.com/rest-assured/rest-assured): API testing in Java
-- [Testing library](https://testing-library.com/): methods to query the DOM like how the user finds elements on the page
 - 💯 [the-internet](https://the-internet.herokuapp.com/): examples of UI components, ready for your automation experiments
 - 🤷‍♂️ [Stryker](https://stryker-mutator.io/): mutation testing for JavaScript/.NET
 
 ## Exploration in testing
 
 - [RapidReporter](http://testing.gershon.info/reporter/) (app): distraction free note taking during exploratory sessions
-- 🤷‍♂️ [ExploratoryTesting](https://chrome.google.com/webstore/detail/exploratory-testing-chrom/khigmghadjljgjpamimgjjmpmlbgmekj) (extension): report bugs, ideas, notes and questions as you explore; export as HTML
+- 🤷‍♂️ [ExploratoryTesting](https://chrome.google.com/webstore/detail/exploratory-testing-chrom/khigmghadjljgjpamimgjjmpmlbgmekj) (extension): report bugs/ideas/notes/questions as you explore; export as HTML
 - 🤷‍♂️ [Test & Feedback](https://chrome.google.com/webstore/detail/test-feedback/gnldpbnocfnlkkicnaplmkaphfdnlplb) (extension): report bugs and tasks as you explore; export as HTML; VSTS integration
 
-## Productivity
+## ⚠️⚠️⚠️ Productivity
 
 - 💯 VS Code
   - extensions here
@@ -78,22 +78,21 @@ Legend:
 - [Form Filler](https://chrome.google.com/webstore/detail/form-filler/bnjjngeaknajbdcgpfkgnonkmififhfo) (extension): automates form filling with testing data
 - Clippy
 - 🤷‍♂️ [Vysor](https://www.vysor.io/): control your Android from your laptop
--
 
 ## Cross-browser testing
 
-- [BrowserStack](https://www.browserstack.com/) (SaaS): run the same tests, in parallel, on multiple browsers
-- 🤷‍♂️ [SauceLabs](https://saucelabs.com/) (SaaS): run the same tests, in parallel, on multiple browsers
+- [BrowserStack](https://www.browserstack.com/) (SaaS): runs the same tests, in parallel, on multiple browsers
+- 🤷‍♂️ [SauceLabs](https://saucelabs.com/) (SaaS): runs the same tests, in parallel, on multiple browsers
 
 ## SEO
 
-- 🤷‍♂️ [Tag Assistant](https://chrome.google.com/webstore/detail/tag-assistant-by-google/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en) (extension): troubleshoot installation of Google tags (analytics, tag manager, etc.)
+- 🤷‍♂️ [Tag Assistant](https://chrome.google.com/webstore/detail/tag-assistant-by-google/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en) (extension): troubleshoots Google tags (analytics, tag manager, etc.)
 
 ## Network
 
-- [Wireshark](https://www.wireshark.org/) (app): log requests between your computer and the Internet
-- 🤷‍♂️ [Fidder](https://www.telerik.com/fiddler) (app): log requests between your computer and the Internet and fiddle with request/response
-- 🤷‍♂️ [Request Maker](https://chrome.google.com/webstore/detail/request-maker/kajfghlhfkcocafkcjlajldicbikpgnp) (extension): log requests made by web pages, tamper with the URL, headers and POST data
+- [Wireshark](https://www.wireshark.org/) (app): logs requests between your computer and the Internet
+- 🤷‍♂️ [Fidder](https://www.telerik.com/fiddler) (app): same as Wireshark and let's you fiddle with the request/response
+- 🤷‍♂️ [Request Maker](https://chrome.google.com/webstore/detail/request-maker/kajfghlhfkcocafkcjlajldicbikpgnp) (extension): same as Fiddler
 
 ## Security
 
@@ -105,7 +104,7 @@ Legend:
 - ⭐️ [Datadog](https://www.datadoghq.com/) (SaaS): closed-source monitoring, log analysis and dashboards
 - ⭐️ [New Relic](https://newrelic.com/) (SaaS): closed-source monitoring, log analysis and dashboards
 - [Splunk](https://www.splunk.com/) (SaaS): closed-source monitoring, log analysis and dashboards
-- [PowerBI](https://powerbi.microsoft.com/) (SaaS): Microsoft's closed-source dashboards
+- [PowerBI](https://powerbi.microsoft.com/) (SaaS): closed-source dashboards by Microsoft
 
 ## Test monitoring
 
@@ -113,17 +112,17 @@ Legend:
 
 ## Documentation
 
-- 💯 [Typora](https://typora.io/) (app]): cross-platform Markdown editor with embedded live preview; pleasant UX; distraction free UI; exports to PDF, HTML and more
+- 💯 [Typora](https://typora.io/) (app]): cross-platform Markdown editor with embedded live preview; pleasant and distraction free UX; exports to PDF, HTML and more
 - 💯 [Marp Next](https://marp.app/) (IDE/cli/SaaS): create slide decks using Markdown with live preview
 - 💯 [Mermaid.js](https://mermaid-js.github.io/mermaid/#/) (SaaS): create diagrams using Markdown with live preview
-- ⭐️ [Diagrams.net](http://diagrams.net/) (SaaS/app): share a canvas with a colleague and draw anything collaboratively
 - 💯 [Mindmup](https://www.mindmup.com/) (Saas): draw mind maps directly in Google Drive, with real-time collaboration
 - 💯 [XMind](https://www.xmind.net/) (app): draw mind maps offline with a clean/professional look; pleasant UX
+- ⭐️ [Diagrams.net](http://diagrams.net/) (SaaS/app): share a canvas with a colleague and draw anything collaboratively
 
 ## Reporting
 
-- 🤷‍♂️ [Allure](https://github.com/allure-framework/allure2) (cli): reads your test execution data and generates an HTML report
 - [Mochawesome](https://github.com/adamgruber/mochawesome#readme) (cli): reads your JavaScript test execution data and generates an HTML report
+- 🤷‍♂️ [Allure](https://github.com/allure-framework/allure2) (cli): reads your test execution data and generates an HTML report
 - [Pickles](https://www.picklesdoc.com/) (cli): reads your Gherkin scenarios (`.feature` files) and generates an HTML report
 
 ## Emails
@@ -134,8 +133,8 @@ Legend:
 
 ## Bug reporting
 
-- 💯 [Licecap](https://www.cockos.com/licecap/) (app): cross-platform screen recorder to compressed GIF
-- 💯 [Full page screen capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl/related?hl=en) (extension): create a screenshot of the entire web page
+- 💯 [Licecap](https://www.cockos.com/licecap/) (app): record your screen to lightweight GIFs; cross-platform
+- 💯 [Full page screen capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl/related?hl=en) (extension): take single a screenshot of an entire web page
 - [Lightshot](https://chrome.google.com/webstore/detail/lightshot-screenshot-tool/mbniclmhobmnbdlbpiphghaielnnpgdp?hl=en) (extension): take a screenshot and annotate it
 
 ## Visual (regression)
@@ -155,7 +154,7 @@ Legend:
 
 ## Privacy
 
-- 💯 [Ghostery](https://chrome.google.com/webstore/detail/ghostery-–-privacy-ad-blo/mlomiejdfkolichcflejclcbmpeaniij) (extension): measures the number of ads and trackers in a specific page
+- 💯 [Ghostery](https://chrome.google.com/webstore/detail/ghostery-–-privacy-ad-blo/mlomiejdfkolichcflejclcbmpeaniij) (extension): measures the number of ads and trackers in a web page
 - 💯 [TunnelBear](https://www.tunnelbear.com/) (app): pretends your machine is in a different country with a different IP
 - ⭐️ [User Agent Switcher](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg) (extension): easily switch between user-agent strings
 
@@ -167,7 +166,7 @@ Legend:
 ## Community
 
 - 💯 [Testers.io](http://www.testers.io/) - Ministry of Testing's Slack community; ask for advice or join the discussion
-- 💯 [Testing Conferences](https://testingconferences.org/) - live list and alerts about testing conferences, worldwide
+- 💯 [Testing Conferences](https://testingconferences.org/) - live list (and alerts) about worldwide testing conferences 
 
 ## Lists of resources
 
@@ -199,9 +198,6 @@ Legend:
 
 - Exploration >> TestBuddy
 - 💯 [BugMagnet](https://chrome.google.com/webstore/detail/bug-magnet/efhedldbjahpgjcneebmbolkalbhckfi): quick access to test strings relevant for boundary testing
-
-⚠️ **TODO: REVIEW ACTIVE VOICE (e.g. capture -> captures)**
-
 ## Sources
 
 - [title](#link)
