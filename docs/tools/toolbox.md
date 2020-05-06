@@ -73,7 +73,7 @@ Legend:
 
 ## Productivity
 
-- 💯 [VS Code](https://code.visualstudio.com/): lightweight and extensible IDE for almost any language; cross-platform
+- 💯 [VS Code](https://code.visualstudio.com/) (app): lightweight and extensible IDE for almost any language; cross-platform
   - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): tasks for Git (git blame, file history, compare view, etc.)
   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): tasks for Markdown (shortcuts, ToC, preview)
   - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): performs static analysis on your Markdown file
@@ -84,17 +84,17 @@ Legend:
   - [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright): multilingual spellchecker for comments and Markdown
   - [Unique Lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines): task to remove duplicated lines from current selection
   - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): meaningful and colorful icons on files and folders
-- 💯 [Rectangle](https://rectangleapp.com/): move/resize windows using shortcuts or snap areas
-- 💯 [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/blob/master/README.md): prevents your Mac to enter screensaver/sleep mode (useful when pairing)
+- 💯 [Rectangle](https://rectangleapp.com/) (app): move/resize windows using shortcuts or snap areas
+- 💯 [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/blob/master/README.md) (app): prevents your Mac to enter screensaver/sleep mode (useful when pairing)
 - 💯 [BugMagnet](https://chrome.google.com/webstore/detail/bug-magnet/efhedldbjahpgjcneebmbolkalbhckfi) (extension): quick access to test strings relevant for boundary testing
-- 💯 [Clipy](https://github.com/Clipy/Clipy): clipboard manager with support for code snippets
-- 💯 [Fork](https://git-fork.com/): visual client for Git; cross-platform
-- 💯 [F.lux](https://justgetflux.com/): automatically reduces the blue light of your screen as night comes
+- 💯 [Clipy](https://github.com/Clipy/Clipy) (app): clipboard manager with support for code snippets
+- 💯 [Fork](https://git-fork.com/) (app): visual client for Git; cross-platform
+- 💯 [F.lux](https://justgetflux.com/) (app): automatically reduces the blue light of your screen as night comes
 - ⭐️ [Bookmarklet](https://mrcoles.com/bookmarklet/) (SaaS): stores Javascript code as a browser bookmark button
 - ⭐️ [Form Filler](https://chrome.google.com/webstore/detail/form-filler/bnjjngeaknajbdcgpfkgnonkmififhfo) (extension): automates form filling with testing data
 - ⭐️ [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) (extension): formats JSONs to be human readable on a browser tab
-- ⭐️ [Meld](https://meldmerge.org/): visual diff and merge tool for individual files or entire folder
-- 🤷‍♂️ [Vysor](https://www.vysor.io/): control your Android from your laptop
+- ⭐️ [Meld](https://meldmerge.org/) (app): visual diff and merge tool for individual files or entire folder
+- 🤷‍♂️ [Vysor](https://www.vysor.io/) (app): control your Android from your laptop
 - [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/): test your app on IE11 and Edge Legacy using Win10 VMs
 
 ## Cross-browser testing
