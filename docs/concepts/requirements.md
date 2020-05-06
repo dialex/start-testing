@@ -6,23 +6,23 @@
 
 Here are some **concepts** you should keep in mind:
 
-- *Requirement:* Some behaviour or property needed by a stakeholder to achieve a goal.
-- *Specification:* The list containing all requirements for a given project/product.
-- *User story:* Concise description of a requirement, told from the perspective of the stakeholder who desires it. Typically follows the structure `As a <user>, I want to <goal> so that <motivation>`.
-- *Acceptance criteria* (AC): Statements that are expected to be true if the user story is correctly implemented. If the ACs are met, the implementation is *accepted*. If there's a mismatch, either the ACs are revised or the implementation redone.
-- *Backlog:* The list containing all user stories to implement for a given project/product.
+- _Requirement:_ Some behaviour or property needed by a stakeholder to achieve a goal.
+- _Specification:_ The list containing all requirements for a given project/product.
+- _User story:_ Concise description of a requirement, told from the perspective of the stakeholder who desires it. Typically follows the structure `As a <user>, I want to <goal> so that <motivation>`.
+- _Acceptance criteria_ (AC): Statements that are expected to be true if the user story is correctly implemented. If the ACs are met, the implementation is _accepted_. If there's a mismatch, either the ACs are revised or the implementation redone.
+- _Backlog:_ The list containing all user stories to implement for a given project/product.
 
 These are the **main roles** that engage in breaking down a product into requirements:
 
-- The *Stakeholder:* Anyone that has authority to influence the specification. They might have that power because: they will use it (users); they will maintain it (architects); they will help users (support); they are paying for it (client).
-- The *Product Owner* (PO): Discovers who are the relevant stakeholders. Gathers requirements from stakeholders. Takes decisions as a spokesman for all stakeholders.
-- The *Business Analyst* (BA): Improves the specification based on his/her experience and business context, without biasing it. Can act as Product Owner.
+- The _Stakeholder:_ Anyone that has authority to influence the specification. They might have that power because: they will use it (users); they will maintain it (architects); they will help users (support); they are paying for it (client).
+- The _Product Owner_ (PO): Discovers who are the relevant stakeholders. Gathers requirements from stakeholders. Takes decisions as a spokesman for all stakeholders.
+- The _Business Analyst_ (BA): Improves the specification based on his/her experience and business context, without biasing it. Can act as Product Owner.
 - The _"three amigos"_ are a PO/BA, a developer and a tester. Seems like the start of a joke, but it is really just a nickname for temporary subteam with those three roles.
 
 There are several **ways to write the specification** of a product, however there are two main approaches:
 
-- In a *Waterfall project*, the client gathers requirements from their relevant stakeholders and writes a document containing them. That document is casually referred to as "the specification" or more formally as Software Requirements Specification (SRS). Once approved, the specification does not change and the team starts implementing it.
-- In an *Agile project*, the PO engages in conversations with the client's stakeholders and gathers their goals and requirements. The three amigos collaborate to write user stories that will implement those requirements. The list of stories not yet implemented is called the backlog. The details of those stories, as well as their priority, can be changed during the project.
+- In a _Waterfall project_, the client gathers requirements from their relevant stakeholders and writes a document containing them. That document is casually referred to as "the specification" or more formally as Software Requirements Specification (SRS). Once approved, the specification does not change and the team starts implementing it.
+- In an _Agile project_, the PO engages in conversations with the client's stakeholders and gathers their goals and requirements. The three amigos collaborate to write user stories that will implement those requirements. The list of stories not yet implemented is called the backlog. The details of those stories, as well as their priority, can be changed during the project.
 
 ## Practice
 
@@ -40,11 +40,11 @@ So you might be asking **how can testers add value to this process?**
 
 > Business perspective: Build the right thing meeting the client's expectations and requirements.
 >
-> *Concern: Will it be useful?*
+> _Concern: Will it be useful?_
 >
 > Technical perspective: Build it right using the correct technology, architecture, tools and practices.
 >
-> *Concern: Will it work?*
+> _Concern: Will it work?_
 
 - **Align perspectives**. Each side has its own concerns, assumptions and biases. Chat with stakeholders (askers) and developers (givers) to check if they have a common understanding of what needs to be done.
 - **Raise risks**. That's why you are one of the three amigos. Usually the POs are focused on functionality and your developers on implementation details. You can remind them of risks such as non-functional requirements, impacts with previous stories or the cost of automating a specific tests.

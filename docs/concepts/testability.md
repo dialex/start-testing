@@ -14,28 +14,28 @@ Testability measures our human ability to test — how skilled we are, how easy 
 
 [Bret Pettichord](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.94.5966&rep=rep1&type=pdf) defines testability as visibility and control. **Visibility** is our ability to observe the states, outputs and other side effects of the system under test. **Control** is our ability to give inputs to the system under test or set it in specific states.
 
-Do not confuse with [automatability](https://www.youtube.com/watch?v=gL8hmAH4ZGM) which measures how easy it is to automate the interaction and control of our system. For instance, [logging](/fields/logging.md) is a feature that improves *testability* because it helps humans inspect how the system works; browser cookies enhance *automatability* because it allows automation to control a user session.
+Do not confuse with [automatability](https://www.youtube.com/watch?v=gL8hmAH4ZGM) which measures how easy it is to automate the interaction and control of our system. For instance, [logging](/fields/logging.md) is a feature that improves _testability_ because it helps humans inspect how the system works; browser cookies enhance _automatability_ because it allows automation to control a user session.
 
 ## Practice
 
 There are four main groups of variables that influence testability: value-related, intrinsic, project-related and subjective. Below are some [heuristics](/tools/heuristics.md) adapted from [James Bach](http://www.satisfice.com/tools/testable.pdf). To discover even more dimensions that influence testability, refer to [Maria Kedemo](https://mkedemo.wordpress.com/2015/11/22/dimensions-of-testability-v1-1/)'s **dimensions of testability**.
 
 - **Value**: changing the quality standard or our knowledge of it.
-  - [*Oracles*](/tools/oracles.md). We need ways to detect each kind of problem that is worth looking for.
-  - *Users*. The more we can talk to and observe users, the easier it is to test for them.
-  - *Environment*. Testing is more accurate when performed in the users' environment (or similar).
+  - [_Oracles_](/tools/oracles.md). We need ways to detect each kind of problem that is worth looking for.
+  - _Users_. The more we can talk to and observe users, the easier it is to test for them.
+  - _Environment_. Testing is more accurate when performed in the users' environment (or similar).
 - **Intrinsic** (aka. product): changing the system itself.
-  - *Reliability*. Issues slow down testing since we must stop to report them or work around them.
-  - *Tolerance*. The less quality required or the more risk that can be taken, the less testing is needed.
-  - *Controllability*. Ideally we can provide any possible input and invoke any possible state or combination of states easily and on demand.
+  - _Reliability_. Issues slow down testing since we must stop to report them or work around them.
+  - _Tolerance_. The less quality required or the more risk that can be taken, the less testing is needed.
+  - _Controllability_. Ideally we can provide any possible input and invoke any possible state or combination of states easily and on demand.
 - **Project**: changing the conditions under which we test.
-  - *Information*. We get all information we want or need to test well.
-  - *Sandboxing*. We are free to do any testing without fear of disrupting users or team members.
-  - *Time*. We need time to think, prepare and deal with surprises.
+  - _Information_. We get all information we want or need to test well.
+  - _Sandboxing_. We are free to do any testing without fear of disrupting users or team members.
+  - _Time_. We need time to think, prepare and deal with surprises.
 - **Subjective** (aka. tester): changing the tester or the test process.
-  - [*Test strategy*](/tools/test-strategy.md). A strategy will reduce waste by focusing the testing efforts on what matters.
-  - *Context knowledge*. The more we know about the users and the system, the better we can test.
-  - *Technical knowledge*. Our knowledge of technology and tools makes testing easier for us.
+  - [_Test strategy_](/tools/test-strategy.md). A strategy will reduce waste by focusing the testing efforts on what matters.
+  - _Context knowledge_. The more we know about the users and the system, the better we can test.
+  - _Technical knowledge_. Our knowledge of technology and tools makes testing easier for us.
 
 Here's a [mnemonic](/tools/mnemonics.md) to remember these dimensions: usability, security and other -ilities are very important; testability is VIP as well; thus testability dimensions are **`VIPS`** (**v**alue, **i**ntrinsic, **p**roject, **s**ubjective). Here's another: [`SOCKS`](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html).
 

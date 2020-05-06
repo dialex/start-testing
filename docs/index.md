@@ -1,6 +1,6 @@
 # Syllabus
 
-> *Your attitude, not your aptitude, will determine your altitude.* — Zig Ziglar
+> _Your attitude, not your aptitude, will determine your altitude._ — Zig Ziglar
 
 🚧⬇ _this will be a A4 page summary of how to start testing_ ⬇🚧
 
@@ -34,6 +34,6 @@ Stakeholders use or are affected by the product you are testing. You will clarif
 
 🚧⬆ _offer a way to download this summary as a pdf_ ⬆🚧
 
---------
+---
 
 ~~[TODO (Trello resources)](https://trello.com/c/IKgim0gn/217-%F0%9F%93%9A-study-plan)~~ / [GitHub repository](https://github.com/dialex/start-testing)

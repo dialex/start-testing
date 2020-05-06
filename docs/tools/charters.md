@@ -19,7 +19,7 @@ You can write your charters to be precise or broad, as you will see in the pract
 
 Different charters lead to different types of exploration. You can view charters as a reminder to focus on a particular kind of information or risk while exploring.
 
-Charters are handy tools during all phases of a testing session. *Before* an exploratory session they structure your thinking and goals. *During* the session they guide you and prevent deviations. *After* the session they summarise what you did (free documentation).
+Charters are handy tools during all phases of a testing session. _Before_ an exploratory session they structure your thinking and goals. _During_ the session they guide you and prevent deviations. _After_ the session they summarise what you did (free documentation).
 
 ## Practice
 

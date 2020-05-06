@@ -37,7 +37,7 @@ If you want an (almost) exhaustive list of responsibilities and activities, this
 
 Finding bugs — probably the most widely know mission of a tester. Why? It is the job of the tester to inform the stakeholders about anything that threatens the value of the product. To ensure the core functionality still work after adding new features. To ensure the critical issues are detected before the enhancement opportunities. To ensure the team is aware of the known issues and their risk (probability + impact).
 
-Issues that slow down testing are terribly important, because they give bugs the opportunity to hide for longer. So report not only *bugs* in the product but also *issues* that slow down testing.
+Issues that slow down testing are terribly important, because they give bugs the opportunity to hide for longer. So report not only _bugs_ in the product but also _issues_ that slow down testing.
 
 Keep in mind that the ultimate goal of a tester is not finding issues (per se). If that was the case you would become a perfectionist, someone that raises an excessive number of low-value issues.
 
@@ -87,10 +87,10 @@ Even though you don't own the product, you can give them your advice and support
 
 One of your responsibilities is to uncover information and deliver it. To do so, there are many questions a tester could ask. [Mnemonics](/tools/mnemonics.md) are a clever way to avoid forgetting them. If you can only memorise four questions, these are the ones:
 
-1. **What are we building?** *What features? What are the components? How do they integrate?*
-2. **For who?** *What value are they expecting? How will they use it? How can they get help?*
-3. **What could go wrong?** *What's the impact? Who would suffer? How long would it take to fix it?*
-4. **How would we find out?** *Can we detect a failure? Can we prevent or mitigate it?*
+1. **What are we building?** _What features? What are the components? How do they integrate?_
+2. **For who?** _What value are they expecting? How will they use it? How can they get help?_
+3. **What could go wrong?** _What's the impact? Who would suffer? How long would it take to fix it?_
+4. **How would we find out?** _Can we detect a failure? Can we prevent or mitigate it?_
 
 Once you have gathered that information, share it with your team and other relevant stakeholders. Be mindful about your audience — deliver just the right amount of data using the most effective medium for them (e.g. using diagrams for non-technical people).
 
@@ -110,8 +110,8 @@ Working as a team, you achieve more, faster and with less pain.
 
 Testers add value to teams by contributing with different perspectives. If you always use the same thinking, you get biased and you might miss important aspects. Next time, try to combine different approaches:
 
-- **Technical thinking**: usage of *experience* to select the right tools, techniques and technologies. This is useful to minimise the effort of [testing](/concepts/testing-purpose.md) and make development more efficient.
-- **Creative thinking**: usage of _creativity_ to analyse the same context using a different perspective. This is useful to uncover new information that no one thought about before (aka. *unknown unknowns*).
+- **Technical thinking**: usage of _experience_ to select the right tools, techniques and technologies. This is useful to minimise the effort of [testing](/concepts/testing-purpose.md) and make development more efficient.
+- **Creative thinking**: usage of _creativity_ to analyse the same context using a different perspective. This is useful to uncover new information that no one thought about before (aka. _unknown unknowns_).
 - **Critical thinking**: usage of _scepticism_ to question what is known or assumed to be the truth. This is useful to detect assumptions or biases and review the "why" and "how" of a requirement.
 - **Practical thinking**: usage of _visualisation_ to draw the ideas under discussion or ask for examples. This is useful to predict how an idea will be done and remove any obstacles to its implementation.
 - **Black box thinking**: usage of _ignorance_ to skip implementation details. This is useful to focus on behaviour and end-to-end flow, impersonating a user.
