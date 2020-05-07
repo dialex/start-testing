@@ -130,8 +130,9 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 
 ## 📥 EMAIL
 
-- 🤷‍♂️ [Mailinator](https://www.mailinator.com/) (SaaS): create a public test inbox, use their API to query emails received (no sign-up)
+- [Maildev](https://github.com/maildev/maildev) (cli): create a local test inbox, use their API or UI to query emails received
 - 🤷‍♂️ [Mapil](https://mapil.co/) (SaaS): create a private test inbox, use their API to query emails received (requires sign-up)
+- 🤷‍♂️ [Mailinator](https://www.mailinator.com/) (SaaS): create a public test inbox, use their API to query emails received (no sign-up)
 - ⭐️ [Litmus](https://litmus.com/) (SaaS): preview the same email on multiple email clients and devices
 
 ## 🔒 NON-FUNCTIONAL REQUIREMENTS
@@ -145,6 +146,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse/#devtools) (extension): audits your web page for performance, a11y, PWA, SEO
 - ⭐️ [JMeter](https://jmeter.apache.org/) (app): load tests your website and measures performance; not the easiest UI
+- 🤷‍♂️ [k6](https://k6.io/) (cli/SaaS): load tests your website and measures performance
 - 🤷‍♂️ [Gatling](https://gatling.io/) (app/SaaS): load tests your website displays results in dashboards
 - 🤷‍♂️ [Sitespeed.io](https://www.sitespeed.io/) (app): monitors and measures the performance of your web site
 - 🤷‍♂️ [chaosmonkey](https://github.com/Netflix/chaosmonkey) (cli): resilience test that randomly terminates production VMs and containers
@@ -158,6 +160,9 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 ### Security
 
 - 💯 [OWASP ZAP](https://www.zaproxy.org/) (app): scans your website for the [OWASP Top 10](https://owasp.org/www-project-top-ten/) vulnerabilities
+- 💯 [Trivy](https://github.com/aquasecurity/trivy) (cli): simple vulnerability scanner for containers
+- 🤷‍♂️ [Frida](https://frida.re/) (cli): lets you inject snippets of JavaScript into native apps
+- [Magisk](https://magisk.me/) (app): root your Android device without touching system/boot partition
 
 ### SEO
 
