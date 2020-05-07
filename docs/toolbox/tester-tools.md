@@ -141,6 +141,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 
 - [BrowserStack](https://www.browserstack.com/) (SaaS): runs the same tests, in parallel, on multiple browsers
 - 🤷‍♂️ [SauceLabs](https://saucelabs.com/) (SaaS): runs the same tests, in parallel, on multiple browsers
+- 🤷‍♂️ [Zalenium](https://opensource.zalando.com/zalenium/) (SaaS): host your own scalable container based Selenium Grid
 
 ### Performance
 
