@@ -165,7 +165,7 @@ Then [result]
 
 #### Living documentation (BDD)
 
-If your team decides to code automated checks for each scenario (i.e. executable specification) then you can go a step further and achieve living documentation.
+The tool that reads Gherkin and executes test code is called [Cucumber](https://cucumber.io/). If your team decides to write automated checks for each scenario (i.e. executable specification) then you can go a step further and achieve living documentation.
 
 If you automated your scenarios, most likely you have a collection of `*.feature` files. You can find (or build) a tool that reads these files and automatically generates web pages (`*.html` files).
 
