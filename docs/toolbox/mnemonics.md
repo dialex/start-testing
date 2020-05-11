@@ -32,7 +32,7 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
   - Outputs: the outputs that deliver what you want to achieve
   - Processes: the activities performed to generate those outputs
   - Scenarios: step by step descriptions of those activities (aka. test cases)
-  - Inputs: data used by scenarios to perform an activity (aka. test conditions)
+  - Inputs: data used by scenarios to perform an activity (aka. test data)
 - **When writing a user story: `INVEST`** by [Bill Wake](https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/)
   - Independent: should be ready to start without waiting for another story
   - Negotiable: should capture the goal and leave the implementation for debate
