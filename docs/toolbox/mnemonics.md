@@ -188,7 +188,7 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
   - Control: you should be able to influence the state of the product to reproduce scenarios at will
   - Knowledge: you should have access to information (and [oracles](/toolbox/oracles.md)) about the product under test
   - Stability: you should have a stable environment and product to perform your testing
-- **When looking for ways to improve your product's [testability](/concepts/testability.md): `VIPS`** by [James Back](https://www.satisfice.com/download/heuristics-of-software-testability)
+- **When looking for ways to improve your product's [testability](/concepts/testability.md): `VIPS`** by [James Bach](https://www.satisfice.com/download/heuristics-of-software-testability)
   - Value: changing the quality standard or our knowledge of it
   - Intrinsic (aka. product): changing the system itself
   - Project: changing the conditions under which we test
