@@ -39,7 +39,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 - ⭐️ [Form Filler](https://chrome.google.com/webstore/detail/form-filler/bnjjngeaknajbdcgpfkgnonkmififhfo) (extension): automates form filling with testing data
 - ⭐️ [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) (extension): formats JSONs to be human readable on a browser tab
 - ⭐️ [Meld](https://meldmerge.org/) (app): visual diff and merge tool for individual files or entire folder
-- 🤷‍♂️ [Vysor](https://www.vysor.io/) (app): control your Android from your laptop
+- 💯 [scrcpy](https://github.com/Genymobile/scrcpy) (app): control your Android from your laptop; cross-platform
 - [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/): test your app on IE11 and Edge Legacy using Win10 VMs
 
 ## 🎨 FRONT-END
