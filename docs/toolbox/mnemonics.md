@@ -1,12 +1,12 @@
 # Mnemonics
 
-> **tl;dr** Mnemonics are brain shortcuts to retrieve information.
+> **tl;dr** Mnemonics are memory shortcuts to retrieve information.
 
 ## Theory
 
 > A mnemonic is a pattern of letters, ideas, or associations which helps remember something else. It is a learning technique that aids information retention and retrieval. — [Wikipedia](https://en.wikipedia.org/wiki/Mnemonic)
 
-Your brain can store a lot of information, but sometimes it's hard to recall a specific detail. Maybe you don't use that information too often or maybe it's not very intuitive. Mnemonics are **[brain shortcuts](https://www.mindtools.com/memory.html)** that allow you to retrieve the same information with less effort.
+Your brain can store a lot of information, but sometimes it's hard to recall a specific detail. Maybe you don't use that information too often or maybe it's not very intuitive. Mnemonics are **[memory shortcuts](https://www.mindtools.com/memory.html)** that allow you to retrieve the same information with less effort.
 
 > Example: You can memorise how many days each month has, or you can use the knuckles of your hand to instantly know the answer. In the latter case, you are using a shortcut to retrieve the same information — that's a mnemonic.
 >
