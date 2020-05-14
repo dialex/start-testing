@@ -60,7 +60,7 @@ This presentation from [Karen Johnson](http://karennicolejohnson.com/wp-content/
 
 Given the time you have to test is limited, you might want to prioritise your testing by "finding important problems first" and "maximising diversity". These and [other heuristics](https://thelifeofoneman.com/the-main-test-heuristics-to-consider) allow you to focus on using different techniques to reveal different types of critical problems.
 
-If you like learning while having fun, [Lena Pejgan](https://testing.pejgan.se/2020/04/30/would-heu-risk-it-part-32-wrap-up-time/) created a card games called "Would Heu-risk it?". It contains a total of 30 tools (things testers use to increase the value of their testing), traps (common mistakes and antipatterns) and weapons (pieces of wisdom gained from experience).
+If you like learning while having fun, [Lena Pejgan](https://testing.pejgan.se/2020/04/30/would-heu-risk-it-part-32-wrap-up-time/) created a card games called "Would Heu-risk it?". It contains a total of 30 tools (things testers use to increase the value of their testing), traps (common mistakes and anti-patterns) and weapons (pieces of wisdom gained from experience).
 
 ### 🕶 Biases
 

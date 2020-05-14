@@ -79,6 +79,7 @@ cli
 a11y
 pentesters
 pentest
+pejgan
  - docs/toolbox/note-taking.md
 udos
 deas
@@ -154,3 +155,12 @@ Webhint
 JSVerify
 junit-quickcheck
 FreeLearningResourcesForSoftwareTesters
+scrcpy
+Maildev
+Zalenium
+k6
+Trivy
+Frida
+Magisk
+ - docs/toolbox/heuristics.md
+Heu-risk
