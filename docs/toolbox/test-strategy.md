@@ -4,6 +4,12 @@
 
 ## Theory
 
+> Creating a test plan is complex. An ideal test plan is accomplished by applying [cost-benefit analysis](https://en.wikipedia.org/wiki/Cost–benefit_analysis) and [risk analysis](https://en.wikipedia.org/wiki/Risk_analysis), optimally balancing these software development factors: implementation cost, maintenance cost, monetary cost, benefit, risk.
+>
+> It does not provide a test plan template, because templates are often too generic or too specific and quickly become outdated. Instead, it focuses on selecting the best content when writing a test plan.
+>
+> -- https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html
+
 > Search for 'How to write a test plan' on the internet and there are all sorts of templates, 'must haves', tutorials and lots more. Once it's written, reviewed, edited, finalised, and distributed to all the relevant stakeholders, it's quite common to find out later than almost no-one has actually read it.
 >
 > A test plan may also be used as a 'shield' of sorts.  If something goes wrong, it could be necessary to refer back to the test plan document, to find missed scope, lack of test coverage, or to see what the agreed scope of testing was. In a regulated or very controlled environment it could be a mandatory part of the testing cycle, a legal requirement even, or a deliverable of the project. 
@@ -45,7 +51,15 @@
 
 ## Practice
 
-…
+> - What is covered by unit (small), integration (medium), and system (large) tests?
+> - What will be tested manually vs. automated?
+> - What kind of testing will be done outside of your team?
+> - How are builds and tests run continuously?
+> - How will external users report bugs?
+> - How does bug triage work?
+> - Who is the test plan's audience?
+>
+> -- https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html
 
 ## Teachers
 
