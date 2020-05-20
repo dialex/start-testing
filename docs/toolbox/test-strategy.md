@@ -7,6 +7,11 @@
 > A good test strategy is a rich collage of different processes, techniques and tools.
 >
 > -- Mark Winteringham
+
+> The test strategy is the way tests will be designed and executed to support an effective quality assessment. Test strategy is the plan for what parts of the product will be covered by tests and what test techniques will be used. Test strategy is distinct from the logistics of implementing the strategy. Test strategy is essentially the “brains” of the test process.
+>
+> -- https://www.satisfice.com/download/test-plan-evaluation-model
+
 > Creating a test plan is complex. An ideal test plan is accomplished by applying [cost-benefit analysis](https://en.wikipedia.org/wiki/Cost–benefit_analysis) and [risk analysis](https://en.wikipedia.org/wiki/Risk_analysis), optimally balancing these software development factors: implementation cost, maintenance cost, monetary cost, benefit, risk.
 >
 > It does not provide a test plan template, because templates are often too generic or too specific and quickly become outdated. Instead, it focuses on selecting the best content when writing a test plan.
@@ -176,6 +181,18 @@
 > - What is meaningful to test?
 > - What questions are our tests going to answer?
 > - Who is available to test?
+
+> - Usefulness: Will the test plan effectively serve its intended functions?
+> - Accuracy: Is it accurate with respect to any statements of fact?
+> - Efficiency: Does it make efficient use of available resources?
+> - Adaptability: Will it tolerate reasonable change and unpredictability in the project?
+> - Clarity: Is the test plan self-consistent and sufficiently unambiguous?
+> - Usability: Is the test plan document concise, maintainable, and helpfully organized?
+> - Compliance: Does it meet externally imposed requirements?
+> - Foundation: Is it the product of an effective test planning process?
+> - Feasibility: Is it within the capability of the organization that must perform it?
+>
+> https://www.satisfice.com/download/test-plan-evaluation-model
 
 ## Teachers
 
