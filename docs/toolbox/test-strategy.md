@@ -69,6 +69,10 @@
 >
 > -- https://dojo.ministryoftesting.com/lessons/how-to-write-a-software-test-plan
 
+> The test strategy is the set of ideas that guide your test process to fulfill your mission. The test strategy is shaped by asking yourself what your mission is (the purpose of your testing), who’s affected (the people who care), and how much time do you have. Ultimately, we have a finite time and we can’t test for everything
+>
+> -- https://thelifeofoneman.com/the-testing-strategy
+
 ## Practice
 
 > - What is covered by unit (small), integration (medium), and system (large) tests?
