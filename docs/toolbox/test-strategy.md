@@ -61,6 +61,17 @@
 >
 > -- https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html
 
+> Good automated checks can…
+> 1. Verify the code is working correctly
+> 2. Prevent future regressions
+> 3. Document the code’s behavior
+> 4. Provide design guidance
+> 5. Support refactoring
+>
+> No test has inherent value. A test is *only* valuable to your project insofar as it supports one or more of the five factors. And keep in mind that an individual test or even a suite, overall, *cannot* fully support all five factors. Which factors are more important will vary between sections of your codebase, and even in the same section over time.
+>
+> -- https://madeintandem.com/blog/five-factor-testing/
+
 ## Teachers
 
 - [Name](#link)
