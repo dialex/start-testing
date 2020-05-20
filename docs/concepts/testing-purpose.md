@@ -30,7 +30,7 @@ Quality is a moving target — it adapts to its changing context (e.g. time, pri
 >
 > — [James Bach](http://www.satisfice.com/articles/gooden2.pdf)
 
-Even though you cannot guarantee quality, you can do your best effort to pursuit it. Thus the **purpose of testing** is to measure and maximise quality delivered, while minimising risk to an acceptable level. The more we test, the more we know about our products. With that knowledge, teams can make informed decisions on how to improve the product.
+Even though you cannot guarantee quality, you can do your best effort to pursuit it. Thus the **purpose of testing** is to measure and maximise quality delivered, while minimising risk to an acceptable level. The more we test, the more we know about our products. With that knowledge, teams can make informed decisions on how to improve and when to release the product.
 
 ## Practice
 
