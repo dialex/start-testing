@@ -85,6 +85,33 @@
 >
 > -- https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html
 
+> You do need a test strategy, which is a strategy for your testing on the project… But how you choose to document that strategy and at what level should be as lean as possible. Try modelling or diagramming your strategy. Or try detailing it on a single slide.
+>
+> The strategy should describe:
+>
+> - your test approaches,
+> - your test reporting methods,
+> - your strategy for managing environments,
+> - strategy for reporting bugs,
+> - key stakeholders and decision makers,
+> - etc (think overall, big picture on describing HOW you will test and report that testing and any discoveries).
+>
+> -- [Dan Ashby](https://club.ministryoftesting.com/t/test-strategy-documentation-in-an-agile-world/10724/6)
+>
+> 1. Scope
+>    2.Test Approach:
+>    a. Process of testing
+>    b. Testing Level
+>    c. Type of Test
+>    d. Roles&Responsability
+>    e. Manage defects
+> 2. Test Environment
+> 3. Testing tools
+>    a. Automation
+>    b. Management
+> 4. Release
+>    a. Test plan simplify
+
 > Good automated checks can…
 > 1. Verify the code is working correctly
 > 2. Prevent future regressions
