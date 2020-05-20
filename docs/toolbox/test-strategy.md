@@ -123,6 +123,57 @@
 >
 > -- https://madeintandem.com/blog/five-factor-testing/
 
+> Adapted from [**`GRATEDD SCRIPTS`** mnemonic]() by Jared Quinert
+>
+> **Goals**
+>
+> - What would be true if we succeeded?
+> - What are the must haves?
+>
+> **Risks**
+>
+> - Do you forsee any obstacle to achieve that?
+> - Do you have any concerns or fears?
+>
+> **Approach & Tooling**
+>
+> - *(see Ways of Working)*
+>
+> **Schedule**
+>
+> - Any important dates?
+> - Any recurring events?
+>
+> **Trade-offs & Prioritisation**
+>
+> - Who will set priorities?
+> - What can we drop to prioritise our goal?
+>
+> **Dependencies**
+>
+> - Is our delivery influenced by someone/thing outside our team?
+>
+> **Stakeholders**
+>
+> - Who's the sponsor? Who has a stake in our success?
+> - Who reviews/approves our delivery?
+>
+> **Environments**
+>
+> - How many do we need and for what?
+> - Who will manage them?
+>
+> **Data**
+>
+> - What kind of data should we collect?
+> - How do we display that data?
+>
+> **Coverage & Resources & Information**
+>
+> - What is meaningful to test?
+> - What questions are our tests going to answer?
+> - Who is available to test?
+
 ## Teachers
 
 - [Name](#link)
