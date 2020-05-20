@@ -4,6 +4,9 @@
 
 ## Theory
 
+> A good test strategy is a rich collage of different processes, techniques and tools.
+>
+> -- Mark Winteringham
 > Creating a test plan is complex. An ideal test plan is accomplished by applying [cost-benefit analysis](https://en.wikipedia.org/wiki/Cost–benefit_analysis) and [risk analysis](https://en.wikipedia.org/wiki/Risk_analysis), optimally balancing these software development factors: implementation cost, maintenance cost, monetary cost, benefit, risk.
 >
 > It does not provide a test plan template, because templates are often too generic or too specific and quickly become outdated. Instead, it focuses on selecting the best content when writing a test plan.
