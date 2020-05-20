@@ -49,6 +49,26 @@
 >
 > -- https://mavericktester.com/2020/01/13/emergent-strategy/
 
+> Using a test plan as a mechanism to seek answers, to drive information exchange and consensus, and to prepare yourself, can make it a worthwhile thing. Make it valuable for you and your stakeholders. Make your test plan work for you, not against you. And if you can’t, don’t be afraid to get rid of it.
+>
+> Documents are for communicating information between people. So you need to understand who those people are, in the context of test information.
+>
+> test plans are typically created to document the basic answers to the five Ws of testing (see [**`W5H`** mnemonic]()).
+>
+> It can be a document, mind map, web platforms (e.g. Jira, Wiki), board. Make the test plan work for you, in all aspects of its form, structure and content. If it’s not working for you, change it.
+>
+> If you’re not sure, determine all the questions you want to ask about the testing you want to do, then figure out who the best people are to answer those questions, and ask them. They should be invested in testing the product or application. Explain why you’re asking and the value that you can add by gaining answers to your questions.
+>
+> - **Software Testers** who want to know what they might be testing over the course of the project. 
+> - **Project Managers** want to know what you’re planning to test, and how, so they can be confident in making a decision to release.
+> - **Product Owners** can tell you how the product is meant to be used.
+> - **Customer Support** can tell you about the customer environment, how they use the system, and the kind of problems they encounter.
+> - **Sales People** can tell you which products are the most popular.
+>
+> Only you can know whether, in your context, a test plan document is required: Who is asking for the document? Who is going to read it? What will they gain from it? What else could I be doing with this time?
+>
+> -- https://dojo.ministryoftesting.com/lessons/how-to-write-a-software-test-plan
+
 ## Practice
 
 > - What is covered by unit (small), integration (medium), and system (large) tests?
