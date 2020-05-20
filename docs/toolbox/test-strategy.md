@@ -131,6 +131,21 @@
 >
 > -- https://madeintandem.com/blog/five-factor-testing/
 
+> Consider each of these layers like a net. It won’t catch everything, bugs in production will still happen. But when we have all of these feedback loops layered on top of each other, we get a pretty tight net, where hopefully no major issues get into production.
+>
+> Common components of a test strategy:
+>
+> - Automated checks (unit/API/UI)
+> - Pairing or Code review
+> - Exploratory testing
+> - CI/CD pipeline
+> - Test/Demo environment
+> - Demo day
+> - Monitoring
+> - Collecting user feedback
+>
+> -- https://bughuntersam.com/a-mobile-app-test-strategy/
+
 > Adapted from [**`GRATEDD SCRIPTS`** mnemonic]() by Jared Quinert
 >
 > **Goals**
