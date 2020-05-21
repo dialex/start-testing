@@ -50,7 +50,7 @@ You will frequently come across heuristics in the form of checklists, cheat shee
 
 ### 💡 Test ideas
 
-There's a big number of heuristics you can use to generate test ideas. [Elisabeth Hendrickson](http://testobsessed.com/wp-content/uploads/2011/04/testheuristicscheatsheetv1.pdf) compiled a cheat sheet with the most common. One of the simplest is the Goldilocks heuristic (named after the [bedtime story](https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears)), which focuses on the concept of "too big", "too small", "just right".
+There's a big number of heuristics you can use to generate test ideas. [Elisabeth Hendrickson](http://testobsessed.com/wp-content/uploads/2011/04/testheuristicscheatsheetv1.pdf) compiled a cheat sheet with the most common. One of the simplest is the Goldilocks heuristic (named after the [bedtime story](https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears)), which focuses on the concept of "too big", "too small", "just right". For more testing opportunities, check this list from [Erik Brickarp](http://erik.brickarp.se/2016/08/how-to-come-up-with-test-ideas.html).
 
 > Let's say you want to test a new field that collects the age of a user. Inspired by the Goldilocks heuristic, you can observe the behaviour of that field when you type a value that is too big (`999`), too small (`-1`), and just right (`30`).
 
@@ -131,3 +131,4 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 - [Quaere, Heuristics, Mnemonics, and Acronyms](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html)
 - [Are You Suffering From the Curse of Knowledge?](https://www.tombartel.me/blog/are-you-suffering-from-curse-of-knowledge/)
 - [Cognitive bias cheat sheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18#.486tj1s6j)
+- [How to come up with test ideas](http://erik.brickarp.se/2016/08/how-to-come-up-with-test-ideas.html)
