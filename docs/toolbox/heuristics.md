@@ -54,7 +54,7 @@ There's a big number of heuristics you can use to generate test ideas. [Elisabet
 
 > Let's say you want to test a new field that collects the age of a user. Inspired by the Goldilocks heuristic, you can observe the behaviour of that field when you type a value that is too big (`999`), too small (`-1`), and just right (`30`).
 
-[James Bach](https://www.satisfice.com/download/heuristic-test-strategy-model)'s Heuristic Test Strategy Model (HSTM) contains more tips on how to explore your product ([**`SFDIPOT`**](/toolbox/mnemonics?id=⛺%ef%b8%8f-exploration)) and its non-functional properties ([**`CRUCSPIC STMP`**](/toolbox/mnemonics?id=%f0%9f%92%a1-product)).
+[James Bach](https://www.satisfice.com/download/heuristic-test-strategy-model)'s Heuristic Test Strategy Model (HTSM) contains more tips on how to explore your product ([**`SFDIPOT`**](/toolbox/mnemonics?id=⛺%ef%b8%8f-exploration)) and its non-functional properties ([**`CRUCSPIC STMP`**](/toolbox/mnemonics?id=%f0%9f%92%a1-product)).
 
 This presentation from [Karen Johnson](http://karennicolejohnson.com/wp-content/uploads/2012/11/KNJohnson-2012-heuristics-mnemonics.pdf) demonstrates how you can use heuristics like [**`RCRCRC`**](/toolbox/mnemonics?id=🤖-automation) (ideas about what to check on regression testing) or [**`FEW HICCUPPS`**](/toolbox/mnemonics?id=⛺%ef%b8%8f-exploration) (oracles focused on consistency) in practice. To discover other mnemonics, check this [cheat sheet](/toolbox/mnemonics).
 
