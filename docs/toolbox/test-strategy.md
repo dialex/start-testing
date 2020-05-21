@@ -83,6 +83,10 @@
 
 ## Practice
 
+A good starting point is the Heuristic Test Strategy Model from [James Bach](https://www.satisfice.com/download/heuristic-test-strategy-model). According to that plan, testing is influenced by: project environment, quality criteria, test techniques. [Dan Ashby](https://danashby.co.uk/2017/12/13/a-new-model-for-test-strategies/) then simplified that model into an intuitive diagram.
+
+![DanAshbyHTSM](../_media/articles/modified-htsm1.png)
+
 > - What is covered by unit (small), integration (medium), and system (large) tests?
 > - What will be tested manually vs. automated?
 > - What kind of testing will be done outside of your team?
@@ -209,6 +213,8 @@
 >
 > https://www.satisfice.com/download/test-plan-evaluation-model
 
+If you're not sure which areas should be tested, you can do a risk mapping exercise. [Sam Connelly](https://bughuntersam.com/visual-risk-ui-automation-framework/) explains step by step how you can make one. [Diogo Nunes](https://www.diogonunes.com/blog/risk-mapping-prioritisation/) later adapted that exercise for remote teams.
+
 ## Teachers
 
 - [Name](#link)
@@ -216,3 +222,4 @@
 ## Sources
 
 - [title](#link)
+- [An update to the Heuristic Test Strategy Model](https://danashby.co.uk/2017/12/13/a-new-model-for-test-strategies/)
