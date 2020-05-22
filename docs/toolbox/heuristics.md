@@ -82,6 +82,14 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 - Diversify who is doing the testing — e.g. rotate perspectives and expectations
 - Diversify your test environment — e.g. use a diff machine or OS, test in production
 
+[Katrina Clokie](https://katrinatester.blogspot.com/2018/05/9-quick-ideas-for-flexible-testing.html) has a few additional suggestions:
+
+- Change the order of your test approach to break a routine
+- Seek test ideas from non-testers outside your agile team (e.g. UX, Ops)
+- Pair with a tester in another team to see a different test approach first-hand
+- Experiment with a tool that you haven't tried before
+- Ask for constructive feedback about your testing
+
 [Alan Richardson](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html) challenges your amount of testing with the next three questions. He also suggests a few words to fill in the blanks: Questioning, Usage, Analysis, Exploration, Reasoning, Experimentation ([`QUAERE`](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html))
 
 - "Have I performed enough \_\_\_\_?"
@@ -132,3 +140,4 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 - [Are You Suffering From the Curse of Knowledge?](https://www.tombartel.me/blog/are-you-suffering-from-curse-of-knowledge/)
 - [Cognitive bias cheat sheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18#.486tj1s6j)
 - [How to come up with test ideas](http://erik.brickarp.se/2016/08/how-to-come-up-with-test-ideas.html)
+- [9 quick ideas for flexible testing](https://katrinatester.blogspot.com/2018/05/9-quick-ideas-for-flexible-testing.html)
