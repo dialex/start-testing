@@ -4,13 +4,19 @@
 
 ## Theory
 
+The test strategy is defined at the start of the project and can be revisited and reviewed during the duration of that project. It's usually driven by the testers, yet it should always include feedback from all team members. Their input is valuable because product owners know how stakeholders and customers will measure the product's quality, and because developers will partner with you to implement that test strategy.
+
 > A good test strategy is a rich collage of different processes, techniques and tools.
 >
-> -- Mark Winteringham
+> -- [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/)
 
-> The test strategy is the way tests will be designed and executed to support an effective quality assessment. Test strategy is the plan for what parts of the product will be covered by tests and what test techniques will be used. Test strategy is distinct from the logistics of implementing the strategy. Test strategy is essentially the “brains” of the test process.
+> The test strategy is the set of ideas that guide your test process to fulfill your (testing) mission.
 >
-> -- https://www.satisfice.com/download/test-plan-evaluation-model
+>  -- ["The life of one man"](https://thelifeofoneman.com/the-testing-strategy)
+
+This strategy reveals the way tests will be designed and executed to foster quality. To do so, it needs to answer several questions like what parts of the product will be tested, what test techniques will be used, who will be involved, and how long it will take. The number of questions and the detail of the answers depends on your project's [requirements](), so you will have choose between a formal and detailed document versus a simple and abridged alternative.
+
+
 
 > Creating a test plan is complex. An ideal test plan is accomplished by applying [cost-benefit analysis](https://en.wikipedia.org/wiki/Cost–benefit_analysis) and [risk analysis](https://en.wikipedia.org/wiki/Risk_analysis), optimally balancing these software development factors: implementation cost, maintenance cost, monetary cost, benefit, risk.
 >
@@ -77,9 +83,7 @@
 >
 > -- https://dojo.ministryoftesting.com/lessons/how-to-write-a-software-test-plan
 
-> The test strategy is the set of ideas that guide your test process to fulfill your mission. The test strategy is shaped by asking yourself what your mission is (the purpose of your testing), who’s affected (the people who care), and how much time do you have. Ultimately, we have a finite time and we can’t test for everything
->
-> -- https://thelifeofoneman.com/the-testing-strategy
+> 
 
 ## Practice
 
@@ -413,4 +417,5 @@ If you're not sure which areas should be tested, you can do a risk mapping exerc
 ## Sources
 
 - [title](#link)
+- https://www.satisfice.com/download/test-plan-evaluation-model
 - [An update to the Heuristic Test Strategy Model](https://danashby.co.uk/2017/12/13/a-new-model-for-test-strategies/)
