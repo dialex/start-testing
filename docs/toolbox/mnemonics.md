@@ -40,7 +40,7 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
   - Estimable: should have an effort amount, so than it can be prioritised
   - Small: should be achievable in one to three days
   - Testable: otherwise how do you know you're done?
-- **When detailing _functional_ requirements: `WWWWWHEK`** by [Darren McMillan](http://www.bettertesting.co.uk/content/?p=857)
+- **When detailing _functional_ requirements: `W5H` or `WWWWWHEK`** by [Darren McMillan](http://www.bettertesting.co.uk/content/?p=857)
   - What is this for?
   - Who is this for?
   - When is it needed? When will it be done?
