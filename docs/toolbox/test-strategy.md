@@ -4,7 +4,9 @@
 
 ## Theory
 
-The test strategy is defined at the start of the project and can be revisited and reviewed during the duration of that project. It's usually driven by the testers, yet it should always include feedback from all team members. Their input is valuable because product owners know how stakeholders and customers will measure the product's quality, and because developers will partner with you to implement that test strategy.
+The test strategy is defined at the start of the project and can be revisited and reviewed during the duration of that project. It's typically created to specify the answers to the five Ws (see [**`W5H`** mnemonic]()).
+
+The strategy usually driven by the testers, yet it should always include feedback from all team members. Their input is valuable because product owners know how stakeholders and customers will measure the product's quality, and because developers will partner with you to implement that test strategy.
 
 > A good test strategy is a rich collage of different processes, techniques and tools.
 >
@@ -16,74 +18,53 @@ The test strategy is defined at the start of the project and can be revisited an
 
 This strategy reveals the way tests will be designed and executed to foster quality. To do so, it needs to answer several questions like what parts of the product will be tested, what test techniques will be used, who will be involved, and how long it will take. The number of questions and the detail of the answers depends on your project's [requirements](), so you will have choose between a formal and detailed document versus a simple and abridged alternative.
 
-
-
-> Creating a test plan is complex. An ideal test plan is accomplished by applying [cost-benefit analysis](https://en.wikipedia.org/wiki/Cost–benefit_analysis) and [risk analysis](https://en.wikipedia.org/wiki/Risk_analysis), optimally balancing these software development factors: implementation cost, maintenance cost, monetary cost, benefit, risk.
->
-> It does not provide a test plan template, because templates are often too generic or too specific and quickly become outdated. Instead, it focuses on selecting the best content when writing a test plan.
->
-> -- https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html
-
-> Search for 'How to write a test plan' on the internet and there are all sorts of templates, 'must haves', tutorials and lots more. Once it's written, reviewed, edited, finalised, and distributed to all the relevant stakeholders, it's quite common to find out later than almost no-one has actually read it.
->
-> A test plan may also be used as a 'shield' of sorts.  If something goes wrong, it could be necessary to refer back to the test plan document, to find missed scope, lack of test coverage, or to see what the agreed scope of testing was. In a regulated or very controlled environment it could be a mandatory part of the testing cycle, a legal requirement even, or a deliverable of the project. 
->
-> MY THOUGHTS: when you do Agile, this is not usually the case. Refer to agile manifesto.
->
-> Writing down what you plan to do can assist you in organising your thoughts.
->
-> Lacking a written test plan doesn't mean a plan does not exist. Sometimes test plans could be very simple mission statements or mind maps with workflows. Do what suits the business needs best.
->
-> For everything you decide to add to your document, ask yourself, 'Does the reader need to know this?', 'Is this information that matters?'. In addition, as mentioned previously, ask the reader! What do they want to know from the plan?
->
-> PRACTICE:
->
-> - Scope
-> - Risks
-> - Assumptions
-> - Tools
-> - Environments
-> - People & Time
->
->  -- [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan)
-
 > Every time I look at any of the dozens of test plans my teams have written, I see dead test plans. This begs the question: if a plan isn’t worth bothering to update, is it worth creating in the first place?
->
-> If test plans have any value at all then let’s get to that value as quickly as possible. Write a test plan in 10 minutes. They had 80% of the work complete in 30 minutes.
 >
 > -- [James Whittaker](https://testing.googleblog.com/2011/09/10-minute-test-plan.html)
 
-> identify key areas to focus testing on. They’re an excellent analytical tool, challenging you to think about assumptions, constraints and resources. they can be used as a communication tool to justify budget in terms of people and resources.
+Documents are for communicating information between people. Lacking a test strategy document doesn't mean a strategy doesn't exist. Your test strategy could be a single page/slide, a mind map, or a simple checklist. Use what fits your client's needs best.
+
+First discover who needs to read this document, and then ask what they want to know and what is the expected level of detail. In a regulated or very controlled environment, such document could be mandatory, maybe even a legal requirement.
+
+> Search for 'How to write a test plan' on the internet and there are all sorts of templates. Templates are often too generic or too specific and quickly become outdated. Once it's written, it's quite common to find out that almost no-one has actually read it.
 >
-> An emergent strategy (...) emerges as assumptions get tested, constraints become concrete and context changes. When you begin testing and discover a whole new set of risks you hadn’t realised before and change direction to accomodate that.
+> Instead, focus on selecting the best content when writing a test plan. For everything you decide to add, ask yourself: Does the reader need to know this? Is this information that matters?
 >
-> When working in complex, uncertain environments, when there’s more questions than answers, it makes sense for teams to be aware of the emergent nature of a software testing strategy.
+> -- [Anthony Vallone (Google Testing Blog)](https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html)
+> -- [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan)
+
+Keep in mind that your strategy might have to evolve through time.
+
+> An emergent strategy (...) emerges as assumptions get tested, constraints become concrete and context changes. This happens when you begin testing and discover a whole new set of risks and change direction to accomodate that. When working in complex, uncertain environments, when there’s more questions than answers, it makes sense for teams to be aware of the emergent nature of a software testing strategy.
 >
-> MY THOUGHTS: it's like exploratory testing, the plan gives you structure but doesn't limit you, you learn and adapt as you go.
->
-> -- https://mavericktester.com/2020/01/13/emergent-strategy/
+> --  [Anne-Marie Charrett](https://mavericktester.com/2020/01/13/emergent-strategy/)
+
+Similarly to [exploratory testing](), the plan is just a foundation, you can adapt as you learn more about your context. In fact, specifying a test strategy is an effective exercise to collect information about your context because of all the answers it demands from you. And since you have to write down that information, it's a way to organise your thoughts.
+
+----
+
+That's why detailed test strategies quickly become outdated, because they rely to much on implementation details.
 
 > Using a test plan as a mechanism to seek answers, to drive information exchange and consensus, and to prepare yourself, can make it a worthwhile thing. Make it valuable for you and your stakeholders. Make your test plan work for you, not against you. And if you can’t, don’t be afraid to get rid of it.
 >
-> Documents are for communicating information between people. So you need to understand who those people are, in the context of test information.
->
-> test plans are typically created to document the basic answers to the five Ws of testing (see [**`W5H`** mnemonic]()).
->
+
 > It can be a document, mind map, web platforms (e.g. Jira, Wiki), board. Make the test plan work for you, in all aspects of its form, structure and content. If it’s not working for you, change it.
 >
 > If you’re not sure, determine all the questions you want to ask about the testing you want to do, then figure out who the best people are to answer those questions, and ask them. They should be invested in testing the product or application. Explain why you’re asking and the value that you can add by gaining answers to your questions.
 >
 > - **Software Testers** who want to know what they might be testing over the course of the project. 
-> - **Project Managers** want to know what you’re planning to test, and how, so they can be confident in making a decision to release.
+>- **Project Managers** want to know what you’re planning to test, and how, so they can be confident in making a decision to release.
 > - **Product Owners** can tell you how the product is meant to be used.
-> - **Customer Support** can tell you about the customer environment, how they use the system, and the kind of problems they encounter.
+>- **Customer Support** can tell you about the customer environment, how they use the system, and the kind of problems they encounter.
 > - **Sales People** can tell you which products are the most popular.
 >
 > Only you can know whether, in your context, a test plan document is required: Who is asking for the document? Who is going to read it? What will they gain from it? What else could I be doing with this time?
->
+> 
 > -- https://dojo.ministryoftesting.com/lessons/how-to-write-a-software-test-plan
 
-> 
+> Creating a test plan is complex. An ideal test plan is accomplished by applying cost-benefit analysis and risk analysis, optimally balancing these software development factors: implementation cost, maintenance cost, benefit, risk.
+>
+> -- https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html
 
 ## Practice
 
@@ -100,6 +81,17 @@ A good starting point is the Heuristic Test Strategy Model from [James Bach](htt
 > - Who is the test plan's audience?
 >
 > -- https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html
+
+> PRACTICE:
+>
+> - Scope
+> - Risks
+> - Assumptions
+> - Tools
+> - Environments
+> - People & Time
+>
+>  -- [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan)
 
 > You do need a test strategy, which is a strategy for your testing on the project… But how you choose to document that strategy and at what level should be as lean as possible. Try modelling or diagramming your strategy. Or try detailing it on a single slide.
 >
@@ -416,6 +408,6 @@ If you're not sure which areas should be tested, you can do a risk mapping exerc
 
 ## Sources
 
-- [title](#link)
 - https://www.satisfice.com/download/test-plan-evaluation-model
+- https://mavericktester.com/2020/01/13/emergent-strategy/
 - [An update to the Heuristic Test Strategy Model](https://danashby.co.uk/2017/12/13/a-new-model-for-test-strategies/)
