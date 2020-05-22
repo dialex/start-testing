@@ -336,6 +336,76 @@ If you're not sure which areas should be tested, you can do a risk mapping exerc
 > - When do we need to report what?
 > 
 > -- http://erik.brickarp.se/2016/11/test-plan-questions.html
+
+> ### "context-revealing questions" by Michael Bolton
+>
+> - Who is my client?
+> - Who is the customer of the product?
+> - Who are the other stakeholders?
+>
+> - How would you describe the success of this product?
+> - What risks would threaten that success?
+>
+> - How much time do I have?
+> - When were you thinking of delivering this product?
+>
+> - When do you want reports/answers?
+> - How do you want me to provide them? How often?
+> - What else do you want me to deliver?
+>
+> - This product I’m testing… could I have it myself, please?
+> - Is there alternatives or competitors?
+> - How is this one expected to be the same or different from the other ones?
+>
+> - Could you describe how it works?
+> - Could you draw me a diagram of how it works?
+> - How would I recognize a problem?
+> - Who can confirm if a specific behaviour is a problem? (oracle)
+> - What should I do when I find a confirmed problem?
+>
+> - What does this product depend upon?
+>
+> - What tools or materials were used to construct it?
+> - Who built this product?
+> - Can I talk to them?
+> - Are they easy to talk to? Helpful?
+> - Have they ever built anything like this before?
+> - Is there anyone that I should avoid?
+> - Who else knows something about this?
+> - Who are the local experts in this field?
+> - Who are the acknowledged experts, even if they don’t work here?
+>
+> - Has anyone else tested this?
+> - Can I see their results, please?
+> - Who else is on my team?
+>
+> - What skills and competencies are expected of me?
+> - What other skills and competencies can be found on the team?
+> - Any skills and competencies lacking?
+>
+> - What information is available to me?
+> - Where could I find more information?
+> - Are there more rules? Requirements? Specifications?
+>
+> - What can I do to help you discover the information you need?
+>
+> - What equipment and tools are available to help with my testing?
+> - What tools do you expect me to build?
+>
+> - What are your feelings about this product?
+> - Who might feel differently?
+> - How might they feel?
+> - What do customers say about it?
+> - Can I talk to the technical support people?
+> - Can I talk to the customers?
+>
+> - Who can we trust? Is there anyone that we should distrust?
+> - Is there anything that you would like to prohibit me from doing?
+>
+> - Are there any other questions I should be asking you?
+>
+> -- https://www.developsense.com/blog/2010/11/context-free-questions-for-testing/
+
 ## Teachers
 
 - [Name](#link)
