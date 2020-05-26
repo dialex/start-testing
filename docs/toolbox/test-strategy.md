@@ -219,111 +219,111 @@ If you're not sure which areas should be tested, you can do a risk mapping exerc
 > #### Planning
 >
 > - What resources do I have available?
->  *people, money, equipment, licenses, time, expertise, facilities...* 
-> - Is this a realistic amount of resources for this project? 
->- How flexible is the time plan and what happens if the product is not “ready” by the deadline? 
+>  *people, money, equipment, licenses, time, expertise, facilities...*
+> - Is this a realistic amount of resources for this project?
+>- How flexible is the time plan and what happens if the product is not “ready” by the deadline?
 > - What project risks exist?
 >   *e.g. customers not clear about what they want.*
-> - What is our backup plan if risk X happens? 
-> - What is our backup plan in general if everything fails? 
+> - What is our backup plan if risk X happens?
+> - What is our backup plan in general if everything fails?
 > - What is likely to change?
->   *e.g. team setup, requirements, developers' focus, delivery dates…* 
-> - Any meetings we should attend/discussions we should be part of? 
-> - How do we handle handovers/new members/lost members? 
+>   *e.g. team setup, requirements, developers' focus, delivery dates…*
+> - Any meetings we should attend/discussions we should be part of?
+> - How do we handle handovers/new members/lost members?
 > - Who does what?
->   *e.g. responsibilities and roles* 
-> - Any known problems along the road? 
-> - Are there any workarounds or solutions to the known problems? 
-> - Any regulations, rules, standards, certifications etc. limiting us or forcing us to work/act in a specific way? 
-> - What administrative tools are (almost) enforced and what else do we need/benefit from? 
-> - How do we plan the everyday work? 
+>   *e.g. responsibilities and roles*
+> - Any known problems along the road?
+> - Are there any workarounds or solutions to the known problems?
+> - Any regulations, rules, standards, certifications etc. limiting us or forcing us to work/act in a specific way?
+> - What administrative tools are (almost) enforced and what else do we need/benefit from?
+> - How do we plan the everyday work?
 > - What are the key test/release milestones?
 > - How flexible is the scope - can the project be down-scaled if some unexpected problem happens?
-> 
+>
 > #### Prioritization
-> 
-> - What is most important (to test)? 
->- What is not important (to test)? 
-> - What can be skipped all together? 
->- What quality characteristics are most/least important? 
-> - Any specific aspect of these characteristics that is more/less important? 
-> - What is covered by other teams? 
-> - How do we continuously verify we’re doing the right thing? 
+>
+> - What is most important (to test)?
+>- What is not important (to test)?
+> - What can be skipped all together?
+>- What quality characteristics are most/least important?
+> - Any specific aspect of these characteristics that is more/less important?
+> - What is covered by other teams?
+> - How do we continuously verify we’re doing the right thing?
 > - What is our done criteria
->   *e.g. strict deadline, customer acceptance tests or some other assessment of "good enough quality" and if so, by who?* 
+>   *e.g. strict deadline, customer acceptance tests or some other assessment of "good enough quality" and if so, by who?*
 > - What's the general requirement for quality?
 >   *Aim for the stars/critical system or “just don’t explode... too badly”*
-> 
+>
 > #### Information
-> 
-> - Where can I get information about X and who do I contact if that's not enough? 
->- Which claims exist? 
-> - Which customers exist, can we contact them? 
->- Who can answer questions and which questions? 
-> - What is still unknown/not clear about the project? 
+>
+> - Where can I get information about X and who do I contact if that's not enough?
+>- Which claims exist?
+> - Which customers exist, can we contact them?
+>- Who can answer questions and which questions?
+> - What is still unknown/not clear about the project?
 > - How do we simplify the complexity?
->   *Simplify the process of learning the product. An example might be "what sort of visual models would help to create?".* 
+>   *Simplify the process of learning the product. An example might be "what sort of visual models would help to create?".*
 > - Any particular tours we should perform?
-> - Are there any general guidelines to how we deal with learning activities and knowledge sharing? 
-> - How do we further inspire/reassure/encourage feedback, reviews and knowledge sharing? 
+> - Are there any general guidelines to how we deal with learning activities and knowledge sharing?
+> - How do we further inspire/reassure/encourage feedback, reviews and knowledge sharing?
 > - How do we stay up to date with what is happening in the project?
 > - How do we communicate with various information owners?
 >   *e.g. email (address), phone (number), instant messaging tool, via other person, meeting etc.*
-> 
+>
 > #### Support
-> 
+>
 > - What kind of built in testability will help testers?
->- Which modifications can/must be done to the process in general to support the testing? 
-> - What do we need to learn more about? 
->- Any particular configuration or test data we can prepare? 
-> - Which tools can help us? 
-> - What other teams should/can/must we cooperate with? When, how and why? 
-> - Do I know who the developers are and can I talk to them? 
-> - Do the developers have time allotted for us? 
-> - Are there any problems getting their time/getting in touch with the developers? 
+>- Which modifications can/must be done to the process in general to support the testing?
+> - What do we need to learn more about?
+>- Any particular configuration or test data we can prepare?
+> - Which tools can help us?
+> - What other teams should/can/must we cooperate with? When, how and why?
+> - Do I know who the developers are and can I talk to them?
+> - Do the developers have time allotted for us?
+> - Are there any problems getting their time/getting in touch with the developers?
 > - Will they keep working on this?
 > - What will the developers test? How does this impact our testing? Can we make suggestions regarding their testing?
-> 
+>
 > ####  Testing
-> 
+>
 > - How do I tell right from wrong?
->  *Find potential oracles* 
-> - Which oracles are generally most trustworthy? 
+>  *Find potential oracles*
+> - Which oracles are generally most trustworthy?
 >- What testing risks exist?
 >   *e.g. unstable test environment or lack of knowledge about something.*
-> - Which test techniques might be useful? 
-> - What expertise do we lack? 
-> - Which scenarios/typical use cases exist? 
-> - Which heuristics might be useful? 
+> - Which test techniques might be useful?
+> - What expertise do we lack?
+> - Which scenarios/typical use cases exist?
+> - Which heuristics might be useful?
 > - What logical components/modules are there?
 > - Is there anything I'm not allowed to do?
 > - Any (testing) tips the developers can give to the testers?
-> 
+>
 > #### Product
-> 
+>
 > - Which product risks exist?
 >  *e.g. complex algorithms likely to be buggy or new technology used.*
-> - Is there any complexity we might be missing? 
->- Which functions will the system/application/feature have? 
-> - Who’s the target audience? 
-> - Which platforms, systems etc. should the product support? 
-> - What requirements exist for this product? 
-> - What problem is the product expected to solve? For who? 
-> - What problems have happened in the past with this product? 
-> - Any existing functionality that is impacted? 
+> - Is there any complexity we might be missing?
+>- Which functions will the system/application/feature have?
+> - Who’s the target audience?
+> - Which platforms, systems etc. should the product support?
+> - What requirements exist for this product?
+> - What problem is the product expected to solve? For who?
+> - What problems have happened in the past with this product?
+> - Any existing functionality that is impacted?
 > - What must the product never do?
 >   *e.g. any data sent as plain text is strictly forbidden*
-> 
+>
 > #### Reporting
-> 
-> - What do I need to cover and how well? 
->- How do we track and visualize coverage and progress? 
+>
+> - What do I need to cover and how well?
+>- How do we track and visualize coverage and progress?
 > - Which stakeholders exist?
 >- How do we report bugs and status? To who? Why?
->   *"Why" as in: Which problems/questions will the receiver hope to solve/answer with our report.* 
-> - What other artifacts/information do we need to share? To who? Why? 
+>   *"Why" as in: Which problems/questions will the receiver hope to solve/answer with our report.*
+> - What other artifacts/information do we need to share? To who? Why?
 > - When do we need to report what?
-> 
+>
 > -- http://erik.brickarp.se/2016/11/test-plan-questions.html
 
 > ### "context-revealing questions" by Michael Bolton
