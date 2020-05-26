@@ -14,11 +14,11 @@
 - **Toolbox**
   - [Note-taking](/toolbox/note-taking.md)
   - [Heuristics](/toolbox/heuristics.md)
-  - [Mnemonics](/toolbox/mnemonics.md)
   - [Charters](/toolbox/charters.md)
   - [Oracles](/toolbox/oracles.md)
-  - ~~Test strategy~~
+  - [Mnemonics](/toolbox/mnemonics.md)
   - [Development methodologies](/toolbox/dev-methodologies.md)
+  - [Test strategy](/toolbox/test-strategy.md)
   - ~~Test pyramid~~
   - [Tools](/toolbox/tester-tools.md)
 - **Test types**
