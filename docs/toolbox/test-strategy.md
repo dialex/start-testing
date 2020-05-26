@@ -75,7 +75,7 @@ A good starting point is the Heuristic Test Strategy Model, also from [James Bac
 
 This visual representation of a possible test strategy is useful to illustrate the how different testing activities transform data into information into quality.
 
-Now that you have an overview of a possible test strategy, it's time to fill in the details, and an effective way to do so is by asking questions. [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) suggests "first five" questions before you start testing:
+Now that you have an overview of a possible test strategy, it's time to fill in the details, and an effective way to do so is by asking questions. [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) suggests these first five questions before you start testing:
 
 > 1. What (product) are we testing?
 > 2. How much resources (time/people) do we have?
@@ -83,7 +83,7 @@ Now that you have an overview of a possible test strategy, it's time to fill in 
 > 4. Do we need to document our test strategy? Why? For who? How?
 > 5. Where can we get information about the product?
 
-Those questions cover the most critical aspects of any testing strategy. You can use them to generate more questions and detail your strategy even more. As the number of questions increases, we should group them into categories. To do that, we can use the [**`GRATEDD SCRIPTS`**]() mnemonic from [Jared Quinert](http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/):
+Those questions cover the most critical aspects of any strategy to test your product. You can use them to generate more questions and detail your strategy even more. As the number of questions increases, we should group them into categories. To do that, you can use the [**`GRATEDD SCRIPTS`**]() mnemonic from [Jared Quinert](http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/):
 
 > **Goals**
 >
@@ -135,9 +135,38 @@ Those questions cover the most critical aspects of any testing strategy. You can
 >
 > - What is meaningful to test?
 > - What questions should our testing answer?
+> - How should those answers be reported? With who?
 > - How should we report and react to bugs?
 
+You can further detail your strategy with even more questions, like these from [Erik Brickarp]() and [Michael Bolton](). You could follow the same grouping as before, but let's see a leaner alternative from [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan).
+
+> **Scope**
+>
+> -
+>
+> **Risks**
+>
+> -
+>
+> **Assumptions**
+>
+> -
+>
+> **Tools**
+>
+> -
+>
+> **Environments**
+>
+> -
+>
+> **People & Time**
+>
+> -
+>
+
 ---
+
 
 > - What is covered by unit (small), integration (medium), and system (large) tests?
 > - What will be tested manually vs. automated?
@@ -149,19 +178,8 @@ Those questions cover the most critical aspects of any testing strategy. You can
 >
 > -- https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html
 
-> PRACTICE:
->
-> - Scope
-> - Risks
-> - Assumptions
-> - Tools
-> - Environments
-> - People & Time
->
->   -- [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan)
-
 > You do need a test strategy, which is a strategy for your testing on the project… But how you choose to document that strategy and at what level should be as lean as possible. Try modelling or diagramming your strategy. Or try detailing it on a single slide.
->
+> 
 > The strategy should describe:
 >
 > - your test approaches,
@@ -170,23 +188,6 @@ Those questions cover the most critical aspects of any testing strategy. You can
 > - strategy for reporting bugs,
 > - key stakeholders and decision makers,
 > - etc (think overall, big picture on describing HOW you will test and report that testing and any discoveries).
->
-> 1. Scope
->    2.Test Approach:
->    a. Process of testing
->    b. Testing Level
->    c. Type of Test
->    d. Roles&Responsability
->    e. Manage defects
->
-> 2. Test Environment
->
-> 3. Testing tools
->    a. Automation
->    b. Management
->
-> 4. Release
->    a. Test plan simplify
 >
 > -- [Dan Ashby](https://club.ministryoftesting.com/t/test-strategy-documentation-in-an-agile-world/10724/6)
 
