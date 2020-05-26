@@ -54,11 +54,24 @@ Similarly to [exploratory testing](), the plan is just a foundation, you can ada
 
 ## Practice
 
-> Creating a test plan is complex. An ideal test plan is (...) a balance of: implementation cost, maintenance cost, benefit, and risk.
+> Creating a test plan is complex. An ideal test plan is (...) a balance of implementation cost, maintenance cost, benefit, and risk.
 >
 > -- [Anthony Vallone (Google Testing Blog)](https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html)
 
-A good starting point is the Heuristic Test Strategy Model from [James Bach](https://www.satisfice.com/download/heuristic-test-strategy-model). According to that plan, testing is influenced by: project environment, quality criteria, test techniques. [Dan Ashby](https://danashby.co.uk/2017/12/13/a-new-model-for-test-strategies/) then simplified that model into an intuitive diagram.
+[James Bach](https://www.satisfice.com/download/test-plan-evaluation-model) proposes a list of caracteristics of a good test strategy. Keep in mind these criteria while you develop your stategy. You can also revisit them when you're finished, to check if you can improve your test strategy in any area:
+
+- Usefulness: Will the test strategy effectively serve its purpose?
+- Accuracy: Is it accurate with respect to any statements or facts?
+- Efficiency: Does it make efficient use of available resources?
+- Adaptability: Can it accommodate changes and unpredictability in the project?
+- Feasibility: Does the organization have capabilities to implement this strategy?
+- Clarity: Is it coherent and unambiguous?
+- Usability: Is the test strategy document concise, searchable and shareable?
+- Compliance: Does it meet externally imposed requirements?
+
+-------
+
+A good starting point is the Heuristic Test Strategy Model from [James Bach](https://www.satisfice.com/download/heuristic-test-strategy-model). According to that plan, testing is influenced by: project environment, quality criteria, test techniques. [Dan Ashby](https://danashby.co.uk/2017/12/13/a-new-model-for-test-strategies/) then simplified that model into this intuitive diagram.
 
 ![DanAshbyHTSM](../_media/articles/modified-htsm1.png)
 
@@ -187,17 +200,8 @@ A good starting point is the Heuristic Test Strategy Model from [James Bach](htt
 > - What questions are our tests going to answer?
 > - Who is available to test?
 
-> - Usefulness: Will the test plan effectively serve its intended functions?
-> - Accuracy: Is it accurate with respect to any statements of fact?
-> - Efficiency: Does it make efficient use of available resources?
-> - Adaptability: Will it tolerate reasonable change and unpredictability in the project?
-> - Clarity: Is the test plan self-consistent and sufficiently unambiguous?
-> - Usability: Is the test plan document concise, maintainable, and helpfully organized?
-> - Compliance: Does it meet externally imposed requirements?
-> - Foundation: Is it the product of an effective test planning process?
-> - Feasibility: Is it within the capability of the organization that must perform it?
->
-> https://www.satisfice.com/download/test-plan-evaluation-model
+> - 
+> 
 
 If you're not sure which areas should be tested, you can do a risk mapping exercise. [Sam Connelly](https://bughuntersam.com/visual-risk-ui-automation-framework/) explains step by step how you can make one. [Diogo Nunes](https://www.diogonunes.com/blog/risk-mapping-prioritisation/) later adapted that exercise for remote teams.
 
