@@ -8,12 +8,12 @@ The test strategy is defined at the start of the project and can be revisited an
 
 The strategy is usually driven by the testers, yet it should always include feedback from all team members:
 
-- *Software Testers* want to know what they might be testing over the course of the project
-- *Software Developers* want to know how they can increase [testability]()
-- *Project Managers* want to understand how you'll test, so they can be confident in making a decision to release
-- *Product Owners* can tell you how the product is meant to be used
-- *Customer Support* can tell you how the customer uses the system, and the kind of problems they encounter
-- *Sales* can tell you which products are the most popular
+- _Software Testers_ want to know what they might be testing over the course of the project
+- _Software Developers_ want to know how they can increase [testability]()
+- _Project Managers_ want to understand how you'll test, so they can be confident in making a decision to release
+- _Product Owners_ can tell you how the product is meant to be used
+- _Customer Support_ can tell you how the customer uses the system, and the kind of problems they encounter
+- _Sales_ can tell you which products are the most popular
 
 > A good test strategy is a rich collage of different processes, techniques and tools.
 >
@@ -21,7 +21,7 @@ The strategy is usually driven by the testers, yet it should always include feed
 
 > The test strategy is the set of ideas that guide your test process to fulfill your (testing) mission.
 >
->  -- ["The life of one man"](https://thelifeofoneman.com/the-testing-strategy)
+> -- ["The life of one man"](https://thelifeofoneman.com/the-testing-strategy)
 
 This strategy reveals the way tests will be designed and executed to foster quality. To do so, it needs to answer several questions like what parts of the product will be tested, what test techniques will be used, who will be involved, and how long it will take. The number of questions and the detail of the answers depends on your project's [requirements](), so you will have choose between a formal and detailed document versus a simple and abridged alternative.
 
@@ -44,7 +44,7 @@ Keep in mind that your strategy might evolve through time.
 
 > An emergent strategy (...) emerges as assumptions get tested, constraints become concrete and context changes. This happens when you begin testing and discover a whole new set of risks and change direction to accomodate that. When working in complex, uncertain environments, when there’s more questions than answers, it makes sense for teams to be aware of the emergent nature of a software testing strategy.
 >
-> --  [Anne-Marie Charrett](https://mavericktester.com/2020/01/13/emergent-strategy/)
+> -- [Anne-Marie Charrett](https://mavericktester.com/2020/01/13/emergent-strategy/)
 
 Similarly to [exploratory testing](), the plan is just a foundation, you can adapt as you learn more about your context. In fact, specifying a test strategy is an effective exercise to collect information about your context, because of all the answers it demands from you. And since you have to write down that information, it's a way to organise your thoughts.
 
@@ -158,7 +158,7 @@ Those questions cover the most critical aspects of any testing strategy. You can
 > - Environments
 > - People & Time
 >
->  -- [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan)
+>   -- [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan)
 
 > You do need a test strategy, which is a strategy for your testing on the project… But how you choose to document that strategy and at what level should be as lean as possible. Try modelling or diagramming your strategy. Or try detailing it on a single slide.
 >
@@ -198,7 +198,7 @@ Those questions cover the most critical aspects of any testing strategy. You can
 > 4. Provide design guidance
 > 5. Support refactoring
 >
-> No test has inherent value. A test is *only* valuable to your project insofar as it supports one or more of the five factors. And keep in mind that an individual test or even a suite, overall, *cannot* fully support all five factors. Which factors are more important will vary between sections of your codebase, and even in the same section over time.
+> No test has inherent value. A test is _only_ valuable to your project insofar as it supports one or more of the five factors. And keep in mind that an individual test or even a suite, overall, _cannot_ fully support all five factors. Which factors are more important will vary between sections of your codebase, and even in the same section over time.
 >
 > -- https://madeintandem.com/blog/five-factor-testing/
 
@@ -222,19 +222,19 @@ If you're not sure which areas should be tested, you can do a risk mapping exerc
 > #### Planning
 >
 > - What resources do I have available?
->  *people, money, equipment, licenses, time, expertise, facilities...*
+>   _people, money, equipment, licenses, time, expertise, facilities..._
 > - Is this a realistic amount of resources for this project?
->- How flexible is the time plan and what happens if the product is not “ready” by the deadline?
+> - How flexible is the time plan and what happens if the product is not “ready” by the deadline?
 > - What project risks exist?
->   *e.g. customers not clear about what they want.*
+>   _e.g. customers not clear about what they want._
 > - What is our backup plan if risk X happens?
 > - What is our backup plan in general if everything fails?
 > - What is likely to change?
->   *e.g. team setup, requirements, developers' focus, delivery dates…*
+>   _e.g. team setup, requirements, developers' focus, delivery dates…_
 > - Any meetings we should attend/discussions we should be part of?
 > - How do we handle handovers/new members/lost members?
 > - Who does what?
->   *e.g. responsibilities and roles*
+>   _e.g. responsibilities and roles_
 > - Any known problems along the road?
 > - Are there any workarounds or solutions to the known problems?
 > - Any regulations, rules, standards, certifications etc. limiting us or forcing us to work/act in a specific way?
@@ -246,39 +246,39 @@ If you're not sure which areas should be tested, you can do a risk mapping exerc
 > #### Prioritization
 >
 > - What is most important (to test)?
->- What is not important (to test)?
+> - What is not important (to test)?
 > - What can be skipped all together?
->- What quality characteristics are most/least important?
+> - What quality characteristics are most/least important?
 > - Any specific aspect of these characteristics that is more/less important?
 > - What is covered by other teams?
 > - How do we continuously verify we’re doing the right thing?
 > - What is our done criteria
->   *e.g. strict deadline, customer acceptance tests or some other assessment of "good enough quality" and if so, by who?*
+>   _e.g. strict deadline, customer acceptance tests or some other assessment of "good enough quality" and if so, by who?_
 > - What's the general requirement for quality?
->   *Aim for the stars/critical system or “just don’t explode... too badly”*
+>   _Aim for the stars/critical system or “just don’t explode... too badly”_
 >
 > #### Information
 >
 > - Where can I get information about X and who do I contact if that's not enough?
->- Which claims exist?
+> - Which claims exist?
 > - Which customers exist, can we contact them?
->- Who can answer questions and which questions?
+> - Who can answer questions and which questions?
 > - What is still unknown/not clear about the project?
 > - How do we simplify the complexity?
->   *Simplify the process of learning the product. An example might be "what sort of visual models would help to create?".*
+>   _Simplify the process of learning the product. An example might be "what sort of visual models would help to create?"._
 > - Any particular tours we should perform?
 > - Are there any general guidelines to how we deal with learning activities and knowledge sharing?
 > - How do we further inspire/reassure/encourage feedback, reviews and knowledge sharing?
 > - How do we stay up to date with what is happening in the project?
 > - How do we communicate with various information owners?
->   *e.g. email (address), phone (number), instant messaging tool, via other person, meeting etc.*
+>   _e.g. email (address), phone (number), instant messaging tool, via other person, meeting etc._
 >
 > #### Support
 >
 > - What kind of built in testability will help testers?
->- Which modifications can/must be done to the process in general to support the testing?
+> - Which modifications can/must be done to the process in general to support the testing?
 > - What do we need to learn more about?
->- Any particular configuration or test data we can prepare?
+> - Any particular configuration or test data we can prepare?
 > - Which tools can help us?
 > - What other teams should/can/must we cooperate with? When, how and why?
 > - Do I know who the developers are and can I talk to them?
@@ -287,13 +287,13 @@ If you're not sure which areas should be tested, you can do a risk mapping exerc
 > - Will they keep working on this?
 > - What will the developers test? How does this impact our testing? Can we make suggestions regarding their testing?
 >
-> ####  Testing
+> #### Testing
 >
 > - How do I tell right from wrong?
->  *Find potential oracles*
+>   _Find potential oracles_
 > - Which oracles are generally most trustworthy?
->- What testing risks exist?
->   *e.g. unstable test environment or lack of knowledge about something.*
+> - What testing risks exist?
+>   _e.g. unstable test environment or lack of knowledge about something._
 > - Which test techniques might be useful?
 > - What expertise do we lack?
 > - Which scenarios/typical use cases exist?
@@ -305,9 +305,9 @@ If you're not sure which areas should be tested, you can do a risk mapping exerc
 > #### Product
 >
 > - Which product risks exist?
->  *e.g. complex algorithms likely to be buggy or new technology used.*
+>   _e.g. complex algorithms likely to be buggy or new technology used._
 > - Is there any complexity we might be missing?
->- Which functions will the system/application/feature have?
+> - Which functions will the system/application/feature have?
 > - Who’s the target audience?
 > - Which platforms, systems etc. should the product support?
 > - What requirements exist for this product?
@@ -315,15 +315,15 @@ If you're not sure which areas should be tested, you can do a risk mapping exerc
 > - What problems have happened in the past with this product?
 > - Any existing functionality that is impacted?
 > - What must the product never do?
->   *e.g. any data sent as plain text is strictly forbidden*
+>   _e.g. any data sent as plain text is strictly forbidden_
 >
 > #### Reporting
 >
 > - What do I need to cover and how well?
->- How do we track and visualize coverage and progress?
+> - How do we track and visualize coverage and progress?
 > - Which stakeholders exist?
->- How do we report bugs and status? To who? Why?
->   *"Why" as in: Which problems/questions will the receiver hope to solve/answer with our report.*
+> - How do we report bugs and status? To who? Why?
+>   _"Why" as in: Which problems/questions will the receiver hope to solve/answer with our report._
 > - What other artifacts/information do we need to share? To who? Why?
 > - When do we need to report what?
 >
