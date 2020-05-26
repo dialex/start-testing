@@ -69,11 +69,21 @@ Similarly to [exploratory testing](), the plan is just a foundation, you can ada
 - Usability: Is the test strategy document concise, searchable and shareable?
 - Compliance: Does it meet externally imposed requirements?
 
--------
-
-A good starting point is the Heuristic Test Strategy Model from [James Bach](https://www.satisfice.com/download/heuristic-test-strategy-model). According to that plan, testing is influenced by: project environment, quality criteria, test techniques. [Dan Ashby](https://danashby.co.uk/2017/12/13/a-new-model-for-test-strategies/) then simplified that model into this intuitive diagram.
+A good starting point is the Heuristic Test Strategy Model, also from [James Bach](https://www.satisfice.com/download/heuristic-test-strategy-model). According to that plan, testing is influenced by: project environment, quality criteria, test techniques. [Dan Ashby](https://danashby.co.uk/2017/12/13/a-new-model-for-test-strategies/) then simplified that model into this intuitive diagram.
 
 ![DanAshbyHTSM](../_media/articles/modified-htsm1.png)
+
+This visual representation of a possible test strategy is useful to illustrate the how different testing activities transform data into information into quality.
+
+Now that you have an overview of a possible test strategy, it's time to fill in the details, and an effective way to do so is by asking questions. [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) suggests "first five" questions before you start testing:
+
+1. What (product) are we testing?
+2. How much resources (time/people) do we have?
+3. What should be the main focus of our testing?
+4. Do we need to document our test strategy? Why? For who? How?
+5. Where can we get information about the product?
+
+---
 
 > - What is covered by unit (small), integration (medium), and system (large) tests?
 > - What will be tested manually vs. automated?
@@ -107,8 +117,6 @@ A good starting point is the Heuristic Test Strategy Model from [James Bach](htt
 > - key stakeholders and decision makers,
 > - etc (think overall, big picture on describing HOW you will test and report that testing and any discoveries).
 >
-> -- [Dan Ashby](https://club.ministryoftesting.com/t/test-strategy-documentation-in-an-agile-world/10724/6)
->
 > 1. Scope
 >    2.Test Approach:
 >    a. Process of testing
@@ -116,14 +124,20 @@ A good starting point is the Heuristic Test Strategy Model from [James Bach](htt
 >    c. Type of Test
 >    d. Roles&Responsability
 >    e. Manage defects
+>
 > 2. Test Environment
+>
 > 3. Testing tools
 >    a. Automation
 >    b. Management
+>
 > 4. Release
 >    a. Test plan simplify
+>
+> -- [Dan Ashby](https://club.ministryoftesting.com/t/test-strategy-documentation-in-an-agile-world/10724/6)
 
 > Good automated checks can…
+>
 > 1. Verify the code is working correctly
 > 2. Prevent future regressions
 > 3. Document the code’s behavior
@@ -200,23 +214,8 @@ A good starting point is the Heuristic Test Strategy Model from [James Bach](htt
 > - What questions are our tests going to answer?
 > - Who is available to test?
 
-> - 
-> 
-
 If you're not sure which areas should be tested, you can do a risk mapping exercise. [Sam Connelly](https://bughuntersam.com/visual-risk-ui-automation-framework/) explains step by step how you can make one. [Diogo Nunes](https://www.diogonunes.com/blog/risk-mapping-prioritisation/) later adapted that exercise for remote teams.
 
-> #### First Five
->
-> - What (product) are we testing?
->
-> - How much time do we have?
->
-> - What should be the main focus of our testing?
->
-> - Do I need to document our test strategy? Why? How? Who will read it?
->
-> - Where can we get information about the product?
->
 > #### Planning
 >
 > - What resources do I have available?
@@ -399,6 +398,9 @@ If you're not sure which areas should be tested, you can do a risk mapping exerc
 ## Teachers
 
 - [Name](#link)
+- James Bach
+- Dan Ashby
+- Michael Bolton
 
 ## Sources
 
