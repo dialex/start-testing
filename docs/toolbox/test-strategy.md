@@ -83,6 +83,61 @@ Now that you have an overview of a possible test strategy, it's time to fill in 
 4. Do we need to document our test strategy? Why? For who? How?
 5. Where can we get information about the product?
 
+Those questions cover the most critical aspects of any testing strategy. You can use them to generate more questions and detail your strategy even more. As the number of questions increases, we should group them into categories. To do that, we can use the [**`GRATEDD SCRIPTS`**]() mnemonic from [Jared Quinert](http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/):
+
+> **Goals**
+>
+> - What would be true if we succeeded?
+> - What are the must haves of our product?
+>
+> **Risks**
+>
+> - Do we forsee any obstacle to achieve that?
+> - Do we have any concerns or fears?
+>
+> **Approach & Tooling**
+>
+> - How will we work together? (e.g: waterfall, scrum, kanban)
+> - Who's responsible for what?
+> - How will we [develop](/toolbox/dev-methodologies.md) our product?
+> - Which tools will we use to develop? Test? Deliver? Communicate?
+>
+> **Schedule**
+>
+> - Any important dates?
+> - Any recurring events or ceremonies?
+>
+> **Trade-offs & Prioritisation**
+>
+> - Who will set priorities?
+> - What can we drop to prioritise our goal?
+>
+> **Dependencies**
+>
+> - Is our delivery influenced by someone/thing outside our team?
+>
+> **Stakeholders**
+>
+> - Who's the sponsor? Who has a stake in our success?
+> - Who reviews/approves our delivery?
+>
+> **Environments**
+>
+> - How many do we need? For what?
+> - Who will manage them?
+>
+> **Data**
+>
+> - What kind of data should we collect?
+> - How do we display that data?
+>
+> **Coverage & Resources & Information**
+>
+> - What is meaningful to test?
+> - What questions should our testing answer?
+> - How should we report and react to bugs?
+>
+
 ---
 
 > - What is covered by unit (small), integration (medium), and system (large) tests?
@@ -162,57 +217,6 @@ Now that you have an overview of a possible test strategy, it's time to fill in 
 > - Collecting user feedback
 >
 > -- https://bughuntersam.com/a-mobile-app-test-strategy/
-
-> Adapted from [**`GRATEDD SCRIPTS`** mnemonic]() by Jared Quinert
->
-> **Goals**
->
-> - What would be true if we succeeded?
-> - What are the must haves?
->
-> **Risks**
->
-> - Do you forsee any obstacle to achieve that?
-> - Do you have any concerns or fears?
->
-> **Approach & Tooling**
->
-> - *(see Ways of Working)*
->
-> **Schedule**
->
-> - Any important dates?
-> - Any recurring events?
->
-> **Trade-offs & Prioritisation**
->
-> - Who will set priorities?
-> - What can we drop to prioritise our goal?
->
-> **Dependencies**
->
-> - Is our delivery influenced by someone/thing outside our team?
->
-> **Stakeholders**
->
-> - Who's the sponsor? Who has a stake in our success?
-> - Who reviews/approves our delivery?
->
-> **Environments**
->
-> - How many do we need and for what?
-> - Who will manage them?
->
-> **Data**
->
-> - What kind of data should we collect?
-> - How do we display that data?
->
-> **Coverage & Resources & Information**
->
-> - What is meaningful to test?
-> - What questions are our tests going to answer?
-> - Who is available to test?
 
 If you're not sure which areas should be tested, you can do a risk mapping exercise. [Sam Connelly](https://bughuntersam.com/visual-risk-ui-automation-framework/) explains step by step how you can make one. [Diogo Nunes](https://www.diogonunes.com/blog/risk-mapping-prioritisation/) later adapted that exercise for remote teams.
 
@@ -409,3 +413,6 @@ If you're not sure which areas should be tested, you can do a risk mapping exerc
 - https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan
 - https://dojo.ministryoftesting.com/lessons/how-to-write-a-software-test-plan
 - [An update to the Heuristic Test Strategy Model](https://danashby.co.uk/2017/12/13/a-new-model-for-test-strategies/)
+- http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/
+- http://erik.brickarp.se/2016/11/test-plan-questions.html
+- https://www.developsense.com/blog/2010/11/context-free-questions-for-testing/
