@@ -77,11 +77,11 @@ This visual representation of a possible test strategy is useful to illustrate t
 
 Now that you have an overview of a possible test strategy, it's time to fill in the details, and an effective way to do so is by asking questions. [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) suggests "first five" questions before you start testing:
 
-1. What (product) are we testing?
-2. How much resources (time/people) do we have?
-3. What should be the main focus of our testing?
-4. Do we need to document our test strategy? Why? For who? How?
-5. Where can we get information about the product?
+> 1. What (product) are we testing?
+> 2. How much resources (time/people) do we have?
+> 3. What should be the main focus of our testing?
+> 4. Do we need to document our test strategy? Why? For who? How?
+> 5. Where can we get information about the product?
 
 Those questions cover the most critical aspects of any testing strategy. You can use them to generate more questions and detail your strategy even more. As the number of questions increases, we should group them into categories. To do that, we can use the [**`GRATEDD SCRIPTS`**]() mnemonic from [Jared Quinert](http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/):
 
@@ -136,7 +136,6 @@ Those questions cover the most critical aspects of any testing strategy. You can
 > - What is meaningful to test?
 > - What questions should our testing answer?
 > - How should we report and react to bugs?
->
 
 ---
 
