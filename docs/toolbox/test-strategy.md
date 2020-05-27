@@ -138,197 +138,81 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > - How should those answers be reported? With who?
 > - How should we report and react to bugs?
 
-You can further detail your strategy with even more questions, like these from [Erik Brickarp]() and [Michael Bolton](). You could follow the same grouping as before, but let's see a leaner alternative from [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan).
+You can further detail your strategy with even more questions, like these from [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) and [Michael Bolton](). You could follow the same grouping as before, but let's see a leaner alternative adapted from [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan).
 
 > **Scope**
 >
-> -
+> - What is most important to deliver?
+> - What can be skipped entirely?
+> - What is perceived as quality?
+> - How flexible is the scope? Can we descope if needed?
+> - How do we handle onboarding? And handover?
 >
 > **Risks**
 >
-> -
+> - What is our backup plan if risk X happens? And if we fail?
+> - What is likely to change?
+> - What is still unknown?
+> - What do we need to learn more about?
+> - Do we expect any obstacles during this project? Can we mitigate them?
+> - Do we need to cooperate with other teams? When, how and why?
 >
-> **Assumptions**
+> **Ways of Working**???
 >
-> -
+> - How do we plan the everyday work?
+> - Any regulations or rules that influence or limit our actions?
+> - What is our done criteria?
+> - How do we continuously verify we’re doing the right thing?
+> - As a tester, how can I reach out to developers? Do they have time for me?
+> - How can we split testing among the team?
 >
 > **Tools**
 >
-> -
+> - Which tools can help us?
 >
 > **Environments**
 >
-> -
+> - What should change to increase testability?
+> - How can we create/update test data?
 >
-> **People & Time**
+> **Information**???
 >
-> -
+> - Where can I get information about X? Who do I contact?
+> - Who are our end-users? Can we contact them?
+> - How do we share knowledge?
+> - How do we provide feedback to each other?
+> - How can we keep in the loop of project's updates?
+> - What are the main components of our system? How do they interact?
+> - Which stakeholders exist? What is their expectation for us? And concern?
 >
+> **Testing**???
+>
+> - How do I tell right from wrong? (see [Oracles]())
+> - Which oracles are generally most trustworthy?
+> - Which heuristics might be useful?
+> - Which test techniques are useful in our context?
+> - What expertise do we lack?
+> - What are the typical use cases?
+> - As a tester, is there anything I'm not allowed to do?
+> - Any (testing) tips the developers can give to the testers?
+> - How do we track and visualize our testing?
+> - How do we report bugs? How do we prioritise fixing them?
+>
+> **Product**???
+>
+> - Which features will the system have?
+> - What must the system never do?
+> - What problem is the system expected to solve? For who?
+> - How are our users expected to interact with our system?
+> - Which platforms (e.g. OS, browser) should we support?
+>
+> **Resources**
+>
+> - What resources do I have available? *(e.g. people, time, expertise, equipment, etc.)*
+> - Is this amount of resources sufficient for this project?
+> - How flexible is the time plan? What happens if we miss a deadline?
 
 ---
-
-
-> - What is covered by unit (small), integration (medium), and system (large) tests?
-> - What will be tested manually vs. automated?
-> - What kind of testing will be done outside of your team?
-> - How are builds and tests run continuously?
-> - How will external users report bugs?
-> - How does bug triage work?
-> - Who is the test plan's audience?
->
-> -- https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html
-
-> You do need a test strategy, which is a strategy for your testing on the project… But how you choose to document that strategy and at what level should be as lean as possible. Try modelling or diagramming your strategy. Or try detailing it on a single slide.
-> 
-> The strategy should describe:
->
-> - your test approaches,
-> - your test reporting methods,
-> - your strategy for managing environments,
-> - strategy for reporting bugs,
-> - key stakeholders and decision makers,
-> - etc (think overall, big picture on describing HOW you will test and report that testing and any discoveries).
->
-> -- [Dan Ashby](https://club.ministryoftesting.com/t/test-strategy-documentation-in-an-agile-world/10724/6)
-
-> Good automated checks can…
->
-> 1. Verify the code is working correctly
-> 2. Prevent future regressions
-> 3. Document the code’s behavior
-> 4. Provide design guidance
-> 5. Support refactoring
->
-> No test has inherent value. A test is _only_ valuable to your project insofar as it supports one or more of the five factors. And keep in mind that an individual test or even a suite, overall, _cannot_ fully support all five factors. Which factors are more important will vary between sections of your codebase, and even in the same section over time.
->
-> -- https://madeintandem.com/blog/five-factor-testing/
-
-> Consider each of these layers like a net. It won’t catch everything, bugs in production will still happen. But when we have all of these feedback loops layered on top of each other, we get a pretty tight net, where hopefully no major issues get into production.
->
-> Common components of a test strategy:
->
-> - Automated checks (unit/API/UI)
-> - Pairing or Code review
-> - Exploratory testing
-> - CI/CD pipeline
-> - Test/Demo environment
-> - Demo day
-> - Monitoring
-> - Collecting user feedback
->
-> -- https://bughuntersam.com/a-mobile-app-test-strategy/
-
-If you're not sure which areas should be tested, you can do a risk mapping exercise. [Sam Connelly](https://bughuntersam.com/visual-risk-ui-automation-framework/) explains step by step how you can make one. [Diogo Nunes](https://www.diogonunes.com/blog/risk-mapping-prioritisation/) later adapted that exercise for remote teams.
-
-> #### Planning
->
-> - What resources do I have available?
->   _people, money, equipment, licenses, time, expertise, facilities..._
-> - Is this a realistic amount of resources for this project?
-> - How flexible is the time plan and what happens if the product is not “ready” by the deadline?
-> - What project risks exist?
->   _e.g. customers not clear about what they want._
-> - What is our backup plan if risk X happens?
-> - What is our backup plan in general if everything fails?
-> - What is likely to change?
->   _e.g. team setup, requirements, developers' focus, delivery dates…_
-> - Any meetings we should attend/discussions we should be part of?
-> - How do we handle handovers/new members/lost members?
-> - Who does what?
->   _e.g. responsibilities and roles_
-> - Any known problems along the road?
-> - Are there any workarounds or solutions to the known problems?
-> - Any regulations, rules, standards, certifications etc. limiting us or forcing us to work/act in a specific way?
-> - What administrative tools are (almost) enforced and what else do we need/benefit from?
-> - How do we plan the everyday work?
-> - What are the key test/release milestones?
-> - How flexible is the scope - can the project be down-scaled if some unexpected problem happens?
->
-> #### Prioritization
->
-> - What is most important (to test)?
-> - What is not important (to test)?
-> - What can be skipped all together?
-> - What quality characteristics are most/least important?
-> - Any specific aspect of these characteristics that is more/less important?
-> - What is covered by other teams?
-> - How do we continuously verify we’re doing the right thing?
-> - What is our done criteria
->   _e.g. strict deadline, customer acceptance tests or some other assessment of "good enough quality" and if so, by who?_
-> - What's the general requirement for quality?
->   _Aim for the stars/critical system or “just don’t explode... too badly”_
->
-> #### Information
->
-> - Where can I get information about X and who do I contact if that's not enough?
-> - Which claims exist?
-> - Which customers exist, can we contact them?
-> - Who can answer questions and which questions?
-> - What is still unknown/not clear about the project?
-> - How do we simplify the complexity?
->   _Simplify the process of learning the product. An example might be "what sort of visual models would help to create?"._
-> - Any particular tours we should perform?
-> - Are there any general guidelines to how we deal with learning activities and knowledge sharing?
-> - How do we further inspire/reassure/encourage feedback, reviews and knowledge sharing?
-> - How do we stay up to date with what is happening in the project?
-> - How do we communicate with various information owners?
->   _e.g. email (address), phone (number), instant messaging tool, via other person, meeting etc._
->
-> #### Support
->
-> - What kind of built in testability will help testers?
-> - Which modifications can/must be done to the process in general to support the testing?
-> - What do we need to learn more about?
-> - Any particular configuration or test data we can prepare?
-> - Which tools can help us?
-> - What other teams should/can/must we cooperate with? When, how and why?
-> - Do I know who the developers are and can I talk to them?
-> - Do the developers have time allotted for us?
-> - Are there any problems getting their time/getting in touch with the developers?
-> - Will they keep working on this?
-> - What will the developers test? How does this impact our testing? Can we make suggestions regarding their testing?
->
-> #### Testing
->
-> - How do I tell right from wrong?
->   _Find potential oracles_
-> - Which oracles are generally most trustworthy?
-> - What testing risks exist?
->   _e.g. unstable test environment or lack of knowledge about something._
-> - Which test techniques might be useful?
-> - What expertise do we lack?
-> - Which scenarios/typical use cases exist?
-> - Which heuristics might be useful?
-> - What logical components/modules are there?
-> - Is there anything I'm not allowed to do?
-> - Any (testing) tips the developers can give to the testers?
->
-> #### Product
->
-> - Which product risks exist?
->   _e.g. complex algorithms likely to be buggy or new technology used._
-> - Is there any complexity we might be missing?
-> - Which functions will the system/application/feature have?
-> - Who’s the target audience?
-> - Which platforms, systems etc. should the product support?
-> - What requirements exist for this product?
-> - What problem is the product expected to solve? For who?
-> - What problems have happened in the past with this product?
-> - Any existing functionality that is impacted?
-> - What must the product never do?
->   _e.g. any data sent as plain text is strictly forbidden_
->
-> #### Reporting
->
-> - What do I need to cover and how well?
-> - How do we track and visualize coverage and progress?
-> - Which stakeholders exist?
-> - How do we report bugs and status? To who? Why?
->   _"Why" as in: Which problems/questions will the receiver hope to solve/answer with our report._
-> - What other artifacts/information do we need to share? To who? Why?
-> - When do we need to report what?
->
-> -- http://erik.brickarp.se/2016/11/test-plan-questions.html
 
 > ### "context-revealing questions" by Michael Bolton
 >
@@ -398,6 +282,61 @@ If you're not sure which areas should be tested, you can do a risk mapping exerc
 > - Are there any other questions I should be asking you?
 >
 > -- https://www.developsense.com/blog/2010/11/context-free-questions-for-testing/
+
+
+
+
+> - What is covered by unit (small), integration (medium), and system (large) tests?
+> - What will be tested manually vs. automated?
+> - What kind of testing will be done outside of your team?
+> - How are builds and tests run continuously?
+> - How will external users report bugs?
+> - How does bug triage work?
+> - Who is the test plan's audience?
+>
+> -- https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html
+
+> You do need a test strategy, which is a strategy for your testing on the project… But how you choose to document that strategy and at what level should be as lean as possible. Try modelling or diagramming your strategy. Or try detailing it on a single slide.
+> 
+> The strategy should describe:
+>
+> - your test approaches,
+> - your test reporting methods,
+> - your strategy for managing environments,
+> - strategy for reporting bugs,
+> - key stakeholders and decision makers,
+> - etc (think overall, big picture on describing HOW you will test and report that testing and any discoveries).
+>
+> -- [Dan Ashby](https://club.ministryoftesting.com/t/test-strategy-documentation-in-an-agile-world/10724/6)
+
+> Good automated checks can…
+>
+> 1. Verify the code is working correctly
+> 2. Prevent future regressions
+> 3. Document the code’s behavior
+> 4. Provide design guidance
+> 5. Support refactoring
+>
+> No test has inherent value. A test is _only_ valuable to your project insofar as it supports one or more of the five factors. And keep in mind that an individual test or even a suite, overall, _cannot_ fully support all five factors. Which factors are more important will vary between sections of your codebase, and even in the same section over time.
+>
+> -- https://madeintandem.com/blog/five-factor-testing/
+
+> Consider each of these layers like a net. It won’t catch everything, bugs in production will still happen. But when we have all of these feedback loops layered on top of each other, we get a pretty tight net, where hopefully no major issues get into production.
+>
+> Common components of a test strategy:
+>
+> - Automated checks (unit/API/UI)
+> - Pairing or Code review
+> - Exploratory testing
+> - CI/CD pipeline
+> - Test/Demo environment
+> - Demo day
+> - Monitoring
+> - Collecting user feedback
+>
+> -- https://bughuntersam.com/a-mobile-app-test-strategy/
+
+If you're not sure which areas should be tested, you can do a risk mapping exercise. [Sam Connelly](https://bughuntersam.com/visual-risk-ui-automation-framework/) explains step by step how you can make one. [Diogo Nunes](https://www.diogonunes.com/blog/risk-mapping-prioritisation/) later adapted that exercise for remote teams.
 
 ## Teachers
 
