@@ -4,7 +4,7 @@
 
 ## Theory
 
-Neither of these methodologies are testing. They are development practices that foster quality, which in turn make testing easier.
+Neither of these methodologies are "testing" by itself. They are development practices that foster quality, which in turn make testing easier.
 
 ### TDD: (Unit) Test Driven Development
 
@@ -51,13 +51,13 @@ BDD is an OID methodology. It starts at the outside by identifying business outc
 >
 > — [Liz Keogh](https://lizkeogh.com/2014/01/22/using-bdd-with-legacy-systems/)
 
-Each feature is captured as a "story". Stories are descriptions of [requirements](/concepts/requirements.md) and their business benefits. They use a language agreed and understood by everyone — product owner, developer and tester. It includes a set of acceptance criteria, a list of statements that must be true to declare the story "done".
+Each feature is captured as a **story**. Stories are descriptions of [requirements](/concepts/requirements.md) and their business benefits. They use a language agreed and understood by everyone — product owner, developer and tester. It includes a set of acceptance criteria, a list of statements that must be true to declare the story "done".
 
 > This will likely be an iterative process. The stakeholder will have an idea of what they want but will not know how much work will be involved. With the help of the technical and testing experts, they will understand the cost/benefit of each scenario and make a judgement about whether they want it.
 >
 > — [Dan North](https://dannorth.net/whats-in-a-story/)
 
-To describe a story we need words. If we use words from a natural language (like English) then anyone will be able to read it, but without some structure everyone's writing style would affect the readability of the story. To avoid that, some rules were introduced and that's how the Gherkin language was born, also known as the Given-When-Then syntax.
+To describe a story we need words. If we use words from a natural language (like English) then anyone will be able to read it, but without some structure everyone's writing style would affect the readability of the story. To avoid that, some rules were introduced and that's how the **Gherkin language** was born, also known as the Given-When-Then syntax.
 
 > If you look up anything around BDD, you're likely to find conversation, collaboration, scenarios and examples at its core, together with suggestions for how to automate them. If you look further, you'll find Three Amigos and the Gherkin syntax and Cucumber (…) and a host of other tools.
 >
@@ -119,7 +119,7 @@ Your role in these sessions is to generate questions and ensure the conversation
 
 > A tester using BDD will be able to ask questions, collect information and help identify risks to inform other testing activities. Questions are your best tool for collaboration sessions:
 >
-> - "What, Who, Where, When, Why" - see [**`WWWWWHEK`** mnemonic](/toolbox/mnemonics)
+> - "What, Who, Where, When, Why" - see [**`W5HEK`** mnemonic](/toolbox/mnemonics)
 > - "Maybe this is a stupid question but…" - Those questions identify a lot of assumptions
 > - "So just to confirm…" - Rephrasing with your own words validates your understanding
 >
