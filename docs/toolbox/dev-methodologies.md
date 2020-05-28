@@ -210,3 +210,4 @@ He highlights several requirements of a successful BDD, here are a few:
 - [Using BDD with Legacy Systems](https://lizkeogh.com/2014/01/22/using-bdd-with-legacy-systems/)
 - [What is BDD?](https://lizkeogh.com/2015/03/27/what-is-bdd/)
 - [What's in a story?](https://dannorth.net/whats-in-a-story/)
+- [BDD in 2020](https://alisterbscott.com/2020/05/28/bdd-in-2020/)
