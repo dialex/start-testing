@@ -138,7 +138,7 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > - How should those answers be reported? With who?
 > - How should we report and react to bugs?
 
-You can further detail your strategy with even more questions, like these from [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) and [Michael Bolton](). You could follow the same grouping as before, but let's see a leaner alternative adapted from [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan).
+You can further detail your strategy with even more questions, like these from [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) and [Michael Bolton](https://www.developsense.com/blog/2010/11/context-free-questions-for-testing/). You could follow the same grouping as before, but let's see a leaner alternative adapted from [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan).
 
 > **Scope**
 >
@@ -216,72 +216,77 @@ You can further detail your strategy with even more questions, like these from [
 
 > ### "context-revealing questions" by Michael Bolton
 >
+> **Actors**
+>
 > - Who is my client?
 > - Who is the customer of the product?
 > - Who are the other stakeholders?
->
-> - How would you describe the success of this product?
-> - What risks would threaten that success?
->
-> - How much time do I have?
-> - When were you thinking of delivering this product?
->
-> - When do you want reports/answers?
-> - How do you want me to provide them? How often?
-> - What else do you want me to deliver?
->
-> - This product I’m testing… could I have it myself, please?
-> - Is there alternatives or competitors?
-> - How is this one expected to be the same or different from the other ones?
->
-> - Could you describe how it works?
-> - Could you draw me a diagram of how it works?
 > - How would I recognize a problem?
 > - Who can confirm if a specific behaviour is a problem? (oracle)
-> - What should I do when I find a confirmed problem?
 >
+> **Scope**
+>
+> - How would you describe the success of this product?
+> - Are there alternatives or competitors?
+> - How is this one expected to be the same or different from the other ones?
+> - Could you describe how it works?
+>
+> **RISKS**
+>
+> - What risks would threaten that success?
 > - What does this product depend upon?
->
-> - What tools or materials were used to construct it?
-> - Who built this product?
-> - Can I talk to them?
-> - Are they easy to talk to? Helpful?
-> - Have they ever built anything like this before?
-> - Is there anyone that I should avoid?
-> - Who else knows something about this?
-> - Who are the local experts in this field?
-> - Who are the acknowledged experts, even if they don’t work here?
->
-> - Has anyone else tested this?
-> - Can I see their results, please?
-> - Who else is on my team?
->
-> - What skills and competencies are expected of me?
-> - What other skills and competencies can be found on the team?
-> - Any skills and competencies lacking?
->
-> - What information is available to me?
-> - Where could I find more information?
 > - Are there more rules? Requirements? Specifications?
 >
+> **WAYS OF WORKING**
+>
+> - What should I do when I find a confirmed problem?
+> - Is there anything that you would like to prohibit me from doing?
+> - Are there any other questions I should be asking you?
+>
+> **RESOURCES** TIME
+>
+> - 
+> - How much time do I have?
+> - When were you thinking of delivering this product?
+> - Who built this product? Can I talk to them? Are they friendly?
+> - Have they ever built anything like this before?
+> - Who else knows something about this?
+> - Is there anyone I should avoid?
+> - Who are the local experts in this field?
+> - Who are the acknowledged experts, even if they don’t work here?
+> - Any skills or competencies lacking?
+>
+> RESOURCES **INFORMATION**
+>
+> - Could you draw me a diagram of how it works?
+> - This product I’m testing… could I have it myself, please?
+> - What skills and competencies are expected of me?
+> - What other skills and competencies can be found on the team?
 > - What can I do to help you discover the information you need?
+> - When do you want answers? How should I report them?
+> - What else do you want me to deliver?
+> - Where could I find more information?
+>
+> RESOURCES **TOOLS**
 >
 > - What equipment and tools are available to help with my testing?
 > - What tools do you expect me to build?
+> - What tools or materials were used to construct our product?
+>
+> RESOURCES **PEOPLE**
+>
+> - Who is on my team?
+> - Who can we trust? Is there anyone that we should distrust?
+>
+> **EMOTIONS**
 >
 > - What are your feelings about this product?
-> - Who might feel differently?
-> - How might they feel?
+> - Who might feel differently? What do they feel?
 > - What do customers say about it?
 > - Can I talk to the technical support people?
 > - Can I talk to the customers?
 >
-> - Who can we trust? Is there anyone that we should distrust?
-> - Is there anything that you would like to prohibit me from doing?
->
-> - Are there any other questions I should be asking you?
->
-> -- https://www.developsense.com/blog/2010/11/context-free-questions-for-testing/
+> -- 
 
 
 
