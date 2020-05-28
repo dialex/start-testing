@@ -140,153 +140,204 @@ Those questions cover the most critical aspects of any strategy to test your pro
 
 You can further detail your strategy with even more questions, like these from [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) and [Michael Bolton](https://www.developsense.com/blog/2010/11/context-free-questions-for-testing/). You could follow the same grouping as before, but let's see a leaner alternative adapted from [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan).
 
+⚠️ **TODO REFACTOR TEXT INTO SINGLE LIST** ⚠️ 
+
+⚠️ **TODO GET A NEW MNEMONIC** ⚠️ 
+
+⚠️ **TODO INSERT MINDMAP** ⚠️ 
+
 > **Scope**
 >
-> - What is most important to deliver?
-> - What can be skipped entirely?
-> - What is perceived as quality?
-> - How flexible is the scope? Can we descope if needed?
-> - How do we handle onboarding? And handover?
+> - How would you describe the success of this project?
 >
-> **Risks**
+> - What is expected that we deliver?
 >
-> - What is our backup plan if risk X happens? And if we fail?
-> - What is likely to change?
-> - What is still unknown?
-> - What do we need to learn more about?
-> - Do we expect any obstacles during this project? Can we mitigate them?
-> - Do we need to cooperate with other teams? When, how and why?
+> - What is expected that we achieve?
 >
-> **Ways of Working**???
+> - EXTRA
 >
-> - How do we plan the everyday work?
-> - Any regulations or rules that influence or limit our actions?
-> - What is our done criteria?
-> - How do we continuously verify we’re doing the right thing?
-> - As a tester, how can I reach out to developers? Do they have time for me?
-> - How can we split testing among the team?
+>   - How flexible is the scope? Can we descope if needed?
+>   - What are the functional requirements?
+>   - What are the non-functional requirements?
 >
-> **Tools**
+> **Product**
 >
-> - Which tools can help us?
+> - What problem are we solving? For who?
 >
-> **Environments**
+> - What should our solution do? Scenarios?
 >
-> - What should change to increase testability?
-> - How can we create/update test data?
+> - EXTRA
 >
-> **Information**???
->
-> - Where can I get information about X? Who do I contact?
-> - Who are our end-users? Can we contact them?
-> - How do we share knowledge?
-> - How do we provide feedback to each other?
-> - How can we keep in the loop of project's updates?
-> - What are the main components of our system? How do they interact?
-> - Which stakeholders exist? What is their expectation for us? And concern?
->
-> **Testing**???
->
-> - How do I tell right from wrong? (see [Oracles]())
-> - Which oracles are generally most trustworthy?
-> - Which heuristics might be useful?
-> - Which test techniques are useful in our context?
-> - What expertise do we lack?
-> - What are the typical use cases?
-> - As a tester, is there anything I'm not allowed to do?
-> - Any (testing) tips the developers can give to the testers?
-> - How do we track and visualize our testing?
-> - How do we report bugs? How do we prioritise fixing them?
->
-> **Product**???
->
-> - Which features will the system have?
-> - What must the system never do?
-> - What problem is the system expected to solve? For who?
-> - How are our users expected to interact with our system?
-> - Which platforms (e.g. OS, browser) should we support?
->
-> **Resources**
->
-> - What resources do I have available? *(e.g. people, time, expertise, equipment, etc.)*
-> - Is this amount of resources sufficient for this project?
-> - How flexible is the time plan? What happens if we miss a deadline?
-
----
-
-> ### "context-revealing questions" by Michael Bolton
+>   - What should our solution never do?
+>   - Are there alternatives or competitors to our product?
+>   - How are we expected to be different from the alternatives? Or the same?
+>   - How are users expected to interact with our product?
+>   - Which platforms (e.g. OS, browser) should we support?
 >
 > **Actors**
 >
-> - Who is my client?
-> - Who is the customer of the product?
-> - Who are the other stakeholders?
-> - How would I recognize a problem?
-> - Who can confirm if a specific behaviour is a problem? (oracle)
+> - Who has a stake on our success? And failure?
 >
-> **Scope**
+> - Who is our client? (e.g. who pays the product)
 >
-> - How would you describe the success of this product?
-> - Are there alternatives or competitors?
-> - How is this one expected to be the same or different from the other ones?
-> - Could you describe how it works?
+> - Who is our user? (e.g. who uses the product)
 >
-> **RISKS**
+> - EXTRA
 >
-> - What risks would threaten that success?
-> - What does this product depend upon?
-> - Are there more rules? Requirements? Specifications?
+>   - Any other stakeholder?
+>   - What are their expectations? And concerns?
+>   - Who is our team? What are their roles?
+>   - Who can we trust? Who should we avoid?
 >
-> **WAYS OF WORKING**
+> **Risks**
 >
-> - What should I do when I find a confirmed problem?
-> - Is there anything that you would like to prohibit me from doing?
-> - Are there any other questions I should be asking you?
+> - What would threaten our success?
 >
-> **RESOURCES** TIME
+> - What is likely to change?
 >
-> - 
-> - How much time do I have?
-> - When were you thinking of delivering this product?
-> - Who built this product? Can I talk to them? Are they friendly?
-> - Have they ever built anything like this before?
-> - Who else knows something about this?
-> - Is there anyone I should avoid?
-> - Who are the local experts in this field?
-> - Who are the acknowledged experts, even if they don’t work here?
-> - Any skills or competencies lacking?
+> - What is still unknown?
 >
-> RESOURCES **INFORMATION**
+> - EXTRA
 >
-> - Could you draw me a diagram of how it works?
-> - This product I’m testing… could I have it myself, please?
-> - What skills and competencies are expected of me?
-> - What other skills and competencies can be found on the team?
-> - What can I do to help you discover the information you need?
-> - When do you want answers? How should I report them?
-> - What else do you want me to deliver?
-> - Where could I find more information?
+>   - Do we foresee any obstacles or pain points?
+>   - How do we continuously verify we’re on target?
+>   - Do we have any concerns or fears?
+>   - What's the worst thing that could happen? How can we avoid that?
 >
-> RESOURCES **TOOLS**
+> **Dependencies**
 >
-> - What equipment and tools are available to help with my testing?
-> - What tools do you expect me to build?
-> - What tools or materials were used to construct our product?
+> - Is our delivery influenced by someone/thing outside our team?
 >
-> RESOURCES **PEOPLE**
+> - Do we need to cooperate with other teams? When, how and why?
 >
-> - Who is on my team?
-> - Who can we trust? Is there anyone that we should distrust?
+> - EXTRA
 >
-> **EMOTIONS**
+>   - Do we have to comply with rules/regulations?
 >
-> - What are your feelings about this product?
-> - Who might feel differently? What do they feel?
-> - What do customers say about it?
-> - Can I talk to the technical support people?
-> - Can I talk to the customers?
+> **Approach**
 >
-> -- 
+> - How will we work together? (e.g: scrum, kanban)
+>
+> - How will we develop our product? (e.g. pairing, TDD)
+>
+> - What would a typical day look like?
+>
+> - EXTRA
+>
+>   - What is our done criteria?
+>   - How would we recognize a bug? (e.g. oracle)
+>   - How should react when we find a bug?
+>   - How do we make decisions and resolve conflicts?
+>   - How can we split testing among the team?
+>   - How do we handle onboarding? And handover?
+>   - Any regulations or rules that influence or limit the way we work?
+>
+> **Prioritisation**
+>
+> - Who will set priorities?
+>
+> - Who reviews/approves our delivery?
+>
+> - Who perceives the quality of our delivery?
+>
+> - EXTRA
+>
+>   - Quality, Cost, Time: pick two
+>   - What other values are paramount?
+>
+> **Time**
+>
+> - Any important dates?
+>
+> - Any recurring events or ceremonies?
+>
+> - EXTRA
+>
+>   - How much time do we have to deliver?
+>   - What happens if we miss a deadline?
+>
+> **Emotions**
+>
+> - How do you feel about our product?
+> (e.g. proud, afraid, disappointed)
+>
+> - What do users feel and say about it?
+>
+> **Experience**
+>
+> - Have we ever worked in a similar context?
+>
+> - What skills/experience can be found in the team?
+>
+> - EXTRA
+>
+>   - Are we lacking any skills critical to our success?
+>   - Who else knows something about this, inside our org?
+>   - Who are the experts, even if outside our org?
+>   - Which tools and techniques are useful in our context?
+>
+> **Information**
+>
+> - What is meaningful to test?
+>
+> - What questions should our testing answer?
+>
+> - How should those answers be reported? With who?
+>
+> - EXTRA
+>
+>   - What do we need to learn more about?
+>   - Where can we get information about X?
+> Who do we contact?
+>   - Where do we share knowledge? How?
+>   - How do we provide feedback to each other?
+>   - How do we track and visualize our testing?
+>
+> **Data**
+>
+> - Which metrics are relevant to us?
+>
+> - EXTRA
+>
+>   - What data should we collect about our product?
+>   - What data should we collect about our approach?
+>   - How do we display that data? And make it visible?
+>   - Should we be notified when thresholds are crossed?
+>
+> **Environments**
+>
+> - How many do we need? For what?
+>
+> - Who will manage them? Who has access?
+>
+> - EXTRA
+>
+>   - What should change to increase testability?
+>   - What should change to speed up feedback?
+>   - How can we create/update test data?
+>
+> **Technologies**
+>
+> - Are we expected to use any specific tools/languages?
+>
+> - Which tools do we want to use to develop? And test? And deliver? And communicate?
+>
+> - EXTRA
+>
+>   - What is the technological landscape where our product?
+>   - What tools are we expected to build?
+>   - What equipment and tools are available to support our testing?
+>   - Do we have enough resources to meet the expectations?
+>   - Should we use open-source? Can we pay for SaaS?
+>
+> **Architecture**
+>
+> - Can you draw the main components of our system?
+>
+> - How do they interact?
+>
+
+----
 
 
 
