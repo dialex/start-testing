@@ -31,14 +31,13 @@ This strategy reveals the way tests will be designed and executed to foster qual
 
 Documents are for communicating information between people. Lacking a test strategy document doesn't mean a strategy doesn't exist. Your test strategy could be a single page/slide, a mind map, or a simple checklist. Use what fits your client's needs best.
 
-First discover who needs to read this document, and then ask what they want to know and what is the expected level of detail. In a regulated or very controlled environment, such document could be mandatory, maybe even a legal requirement.
+First discover **who** needs to read this document, and then ask **what** they want to know and what is the expected level of detail. In a regulated or very controlled environment, such document could be mandatory, maybe even a legal requirement.
 
 > Search for 'How to write a test plan' on the internet and there are all sorts of templates. Templates are often too generic or too specific and quickly become outdated. Once it's written, it's quite common to find out that almost no-one has actually read it.
 >
 > Instead, focus on selecting the best content when writing a test plan. For everything you decide to add, ask yourself: Does the reader need to know this? Is this relevant information? What else could I be doing with this time?
 >
-> — [Anthony Vallone (Google Testing Blog)](https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html)
-> — [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan)
+> — [Anthony Vallone (Google Testing Blog)](https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html) and [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan)
 
 Keep in mind that your strategy might evolve through time.
 
@@ -60,14 +59,14 @@ Similarly to [exploratory testing](/roles/exploratory-tester.md), the plan is ju
 
 [James Bach](https://www.satisfice.com/download/test-plan-evaluation-model) proposes a list of characteristics of a good test strategy. Keep in mind these criteria while you develop your strategy. You can also revisit them when you're finished, to check if you can improve your test strategy in any area:
 
-- Usefulness: Will the test strategy effectively serve its purpose?
-- Accuracy: Is it accurate with respect to any statements or facts?
-- Efficiency: Does it make efficient use of available resources?
-- Adaptability: Can it accommodate changes and unpredictability in the project?
-- Feasibility: Does the organization have capabilities to implement this strategy?
-- Clarity: Is it coherent and unambiguous?
-- Usability: Is the test strategy document concise, searchable and shareable?
-- Compliance: Does it meet externally imposed requirements?
+- _Usefulness:_ Will the test strategy effectively serve its purpose?
+- _Accuracy:_ Is it accurate with respect to any statements or facts?
+- _Efficiency:_ Does it make efficient use of available resources?
+- _Adaptability:_ Can it accommodate changes and unpredictability in the project?
+- _Feasibility:_ Does the organization have capabilities to implement this strategy?
+- _Clarity:_ Is it coherent and unambiguous?
+- _Usability:_ Is the test strategy document concise, searchable and shareable?
+- _Compliance:_ Does it meet externally imposed requirements?
 
 A good starting point is the Heuristic Test Strategy Model, also from [James Bach](https://www.satisfice.com/download/heuristic-test-strategy-model). According to that plan, testing is influenced by: project environment, quality criteria, test techniques. [Dan Ashby](https://danashby.co.uk/2017/12/13/a-new-model-for-test-strategies/) then simplified that model into this intuitive diagram.
 
@@ -90,13 +89,9 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > **Scope**
 >
 > - How would you describe the success of this project?
->
 > - What is expected that we deliver?
->
 > - What is expected that we achieve?
->
 > - EXTRA
->
 >   - How flexible is the scope? Can we descope if needed?
 >   - What are the functional requirements?
 >   - What are the non-functional requirements?
@@ -104,11 +99,8 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > **Product**
 >
 > - What problem are we solving? For who?
->
 > - What should our solution do? Scenarios?
->
 > - EXTRA
->
 >   - What should our solution never do?
 >   - Are there alternatives or competitors to our product?
 >   - How are we expected to be different from the alternatives? Or the same?
@@ -118,13 +110,9 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > **Actors**
 >
 > - Who has a stake on our success? And failure?
->
 > - Who is our client? (e.g. who pays the product)
->
 > - Who is our user? (e.g. who uses the product)
->
 > - EXTRA
->
 >   - Any other stakeholder?
 >   - What are their expectations? And concerns?
 >   - Who is our team? What are their roles?
@@ -133,13 +121,9 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > **Risks**
 >
 > - What would threaten our success?
->
 > - What is likely to change?
->
 > - What is still unknown?
->
 > - EXTRA
->
 >   - Do we foresee any obstacles or pain points?
 >   - How do we continuously verify we're on target?
 >   - Do we have any concerns or fears?
@@ -148,23 +132,16 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > **Dependencies**
 >
 > - Is our delivery influenced by someone/thing outside our team?
->
 > - Do we need to cooperate with other teams? When, how and why?
->
 > - EXTRA
->
 >   - Do we have to comply with rules/regulations?
 >
 > **Approach**
 >
 > - How will we work together? (e.g: scrum, kanban)
->
 > - How will we develop our product? (e.g. pairing, TDD)
->
 > - What would a typical day look like?
->
 > - EXTRA
->
 >   - What is our done criteria?
 >   - How would we recognize a bug? (e.g. oracle)
 >   - How should react when we find a bug?
@@ -176,42 +153,30 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > **Prioritisation**
 >
 > - Who will set priorities?
->
 > - Who reviews/approves our delivery?
->
 > - Who perceives the quality of our delivery?
->
 > - EXTRA
->
 >   - Quality, Cost, Time: pick two
 >   - What other values are paramount?
 >
 > **Time**
 >
 > - Any important dates?
->
 > - Any recurring events or ceremonies?
->
 > - EXTRA
->
 >   - How much time do we have to deliver?
 >   - What happens if we miss a deadline?
 >
 > **Emotions**
 >
 > - How do you feel about our product?
->   (e.g. proud, afraid, disappointed)
->
 > - What do users feel and say about it?
 >
 > **Experience**
 >
 > - Have we ever worked in a similar context?
->
 > - What skills/experience can be found in the team?
->
 > - EXTRA
->
 >   - Are we lacking any skills critical to our success?
 >   - Who else knows something about this, inside our organisation?
 >   - Who are the experts, even if outside our organisation?
@@ -220,13 +185,9 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > **Information**
 >
 > - What is meaningful to test?
->
 > - What questions should our testing answer?
->
 > - How should those answers be reported? With who?
->
 > - EXTRA
->
 >   - What do we need to learn more about?
 >   - Where can we get information about X?
 >     Who do we contact?
@@ -237,9 +198,7 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > **Data**
 >
 > - Which metrics are relevant to us?
->
 > - EXTRA
->
 >   - What data should we collect about our product?
 >   - What data should we collect about our approach?
 >   - How do we display that data? And make it visible?
@@ -248,11 +207,8 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > **Environments**
 >
 > - How many do we need? For what?
->
 > - Who will manage them? Who has access?
->
 > - EXTRA
->
 >   - What should change to increase testability?
 >   - What should change to speed up feedback?
 >   - How can we create/update test data?
@@ -260,11 +216,8 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > **Technologies**
 >
 > - Are we expected to use any specific tools/languages?
->
 > - Which tools do we want to use to develop? And test? And deliver? And communicate?
->
 > - EXTRA
->
 >   - What is the technological landscape where our product?
 >   - What tools are we expected to build?
 >   - What equipment and tools are available to support our testing?
@@ -274,8 +227,7 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > **Architecture**
 >
 > - Can you draw the main components of our system?
->
-> - How do they interact?
+> - How do they interact
 
 If you're not sure which areas should be tested, you can do a risk mapping exercise. [Sam Connelly](https://bughuntersam.com/visual-risk-ui-automation-framework/) explains step by step how you can make one. [Diogo Nunes](https://www.diogonunes.com/blog/risk-mapping-prioritisation/) later adapted that exercise for remote teams.
 
