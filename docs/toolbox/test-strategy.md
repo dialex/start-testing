@@ -83,68 +83,9 @@ Now that you have an overview of a possible test strategy, it's time to fill in 
 > 4. Do we need to document our test strategy? Why? For who? How?
 > 5. Where can we get information about the product?
 
-Those questions cover the most critical aspects of any strategy to test your product. You can use them to generate more questions and detail your strategy even more. As the number of questions increases, we should group them into categories. To do that, you can use the [**`GRATEDD SCRIPTS`**]() mnemonic from [Jared Quinert](http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/):
+Those questions cover the most critical aspects of any strategy to test your product. You can use them to generate more questions and detail your strategy even more. As the number of questions increases, we should group them into categories. [Diogo Nunes]() took  [Jared Quinert](http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/)'s  [**`GRATEDD SCRIPTS`**](/toolbox/mnemonics.md) mnemonic and further expanded it with questions from [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) and [Michael Bolton](https://www.developsense.com/blog/2010/11/context-free-questions-for-testing/). The result was this mind map, and a new mnemonic called [**`READIED A TEST APE`**](/toolbox/mnemonics.md):
 
-> **Goals**
->
-> - What would be true if we succeeded?
-> - What are the must haves of our product?
->
-> **Risks**
->
-> - Do we forsee any obstacle to achieve that?
-> - Do we have any concerns or fears?
->
-> **Approach & Tooling**
->
-> - How will we work together? (e.g: waterfall, scrum, kanban)
-> - Who's responsible for what?
-> - How will we [develop](/toolbox/dev-methodologies.md) our product?
-> - Which tools will we use to develop? Test? Deliver? Communicate?
->
-> **Schedule**
->
-> - Any important dates?
-> - Any recurring events or ceremonies?
->
-> **Trade-offs & Prioritisation**
->
-> - Who will set priorities?
-> - What can we drop to prioritise our goal?
->
-> **Dependencies**
->
-> - Is our delivery influenced by someone/thing outside our team?
->
-> **Stakeholders**
->
-> - Who's the sponsor? Who has a stake in our success?
-> - Who reviews/approves our delivery?
->
-> **Environments**
->
-> - How many do we need? For what?
-> - Who will manage them?
->
-> **Data**
->
-> - What kind of data should we collect?
-> - How do we display that data?
->
-> **Coverage & Resources & Information**
->
-> - What is meaningful to test?
-> - What questions should our testing answer?
-> - How should those answers be reported? With who?
-> - How should we report and react to bugs?
-
-You can further detail your strategy with even more questions, like these from [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) and [Michael Bolton](https://www.developsense.com/blog/2010/11/context-free-questions-for-testing/). You could follow the same grouping as before, but let's see a leaner alternative adapted from [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan).
-
-⚠️ **TODO REFACTOR TEXT INTO SINGLE LIST** ⚠️ 
-
-⚠️ **TODO GET A NEW MNEMONIC** ⚠️ 
-
-⚠️ **TODO INSERT MINDMAP** ⚠️ 
+![TestStrategy-READIED-A-TEST-APE](../_media/articles/Test-Strategy-Overview-(READIED-A-TEST-APE).png)
 
 > **Scope**
 >
@@ -338,8 +279,6 @@ You can further detail your strategy with even more questions, like these from [
 >
 
 ----
-
-
 
 
 > - What is covered by unit (small), integration (medium), and system (large) tests?
