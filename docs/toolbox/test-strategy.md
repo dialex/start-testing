@@ -167,20 +167,39 @@ Those questions cover the most critical aspects of any strategy to test your pro
 >   - How much time do we have to deliver?
 >   - What happens if we miss a deadline?
 >
-> **Emotions**
+> **Architecture**
 >
-> - How do you feel about our product?
-> - What do users feel and say about it?
+> - Can you draw the main components of our system?
+> - How do they interact
 >
-> **Experience**
+> **Technologies**
 >
-> - Have we ever worked in a similar context?
-> - What skills/experience can be found in the team?
+> - Are we expected to use any specific tools/languages?
+> - Which tools do we want to use to develop? And test? And deliver? And communicate?
 > - (extra)
->   - Are we lacking any skills critical to our success?
->   - Who else knows something about this, inside our organisation?
->   - Who are the experts, even if outside our organisation?
->   - Which tools and techniques are useful in our context?
+>   - What is the technological landscape where our product?
+>   - What tools are we expected to build?
+>   - What equipment and tools are available to support our testing?
+>   - Do we have enough resources to meet the expectations?
+>   - Should we use open-source? Can we pay for SaaS?
+>
+> **Environments**
+>
+> - How many do we need? For what?
+> - Who will manage them? Who has access?
+> - (extra)
+>   - What should change to increase testability?
+>   - What should change to speed up feedback?
+>   - How can we create/update test data?
+>
+> **Data**
+>
+> - Which metrics are relevant to us?
+> - (extra)
+>   - What data should we collect about our product?
+>   - What data should we collect about our approach?
+>   - How do we display that data? And make it visible?
+>   - Should we be notified when thresholds are crossed?
 >
 > **Information**
 >
@@ -195,39 +214,20 @@ Those questions cover the most critical aspects of any strategy to test your pro
 >   - How do we provide feedback to each other?
 >   - How do we track and visualize our testing?
 >
-> **Data**
+> **Experience**
 >
-> - Which metrics are relevant to us?
+> - Have we ever worked in a similar context?
+> - What skills/experience can be found in the team?
 > - (extra)
->   - What data should we collect about our product?
->   - What data should we collect about our approach?
->   - How do we display that data? And make it visible?
->   - Should we be notified when thresholds are crossed?
+>   - Are we lacking any skills critical to our success?
+>   - Who else knows something about this, inside our organisation?
+>   - Who are the experts, even if outside our organisation?
+>   - Which tools and techniques are useful in our context?
 >
-> **Environments**
+> **Emotions**
 >
-> - How many do we need? For what?
-> - Who will manage them? Who has access?
-> - (extra)
->   - What should change to increase testability?
->   - What should change to speed up feedback?
->   - How can we create/update test data?
->
-> **Technologies**
->
-> - Are we expected to use any specific tools/languages?
-> - Which tools do we want to use to develop? And test? And deliver? And communicate?
-> - (extra)
->   - What is the technological landscape where our product?
->   - What tools are we expected to build?
->   - What equipment and tools are available to support our testing?
->   - Do we have enough resources to meet the expectations?
->   - Should we use open-source? Can we pay for SaaS?
->
-> **Architecture**
->
-> - Can you draw the main components of our system?
-> - How do they interact
+> - How do you feel about our product?
+> - What do users feel and say about it?
 
 If you're not sure which areas should be tested, you can do a risk mapping exercise. [Sam Connelly](https://bughuntersam.com/visual-risk-ui-automation-framework/) explains step by step how you can make one. [Diogo Nunes](https://www.diogonunes.com/blog/risk-mapping-prioritisation/) later adapted that exercise for remote teams.
 
