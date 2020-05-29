@@ -82,9 +82,9 @@ Now that you have an overview of a possible test strategy, it's time to fill in 
 > 4. How should we document our test strategy and results? To who?
 > 5. Where can we get information about the product?
 
-Those questions cover the most critical aspects of any strategy to test your product. You can use them to generate more questions and detail your strategy even more. As the number of questions increases, we should group them into categories. [Diogo Nunes](https://www.diogonunes.com/blog/mnemonic-test-strategy-readied-a-test-ape) took [Jared Quinert](http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/)'s [**`GRATEDD SCRIPTS`**](/toolbox/mnemonics.md) mnemonic and further expanded it with questions from [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) and [Michael Bolton](https://www.developsense.com/blog/2010/11/context-free-questions-for-testing/). The result was this mind map, and a new mnemonic called [**`READIED A TEST APE`**](/toolbox/mnemonics.md):
+Those questions cover the most critical aspects of any strategy to test your product. You can use them to generate more questions and detail your strategy even more. As the number of questions increases, we should group them into categories. [Diogo Nunes](https://www.diogonunes.com/blog/test-strategy-saddest-ppiratee-mnemonic) took [Jared Quinert](http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/)'s [**`GRATEDD SCRIPTS`**](/toolbox/mnemonics.md) mnemonic and further expanded it with questions from [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) and [Michael Bolton](https://www.developsense.com/blog/2010/11/context-free-questions-for-testing/). The result was this mind map, and a new mnemonic called [**`SADDEST PPIRATEE`**](/toolbox/mnemonics.md):
 
-![TestStrategy-READIED-A-TEST-APE](<../_media/articles/Test-Strategy-Overview-(READIED-A-TEST-APE).png>)
+![TestStrategy-SADDEST-PPIRATEE](<../_media/articles/Test-Strategy-Overview-(SADDEST-PPIRATEE).png>)
 
 > **Scope**
 >
@@ -107,7 +107,7 @@ Those questions cover the most critical aspects of any strategy to test your pro
 >   - How are users expected to interact with our product?
 >   - Which platforms (e.g. OS, browser) should we support?
 >
-> **Actors**
+> **Stakeholders**
 >
 > - Who has a stake on our success? And failure?
 > - Who is our client? (e.g. who pays the product)
