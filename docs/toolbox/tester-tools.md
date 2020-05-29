@@ -102,6 +102,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 - 🤷‍♂️ [Applitools](https://applitools.com/) (SaaS): screenshots your pages and detects visual changes between executions
 - 🤷‍♂️ [Chromatic](https://www.chromatic.com/) (SaaS): screenshots your pages and detects visual changes between executions
 - 🤷‍♂️ [Wraith](https://github.com/BBC-News/wraith) (cli): screenshots your pages and detects visual changes locally; open-source
+- 🤷‍♂️ [BackstopJS](https://github.com/garris/BackstopJS) (cli): screenshots your pages and detects visual changes locally; open-source
 - 🤷‍♂️ [Appraise](https://github.com/AppraiseQA/appraise) (cli): screenshots your pages and detects visual changes locally; open-source
 - 🤷‍♂️ [Galen Framework](http://galenframework.com/) (cli): tests location of UI components relative to each other using DSL; open-source
 
