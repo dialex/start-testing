@@ -17,17 +17,17 @@ The strategy is usually driven by the testers, yet it should always include feed
 
 > A good test strategy is a rich collage of different processes, techniques and tools.
 >
-> -- [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/)
+> — [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/)
 
-> The test strategy is the set of ideas that guide your test process to fulfill your (testing) mission.
+> The test strategy is the set of ideas that guide your test process to fulfil your (testing) mission.
 >
-> -- ["The life of one man"](https://thelifeofoneman.com/the-testing-strategy)
+> — ["The life of one man"](https://thelifeofoneman.com/the-testing-strategy)
 
 This strategy reveals the way tests will be designed and executed to foster quality. To do so, it needs to answer several questions like what parts of the product will be tested, what test techniques will be used, who will be involved, and how long it will take. The number of questions and the detail of the answers depends on your project's [requirements](), so you will have choose between a formal and detailed document versus a simple and abridged alternative.
 
-> Every time I look at any of the dozens of test plans my teams have written, I see dead test plans. This begs the question: if a plan isn’t worth bothering to update, is it worth creating in the first place?
+> Every time I look at any of the dozens of test plans my teams have written, I see dead test plans. This begs the question: if a plan isn't worth bothering to update, is it worth creating in the first place?
 >
-> -- [James Whittaker](https://testing.googleblog.com/2011/09/10-minute-test-plan.html)
+> — [James Whittaker](https://testing.googleblog.com/2011/09/10-minute-test-plan.html)
 
 Documents are for communicating information between people. Lacking a test strategy document doesn't mean a strategy doesn't exist. Your test strategy could be a single page/slide, a mind map, or a simple checklist. Use what fits your client's needs best.
 
@@ -37,28 +37,28 @@ First discover who needs to read this document, and then ask what they want to k
 >
 > Instead, focus on selecting the best content when writing a test plan. For everything you decide to add, ask yourself: Does the reader need to know this? Is this relevant information? What else could I be doing with this time?
 >
-> -- [Anthony Vallone (Google Testing Blog)](https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html)
-> -- [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan)
+> — [Anthony Vallone (Google Testing Blog)](https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html)
+> — [Claire Reckless](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan)
 
 Keep in mind that your strategy might evolve through time.
 
-> An emergent strategy (...) emerges as assumptions get tested, constraints become concrete and context changes. This happens when you begin testing and discover a whole new set of risks and change direction to accomodate that. When working in complex, uncertain environments, when there’s more questions than answers, it makes sense for teams to be aware of the emergent nature of a software testing strategy.
+> An emergent strategy (…) emerges as assumptions get tested, constraints become concrete and context changes. This happens when you begin testing and discover a whole new set of risks and change direction to accommodate that. When working in complex, uncertain environments, when there's more questions than answers, it makes sense for teams to be aware of the emergent nature of a software testing strategy.
 >
-> -- [Anne-Marie Charrett](https://mavericktester.com/2020/01/13/emergent-strategy/)
+> — [Anne-Marie Charrett](https://mavericktester.com/2020/01/13/emergent-strategy/)
 
 Similarly to [exploratory testing](), the plan is just a foundation, you can adapt as you learn more about your context. In fact, specifying a test strategy is an effective exercise to collect information about your context, because of all the answers it demands from you. And since you have to write down that information, it's a way to organise your thoughts.
 
-> Using a test plan as a mechanism to seek answers, to drive information consensus, and to prepare yourself, can make it worthwhile. Make it valuable for you and your stakeholders. And if you can’t, don’t be afraid to get rid of it.
+> Using a test plan as a mechanism to seek answers, to drive information consensus, and to prepare yourself, can make it worthwhile. Make it valuable for you and your stakeholders. And if you can't, don't be afraid to get rid of it.
 >
-> -- [Richard C Paterson](https://dojo.ministryoftesting.com/lessons/how-to-write-a-software-test-plan)
+> — [Richard C Paterson](https://dojo.ministryoftesting.com/lessons/how-to-write-a-software-test-plan)
 
 ## Practice
 
-> Creating a test plan is complex. An ideal test plan is (...) a balance of implementation cost, maintenance cost, benefit, and risk.
+> Creating a test plan is complex. An ideal test plan is (…) a balance of implementation cost, maintenance cost, benefit, and risk.
 >
-> -- [Anthony Vallone (Google Testing Blog)](https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html)
+> — [Anthony Vallone (Google Testing Blog)](https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html)
 
-[James Bach](https://www.satisfice.com/download/test-plan-evaluation-model) proposes a list of caracteristics of a good test strategy. Keep in mind these criteria while you develop your stategy. You can also revisit them when you're finished, to check if you can improve your test strategy in any area:
+[James Bach](https://www.satisfice.com/download/test-plan-evaluation-model) proposes a list of characteristics of a good test strategy. Keep in mind these criteria while you develop your strategy. You can also revisit them when you're finished, to check if you can improve your test strategy in any area:
 
 - Usefulness: Will the test strategy effectively serve its purpose?
 - Accuracy: Is it accurate with respect to any statements or facts?
@@ -141,7 +141,7 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > - EXTRA
 >
 >   - Do we foresee any obstacles or pain points?
->   - How do we continuously verify we’re on target?
+>   - How do we continuously verify we're on target?
 >   - Do we have any concerns or fears?
 >   - What's the worst thing that could happen? How can we avoid that?
 >
@@ -213,8 +213,8 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > - EXTRA
 >
 >   - Are we lacking any skills critical to our success?
->   - Who else knows something about this, inside our org?
->   - Who are the experts, even if outside our org?
+>   - Who else knows something about this, inside our organisation?
+>   - Who are the experts, even if outside our organisation?
 >   - Which tools and techniques are useful in our context?
 >
 > **Information**

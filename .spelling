@@ -80,6 +80,12 @@ a11y
 pentesters
 pentest
 pejgan
+brickarp
+vallone
+png
+descope
+kanban
+onboarding
  - docs/toolbox/note-taking.md
 udos
 deas
@@ -164,3 +170,5 @@ Frida
 Magisk
  - docs/toolbox/heuristics.md
 Heu-risk
+ - docs/toolbox/test-strategy.md
+Ws
