@@ -4,12 +4,12 @@
 
 ## Theory
 
-The test strategy is defined at the start of the project and can be revisited and reviewed during the duration of that project. It's typically created to specify the answers to the five Ws (see [**`W5H`** mnemonic]()).
+The test strategy is defined at the start of the project and can be revisited and reviewed during the duration of that project. It's typically created to specify the answers to the five Ws (see [**`W5H`** mnemonic](/toolbox/mnemonics.md)).
 
 The strategy is usually driven by the testers, yet it should always include feedback from all team members:
 
 - _Software Testers_ want to know what they might be testing over the course of the project
-- _Software Developers_ want to know how they can increase [testability]()
+- _Software Developers_ want to know how they can increase [testability](/concepts/testability.md)
 - _Project Managers_ want to understand how you'll test, so they can be confident in making a decision to release
 - _Product Owners_ can tell you how the product is meant to be used
 - _Customer Support_ can tell you how the customer uses the system, and the kind of problems they encounter
@@ -18,12 +18,12 @@ The strategy is usually driven by the testers, yet it should always include feed
 > A good test strategy is a rich collage of different processes, techniques and tools.
 >
 > — [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/)
-
+>
 > The test strategy is the set of ideas that guide your test process to fulfil your (testing) mission.
 >
 > — ["The life of one man"](https://thelifeofoneman.com/the-testing-strategy)
 
-This strategy reveals the way tests will be designed and executed to foster quality. To do so, it needs to answer several questions like what parts of the product will be tested, what test techniques will be used, who will be involved, and how long it will take. The number of questions and the detail of the answers depends on your project's [requirements](), so you will have choose between a formal and detailed document versus a simple and abridged alternative.
+This strategy reveals the way tests will be designed and executed to foster quality. To do so, it needs to answer several questions like what parts of the product will be tested, what test techniques will be used, who will be involved, and how long it will take. The number of questions and the detail of the answers depends on your project's [requirements](/concepts/requirements.md), so you will have choose between a formal and detailed document versus a simple and abridged alternative.
 
 > Every time I look at any of the dozens of test plans my teams have written, I see dead test plans. This begs the question: if a plan isn't worth bothering to update, is it worth creating in the first place?
 >
@@ -46,7 +46,7 @@ Keep in mind that your strategy might evolve through time.
 >
 > — [Anne-Marie Charrett](https://mavericktester.com/2020/01/13/emergent-strategy/)
 
-Similarly to [exploratory testing](), the plan is just a foundation, you can adapt as you learn more about your context. In fact, specifying a test strategy is an effective exercise to collect information about your context, because of all the answers it demands from you. And since you have to write down that information, it's a way to organise your thoughts.
+Similarly to [exploratory testing](/roles/exploratory-tester.md), the plan is just a foundation, you can adapt as you learn more about your context. In fact, specifying a test strategy is an effective exercise to collect information about your context, because of all the answers it demands from you. And since you have to write down that information, it's a way to organise your thoughts.
 
 > Using a test plan as a mechanism to seek answers, to drive information consensus, and to prepare yourself, can make it worthwhile. Make it valuable for you and your stakeholders. And if you can't, don't be afraid to get rid of it.
 >
@@ -83,9 +83,9 @@ Now that you have an overview of a possible test strategy, it's time to fill in 
 > 4. How should we document our test strategy and results? To who?
 > 5. Where can we get information about the product?
 
-Those questions cover the most critical aspects of any strategy to test your product. You can use them to generate more questions and detail your strategy even more. As the number of questions increases, we should group them into categories. [Diogo Nunes]() took  [Jared Quinert](http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/)'s  [**`GRATEDD SCRIPTS`**](/toolbox/mnemonics.md) mnemonic and further expanded it with questions from [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) and [Michael Bolton](https://www.developsense.com/blog/2010/11/context-free-questions-for-testing/). The result was this mind map, and a new mnemonic called [**`READIED A TEST APE`**](/toolbox/mnemonics.md):
+Those questions cover the most critical aspects of any strategy to test your product. You can use them to generate more questions and detail your strategy even more. As the number of questions increases, we should group them into categories. [Diogo Nunes](https://www.diogonunes.com/blog/mnemonic-test-strategy-readied-a-test-ape) took [Jared Quinert](http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/)'s [**`GRATEDD SCRIPTS`**](/toolbox/mnemonics.md) mnemonic and further expanded it with questions from [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) and [Michael Bolton](https://www.developsense.com/blog/2010/11/context-free-questions-for-testing/). The result was this mind map, and a new mnemonic called [**`READIED A TEST APE`**](/toolbox/mnemonics.md):
 
-![TestStrategy-READIED-A-TEST-APE](../_media/articles/Test-Strategy-Overview-(READIED-A-TEST-APE).png)
+![TestStrategy-READIED-A-TEST-APE](<../_media/articles/Test-Strategy-Overview-(READIED-A-TEST-APE).png>)
 
 > **Scope**
 >
@@ -200,7 +200,7 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > **Emotions**
 >
 > - How do you feel about our product?
-> (e.g. proud, afraid, disappointed)
+>   (e.g. proud, afraid, disappointed)
 >
 > - What do users feel and say about it?
 >
@@ -229,7 +229,7 @@ Those questions cover the most critical aspects of any strategy to test your pro
 >
 >   - What do we need to learn more about?
 >   - Where can we get information about X?
-> Who do we contact?
+>     Who do we contact?
 >   - Where do we share knowledge? How?
 >   - How do we provide feedback to each other?
 >   - How do we track and visualize our testing?
@@ -276,7 +276,6 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > - Can you draw the main components of our system?
 >
 > - How do they interact?
->
 
 If you're not sure which areas should be tested, you can do a risk mapping exercise. [Sam Connelly](https://bughuntersam.com/visual-risk-ui-automation-framework/) explains step by step how you can make one. [Diogo Nunes](https://www.diogonunes.com/blog/risk-mapping-prioritisation/) later adapted that exercise for remote teams.
 
