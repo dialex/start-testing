@@ -278,59 +278,6 @@ Those questions cover the most critical aspects of any strategy to test your pro
 > - How do they interact?
 >
 
-----
-
-
-> - What is covered by unit (small), integration (medium), and system (large) tests?
-> - What will be tested manually vs. automated?
-> - What kind of testing will be done outside of your team?
-> - How are builds and tests run continuously?
-> - How will external users report bugs?
-> - How does bug triage work?
-> - Who is the test plan's audience?
->
-> -- https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html
-
-> You do need a test strategy, which is a strategy for your testing on the project… But how you choose to document that strategy and at what level should be as lean as possible. Try modelling or diagramming your strategy. Or try detailing it on a single slide.
-> 
-> The strategy should describe:
->
-> - your test approaches,
-> - your test reporting methods,
-> - your strategy for managing environments,
-> - strategy for reporting bugs,
-> - key stakeholders and decision makers,
-> - etc (think overall, big picture on describing HOW you will test and report that testing and any discoveries).
->
-> -- [Dan Ashby](https://club.ministryoftesting.com/t/test-strategy-documentation-in-an-agile-world/10724/6)
-
-> Good automated checks can…
->
-> 1. Verify the code is working correctly
-> 2. Prevent future regressions
-> 3. Document the code’s behavior
-> 4. Provide design guidance
-> 5. Support refactoring
->
-> No test has inherent value. A test is _only_ valuable to your project insofar as it supports one or more of the five factors. And keep in mind that an individual test or even a suite, overall, _cannot_ fully support all five factors. Which factors are more important will vary between sections of your codebase, and even in the same section over time.
->
-> -- https://madeintandem.com/blog/five-factor-testing/
-
-> Consider each of these layers like a net. It won’t catch everything, bugs in production will still happen. But when we have all of these feedback loops layered on top of each other, we get a pretty tight net, where hopefully no major issues get into production.
->
-> Common components of a test strategy:
->
-> - Automated checks (unit/API/UI)
-> - Pairing or Code review
-> - Exploratory testing
-> - CI/CD pipeline
-> - Test/Demo environment
-> - Demo day
-> - Monitoring
-> - Collecting user feedback
->
-> -- https://bughuntersam.com/a-mobile-app-test-strategy/
-
 If you're not sure which areas should be tested, you can do a risk mapping exercise. [Sam Connelly](https://bughuntersam.com/visual-risk-ui-automation-framework/) explains step by step how you can make one. [Diogo Nunes](https://www.diogonunes.com/blog/risk-mapping-prioritisation/) later adapted that exercise for remote teams.
 
 ## Teachers
