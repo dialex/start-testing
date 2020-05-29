@@ -168,6 +168,7 @@ k6
 Trivy
 Frida
 Magisk
+BackstopJS
  - docs/toolbox/heuristics.md
 Heu-risk
  - docs/toolbox/test-strategy.md
