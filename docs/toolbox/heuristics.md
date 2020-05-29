@@ -50,11 +50,11 @@ You will frequently come across heuristics in the form of checklists, cheat shee
 
 ### 💡 Test ideas
 
-There's a big number of heuristics you can use to generate test ideas. [Elisabeth Hendrickson](http://testobsessed.com/wp-content/uploads/2011/04/testheuristicscheatsheetv1.pdf) compiled a cheat sheet with the most common. One of the simplest is the Goldilocks heuristic (named after the [bedtime story](https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears)), which focuses on the concept of "too big", "too small", "just right".
+There's a big number of heuristics you can use to generate test ideas. [Elisabeth Hendrickson](http://testobsessed.com/wp-content/uploads/2011/04/testheuristicscheatsheetv1.pdf) compiled a cheat sheet with the most common. One of the simplest is the Goldilocks heuristic (named after the [bedtime story](https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears)), which focuses on the concept of "too big", "too small", "just right". For more testing opportunities, check this list from [Erik Brickarp](http://erik.brickarp.se/2016/08/how-to-come-up-with-test-ideas.html).
 
 > Let's say you want to test a new field that collects the age of a user. Inspired by the Goldilocks heuristic, you can observe the behaviour of that field when you type a value that is too big (`999`), too small (`-1`), and just right (`30`).
 
-[James Bach](https://www.satisfice.com/download/heuristic-test-strategy-model)'s Heuristic Test Strategy Model (HSTM) contains more tips on how to explore your product ([**`SFDIPOT`**](/toolbox/mnemonics?id=⛺%ef%b8%8f-exploration)) and its non-functional properties ([**`CRUCSPIC STMP`**](/toolbox/mnemonics?id=%f0%9f%92%a1-product)).
+[James Bach](https://www.satisfice.com/download/heuristic-test-strategy-model)'s Heuristic Test Strategy Model (HTSM) contains more tips on how to explore your product ([**`SFDIPOT`**](/toolbox/mnemonics?id=⛺%ef%b8%8f-exploration)) and its non-functional properties ([**`CRUCSPIC STMP`**](/toolbox/mnemonics?id=%f0%9f%92%a1-product)).
 
 This presentation from [Karen Johnson](http://karennicolejohnson.com/wp-content/uploads/2012/11/KNJohnson-2012-heuristics-mnemonics.pdf) demonstrates how you can use heuristics like [**`RCRCRC`**](/toolbox/mnemonics?id=🤖-automation) (ideas about what to check on regression testing) or [**`FEW HICCUPPS`**](/toolbox/mnemonics?id=⛺%ef%b8%8f-exploration) (oracles focused on consistency) in practice. To discover other mnemonics, check this [cheat sheet](/toolbox/mnemonics).
 
@@ -81,6 +81,14 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 - Diversify your oracles — e.g. show what you found to a diff stakeholder
 - Diversify who is doing the testing — e.g. rotate perspectives and expectations
 - Diversify your test environment — e.g. use a diff machine or OS, test in production
+
+[Katrina Clokie](https://katrinatester.blogspot.com/2018/05/9-quick-ideas-for-flexible-testing.html) has a few additional suggestions:
+
+- Change the order of your test approach to break a routine
+- Seek test ideas from non-testers outside your agile team (e.g. UX, Ops)
+- Pair with a tester in another team to see a different test approach first-hand
+- Experiment with a tool that you haven't tried before
+- Ask for constructive feedback about your testing
 
 [Alan Richardson](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html) challenges your amount of testing with the next three questions. He also suggests a few words to fill in the blanks: Questioning, Usage, Analysis, Exploration, Reasoning, Experimentation ([`QUAERE`](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html))
 
@@ -131,3 +139,5 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 - [Quaere, Heuristics, Mnemonics, and Acronyms](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html)
 - [Are You Suffering From the Curse of Knowledge?](https://www.tombartel.me/blog/are-you-suffering-from-curse-of-knowledge/)
 - [Cognitive bias cheat sheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18#.486tj1s6j)
+- [How to come up with test ideas](http://erik.brickarp.se/2016/08/how-to-come-up-with-test-ideas.html)
+- [9 quick ideas for flexible testing](https://katrinatester.blogspot.com/2018/05/9-quick-ideas-for-flexible-testing.html)

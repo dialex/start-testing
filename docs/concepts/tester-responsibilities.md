@@ -9,9 +9,9 @@ Your responsibility as a tester is to fulfil the [purpose of testing](/concepts/
 That means you will be performing a [diverse set of activities](/concepts/what-testing-is.md), which include:
 
 - Clarify [requirements](/concepts/requirements.md) between stakeholders and developers;
-- Elaborate a [test strategy](/toolbox/testing-strategy.md) for your product;
-- Advocate the right [test methodology](/toolbox/methodology.md) for your team;
-- Collect and develop [tools and techniques](/toolbox/index.md) to support your testing;
+- Elaborate a [test strategy](/toolbox/test-strategy.md) for your product;
+- Advocate the right [development methodology](/toolbox/dev-methodologies.md) for your team;
+- Collect and develop [tools and techniques](/toolbox/tester-tools.md) to support your testing;
 - Choose which [test types](/types/index.md) bring the most value at a given time;
 - Adapt your [role](/roles/index.md) to the current team's needs.
 
