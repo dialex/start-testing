@@ -282,18 +282,20 @@ If you're not sure which areas should be tested, you can do a risk mapping exerc
 
 ## Teachers
 
-- [Name](#link)
-- James Bach
-- Dan Ashby
-- Michael Bolton
+- [Dan Ashby](https://danashby.co.uk/)
+- [James Bach](https://www.satisfice.com/)
+- [Michael Bolton](https://www.developsense.com)
 
 ## Sources
 
-- https://www.satisfice.com/download/test-plan-evaluation-model
-- https://mavericktester.com/2020/01/13/emergent-strategy/
-- https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan
-- https://dojo.ministryoftesting.com/lessons/how-to-write-a-software-test-plan
+- [Test Plan Evaluation Model](https://www.satisfice.com/download/test-plan-evaluation-model)
+- [When the rubber hits the road](https://mavericktester.com/2020/01/13/emergent-strategy/)
+- [The One Page Test Plan](https://www.ministryoftesting.com/dojo/lessons/the-one-page-test-plan)
+- [How To Write A Software Test Plan](https://dojo.ministryoftesting.com/lessons/how-to-write-a-software-test-plan)
 - [An update to the Heuristic Test Strategy Model](https://danashby.co.uk/2017/12/13/a-new-model-for-test-strategies/)
-- http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/
-- http://erik.brickarp.se/2016/11/test-plan-questions.html
-- https://www.developsense.com/blog/2010/11/context-free-questions-for-testing/
+- [Thinking about Test Strategy – A mnemonic device](http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/)
+- [Test plan questions](http://erik.brickarp.se/2016/11/test-plan-questions.html)
+- [Context-Free Questions for Testing](https://www.developsense.com/blog/2010/11/context-free-questions-for-testing/)
+- [The Inquiry Method for Test Planning](https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html)
+- [Five Factor Testing](https://madeintandem.com/blog/five-factor-testing/)
+- [A Mobile App Test Strategy](https://bughuntersam.com/a-mobile-app-test-strategy/)
