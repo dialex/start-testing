@@ -1,6 +1,6 @@
 # Test strategy
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** Describes how your team will test and report any discoveries.
 
 ## Theory
 
