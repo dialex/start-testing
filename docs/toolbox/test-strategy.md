@@ -78,9 +78,9 @@ This visual representation of a possible test strategy is useful to illustrate t
 Now that you have an overview of a possible test strategy, it's time to fill in the details, and an effective way to do so is by asking questions. [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) suggests these first five questions before you start testing:
 
 > 1. What (product) are we testing?
-> 2. How much resources (time/people) do we have?
-> 3. What should be the main focus of our testing?
-> 4. Do we need to document our test strategy? Why? For who? How?
+> 2. What should be the main focus of our testing?
+> 3. How much resources (time/people) do we have?
+> 4. How should we document our test strategy and results? To who?
 > 5. Where can we get information about the product?
 
 Those questions cover the most critical aspects of any strategy to test your product. You can use them to generate more questions and detail your strategy even more. As the number of questions increases, we should group them into categories. [Diogo Nunes]() took  [Jared Quinert](http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/)'s  [**`GRATEDD SCRIPTS`**](/toolbox/mnemonics.md) mnemonic and further expanded it with questions from [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) and [Michael Bolton](https://www.developsense.com/blog/2010/11/context-free-questions-for-testing/). The result was this mind map, and a new mnemonic called [**`READIED A TEST APE`**](/toolbox/mnemonics.md):
