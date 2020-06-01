@@ -4,7 +4,7 @@
 
 ## Theory
 
-The test strategy is defined at the start of the project and can be revisited and reviewed during the duration of that project. It's typically created to specify the answers to the five Ws (see [**`W5H`** mnemonic](/toolbox/mnemonics.md)).
+The test strategy is defined at the start of the project and it can be revisited and reviewed during the duration of that project. It's typically created to answer the five Ws (see [**`W5H`** mnemonic](/toolbox/mnemonics.md)).
 
 The strategy is usually driven by the testers, yet it should always include feedback from all team members:
 
@@ -23,7 +23,7 @@ The strategy is usually driven by the testers, yet it should always include feed
 >
 > — ["The life of one man"](https://thelifeofoneman.com/the-testing-strategy)
 
-This strategy reveals the way tests will be designed and executed to foster quality. To do so, it needs to answer several questions like what parts of the product will be tested, what test techniques will be used, who will be involved, and how long it will take. The number of questions and the detail of the answers depends on your project's [requirements](/concepts/requirements.md), so you will have choose between a formal and detailed document versus a simple and abridged alternative.
+This strategy reveals the way tests will be designed and executed to foster quality. To do so, it needs to answer several questions like what parts of the product will be tested, what test techniques will be used, who will be involved, and how long it will take. The number of questions and the detail of the answers depends on your project's [requirements](/concepts/requirements.md), so you will have to choose between a formal and detailed document versus a simple and abridged alternative.
 
 > Every time I look at any of the dozens of test plans my teams have written, I see dead test plans. This begs the question: if a plan isn't worth bothering to update, is it worth creating in the first place?
 >
