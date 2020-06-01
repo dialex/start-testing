@@ -19,18 +19,16 @@
   - [Mnemonics](/toolbox/mnemonics.md)
   - [Development methodologies](/toolbox/dev-methodologies.md)
   - [Test strategy](/toolbox/test-strategy.md)
-  - ~~Test pyramid~~
   - [Tools](/toolbox/tester-tools.md)
 - **Test types**
+  - ~~Test pyramid~~
   - ~~Functional vs Non-functional~~
   - ~~White box vs Black box~~
   - ~~Unit~~
   - ~~Integration~~
-  - ~~Smoke~~
-  - ~~Sanity~~
-  - ~~System~~
-  - ~~Regression~~
   - ~~Acceptance~~
+  - ~~Smoke/Sanity~~
+  - ~~Regression~~
 - **Tester roles**
   - ~~Manual tester~~
   - ~~Exploration tester~~
@@ -54,7 +52,7 @@
   - ~~Monitoring~~
   - ~~Logging~~
 - **Next steps**
-  - ~~Staying updated~~
+  - ~~Staying up to date~~
 - **EXTRA: Test Frameworks**
   - [Cypress](/toolbox/framework/cypress.md)
   - [Robot Framework](/toolbox/framework/robot.md)
