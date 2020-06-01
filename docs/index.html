@@ -12,8 +12,11 @@
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
-    <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css" />
-    <script src="//unpkg.com/docsify-edit-on-github@1.0.1/index.js"></script>
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"
+    />
+    <script src="//unpkg.com/docsify-edit-on-github@1.0.3/index.js"></script>
   </head>
 
   <body>
@@ -34,16 +37,16 @@
         plugins: [
           EditOnGithubPlugin.create(
             "https://github.com/dialex/start-testing/tree/master/docs/"
-          )
+          ),
         ],
 
         alias: {
-          "/.*/_sidebar.md": "/_sidebar.md"
-        }
+          "/.*/_sidebar.md": "/_sidebar.md",
+        },
       };
     </script>
-    <script src="//unpkg.com/docsify@4.9.4/lib/docsify.min.js"></script>
-    <script src="//unpkg.com/docsify@4.9.4/lib/plugins/emoji.min.js"></script>
-    <script src="//unpkg.com/docsify@4.9.4/lib/plugins/ga.min.js"></script>
+    <script src="//unpkg.com/docsify@4.11.3/lib/docsify.min.js"></script>
+    <script src="//unpkg.com/docsify@4.11.3/lib/plugins/emoji.min.js"></script>
+    <script src="//unpkg.com/docsify@4.11.3/lib/plugins/ga.min.js"></script>
   </body>
 </html>

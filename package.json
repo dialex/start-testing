@@ -1,6 +1,6 @@
 {
   "name": "start-testing",
-  "version": "0.2.6",
+  "version": "0.3.0",
   "description": "A crowdsourced testing course, written by testers for testers wannabes.",
   "scripts": {
     "bump:patch": "npm version --no-commit-hooks --no-git-tag-version patch",
@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "markdown-spellcheck": "^1.3.1",
-    "markdownlint-cli": "^0.22.0",
+    "markdownlint-cli": "^0.23.1",
     "npm-run-all": "^4.1.5",
     "remark-cli": "^8.0.0",
     "remark-lint": "^7.0.0",
@@ -44,7 +44,7 @@
     "remark-validate-links": "^10.0.0"
   },
   "dependencies": {
-    "npm-check-updates": "^4.1.2"
+    "npm-check-updates": "^6.0.1"
   },
   "remarkConfig": {
     "plugins": [
