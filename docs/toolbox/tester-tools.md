@@ -46,8 +46,8 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 
 ### Prototyping
 
-- 🤷‍♂️ [InVision](https://www.invisionapp.com/) (SaaS): prototype mobile and web apps (can be functional or just designs)
-- 🤷‍♂️ [Marvel](https://marvelapp.com/) (SaaS): prototype mobile and web apps (can be functional or just designs)
+- ⭐️ [Marvel](https://marvelapp.com/) (SaaS): prototype mobile and web apps (can be functional or just designs)
+- [InVision](https://www.invisionapp.com/) (SaaS): prototype mobile and web apps (can be functional or just designs)
 
 ### Design
 
