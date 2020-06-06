@@ -29,7 +29,7 @@ While you do all that, be aware and [avoid the common pitfalls](/concepts/what-t
 
 If you want an (almost) exhaustive list of responsibilities and activities, this [link](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1) is for you.
 
-### 🐞 Bug detector
+### 🐞 Bug catcher
 
 > The tester does not "break the product". The tester finds a product that is already broken.
 >
