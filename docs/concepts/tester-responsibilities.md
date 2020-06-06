@@ -56,7 +56,7 @@ Strive to earn the respect of your team. As a tester you need to know the produc
 
 ### ❤️ (User) Friend
 
-Developers focus on code and functionality, while managers focus on business growth and profit. In the middle you have these two groups, who could definitely use some love from you.
+Developers focus on code and functionality, while managers focus on business growth and profit. Besides these groups, there are two more that would appreciate some love from you:
 
 - **Support**: The bugs waiting to be fixed become a burden for the customer team or the customer support team. This group will appreciate if you tell what is currently buggy and whether there is a workaround.
 - **End user**: Often a feature works but the user experience is not taken into account. Ask yourself what type of emotions you would feel when using the product. Be the user's voice and "complain" to your team so that they don't have to.
