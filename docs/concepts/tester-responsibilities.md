@@ -81,7 +81,7 @@ Even though you don't own the product, you can give them your advice and support
 
 ### 🔎 Inspector
 
-> Your testing should provide enough information for the team to make its own perceived view of quality (…) to help decide things like: when to release, where to bug fix, when to scale back, when to move on, etc.
+> Your testing should provide enough information for the team to make its own perceived view of quality (…) to help decide things like: when to release, when to bug fix, when to scale back, when to move on, etc.
 >
 > — [John Andrews](https://testingfromthehip.wordpress.com/2016/06/14/what-is-the-main-purpose-of-our-testing/)
 
