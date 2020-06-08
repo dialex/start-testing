@@ -1,6 +1,5 @@
 install:
-	easy_install pip
-	brew install python2
+	echo "⚠️  Assuming you have Python, pip and brew installed..."
 	pip install robotframework
 	pip install robotframework-seleniumlibrary
 	pip install robotframework-requests

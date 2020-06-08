@@ -1,4 +1,5 @@
 install:
+	echo "⚠️  Assuming you have Node.JS and NPM installed..."
 	npm install cypress
 
 clean:
