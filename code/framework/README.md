@@ -36,6 +36,13 @@
   - Search for book
   - Add book to cart
 
+## Automation scope: [Postman API](https://docs.postman-echo.com/)
+
+- Successful GET
+- Successful POST
+- Failed GET
+- Assert response structure
+
 ## TODO
 
 What about these sites?
