@@ -11,9 +11,9 @@ make test     # Run tests
 
 ## Automation scope: [Postman API](https://docs.postman-echo.com/)
 
-- Successful GET
-- Successful POST
-- Failed method
+- Successful GET ✅
+- Successful POST ✅
+- Failed method ✅
 - Assert response structure
 
 ## Automation scope: Amazon

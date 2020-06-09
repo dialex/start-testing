@@ -1,0 +1,12 @@
+{
+  "some-field": "some value",
+  "another-field": 2,
+  "list-of-stuff": [
+    {
+      "name": "stuff1"
+    },
+    {
+      "name": "stuff2"
+    }
+  ]
+}
