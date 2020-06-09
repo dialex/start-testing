@@ -10,7 +10,7 @@ Feature: Postman Echo GET
     When method get
     Then status 200
 
-  Scenario: Receives parameters and echoes them back
+  Scenario: Returns the parameters received
 
     Given path endpoint
     And param param1 = "Hajime"
@@ -19,6 +19,9 @@ Feature: Postman Echo GET
     Then status 200
     And match response == "#notnull"
     And match response.args.param1 == "Hajime"
-    And match response.args.arg2 == "Dozo"
-# waiting on https://stackoverflow.com/questions/62280561/
-# And match $..arg2 == "Dozo"
+    # Assertion using JsonPath (see https://stackoverflow.com/questions/62280561/)
+    # Option 1: compare JsonPath result with an array (which is misleading)
+    And match $..arg2 == ["Dozo"]
+    # Option 2: store JsonPath result in tmp var (which is cumbersome)
+    * def tmpKarateSupportForJsonPathIsPooPoo = $..arg2
+    And match tmpKarateSupportForJsonPathIsPooPoo[0] == "Dozo"
