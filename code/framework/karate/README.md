@@ -14,7 +14,7 @@ make test     # Run tests
 - [x] Successful GET
 - [x] Successful POST
 - [x] Failed method
-- [ ] Assert response structure
+- [x] Assert response structure
 
 ## Automation scope: Amazon
 
