@@ -6,4 +6,4 @@ clean:
 	rm -rf target/
 
 test: clean
-	java -jar karate.jar --threads=4 src/test/karate
+	java -jar karate.jar --threads=4 src/test/karate --clean
