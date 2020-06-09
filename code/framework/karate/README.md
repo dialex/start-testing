@@ -13,7 +13,7 @@ make test     # Run tests
 
 - Successful GET
 - Successful POST
-- Failed GET
+- Failed method
 - Assert response structure
 
 ## Automation scope: Amazon

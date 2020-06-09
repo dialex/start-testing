@@ -40,7 +40,7 @@
 
 - Successful GET
 - Successful POST
-- Failed GET
+- Failed method
 - Assert response structure
 
 ## TODO
