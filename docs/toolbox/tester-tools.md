@@ -61,6 +61,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 - 💯 [Webhint](https://webhint.io/) (IDE/cli/extension): checks your web page for browser compatibility, accessibility, performance and security issues, plus common mistakes; neat report; proper issue justification and mitigation
 - ⭐️ [WAVE](https://wave.webaim.org/) (extension): check your web page for compliance with WCAG; the issues are displayed contextually on the page itself; an explanation in simple English is provided for each issue
 - [axe](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd) (extension): the standard for online accessibility checking; UI/UX is not as pleasant
+- 🤷‍♂️ [Tota11y](https://khan.github.io/tota11y/) (extension): check your web page for accessibility issues; an explanation in simple English is provided for each issue, together with a proposed fix
 
 ## 💻 BACK-END
 
