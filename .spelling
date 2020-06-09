@@ -169,6 +169,7 @@ Trivy
 Frida
 Magisk
 BackstopJS
+Tota11y
  - docs/toolbox/heuristics.md
 Heu-risk
  - docs/toolbox/test-strategy.md
