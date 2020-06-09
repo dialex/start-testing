@@ -11,17 +11,17 @@ make test     # Run tests
 
 ## Automation scope: [Postman API](https://docs.postman-echo.com/)
 
-- Successful GET ✅
-- Successful POST ✅
-- Failed method ✅
-- Assert response structure
+- [x] Successful GET
+- [x] Successful POST
+- [x] Failed method
+- [ ] Assert response structure
 
 ## Automation scope: Amazon
 
-- **Sanity Tests**
-  - Run a test with an assertion
-- **Smoke Tests**
-  - Access homepage on browser
-- **Functional Tests**
-  - Search for item
-  - Add item to cart
+- [ ] **Sanity Tests**
+  - [ ] Run a test with an assertion
+- [ ] **Smoke Tests**
+  - [ ] Access homepage on browser
+- [ ] **Functional Tests**
+  - [ ] Search for item
+  - [ ] Add item to cart

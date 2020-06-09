@@ -16,32 +16,32 @@
 
 ## Automation scope: [Todo list](http://todomvc.com/examples/react/#/)
 
-- **Sanity Tests**
-  - Run a test with an assertion
-- **Smoke Tests**
-  - Access homepage on browser
-- **Functional Tests**
-  - Add item to list
-  - Mark item as done
-  - Edit item text
-  - Remove item from list
+- [ ] **Sanity Tests**
+  - [ ] Run a test with an assertion
+- [ ] **Smoke Tests**
+  - [ ] Access homepage on browser
+- [ ] **Functional Tests**
+  - [ ] Add item to list
+  - [ ] Mark item as done
+  - [ ] Edit item text
+  - [ ] Remove item from list
 
 ## Automation scope: [Amazon](https://amazon.com/)
 
-- **Sanity Tests**
-  - Run a test with an assertion
-- **Smoke Tests**
-  - Access homepage on browser
-- **Functional Tests**
-  - Search for book
-  - Add book to cart
+- [ ] **Sanity Tests**
+  - [ ] Run a test with an assertion
+- [ ] **Smoke Tests**
+  - [ ] Access homepage on browser
+- [ ] **Functional Tests**
+  - [ ] Search for book
+  - [ ] Add book to cart
 
 ## Automation scope: [Postman API](https://docs.postman-echo.com/)
 
-- Successful GET
-- Successful POST
-- Failed method
-- Assert response structure
+- [ ] Successful GET
+- [ ] Successful POST
+- [ ] Failed method
+- [ ] Assert response structure
 
 ## TODO
 
