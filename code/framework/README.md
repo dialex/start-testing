@@ -16,8 +16,6 @@
 
 ## Automation scope: [Todo list](http://todomvc.com/examples/react/#/)
 
-- [ ] **Sanity Tests**
-  - [ ] Run a test with an assertion
 - [ ] **Smoke Tests**
   - [ ] Access homepage on browser
 - [ ] **Functional Tests**
@@ -28,8 +26,6 @@
 
 ## Automation scope: [Amazon](https://amazon.com/)
 
-- [ ] **Sanity Tests**
-  - [ ] Run a test with an assertion
 - [ ] **Smoke Tests**
   - [ ] Access homepage on browser
 - [ ] **Functional Tests**
