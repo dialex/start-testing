@@ -20,6 +20,6 @@ make test     # Run tests
 
 - [x] **Smoke Tests**
   - [x] Access homepage on browser
-- [ ] **Functional Tests**
+- [x] **Functional Tests**
   - [x] Search for item
-  - [ ] Add item to cart
+  - [x] Add item to cart

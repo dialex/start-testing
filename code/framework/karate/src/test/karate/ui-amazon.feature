@@ -23,3 +23,12 @@ Feature: Amazon UI automation
     And locate("div.s-result-list").exists
     And locate("{span}Reduce Risk and Increase Confidence").exists
 
+  Scenario: Add item to cart
+    Given driver baseUrl
+    And def searchTerm = "Explore It"
+    And input("#twotabsearchtextbox", searchTerm)
+    And click("#nav-search-submit-text")
+    When click(".s-result-item .s-image")
+    And click("#add-to-cart-button")
+    Then assert locate("{}Cart").exists
+    And match text("#nav-cart-count") == 1
