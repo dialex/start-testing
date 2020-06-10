@@ -151,6 +151,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse/#devtools) (extension): audits your web page for performance, a11y, PWA, SEO
 - ⭐️ [JMeter](https://jmeter.apache.org/) (app): load tests your website and measures performance; not the easiest UI
 - 🤷‍♂️ [k6](https://k6.io/) (cli/SaaS): load tests your website and measures performance
+- 🤷‍♂️ [Artillery](https://artillery.io/) (cli): load tests your website and measures performance
 - 🤷‍♂️ [Gatling](https://gatling.io/) (app/SaaS): load tests your website displays results in dashboards
 - 🤷‍♂️ [Sitespeed.io](https://www.sitespeed.io/) (app): monitors and measures the performance of your web site
 - 🤷‍♂️ [chaosmonkey](https://github.com/Netflix/chaosmonkey) (cli): resilience test that randomly terminates production VMs and containers
