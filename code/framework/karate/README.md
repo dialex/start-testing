@@ -18,8 +18,8 @@ make test     # Run tests
 
 ## Automation scope: Amazon
 
-- [ ] **Smoke Tests**
-  - [ ] Access homepage on browser
+- [x] **Smoke Tests**
+  - [x] Access homepage on browser
 - [ ] **Functional Tests**
-  - [ ] Search for item
+  - [x] Search for item
   - [ ] Add item to cart
