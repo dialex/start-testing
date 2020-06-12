@@ -170,6 +170,7 @@ Frida
 Magisk
 BackstopJS
 Tota11y
+Bazel
  - docs/toolbox/heuristics.md
 Heu-risk
  - docs/toolbox/test-strategy.md
