@@ -130,6 +130,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 - 🤷‍♂️ [Stryker](https://stryker-mutator.io/): mutation testing for JavaScript/.NET
 - 🤷‍♂️ [JSVerify](https://jsverify.github.io/): property-based testing for JavaScript
 - 🤷‍♂️ [junit-quickcheck](https://github.com/pholser/junit-quickcheck/): property-based testing for Java
+- 🤷‍♂️ [bazel](https://bazel.build/): speeds up compiling and testing, using parallelization and caching
 
 ## 📥 EMAIL
 
