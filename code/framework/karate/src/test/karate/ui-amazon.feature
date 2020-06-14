@@ -14,14 +14,18 @@ Feature: Amazon UI automation
     Given driver baseUrl
     And def searchTerm = "Explore It"
     And def searchTermEncoded = "Explore+It"
-    # This should work, but doesn't ¯\_(ツ)_/¯
+    # This one-liner should work, but doesn't ¯\_(ツ)_/¯
     # When input("#twotabsearchtextbox", [searchTerm, Key.ENTER])
     When input("#twotabsearchtextbox", searchTerm)
-    And click("#nav-search-submit-text")
-    # Issue reported https://stackoverflow.com/questions/62308044/karate-ui-automation-test-results-are-not-coherent
+    # This should work, but doesn't
+    # And click("#nav-search-submit-text")
+    And mouse("#nav-search-submit-text").click()
+    # This should not be necessary, but it is (╯°□°）╯︵ ┻━┻
+    And waitFor('#nav-search-submit-text').click()
     Then match driver.url contains "s?k=" + searchTermEncoded
     And locate("div.s-result-list").exists
-    And locate("{span}Reduce Risk and Increase Confidence").exists
+    And locate("{span}Explore It!: Reduce Risk and Increase Confidence with Exploratory Testing").exists
+  # Read more about this issue at https://github.com/intuit/karate/issues/1169
 
   Scenario: Add item to cart
     Given driver baseUrl
