@@ -1,6 +1,6 @@
 {
   "name": "start-testing",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A crowdsourced testing course, written by testers for testers wannabes.",
   "scripts": {
     "bump:patch": "npm version --no-commit-hooks --no-git-tag-version patch",
@@ -24,7 +24,7 @@
     "lint:broken-links-internal": "remark -u validate-links docs --ignore-path .remarkignore --frail",
     "lint:broken-links-external": "remark -u remark-lint-no-dead-urls docs --frail",
     "pr:prepare": "npm-run-all fix lint site",
-    "pr:ready": "npm run bump:patch && npm run bump:time && git commit -m 'bump up version' .",
+    "pr:ready": "npm run bump:patch && npm run bump:time && git commit -m 'chore: bump up version' .",
     "preview": "echo \"Opening a preview on your browser now.\" && sleep 1 && open http://localhost:3000/#/",
     "site": "npm-run-all --parallel serve preview",
     "serve": "docsify serve docs",
