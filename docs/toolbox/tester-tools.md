@@ -219,7 +219,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 
 ## 🌍 LISTS OF RESOURCES
 
-- _[The "awesome" manifesto](https://github.com/sindresorhus/awesome/blob/master/awesome.md): enumerates the requirements for an awesomely curated list_
+- _[The "awesome" manifesto](https://github.com/sindresorhus/awesome/blob/main/readme.md): enumerates the requirements for an awesomely curated list_
 - ⭐️ [Awesome falsehood](https://github.com/kdeldycke/awesome-falsehood): biases that influence developers' decisions
 - [Awesome hacking](https://github.com/Hack-with-Github/Awesome-Hacking): repositories useful to hackers, pentesters and security researchers
 - 💯 [Awesome security](https://github.com/sbilly/awesome-security): tools and resources about security

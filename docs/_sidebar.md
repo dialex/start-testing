@@ -55,6 +55,7 @@
   - ~~Staying up to date~~
 - **EXTRA: Test Frameworks**
   - [Cypress](/toolbox/framework/cypress.md)
+  - [Karate](/toolbox/framework/karate.md)
   - [Robot Framework](/toolbox/framework/robot.md)
 - **EXTRA: Notebook**
   - [User Story Mapping](/notebook/user-story-mapping.md)
