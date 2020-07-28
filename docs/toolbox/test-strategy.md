@@ -250,3 +250,4 @@ If you're not sure which areas should be tested, you can do a risk mapping exerc
 - [The Inquiry Method for Test Planning](https://testing.googleblog.com/2016/06/the-inquiry-method-for-test-planning.html)
 - [Five Factor Testing](https://madeintandem.com/blog/five-factor-testing/)
 - [A Mobile App Test Strategy](https://bughuntersam.com/a-mobile-app-test-strategy/)
+- [That elusive Test Strategy](https://bughuntersam.com/that-elusive-test-strategy/)
