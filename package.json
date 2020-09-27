@@ -21,8 +21,7 @@
     "lint": "npm-run-all lint:*",
     "lint:markdown": "markdownlint docs --config docs/.markdownlint.json",
     "lint:spelling": "mdspell 'docs/**/*.md' -r --en-gb --ignore-numbers --ignore-acronyms",
-    "lint:broken-links-internal": "remark -u validate-links docs --ignore-path .remarkignore --frail",
-    "lint:broken-links-external": "remark -u remark-lint-no-dead-urls docs --frail",
+    "lint:broken-links": "remark -u validate-links docs --ignore-path .remarkignore --frail",
     "pr:prepare": "npm-run-all fix lint site",
     "pr:ready": "npm run bump:patch && npm run bump:time && git commit -m 'chore: bump up version' .",
     "preview": "echo \"Opening a preview on your browser now.\" && sleep 1 && open http://localhost:3000/#/",
@@ -40,7 +39,6 @@
     "npm-run-all": "^4.1.5",
     "remark-cli": "^8.0.0",
     "remark-lint": "^7.0.0",
-    "remark-lint-no-dead-urls": "^1.0.2",
     "remark-validate-links": "^10.0.0"
   },
   "dependencies": {
