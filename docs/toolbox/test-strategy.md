@@ -251,3 +251,4 @@ If you're not sure which areas should be tested, you can do a risk mapping exerc
 - [Five Factor Testing](https://madeintandem.com/blog/five-factor-testing/)
 - [A Mobile App Test Strategy](https://bughuntersam.com/a-mobile-app-test-strategy/)
 - [That elusive Test Strategy](https://bughuntersam.com/that-elusive-test-strategy/)
+- [Test Planning Simplified](https://sjpknight.com/post/test-planning-simplified)
