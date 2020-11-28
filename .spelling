@@ -88,6 +88,7 @@ kanban
 onboarding
 whitespace
 standalone
+envs
  - docs/toolbox/note-taking.md
 udos
 deas

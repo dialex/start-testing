@@ -77,7 +77,7 @@ This visual representation of a possible test strategy is useful to illustrate t
 Now that you have an overview of a possible test strategy, it's time to fill in the details, and an effective way to do so is by asking questions. [Simon Knight](https://sjpknight.com/post/test-planning-simplified/) suggests that you keep it simple at first, using [W5H](/toolbox/mnemonics.md):
 
 > - *Why* does it need testing? – The reason to spend time/people testing specific areas. Also risks.
-> - *What* will (and won’t) be tested? – The scope of your testing.
+> - *What* will (and won't) be tested? – The scope of your testing.
 > - *How* will it be tested? – The technical details (tools, envs, data, automation, etc.)
 > - *Who* will test it? – Who's responsible for what.
 > - *Where* can we get information about what we are testing? – see [Oracles](/concepts/oracles.md).
