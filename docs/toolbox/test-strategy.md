@@ -206,7 +206,7 @@ Those questions cover the most critical aspects of any strategy to test your pro
 >
 > - What is meaningful to test?
 > - What questions should our testing answer?
-> - How should those answers be reported? With who?
+> - How should those answers be reported? To who?
 > - (extra)
 >   - What do we need to learn more about?
 >   - Where can we get information about X?
