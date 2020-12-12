@@ -6,7 +6,7 @@
 
 ## Code
 
-Example of automation at [GitHub](https://github.com/dialex/start-testing/tree/master/code/framework/robot).
+Example of automation at [GitHub](https://github.com/dialex/start-testing/tree/main/code/framework/robot).
 
 ## Review
 

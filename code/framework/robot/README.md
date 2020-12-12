@@ -1,6 +1,6 @@
 # Robot Framework
 
-Review [here](https://github.com/dialex/start-testing/tree/master/docs/toolbox/framework/robot.md).
+Review [here](https://github.com/dialex/start-testing/tree/main/docs/toolbox/framework/robot.md).
 
 ## Commands
 
