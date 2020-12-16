@@ -43,11 +43,6 @@
     "remark-validate-links": "^10.0.2"
   },
   "dependencies": {},
-  "remarkConfig": {
-    "plugins": [
-      "remark-lint-no-dead-urls"
-    ]
-  },
   "config": {
     "cz-emoji": {
       "types": [
