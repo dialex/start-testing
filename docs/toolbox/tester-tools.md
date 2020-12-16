@@ -69,6 +69,8 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 
 - 💯 [Postman](https://www.postman.com/) (app/cli): interact/mock APIs, automate checks, collaborate with your team
 - 💯 [Wiremock](http://wiremock.org/) (cli): simulates API responses according to your configuration
+- [httpstat.us](https://httpstat.us/): simulates HTTP response codes
+
 
 ### Network
 
