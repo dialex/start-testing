@@ -71,7 +71,6 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 - 💯 [Wiremock](http://wiremock.org/) (cli): simulates API responses according to your configuration
 - [httpstat.us](https://httpstat.us/): simulates HTTP response codes
 
-
 ### Network
 
 - [Wireshark](https://www.wireshark.org/) (app): logs requests between your computer and the Internet
