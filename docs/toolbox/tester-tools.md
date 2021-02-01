@@ -99,6 +99,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 - 🤷‍♂️ [Capybara](https://github.com/teamcapybara/capybara): acceptance tests in Ruby (DSL)
 - 🤷‍♂️ [Watir](http://watir.com/): acceptance tests in Ruby (OO)
 - 🤷‍♂️ [Mabl](https://www.mabl.com/) (SaaS): code-less UI/acceptance tests for web; allows record & play
+- [karate](https://github.com/intuit/karate): API testing in Gherkin ([review](/toolbox/framework/karate))
 
 ### Visual regression
 
@@ -126,7 +127,6 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 ### Libraries
 
 - 💯 [RestAssured](https://github.com/rest-assured/rest-assured): API testing in Java (best for big/complex projects)
-- [karate](https://github.com/intuit/karate): API testing in Gherkin (best for small/simple projects)
 - 💯 [the-internet](https://the-internet.herokuapp.com/): examples of UI components, ready for your automation experiments
 - [Testing library](https://testing-library.com/): query the DOM like the user finds elements on the page
 - 🤷‍♂️ [Stryker](https://stryker-mutator.io/): mutation testing for JavaScript/.NET
