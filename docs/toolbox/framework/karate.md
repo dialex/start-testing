@@ -8,6 +8,8 @@
 
 Example of automation at [GitHub](https://github.com/dialex/start-testing/tree/main/code/framework/karate).
 
+## Review
+
 | Category          | Opinion |  Score   |
 | ----------------- | ------- | :------: |
 | _Use cases_       | Automate API tests. It also supports performance and end-to-end (E2E) tests. Mobile testing is in the roadmap. |    🥇    |
