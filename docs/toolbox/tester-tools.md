@@ -201,7 +201,8 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 
 ### Bugs
 
-- 💯 [Licecap](https://www.cockos.com/licecap/) (app): record your screen to lightweight GIFs; cross-platform
+- 💯 [Licecap](https://www.cockos.com/licecap/) (app): record your screen to lightweight GIFs; Win/macOS 10.*
+- 💯 [Kap](https://getkap.co/) (app): record your screen to lightweight GIFs; macOS 11.*
 - 💯 [Full page screen capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl/related?hl=en) (extension): take single a screenshot of an entire web page
 - [Lightshot](https://chrome.google.com/webstore/detail/lightshot-screenshot-tool/mbniclmhobmnbdlbpiphghaielnnpgdp?hl=en) (extension): take a screenshot and annotate it
 
