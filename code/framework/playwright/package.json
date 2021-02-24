@@ -1,0 +1,20 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "test-record": "npx playwright codegen"
+  },
+  "author": "Diogo Nunes",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "jest-playwright-preset": "^1.4.7",
+    "playwright": "^1.9.0"
+  }
+}
