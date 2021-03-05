@@ -4,37 +4,31 @@ describe("Amazon", function () {
   test("should be online", async () => {
     await page.goto(AMAZON_HOME);
     expect(page).not.toBeNull();
-    expect(await page.title()).toContain("Amazon");
   });
 
   test("should be online", async () => {
     await page.goto(AMAZON_HOME);
     expect(page).not.toBeNull();
-    expect(await page.title()).toContain("Amazon");
   });
 
   test("should be online", async () => {
     await page.goto(AMAZON_HOME);
     expect(page).not.toBeNull();
-    expect(await page.title()).toContain("Amazon");
   });
 
   test("should be online", async () => {
     await page.goto(AMAZON_HOME);
     expect(page).not.toBeNull();
-    expect(await page.title()).toContain("Amazon");
   });
 
   test("should be online", async () => {
     await page.goto(AMAZON_HOME);
     expect(page).not.toBeNull();
-    expect(await page.title()).toContain("Amazon");
   });
 
   test("should be online", async () => {
     await page.goto(AMAZON_HOME);
     expect(page).not.toBeNull();
-    expect(await page.title()).toContain("Amazon");
   });
 });
 
