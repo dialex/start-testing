@@ -34,5 +34,11 @@ Example of automation at [GitHub](https://github.com/dialex/start-testing/tree/m
   - https://www.eliostruyf.com/utilize-playwright-jest-cross-browser-e2e-test-solutions/
 - -1 not as fast as expected
 - -1 have to worry about async and await
-- Apparently https://github.com/playwright-community/expect-playwright comes with playwright, makes assertions more readable
+- Apparently [expect-playwright](https://github.com/playwright-community/expect-playwright#api-documentation) comes with playwright, makes assertions more readable
 - The same test passes Firefox and fails on Chrome and Safari without any error log, issue: https://github.com/playwright-community/jest-playwright/issues/614
+- easy to use official documentation
+- -1 when the `toHaveText()` assertion fails, it outputs the whole page HTML in the error log. I'm "forced" to use selectors to avoid this horrible error outputs.
+- doc explains how to use the [PageObject Model](https://playwright.dev/docs/pom)
+- -1 the api is not clear, how can `page.$$` (Playwright) be better than `page.get.first` (Cypress)?
+- -1 you need to explicitly wait for page loads, or selectors to be available (not done for you like Cypress)
+- You can debug your test code using [breakpoints in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_javascript-debug-terminal)... but you can't evaluate expressions. You have to keep adding watches (oh, and forget autocomplete).

@@ -15,5 +15,5 @@ make test-record  # Record user steps as test code
 - [x] **Smoke Tests**
   - [x] Access homepage on browser
 - [ ] **Functional Tests**
-  - [ ] Search for book
+  - [x] Search for book
   - [ ] Add book to cart
