@@ -9,4 +9,4 @@ test: clean
 	npm test
 
 test-record: clean
-	npm test-record
+	npm run test-record

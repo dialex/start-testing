@@ -14,5 +14,3 @@ describe("Amazon", function () {
     await expect(page).toHaveText("Cart");
   });
 });
-
-//8s to run 6 tests
