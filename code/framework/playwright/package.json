@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "jest",
+    "test-watch": "jest --watchAll",
     "test-record": "npx playwright codegen"
   },
   "author": "Diogo Nunes",
