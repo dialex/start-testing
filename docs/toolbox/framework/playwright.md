@@ -40,6 +40,8 @@ Example of automation at [GitHub](https://github.com/dialex/start-testing/tree/m
 - -1 when the `toHaveText()` assertion fails, it outputs the whole page HTML in the error log. I'm "forced" to use selectors to avoid this horrible error outputs.
 - doc explains how to use the [PageObject Model](https://playwright.dev/docs/pom)
 - -1 the api is not clear, how can `page.$$` (Playwright) be better than `page.get.first` (Cypress)?
-- -1 you need to explicitly wait for page loads, or selectors to be available (not done for you like Cypress)
+- -1 you need to explicitly wait for page loads (`async page.waitForNavigation()`) or selectors to be available (Cypress does it for you). Sometimes you need them, sometimes they give you timeouts...
 - You can debug your test code using [breakpoints in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_javascript-debug-terminal)... but you can't evaluate expressions. You have to keep adding watches (oh, and forget autocomplete).
 - -1 Cross browser is [flaky](https://github.com/playwright-community/jest-playwright/issues/614). Chromium returns page errors which I should ignore, and webkit throws timeouts because it's 3x slower than the other browsers.
+- -1 doesn't have an out of the box way to take a screenshot on failures
+- Timeouts even for firefox (over 15s). Just search Amazon for a product, click add to cart. Error output doesn't tell you which part of the test step timeout, just the whole test. Horrible debugging. Run again it passes... sometimes. FLAKY PIECE OF SHIRLEY
