@@ -42,3 +42,4 @@ Example of automation at [GitHub](https://github.com/dialex/start-testing/tree/m
 - -1 the api is not clear, how can `page.$$` (Playwright) be better than `page.get.first` (Cypress)?
 - -1 you need to explicitly wait for page loads, or selectors to be available (not done for you like Cypress)
 - You can debug your test code using [breakpoints in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_javascript-debug-terminal)... but you can't evaluate expressions. You have to keep adding watches (oh, and forget autocomplete).
+- -1 Cross browser is [flaky](https://github.com/playwright-community/jest-playwright/issues/614). Chromium returns page errors which I should ignore, and webkit throws timeouts because it's 3x slower than the other browsers.
