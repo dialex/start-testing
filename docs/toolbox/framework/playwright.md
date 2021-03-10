@@ -6,42 +6,18 @@
 
 ## Code
 
-Example of automation at [GitHub](https://github.com/dialex/start-testing/tree/main/code/framework/karate).
+Example of automation at [GitHub](https://github.com/dialex/start-testing/tree/main/code/framework/playwright).
 
 ## Review
 
 | Category          | Opinion |  Score   |
 | ----------------- | ------- | :------: |
-| _Use cases_       |         |    ❓    |
-| _Learning curve_  |         |    ❓    |
-| _Language_        |         |    ❓    |
-| _Ecosystem_       |         |    ❓    |
-| _Readability_     |         |    ❓    |
-| _Extensibility_   |         |    ❓    |
-| _Maintainability_ |         |    ❓    |
-| _Documentation_   |         |    ❓    |
-| **VERDICT**       |         | **\_/5** |
-
-## TODO: convert these notes to a proper review
-
-- what is the diff or headless?
-  - Enabled by default, uses the atual browser but the window doesn't open, also has slow motion mode
-- can I run the same test for multiple browsers?
-  - Yes, just change the `testEnvironmentOptions` in `jest.config.js`
-- Getting started guide
-  - https://playwright.dev/docs/core-concepts
-  - https://applitools.com/blog/playing-with-playwright/
-  - https://www.eliostruyf.com/utilize-playwright-jest-cross-browser-e2e-test-solutions/
-- -1 not as fast as expected
-- -1 have to worry about async and await
-- Apparently [expect-playwright](https://github.com/playwright-community/expect-playwright#api-documentation) comes with playwright, makes assertions more readable
-- The same test passes Firefox and fails on Chrome and Safari without any error log, issue: https://github.com/playwright-community/jest-playwright/issues/614
-- easy to use official documentation
-- -1 when the `toHaveText()` assertion fails, it outputs the whole page HTML in the error log. I'm "forced" to use selectors to avoid this horrible error outputs.
-- doc explains how to use the [PageObject Model](https://playwright.dev/docs/pom)
-- -1 the api is not clear, how can `page.$$` (Playwright) be better than `page.get.first` (Cypress)?
-- -1 you need to explicitly wait for page loads (`async page.waitForNavigation()`) or selectors to be available (Cypress does it for you). Sometimes you need them, sometimes they give you timeouts...
-- You can debug your test code using [breakpoints in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_javascript-debug-terminal)... but you can't evaluate expressions. You have to keep adding watches (oh, and forget autocomplete).
-- -1 Cross browser is [flaky](https://github.com/playwright-community/jest-playwright/issues/614). Chromium returns page errors which I should ignore, and webkit throws timeouts because it's 3x slower than the other browsers.
-- -1 doesn't have an out of the box way to take a screenshot on failures
-- Timeouts even for firefox (over 15s). Just search Amazon for a product, click add to cart. Error output doesn't tell you which part of the test step timeout, just the whole test. Horrible debugging. Run again it passes... sometimes. FLAKY PIECE OF SHIRLEY
+| _Use cases_       | Automate end-to-end (E2E) tests using the UI. It also supports mocks. |    🥈    |
+| _Learning curve_  | By now, I know my way around a test framework, it's just a matter of learning the syntax. The official doc was not sufficient to get started and while I was coding I needed the reference API by my side. When I was not sure how to do something, I simply enabled the "record mode" and let Playwright generate the test code of my interactions. |    🥈    |
+| _Language_        | Tests are written in JavaScript or TypeScript. Since the API is very low level, more than basic knowledge is required to code and understand the tests. |    🥈    |
+| _Ecosystem_       | JavaScript. I used VS Code to write tests. Autocomplete is limited. You can debug your test code using [breakpoints in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_javascript-debug-terminal)... but you need multiple watches, as you can't evaluate expressions. Part of Playwright's pitch is cross-browser testing. It's super easy to enable it but super flaky to use. [In my case](https://github.com/playwright-community/jest-playwright/issues/614), Firefox was (mostly) fine, Chrome returned page errors (which I had to ignore) and Safari was 3x slower (when it didn't fail straight away) – both issues were false positives. |    😭    |
+| _Readability_     | Verbose and rough. A simple assertion takes [three lines](https://github.com/playwright-community/expect-playwright#why-do-i-need-it), thankfully [expect-playwright](https://github.com/playwright-community/expect-playwright#api-documentation) reduces it to one. Something concise and intuitive in Cypress (`page.get.first`) is obscure in Playwright (`page.$$`). The test code reads like backend code, with `async` and `await` keywords sprinkled every other line. Also you need to explicitly wait for page loads (`async page.waitForNavigation()`) or selectors to be available. Yet, sometimes you get timeouts. |    😭    |
+| _Extensibility_   | I expected to be able to run the tests right away, but I needed a test runner like [Jest](https://github.com/playwright-community/jest-playwright). Doesn't come with a built-in way to take a screenshot on test failures, nor does it have a vast plugin collection like Cypress. It has a [few tutorials](https://playwright.tech/) though and it supports the [PageObject Model](https://playwright.dev/docs/pom). |    🥉    |
+| _Maintainability_ | Hard to debug. When the `toHaveText()` assertion fails, it outputs the whole page HTML in the error log, which is a nightmare to review. [Slower than expected](https://blog.checklyhq.com/cypress-vs-selenium-vs-playwright-vs-puppeteer-speed-comparison/), if the tests ran in parallel I didn't even notice it. |    🥉    |
+| _Documentation_   | I started with the [official doc](https://playwright.dev/docs/intro) and quickly found out it doesn't work, because it's missing the test runner (Jest) which led to a quite different code. I had to follow [community](https://applitools.com/blog/playing-with-playwright/) [guides](https://www.eliostruyf.com/utilize-playwright-jest-cross-browser-e2e-test-solutions/). On the bright side, the doc is complete and easy to search. |    🥈    |
+| **VERDICT**       | Unproductive and unreliable, so I can't recomment it. There are better alternatives. | **1/5** |
