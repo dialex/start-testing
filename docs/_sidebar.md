@@ -57,6 +57,7 @@
   - [Cypress](/toolbox/framework/cypress.md)
   - [Karate](/toolbox/framework/karate.md)
   - [Robot Framework](/toolbox/framework/robot.md)
+  - [Playwright](/toolbox/framework/playwright.md)
 - **EXTRA: Notebook**
   - [User Story Mapping](/notebook/user-story-mapping.md)
   - [Specification by Example](/notebook/specification-by-example.md)
