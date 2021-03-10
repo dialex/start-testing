@@ -179,3 +179,5 @@ httpstat.us
 Heu-risk
  - docs/toolbox/test-strategy.md
 Ws
+ - docs/toolbox/framework/playwright.md
+3x
