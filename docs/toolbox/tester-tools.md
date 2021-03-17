@@ -68,7 +68,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 ### API
 
 - 💯 [Postman](https://www.postman.com/) (app/cli): interact/mock APIs, automate checks, collaborate with your team
-- [Hoppscotch](https://hoppscotch.io/) (Saas/app): interact with APIs, share API request encoded as a URL
+- [Hoppscotch](https://hoppscotch.io/) (SaaS/app): interact with APIs, share API request encoded as a URL
 - 💯 [Wiremock](http://wiremock.org/) (cli): simulates API responses according to your configuration
 - [httpstat.us](https://httpstat.us/): simulates HTTP response codes
 

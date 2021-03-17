@@ -175,6 +175,7 @@ BackstopJS
 Tota11y
 bazel
 httpstat.us
+Hoppscotch
  - docs/toolbox/heuristics.md
 Heu-risk
  - docs/toolbox/test-strategy.md
