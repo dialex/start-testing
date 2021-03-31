@@ -90,7 +90,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 ### Acceptance tests
 
 - 💯 [Cypress](https://www.cypress.io/): acceptance tests in JavaScript ([review](/toolbox/framework/cypress))
-- ~~[Playwright](https://playwright.dev/): acceptance tests in JavaScript or TypeScript~~
+- ~~[Playwright](https://playwright.dev/): acceptance tests in JavaScript or TypeScript~~ ([review](/toolbox/framework/playwright))
 - 🤷‍♂️ [Nightwatch](https://nightwatchjs.org/): acceptance tests in JavaScript
 - 🤷‍♂️ [Testcafe](https://devexpress.github.io/testcafe/): acceptance tests in JavaScript
 - [SpecFlow](https://specflow.org/): acceptance tests in .NET/C#
@@ -101,6 +101,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 - 🤷‍♂️ [Watir](http://watir.com/): acceptance tests in Ruby (OO)
 - 🤷‍♂️ [Mabl](https://www.mabl.com/) (SaaS): code-less UI/acceptance tests for web; allows record & play
 - [karate](https://github.com/intuit/karate): API testing in Gherkin ([review](/toolbox/framework/karate))
+- 🤷‍♂️ [spearmint](https://github.com/open-source-labs/spearmint): GUI for generating clean, semantic Javascript tests
 
 ### Visual regression
 
