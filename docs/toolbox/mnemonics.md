@@ -6,11 +6,11 @@
 
 > A mnemonic is a pattern of letters, ideas, or associations which helps remember something else. It is a learning technique that aids information retention and retrieval. — [Wikipedia](https://en.wikipedia.org/wiki/Mnemonic)
 
-Your brain can store a lot of information, but sometimes it's hard to recall a specific detail. Maybe you don't use that information too often or maybe it's not very intuitive. Mnemonics are **[memory shortcuts](https://www.mindtools.com/memory.html)** that allow you to retrieve the same information with less effort.
+Your brain can store a lot of information, but sometimes it's hard to recall a specific detail. Maybe you don't use that information too often or maybe it's not intuitive. Mnemonics are **[memory shortcuts](https://www.mindtools.com/memory.html)** that allow you to retrieve the same information with less effort.
 
 > Example: You can memorise how many days each month has, or you can use the knuckles of your hand to instantly know the answer. In the latter case, you are using a shortcut to retrieve the same information — that's a mnemonic.
 >
-> Example: You are learning how to test an online form, and you are told that it's a good idea to try a value that is too small, too big and just right. You can memorise that information, but that will cost your brain some effort. Then you notice that pattern is very similar to the [Story of Goldilocks and the Three Bears](https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears). So you just call it "the Goldilocks test" — that's a mnemonic.
+> Example: You are learning how to test an online form, and you are told that it's a good idea to try a value that is too small, too big and just right. You can memorise that information, but that will cost your brain some effort. Then you notice that pattern is similar to the [Story of Goldilocks and the Three Bears](https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears). So you just call it "the Goldilocks test" — that's a mnemonic.
 
 Some mnemonics will give you the full information you are looking for, others will give you references to where you can get the full information. The first example gives you the exact information you want (number of days of a month). The second example doesn't give you the answer but uses knowledge you already have to make it easier to recall the exact information you want (aka. association of ideas).
 

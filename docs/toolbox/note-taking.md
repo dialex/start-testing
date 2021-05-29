@@ -44,7 +44,7 @@ You might find yourself in a meeting on behalf of your team. This often happens 
 - **To clarify**
   - _e.g. When are regression tests executed? Ask Gary or `#regressions` Slack channel_
 
-Note taking is also useful to reduce rambling during meetings. Share your screen while you're taking notes and use the structure above to guide the conversation. This helps everyone visualise the topics of discussion and at the end of the meeting you'll have a summary for free.
+Note taking is also useful to reduce rambling during meetings. Share your screen while you're taking notes and use the structure above to guide the conversation. This helps everyone visualise the topics of discussion and at the end of the meeting you'll have a free summary.
 
 > Tip: This [website](https://shoulditbeameeting.com/#/) let's you quickly decide if you really need that meeting. You can print the [flowchart](https://dannyroosevelt.com/ratethatmeeting-assets/should-it-be-a-meeting-flowchart.pdf) too. If your team has trouble ending meetings on time, you can use this [website](https://producthunt.com/posts/costie) to show how much that meeting is currently costing.
 

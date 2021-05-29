@@ -39,7 +39,7 @@ Finding bugs — probably the most widely know mission of a tester. Why? It is t
 
 Issues that slow down testing are terribly important, because they give bugs the opportunity to hide for longer. So report not only _bugs_ in the product but also _issues_ that slow down testing.
 
-Keep in mind that the ultimate goal of a tester is not finding issues (per se). If that was the case you would become a perfectionist, someone that raises an excessive number of low-value issues.
+Keep in mind that the goal of a tester is not finding issues (per se). If that was the case you would become a perfectionist, someone that raises an excessive number of low-value issues.
 
 Your _ultimate goal_ should be pursuing quality and keeping it at a high level. Using that mindset, finding issues becomes just a consequence of that pursuit. And naturally you will focus on issues that threat quality.
 

@@ -37,7 +37,7 @@ There are four main groups of variables that influence testability: value-relate
   - _Context knowledge_. The more we know about the users and the system, the better we can test.
   - _Technical knowledge_. Our knowledge of technology and tools makes testing easier for us.
 
-Here's a [mnemonic](/toolbox/mnemonics.md) to remember these dimensions: usability, security and other -ilities are very important; testability is VIP as well; thus testability dimensions are **`VIPS`** (**v**alue, **i**ntrinsic, **p**roject, **s**ubjective). Here's another: [`SOCKS`](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html).
+Here's a [mnemonic](/toolbox/mnemonics.md) to remember these dimensions: usability, security and other -ilities are equally important; testability is VIP as well; thus testability dimensions are **`VIPS`** (**v**alue, **i**ntrinsic, **p**roject, **s**ubjective). Here's another: [`SOCKS`](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html).
 
 This checklist adapted from [Ash Winter](https://testingisbelieving.blogspot.com/2017/08/the-team-test-for-testability.html) can be used for a quick **health check on your testability**. For each question answer Yes (+1) or No (+0). If your final score is below 8, you are working under unnecessary risk.
 

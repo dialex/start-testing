@@ -31,7 +31,7 @@ This strategy reveals the way tests will be designed and executed to foster qual
 
 Documents are for communicating information between people. Lacking a test strategy document doesn't mean a strategy doesn't exist. Your test strategy could be a single page/slide, a mind map, or a simple checklist. Use what fits your client's needs best.
 
-First discover **who** needs to read this document, and then ask **what** they want to know and what is the expected level of detail. In a regulated or very controlled environment, such document could be mandatory, maybe even a legal requirement.
+First discover **who** needs to read this document, and then ask **what** they want to know and what is the expected level of detail. In a regulated or controlled environment, such document could be mandatory, maybe even a legal requirement.
 
 > Search for 'How to write a test plan' on the internet and there are all sorts of templates. Templates are often too generic or too specific and quickly become outdated. Once it's written, it's quite common to find out that almost no-one has actually read it.
 >

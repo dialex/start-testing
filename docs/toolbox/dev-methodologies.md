@@ -32,7 +32,7 @@ Acceptance tests tell if the code does what the product/client expected it to do
 >
 > — [Liz Keogh](https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/)
 
-OID is starts very similar to ATDD. Both methodologies start by specifying the behaviour of your system as seen from the outside (see [black box testing](/types)). These specifications tell developers what their code needs to accomplish.
+OID is starts similar to ATDD. Both methodologies start by specifying the behaviour of your system as seen from the outside (see [black box testing](/types)). These specifications tell developers what their code needs to accomplish.
 
 There's a small difference though. OID is not so prescriptive about test automation as ATDD is. Listen to [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/): "The assumption from Testers is that because OID uses tools that are typically related to automated testing that must mean OID is automated testing. OID helps Developers design good code and deliver what the business really wants. Not deliver testing."
 
