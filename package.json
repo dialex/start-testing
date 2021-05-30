@@ -22,7 +22,7 @@
     "lint:markdown": "markdownlint docs --config docs/.markdownlint.json",
     "lint:spelling": "mdspell 'docs/**/*.md' -r --en-gb --ignore-numbers --ignore-acronyms",
     "lint:broken-links": "remark -u validate-links docs --ignore-path .remarkignore --frail",
-    "lint:prose": "proselint docs/**/*.md",
+    "prose": "proselint docs/**/*.md",
     "pr:prepare": "npm-run-all fix lint site",
     "pr:ready": "npm run bump:patch && npm run bump:time && git commit -m 'chore: bump up version' .",
     "preview": "echo \"Opening a preview on your browser now.\" && sleep 1 && open http://localhost:3000/#/",

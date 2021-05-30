@@ -28,7 +28,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
   - [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync): task to save/load your settings and extensions on GitHub
   - [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright): multilingual spellchecker for comments and Markdown
   - [Unique Lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines): task to remove duplicated lines from current selection
-  - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): meaningful and colorful icons on files and folders
+  - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): meaningful and colourful icons on files and folders
 - 💯 [Rectangle](https://rectangleapp.com/) (app): move/resize windows using shortcuts or snap areas
 - 💯 [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/blob/master/README.md) (app): prevents your Mac to enter screensaver/sleep mode (useful when pairing)
 - 💯 [BugMagnet](https://chrome.google.com/webstore/detail/bug-magnet/efhedldbjahpgjcneebmbolkalbhckfi) (extension): quick access to test strings relevant for boundary testing
@@ -53,7 +53,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 
 - ⭐️ [Tape](https://chrome.google.com/webstore/detail/tape/jmfleijdbicilompnnombcbkcgidbefb) (extension): draw guidelines on top of your page and measure pixel distances
 - [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) (extension): overlap UI mockups on top of your page and look for mismatches
-- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) (extension): pick any color from a web page
+- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) (extension): pick any colour from a web page
 - [CSS Selector Tester](https://chrome.google.com/webstore/detail/css-selector-tester/bbklnaodgoocmcdejoalmbjihhdkbfon) (extension): takes a CSS selector and highlights the selection in the page itself
 
 ### Accessibility
