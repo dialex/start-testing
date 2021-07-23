@@ -209,6 +209,8 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 
 ## ✍ DOCUMENTATION
 
+- 💯 [docsify](https://docsify.js.org/) (cli): dynamically generates an HTML site from MD files
+- 🤷‍♂️ [Docusaurus](https://docusaurus.io/) (cli): generates a static HTML from MD files
 - 💯 [Typora](https://typora.io/) (app]): cross-platform Markdown editor with embedded live preview; pleasant and distraction free UX; exports to PDF, HTML and more
 - 💯 [Marp Next](https://marp.app/) (IDE/cli/SaaS): create slide decks using Markdown with live preview
 - 💯 [Mermaid.js](https://mermaid-js.github.io/mermaid/#/) (SaaS): create diagrams using Markdown with live preview
