@@ -6,7 +6,7 @@
 
 It works like a map:
 
-- If you show your map to someone else, they can quickly understand where your destination is.
+- If you show your map to someone, they quickly understand where you want to go.
 - If you wander too much and find yourself lost, your map focuses your mind by showing which paths deviate you from your initial goal and which paths lead you there.
 
 **Exploring software** has much in common with exploring territory. Along the way you will make many discoveries (e.g. information, bugs). To make your journey easier you can use tools. Remember, "the most important tool is the one between your ears". As an [exploratory tester](/roles/exploration-tester.md) you will conduct exploratory testing sessions like these and charters can guide your way.
