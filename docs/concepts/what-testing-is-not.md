@@ -86,3 +86,4 @@ Part of the skill of being a tester is deciding what to test. You will have to c
 - [Ten Misconceptions About Software Testing](https://dojo.ministryoftesting.com/dojo/lessons/ten-misconceptions-about-software-testing-that-non-testers-share)
 - [Testers: Get Out of the Quality Assurance Business](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business)
 - [Pressing the Green Button](http://www.developsense.com/blog/2018/12/pressing-the-green-button/)
+- ["Testers just Validate Acceptance Criteria"](https://medium.com/@blakenorrish/testers-just-validate-acceptance-criteria-4c25566b591e)
