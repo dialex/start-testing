@@ -90,7 +90,8 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 ### Acceptance tests
 
 - 💯 [Cypress](https://www.cypress.io/): acceptance tests in JavaScript ([review](/toolbox/framework/cypress))
-- ~~[Playwright](https://playwright.dev/): acceptance tests in JavaScript or TypeScript~~ ([review](/toolbox/framework/playwright))
+- [Playwright](https://playwright.dev/): acceptance tests in JavaScript ([review](/toolbox/framework/playwright))
+- 🤷‍♂️ [CodeceptJS](https://codecept.io/): acceptance tests in JavaScript
 - 🤷‍♂️ [Nightwatch](https://nightwatchjs.org/): acceptance tests in JavaScript
 - 🤷‍♂️ [Testcafe](https://devexpress.github.io/testcafe/): acceptance tests in JavaScript
 - [SpecFlow](https://specflow.org/): acceptance tests in .NET/C#
