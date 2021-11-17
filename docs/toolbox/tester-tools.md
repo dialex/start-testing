@@ -25,7 +25,6 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
   - [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser): task and right-click to open file on browser
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): format all other files; ensure your team uses the same rules
   - [Remark](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-remark): format Markdown files
-  - [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync): task to save/load your settings and extensions on GitHub
   - [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright): multilingual spellchecker for comments and Markdown
   - [Unique Lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines): task to remove duplicated lines from current selection
   - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): meaningful and colourful icons on files and folders
@@ -40,7 +39,6 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 - ⭐️ [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) (extension): formats JSONs to be human readable on a browser tab
 - ⭐️ [Meld](https://meldmerge.org/) (app): visual diff and merge tool for individual files or entire folder
 - 💯 [scrcpy](https://github.com/Genymobile/scrcpy) (app): control your Android from your laptop; cross-platform
-- [IE11 virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/): test your app on IE11 and Edge Legacy using Win10 VMs
 
 ## 🎨 FRONT-END
 
