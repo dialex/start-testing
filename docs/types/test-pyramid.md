@@ -1,8 +1,14 @@
-# Test Pyramid
+# The testing pyramid model
 
 > **tl;dr** SUMMARY_HERE
 
 ## Theory
+
+Well it's not actually a pyramid, it's a triangle. And it's biased towards automation. And it doesn't include all testing layers.
+
+> “All Models are wrong, some are useful” — [George Box](https://en.wikipedia.org/wiki/George_E._P._Box)
+
+OK then! It's just an [heuristic](#) to trigger our thinking, a starting point -- it should not be blindly pursued as perfection.
 
 > The test pyramid is a way of thinking about how different kinds of automated tests should be used to create a balanced portfolio. Its essential point is that you should have many more low-level [UnitTests](https://martinfowler.com/bliki/UnitTest.html) than high level [BroadStackTests](https://martinfowler.com/bliki/BroadStackTest.html) running through a GUI.
 >
@@ -61,6 +67,20 @@
 - Diff pyramids or perspectives
 - What is important to take out of it
 
+> What I'm interested in is whether I'm confident that when I ship my changes, my code satisfies the business requirements and I'll use a mix of the different testing strategies to accomplish that goal.
+>
+> [Kent Dodds](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests)
+
+Many flavours, just as ice-creams. Speaking of which:
+
+- [the ice cream cone](https://alisterbscott.com/kb/testing-pyramids/) (or [cupcake](https://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern))
+- [the trophy](https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications)
+- [the box of rocks](https://gerg.dev/2018/05/testing-is-like-a-box-of-rocks/)
+- [the honeycomb](https://medium.com/@fistsOfReason/testing-is-good-pyramids-are-bad-ice-cream-cones-are-the-worst-ad94b9b2f05f)
+- [the planet](https://www.dropbox.com/s/ahnmtqt4c5l1qv7/round%20earth.pdf?dl=0)
+- [the snowman](https://angryweasel.com/blog/the-test-automation-snowman)
+- [the wheel](https://www.ministryoftesting.com/dojo/lessons/an-introduction-to-the-automation-test-wheel)
+
 > As with production code you should strive for simplicity and avoid duplication. In the context of implementing your test pyramid you should keep two rules of thumb in mind:
 >
 > 1. If a higher-level test spots an error and there's no lower-level test failing, you need to write a lower-level test
@@ -71,6 +91,18 @@
 >
 > https://martinfowler.com/articles/practical-test-pyramid.html
 
+> ![193028ce268ce21d4b40451075c9ff193d56f861](\docs\_media\articles\193028ce268ce21d4b40451075c9ff193d56f861.png)
+>
+> Added ‘testability’ to the base of the pyramid. For me, a successful automation strategy is based on testability.
+>
+> DIOGO: Notice the different (number of) layers on each surface of the pyramid. That's a hint that you need to adapt the layers to your team's context.
+>
+> https://club.ministryoftesting.com/t/missing-layer-from-the-test-automation-pyramid/24942
+
+> ![](\docs\_media\articles\8f3dda0ad8e339dc657ccafa3a0eb692f7cd7634.png)
+>
+> https://club.ministryoftesting.com/t/the-software-testing-pyramid/13855
+
 ## Teachers
 
 - [Name](#link)
@@ -78,3 +110,5 @@
 ## Sources
 
 - [title](#link)
+- https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html
+- https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests
