@@ -123,6 +123,7 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 ### Mobile
 
 - 🤷‍♂️ [Appium](http://appium.io/): cross-platform test framework for web, mobile and desktop apps
+- 🤷‍♂️ [Detox](https://github.com/wix/detox/): E2E test framework for React Native mobile apps
 - 🤷‍♂️ [Katalon Studio](https://www.katalon.com/katalon-studio/): code-less tests for web, mobile and desktop
 
 ### Libraries
