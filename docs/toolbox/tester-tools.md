@@ -78,7 +78,6 @@ A tool might not be listed if it is too expensive, closed-source, or not good en
 
 ## ⛺️ EXPLORATION
 
-- 💯 [TestBuddy](https://testbuddy.co/) (SaaS): report bugs/ideas/notes/questions as you explore; export as PDF
 - [RapidReporter](http://testing.gershon.info/reporter/) (app): distraction free note taking during exploratory sessions
 - 🤷‍♂️ [ExploratoryTesting](https://chrome.google.com/webstore/detail/exploratory-testing-chrom/khigmghadjljgjpamimgjjmpmlbgmekj) (extension): report bugs/ideas/notes/questions as you explore; export as HTML
 - 🤷‍♂️ [Test & Feedback](https://chrome.google.com/webstore/detail/test-feedback/gnldpbnocfnlkkicnaplmkaphfdnlplb) (extension): report bugs/tasks as you explore; export as HTML; VSTS integration
