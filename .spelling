@@ -90,6 +90,7 @@ whitespace
 standalone
 envs
 docusaurus
+codeceptjs
  - docs/toolbox/note-taking.md
 udos
 deas
