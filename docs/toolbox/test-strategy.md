@@ -76,16 +76,16 @@ This visual representation of a possible test strategy is useful to illustrate t
 
 Now that you have an overview of a possible test strategy, it's time to fill in the details, and an effective way to do so is by asking questions. [Simon Knight](https://sjpknight.com/post/test-planning-simplified/) suggests that you keep it simple at first, using [W5H](/toolbox/mnemonics.md):
 
-> - *Why* does it need testing? – The reason to spend time/people testing specific areas. Also risks.
-> - *What* will (and won't) be tested? – The scope of your testing.
-> - *How* will it be tested? – The technical details (tools, envs, data, automation, etc.)
-> - *Who* will test it? – Who's responsible for what.
-> - *Where* can we get information about what we are testing? – see [Oracles](/concepts/oracles.md).
-> - *When* will testing start and finish? – How do we know it's complete?
+> - _Why_ does it need testing? – The reason to spend time/people testing specific areas. Also risks.
+> - _What_ will (and won't) be tested? – The scope of your testing.
+> - _How_ will it be tested? – The technical details (tools, envs, data, automation, etc.)
+> - _Who_ will test it? – Who's responsible for what.
+> - _Where_ can we get information about what we are testing? – see [Oracles](/concepts/oracles.md).
+> - _When_ will testing start and finish? – How do we know it's complete?
 
 Those questions cover the most critical aspects of any strategy to test your product. You can use them to generate more questions and detail your strategy even more. As the number of questions increases, we should group them into categories. [Diogo Nunes](https://www.diogonunes.com/blog/test-strategy-saddest-ppiratee-mnemonic) took [Jared Quinert](http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/)'s [**`GRATEDD SCRIPTS`**](/toolbox/mnemonics.md) mnemonic and further expanded it with questions from [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) and [Michael Bolton](https://www.developsense.com/blog/2010/11/context-free-questions-for-testing/). The result was this mind map, and a new mnemonic called [**`SADDEST PPIRATEE`**](/toolbox/mnemonics.md):
 
-![TestStrategy-SADDEST-PPIRATEE](<../_media/articles/Test-Strategy-Overview-(SADDEST-PPIRATEE).png>)
+![TestStrategy-SADDEST-PPIRATEE](../_media/articles/Test-Strategy-Overview-(SADDEST-PPIRATEE).png)
 
 > **Scope**
 >

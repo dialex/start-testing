@@ -19,7 +19,7 @@
     "fix:double-quote-left": "find docs -type f -name '*.md' | xargs sed -i '' 's/“/\"/g'",
     "fix:double-quote-right": "find docs -type f -name '*.md' | xargs sed -i '' 's/”/\"/g'",
     "lint": "npm-run-all lint:*",
-    "lint:markdown": "markdownlint docs --config docs/.markdownlint.json",
+    "lint:markdown": "markdownlint docs --config docs/.markdownlint.json --ignore docs/_coverpage.md",
     "lint:spelling": "mdspell 'docs/**/*.md' -r --en-gb --ignore-numbers --ignore-acronyms",
     "lint:broken-links": "remark -u validate-links docs --ignore-path .remarkignore --frail",
     "prose": "proselint docs/**/*.md",
