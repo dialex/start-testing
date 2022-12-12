@@ -12,6 +12,12 @@ So what is it? As Dan Ashby puts it, it's ["the automation triangle"](https://da
 
 OK then! It's just an [heuristic](#) to trigger our thinking, a starting point -- it should not be blindly pursued as perfection.
 
+The pyramid concept also suggests the analogy to a construction. Each test layer is a different material used in the construction. A building made of a single thing is not as good as one that uses specialised. contributes to the stability of the building. Each layer is focused on one thing.
+
+Swiss cheese slices have holes. We want to create a surface where you can't see through. So we layer, one slice on top of the other. Individually, slices have holes and don't cover the whole surface, but together the surface of one layer covers the holes of the layer below.
+
+And that's what we want to achieve with our testing layers. Invidually each layer has coverage gaps, but all together we efficiently maximise coverage. The right tool for the right job. Divide to conquer.
+
 > The test pyramid is a way of thinking about how different kinds of automated tests should be used to create a balanced portfolio. Its essential point is that you should have many more low-level [UnitTests](https://martinfowler.com/bliki/UnitTest.html) than high level [BroadStackTests](https://martinfowler.com/bliki/BroadStackTest.html) running through a GUI.
 >
 > tests that drove an application through its user-interface. easy to record tests, and the tests can be recorded by people with no knowledge of programming. Testing through the UI like this is slow, increasing build times. Often it requires installed licences for the test automation software, which means it can only be done on particular machines. Usually these cannot easily be run in a "headless" mode, monitored by scripts to put in a proper deployment pipeline. Most importantly such tests are very brittle. An enhancement to the system can easily end up breaking lots of such tests, which then have to be re-recorded.
@@ -58,6 +64,13 @@ OK then! It's just an [heuristic](#) to trigger our thinking, a starting point -
 > ![img](\docs\_media\articles\testPyramid.png)
 >
 > IN DEPTH https://martinfowler.com/articles/practical-test-pyramid.html
+
+> testing strategy should be built on a strong foundation of Unit tests, as these are generally quick, deterministic and relatively simple. This foundation should support a smaller layer of service tests, which tend to give slightly slower feedback and as they involve multiple actors can be more prone to reliability issues. And finally, the pyramid should be topped by a carefully curated set of UI tests, as these tests involve the whole stack, can be prone to frequent non-determinism, and take a comparatively long time to run.
+>
+> 
+>
+> https://medium.com/lydtech-consulting/balancing-the-test-automation-pyramid-30cf9c8d8a3c
+
 
 > - **End to End**: A helper robot that behaves like a user to click around the app and verify that it functions correctly. Sometimes called "functional testing" or e2e.
 > - **Integration**: Verify that several units work together in harmony.
@@ -115,6 +128,7 @@ Many flavours, just as ice-creams. Speaking of which:
 - [the planet](https://www.dropbox.com/s/ahnmtqt4c5l1qv7/round%20earth.pdf?dl=0)
 - [the snowman](https://angryweasel.com/blog/the-test-automation-snowman)
 - [the wheel](https://www.ministryoftesting.com/dojo/lessons/an-introduction-to-the-automation-test-wheel)
+- [the filters](https://infiniteundo.com/post/158179632683/abandoning-the-pyramid-of-testing-in-favor-of-a)
 - and [many more](http://www.testingreferences.com/here_be_pyramids.php)
 
 > As with production code you should strive for simplicity and avoid duplication. In the context of implementing your test pyramid you should keep two rules of thumb in mind:
@@ -148,4 +162,5 @@ Many flavours, just as ice-creams. Speaking of which:
 - [title](#link)
 - https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html
 - https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests
-- 
+- Pitfalls https://medium.com/lydtech-consulting/balancing-the-test-automation-pyramid-30cf9c8d8a3c
+- https://medium.com/@BIT_OFIT/how-to-test-efficiently-your-mobile-apps-68be944331ee
