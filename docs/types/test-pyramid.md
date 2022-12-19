@@ -15,7 +15,9 @@ This visual model conveys several messages:
 - Tests at the base of the pyramid (unit) are faster, cheaper and more precise
 - Tests at the top of the pyramid (UI) are slower, more expensive and more realistic
 
-Unit tests ensure a small and specific unit of code works as intended in isolation. That's why they are cheap and fast to run. These units of code interact with other parts the system to provide services. The behaviour of those services is tested by the service tests. Finally, a human needs to interact with those services and that is done through a User Interface. The UI tests check that the system as a whole does what the user expects, and that's why those tests are the slower to run and the most complex to write.
+Unit tests ensure a small and specific unit of code works as intended in isolation. That's why they are cheap and fast to run. These units of code interact with other parts the system to provide services. The behaviour of those services is tested by the service tests. Finally, a human needs to interact with those services and that is done through a User Interface (UI). The UI tests check that the system as a whole does what the user expects, and that's why those tests are the slower to run and the most complex to write.
+
+> The test pyramid is a way of thinking about how different kinds of automated tests should be used to create a balanced portfolio -- [Martin Fowler](https://martinfowler.com/bliki/TestPyramid.html)
 
 Since it was introduced in 2009, new test types were developed. The "service tests" are nowadays called "integration tests" and include [API testing](/types) and [Contract testing](/types). The "UI tests" are nowadays split between [frontend testing](/types) and [end-to-end testing](/types).
 
@@ -33,23 +35,11 @@ Despite it's popularity, it is not without flaws. Some people say the model is o
 
 
 
+-----
 
 
 
-
-> The test pyramid is a way of thinking about how different kinds of automated tests should be used to create a balanced portfolio. Its essential point is that you should have many more low-level [UnitTests](https://martinfowler.com/bliki/UnitTest.html) than high level [BroadStackTests](https://martinfowler.com/bliki/BroadStackTest.html) running through a GUI.
->
-> tests that drove an application through its user-interface. easy to record tests, and the tests can be recorded by people with no knowledge of programming. Testing through the UI like this is slow, increasing build times. Often it requires installed licences for the test automation software, which means it can only be done on particular machines. Usually these cannot easily be run in a "headless" mode, monitored by scripts to put in a proper deployment pipeline. Most importantly such tests are very brittle. An enhancement to the system can easily end up breaking lots of such tests, which then have to be re-recorded.
->
-> I always argue that high-level tests are there as a second line of test defense. If you get a failure in a high level test, not just do you have a bug in your functional code, you also have a missing or incorrect unit test. Thus I advise that before fixing a bug exposed by a high level test, you should replicate the bug with a unit test. Then the unit test ensures the bug stays dead.
->
-> ![img](\docs\_media\articles\test-pyramid-fowler.png)
->
-> source: https://martinfowler.com/bliki/TestPyramid.html
-
-> testing strategy should be built on a strong foundation of Unit tests, as these are generally quick, deterministic and relatively simple. This foundation should support a smaller layer of service tests, which tend to give slightly slower feedback and as they involve multiple actors can be more prone to reliability issues. And finally, the pyramid should be topped by a carefully curated set of UI tests, as these tests involve the whole stack, can be prone to frequent non-determinism, and take a comparatively long time to run.
->
-> 
+> (...) a strong foundation of unit tests, as these are quick, deterministic and simple. This foundation supports a smaller layer of service tests, (...) and as they involve multiple actors they can be more prone to reliability issues. And finally, the pyramid should be topped by a carefully curated set of UI tests, as these tests (...) take a comparatively long time to run.
 >
 > https://medium.com/lydtech-consulting/balancing-the-test-automation-pyramid-30cf9c8d8a3c
 
