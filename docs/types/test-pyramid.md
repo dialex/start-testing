@@ -1,4 +1,4 @@
-# The testing pyramid model
+# The test pyramid model
 
 > **tl;dr** SUMMARY_HERE
 
@@ -15,23 +15,36 @@ This visual model conveys several messages:
 - Tests at the base of the pyramid (unit) are faster, cheaper and more precise
 - Tests at the top of the pyramid (UI) are slower, more expensive and more realistic
 
-Unit tests ensure a small and specific unit of code works as intended in isolation. That's why they are cheap and fast to run. These units of code interact with other parts the system to provide services. The behaviour of those services is tested by the service tests. Finally, a human needs to interact with those services and that is done through a User Interface (UI). The UI tests check that the system as a whole does what the user expects, and that's why those tests are the slower to run and the most complex to write.
+Unit tests ensure a small and specific unit of code works as intended in isolation. That's why they are cheap and fast to run. These units of code then interact with other parts the system to provide services. The behaviour of those services is tested by the service tests. Finally, a human needs to interact with those services and that is done through a User Interface (UI). The UI tests check that the system as a whole does what the user expects, and that's why those tests are the slowest to run and most expensive to debug.
 
-> The test pyramid is a way of thinking about how different kinds of automated tests should be used to create a balanced portfolio -- [Martin Fowler](https://martinfowler.com/bliki/TestPyramid.html)
+> The test pyramid is a way of thinking about how different kinds of automated tests should be used to create a balanced portfolio
+>
+> -- [Martin Fowler](https://martinfowler.com/bliki/TestPyramid.html)
 
 Since it was introduced in 2009, new test types were developed. The "service tests" are nowadays called "integration tests" and include [API testing](/types) and [Contract testing](/types). The "UI tests" are nowadays split between [frontend testing](/types) and [end-to-end testing](/types).
 
 The simplicity and recommendations of this model made the test pyramid very popular, and many engineers and testers use it as a reference still today.
 
-### ~~The good~~
-
-MAYBE NOT NEEDED
-
-### ~~The bad~~ Limitations
-
-> “All models are wrong, some are useful” — [George Box](https://en.wikipedia.org/wiki/George_E._P._Box)
+> “All models are wrong, some are useful”
+>
+> -- [George Box](https://en.wikipedia.org/wiki/George_E._P._Box)
 
 Despite it's popularity, it is not without flaws. Some people say the model is overly simplistic because it doesn't include all testing done for a project. Others say it is biased towards automation, like Dan Ashby who calls it ["the automation triangle"](https://danashby.co.uk/2018/05/03/a-better-testing-pyramid/).
+
+### The testing trophy
+
+Almost [10 years later](https://twitter.com/kentcdodds/status/960723172591992832?lang=en), Kent Dodds published his modern take on the test pyramid and called it the testing trophy. It's an overall improvement over the previous model in [several aspects](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests).
+
+![test trophy][/docs/_media/articles/test-trophy.png]
+
+Here's a summary, paraphrasing the author:
+
+- **Purpose.** Why do *you* write tests? The most important reason is confidence. I want to be confident that the code I'm writing won't break the app. I want to get the most confidence out of the tests I write, and I'm aware of the trade-offs I'm making when testing.
+- **Static tests**. Linters and other static analysis tools scan your code for typos, type errors, common mistakes, potencial.
+- **Unit tests**: Verify that individual, isolated parts work as expected.
+- **Integration tests**: Verify that several units work together in harmony.
+- **End-to-End tests**: Simulate the user interacting with the app and verify that it functions correctly.
+- **Flexible.** The size of each of test layer may differ slightly based on what your team values. The proportions are not meant to be taken as rigid rules. It depends on how easy it is to test your app with the tools available.
 
 
 
@@ -39,43 +52,26 @@ Despite it's popularity, it is not without flaws. Some people say the model is o
 
 
 
-> (...) a strong foundation of unit tests, as these are quick, deterministic and simple. This foundation supports a smaller layer of service tests, (...) and as they involve multiple actors they can be more prone to reliability issues. And finally, the pyramid should be topped by a carefully curated set of UI tests, as these tests (...) take a comparatively long time to run.
->
-> https://medium.com/lydtech-consulting/balancing-the-test-automation-pyramid-30cf9c8d8a3c
 
-
-> - **End to End**: A helper robot that behaves like a user to click around the app and verify that it functions correctly. Sometimes called "functional testing" or e2e.
-> - **Integration**: Verify that several units work together in harmony.
-> - **Unit**: Verify that individual, isolated parts work as expected.
-> - **Static**: Catch typos and type errors as you write the code.
->
-> I think it's important to remember why it is that we write tests in the first place. Why do *you* write tests? Is it because I told you to? Is it because your PR will get rejected unless it includes tests? Is it because testing enhances your workflow?
->
-> The biggest and most important reason that I write tests is **CONFIDENCE**. I want to be confident that the code I'm writing for the future won't break the app that I have running in production today. So whatever I do, I want to make sure that the kinds of tests I write bring me the most confidence possible and I need to be cognizant of the trade-offs I'm making when testing.
->
 > ### [Cost: ￠ heap ➡ 💰🤑💰](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests#cost--heap--)
->
+> 
 > As you move up the testing trophy, the tests become more costly. This comes in the form of actual money to run the tests in a continuous integration environment, but also in the time it takes engineers to write and maintain each individual test.
->
-> The higher up the trophy you go, the more points of failure there are and therefore the more likely it is that a test will break, leading to more time needed to analyze and fix the tests. **Keep this in mind because it's important** #foreshadowing...
->
-> ### [Speed: 🏎💨 ➡ 🐢](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests#speed---)
->
-> As you move up the testing trophy, the tests typically run slower. This is due to the fact that the higher you are on the testing trophy, the more code your test is running. Unit tests typically test something small that has no dependencies or will mock those dependencies (effectively swapping what could be thousands of lines of code with only a few). **Keep this in mind because it's important** #foreshadowing...
->
-> ### [Confidence: Simple problems 👌 ➡ Big problems 😖](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests#confidence-simple-problems---big-problems-)
->
-> The cost and speed trade-offs are typically referenced when people talk about the testing pyramid 🔺.
->
-> [The more your tests resemble the way your software is used, the more confidence they can give you.](https://twitter.com/kentcdodds/status/977018512689455106)
->
-> Every level comes with its own trade-offs. An E2E test has more points of failure making it often harder to track down what code caused the breakage, but it also means that your test is giving you more confidence. This is especially useful if you don't have as much time to write tests. I'd rather have the confidence and be faced with tracking down why it's failing, than not having caught the problem via a test in the first place.
->
-> https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests
-
-> ![Triangle Refactoring 3](https://danashby04.files.wordpress.com/2018/05/triangle-refactoring-3.jpg?w=820)
->
-> With this one, we can think about the different environments and where we should conduct our testing. The majority of the risks that we are investigating should be done on a Dev environment. Ideally while pairing with a developer. This offers the fastest feedback loop and any problems can be resolved there and then when discovered.
+> 
+>The higher up the trophy you go, the more points of failure there are and therefore the more likely it is that a test will break, leading to more time needed to analyze and fix the tests. **Keep this in mind because it's important** #foreshadowing...
+> 
+>### [Speed: 🏎💨 ➡ 🐢](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests#speed---)
+> 
+>As you move up the testing trophy, the tests typically run slower. This is due to the fact that the higher you are on the testing trophy, the more code your test is running. Unit tests typically test something small that has no dependencies or will mock those dependencies (effectively swapping what could be thousands of lines of code with only a few). **Keep this in mind because it's important** #foreshadowing...
+> 
+>### [Confidence: Simple problems 👌 ➡ Big problems 😖](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests#confidence-simple-problems---big-problems-)
+> 
+>The cost and speed trade-offs are typically referenced when people talk about the testing pyramid 🔺.
+> 
+>[The more your tests resemble the way your software is used, the more confidence they can give you.](https://twitter.com/kentcdodds/status/977018512689455106)
+> 
+>Every level comes with its own trade-offs. An E2E test has more points of failure making it often harder to track down what code caused the breakage, but it also means that your test is giving you more confidence. This is especially useful if you don't have as much time to write tests. I'd rather have the confidence and be faced with tracking down why it's failing, than not having caught the problem via a test in the first place.
+> 
+>https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests
 
 ## Practice
 
@@ -106,7 +102,7 @@ And that's what we want to achieve with our testing layers. Invidually each laye
 
 > What I'm interested in is whether I'm confident that when I ship my changes, my code satisfies the business requirements and I'll use a mix of the different testing strategies to accomplish that goal.
 >
-> [Kent Dodds](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests)
+> -- [Kent Dodds](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests)
 
 Many flavours, just as ice-creams. Speaking of which:
 
