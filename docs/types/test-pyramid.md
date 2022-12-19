@@ -4,19 +4,38 @@
 
 ## Theory
 
-Well it's not actually a pyramid, it's a triangle. And it's biased towards automation. And it doesn't include all testing layers.
+The concept of a test pyramid was initially introduced by [Mike Cohn](https://amzn.to/3W7LLKz). It is a visual metaphor that groups tests into layers and recommends how many tests we should have in each of these layers.
 
-> “All Models are wrong, some are useful” — [George Box](https://en.wikipedia.org/wiki/George_E._P._Box)
+![testPyramid](/docs/_media/articles/test-pyramid.png)
 
-So what is it? As Dan Ashby puts it, it's ["the automation triangle"](https://danashby.co.uk/2018/05/03/a-better-testing-pyramid/).
+This visual model conveys several messages:
 
-OK then! It's just an [heuristic](#) to trigger our thinking, a starting point -- it should not be blindly pursued as perfection.
+- You should have multiple test types or layers
+- You should have more unit tests than service steps, and more of those than UI tests
+- Tests at the base of the pyramid (unit) are faster, cheaper and more precise
+- Tests at the top of the pyramid (UI) are slower, more expensive and more realistic
 
-The pyramid concept also suggests the analogy to a construction. Each test layer is a different material used in the construction. A building made of a single thing is not as good as one that uses specialised. contributes to the stability of the building. Each layer is focused on one thing.
+Unit tests ensure a small and specific unit of code works as intended in isolation. That's why they are cheap and fast to run. These units of code interact with other parts the system to provide services. The behaviour of those services is tested by the service tests. Finally, a human needs to interact with those services and that is done through a User Interface. The UI tests check that the system as a whole does what the user expects, and that's why those tests are the slower to run and the most complex to write.
 
-Swiss cheese slices have holes. We want to create a surface where you can't see through. So we layer, one slice on top of the other. Individually, slices have holes and don't cover the whole surface, but together the surface of one layer covers the holes of the layer below.
+Since it was introduced in 2009, new test types were developed. The "service tests" are nowadays called "integration tests" and include [API testing](/types) and [Contract testing](/types). The "UI tests" are nowadays split between [frontend testing](/types) and [end-to-end testing](/types).
 
-And that's what we want to achieve with our testing layers. Invidually each layer has coverage gaps, but all together we efficiently maximise coverage. The right tool for the right job. Divide to conquer.
+The simplicity and recommendations of this model made the test pyramid very popular, and many engineers and testers use it as a reference still today.
+
+### ~~The good~~
+
+MAYBE NOT NEEDED
+
+### ~~The bad~~ Limitations
+
+> “All models are wrong, some are useful” — [George Box](https://en.wikipedia.org/wiki/George_E._P._Box)
+
+Despite it's popularity, it is not without flaws. Some people say the model is overly simplistic because it doesn't include all testing done for a project. Others say it is biased towards automation, like Dan Ashby who calls it ["the automation triangle"](https://danashby.co.uk/2018/05/03/a-better-testing-pyramid/).
+
+
+
+
+
+
 
 > The test pyramid is a way of thinking about how different kinds of automated tests should be used to create a balanced portfolio. Its essential point is that you should have many more low-level [UnitTests](https://martinfowler.com/bliki/UnitTest.html) than high level [BroadStackTests](https://martinfowler.com/bliki/BroadStackTest.html) running through a GUI.
 >
@@ -27,43 +46,6 @@ And that's what we want to achieve with our testing layers. Invidually each laye
 > ![img](\docs\_media\articles\test-pyramid-fowler.png)
 >
 > source: https://martinfowler.com/bliki/TestPyramid.html
-
-> The "Test Pyramid" is a metaphor that tells us to group software tests into buckets of different granularity. It also gives an idea of how many tests we should have in each of these groups.
->
-> It's a great visual metaphor telling you to think about different layers of testing. Mike Cohn's original test pyramid consists of three layers that your test suite should consist of (bottom to top):
->
-> 1. Unit Tests
-> 2. Service Tests
-> 3. User Interface Tests
->
-> From a modern point of view the test pyramid seems overly simplistic and can therefore be misleading. Still, due to its simplicity the essence of the test pyramid serves as a good rule of thumb when it comes to establishing your own test suite. Your best bet is to remember two things from Cohn's original test pyramid:
->
-> 1. Write tests with different granularity
-> 2. The more high-level you get the fewer tests you should have
->
-> Unit tests are the foundation. Your unit tests make sure that a certain unit (your *subject under test*) of your codebase works as intended. Unit tests have the narrowest scope of all the tests in your test suite. The number of unit tests in your test suite will largely outnumber any other type of test. They should ensure that all your non-trivial code paths are tested (including happy path and edge cases).
->
-> your application will interact with other parts and this needs to be tested. **[Integration Tests](https://martinfowler.com/bliki/IntegrationTest.html)** are there to help. They test the integration of your application with all the parts that live outside of your application. If you're testing the integration with a database you need to run a database when running your tests. Narrow integration tests live at the boundary of your service. Conceptually they're always about triggering an action that leads to integrating with the outside part. 
->
-> ~~Contract (CDC). Individual teams build individual, loosely coupled services without stepping on each others toes and integrate these services into a big, cohesive system. The more recent buzz around microservices focuses on exactly that. Splitting your system into many small services often means that these services need to communicate with each other via certain (hopefully well-defined, sometimes accidentally grown) interfaces (e.g. REST, RPC, event-driven). **Consumer-Driven Contract tests** (CDC tests) let the [consumers drive the implementation of a contract](https://martinfowler.com/articles/consumerDrivenContracts.html). The consuming team writes test that encapsulate how they will consume the interface. The providing team fetches those tests and writes an implementation that makes those tests pass.~~
->
-> *UI tests* test that the user interface of your application works correctly. User input should trigger the right actions, data should be presented to the user, the UI state should change as expected. UI Tests and end-to-end tests are sometimes (as in Mike Cohn's case) said to be the same thing. Yes, testing your application end-to-end often means driving your tests through the user interface. The inverse, however, is not true. Testing your user interface doesn't have to be done in an end-to-end fashion. testing the *behaviour* of your user interface is pretty simple. You click here, enter data there and want the state of the user interface to change accordingly. Modern single page application frameworks ([react](https://facebook.github.io/react/), [vue.js](https://vuejs.org/), [Angular](https://angular.io/) and the like) often come with their own tools and helpers that allow you to thoroughly test these interactions in a pretty low-level (unit test) fashion.
->
-> Testing your deployed application via its user interface is the most end-to-end way you could test your application. automate your tests by automatically driving a (headless) browser against your deployed services, performing clicks, entering data and checking the state of your user interface. They are notoriously flaky and often fail for unexpected and unforeseeable reasons. Quite often their failure is a false positive. The more sophisticated your user interface, the more flaky the tests tend to become. Browser quirks, timing issues, animations and unexpected popup dialogs.
->
-> Even the most diligent test automation efforts are not perfect. Sometimes you miss certain edge cases in your automated tests. Sometimes it's nearly impossible to detect a particular bug by writing a unit test. Certain quality issues don't even become apparent within your automated tests (think about design or usability). Despite your best intentions with regards to test automation, manual testing of some sorts is still a good idea.
->
-> As with production code you should strive for simplicity and avoid duplication. In the context of implementing your test pyramid you should keep two rules of thumb in mind:
->
-> 1. If a higher-level test spots an error and there's no lower-level test failing, you need to write a lower-level test
->
-> 2. Push your tests as far down the test pyramid as you can
->
-> The first rule is important because lower-level tests allow you to better narrow down errors and replicate them in an isolated way. They'll run faster and will be less bloated when you're debugging the issue at hand. And they will serve as a good regression test for the future. The second rule is important to keep your test suite fast. If you have tested all conditions confidently on a lower-level test, there's no need to keep a higher-level test in your test suite. It just doesn't add more confidence that everything's working. Having redundant tests will become annoying in your daily work. Your test suite will be slower and you need to change more tests when you change the behaviour of your code.
->
-> ![img](\docs\_media\articles\testPyramid.png)
->
-> IN DEPTH https://martinfowler.com/articles/practical-test-pyramid.html
 
 > testing strategy should be built on a strong foundation of Unit tests, as these are generally quick, deterministic and relatively simple. This foundation should support a smaller layer of service tests, which tend to give slightly slower feedback and as they involve multiple actors can be more prone to reliability issues. And finally, the pyramid should be topped by a carefully curated set of UI tests, as these tests involve the whole stack, can be prone to frequent non-determinism, and take a comparatively long time to run.
 >
@@ -105,10 +87,27 @@ And that's what we want to achieve with our testing layers. Invidually each laye
 >
 > With this one, we can think about the different environments and where we should conduct our testing. The majority of the risks that we are investigating should be done on a Dev environment. Ideally while pairing with a developer. This offers the fastest feedback loop and any problems can be resolved there and then when discovered.
 
-- What it is and means (purpose)
-- Brief (1-2 sentences) desc of types of tests (what unit, integration and e2e tests are) and refer test types page for more details
-
 ## Practice
+
+As with any tool, "keep the best and throw away the rest".
+
+Think of the test pyramid as an [heuristic](#) to trigger your thinking, a starting point -- it should not be blindly pursued as perfection or the end goal. It teaches you three valuable lessons:
+
+1. Write tests with different granularity
+2. The more high-level you get, the fewer tests you should have
+3. If a higher-level test fails without a lower-level test failing too, you need to write a lower-level test
+
+That last one needs a bit more explanation. Tests at the top of the pyramid exercise multiple parts of the system at the same time. If one of those tests fail, it tells you *"there's a problem with X"* but without a lower-level test you will not know *"...and here's the cause"*.
+
+The "pyramid" concept also suggests the analogy to a construction. Each test layer is a different material used in the construction. A building made of a single material is not as good as one that uses multiple specialised materials, each contributing differently to the stability of the building.
+
+If you prefer cheese to construction, here's another analogy. Swiss cheese slices have holes. We want to create a surface where you can't see through, thus we layer one slice on top of the other. Individually, slices have holes (limitations) and don't cover the whole surface, but together the surface of one layer covers the holes of the layer below!
+
+And that's what we want to achieve with our testing layers. Invidually each layer has coverage gaps, but all together we efficiently maximise coverage. "The right tool for the right job". "Divide to conquer".
+
+![testPyramid](/docs/_media/articles/test-pyramid-rosie-circles.png)
+
+
 
 …
 
@@ -155,12 +154,12 @@ Many flavours, just as ice-creams. Speaking of which:
 
 ## Teachers
 
-- [Name](#link)
+- [Kent C. Dodds](https://kentcdodds.com/)
 
 ## Sources
 
-- [title](#link)
-- https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html
-- https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests
-- Pitfalls https://medium.com/lydtech-consulting/balancing-the-test-automation-pyramid-30cf9c8d8a3c
-- https://medium.com/@BIT_OFIT/how-to-test-efficiently-your-mobile-apps-68be944331ee
+- [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
+- [Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
+- [Static vs Unit vs Integration vs E2E Testing for Frontend Apps](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests)
+- [Balancing the Test Automation Pyramid](https://medium.com/lydtech-consulting/balancing-the-test-automation-pyramid-30cf9c8d8a3c)
+- [How to test your mobile apps efficiently? A five-level pyramid testing strategy](https://medium.com/@BIT_OFIT/how-to-test-efficiently-your-mobile-apps-68be944331ee)
