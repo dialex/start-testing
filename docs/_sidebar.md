@@ -1,4 +1,5 @@
 <!-- markdownlint-disable MD041 -->
+
 <!-- markdownlint-disable MD032 MD033 -->
 
 <ul style="text-align: center;">🚧 work in progress 🚧</ul>
@@ -21,7 +22,7 @@
   - [Test strategy](/toolbox/test-strategy.md)
   - [Tools](/toolbox/tester-tools.md)
 - **Test types**
-  - [Test pyramid](/docs/types/test-pyramid.md)
+  - [Test pyramid](/types/test-pyramid.md)
   - ~~Functional vs Non-functional~~
   - ~~White box vs Black box~~
   - ~~Unit~~
