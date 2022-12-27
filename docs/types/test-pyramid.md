@@ -66,7 +66,9 @@ Think of the test pyramid as an [heuristic](#) to trigger your thinking, a start
 3. Low-level tests should be fast and precise
 4. If a higher-level test fails without a lower-level test failing too, you need to write a lower-level test
 
-That last one needs a bit more explanation. Tests at the top of the pyramid exercise multiple parts of the system at the same time. If one of those tests fail, it tells you *"there's a problem with X"* but without a lower-level test you will not know the cause of the problem.
+That last one needs a bit more explanation. Tests at the top of the pyramid exercise multiple parts of the system at the same time. If one of those tests fail, it tells you *"there's a problem with X"* but without a lower-level test you will not know the cause of the problem. And they will serve as a good [regression test](/types) for the future.
+
+It also keeps your test suite fast. If you have tested all conditions on a lower-level test, the extra confidence you get from a higher-level test is small. Redundant tests makes your development process more costly because you need to change more tests when you change the behaviour of your code.
 
 > The more your tests resemble the way your software is used, the more confidence they can give you.
 >
@@ -80,16 +82,7 @@ And that's what we want to achieve with our testing layers. Invidually each laye
 
 ![testPyramid](/docs/_media/articles/test-pyramid-rosie-circles.png)
 
-
-
-…
-
-- Diff pyramids or perspectives
-- What is important to take out of it
-
-> 
-
-Many flavours, just as ice-creams. Speaking of which:
+With time, many more models were created besides the original pyramid. Nowadays you have many flavours to pick from, just like ice creams. Speaking of which:
 
 - [the ice cream cone](https://alisterbscott.com/kb/testing-pyramids/) (or [cupcake](https://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern))
 - [the trophy](https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications)
@@ -101,15 +94,7 @@ Many flavours, just as ice-creams. Speaking of which:
 - [the filters](https://infiniteundo.com/post/158179632683/abandoning-the-pyramid-of-testing-in-favor-of-a)
 - and [many more](http://www.testingreferences.com/here_be_pyramids.php)
 
-> As with production code you should strive for simplicity and avoid duplication. In the context of implementing your test pyramid you should keep two rules of thumb in mind:
->
-> 1. If a higher-level test spots an error and there's no lower-level test failing, you need to write a lower-level test
->
-> 2. Push your tests as far down the test pyramid as you can
->
-> The first rule is important because lower-level tests allow you to better narrow down errors and replicate them in an isolated way. They'll run faster and will be less bloated when you're debugging the issue at hand. And they will serve as a good regression test for the future. The second rule is important to keep your test suite fast. If you have tested all conditions confidently on a lower-level test, there's no need to keep a higher-level test in your test suite. It just doesn't add more confidence that everything's working. Having redundant tests will become annoying in your daily work. Your test suite will be slower and you need to change more tests when you change the behaviour of your code.
->
-> https://martinfowler.com/articles/practical-test-pyramid.html
+What they all have in common is that their authors are trying to convey a message visually. Use whatever illustrates best your narrative or create your own.
 
 > ![193028ce268ce21d4b40451075c9ff193d56f861](\docs\_media\articles\193028ce268ce21d4b40451075c9ff193d56f861.png)
 >
@@ -118,10 +103,6 @@ Many flavours, just as ice-creams. Speaking of which:
 > DIOGO: Notice the different (number of) layers on each surface of the pyramid. That's a hint that you need to adapt the layers to your team's context.
 >
 > https://club.ministryoftesting.com/t/missing-layer-from-the-test-automation-pyramid/24942
-
-> ![](\docs\_media\articles\8f3dda0ad8e339dc657ccafa3a0eb692f7cd7634.png)
->
-> https://club.ministryoftesting.com/t/the-software-testing-pyramid/13855
 
 ## Teachers
 
