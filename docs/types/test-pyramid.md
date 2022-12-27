@@ -41,7 +41,7 @@ Despite it's popularity, it is not without flaws. Some people say the model is o
 
 Almost [10 years later](https://twitter.com/kentcdodds/status/960723172591992832?lang=en), Kent Dodds published his modern take on the test pyramid and called it the testing trophy. It's an overall improvement over the previous model in [several aspects](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests).
 
-<img src="/docs/_media/articles/test-pyramid-trophy.png" alt="Test trophy" width="400"/>
+<img src="/docs/_media/articles/test-pyramid-trophy.png" alt="Test trophy" width="600"/>
 
 Here's a summary, paraphrasing the author:
 
