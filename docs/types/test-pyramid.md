@@ -96,14 +96,6 @@ With time, many more models were created besides the original pyramid. Nowadays 
 
 What they all have in common is that their authors are trying to convey a message visually. Use whatever illustrates best your narrative or create your own.
 
-> ![193028ce268ce21d4b40451075c9ff193d56f861](\docs\_media\articles\193028ce268ce21d4b40451075c9ff193d56f861.png)
->
-> Added ‘testability’ to the base of the pyramid. For me, a successful automation strategy is based on testability.
->
-> DIOGO: Notice the different (number of) layers on each surface of the pyramid. That's a hint that you need to adapt the layers to your team's context.
->
-> https://club.ministryoftesting.com/t/missing-layer-from-the-test-automation-pyramid/24942
-
 ## Teachers
 
 - [Allister Scott](https://alisterbscott.com/kb/testing-pyramids/)
