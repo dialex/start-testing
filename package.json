@@ -23,10 +23,10 @@
     "lint:spelling": "mdspell 'docs/**/*.md' -r --en-gb --ignore-numbers --ignore-acronyms",
     "lint:broken-links": "remark -u validate-links docs --ignore-path .remarkignore --frail",
     "prose": "proselint docs/**/*.md",
-    "pr:prepare": "npm-run-all fix lint site",
+    "pr:prepare": "npm-run-all fix lint",
+    "pr:preview": "npm-run-all --parallel serve preview",
     "pr:ready": "npm run bump:patch && npm run bump:time && git commit -m 'chore: bump up version' .",
     "preview": "echo \"Opening a preview on your browser now.\" && sleep 1 && open http://localhost:3000/#/",
-    "site": "npm-run-all --parallel serve preview",
     "serve": "docsify serve docs",
     "test": "echo 'Aborting: no tests found. (see https://github.com/dialex/start-testing/issues/70)' && exit 1"
   },
