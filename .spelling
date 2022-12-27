@@ -91,6 +91,9 @@ standalone
 envs
 docusaurus
 codeceptjs
+frontend
+dodds
+linters
  - docs/toolbox/note-taking.md
 udos
 deas

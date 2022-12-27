@@ -2,6 +2,16 @@
   "name": "start-testing",
   "version": "0.3.1",
   "description": "A crowdsourced testing course, written by testers for testers wannabes.",
+  "homepage": "https://github.com/dialex/start-testing",
+  "bugs": {
+    "url": "https://github.com/dialex/start-testing/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dialex/start-testing.git"
+  },
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "author": "Diogo Nunes <email@diogonunes.com> (https://diogonunes.com/)",
   "scripts": {
     "bump:patch": "npm version --no-commit-hooks --no-git-tag-version patch",
     "bump:time": "open -t ./time-counter.txt",
@@ -23,26 +33,17 @@
     "lint:spelling": "mdspell 'docs/**/*.md' -r --en-gb --ignore-numbers --ignore-acronyms",
     "lint:broken-links": "remark -u validate-links docs --ignore-path .remarkignore --frail",
     "prose": "proselint docs/**/*.md",
-    "pr:prepare": "npm-run-all fix lint site",
+    "pr:prepare": "npm-run-all fix lint",
+    "pr:preview": "npm-run-all --parallel serve preview",
     "pr:ready": "npm run bump:patch && npm run bump:time && git commit -m 'chore: bump up version' .",
     "preview": "echo \"Opening a preview on your browser now.\" && sleep 1 && open http://localhost:3000/#/",
-    "site": "npm-run-all --parallel serve preview",
     "serve": "docsify serve docs",
     "test": "echo 'Aborting: no tests found. (see https://github.com/dialex/start-testing/issues/70)' && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dialex/start-testing.git"
-  },
-  "devDependencies": {
-    "markdown-spellcheck": "^1.3.1",
-    "markdownlint-cli": "^0.32.2",
-    "npm-run-all": "^4.1.5",
-    "remark-cli": "^11.0.0",
-    "remark-lint": "^9.1.1",
-    "remark-validate-links": "^12.1.0"
-  },
   "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji"
+    },
     "cz-emoji": {
       "types": [
         {
@@ -100,15 +101,14 @@
           "code": "📘"
         }
       ]
-    },
-    "commitizen": {
-      "path": "./node_modules/cz-emoji"
     }
   },
-  "author": "Diogo Nunes <email@diogonunes.com> (https://diogonunes.com/)",
-  "license": "SEE LICENSE IN LICENSE.txt",
-  "bugs": {
-    "url": "https://github.com/dialex/start-testing/issues"
-  },
-  "homepage": "https://github.com/dialex/start-testing"
+  "devDependencies": {
+    "markdown-spellcheck": "^1.3.1",
+    "markdownlint-cli": "^0.32.2",
+    "npm-run-all": "^4.1.5",
+    "remark-cli": "^11.0.0",
+    "remark-lint": "^9.1.1",
+    "remark-validate-links": "^12.1.0"
+  }
 }

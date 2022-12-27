@@ -10,13 +10,13 @@ Welcome! Here's what you need to know when contributing to this repo.
 ## Tasks
 
 ```shell
-build       # install all dependencies required to run this project
-site        # runs the website locally on your machine
-lint        # performs lint validations on all relevant *.md files
-pr:prepare  # checks if your branch is good enough for a Pull Request
-pr:ready    # makes your branch ready for Pull Request (increments version)
-test        # checks if the live website is ok
-clean       # deletes unversioned generated files
+deps:install  # install all dependencies required to run this project
+lint          # performs lint validations on all relevant *.md files
+pr:prepare    # checks if your branch is good enough for a Pull Request
+pr:preview    # runs the website locally on your machine
+pr:ready      # makes your branch ready for Pull Request (increments version)
+test          # checks if the live website is ok
+clean         # deletes unversioned generated files
 ```
 
 To run a task use `npm run <task>`, e.g. `npm run pr:prepare`.

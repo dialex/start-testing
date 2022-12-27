@@ -8,4 +8,7 @@
 > It's true that the two streams of tests test the same things. Indeed, that's the point. The two together make sure that the business and programmers intend the same thing.
 >
 > — [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests)
+
+> The more your tests resemble the way your software is used, the more confidence they can give you.
+> — [Kent Dodds](https://twitter.com/kentcdodds/status/977018512689455106)
 -->
