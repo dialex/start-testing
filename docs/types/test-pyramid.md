@@ -8,7 +8,7 @@
 
 The concept of a test pyramid was initially introduced by [Mike Cohn](https://amzn.to/3W7LLKz). It is a visual metaphor that groups tests into layers and recommends how many tests we should have in each of these layers.
 
-![original test pyramid](/docs/_media/articles/test-pyramid.png)
+![original test pyramid](../_media/articles/test-pyramid.png)
 
 This visual model conveys several messages:
 
@@ -41,7 +41,7 @@ Despite it's popularity, it is not without flaws. Some people say the model is o
 
 Almost [10 years later](https://twitter.com/kentcdodds/status/960723172591992832?lang=en), Kent Dodds published his modern take on the test pyramid and called it the testing trophy. It's an overall improvement over the previous model in [several aspects](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests).
 
-<img src="/docs/_media/articles/test-pyramid-trophy.png" alt="Test trophy" width="600"/>
+<img src="../_media/articles/test-pyramid-trophy.png" alt="Test trophy" width="600"/>
 
 Here's a summary, paraphrasing the author:
 
@@ -81,7 +81,7 @@ If you prefer cheese to construction, here's another analogy. Swiss cheese slice
 
 And that's what we want to achieve with our testing layers. Individually each layer has coverage gaps, but all together we efficiently maximise coverage. "The right tool for the right job". "Divide to conquer".
 
-<img src="/docs/_media/articles/test-pyramid-rosie-circles.png" alt="Rosie's test pyramid with circles" width="400"/>
+<img src="../_media/articles/test-pyramid-rosie-circles.png" alt="Rosie's test pyramid with circles" width="400"/>
 
 With time, many more models were created besides the original pyramid. Nowadays you have many flavours to pick from, just like ice creams. Speaking of which:
 
@@ -95,7 +95,7 @@ With time, many more models were created besides the original pyramid. Nowadays 
 - [the filters](https://infiniteundo.com/post/158179632683/abandoning-the-pyramid-of-testing-in-favor-of-a)
 - and [many more](http://www.testingreferences.com/here_be_pyramids.php)
 
-<img src="/docs/_media/articles/test-pyramid-icecream.png" alt="Ice cream cone anti-pattern" width="400"/>
+<img src="../_media/articles/test-pyramid-icecream.png" alt="Ice cream cone anti-pattern" width="400"/>
 
 What they all have in common is that their authors are trying to convey a message visually. Use whatever illustrates best your narrative or create your own.
 
