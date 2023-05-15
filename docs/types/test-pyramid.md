@@ -2,7 +2,7 @@
 
 # The test pyramid model
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** A visual metaphor that groups tests into layers and recommends how many tests should exist in each of layers.
 
 ## Theory
 
