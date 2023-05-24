@@ -4,7 +4,7 @@
 
 ## Theory
 
-The [testing pyramid]() hinted that there are different types of tests. So what tests can we have?
+The [testing pyramid](/types/test-pyramid.md) hinted that there are different types of tests. So what tests can we have?
 
 ### Regression testing
 
@@ -19,7 +19,7 @@ A good practice is to add a test for every bug you fix. This has two advantages:
 
 Over time, you will discover more issues and create additional regression tests to address them. As a result, you will accumulate a significant number of regression tests. These tests can be executed either manually (by following a guide), or automatically (by running a script).
 
-However, as the number of tests grows, running them all manually will become costly and time-consuming. Since regression tests are repetitive, it is better to automate them, eliminating the need for human involvement without sacrificing any benefits. To decide which regression tests to write or prioritise, check the [`RCRCRC`](https://dialex.github.io/start-testing/#/toolbox/mnemonics) mnemonic.
+However, as the number of tests grows, running them all manually will become costly and time-consuming. Since regression tests are repetitive, it is better to automate them, eliminating the need for human involvement without sacrificing any benefits. To decide which regression tests to write or prioritise, check the [`RCRCRC`](/toolbox/mnemonics.md) mnemonic.
 
 Your team also gets to decide which tests to run and how frequently. If you have sufficient resources, running all tests before pushing code changes is ideal. However, if your team is limited, optimization becomes necessary. You can select a subset of tests that are crucial and run them before each push to the code repository. The remaining tests can be scheduled to run at a specific time of the day. Another approach is to organize tests by modules, allowing you to prioritize regression tests related to the specific area of code that was modified. For example, if you made changes to the user account module, it would be a priority to run the regression tests associated with that module.
 
