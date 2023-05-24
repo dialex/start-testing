@@ -8,28 +8,22 @@ The [testing pyramid]() hinted that there are different types of tests. So what 
 
 ### Regression testing
 
-We call "regression" to a returning unwanted behaviour. For example, if you find an issue, fix it, and days later you encounter the issue again, you have found a "regression". In that sense, regression testing is searching for regressions and, because of that, it will only ever detect previously seen issues. It won't find new issues, thus it will tell you if the quality got worse, but it won't tell you if the quality is bad.
+Regression testing involves checking for the return of unwanted behavior in software . For example, if you fix a problem and later encounter the same issue, that's called a regression. Regression testing aims to find such regressions, but it only detects issues that were previously known -- it doesn't uncover new issues. This type of testing can tell you if the quality has worsened, but not if it was already bad.
 
-Ideally, whenever you find a bug, you should add one test to cover it. This has two benefits, first it confirms the bug was fixed, and second, it allows you to detect future regressions, in case the bug is reintroduced in your codebase.
+A good practice is to add a test for every bug you fix. This has two advantages: it confirms that the issue is indeed fixed, and it helps catch future regressions of that same issue.
 
 > Breaking stuff that *worked* before is *embarrassing*.
 > Breaking stuff that was *broken and fixed* before is *really embarrassing*.
 >
 > -- [Michael Bolton](https://www.developsense.com/presentations/2013-05-STAREast-Regression.pdf)
 
-As time passes, you will find more bugs, and you will write more regression tests for them. Eventually you will have a substantial collection of regression tests. These tests might be performed manually (following a guide) ou automatically (running a script). Suddenly, running all of them might not be as inexpensive as it used to be. Given these tests are numerous and repetitive, we should aim to automate them, as there's no real benefit in having a human performing them.
+Over time, you will discover more issues and create additional regression tests to address them. As a result, you will accumulate a significant number of regression tests. These tests can be executed either manually (by following a guide), or automatically (by running a script).
 
-Your team gets to decide which tests to run and how frequently.
+However, as the number of tests grows, running them all manually will become costly and time-consuming. Since regression tests are repetitive, it is better to automate them, eliminating the need for human involvement without sacrificing any benefits. To decide which regression tests to write or prioritise, check the [`RCRCRC`](https://dialex.github.io/start-testing/#/toolbox/mnemonics) mnemonic.
 
-> `Regression testing` simply confirms that modified software hasn't unintentionally changed and it is typically performed using any combination of the following techniques:
->
-> - `Retest All`: A `retest all` practice, as the name implies, aims to re-test the entire software suite. In most cases, the majority of testing is actually automated using assorted tools and [test-driven development practices](https://airbrake.io/blog/sdlc/test-driven-development), since it's neither feasible nor economical for humans to perform such a massive quantity of testing. However, this lack of human intervention can also be problematic, so it's critical to have a backup plan like an error monitoring tool, which will ensure anything that slips through the cracks is caught and dealt with.
-> - `Regression Test Selection`: As a slightly toned-down alternative to `retest all`, `regression test selection` encourages the team to extract a `representative selection` of tests from the full test suite that will *approximate* the average test case of the entire testing suite as a whole. The primary advantage to this practice is that it requires far less time and effort to perform. This kind of `regression testing` is ideally handled by human testers -- such as those from the QA or development teams -- who will typically have better insight into the nuances of test edge-cases and unexpected behaviors.
-> - `Test Case Prioritization`: The goal here is to prioritize a limited set of test cases such that the more potentially impactful tests are executed ahead of all less critical tests. The act of *how* your team prioritizes test cases is outside the scope of this article, but many of the techniques used during [`defect triage`](https://airbrake.io/blog/devops/easing-the-pain-of-defect-triage) are applicable during `test case prioritization`.
+Your team also gets to decide which tests to run and how frequently. If you have sufficient resources, running all tests before pushing code changes is ideal. However, if your team is limited, optimization becomes necessary. You can select a subset of tests that are crucial and run them before each push to the code repository. The remaining tests can be scheduled to run at a specific time of the day. Another approach is to organize tests by modules, allowing you to prioritize regression tests related to the specific area of code that was modified. For example, if you made changes to the user account module, it would be a priority to run the regression tests associated with that module.
 
-If you frequently have regression checks failing (and they are not false positives), then you should investigate what is causing them. It is likely that you have a development environment that favours the occurrence of regressions. Fix the cause of the problem.
-
-
+If you consistently experience failed regression checks (assuming they are genuine issues and not false positives), it is important to investigate the root cause. This indicates that there might be something in your development process that increases the likelihood of regressions. Take the necessary steps to fix the underlying problem and avoid unnecessary regressions.
 
 ## Practice
 
