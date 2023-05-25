@@ -8,17 +8,17 @@ Neither of these methodologies are "testing" by itself. They are development pra
 
 ### TDD: (Unit) Test Driven Development
 
-> Write [unit tests](/types) before writing the code that makes those tests pass.
+> Write unit tests before writing the code that makes those tests pass.
 
-The TDD cycle can be summarised as "Red-Green-Refactor". First, you write a set of unit tests that describe the code behaviour that you want to implement. If you run those tests, they will be failing (red), because that behaviour is not yet implemented. Second, you write the simplest code required to make those tests pass (green). If you wanted, you could stop here. Usually developers go a step further and improve that code to be more resilient and maintainable (refactor).
+The TDD cycle can be summarised as "Red-Green-Refactor". First, you write a set of [unit tests](/types/test-types.md) that describe the code behaviour that you want to implement. If you run those tests, they will be failing (red), because that behaviour is not yet implemented. Second, you write the simplest code required to make those tests pass (green). If you wanted, you could stop here. Usually developers go a step further and improve that code to be more resilient and maintainable (refactor).
 
 Unit tests tell if the code does what the developer expected it to do, at the method level, in isolation from the rest of the codebase.
 
 ### ATDD: Acceptance Test Driven Development
 
-> Write [acceptance tests](/types) before writing the code that makes those tests pass.
+> Write acceptance tests before writing the code that makes those tests pass.
 
-The ATDD cycle follows the same "Red-Green-Refactor" from TDD. The difference is the type of test that is created in the "Red" step. In fact, the two methodologies can be used together, as [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests) illustrates: "a developer runs the acceptance tests and notices what fails; then they write unit tests that force them to write the code that will make some small portion of the acceptance tests pass; they keep running the acceptance tests to see how much is working as expected, and they keep adding unit tests and code until all the acceptance tests pass".
+The ATDD cycle follows the same "Red-Green-Refactor" from TDD. The difference is the type of test that is created in the "Red" step. In fact, the two methodologies can be used together, as [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests) illustrates: "a developer runs the [acceptance tests](/types/test-types.md) and notices what fails; then they write unit tests that force them to write the code that will make some small portion of the acceptance tests pass; they keep running the acceptance tests to see how much is working as expected, and they keep adding unit tests and code until all the acceptance tests pass".
 
 Acceptance tests tell if the code does what the product/client expected it to do, at the system level, in collaboration with the rest of the codebase.
 
@@ -32,7 +32,7 @@ Acceptance tests tell if the code does what the product/client expected it to do
 >
 > — [Liz Keogh](https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/)
 
-OID is starts similar to ATDD. Both methodologies start by specifying the behaviour of your system as seen from the outside (see [black box testing](/types)). These specifications tell developers what their code needs to accomplish.
+OID is starts similar to ATDD. Both methodologies start by specifying the behaviour of your system as seen from the outside (see [black box testing](/types/test-types.md)). These specifications tell developers what their code needs to accomplish.
 
 There's a small difference though. OID is not so prescriptive about test automation as ATDD is. Listen to [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/): "The assumption from Testers is that because OID uses tools that are typically related to automated testing that must mean OID is automated testing. OID helps Developers design good code and deliver what the business really wants. Not deliver testing."
 
@@ -86,7 +86,7 @@ For every method or class you need to implement, repeat the "Red-Green-Refactor"
 5. Run those tests — they should pass;
 6. Refactor the code, and repeat steps 4-5.
 
-These unit tests usually cover happy and sad paths (see [Test types: Unit tests](/types)).
+These unit tests usually cover happy and sad paths (see [Test types: Unit tests](/types/test-types.md)).
 
 ### ATDD
 
@@ -99,7 +99,7 @@ For every feature or acceptance criteria, repeat this cycle:
    - (optional) For each code change, use the "Red-Green-Refactor" cycle;
 5. Run those tests — they should pass.
 
-These acceptance tests usually cover just the happy path (see [Test types: Acceptance tests](/types)).
+These acceptance tests usually cover just the happy path (see [Test types: Acceptance tests](/types/test-types.md)).
 
 ### BDD
 

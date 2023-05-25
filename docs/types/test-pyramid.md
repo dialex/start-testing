@@ -13,7 +13,7 @@ The concept of a test pyramid was initially introduced by [Mike Cohn](https://am
 This visual model conveys several messages:
 
 - You should have multiple test types or layers
-- You should have more unit tests than service steps, and more of those than UI tests
+- You should have more [unit tests](/types/test-types.md) than service steps, and more of those than UI tests
 - Tests at the base of the pyramid (unit) are faster, cheaper and more precise
 - Tests at the top of the pyramid (UI) are slower, more expensive and more realistic
 
