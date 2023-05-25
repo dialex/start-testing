@@ -207,3 +207,4 @@ If you consistently experience failed regression checks (assuming they are genui
 
 - [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
 - [Things Could Get Worse: Ideas About Regression Testing](https://www.developsense.com/presentations/2013-05-STAREast-Regression.pdf)
+- [Contract testing by Pact: Convince me](https://docs.pact.io/faq/convinceme.html)
