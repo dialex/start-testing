@@ -4,7 +4,11 @@
 
 ## Theory
 
-The [testing pyramid](/types/test-pyramid.md) hinted that there are different types of tests. So what test types exist?
+> “Testing is the process of evaluating a product by learning about it through exploration and experimentation”
+>
+> -- [James Bach and Michael Bolton](http://www.satisfice.com/blog/archives/1509)
+
+In that sense, we can learn about our product under test in multiple ways. Remember the [testing pyramid](/types/test-pyramid.md)? It hinted that there are different types of tests.
 
 Talking about different test types is difficult. For some people integration testing is a very broad activity that tests through a lot of different parts of your entire system. For others it's a rather narrow thing, only testing the integration with one external part at a time. Some call them *integration tests*, some refer to them as *component tests*, some prefer the term *service test*.
 
@@ -30,12 +34,9 @@ The important takeaway is that you should find terms that work for you and your 
 - Test automation
 - Checking
 
+### Test types
 
-> The more your tests resemble the way your software is used, the more confidence they can give you.
-> 
-— [Kent Dodds](https://twitter.com/kentcdodds/status/977018512689455106)
-
-### Unit tests
+#### Unit tests
 
 > **tl;dr** SUMMARY_HERE
 
@@ -67,7 +68,7 @@ The important takeaway is that you should find terms that work for you and your 
 >
 > https://martinfowler.com/articles/practical-test-pyramid.html
 
-### Integration tests
+#### Integration tests
 
 > **tl;dr** SUMMARY_HERE
 
@@ -86,7 +87,7 @@ The important takeaway is that you should find terms that work for you and your 
 >
 > https://martinfowler.com/articles/practical-test-pyramid.html
 
-### Contract tests
+#### Contract tests
 
 > **tl;dr** SUMMARY_HERE
 
@@ -126,7 +127,7 @@ The important takeaway is that you should find terms that work for you and your 
 >
 > https://martinfowler.com/articles/practical-test-pyramid.html
 
-### End-to-end tests
+#### End-to-end tests
 
 > **tl;dr** SUMMARY_HERE
 
@@ -142,7 +143,7 @@ The important takeaway is that you should find terms that work for you and your 
 >
 > https://martinfowler.com/articles/practical-test-pyramid.html
 
-### Acceptance tests
+#### Acceptance tests
 
 > **tl;dr** SUMMARY_HERE
 
@@ -164,7 +165,31 @@ The important takeaway is that you should find terms that work for you and your 
 >
 > https://martinfowler.com/articles/practical-test-pyramid.html
 
-### Regression tests
+> Acceptance tests are more abstract, business focused, tests that are attempting to check that the team is developing what the business wants. They can be written in the same the format as test scripts but more high level so that non-technical users can interpret how the application is expected to work. However, they can also be written using a language known as Gherkin, which has gained popularity in the last few years.
+>
+> [Gherkin](http://docs.behat.org/en/v2.5/guides/1.gherkin.html) follows the format of Given…, When…., Then…. like the example below:
+>
+> ​     Given I am a registered user of the product
+>
+> ​     When I log in with my credentials
+>
+> ​     Then I should be logged into the product
+>
+> Sometimes testers get confused about the use of Gherkin and acceptance tests and fall into the trap of trying to use Gherkin to create test scripts. Acceptance tests should be treated as a guide for the team rather than a tool for validation. This means teams can use a few acceptance tests to guide them towards developing what the business wants and not create exhaustive tests using Gherkin.
+>
+> So what value might you get from using acceptance tests?
+>
+> - Acceptance tests are best generated in a group with developers and business owners. The high level, abstract, nature of them means they are great for initiating discussions/collaborations.
+> - Show how the app behaves when all the acceptance criteria are put together
+> - Acceptance tests, especially in Gherkin, describe not only the rules of the application in the form of acceptance criteria but also the expectation of how those rules will behave when an end user interacts with them.
+>
+> And what about weaknesses or pitfalls to be aware of?
+>
+> - Acceptance tests are often misunderstood and the format is used to create test scripts. Which means you don’t get the collaborative value from them (too many to talk through) and they don’t offer enough detail (they are too abstract)
+>
+> -- https://www.ministryoftesting.com/articles/36e94742
+
+#### Regression tests
 
 > **tl;dr** Checks for the return of a previously fixed issue.
 
@@ -185,7 +210,9 @@ Your team also gets to decide which tests to run and how frequently. If you have
 
 If you consistently experience failed regression checks (assuming they are genuine issues and not false positives), it is important to investigate the root cause. This indicates that there might be something in your development process that increases the likelihood of regressions. Take the necessary steps to fix the underlying problem and avoid unnecessary regressions.
 
-### Exploratory testing
+### Testing approaches
+
+#### Exploratory testing
 
 > **tl;dr** SUMMARY_HERE
 
@@ -197,7 +224,40 @@ If you consistently experience failed regression checks (assuming they are genui
 >
 > https://martinfowler.com/articles/practical-test-pyramid.html
 
+### Types vs Risks - Are there more types of testing?
+
+> The more your tests resemble the way your software is used, the more confidence they can give you.
+>
+> — [Kent Dodds](https://twitter.com/kentcdodds/status/977018512689455106)
+
+> When you are describing the testing that you are doing to someone unfamiliar, or even familiar, with the craft of software testing, do you talk about of the types of testing that you do? Or do you talk about types of risks that you test for? Both? Neither? Is there a difference?
+>
+> All of these types of testing are trying to describe the testing being done in relation to specific areas of concern. But if you think about it, all of these types of testing are really just describing testing that is specifically focused on testing types of product risks.
+>
+> Functional Testing is testing that focuses on functional risks. Regression Testing is testing that focuses on the risks relating to the software regressing with changes. Integration Testing is testing that focuses on integration risks regarding the feature, component or some part of the software being worked on with other features, components or parts connected with it.
+>
+> Things like “exploratory testing” or “scripted testing”, well, they’re approaches to testing, and things like “black box testing” or “white box testing” are testing techniques. So I don’t include these as “types of testing”.
+>
+> Imagine yourself testing something. Think about an instance of a test – a test idea that you might have. What drives that test idea? When testing software, our tests relate to some kind of product risk. By “product risk”, I mean risks that specifically relate to the product. A test relates to some kind of risk that we are testing for.
+>
+> Example: We simulate ten thousand people browsing the feature at the same time to test for user load related risks. “XYZ Testing” is testing that focuses on the risks of “XYZ”. 
+>
+> Counter-example: if our context was that we were working on a mobile app, then a something we’d test for is how much our app runs down the battery. Have you ever heard of “battery consumption testing” as a type of testing? No… But this is a type of product risk that we should definitely investigate!
+>
+> Motivation:
+>
+> - You move away from implicitly talking about testing phases – types of testing typically subconsciously force our thinking down a path of: “we need to do this type of testing, then do that type of testing, then do that other type of testing…” Doing for the sake of doing. Everyone is doing it. Clarifies the motivation for having those tests.
+> - You get better at telling your testing story – i.e. “this test was to investigate this risk. Here’s what I discovered about this risk. I need more time to test this feature as this risk is important to investigate”.
+> - You spot gaps in your testing more easily – i.e. “we tested for risks relating to lots of data being used in the transaction (i.e. data load risks), but that made me think about transaction load risks, so what if we had lots of transactions at one time?”
+> - You’ll also get better at discovering more risks that you might not have thought about before. You’ll certainly be more likely to ask the question: “What risks have we not thought about yet?”
+>
+> -- https://danashby.co.uk/2019/05/01/risk-based-testing-part-one-talking-about-risks-over-types-of-testing/
+
 ## Practice
+
+> I don’t believe there is such thing as a good test or a bad test. Even if I run the most simple and shallow of tests, if it reveals a bug, helps me come up with a new test idea, or reveals some information that is new or useful to me, then it’s a good test. This doesn’t mean that I can solely rely on simple or shallow tests.
+>
+> -- Mark W. https://www.ministryoftesting.com/articles/48684b2d
 
 ## Teachers
 
