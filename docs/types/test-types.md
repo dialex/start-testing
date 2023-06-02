@@ -44,21 +44,29 @@ The important takeaway is that you should find terms that work for you and your 
 
 #### Black box testing
 
+> A “box” that takes some input and gives you some output. You don’t know what’s going on inside.
+>
+> -- [Albert Gareev](http://automation-beyond.com/2016/08/30/on-white-box-and-black-box-testing/)
+
 Black box testing is classification given to any test that is executed without knowing or caring about the internal workings of the system under test. The term "black box" is used because the system is treated as an opaque or mysterious box. The tester provides inputs to the system and observes the outputs or actions it produces. The focus is checking the system's external behaviour to ensure it matches the system's requirements and the user's expectations.
 
 Examples of black box testing include:
 
-- UI Testing: Testing the user interface to ensure it is easy to use and understand, regardless its code implementation.
-- Integration Testing: Testing the interaction between different components to ensure they can cooperate, regardless how each component is implemented.
-- Functional Testing: Testing the features or functions of the system, without caring how that behaviour is implemented.
+- [UI Testing](): Testing the user interface to ensure it is easy to use and understand, regardless its code implementation.
+- [Integration Testing](): Testing the interaction between different components to ensure they can cooperate, regardless how each component is implemented.
+- [Functional Testing](): Testing the features or functions of the system, without caring how that behaviour is implemented.
 
 #### White box testing
+
+> We can read the code. We understand what it’s supposed to do. The code is in a glass “box”.
+>
+> -- [Albert Gareev](http://automation-beyond.com/2016/08/30/on-white-box-and-black-box-testing/)
 
 White box testing is a classification given to any test that knows the internal structure of the system and checks details of its internal behaviour. The term "white box" suggests that the system is treated as a transparent box, where the tester can see inside. The tester uses their knowledge of the system to create tests that are more detailed and thorough than black box tests. The focus is checking the information flow and the internal state of the system during the test execution.
 
 Examples of white box testing techniques include:
 
-- Unit Testing: Testing the behaviour of methods inside a component, to validate how many times a specific method is called and with what parameters (information flow) or to examine the values of internal variables during different stages of execution (internal state).
+- [Unit Testing](): Testing the behaviour of methods inside a component, to validate how many times a specific method is called and with what parameters (information flow) or to examine the values of internal variables during different stages of execution (internal state).
 
 ### Types of tests
 
@@ -294,3 +302,4 @@ If you consistently experience failed regression checks (assuming they are genui
 - [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
 - [Things Could Get Worse: Ideas About Regression Testing](https://www.developsense.com/presentations/2013-05-STAREast-Regression.pdf)
 - [Contract testing by Pact: Convince me](https://docs.pact.io/faq/convinceme.html)
+- [On “White Box” and “Black Box” testing](http://automation-beyond.com/2016/08/30/on-white-box-and-black-box-testing/)
