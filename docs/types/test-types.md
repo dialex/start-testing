@@ -70,6 +70,16 @@ Examples of white box testing techniques include:
 
 ### Types of tests
 
+#### Static tests
+
+> **tl;dr** SUMMARY_HERE
+
+Static tests, also known as static analysis or linting, focus on examining the source code without actually executing it.
+
+It looks for potential (runtime) errors, vulnerabilities, and code quality issues. Examples of code quality issues include syntax errors, coding conventions violations, unused variables, incorrect types, and more.
+
+These checks are very fast to run and you don't have to write them -- you simply run a tool. You should take advantage of these cost-effective tools because they improve the quality of your code with minimal effort.
+
 #### Unit tests
 
 > **tl;dr** SUMMARY_HERE
