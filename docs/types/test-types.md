@@ -131,6 +131,10 @@ These checks are very fast to run and you don't have to write them -- you simply
 >
 > https://martinfowler.com/articles/practical-test-pyramid.html
 
+> Integration tests are a type of software testing that focuses on testing the interaction and collaboration between different components or modules of a system. These tests aim to verify that the integrated parts of the system work together correctly and produce the expected results. Integration tests are important because they help identify issues that may arise when multiple components are combined, such as communication problems, data mismatches, or compatibility issues.
+>
+> By simulating real-world scenarios and validating the interaction between different system parts, integration tests ensure that the system functions as a cohesive whole, reducing the risk of failures or errors when the software is deployed in a production environment. They provide confidence in the overall system reliability and help uncover potential integration-related bugs early in the development process, leading to a more robust and stable software product.
+
 #### Contract tests
 
 > **tl;dr** SUMMARY_HERE
@@ -306,6 +310,7 @@ If you consistently experience failed regression checks (assuming they are genui
 ## Teachers
 
 - [Michael Bolton](https://www.developsense.com/)
+- [Kent C. Dodds](https://kentcdodds.com/blog)
 
 ## Sources
 
@@ -313,3 +318,5 @@ If you consistently experience failed regression checks (assuming they are genui
 - [Things Could Get Worse: Ideas About Regression Testing](https://www.developsense.com/presentations/2013-05-STAREast-Regression.pdf)
 - [Contract testing by Pact: Convince me](https://docs.pact.io/faq/convinceme.html)
 - [On “White Box” and “Black Box” testing](http://automation-beyond.com/2016/08/30/on-white-box-and-black-box-testing/)
+- [Static vs Unit vs Integration vs E2E Testing for Frontend Apps](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests)
+- [Say TATTA to Your TUTTU](https://www.youtube.com/watch?v=VGNxv9ilFbQ)
