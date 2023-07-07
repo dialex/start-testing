@@ -24,7 +24,11 @@ What's important is that you and your team speak the same testing language. Make
 
 #### Functional testing
 
+TODO
+
 #### Non functional testing
+
+TODO
 
 #### Black box testing
 
@@ -32,7 +36,7 @@ What's important is that you and your team speak the same testing language. Make
 >
 > -- [Albert Gareev](http://automation-beyond.com/2016/08/30/on-white-box-and-black-box-testing/)
 
-Black box testing is classification given to any test that is executed without knowing or caring about the internal workings of the system under test. The term "black box" is used because the system is treated as an opaque or mysterious box. The tester provides inputs to the system and observes the outputs or actions it produces. The focus is checking the system's external behaviour to ensure it matches the system's requirements and the user's expectations.
+Black box testing is a classification given to any test that is executed without knowing or caring about the internal workings of the system under test. The term "black box" is used because the system is treated as an opaque or mysterious box. The tester provides inputs to the system and observes the outputs or actions it produces. The focus is checking the system's external behaviour to ensure it matches the system's requirements and the user's expectations.
 
 Examples of black box testing include:
 
@@ -56,7 +60,7 @@ Examples of white box testing techniques include:
 
 #### Static tests
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** Examine the code (without executing it) looking for potential errors and code quality issues.
 
 Static tests, also known as static analysis or linting, focus on examining the source code without actually executing it.
 
