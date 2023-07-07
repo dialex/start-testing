@@ -2,6 +2,8 @@
 
 > **tl;dr** SUMMARY_HERE
 
+[toc]
+
 ## Theory
 
 > “Testing is the process of evaluating a product by learning about it through exploration and experimentation”
@@ -14,7 +16,7 @@ Talking about different test types is difficult. For some people integration tes
 
 The software development community simply hasn't managed to settle on well-defined terms around testing, yet.
 
-The important takeaway is that you should find terms that work for you and your team. Be clear about the different types of tests that you want to write. Agree on the naming in your team and find consensus on the scope of each type of test. 
+The important takeaway is that you should find terms that work for you and your team. Be clear about the different types of tests that you want to write. Agree on the naming in your team and find consensus on the scope of each type of test.
 
 - Exploratory testing
 - Functional testing
@@ -31,10 +33,9 @@ The important takeaway is that you should find terms that work for you and your 
 - Snapshot testing
 - ATDD
 - Monkey testing
+- Mutation testing
 - Test automation
 - Checking
-
-
 
 ### "Categories of testing" -> CHANGE TITLE
 
@@ -94,7 +95,7 @@ These checks are very fast to run and you don't have to write them -- you simply
 >
 > There's a fine line when it comes to writing unit tests: They should ensure that all your non-trivial code paths are tested (including happy path and edge cases). At the same time they shouldn't be tied to your implementation too closely.
 >
-> A unit test class should at least test the public interface of the class. 
+> A unit test class should at least test the public interface of the class.
 >
 > This way you lose one big benefit of unit tests: acting as a safety net for code changes. You rather become fed up with those stupid tests failing every time you refactor, causing more work than being helpful; and whose idea was this stupid testing stuff anyways?
 >
@@ -160,6 +161,10 @@ These checks are very fast to run and you don't have to write them -- you simply
 > The team providing the interface should fetch and run these CDC tests continuously (in their build pipeline) to spot any breaking changes immediately. If they break the interface their CDC tests will fail, preventing breaking changes to go live. As long as the tests stay green the team can make any changes they like without having to worry about other teams.
 >
 > https://martinfowler.com/articles/practical-test-pyramid.html
+
+#### API tests
+
+TODO
 
 #### UI tests
 
@@ -237,6 +242,12 @@ These checks are very fast to run and you don't have to write them -- you simply
 >
 > -- https://www.ministryoftesting.com/articles/36e94742
 
+> Yet acceptability of a product is multi-dimensional. In the end, the product is always being used by people to solve some problem. The code may perform certain functions exquisitely as part of product that is an incomplete solution to the problem, that is hard to use, or that we hate.
+>
+> When the acceptance tests pass, the product *might* be acceptable. When the acceptance tests fail, we know for sure that the product *isn’t* acceptable. Thus I’d argue that instead of talking about acceptance tests, we should be talking about them as **rejection tests**.
+>
+> -- https://developsense.com/blog/2010/08/acceptance-tests-lets-change-the-title-too
+
 #### Regression tests
 
 > **tl;dr** Checks for the return of a previously fixed issue.
@@ -258,6 +269,41 @@ Your team also gets to decide which tests to run and how frequently. If you have
 
 If you consistently experience failed regression checks (assuming they are genuine issues and not false positives), it is important to investigate the root cause. This indicates that there might be something in your development process that increases the likelihood of regressions. Take the necessary steps to fix the underlying problem and avoid unnecessary regressions.
 
+#### Smoke tests
+
+
+
+#### Fuzzy tests
+
+> [Beizer’s explanation](http://www.qsgsoft.com/the-software-testing-pesticide-paradox/) is that pests will no longer exist in the places where you’ve applied pesticide; you’ll find them only where you haven’t applied it. The analogy to testing is that, over time, you’ll find fewer and fewer bugs in the parts of your code that have been highly tested, and the bugs that users do find will be in the areas that you have tested less rigorously.
+>
+> Roughly speaking, fuzzing is testing without knowing what a specific outcome should be. When fuzzing, you don’t necessarily know what *should* happen, but you have a good idea of some things that *shouldn’t*, such as 404 errors, server crashes, or application crashes.
+>
+> One of the reasons testers are reluctant to adopt randomization is concern about reproducibility. Your automation has little value if you can’t reproduce the situation that caused a specific unexpected behavior. Without reproducibility, it’s harder to debug a potential issue, and your team can’t assess whether or not it has fixed the issue.
+>
+> Instead, the type of browser fuzzing described here facilitates each actor working to its strength: Computers do the grunt, repetitive work, while humans do the cognitive work of deciding if a specific weirdness constitutes a problem.
+>
+> https://responsibleautomation.wordpress.com/2023/05/31/kill-more-bugs-add-randomization-to-your-web-testing/
+
+#### Stress testing
+
+> How the product behaves with unexpectedly huge numbers.
+>
+> Overwhelm the product. Too big. Too often. Too fast.
+
+#### Load testing
+>
+> How the product behaves with high but expected numbers over a long period of time.
+
+#### Accessibility testing
+>
+> - https://github.com/pa11y/pa11y
+> - https://github.com/dequelabs/axe-core
+
+
+
+// Probably should go to Practice
+
 ### Testing approaches
 
 #### Exploratory testing
@@ -271,6 +317,10 @@ If you consistently experience failed regression checks (assuming they are genui
 > During exploratory testing you will spot problems that slipped through your build pipeline unnoticed. Don't be frustrated. This is great feedback on the maturity of your build pipeline. As with any feedback, make sure to act on it: Think about what you can do to avoid these kinds of problems in the future. Maybe you're missing out on a certain set of automated tests. Maybe you have just been sloppy with your automated tests in this iteration and need to test more thoroughly in the future. Maybe there's a shiny new tool or approach that you could use in your pipeline to avoid these issues in the future. Make sure to act on it so your pipeline and your entire software delivery will grow more mature the longer you go.
 >
 > https://martinfowler.com/articles/practical-test-pyramid.html
+
+#### Automation (in) testing
+
+TODO
 
 ### Types vs Risks - Are there more types of testing?
 
@@ -288,7 +338,7 @@ If you consistently experience failed regression checks (assuming they are genui
 >
 > Imagine yourself testing something. Think about an instance of a test – a test idea that you might have. What drives that test idea? When testing software, our tests relate to some kind of product risk. By “product risk”, I mean risks that specifically relate to the product. A test relates to some kind of risk that we are testing for.
 >
-> Example: We simulate ten thousand people browsing the feature at the same time to test for user load related risks. “XYZ Testing” is testing that focuses on the risks of “XYZ”. 
+> Example: We simulate ten thousand people browsing the feature at the same time to test for user load related risks. “XYZ Testing” is testing that focuses on the risks of “XYZ”.
 >
 > Counter-example: if our context was that we were working on a mobile app, then a something we’d test for is how much our app runs down the battery. Have you ever heard of “battery consumption testing” as a type of testing? No… But this is a type of product risk that we should definitely investigate!
 >
@@ -305,7 +355,23 @@ If you consistently experience failed regression checks (assuming they are genui
 
 > I don’t believe there is such thing as a good test or a bad test. Even if I run the most simple and shallow of tests, if it reveals a bug, helps me come up with a new test idea, or reveals some information that is new or useful to me, then it’s a good test. This doesn’t mean that I can solely rely on simple or shallow tests.
 >
+> Good tests and bad tests do not really exist. It’s up to us as testers to create quality tests and determine what are the most suitable tests to discover information about specific risks. We can do this by questioning and discussing ideas with our teams. Additionally by discovering risks, forming test ideas around those risks, and being observant when executing them. Not every test will be of the same quality, or be structured in the same way, so you need to remain vigilant. It’s up to us, as we test, to question what we have done and what we have learned, to see if assumptions were made or if details were missed. We can always learn and improve to deliver better testing.
+>
 > -- Mark W. https://www.ministryoftesting.com/articles/48684b2d
+
+> Trade off model
+>
+> - **Speed**: How long do we have to wait to get the feedback the test gives us?
+> - **Coverage**: How much of the system (vertically) does the test exercise?
+> - **Variation**: How many near-identical variations of the test are there?
+>
+> In an ideal world, our tests would execute instantaneously, cover the entire system, and would deal every combination of inputs and states as well. Therefore, the ideal test would score very highly in all dimensions. Unfortunately this is not possible in the real world.
+>
+> As the model shows, no test can ever maximise for all dimensions. Any test will compromise on some of the dimensions. We therefore need to choose which dimension to prioritise for a test. This is the trade-off. Each test should prioritise one of the dimensions. The trade-off of priorities should be based on what feedback about the system we need.
+>
+> -- https://joshilewis.wordpress.com/2017/02/15/test-trade-offs/
+
+Check tools /tools.md
 
 ## Teachers
 
@@ -314,6 +380,7 @@ If you consistently experience failed regression checks (assuming they are genui
 
 ## Sources
 
+- [Heuristic Test Strategy Model](https://www.satisfice.com/download/heuristic-test-strategy-model)
 - [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
 - [Things Could Get Worse: Ideas About Regression Testing](https://www.developsense.com/presentations/2013-05-STAREast-Regression.pdf)
 - [Contract testing by Pact: Convince me](https://docs.pact.io/faq/convinceme.html)
