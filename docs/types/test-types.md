@@ -6,38 +6,21 @@
 
 ## Theory
 
-> “Testing is the process of evaluating a product by learning about it through exploration and experimentation”
+> “Testing is the process of learning about a product through exploration and experimentation”
 >
 > -- [James Bach and Michael Bolton](http://www.satisfice.com/blog/archives/1509)
 
 In that sense, we can learn about our product under test in multiple ways. Remember the [testing pyramid](/types/test-pyramid.md)? It hinted that there are different types of tests.
 
-Talking about different test types is difficult. For some people integration testing is a very broad activity that tests through a lot of different parts of your entire system. For others it's a rather narrow thing, only testing the integration with one external part at a time. Some call them *integration tests*, some refer to them as *component tests*, some prefer the term *service test*.
+Talking about different test types is difficult.
 
-The software development community simply hasn't managed to settle on well-defined terms around testing, yet.
+Take integration testing for instance. For some people that is a very broad activity that tests through a lot of different parts of your system. For others it's a rather narrow thing, only testing the integration with one external part at a time. Some call them *integration tests*, some refer to them as *component tests*, some prefer the term *service test*.
 
-The important takeaway is that you should find terms that work for you and your team. Be clear about the different types of tests that you want to write. Agree on the naming in your team and find consensus on the scope of each type of test.
+The software development community simply hasn't managed to settle on well-defined terms around testing -- yet.
 
-- Exploratory testing
-- Functional testing
-  - Usability testing
-  - Accessibility testing
+What's important is that you and your team speak the same testing language. Make sure you align with them on naming and scope of each relevant type of test.
 
-- Non-functional testing
-  - Performance testing
-  - Security testing
-  - Stress testing
-  - Load testing
-
-- Regression testing
-- Snapshot testing
-- ATDD
-- Monkey testing
-- Mutation testing
-- Test automation
-- Checking
-
-### "Categories of testing" -> CHANGE TITLE
+### Categories
 
 #### Functional testing
 
@@ -69,7 +52,7 @@ Examples of white box testing techniques include:
 
 - [Unit Testing](): Testing the behaviour of methods inside a component, to validate how many times a specific method is called and with what parameters (information flow) or to examine the values of internal variables during different stages of execution (internal state).
 
-### Types of tests
+### Types
 
 #### Static tests
 
@@ -285,6 +268,14 @@ If you consistently experience failed regression checks (assuming they are genui
 >
 > https://responsibleautomation.wordpress.com/2023/05/31/kill-more-bugs-add-randomization-to-your-web-testing/
 
+#### Mutation testing
+
+TODO
+
+#### Snapshot testing
+
+TODO
+
 #### Stress testing
 
 > How the product behaves with unexpectedly huge numbers.
@@ -292,6 +283,7 @@ If you consistently experience failed regression checks (assuming they are genui
 > Overwhelm the product. Too big. Too often. Too fast.
 
 #### Load testing
+
 >
 > How the product behaves with high but expected numbers over a long period of time.
 
@@ -300,7 +292,9 @@ If you consistently experience failed regression checks (assuming they are genui
 > - https://github.com/pa11y/pa11y
 > - https://github.com/dequelabs/axe-core
 
+#### Security testing
 
+#### Performance testing
 
 // Probably should go to Practice
 
@@ -375,8 +369,9 @@ Check tools /tools.md
 
 ## Teachers
 
-- [Michael Bolton](https://www.developsense.com/)
+- [James Bach](https://www.satisfice.com/)
 - [Kent C. Dodds](https://kentcdodds.com/blog)
+- [Michael Bolton](https://www.developsense.com/)
 
 ## Sources
 
