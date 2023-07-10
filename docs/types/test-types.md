@@ -86,7 +86,7 @@ Unit tests act as a safety net, allowing developers to make changes with confide
 
 > **tl;dr** Test the interaction between components to ensure they work together correctly.
 
-A product is made of several components interacting and working together with the same goal. [Unit tests](#unit-tests) check the correct behaviour of each component in isolation. Integration tests examine the behavior of these components when *integrated* together, to confirm they can interact with their "neighbours" or dependencies.
+A system is made of several components interacting and working together with the same goal. [Unit tests](#unit-tests) check the correct behaviour of each component in isolation. Integration tests examine the behavior of these components when *integrated* together, to confirm they can interact with their "neighbours" or dependencies.
 
 Integration tests identify any issues related to the communication between a pair of components (e.g. one module calling another module, one service sending data to a database, etc). If you want to test more components interacting with each other, check [end-to-end tests](#end-to-end-tests).
 
@@ -100,6 +100,32 @@ Integration tests help verify the correct behaviour of the system as whole at a 
 
 > **tl;dr** SUMMARY_HERE
 
+A *contract* assumes two entities: a *consumer* and a *provider*. The Consumer needs or expects something from the Provider. The Provider promises to behave in a certain way to any Consumer that interacts with them. The details of that promise is called the Contract (or an interface).
+
+Here's two examples of contracts: In a REST world, a provider publishes a REST API with endpoints and a consumer calls this API to fetch data or trigger behaviour. In an event-driven world, a publisher sends messages to a queue and a subscriber listens to these queues and processes events as they come.
+
+Contract tests are used to check if the agreed contract is still valid. While these checks are frequently used to test APIs, they can be used to test any contract or interface of a component.
+
+These tests are useful to the provider, 
+
+
+
+ to check that the contract is still valid.  ensure the between both sides, the contract
+
+Contract tests focuses on verifying the compatibility and agreement between two or more interconnected systems or services. The purpose of contract testing is to ensure that a provider respects the agreed contract or interface.
+
+
+
+In contract testing, each entity involved in the interaction defines its expectations (the consumer) and obligations (the provider) in the form of a contract. These contracts outline the expected inputs and outcomes (data or behaviour).
+
+
+
+The main objectives of contract testing are to validate the compatibility and compliance of interconnected systems, ensure that data is exchanged correctly, and prevent issues that may arise due to miscommunication or incompatible changes between systems. Contract tests help identify discrepancies or violations of the agreed-upon contracts, enabling early detection and resolution of potential integration issues.
+
+By conducting contract tests, teams can gain confidence in the interoperability of systems and services, reduce integration risks, and ensure that changes or updates to one system do not adversely affect others. Contract testing promotes collaboration and clear communication between different teams or organizations responsible for developing and maintaining the interconnected systems, fostering a more reliable and stable overall software ecosystem.
+
+
+
 > More modern software development organisations have found ways of scaling their development efforts by spreading the development of a system across different teams. Individual teams build individual, loosely coupled services without stepping on each others toes and integrate these services into a big, cohesive system. The more recent buzz around microservices focuses on exactly that.
 >
 > Splitting your system into many small services often means that these services need to communicate with each other via certain (hopefully well-defined, sometimes accidentally grown) interfaces.
@@ -110,7 +136,7 @@ Integration tests help verify the correct behaviour of the system as whole at a 
 > - RPC using something like [gRPC](https://grpc.io/)
 > - building an event-driven architecture using queues
 >
-> For each interface there are two parties involved: the provider and the consumer. The **provider** serves data to consumers. The **consumer** processes data obtained from a provider. In a REST world a provider builds a REST API with all required endpoints; a consumer makes calls to this REST API to fetch data or trigger changes in the other service. In an asynchronous, event-driven world, a provider (often rather called **publisher**) publishes data to a queue; a consumer (often called **subscriber**) subscribes to these queues and reads and processes data.
+> For each interface there are two parties involved: the provider and the consumer. 
 >
 > As you often spread the consuming and providing services across different teams you find yourself in the situation where you have to clearly specify the interface between these services (the so called **contract**).
 >
