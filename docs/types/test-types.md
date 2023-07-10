@@ -41,7 +41,7 @@ Black box testing is a classification given to any test that is executed without
 Examples of black box testing include:
 
 - [UI Testing](): Testing the user interface to ensure it is easy to use and understand, regardless its code implementation.
-- [Integration Testing](): Testing the interaction between different components to ensure they can cooperate, regardless how each component is implemented.
+- [Integration Testing](#integration-tests): Testing the interaction between different components to ensure they can cooperate, regardless how each component is implemented.
 - [Functional Testing](): Testing the features or functions of the system, without caring how that behaviour is implemented.
 
 #### White box testing
@@ -54,7 +54,7 @@ White box testing is a classification given to any test that knows the internal 
 
 Examples of white box testing techniques include:
 
-- [Unit Testing](): Testing the behaviour of methods inside a component, to validate how many times a specific method is called and with what parameters (information flow) or to examine the values of internal variables during different stages of execution (internal state).
+- [Unit Testing](#unit-tests): Testing the behaviour of methods inside a component, to validate how many times a specific method is called and with what parameters (information flow) or to examine the values of internal variables during different stages of execution (internal state).
 
 ### Types
 
@@ -70,9 +70,9 @@ These checks are very fast to run and you don't have to write them -- you simply
 
 #### Unit tests
 
-> **tl;dr** Assert the behaviour a small unit of code to ensure it behaves as expected (in isolation).
+> **tl;dr** Test the behaviour of a small unit of code to ensure it behaves as expected (in isolation).
 
-Unit tests check the behaviour of small units of code, hence their name. These units are typically small parts of the code, such as methods or classes. The purpose of unit testing is to verify the correctness of these units by testing them independently from the rest of the system.
+Unit tests check the behaviour of small *units* of code, hence their name. These units are typically small parts of the code, such as methods or classes. The purpose of unit testing is to verify the correctness of these units by testing them independently from the rest of the system.
 
 The core caracteristics of these tests are small, focused, fast, independent, reliable.
 
@@ -84,26 +84,17 @@ Unit tests act as a safety net, allowing developers to make changes with confide
 
 #### Integration tests
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** Test the interaction between components to ensure they work together correctly.
 
-> When writing unit tests these are usually the parts you leave out in order to come up with better isolation and faster tests. Still, your application will interact with other parts and this needs to be tested. **[Integration Tests](https://martinfowler.com/bliki/IntegrationTest.html)** are there to help. They test the integration of your application with all the parts that live outside of your application.
->
-> For your automated tests this means you don't just need to run your own application but also the component you're integrating with. If you're testing the integration with a database you need to run a database when running your tests. For testing that you can read files from a disk you need to save a file to your disk and load it in your integration test.
->
-> I like to treat integration testing more narrowly and test one integration point at a time by replacing separate services and databases with test doubles. Example:
->
-> 1. start a database
-> 2. connect your application to the database
-> 3. trigger a function within your code that writes data to the database
-> 4. check that the expected data has been written to the database by reading the data from the database
->
-> When writing *narrow integration tests* you should aim to run your external dependencies locally. Avoid integrating with the real production system in your automated tests. Blasting thousands of test requests against a production system is a surefire way to get people angry because you're cluttering their logs (in the best case) or even DoS 'ing their service (in the worst case). Integrating with a service over the network is a typical characteristic of a *broad integration test* and makes your tests slower and usually harder to write.
->
-> https://martinfowler.com/articles/practical-test-pyramid.html
+A product is made of several components interacting and working together with the same goal. [Unit tests](#unit-tests) check the correct behaviour of each component in isolation. Integration tests examine the behavior of these components when *integrated* together, to confirm they can interact with their "neighbours" or dependencies.
 
-> Integration tests are a type of software testing that focuses on testing the interaction and collaboration between different components or modules of a system. These tests aim to verify that the integrated parts of the system work together correctly and produce the expected results. Integration tests are important because they help identify issues that may arise when multiple components are combined, such as communication problems, data mismatches, or compatibility issues.
->
-> By simulating real-world scenarios and validating the interaction between different system parts, integration tests ensure that the system functions as a cohesive whole, reducing the risk of failures or errors when the software is deployed in a production environment. They provide confidence in the overall system reliability and help uncover potential integration-related bugs early in the development process, leading to a more robust and stable software product.
+Integration tests identify any issues related to the communication between a pair of components (e.g. one module calling another module, one service sending data to a database, etc). If you want to test more components interacting with each other, check [end-to-end tests](#end-to-end-tests).
+
+Mind that these integrations under test might be internal, when two components of your system interact, or external, when one component of your system relies on something external (like an API or a library).
+
+These tests help uncover problems such as compatibility issues, configuration issues, interface or contract mismatches, or errors in the flow of information between components.
+
+Integration tests help verify the correct behaviour of the system as whole at a small scale, testing one connection at a time. They play a crucial role in identifying early issues that may only surface when different components interact in runtime, reducing the risk of failures when the software is deployed in a real environment.
 
 #### Contract tests
 
@@ -242,6 +233,14 @@ If you consistently experience failed regression checks (assuming they are genui
 
 
 
+#### Sanity tests
+
+#### Monkey tests
+
+See chaos tests.
+
+#### Chaos tests
+
 #### Fuzzy tests
 
 > [Beizer’s explanation](http://www.qsgsoft.com/the-software-testing-pesticide-paradox/) is that pests will no longer exist in the places where you’ve applied pesticide; you’ll find them only where you haven’t applied it. The analogy to testing is that, over time, you’ll find fewer and fewer bugs in the parts of your code that have been highly tested, and the bugs that users do find will be in the areas that you have tested less rigorously.
@@ -333,6 +332,12 @@ TODO
 
 ## Practice
 
+Puzzle analogy
+
+- Unit: Is this a functional piece of puzzle?
+- Integration: Does this piece of puzzle fit the adjacent pieces?
+- End-to-end: Do all these pieces together form the bottom edge of the puzzle?
+
 > I don’t believe there is such thing as a good test or a bad test. Even if I run the most simple and shallow of tests, if it reveals a bug, helps me come up with a new test idea, or reveals some information that is new or useful to me, then it’s a good test. This doesn’t mean that I can solely rely on simple or shallow tests.
 >
 > Good tests and bad tests do not really exist. It’s up to us as testers to create quality tests and determine what are the most suitable tests to discover information about specific risks. We can do this by questioning and discussing ideas with our teams. Additionally by discovering risks, forming test ideas around those risks, and being observant when executing them. Not every test will be of the same quality, or be structured in the same way, so you need to remain vigilant. It’s up to us, as we test, to question what we have done and what we have learned, to see if assumptions were made or if details were missed. We can always learn and improve to deliver better testing.
@@ -364,6 +369,21 @@ Check tools /tools.md
 > It's true that the two streams of tests test the same things. Indeed, that's the point. The two together make sure that the business and engineers intend the same thing.
 >
 > — [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests)
+
+> integration
+>
+> For your automated tests this means you don't just need to run your own application but also the component you're integrating with. If you're testing the integration with a database you need to run a database when running your tests. For testing that you can read files from a disk you need to save a file to your disk and load it in your integration test.
+>
+> I like to treat integration testing more narrowly and test one integration point at a time by replacing separate services and databases with test doubles. Example:
+>
+> 1. start a database
+> 2. connect your application to the database
+> 3. trigger a function within your code that writes data to the database
+> 4. check that the expected data has been written to the database by reading the data from the database
+>
+> When writing *narrow integration tests* you should aim to run your external dependencies locally. Avoid integrating with the real production system in your automated tests. Blasting thousands of test requests against a production system is a surefire way to get people angry because you're cluttering their logs (in the best case) or even DoS 'ing their service (in the worst case). Integrating with a service over the network is a typical characteristic of a *broad integration test* and makes your tests slower and usually harder to write.
+>
+> https://martinfowler.com/articles/practical-test-pyramid.html
 
 ## Teachers
 
