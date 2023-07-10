@@ -22,8 +22,8 @@
   - [Test strategy](/toolbox/test-strategy.md)
   - [Tools](/toolbox/tester-tools.md)
 - **Test types**
-  - [Test pyramid](/types/test-pyramid.md)
   - [Test types](/types/test-types.md)
+  - [Test pyramid](/types/test-pyramid.md)
   - ~~Functional vs Non-functional~~
   - ~~White box vs Black box~~
   - ~~Unit~~
