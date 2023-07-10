@@ -70,35 +70,17 @@ These checks are very fast to run and you don't have to write them -- you simply
 
 #### Unit tests
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** Assert the behaviour a small unit of code to ensure it behaves as expected (in isolation).
 
-> Unit tests are written by programmers, using a programming language, to ensure that the code does what they intend it to do. Acceptance tests are written by business people (and QA), using an almost natural language, to make sure the code does what they intend it to do.
->
-> It's true that the two streams of tests test the same things. Indeed, that's the point. The two together make sure that the business and programmers intend the same thing.
->
-> — [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests)
+Unit tests check the behaviour of small units of code, hence their name. These units are typically small parts of the code, such as methods or classes. The purpose of unit testing is to verify the correctness of these units by testing them independently from the rest of the system.
 
-> Your unit tests make sure that a certain unit (your *subject under test*) of your codebase works as intended. Unit tests have the narrowest scope of all the tests in your test suite. The number of unit tests in your test suite will largely outnumber any other type of test.
->
-> There's a fine line when it comes to writing unit tests: They should ensure that all your non-trivial code paths are tested (including happy path and edge cases). At the same time they shouldn't be tied to your implementation too closely.
->
-> A unit test class should at least test the public interface of the class.
->
-> This way you lose one big benefit of unit tests: acting as a safety net for code changes. You rather become fed up with those stupid tests failing every time you refactor, causing more work than being helpful; and whose idea was this stupid testing stuff anyways?
->
-> What do you do instead? Don't reflect your internal code structure within your unit tests. Test for observable behaviour instead. Think about
->
-> > if I enter values `x` and `y`, will the result be `z`?
->
-> instead of
->
-> > if I enter `x` and `y`, will the method call class A first, then call class B and then return the result of class A plus the result of class B?
->
-> Private methods should generally be considered an implementation detail. That's why you shouldn't even have the urge to test them.
->
-> Yes, you should *test the public interface*. More importantly, however, you **don't test trivial code**. Don't worry, [Kent Beck said it's ok](https://stackoverflow.com/questions/153234/how-deep-are-your-unit-tests/). You won't gain anything from testing simple *getters* or *setters* or other trivial implementations (e.g. without any conditional logic). Save the time, that's one more meeting you can attend, hooray!
->
-> https://martinfowler.com/articles/practical-test-pyramid.html
+The core caracteristics of these tests are small, focused, fast, independent, reliable.
+
+Unit tests should ensure that all your non-trivial code paths are covered (including happy paths and edge cases). At the same time they shouldn't be tied to your implementation too closely. As long as the behavior of a unit remains unchanged, a unit test should not fail even if the internal implementation of the unit is modified during refactoring.
+
+These automated checks are fast to run because they don't require the whole system to be up and running and they only execute a small portion of the code. This makes them ideal to collect quick feedback and run frequently. Also, when a unit test fails, it becomes evident where the issue lies because each test covers a narrow scope and they run in isolation.
+
+Unit tests act as a safety net, allowing developers to make changes with confidence, knowing that if a unit test fails, it indicates a problem within that specific unit. These tests also simplify debugging and support refactoring, as any issues introduced by changes can be detected through failing unit tests (see [Test-Driven Development](/toolbox/dev-methodologies?id=tdd-unit-test-driven-development)).
 
 #### Integration tests
 
@@ -370,6 +352,18 @@ TODO
 > -- https://joshilewis.wordpress.com/2017/02/15/test-trade-offs/
 
 Check tools /tools.md
+
+> unit tests
+>
+> They are usually structured in three phases -- [Arrange, Act, Assert](https://wiki.c2.com/?ArrangeActAssert) -- you start by *arranging* what you need for the test, then you perform the *action(s)* you want to test, and finally you *assert* the behaviour matches your expectations.
+>
+> If your test has multiple actions, then it's too big and needs to be broken down. If it has multiple sequences of Act and Asserts, then it's testing too much and needs to be split. If it calls another
+
+> Unit tests are written by programmers, using a programming language, to ensure that the code does what they intend it to do. Acceptance tests are written by testers, using an almost natural language, to make sure the code does what they expect it to do.
+>
+> It's true that the two streams of tests test the same things. Indeed, that's the point. The two together make sure that the business and engineers intend the same thing.
+>
+> — [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests)
 
 ## Teachers
 
