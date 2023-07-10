@@ -32,14 +32,12 @@
   - ~~Smoke/Sanity~~
   - ~~Regression~~
 - **Tester roles**
-  - ~~Manual tester~~
   - ~~Exploration tester~~
   - ~~Automation tester~~
-  - ~~Technical tester~~
+  - ~~Manual vs Technical tester~~
   - ~~Bug hunter~~
   - ~~Agile team member~~
-  - ~~Mentor~~
-  - ~~Coach~~
+  - ~~Mentor vs Coach~~
   - ~~Lead tester~~
   - ~~Recruiter~~
   - ~~Certifications~~
@@ -48,7 +46,7 @@
   - ~~Performance & Load~~
   - ~~Security~~
   - ~~Risk~~
-  - ~~Database~~
+  - ~~Data~~
   - ~~Platform (DevOps)~~
   - ~~Metrics~~
   - ~~Monitoring~~
