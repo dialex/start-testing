@@ -98,55 +98,17 @@ Integration tests help verify the correct behaviour of the system as whole at a 
 
 #### Contract tests
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** Test the compatibility or expectations of two components (a consumer and a provider).
 
 A *contract* assumes two entities: a *consumer* and a *provider*. The Consumer needs or expects something from the Provider. The Provider promises to behave in a certain way to any Consumer that interacts with them. The details of that promise is called the Contract (or an interface).
 
-Here's two examples of contracts: In a REST world, a provider publishes a REST API with endpoints and a consumer calls this API to fetch data or trigger behaviour. In an event-driven world, a publisher sends messages to a queue and a subscriber listens to these queues and processes events as they come.
+In contract testing, each entity involved in the interaction defines its expectations (the consumer) and obligations (the provider) in the form of a contract. This contract outlines the expected inputs and outcomes (which can be data or behaviour).
 
-Contract tests are used to check if the agreed contract is still valid. While these checks are frequently used to test APIs, they can be used to test any contract or interface of a component.
+During the execution of contract tests, a simulated request from the consumer is sent to the provider, which handles the request. If the request or the outcomes don't match the contract, such as incorrect parameters or mismatched data types, the test will fail. Failure indicates a contract violation, meaning the interaction between those two entities is currently broken.That failure might cascade to any other component that relies of that interaction.
 
-These tests are useful to the provider, 
+These tests not only prevent issues but they also help with the debugging process. They enable consumers to easily detect broken integrations, that otherwise would fail silently and would be challenging to detect. Additionally, contract tests support providers by detecting breaking changes before they are deployed, thus preventing disruptions of their service and improving realiability.
 
-
-
- to check that the contract is still valid.  ensure the between both sides, the contract
-
-Contract tests focuses on verifying the compatibility and agreement between two or more interconnected systems or services. The purpose of contract testing is to ensure that a provider respects the agreed contract or interface.
-
-
-
-In contract testing, each entity involved in the interaction defines its expectations (the consumer) and obligations (the provider) in the form of a contract. These contracts outline the expected inputs and outcomes (data or behaviour).
-
-
-
-The main objectives of contract testing are to validate the compatibility and compliance of interconnected systems, ensure that data is exchanged correctly, and prevent issues that may arise due to miscommunication or incompatible changes between systems. Contract tests help identify discrepancies or violations of the agreed-upon contracts, enabling early detection and resolution of potential integration issues.
-
-By conducting contract tests, teams can gain confidence in the interoperability of systems and services, reduce integration risks, and ensure that changes or updates to one system do not adversely affect others. Contract testing promotes collaboration and clear communication between different teams or organizations responsible for developing and maintaining the interconnected systems, fostering a more reliable and stable overall software ecosystem.
-
-
-
-> More modern software development organisations have found ways of scaling their development efforts by spreading the development of a system across different teams. Individual teams build individual, loosely coupled services without stepping on each others toes and integrate these services into a big, cohesive system. The more recent buzz around microservices focuses on exactly that.
->
-> Splitting your system into many small services often means that these services need to communicate with each other via certain (hopefully well-defined, sometimes accidentally grown) interfaces.
->
-> Interfaces between different applications can come in different shapes and technologies. Common ones are
->
-> - REST and JSON via HTTPS
-> - RPC using something like [gRPC](https://grpc.io/)
-> - building an event-driven architecture using queues
->
-> For each interface there are two parties involved: the provider and the consumer. 
->
-> As you often spread the consuming and providing services across different teams you find yourself in the situation where you have to clearly specify the interface between these services (the so called **contract**).
->
-> Automated [contract tests](https://martinfowler.com/bliki/ContractTest.html) make sure that the implementations on the consumer and provider side still stick to the defined contract. They serve as a good regression test suite and make sure that deviations from the contract will be noticed early.
->
-> **Consumer-Driven Contract tests** (CDC tests) let the [consumers drive the implementation of a contract](https://martinfowler.com/articles/consumerDrivenContracts.html). Using CDC, consumers of an interface write tests that check the interface for all data they need from that interface. The consuming team then publishes these tests so that the publishing team can fetch and execute these tests easily. The providing team can now develop their API by running the CDC tests. Once all tests pass they know they have implemented everything the consuming team needs.
->
-> The team providing the interface should fetch and run these CDC tests continuously (in their build pipeline) to spot any breaking changes immediately. If they break the interface their CDC tests will fail, preventing breaking changes to go live. As long as the tests stay green the team can make any changes they like without having to worry about other teams.
->
-> https://martinfowler.com/articles/practical-test-pyramid.html
+Through contract tests, teams gain confidence in the compatibility of systems and services, ensuring that changes to one system do not negatively impact others. Contract testing also promotes collaboration between different teams through the usage of Consumer-Driven Contract tests ([CDC tests](https://martinfowler.com/articles/consumerDrivenContracts.html)).
 
 #### API tests
 
