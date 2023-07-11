@@ -112,7 +112,13 @@ Through contract tests, teams gain confidence in the compatibility of systems an
 
 #### API tests
 
-TODO
+> **tl;dr** Test the behaviour (functionality, performance, security, etc.) of an API.
+
+API testing verifies the behaviour of application programming interfaces (APIs). There are many aspects of an API that can be tested, such as its interface (see [contract testing](#contract-tests)), its responses, how it handles errors and edge cases, and many more. There are also non-funcional aspects like authentication (security tests) and response times or resources usage (performance tests).
+
+While it is possible to test the outcomes of an API through a user interface (UI), that is not recommended. It is much faster and reliable to test the API directly, by issuing direct calls to the endpoints of the API under test. Testing the API directly allows you to pinpoint issues within the API or its dependencies, whereas testing through the UI introduces uncertainty as problems could arise from the UI or backend communication with the API (see [Say TATTA to Your TUTTU](https://www.youtube.com/watch?v=VGNxv9ilFbQ)).
+
+In summary, API testing might include checking the functionality, performance and security of APIs to ensure they operate correctly and meet expected requirements.
 
 #### UI tests
 
@@ -387,4 +393,3 @@ Check tools /tools.md
 - [Contract testing by Pact: Convince me](https://docs.pact.io/faq/convinceme.html)
 - [On “White Box” and “Black Box” testing](http://automation-beyond.com/2016/08/30/on-white-box-and-black-box-testing/)
 - [Static vs Unit vs Integration vs E2E Testing for Frontend Apps](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests)
-- [Say TATTA to Your TUTTU](https://www.youtube.com/watch?v=VGNxv9ilFbQ)
