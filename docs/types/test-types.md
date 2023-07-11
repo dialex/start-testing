@@ -122,17 +122,15 @@ In summary, API testing might include checking the functionality, performance an
 
 #### UI tests
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** Test the apperance and behaviour of a UI.
 
-> Depending on the technology you use, testing your user interface can be as simple as writing some unit tests for your frontend javascript code with your backend stubbed out. With web interfaces there's multiple aspects that you probably want to test around your UI: behaviour, layout, usability or adherence to your corporate design are only a few.
->
-> Fortunately, testing the *behaviour* of your user interface is pretty simple. You click here, enter data there and want the state of the user interface to change accordingly. Modern single page application frameworks ([react](https://facebook.github.io/react/), [vue.js](https://vuejs.org/), [Angular](https://angular.io/) and the like) often come with their own tools and helpers that allow you to thoroughly test these interactions in a pretty low-level (unit test) fashion.
->
-> Testing that your web application's *layout* remains intact is a little harder. Depending on your application and your users' needs you may want to make sure that code changes don't break the website's layout by accident.
->
-> The problem is that computers are notoriously bad at checking if something "looks good", see ["snapshot tests"](). Once you want to test for *usability* and a "looks good" factor you leave the realms of automated testing. This is the area where you should rely on [exploratory testing](https://en.wikipedia.org/wiki/Exploratory_testing), usability testing (this can even be as simple as [hallway testing](https://en.wikipedia.org/wiki/Usability_testing#Hallway_testing)) and showcases with your users to see if they like using your product and can use all features without getting frustrated or annoyed.
->
-> https://martinfowler.com/articles/practical-test-pyramid.html
+UI tests assert if the user interface (UI) of a system behaves and looks as intended, validating both its behavior and appearance. Other aspects of the UI, like usability and accessibility, are evaluated by other types of tests, like [exploratory testing](#exploratory-testing) and [a11y testing](#accessability-testing) respectively.
+
+Depending on the technology you use, testing your UI can be as simple as writing some unit tests for your frontend code. Modern frameworks often come with their own tools and helps to support this kind of testing.
+
+Clicking a button and checking it changes color or disappears, typing an invalid value in a form and checking that validation is triggered, doing an action and checking that a warning is displayed to the user, all these are examples of testing the behaviour of a UI.
+
+You can also test the design of your UI. In that case, you will render a page and check that the font is right, that there are no missing images, that specific components are visible, maybe even the layout and position of those components. However, given a UI contains many components, testing the appearance of all your pages becomes very expensive very fast. It doesn't help that those tests are tedious to write and they easily break. One solution is to cover that risk with a different kind of tests (see [snapshot tests](#snapshot-tests)).
 
 #### End-to-end tests
 
