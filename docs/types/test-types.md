@@ -134,19 +134,21 @@ You can also test the design of your UI. In that case, you will render a page an
 
 #### End-to-end tests
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** Simulate user journeys in order to test the whole system instead of its parts.
 
-> End-to-end tests give you the biggest confidence when you need to decide if your software is working or not. Automate your tests by driving a (headless) browser against your deployed services, performing clicks, entering data and checking the state of your user interface.
->
-> End-to-End tests come with their own kind of problems. They are notoriously flaky and often fail for unexpected and unforeseeable reasons. Quite often their failure is a false positive. The more sophisticated your user interface, the more flaky the tests tend to become. Browser quirks, timing issues, animations and unexpected popup dialogs are only some of the reasons that got me spending more of my time with debugging than I'd like to admit.
->
-> Due to their high maintenance cost you should aim to reduce the number of end-to-end tests to a bare minimum.
->
-> Think about the high-value interactions users will have with your application. Try to come up with user journeys that define the core value of your product and translate the most important steps of these user journeys into automated end-to-end tests.
->
-> Remember: you have lots of lower levels in your test pyramid where you already tested all sorts of edge cases and integrations with other parts of the system. There's no need to repeat these tests on a higher level. High maintenance effort and lots of false positives will slow you down and cause you to lose trust in your tests, sooner rather than later.
->
-> https://martinfowler.com/articles/practical-test-pyramid.html
+Until now, tests have focused on a testing a specific part of the system, usually in isolation, sometimes using fake dependencies. End-to-end (E2E) tests are the complete opposite -- they ignore the parts and they use the real deal.
+
+E2E tests evaluate the system as a whole, from start to finish. These tests simulate users interacting with the system, acting out real-world scenarios, using realistic systems (i.e. close to production environment).
+
+They are called "end to end" because they exercise the entirety of the system, from one end to the other. You can picture the tests running *horizontally* or *vertically* across the system.
+
+Imagine the system as a stack of layers, with each layer using the layer below it. For instance, the database layer serves as the foundation, followed by the API or service layer, and finally the UI layer on top. During an E2E test, an action is initiated at the topmost layer, propagating requests throughout the system, until they ultimately return to the UI. In this case you are testing the system *end to end vertically*, across several technological layers.
+
+Now imagine you are testing a user journey, like adding a product to a cart on an e-commerce website. To test that journey, several features of the system will be tested such as listing products, adding item to cart and displaying the items in the cart. In this case you are testing the system *end to end horizontally*, across several features.
+
+These tests have advantages and limitations. They are valuable because they are realistic. When an E2E test fails it usually means the user would also fail to perform the same action. That's true unless your E2E tests are "flaky", non-deterministic or unrealiable. Because E2E tests require real components interacting with each other, it just takes one faulty component for the whole test to fail. That's why these tests tend to be fragile.
+
+E2E tests come with both advantages and limitations. They are valuable because they closely resemble real user interactions, which means a failed E2E test typically means a user would encounter a similar issue. However, E2E tests can be unreliable due to flakiness. Since these tests use real components, a single faulty component can cause the entire test to fail. That's why these tests tend to be fragile.
 
 #### Acceptance tests
 
