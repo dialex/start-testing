@@ -150,6 +150,27 @@ These tests have advantages and limitations. They are valuable because they are 
 
 E2E tests come with both advantages and limitations. They are valuable because they closely resemble real user interactions, which means a failed E2E test typically means a user would encounter a similar issue. However, E2E tests can be unreliable due to flakiness. Since these tests use real components, a single faulty component can cause the entire test to fail. That's why these tests tend to be fragile.
 
+#### Regression tests
+
+> **tl;dr** Checks for the return of a previously fixed issue.
+
+Regression testing involves checking for the return of unwanted behavior in software . For example, if you fix a problem and later encounter the same issue, that's called a regression. Regression testing aims to find such regressions, but it only detects issues that were previously known -- it doesn't uncover new issues. This type of testing can tell you if the quality has worsened, but not if it was already bad.
+
+A good practice is to add a test for every bug you fix. This has two advantages: it confirms that the issue is indeed fixed, and it helps catch future regressions of that same issue.
+
+> Breaking stuff that *worked* before is *embarrassing*.
+> Breaking stuff that was *broken and fixed* before is *really embarrassing*.
+>
+> -- [Michael Bolton](https://www.developsense.com/presentations/2013-05-STAREast-Regression.pdf)
+
+Over time, you will discover more issues and create additional regression tests to address them. As a result, you will accumulate a significant number of regression tests. These tests can be executed either manually (by following a guide), or automatically (by running a script).
+
+However, as the number of tests grows, running them all manually will become costly and time-consuming. Since regression tests are repetitive, it is better to automate them, eliminating the need for human involvement without sacrificing any benefits. To decide which regression tests to write or prioritise, check the [`RCRCRC`](/toolbox/mnemonics.md) mnemonic.
+
+Your team also gets to decide which tests to run and how frequently. If you have sufficient resources, running all tests before pushing code changes is ideal. However, if your team is limited, optimization becomes necessary. You can select a subset of tests that are crucial and run them before each push to the code repository. The remaining tests can be scheduled to run at a specific time of the day. Another approach is to organize tests by modules, allowing you to prioritize regression tests related to the specific area of code that was modified. For example, if you made changes to the user account module, it would be a priority to run the regression tests associated with that module.
+
+If you consistently experience failed regression checks (assuming they are genuine issues and not false positives), it is important to investigate the root cause. This indicates that there might be something in your development process that increases the likelihood of regressions. Take the necessary steps to fix the underlying problem and avoid unnecessary regressions.
+
 #### Acceptance tests
 
 > **tl;dr** SUMMARY_HERE
@@ -202,26 +223,7 @@ E2E tests come with both advantages and limitations. They are valuable because t
 >
 > -- https://developsense.com/blog/2010/08/acceptance-tests-lets-change-the-title-too
 
-#### Regression tests
 
-> **tl;dr** Checks for the return of a previously fixed issue.
-
-Regression testing involves checking for the return of unwanted behavior in software . For example, if you fix a problem and later encounter the same issue, that's called a regression. Regression testing aims to find such regressions, but it only detects issues that were previously known -- it doesn't uncover new issues. This type of testing can tell you if the quality has worsened, but not if it was already bad.
-
-A good practice is to add a test for every bug you fix. This has two advantages: it confirms that the issue is indeed fixed, and it helps catch future regressions of that same issue.
-
-> Breaking stuff that *worked* before is *embarrassing*.
-> Breaking stuff that was *broken and fixed* before is *really embarrassing*.
->
-> -- [Michael Bolton](https://www.developsense.com/presentations/2013-05-STAREast-Regression.pdf)
-
-Over time, you will discover more issues and create additional regression tests to address them. As a result, you will accumulate a significant number of regression tests. These tests can be executed either manually (by following a guide), or automatically (by running a script).
-
-However, as the number of tests grows, running them all manually will become costly and time-consuming. Since regression tests are repetitive, it is better to automate them, eliminating the need for human involvement without sacrificing any benefits. To decide which regression tests to write or prioritise, check the [`RCRCRC`](/toolbox/mnemonics.md) mnemonic.
-
-Your team also gets to decide which tests to run and how frequently. If you have sufficient resources, running all tests before pushing code changes is ideal. However, if your team is limited, optimization becomes necessary. You can select a subset of tests that are crucial and run them before each push to the code repository. The remaining tests can be scheduled to run at a specific time of the day. Another approach is to organize tests by modules, allowing you to prioritize regression tests related to the specific area of code that was modified. For example, if you made changes to the user account module, it would be a priority to run the regression tests associated with that module.
-
-If you consistently experience failed regression checks (assuming they are genuine issues and not false positives), it is important to investigate the root cause. This indicates that there might be something in your development process that increases the likelihood of regressions. Take the necessary steps to fix the underlying problem and avoid unnecessary regressions.
 
 #### Smoke tests
 
@@ -378,12 +380,6 @@ Check tools /tools.md
 > When writing *narrow integration tests* you should aim to run your external dependencies locally. Avoid integrating with the real production system in your automated tests. Blasting thousands of test requests against a production system is a surefire way to get people angry because you're cluttering their logs (in the best case) or even DoS 'ing their service (in the worst case). Integrating with a service over the network is a typical characteristic of a *broad integration test* and makes your tests slower and usually harder to write.
 >
 > https://martinfowler.com/articles/practical-test-pyramid.html
-
-## Teachers
-
-- [James Bach](https://www.satisfice.com/)
-- [Kent C. Dodds](https://kentcdodds.com/blog)
-- [Michael Bolton](https://www.developsense.com/)
 
 ## Sources
 
