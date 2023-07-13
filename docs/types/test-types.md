@@ -197,13 +197,17 @@ Same as [acceptance tests](#acceptance-tests) but more "honest".
 >
 > -- [Michael Bolton](https://developsense.com/blog/2010/08/acceptance-tests-lets-change-the-title-too)
 
+#### Sanity tests
 
+Tests that should always be right, no matter what.
+
+> Examples
+> `expect(true).to.be.true;`
+> `expect(1).to.equal(1);`
+
+If these tests fail, there's something wrong with the test framework or its configuration.
 
 #### Smoke tests
-
-
-
-#### Sanity tests
 
 #### Monkey tests
 
