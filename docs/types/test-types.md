@@ -173,55 +173,29 @@ If you consistently experience failed regression checks (assuming they are genui
 
 #### Acceptance tests
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** Test the system as a user would on a real scenario to check if it behaves as desired.
 
-> At one point you should make sure to test that your software works correctly from a *user's* perspective, not just from a technical perspective. What you call these tests is really not that important. Having these tests, however, is. Pick a term, stick to it, and write those tests.
->
-> This is also the moment where people talk about BDD and tools that allow you to implement tests in a BDD fashion. BDD or a BDD-style way of writing tests can be a nice trick to shift your mindset from implementation details towards the users' needs.
->
-> Acceptance tests can come in different levels of granularity. Most of the time they will be rather high-level and test your service through the user interface. However, it's good to understand that there's technically no need to write acceptance tests at the highest level of your test pyramid. If your application design and your scenario at hand permits that you write an acceptance test at a lower level, go for it. Having a low-level test is better than having a high-level test. The concept of acceptance tests - proving that your features work correctly for the user - is completely orthogonal to your test pyramid.
->
-> *given* there's a logged in user
->
-> *and* there's an article "bicycle"
->
-> *when* the user navigates to the "bicycle" article's detail page
->
-> *and* clicks the "add to basket" button
->
-> *then* the article "bicycle" should be in their shopping basket
->
-> https://martinfowler.com/articles/practical-test-pyramid.html
+Acceptance tests, also known as user acceptance tests (UAT), evaluate whether a system meets the specified business requirements and user expectations. Similar to how acceptance criteria must be true for a user story to be accepted as done, acceptance tests must be passing for a feature to be accepted, hence the name.
 
-> Acceptance tests are more abstract, business focused, tests that are attempting to check that the team is developing what the business wants. They can be written in the same the format as test scripts but more high level so that non-technical users can interpret how the application is expected to work. However, they can also be written using a language known as Gherkin, which has gained popularity in the last few years.
->
-> [Gherkin](http://docs.behat.org/en/v2.5/guides/1.gherkin.html) follows the format of Given…, When…., Then…. like the example below:
->
-> ​     Given I am a registered user of the product
->
-> ​     When I log in with my credentials
->
-> ​     Then I should be logged into the product
->
-> Sometimes testers get confused about the use of Gherkin and acceptance tests and fall into the trap of trying to use Gherkin to create test scripts. Acceptance tests should be treated as a guide for the team rather than a tool for validation. This means teams can use a few acceptance tests to guide them towards developing what the business wants and not create exhaustive tests using Gherkin.
->
-> So what value might you get from using acceptance tests?
->
-> - Acceptance tests are best generated in a group with developers and business owners. The high level, abstract, nature of them means they are great for initiating discussions/collaborations.
-> - Show how the app behaves when all the acceptance criteria are put together
-> - Acceptance tests, especially in Gherkin, describe not only the rules of the application in the form of acceptance criteria but also the expectation of how those rules will behave when an end user interacts with them.
->
-> And what about weaknesses or pitfalls to be aware of?
->
-> - Acceptance tests are often misunderstood and the format is used to create test scripts. Which means you don’t get the collaborative value from them (too many to talk through) and they don’t offer enough detail (they are too abstract)
->
-> -- https://www.ministryoftesting.com/articles/36e94742
+Acceptance tests are typically performed by users or testers to validate the system against a list of acceptance criteria. While automation is common for acceptance tests, it is not mandatory. It's more important how they are written than how they are executed.
 
-> Yet acceptability of a product is multi-dimensional. In the end, the product is always being used by people to solve some problem. The code may perform certain functions exquisitely as part of product that is an incomplete solution to the problem, that is hard to use, or that we hate.
+These tests should always be described from a *user's* perspective (like [end to end tests](#end-to-end-tests)), not from a *technical* perspective (like [unit tests](#unit-tests)). Writing a test from the user's perspective can raise several "what happens when..." or "what if..." questions, which is an opportunity to learn more about the system and its requirements.
+
+That's one of the reasons why people associate [Behaviour-Driven Development (BDD)](/dev-methodologies#bdd-behaviour-driven-development) and [Gherkin syntax](/dev-methodologies#story) to acceptance tests -- it's because both BDD and Gherkin are tools that force you to *think* and *act* like a user, regardless of implementation details.
+
+When an acceptance test passes it implies the feature under test is good enough to be released. That means these tests require a high level of confidence and should closely resemble real-world usage, which is why many [E2E tests](#end-to-end-tests) serve as acceptance tests.
+
+### Others
+
+#### Rejection tests
+
+Same as [acceptance tests](#acceptance-tests) but more "honest".
+
+> Acceptability of a product is multi-dimensional. The product is used by people to solve some problem. The code may perform certain functions exquisitely as part of a product that is an incomplete solution to the problem, that is hard to use, or that we hate.
 >
 > When the acceptance tests pass, the product *might* be acceptable. When the acceptance tests fail, we know for sure that the product *isn’t* acceptable. Thus I’d argue that instead of talking about acceptance tests, we should be talking about them as **rejection tests**.
 >
-> -- https://developsense.com/blog/2010/08/acceptance-tests-lets-change-the-title-too
+> -- [Michael Bolton](https://developsense.com/blog/2010/08/acceptance-tests-lets-change-the-title-too)
 
 
 
