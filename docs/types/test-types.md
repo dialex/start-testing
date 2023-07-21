@@ -18,7 +18,7 @@ Take integration testing for instance. For some people that is a very broad acti
 
 The software development community simply hasn't managed to settle on well-defined terms around testing -- yet.
 
-What's important is that you and your team speak the same testing language. Make sure you align with them on naming and scope of each relevant type of test.
+What is important is that **you and your team speak the same testing language**. Align with your team naming and scope of each relevant type of test.
 
 ### Categories
 
@@ -241,9 +241,7 @@ TODO
 
 
 
-#### Mutation tests
 
-TODO
 
 #### Snapshot tests
 
@@ -273,18 +271,6 @@ TODO
 
 ### Testing approaches
 
-#### Chaos testing
-
-> **tl;dr** Proactively introduce controlled faults in the system and observe how it reacts and recovers.
-
-Chaos testing (or chaos engineering) intentionally introduces controlled and unexpected disruptions into a system. The goal is to assess the system's resilience and ability to withstand failures and recover from them, allowing developers to proactively address these issues before they lead to unplanned downtime and negative user experiences.
-
-During chaos testing, various types of faults, such as network outages, resource limitations, or hardware failures, are deliberately injected into the system to observe how it responds and recovers. The chaos is carefully controlled, and the impact on the system is closely monitored to ensure that it remains within acceptable bounds.
-
-Speaking of users, given chaos testing targets production, it’s important to do so in a way that minimizes any negative impact on users using the system while the testing is happening. It's crucial to have sufficient and reliable monitoring tools and an incident response team ready to react as soon as users are affected.
-
-Chaos testing plays a crucial role in building robust and resilient systems, especially in distributed and cloud-based architectures, where failures are inevitable.
-
 #### Exploratory testing
 
 > **tl;dr** SUMMARY_HERE
@@ -300,6 +286,30 @@ Chaos testing plays a crucial role in building robust and resilient systems, esp
 #### Automation (in) testing
 
 TODO
+
+#### Chaos testing
+
+> **tl;dr** Proactively introduce controlled faults in the system and observe how it reacts and recovers.
+
+Chaos testing (or chaos engineering) intentionally introduces controlled and unexpected disruptions into a system. The goal is to assess the system's resilience and ability to withstand failures and recover from them, allowing developers to proactively address these issues before they lead to unplanned downtime and negative user experiences.
+
+During chaos testing, various types of faults, such as network outages, resource limitations, or hardware failures, are deliberately injected into the system to observe how it responds and recovers. The chaos is carefully controlled, and the impact on the system is closely monitored to ensure that it remains within acceptable bounds.
+
+Speaking of users, given chaos testing targets production, it’s important to do so in a way that minimizes any negative impact on users using the system while the testing is happening. It's crucial to have sufficient and reliable monitoring tools and an incident response team ready to react as soon as users are affected.
+
+Chaos testing plays a crucial role in building robust and resilient systems, especially in distributed and cloud-based architectures, where failures are inevitable.
+
+#### Mutation testing
+
+> **tl;dr** Introduce small code changes (mutations) to check if the tests detect those mistakes.
+
+A test that always passes gives you no information about the system. It's less than useful, it's misleading. That's why when you write a test you should always try to make it fail. Mutation testing is an advanced technique that streamlines that process and evaluates how good your test suite is at detecting issues.
+
+Mutation testing introduces small changes (mutations) to the original source code under test, creating faulty versions of the software. The mutation can be as simple as replacing a plus operation with a minus or removing a few lines of code. Each mutation represents a potential mistake or error that could happen in the software. The end goal is to determine how well the test suite can identify and "kill" these mutated versions by flagging them as faulty.
+
+During the testing, the mutated code is run through the existing test suite. If the test suite successfully identifies and fails the mutated code, that mutation is considered "killed." On the other hand, if the test suite does not detect the mutation and the tests pass, it is referred to as a "surviving" mutant. The goal is to have as many mutants killed as possible, meaning the test suite is effective at detecting code defects.
+
+The mutation score is the percentage of killed mutants out of the total generated. A high mutation score indicates a robust test suite capable of detecting potential bugs, while a low score signals the need for improvements in the test suite's accuracy. Though mutation testing is computationally intensive and requires additional effort, its insights into test suite quality make it a valuable tool for enhancing software reliability.
 
 #### Random testing
 
