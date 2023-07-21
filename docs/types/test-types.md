@@ -225,33 +225,27 @@ See [smoke tests](#smoke-tests).
 
 See [smoke tests](#smoke-tests).
 
+#### Monkey tests
+
+Testing the app randomly, chaotically and mindlessly -- like a monkey 🐒
+
+See [chaos testing](#chaos-testing) and [random testing](#random-testing).
+
+#### Fuzzy tests
+
+See [random testing](#random-testing).
+
 ----
 
 TODO
 
-#### Monkey tests
 
-See chaos tests.
 
-#### Chaos tests
-
-#### Fuzzy tests
-
-> [Beizer’s explanation](http://www.qsgsoft.com/the-software-testing-pesticide-paradox/) is that pests will no longer exist in the places where you’ve applied pesticide; you’ll find them only where you haven’t applied it. The analogy to testing is that, over time, you’ll find fewer and fewer bugs in the parts of your code that have been highly tested, and the bugs that users do find will be in the areas that you have tested less rigorously.
->
-> Roughly speaking, fuzzing is testing without knowing what a specific outcome should be. When fuzzing, you don’t necessarily know what *should* happen, but you have a good idea of some things that *shouldn’t*, such as 404 errors, server crashes, or application crashes.
->
-> One of the reasons testers are reluctant to adopt randomization is concern about reproducibility. Your automation has little value if you can’t reproduce the situation that caused a specific unexpected behavior. Without reproducibility, it’s harder to debug a potential issue, and your team can’t assess whether or not it has fixed the issue.
->
-> Instead, the type of browser fuzzing described here facilitates each actor working to its strength: Computers do the grunt, repetitive work, while humans do the cognitive work of deciding if a specific weirdness constitutes a problem.
->
-> https://responsibleautomation.wordpress.com/2023/05/31/kill-more-bugs-add-randomization-to-your-web-testing/
-
-#### Mutation testing
+#### Mutation tests
 
 TODO
 
-#### Snapshot testing
+#### Snapshot tests
 
 TODO
 
@@ -279,6 +273,18 @@ TODO
 
 ### Testing approaches
 
+#### Chaos testing
+
+> **tl;dr** Proactively introduce controlled faults in the system and observe how it reacts and recovers.
+
+Chaos testing (or chaos engineering) intentionally introduces controlled and unexpected disruptions into a system. The goal is to assess the system's resilience and ability to withstand failures and recover from them, allowing developers to proactively address these issues before they lead to unplanned downtime and negative user experiences.
+
+During chaos testing, various types of faults, such as network outages, resource limitations, or hardware failures, are deliberately injected into the system to observe how it responds and recovers. The chaos is carefully controlled, and the impact on the system is closely monitored to ensure that it remains within acceptable bounds.
+
+Speaking of users, given chaos testing targets production, it’s important to do so in a way that minimizes any negative impact on users using the system while the testing is happening. It's crucial to have sufficient and reliable monitoring tools and an incident response team ready to react as soon as users are affected.
+
+Chaos testing plays a crucial role in building robust and resilient systems, especially in distributed and cloud-based architectures, where failures are inevitable.
+
 #### Exploratory testing
 
 > **tl;dr** SUMMARY_HERE
@@ -294,6 +300,18 @@ TODO
 #### Automation (in) testing
 
 TODO
+
+#### Random testing
+
+> **tl;dr** Use random inputs on every test run as a way to gradually increase test data coverage.
+
+Introducing randomness in the tests can be beneficial in some cases. We know that the more we test something, the more we learn about it, and fewer issues will remain to be discovered. If we always use the same test inputs, we're not learning new information about the system. Random testing is particularly effective in finding certain classes of bugs, especially those related to boundary conditions or unexpected inputs.
+
+What if every time the tests run, a new random input is used? If your system expects a number, any number should be fine right? There's no harm in using a number that is not always the number "5", right? Surely it won't break the system, right? That's where randomness can help. Using a new random number, string, name, address, etc. every time the test runs increases the data coverage of your testing.
+
+Computers are great at doing repetitive work, so there's little effort in generating and using new inputs for every test run. There's one catch: you must ensure the tests are reproducible. That means, once the test fails, you must have enough logs to know exactly which inputs caused the failure. Only then you will be able to debug what that particular input causes a problem. Without this information, randomness brings you no value, only inconsistency.
+
+Also see [chaos testing](#chaos-testing).
 
 ### Types vs Risks - Are there more types of testing?
 
@@ -387,3 +405,5 @@ Check tools /tools.md
 - [Contract testing by Pact: Convince me](https://docs.pact.io/faq/convinceme.html)
 - [On “White Box” and “Black Box” testing](http://automation-beyond.com/2016/08/30/on-white-box-and-black-box-testing/)
 - [Static vs Unit vs Integration vs E2E Testing for Frontend Apps](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests)
+- [Kill More Bugs! Add Randomization To Your Web Testing](https://responsibleautomation.wordpress.com/2023/05/31/kill-more-bugs-add-randomization-to-your-web-testing/)
+- [What is Chaos Testing?](https://www.pagerduty.com/resources/learn/what-is-chaos-testing)
