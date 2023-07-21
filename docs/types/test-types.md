@@ -152,7 +152,7 @@ E2E tests come with both advantages and limitations. They are valuable because t
 
 #### Regression tests
 
-> **tl;dr** Checks for the return of a previously fixed issue.
+> **tl;dr** Check for the return of a previously fixed issue.
 
 Regression testing involves checking for the return of unwanted behavior in software . For example, if you fix a problem and later encounter the same issue, that's called a regression. Regression testing aims to find such regressions, but it only detects issues that were previously known -- it doesn't uncover new issues. This type of testing can tell you if the quality has worsened, but not if it was already bad.
 
@@ -185,6 +185,16 @@ That's one of the reasons why people associate [Behaviour-Driven Development (BD
 
 When an acceptance test passes it implies the feature under test is good enough to be released. That means these tests require a high level of confidence and should closely resemble real-world usage, which is why many [E2E tests](#end-to-end-tests) serve as acceptance tests.
 
+#### Smoke tests
+
+> **tl;dr** Quickly check essential features to identify critical issues that compromise the system.
+
+Smoke tests focus on checking critical functionalities of an application to ensure its basic stability and viability. The primary goal of smoke testing is to quickly determine whether the application is ready for more testing. These tests are typically conducted after a new build or deployment to catch any major issues that got introduced in latest code change.
+
+The scope of smoke tests is narrow because they only cover essential functionalities, such as starting the app/website, logging in a user, accessing key pages and performing basic operations. These tests act as an initial checkpoint to ensure that the basic functionality of the application is intact, giving the team confidence to proceed with more in-depth testing or development.
+
+These tests are a trade-off between speed and confidence, prioritizing speed. They exist to quickly give you just enough confidence to continue, like a fail fast mechamism. If a smoke test fails then there's no point in continuing testing or development, as that would be wasted effort. When that happens the team needs to stop and fix the underlying issue.
+
 ### Others
 
 #### Rejection tests
@@ -207,7 +217,17 @@ Tests that should always be right, no matter what.
 
 If these tests fail, there's something wrong with the test framework or its configuration.
 
-#### Smoke tests
+#### Confidence tests
+
+See [smoke tests](#smoke-tests).
+
+#### Build verification tests
+
+See [smoke tests](#smoke-tests).
+
+----
+
+TODO
 
 #### Monkey tests
 
