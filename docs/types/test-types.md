@@ -22,11 +22,11 @@ What is important is that **you and your team speak the same testing language**.
 
 ### Categories
 
-#### Functional testing
+#### ⚠️ ⚠️ Functional testing
 
 TODO
 
-#### Non functional testing
+#### ⚠️ ⚠️ Non functional testing
 
 TODO
 
@@ -197,6 +197,20 @@ These tests are a trade-off between speed and confidence, prioritizing speed. Th
 
 ### Others
 
+#### Snapshot tests
+
+Snapshot testing is particularly useful to test user interfaces (UI) and the correct rendering of components. The goal is to detect visual differences between snapshots and alert for unintended changes.
+
+When a snapshot test runs, it renders a component or a full page. The test then takes a snapshot of what was rendered. This snapshot can be a screenshot file (like PNG) or a markup file (like HTML or XML). The next time the test executes, a new snapshot will be taken. There's always two snapshots, the reference snapshot and the current snapshot.
+
+The test passes if there are no differences between both snapshots. When a test fails it means something visually changed from the last time the test executed. Could be a button that changed color, a custom font that failed to render, or a section of the page that is missing. If the change was intended, then with a simple command we accept the current snapshot and the new reference.
+
+Of course all of this could be done manually, by a human going through each screen, using their sight and memory to identify visual breaking changes. That would be slow, fallible and quite boring -- that's why using these automated checks can be so enticing. Besides, they auto-generated so you don't even have to write them! However, these tests are not perfect.
+
+Since these tests are so effortless to create, your team might rely on them too much and write less [UI tests](#ui-tests). This can lead to less coverage and longer debug times, because when a snapshot test fails you need to look at long XML files or pixels on screenshots and figure what exactly is wrong and why. The painful debug makes it quite tempting to run the command that accepts all current snapshots and the new reference, which further degrades quality.
+
+If used responsibly snapshot testing can be a valuable addition, otherwise it might hurt your testing.
+
 #### Rejection tests
 
 Same as [acceptance tests](#acceptance-tests) but more "honest".
@@ -241,37 +255,31 @@ TODO
 
 
 
-
-
-#### Snapshot tests
-
-TODO
-
-#### Stress testing
+#### ⚠️ ⚠️ Stress testing
 
 > How the product behaves with unexpectedly huge numbers.
 >
 > Overwhelm the product. Too big. Too often. Too fast.
 
-#### Load testing
+#### ⚠️ ⚠️ Load testing
 
 >
 > How the product behaves with high but expected numbers over a long period of time.
 
-#### Accessibility testing
+#### ⚠️ ⚠️ Accessibility testing
 >
 > - https://github.com/pa11y/pa11y
 > - https://github.com/dequelabs/axe-core
 
-#### Security testing
+#### ⚠️ ⚠️ Security testing
 
-#### Performance testing
+#### ⚠️ ⚠️ Performance testing
 
 // Probably should go to Practice
 
 ### Testing approaches
 
-#### Exploratory testing
+#### ⚠️ ⚠️ Exploratory testing
 
 > **tl;dr** SUMMARY_HERE
 
@@ -283,7 +291,7 @@ TODO
 >
 > https://martinfowler.com/articles/practical-test-pyramid.html
 
-#### Automation (in) testing
+#### ⚠️ ⚠️ Automation (in) testing
 
 TODO
 
@@ -323,7 +331,7 @@ Computers are great at doing repetitive work, so there's little effort in genera
 
 Also see [chaos testing](#chaos-testing).
 
-### Types vs Risks - Are there more types of testing?
+### ⚠️ ⚠️ Types vs Risks - Are there more types of testing?
 
 > The more your tests resemble the way your software is used, the more confidence they can give you.
 >
@@ -352,7 +360,7 @@ Also see [chaos testing](#chaos-testing).
 >
 > -- https://danashby.co.uk/2019/05/01/risk-based-testing-part-one-talking-about-risks-over-types-of-testing/
 
-## Practice
+## ⚠️ ⚠️ Practice
 
 Puzzle analogy
 
@@ -417,3 +425,4 @@ Check tools /tools.md
 - [Static vs Unit vs Integration vs E2E Testing for Frontend Apps](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests)
 - [Kill More Bugs! Add Randomization To Your Web Testing](https://responsibleautomation.wordpress.com/2023/05/31/kill-more-bugs-add-randomization-to-your-web-testing/)
 - [What is Chaos Testing?](https://www.pagerduty.com/resources/learn/what-is-chaos-testing)
+- [What is Chaos Engineering?](https://www.testingwithmarie.com/post/what-is-chaos-engineering)
