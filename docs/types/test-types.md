@@ -22,13 +22,17 @@ What is important is that **you and your team speak the same testing language**.
 
 ### Categories
 
-#### ⚠️ ⚠️ Functional testing
+#### Functional testing
 
-TODO
+Functional testing evaluates the system's features. The goal is to confirm that the system fulfills the (functional) requirements that led to its creation and that it delivers the expected outcomes to the users.
 
-#### ⚠️ ⚠️ Non functional testing
+Functional testing covers a wide range of tests, including [unit tests](#unit-tests), [integration tests](#integration-tests), [regression tests](#regression-tests), [UI tests](#ui-tests), [API tests](#api-tests), [acceptance tests](#acceptance-tests), and more. Each of these tests addresses specific aspects of the software's functionality, from testing individual units of code to verifying the seamless interaction between different components.
 
-TODO
+#### Non functional testing
+
+Non-functional testing evaluates aspects of the system beyond its features. The objective is to assess how well the system performs in terms of speed, security, usability, and other non-functional attributes.
+
+Non-functional testing includes various types of tests, such as performance testing, load testing, security testing, usability testing, accessibility testing, and more. Each test focuses on a specific non-functional aspect of the system to ensure it meets the required standards and provides an optimal user experience.
 
 #### Black box testing
 
@@ -40,9 +44,9 @@ Black box testing is a classification given to any test that is executed without
 
 Examples of black box testing include:
 
-- [UI Testing](): Testing the user interface to ensure it is easy to use and understand, regardless its code implementation.
+- [UI Testing](#ui-tests): Testing the user interface to ensure it is easy to use and understand, regardless its code implementation.
 - [Integration Testing](#integration-tests): Testing the interaction between different components to ensure they can cooperate, regardless how each component is implemented.
-- [Functional Testing](): Testing the features or functions of the system, without caring how that behaviour is implemented.
+- [Functional Testing](#functional-testing): Testing the features or functions of the system, without caring how that behaviour is implemented.
 
 #### White box testing
 
@@ -252,30 +256,6 @@ See [random testing](#random-testing).
 ----
 
 TODO
-
-
-
-#### ⚠️ ⚠️ Stress testing
-
-> How the product behaves with unexpectedly huge numbers.
->
-> Overwhelm the product. Too big. Too often. Too fast.
-
-#### ⚠️ ⚠️ Load testing
-
->
-> How the product behaves with high but expected numbers over a long period of time.
-
-#### ⚠️ ⚠️ Accessibility testing
->
-> - https://github.com/pa11y/pa11y
-> - https://github.com/dequelabs/axe-core
-
-#### ⚠️ ⚠️ Security testing
-
-#### ⚠️ ⚠️ Performance testing
-
-// Probably should go to Practice
 
 ### Testing approaches
 
