@@ -2,6 +2,7 @@
 
 > **tl;dr** SUMMARY_HERE
 
+This is a long post so here's a table of contents to ease your navigation:
 [toc]
 
 ## Theory
@@ -253,23 +254,21 @@ See [chaos testing](#chaos-testing) and [random testing](#random-testing).
 
 See [random testing](#random-testing).
 
-----
-
-TODO
-
 ### Testing approaches
 
-#### ⚠️ ⚠️ Exploratory testing
+#### Exploratory testing
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** A human interacting freely, to learn how the system behaves and feels in realistic scenarios.
 
-> Even the most diligent test automation efforts are not perfect. Sometimes you miss certain edge cases in your automated tests. Sometimes it's nearly impossible to detect a particular bug by writing a unit test. Certain quality issues don't even become apparent within your automated tests (think about design or usability). Despite your best intentions with regards to test automation, manual testing of some sorts is still a good idea.
+Exploratory testing is an approach that relies on the testers' creativity, intuition, and domain knowledge to actively explore the system without relying on pre-made test cases. The main goal of exploratory testing is to gain a deeper understanding of the system's behavior and to get a realistic measure of how it feels to use the system. Testers use the system, interact with its various features, and observe its behavior to uncover issues and think about what to test next.
+
+Unlike scripted or automated testing, exploratory testing does not follow a rigid test plan. Instead, testers are encouraged to freely explore the software, guided by questions like "what if..." and "what happens when...", and without being biased by a scripted user journey. This allows testers to uncover less frequent and more realistic bugs, making the system more robust.
+
+> Even the most diligent test automation efforts are not perfect. Sometimes you miss certain edge cases in your automated tests. Sometimes it's nearly impossible to detect a particular bug by writing a unit test. Let the tester's freedom and creativity spot quality issues while interacting with the system.
 >
-> Emphasises the tester's freedom and creativity to spot quality issues in a running system. Simply take some time on a regular schedule, roll up your sleeves and try to break your application. Use a destructive mindset and come up with ways to provoke issues and errors in your application. Document everything you find for later. Watch out for bugs, design issues, slow response times, missing or misleading error messages and everything else that would annoy you as a user of your software.
->
-> During exploratory testing you will spot problems that slipped through your build pipeline unnoticed. Don't be frustrated. This is great feedback on the maturity of your build pipeline. As with any feedback, make sure to act on it: Think about what you can do to avoid these kinds of problems in the future. Maybe you're missing out on a certain set of automated tests. Maybe you have just been sloppy with your automated tests in this iteration and need to test more thoroughly in the future. Maybe there's a shiny new tool or approach that you could use in your pipeline to avoid these issues in the future. Make sure to act on it so your pipeline and your entire software delivery will grow more mature the longer you go.
->
-> https://martinfowler.com/articles/practical-test-pyramid.html
+> -- [Martin Fowler](https://martinfowler.com/articles/practical-test-pyramid.html)
+
+Exploratory testing is particularly useful in situations where requirements are unclear or changing rapidly, as testers can quickly adapt. It is also an effective method for verifying edge cases and scenarios that might not be covered by scripted test cases. Finally, certain quality issues can't even be measured, only felt -- and machines aren't great at that (for now). Your test frameworks can't tell you how frustrating it is to use your product.
 
 #### ⚠️ ⚠️ Automation (in) testing
 
