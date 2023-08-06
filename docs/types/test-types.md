@@ -5,8 +5,6 @@
 This is a long post so here's a table of contents to ease your navigation:
 [toc]
 
-## Theory
-
 > “Testing is the process of learning about a product through exploration and experimentation”
 >
 > -- [James Bach and Michael Bolton](http://www.satisfice.com/blog/archives/1509)
@@ -21,21 +19,21 @@ The software development community simply hasn't managed to settle on well-defin
 
 What is important is that **you and your team speak the same testing language**. Align with your team naming and scope of each relevant type of test.
 
-### Categories
+## Categories
 
-#### Functional testing
+### Functional testing
 
 Functional testing evaluates the system's features. The goal is to confirm that the system fulfills the (functional) requirements that led to its creation and that it delivers the expected outcomes to the users.
 
 Functional testing covers a wide range of tests, including [unit tests](#unit-tests), [integration tests](#integration-tests), [regression tests](#regression-tests), [UI tests](#ui-tests), [API tests](#api-tests), [acceptance tests](#acceptance-tests), and more. Each of these tests addresses specific aspects of the software's functionality, from testing individual units of code to verifying the seamless interaction between different components.
 
-#### Non functional testing
+### Non functional testing
 
 Non-functional testing evaluates aspects of the system beyond its features. The objective is to assess how well the system performs in terms of speed, security, usability, and other non-functional attributes.
 
 Non-functional testing includes various types of tests, such as performance testing, load testing, security testing, usability testing, accessibility testing, and more. Each test focuses on a specific non-functional aspect of the system to ensure it meets the required standards and provides an optimal user experience.
 
-#### Black box testing
+### Black box testing
 
 > A “box” that takes some input and gives you some output. You don’t know what’s going on inside.
 >
@@ -49,7 +47,7 @@ Examples of black box testing include:
 - [Integration Testing](#integration-tests): Testing the interaction between different components to ensure they can cooperate, regardless how each component is implemented.
 - [Functional Testing](#functional-testing): Testing the features or functions of the system, without caring how that behaviour is implemented.
 
-#### White box testing
+### White box testing
 
 > We can read the code. We understand what it’s supposed to do. The code is in a glass “box”.
 >
@@ -61,9 +59,9 @@ Examples of white box testing techniques include:
 
 - [Unit Testing](#unit-tests): Testing the behaviour of methods inside a component, to validate how many times a specific method is called and with what parameters (information flow) or to examine the values of internal variables during different stages of execution (internal state).
 
-### Types
+## Types
 
-#### Static tests
+### Static tests
 
 > **tl;dr** Examine the code (without executing it) looking for potential errors and code quality issues.
 
@@ -73,7 +71,7 @@ It looks for potential (runtime) errors, vulnerabilities, and code quality issue
 
 These checks are very fast to run and you don't have to write them -- you simply run a tool. You should take advantage of these cost-effective tools because they improve the quality of your code with minimal effort.
 
-#### Unit tests
+### Unit tests
 
 > **tl;dr** Test the behaviour of a small unit of code to ensure it behaves as expected (in isolation).
 
@@ -87,7 +85,7 @@ These automated checks are fast to run because they don't require the whole syst
 
 Unit tests act as a safety net, allowing developers to make changes with confidence, knowing that if a unit test fails, it indicates a problem within that specific unit. These tests also simplify debugging and support refactoring, as any issues introduced by changes can be detected through failing unit tests (see [Test-Driven Development](/toolbox/dev-methodologies?id=tdd-unit-test-driven-development)).
 
-#### Integration tests
+### Integration tests
 
 > **tl;dr** Test the interaction between components to ensure they work together correctly.
 
@@ -101,7 +99,7 @@ These tests help uncover problems such as compatibility issues, configuration is
 
 Integration tests help verify the correct behaviour of the system as whole at a small scale, testing one connection at a time. They play a crucial role in identifying early issues that may only surface when different components interact in runtime, reducing the risk of failures when the software is deployed in a real environment.
 
-#### Contract tests
+### Contract tests
 
 > **tl;dr** Test the compatibility or expectations of two components (a consumer and a provider).
 
@@ -115,7 +113,7 @@ These tests not only prevent issues but they also help with the debugging proces
 
 Through contract tests, teams gain confidence in the compatibility of systems and services, ensuring that changes to one system do not negatively impact others. Contract testing also promotes collaboration between different teams through the usage of Consumer-Driven Contract tests ([CDC tests](https://martinfowler.com/articles/consumerDrivenContracts.html)).
 
-#### API tests
+### API tests
 
 > **tl;dr** Test the behaviour (functionality, performance, security, etc.) of an API.
 
@@ -125,7 +123,7 @@ While it is possible to test the outcomes of an API through a user interface (UI
 
 In summary, API testing might include checking the functionality, performance and security of APIs to ensure they operate correctly and meet expected requirements.
 
-#### UI tests
+### UI tests
 
 > **tl;dr** Test the apperance and behaviour of a UI.
 
@@ -137,7 +135,7 @@ Clicking a button and checking it changes color or disappears, typing an invalid
 
 You can also test the design of your UI. In that case, you will render a page and check that the font is right, that there are no missing images, that specific components are visible, maybe even the layout and position of those components. However, given a UI contains many components, testing the appearance of all your pages becomes very expensive very fast. It doesn't help that those tests are tedious to write and they easily break. One solution is to cover that risk with a different kind of tests (see [snapshot tests](#snapshot-tests)).
 
-#### End-to-end tests
+### End-to-end tests
 
 > **tl;dr** Simulate user journeys in order to test the whole system instead of its parts.
 
@@ -155,7 +153,7 @@ These tests have advantages and limitations. They are valuable because they are 
 
 E2E tests come with both advantages and limitations. They are valuable because they closely resemble real user interactions, which means a failed E2E test typically means a user would encounter a similar issue. However, E2E tests can be unreliable due to flakiness. Since these tests use real components, a single faulty component can cause the entire test to fail. That's why these tests tend to be fragile.
 
-#### Regression tests
+### Regression tests
 
 > **tl;dr** Check for the return of a previously fixed issue.
 
@@ -176,7 +174,7 @@ Your team also gets to decide which tests to run and how frequently. If you have
 
 If you consistently experience failed regression checks (assuming they are genuine issues and not false positives), it is important to investigate the root cause. This indicates that there might be something in your development process that increases the likelihood of regressions. Take the necessary steps to fix the underlying problem and avoid unnecessary regressions.
 
-#### Acceptance tests
+### Acceptance tests
 
 > **tl;dr** Test the system as a user would on a real scenario to check if it behaves as desired.
 
@@ -190,7 +188,7 @@ That's one of the reasons why people associate [Behaviour-Driven Development (BD
 
 When an acceptance test passes it implies the feature under test is good enough to be released. That means these tests require a high level of confidence and should closely resemble real-world usage, which is why many [E2E tests](#end-to-end-tests) serve as acceptance tests.
 
-#### Smoke tests
+### Smoke tests
 
 > **tl;dr** Quickly check essential features to identify critical issues that compromise the system.
 
@@ -254,9 +252,9 @@ See [chaos testing](#chaos-testing) and [random testing](#random-testing).
 
 See [random testing](#random-testing).
 
-### Testing approaches
+## Testing approaches
 
-#### Exploratory testing
+### Exploratory testing
 
 > **tl;dr** A human interacting freely, to learn how the system behaves and feels in realistic scenarios.
 
@@ -270,7 +268,7 @@ Unlike scripted or automated testing, exploratory testing does not follow a rigi
 
 Exploratory testing is particularly useful in situations where requirements are unclear or changing rapidly, as testers can quickly adapt. It is also an effective method for verifying edge cases and scenarios that might not be covered by scripted test cases. Finally, certain quality issues can't even be measured, only felt -- and machines aren't great at that (for now). Your test frameworks can't tell you how frustrating it is to use your product.
 
-#### Automation in testing
+### Automation in testing
 
 > **tl;dr** Usage of tools and scripts to support testing tasks, to make them efficient and repeatable.
 
@@ -284,7 +282,7 @@ These automated checks are especially useful for [regression testing](#regressio
 
 Mind that not all testing can be fully automated. "Manual testing" remains important for specific scenarios, like usability and exploratory testing, where human judgment and creativity are essential.
 
-#### Chaos testing
+### Chaos testing
 
 > **tl;dr** Proactively introduce controlled faults in the system and observe how it reacts and recovers.
 
@@ -296,7 +294,7 @@ Speaking of users, given chaos testing targets production, it’s important to d
 
 Chaos testing plays a crucial role in building robust and resilient systems, especially in distributed and cloud-based architectures, where failures are inevitable.
 
-#### Mutation testing
+### Mutation testing
 
 > **tl;dr** Introduce small code changes (mutations) to check if the tests detect those mistakes.
 
@@ -308,7 +306,7 @@ During the testing, the mutated code is run through the existing test suite. If 
 
 The mutation score is the percentage of killed mutants out of the total generated. A high mutation score indicates a robust test suite capable of detecting potential bugs, while a low score signals the need for improvements in the test suite's accuracy. Though mutation testing is computationally intensive and requires additional effort, its insights into test suite quality make it a valuable tool for enhancing software reliability.
 
-#### Random testing
+### Random testing
 
 > **tl;dr** Use random inputs on every test run as a way to gradually increase test data coverage.
 
@@ -320,7 +318,7 @@ Computers are great at doing repetitive work, so there's little effort in genera
 
 Also see [chaos testing](#chaos-testing).
 
-### ⚠️ ⚠️ Types vs Risks - Are there more types of testing?
+## ⚠️ ⚠️ Types vs Risks - Are there more types of testing?
 
 > The more your tests resemble the way your software is used, the more confidence they can give you.
 >
@@ -348,61 +346,6 @@ Also see [chaos testing](#chaos-testing).
 > - You’ll also get better at discovering more risks that you might not have thought about before. You’ll certainly be more likely to ask the question: “What risks have we not thought about yet?”
 >
 > -- https://danashby.co.uk/2019/05/01/risk-based-testing-part-one-talking-about-risks-over-types-of-testing/
-
-## ⚠️ ⚠️ Practice
-
-Puzzle analogy
-
-- Unit: Is this a functional piece of puzzle?
-- Integration: Does this piece of puzzle fit the adjacent pieces?
-- End-to-end: Do all these pieces together form the bottom edge of the puzzle?
-
-> I don’t believe there is such thing as a good test or a bad test. Even if I run the most simple and shallow of tests, if it reveals a bug, helps me come up with a new test idea, or reveals some information that is new or useful to me, then it’s a good test. This doesn’t mean that I can solely rely on simple or shallow tests.
->
-> Good tests and bad tests do not really exist. It’s up to us as testers to create quality tests and determine what are the most suitable tests to discover information about specific risks. We can do this by questioning and discussing ideas with our teams. Additionally by discovering risks, forming test ideas around those risks, and being observant when executing them. Not every test will be of the same quality, or be structured in the same way, so you need to remain vigilant. It’s up to us, as we test, to question what we have done and what we have learned, to see if assumptions were made or if details were missed. We can always learn and improve to deliver better testing.
->
-> -- Mark W. https://www.ministryoftesting.com/articles/48684b2d
-
-> Trade off model
->
-> - **Speed**: How long do we have to wait to get the feedback the test gives us?
-> - **Coverage**: How much of the system (vertically) does the test exercise?
-> - **Variation**: How many near-identical variations of the test are there?
->
-> In an ideal world, our tests would execute instantaneously, cover the entire system, and would deal every combination of inputs and states as well. Therefore, the ideal test would score very highly in all dimensions. Unfortunately this is not possible in the real world.
->
-> As the model shows, no test can ever maximise for all dimensions. Any test will compromise on some of the dimensions. We therefore need to choose which dimension to prioritise for a test. This is the trade-off. Each test should prioritise one of the dimensions. The trade-off of priorities should be based on what feedback about the system we need.
->
-> -- https://joshilewis.wordpress.com/2017/02/15/test-trade-offs/
-
-Check tools /tools.md
-
-> unit tests
->
-> They are usually structured in three phases -- [Arrange, Act, Assert](https://wiki.c2.com/?ArrangeActAssert) -- you start by *arranging* what you need for the test, then you perform the *action(s)* you want to test, and finally you *assert* the behaviour matches your expectations.
->
-> If your test has multiple actions, then it's too big and needs to be broken down. If it has multiple sequences of Act and Asserts, then it's testing too much and needs to be split. If it calls another
-
-> Unit tests are written by programmers, using a programming language, to ensure that the code does what they intend it to do. Acceptance tests are written by testers, using an almost natural language, to make sure the code does what they expect it to do.
->
-> It's true that the two streams of tests test the same things. Indeed, that's the point. The two together make sure that the business and engineers intend the same thing.
->
-> — [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests)
-
-> integration
->
-> For your automated tests this means you don't just need to run your own application but also the component you're integrating with. If you're testing the integration with a database you need to run a database when running your tests. For testing that you can read files from a disk you need to save a file to your disk and load it in your integration test.
->
-> I like to treat integration testing more narrowly and test one integration point at a time by replacing separate services and databases with test doubles. Example:
->
-> 1. start a database
-> 2. connect your application to the database
-> 3. trigger a function within your code that writes data to the database
-> 4. check that the expected data has been written to the database by reading the data from the database
->
-> When writing *narrow integration tests* you should aim to run your external dependencies locally. Avoid integrating with the real production system in your automated tests. Blasting thousands of test requests against a production system is a surefire way to get people angry because you're cluttering their logs (in the best case) or even DoS 'ing their service (in the worst case). Integrating with a service over the network is a typical characteristic of a *broad integration test* and makes your tests slower and usually harder to write.
->
-> https://martinfowler.com/articles/practical-test-pyramid.html
 
 ## Sources
 
