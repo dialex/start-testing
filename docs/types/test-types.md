@@ -61,6 +61,16 @@ Examples of white box testing techniques include:
 
 ## Types
 
+> The more your tests resemble the way your software is used, the more confidence they can give you.
+>
+> — [Kent Dodds](https://twitter.com/kentcdodds/status/977018512689455106)
+
+> When you are describing the testing that you are doing to someone (...) do you talk about of the types of testing that you do? Or do you talk about types of risks that you test for? Is there a difference?
+>
+> All of these types of testing are trying to describe the testing being done in relation to specific areas of concern, (...) of product risks.
+>
+> -- [Dan Ashby](https://danashby.co.uk/2019/05/01/risk-based-testing-part-one-talking-about-risks-over-types-of-testing/)
+
 ### Static tests
 
 > **tl;dr** Examine the code (without executing it) looking for potential errors and code quality issues.
@@ -318,35 +328,6 @@ Computers are great at doing repetitive work, so there's little effort in genera
 
 Also see [chaos testing](#chaos-testing).
 
-## ⚠️ ⚠️ Types vs Risks - Are there more types of testing?
-
-> The more your tests resemble the way your software is used, the more confidence they can give you.
->
-> — [Kent Dodds](https://twitter.com/kentcdodds/status/977018512689455106)
-
-> When you are describing the testing that you are doing to someone unfamiliar, or even familiar, with the craft of software testing, do you talk about of the types of testing that you do? Or do you talk about types of risks that you test for? Both? Neither? Is there a difference?
->
-> All of these types of testing are trying to describe the testing being done in relation to specific areas of concern. But if you think about it, all of these types of testing are really just describing testing that is specifically focused on testing types of product risks.
->
-> Functional Testing is testing that focuses on functional risks. Regression Testing is testing that focuses on the risks relating to the software regressing with changes. Integration Testing is testing that focuses on integration risks regarding the feature, component or some part of the software being worked on with other features, components or parts connected with it.
->
-> Things like “exploratory testing” or “scripted testing”, well, they’re approaches to testing, and things like “black box testing” or “white box testing” are testing techniques. So I don’t include these as “types of testing”.
->
-> Imagine yourself testing something. Think about an instance of a test – a test idea that you might have. What drives that test idea? When testing software, our tests relate to some kind of product risk. By “product risk”, I mean risks that specifically relate to the product. A test relates to some kind of risk that we are testing for.
->
-> Example: We simulate ten thousand people browsing the feature at the same time to test for user load related risks. “XYZ Testing” is testing that focuses on the risks of “XYZ”.
->
-> Counter-example: if our context was that we were working on a mobile app, then a something we’d test for is how much our app runs down the battery. Have you ever heard of “battery consumption testing” as a type of testing? No… But this is a type of product risk that we should definitely investigate!
->
-> Motivation:
->
-> - You move away from implicitly talking about testing phases – types of testing typically subconsciously force our thinking down a path of: “we need to do this type of testing, then do that type of testing, then do that other type of testing…” Doing for the sake of doing. Everyone is doing it. Clarifies the motivation for having those tests.
-> - You get better at telling your testing story – i.e. “this test was to investigate this risk. Here’s what I discovered about this risk. I need more time to test this feature as this risk is important to investigate”.
-> - You spot gaps in your testing more easily – i.e. “we tested for risks relating to lots of data being used in the transaction (i.e. data load risks), but that made me think about transaction load risks, so what if we had lots of transactions at one time?”
-> - You’ll also get better at discovering more risks that you might not have thought about before. You’ll certainly be more likely to ask the question: “What risks have we not thought about yet?”
->
-> -- https://danashby.co.uk/2019/05/01/risk-based-testing-part-one-talking-about-risks-over-types-of-testing/
-
 ## Sources
 
 - [Heuristic Test Strategy Model](https://www.satisfice.com/download/heuristic-test-strategy-model)
@@ -358,3 +339,4 @@ Also see [chaos testing](#chaos-testing).
 - [Kill More Bugs! Add Randomization To Your Web Testing](https://responsibleautomation.wordpress.com/2023/05/31/kill-more-bugs-add-randomization-to-your-web-testing/)
 - [What is Chaos Testing?](https://www.pagerduty.com/resources/learn/what-is-chaos-testing)
 - [What is Chaos Engineering?](https://www.testingwithmarie.com/post/what-is-chaos-engineering)
+- [Talking About Risks Over Types of Testing](https://danashby.co.uk/2019/05/01/risk-based-testing-part-one-talking-about-risks-over-types-of-testing/)
