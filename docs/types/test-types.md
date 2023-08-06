@@ -26,7 +26,7 @@ Functional testing evaluates the system's features. The goal is to confirm that 
 
 Functional testing covers a wide range of tests, including [unit tests](#🏝️-unit-tests), [integration tests](#🧩-integration-tests), [regression tests](#✅-regression-tests), [UI tests](#💄-ui-tests), [API tests](#🛜-api-tests), [acceptance tests](#📋-acceptance-tests), and more. Each of these tests addresses specific aspects of the software's functionality, from testing individual units of code to verifying the seamless interaction between different components.
 
-### Non functional testing
+### Non-functional testing
 
 Non-functional testing evaluates aspects of the system beyond its features. The objective is to assess how well the system performs in terms of speed, security, usability, and other non-functional attributes.
 
