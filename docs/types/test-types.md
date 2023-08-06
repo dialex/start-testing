@@ -1,7 +1,9 @@
 # Test types
 
 > **tl;dr** Each test type is optimised to assess the quality of a specific area or trait of our system.
->
+
+(This is a very long post. You don't have to read it all in one go. Use it as a reference, anytime you want to check the purpose of a particular test type.)
+
 > Testing is the process of learning about a product through exploration and experimentation
 >
 > — [James Bach and Michael Bolton](http://www.satisfice.com/blog/archives/1509)
