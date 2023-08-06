@@ -22,23 +22,26 @@
   - [Test strategy](/toolbox/test-strategy.md)
   - [Tools](/toolbox/tester-tools.md)
 - **Test types**
+  - [Categories](/types/test-types?id=categories)
+    - [Functional vs Non-functional](/types/test-types?id=functional-testing)
+    - [Black box vs White box](/types/test-types?id=black-box-testing)
+  - [Types](/types/test-types?id=types)
+    - [Unit tests](/types/test-types?id=🏝️-unit-tests)
+    - [Integration tests](/types/test-types?id=🧩-integration-tests)
+    - [End-to-end tests](/types/test-types?id=🧑-end-to-end-tests)
+    - [Regression tests](/types/test-types?id=✅-regression-tests)
+    - [...and many more](/types/test-types.md)
+  - [Approaches](/types/test-types?id=testing-approaches)
+    - [Exploratory testing](/types/test-types?id=🧭-exploratory-testing)
+    - [Automation in testing](/types/test-types?id=🤖-automation-in-testing)
   - [Test pyramid](/types/test-pyramid.md)
-  - ~~Functional vs Non-functional~~
-  - ~~White box vs Black box~~
-  - ~~Unit~~
-  - ~~Integration~~
-  - ~~Acceptance~~
-  - ~~Smoke/Sanity~~
-  - ~~Regression~~
 - **Tester roles**
-  - ~~Manual tester~~
   - ~~Exploration tester~~
   - ~~Automation tester~~
-  - ~~Technical tester~~
+  - ~~Manual vs Technical tester~~
   - ~~Bug hunter~~
   - ~~Agile team member~~
-  - ~~Mentor~~
-  - ~~Coach~~
+  - ~~Mentor vs Coach~~
   - ~~Lead tester~~
   - ~~Recruiter~~
   - ~~Certifications~~
@@ -47,7 +50,7 @@
   - ~~Performance & Load~~
   - ~~Security~~
   - ~~Risk~~
-  - ~~Database~~
+  - ~~Data~~
   - ~~Platform (DevOps)~~
   - ~~Metrics~~
   - ~~Monitoring~~

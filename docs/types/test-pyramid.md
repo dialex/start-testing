@@ -13,7 +13,7 @@ The concept of a test pyramid was initially introduced by [Mike Cohn](https://am
 This visual model conveys several messages:
 
 - You should have multiple test types or layers
-- You should have more unit tests than service steps, and more of those than UI tests
+- You should have more [unit tests](/types/test-types.md) than service steps, and more of those than UI tests
 - Tests at the base of the pyramid (unit) are faster, cheaper and more precise
 - Tests at the top of the pyramid (UI) are slower, more expensive and more realistic
 
@@ -23,7 +23,7 @@ Unit tests ensure a small and specific unit of code works as intended in isolati
 >
 > — [Martin Fowler](https://martinfowler.com/bliki/TestPyramid.html)
 
-Since it was introduced in 2009, new test types were developed. The "service tests" are nowadays called "integration tests" and may include [API testing](/types) and [Contract testing](/types). The "UI tests" are nowadays split between [frontend testing](/types) and [end-to-end testing](/types).
+Since it was introduced in 2009, new test types were developed. The "service tests" are nowadays called "integration tests" and may include [API testing](/types/test-types.md) and [Contract testing](/types/test-types.md). The "UI tests" are nowadays split between [frontend testing](/types/test-types.md) and [end-to-end testing](/types/test-types.md).
 
 The simplicity and usefulness of this model made the test pyramid very popular, and many engineers and testers use it as a reference still today.
 
@@ -67,7 +67,7 @@ Think of the test pyramid as an [heuristic](/docs/toolbox/heuristics.md) to trig
 3. Low-level tests should be fast and precise
 4. If a higher-level test fails without a lower-level test failing too, you need to write a lower-level test
 
-That last one needs a bit more explanation. Tests at the top of the pyramid exercise multiple parts of the system at the same time. If one of those tests fail, it tells you _"there's a problem with X"_ but without a lower-level test you will not know the cause of the problem. And they will serve as a good [regression test](/types) for the future.
+That last one needs a bit more explanation. Tests at the top of the pyramid exercise multiple parts of the system at the same time. If one of those tests fail, it tells you _"there's a problem with X"_ but without a lower-level test you will not know the cause of the problem. And they will serve as a good [regression test](/types/test-types.md) for the future.
 
 It also keeps your test suite fast. If you have tested all conditions on a lower-level test, the extra confidence you get from a higher-level test is small. Redundant tests makes your development process more costly because you need to change more tests when you change the behaviour of your code.
 
