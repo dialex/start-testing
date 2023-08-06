@@ -24,7 +24,11 @@ During your testing, you will discover new information. [Taking notes](/toolbox/
 
 ## Test types
 
-(in progress)
+Talking about different test types is difficult. It is important that you and your team speak the same testing language. There's so many different [types of tests](/types/test-types.md). The most popular are unit, integration, end-to-end and regression tests, but there are many more.
+
+You can group those and many more tests into [functional vs non-functional testing](/types/test-types?id=functional-testing) or [black box vs white box testing](/types/test-types?id=black-box-testing). Not to mention different approaches to testing, like [exploratory](/types/test-types?id=🧭-exploratory-testing) or [automation](/types/test-types?id=🤖-automation-in-testing). And did you know about advanced approaches like [chaos](/types/test-types?id=💥-chaos-testing) and [mutation](/types/test-types?id=🧬-mutation-testing) testing?
+
+And once you decide what types of tests you want to have, you need to think how many is good enough. The [testing pyramid](/types/test-pyramid.md) is an heuristic to help you find the balance that is right for your context.
 
 ## Tester roles
 
