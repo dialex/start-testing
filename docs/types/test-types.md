@@ -270,9 +270,19 @@ Unlike scripted or automated testing, exploratory testing does not follow a rigi
 
 Exploratory testing is particularly useful in situations where requirements are unclear or changing rapidly, as testers can quickly adapt. It is also an effective method for verifying edge cases and scenarios that might not be covered by scripted test cases. Finally, certain quality issues can't even be measured, only felt -- and machines aren't great at that (for now). Your test frameworks can't tell you how frustrating it is to use your product.
 
-#### ⚠️ ⚠️ Automation (in) testing
+#### Automation in testing
 
-TODO
+> **tl;dr** Usage of tools and scripts to support testing tasks, to make them efficient and repeatable.
+
+Automated testing is an approach that uses tools to automate specific parts of testing. The goal is to accelerate the repetitive and time-consuming test activities. It allows testers to run checks efficiently and consistently, reducing human error and freeing up time for more creative tasks (like [exploratory testing](#exploratory-testing)).
+
+[Remember](/concepts/what-testing-is-not?id=🤖-automation) that several members of the testing community (James Back, Maaret Pyhäjärvi, Richard Bradshaw and many others) argue that Testing as a whole cannot be fully automated, and in that sense they believe saying "automated testing" is misleading. That's why Mark Winteringham and Richard Bradshaw proposed the term "automation in testing". The latter is more accurate because what we do as testers is use automation (tools, scripts, checks, metrics) to support and speed up our testing.
+
+This automation can be automated checks that simulate user interactions, such as clicking buttons, inputting data, and validating outputs. These checks are written using a programming language and executed using a test automation framework. Once the automated checks are set up, they can be run repeatedly and effortlessly, providing fast, frequent and cheap feedback.
+
+These automated checks are especially useful for [regression testing](#regression-tests), where existing functionalities need to be tested repeatedly to ensure that new changes or enhancements do not introduce issues. Automation is also crucial for load and performance testing, where a large number of virtual users or transactions need to be simulated simultaneously to measure the system's performance under stress.
+
+Mind that not all testing can be fully automated. "Manual testing" remains important for specific scenarios, like usability and exploratory testing, where human judgment and creativity are essential.
 
 #### Chaos testing
 
