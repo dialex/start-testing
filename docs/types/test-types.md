@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD051 -->
+
 # Test types
 
 > **tl;dr** Each test type is optimised to assess the quality of a specific area or trait of our system.
