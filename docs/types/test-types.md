@@ -191,7 +191,7 @@ Acceptance tests are typically performed by users or testers to validate the sys
 
 These tests should always be described from a *user's* perspective (like [end to end tests](#🧑-end-to-end-tests)), not from a *technical* perspective (like [unit tests](#🏝️-unit-tests)). Writing a test from the user's perspective can raise several "what happens when…" or "what if…" questions, which is an opportunity to learn more about the system and its requirements.
 
-That's one of the reasons why people associate [Behaviour-Driven Development (BDD)](/dev-methodologies#bdd-behaviour-driven-development) and [Gherkin syntax](/dev-methodologies#story) to acceptance tests — it's because both BDD and Gherkin are tools that force you to *think* and *act* like a user, regardless of implementation details.
+That's one of the reasons why people associate [Behaviour-Driven Development (BDD)](/toolbox/dev-methodologies#bdd-behaviour-driven-development) and [Gherkin syntax](/toolbox/dev-methodologies#story) to acceptance tests — it's because both BDD and Gherkin are tools that force you to *think* and *act* like a user, regardless of implementation details.
 
 When an acceptance test passes it implies the feature under test is good enough to be released. That means these tests require a high level of confidence and should closely resemble real-world usage, which is why many [E2E tests](#🧑-end-to-end-tests) serve as acceptance tests.
 
