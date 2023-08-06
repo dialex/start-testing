@@ -30,7 +30,7 @@
     - [Integration tests](/types/test-types?id=🧩-integration-tests)
     - [End-to-end tests](/types/test-types?id=🧑-end-to-end-tests)
     - [Regression tests](/types/test-types?id=✅-regression-tests)
-    - [...and many more](/types/test-types.md)
+    - […and many more](/types/test-types.md)
   - [Approaches](/types/test-types?id=testing-approaches)
     - [Exploratory testing](/types/test-types?id=🧭-exploratory-testing)
     - [Automation in testing](/types/test-types?id=🤖-automation-in-testing)
