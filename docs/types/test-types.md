@@ -62,9 +62,7 @@ Examples of white box testing techniques include:
 >
 > — [Kent Dodds](https://twitter.com/kentcdodds/status/977018512689455106)
 >
-> When you are describing the testing that you are doing to someone (…) do you talk about of the types of testing that you do? Or do you talk about types of risks that you test for? Is there a difference?
->
-> All of these types of testing are trying to describe the testing being done in relation to specific areas of concern, (…) of product risks.
+> When you are describing the testing that you are doing to someone (…) do you talk about of the types of testing that you do? Or do you talk about types of risks that you test for? Is there a difference? All of these types of testing are trying to describe the testing being done in relation to specific areas of concern, (…) of product risks.
 >
 > — [Dan Ashby](https://danashby.co.uk/2019/05/01/risk-based-testing-part-one-talking-about-risks-over-types-of-testing/)
 
