@@ -2,9 +2,6 @@
 
 > **tl;dr** SUMMARY_HERE
 
-This is a long post so here's a table of contents to ease your navigation:
-[toc]
-
 > “Testing is the process of learning about a product through exploration and experimentation”
 >
 > -- [James Bach and Michael Bolton](http://www.satisfice.com/blog/archives/1509)
@@ -71,7 +68,7 @@ Examples of white box testing techniques include:
 >
 > -- [Dan Ashby](https://danashby.co.uk/2019/05/01/risk-based-testing-part-one-talking-about-risks-over-types-of-testing/)
 
-### Static tests
+### 👓 Static tests
 
 > **tl;dr** Examine the code (without executing it) looking for potential errors and code quality issues.
 
@@ -81,7 +78,7 @@ It looks for potential (runtime) errors, vulnerabilities, and code quality issue
 
 These checks are very fast to run and you don't have to write them -- you simply run a tool. You should take advantage of these cost-effective tools because they improve the quality of your code with minimal effort.
 
-### Unit tests
+### 🏝️ Unit tests
 
 > **tl;dr** Test the behaviour of a small unit of code to ensure it behaves as expected (in isolation).
 
@@ -95,7 +92,7 @@ These automated checks are fast to run because they don't require the whole syst
 
 Unit tests act as a safety net, allowing developers to make changes with confidence, knowing that if a unit test fails, it indicates a problem within that specific unit. These tests also simplify debugging and support refactoring, as any issues introduced by changes can be detected through failing unit tests (see [Test-Driven Development](/toolbox/dev-methodologies?id=tdd-unit-test-driven-development)).
 
-### Integration tests
+### 🧩 Integration tests
 
 > **tl;dr** Test the interaction between components to ensure they work together correctly.
 
@@ -109,7 +106,7 @@ These tests help uncover problems such as compatibility issues, configuration is
 
 Integration tests help verify the correct behaviour of the system as whole at a small scale, testing one connection at a time. They play a crucial role in identifying early issues that may only surface when different components interact in runtime, reducing the risk of failures when the software is deployed in a real environment.
 
-### Contract tests
+### 🤝 Contract tests
 
 > **tl;dr** Test the compatibility or expectations of two components (a consumer and a provider).
 
@@ -123,7 +120,7 @@ These tests not only prevent issues but they also help with the debugging proces
 
 Through contract tests, teams gain confidence in the compatibility of systems and services, ensuring that changes to one system do not negatively impact others. Contract testing also promotes collaboration between different teams through the usage of Consumer-Driven Contract tests ([CDC tests](https://martinfowler.com/articles/consumerDrivenContracts.html)).
 
-### API tests
+### 🛜 API tests
 
 > **tl;dr** Test the behaviour (functionality, performance, security, etc.) of an API.
 
@@ -133,7 +130,7 @@ While it is possible to test the outcomes of an API through a user interface (UI
 
 In summary, API testing might include checking the functionality, performance and security of APIs to ensure they operate correctly and meet expected requirements.
 
-### UI tests
+### 💄 UI tests
 
 > **tl;dr** Test the apperance and behaviour of a UI.
 
@@ -145,7 +142,7 @@ Clicking a button and checking it changes color or disappears, typing an invalid
 
 You can also test the design of your UI. In that case, you will render a page and check that the font is right, that there are no missing images, that specific components are visible, maybe even the layout and position of those components. However, given a UI contains many components, testing the appearance of all your pages becomes very expensive very fast. It doesn't help that those tests are tedious to write and they easily break. One solution is to cover that risk with a different kind of tests (see [snapshot tests](#snapshot-tests)).
 
-### End-to-end tests
+### 🧑 End-to-end tests
 
 > **tl;dr** Simulate user journeys in order to test the whole system instead of its parts.
 
@@ -163,7 +160,7 @@ These tests have advantages and limitations. They are valuable because they are 
 
 E2E tests come with both advantages and limitations. They are valuable because they closely resemble real user interactions, which means a failed E2E test typically means a user would encounter a similar issue. However, E2E tests can be unreliable due to flakiness. Since these tests use real components, a single faulty component can cause the entire test to fail. That's why these tests tend to be fragile.
 
-### Regression tests
+### ✅ Regression tests
 
 > **tl;dr** Check for the return of a previously fixed issue.
 
@@ -184,7 +181,7 @@ Your team also gets to decide which tests to run and how frequently. If you have
 
 If you consistently experience failed regression checks (assuming they are genuine issues and not false positives), it is important to investigate the root cause. This indicates that there might be something in your development process that increases the likelihood of regressions. Take the necessary steps to fix the underlying problem and avoid unnecessary regressions.
 
-### Acceptance tests
+### 📋 Acceptance tests
 
 > **tl;dr** Test the system as a user would on a real scenario to check if it behaves as desired.
 
@@ -198,7 +195,7 @@ That's one of the reasons why people associate [Behaviour-Driven Development (BD
 
 When an acceptance test passes it implies the feature under test is good enough to be released. That means these tests require a high level of confidence and should closely resemble real-world usage, which is why many [E2E tests](#end-to-end-tests) serve as acceptance tests.
 
-### Smoke tests
+### ⚠️ Smoke tests
 
 > **tl;dr** Quickly check essential features to identify critical issues that compromise the system.
 
@@ -210,7 +207,7 @@ These tests are a trade-off between speed and confidence, prioritizing speed. Th
 
 ### Others
 
-#### Snapshot tests
+#### 📸 Snapshot tests
 
 Snapshot testing is particularly useful to test user interfaces (UI) and the correct rendering of components. The goal is to detect visual differences between snapshots and alert for unintended changes.
 
@@ -264,7 +261,7 @@ See [random testing](#random-testing).
 
 ## Testing approaches
 
-### Exploratory testing
+### 🧭 Exploratory testing
 
 > **tl;dr** A human interacting freely, to learn how the system behaves and feels in realistic scenarios.
 
@@ -278,7 +275,7 @@ Unlike scripted or automated testing, exploratory testing does not follow a rigi
 
 Exploratory testing is particularly useful in situations where requirements are unclear or changing rapidly, as testers can quickly adapt. It is also an effective method for verifying edge cases and scenarios that might not be covered by scripted test cases. Finally, certain quality issues can't even be measured, only felt -- and machines aren't great at that (for now). Your test frameworks can't tell you how frustrating it is to use your product.
 
-### Automation in testing
+### 🤖 Automation in testing
 
 > **tl;dr** Usage of tools and scripts to support testing tasks, to make them efficient and repeatable.
 
@@ -292,7 +289,7 @@ These automated checks are especially useful for [regression testing](#regressio
 
 Mind that not all testing can be fully automated. "Manual testing" remains important for specific scenarios, like usability and exploratory testing, where human judgment and creativity are essential.
 
-### Chaos testing
+### 💥 Chaos testing
 
 > **tl;dr** Proactively introduce controlled faults in the system and observe how it reacts and recovers.
 
@@ -304,7 +301,7 @@ Speaking of users, given chaos testing targets production, it’s important to d
 
 Chaos testing plays a crucial role in building robust and resilient systems, especially in distributed and cloud-based architectures, where failures are inevitable.
 
-### Mutation testing
+### 🧬 Mutation testing
 
 > **tl;dr** Introduce small code changes (mutations) to check if the tests detect those mistakes.
 
@@ -316,7 +313,7 @@ During the testing, the mutated code is run through the existing test suite. If 
 
 The mutation score is the percentage of killed mutants out of the total generated. A high mutation score indicates a robust test suite capable of detecting potential bugs, while a low score signals the need for improvements in the test suite's accuracy. Though mutation testing is computationally intensive and requires additional effort, its insights into test suite quality make it a valuable tool for enhancing software reliability.
 
-### Random testing
+### 🎲 Random testing
 
 > **tl;dr** Use random inputs on every test run as a way to gradually increase test data coverage.
 
