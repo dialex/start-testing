@@ -1,8 +1,8 @@
 # Test types
 
-> **tl;dr** SUMMARY_HERE
+> **tl;dr** Each test type is optimised to assess the quality of a specific area or trait of our system.
 
-> “Testing is the process of learning about a product through exploration and experimentation”
+> Testing is the process of learning about a product through exploration and experimentation
 >
 > -- [James Bach and Michael Bolton](http://www.satisfice.com/blog/archives/1509)
 
