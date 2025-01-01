@@ -46,4 +46,4 @@ And once you decide what types of tests you want to have, you need to think how 
 
 ---
 
-~~[TODO (Trello resources)](https://trello.com/c/IKgim0gn/217-%F0%9F%93%9A-study-plan)~~ / [GitHub repository](https://github.com/dialex/start-testing)
+[GitHub repository](https://github.com/dialex/start-testing)
